@@ -46,6 +46,7 @@ src/transcricao/
   revisao.py            fluxo fila -> decisao -> publicacao — PURO, testado
   site_revisao.py       FastAPI + Jinja2 + HTMX: interface de revisao humana
   templates_revisao/    templates Jinja2 do site de revisao
+  plano_de_governo.py   extrai URL do PDF do plano de governo (API TSE) — PURO, testado
 ```
 
 **Camadas puras vs. de I/O:** `qualidade.py` e `atribuir.py` nao fazem I/O e nao
@@ -115,9 +116,41 @@ rejeitar, gating de publicacao, persistencia, range request) — **sem**
 verificacao visual em navegador (extensao do Chrome nao estava conectada
 na sessao em que foi construido).
 
+Pesquisado (2026-08-02): API do DivulgaCandContas para plano de governo.
+Nao documentada oficialmente; achada via
+`github.com/augusto-herrmann/divulgacandcontas-doc` (swagger nao-oficial) e
+`github.com/augusto-herrmann/eleicoes-2020-planos-de-governo` (script real
+que baixou planos de prefeitos em 2020 — confirma o padrao em producao).
+Endpoint base `http://divulgacandcontas.tse.jus.br/divulga/rest/v1`;
+`/candidatura/buscar/{ano}/{municipio}/{codigo_eleicao}/candidato/{id}`
+devolve `arquivos: [{codTipo, url, nome}]`, plano de governo e' o item com
+`codTipo == "5"`. `plano_de_governo.py` implementa e testa so' essa parte
+pura (extrair a URL dado o JSON). **Nao verificado ainda contra a API
+real**: `codigo_eleicao` de 2026 nao existe publicamente ate' o registro
+fechar; o `cargo` de presidente (provavel "1", por convencao do TSE, mas
+nao confirmado) e como a API trata `municipio` para candidatura nacional
+(prefeito e' natural por municipio; presidente nao) ficaram em aberto —
+evitei chutar isso contra o servidor real. Dava pra verificar hoje contra
+a eleicao presidencial de 2022 (ja' encerrada, dado publico), sem esperar
+2026; ainda nao fiz essa chamada.
+
+Observado no teste real com Whisper (nao-dublê, ver `transcrever.py`):
+`language` fica fixo em "pt" nas opcoes do decoder. Isso e' proposital (o
+publico do projeto so' fala portugues), mas significa que, se algum
+coletor apontar por engano pra conteudo em outro idioma, o Whisper NAO
+falha de forma obvia — ele produz um texto fluente em portugues (as vezes
+parecido com traducao) em vez de erro claro. Testado com um video em
+ingles: saiu portugues plausivel mas incorreto, com `avg_logprob`/
+`no_speech_prob` dentro da faixa aceitavel — foi para REVISAR, nao
+DESCARTADO. A rede de seguranca aqui e' a revisao humana obrigatoria (regra
+2), nao os limiares de `qualidade.py`: um revisor ouvindo o trecho percebe
+na hora que e' outro idioma. Isso reforca que a revisao humana nao e'
+so' verificacao de fidelidade — tambem pega escopo errado.
+
 Proximo:
-- ingestao dos planos de governo (disponiveis no DivulgaCandContas apos o
-  registro, ate 15/08/2026)
+- confirmar contra a eleicao de 2022 os codigos de eleicao/cargo/municipio
+  certos para presidente na API do DivulgaCandContas, depois implementar a
+  parte de I/O da ingestao (hoje so' a extracao pura existe)
 - taxonomia tematica unica, publicada antes de qualquer analise — decisao
   editorial, nao so' tecnica; precisa de definicao do dono do projeto antes
   de qualquer analise comparativa
