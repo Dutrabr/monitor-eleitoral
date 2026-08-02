@@ -97,6 +97,20 @@ def _tem_repeticao_interna(texto: str, min_repeticoes: int = 4) -> bool:
     return False
 
 
+def avaliar_texto(texto: str) -> list[str]:
+    """Sinais de alucinacao que dependem so do texto, sem metricas do Whisper.
+
+    Usado por fontes sem confianca de ASR (ex: legenda do YouTube), onde
+    avg_logprob/no_speech_prob/compression_ratio nao existem.
+    """
+    motivos: list[str] = []
+    if _texto_e_alucinacao_conhecida(texto):
+        motivos.append("texto vazio ou alucinacao conhecida")
+    if _tem_repeticao_interna(texto):
+        motivos.append("repeticao em loop no texto")
+    return motivos
+
+
 def avaliar_segmento(seg: Segmento) -> Segmento:
     """Aplica as regras e preenche `status` e `motivos` in-place."""
     motivos: list[str] = []

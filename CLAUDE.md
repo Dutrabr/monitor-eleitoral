@@ -30,14 +30,17 @@ leitor tira a conclusao.
 
 ```
 src/transcricao/
-  modelos.py       dataclasses puras (Palavra, Turno, Segmento, Transcricao)
-  qualidade.py     regras de descarte/alucinacao — PURO, testado
-  atribuir.py      cruza diarizacao x timestamps de palavra — PURO, testado
-  proveniencia.py  hash, extracao de audio, manifesto de custodia
-  transcrever.py   wrapper faster-whisper (parametros anti-alucinacao)
-  diarizar.py      wrapper pyannote, com degradacao explicita
-  pipeline.py      orquestracao
-  cli.py           interface de linha de comando
+  modelos.py          dataclasses puras (Palavra, Turno, Segmento, Transcricao)
+  qualidade.py        regras de descarte/alucinacao — PURO, testado
+  atribuir.py         cruza diarizacao x timestamps de palavra — PURO, testado
+  legendas.py         parser de legenda VTT/SRT -> Segmento — PURO, testado
+  proveniencia.py     hash, extracao de audio, manifesto de custodia
+  transcrever.py      wrapper faster-whisper (parametros anti-alucinacao)
+  diarizar.py         wrapper pyannote, com degradacao explicita
+  pipeline.py         orquestracao (arquivo local -> transcricao)
+  coletar_youtube.py  baixa do YouTube (yt-dlp); legenda quando existir, Whisper senao
+  cli.py              interface de linha de comando (arquivo/pasta local)
+  cli_youtube.py      interface de linha de comando (URL do YouTube)
 ```
 
 **Camadas puras vs. de I/O:** `qualidade.py` e `atribuir.py` nao fazem I/O e nao
@@ -67,9 +70,19 @@ cd src && python3 -m transcricao.cli ARQUIVO --fonte youtube
 Pronto: modulo de transcricao com proveniencia, diarizacao, atribuicao de
 falante e descarte por confianca.
 
+Pronto: coletor do YouTube (`coletar_youtube.py` / `cli_youtube.py`). Baixa o
+video (nao so o audio, para preservar a midia completa como prova). Prefere
+legenda manual, depois automatica, nos idiomas pedidos; sem nenhuma das duas,
+cai na pipeline normal (Whisper + diarizacao). Segmento vindo de legenda
+**nunca** chega a `Status.OK` — falta confianca de ASR, entao vai sempre para
+`REVISAR` (ou `DESCARTADO` se bater com alucinacao/spam conhecido); e
+`diarizacao_disponivel=False` ja forca `exige_revisao_humana=True` pela regra
+existente em `modelos.Transcricao`. Validado com smoke test manual real
+(download + parsing de legenda). Dedup de legenda "rolling" e' parcial — so
+remove cues identicas consecutivas, nao remonta a partir de tags de timing
+por palavra.
+
 Proximo:
-- coletor YouTube via `yt-dlp` (legenda automatica quando existir; Whisper so
-  no que nao tem legenda)
 - coletor Instagram via `instaloader` (Reels: audio original do CDN, sem
   intermediario de terceiro)
 - ingestao dos planos de governo (disponiveis no DivulgaCandContas apos o

@@ -50,6 +50,24 @@ python3 -m transcricao.cli ~/midia/live_candidato.mp4 \
 
 Para lote, aponte para uma pasta: o modelo carrega uma vez.
 
+## Coleta direto do YouTube
+
+```bash
+cd src
+python3 -m transcricao.cli_youtube "https://www.youtube.com/watch?v=..." \
+    --saida ~/dados/transcricoes
+```
+
+Baixa o video (nao so o audio — a midia completa e' o que serve de prova).
+Se o video tiver legenda em portugues (manual ou automatica), ela e' usada
+no lugar do Whisper — mas sem herdar confianca de ASR: todo segmento vindo
+de legenda vai para revisao humana obrigatoria, nunca sai como `ok` direto.
+Sem legenda em nenhum dos idiomas pedidos, cai na pipeline normal (Whisper +
+diarizacao, mesmas regras do uso com arquivo local).
+
+`--forcar-whisper` ignora legenda disponivel e roda a pipeline normal mesmo
+assim. `--idiomas` controla a ordem de preferencia (padrao: `pt pt-BR pt-PT`).
+
 ## Saida
 
 Por item, dois arquivos:
