@@ -68,6 +68,28 @@ diarizacao, mesmas regras do uso com arquivo local).
 `--forcar-whisper` ignora legenda disponivel e roda a pipeline normal mesmo
 assim. `--idiomas` controla a ordem de preferencia (padrao: `pt pt-BR pt-PT`).
 
+## Coleta de Reels do Instagram
+
+So' Reels — a URL precisa ter `/reel/` ou `/reels/`. Post comum, story e
+perfil sao rejeitados de proposito (fora de escopo, ver CLAUDE.md).
+
+```bash
+export INSTAGRAM_USUARIO=seu_usuario   # opcional, mas recomendado
+# gere a sessao uma vez com: instaloader --login seu_usuario
+
+cd src
+python3 -m transcricao.cli_instagram "https://www.instagram.com/reel/..." \
+    --saida ~/dados/transcricoes
+```
+
+Baixa direto do CDN da Meta via `instaloader`, nunca por ripper de terceiro.
+Nao ha trilha de legenda separada para Reels: todo item passa pela pipeline
+normal (Whisper + diarizacao), com as mesmas regras de revisao humana do
+uso com arquivo local.
+
+Sem `INSTAGRAM_USUARIO`, o instaloader tenta acesso anonimo — o Instagram
+costuma bloquear ou limitar isso mesmo para conteudo publico.
+
 ## Saida
 
 Por item, dois arquivos:
