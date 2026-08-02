@@ -1,0 +1,13 @@
+# transcricao
+faster-whisper>=1.2.0
+
+# diarizacao (opcional; exige HF_TOKEN e aceite dos termos dos modelos
+# pyannote/speaker-diarization-3.1 e pyannote/segmentation-3.0)
+pyannote.audio>=3.1.0
+
+# coletores (proximo passo)
+yt-dlp>=2025.1.1
+instaloader>=4.13
+
+# testes
+pytest>=8.0
