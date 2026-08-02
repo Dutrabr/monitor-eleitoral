@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<h1>{{ nome }}</h1>
+<div class="meta">
+  {% if fila.url %}<div>{{ fila.url }}</div>{% endif %}
+  <div>
+    exige_revisao_humana: {{ fila.exige_revisao_humana }} |
+    multi_falante: {{ fila.multi_falante }} |
+    diarizacao_disponivel: {{ fila.diarizacao_disponivel }}
+  </div>
+  {% for aviso in fila.avisos %}<div>aviso: {{ aviso }}</div>{% endfor %}
+</div>
+
+{% include "_controles.html" %}
+
+<audio id="player" controls src="/item/{{ nome }}/audio"></audio>
+
+<div id="segmentos">
+{% for segmento in segmentos %}
+  {% include "_segmento.html" %}
+{% endfor %}
+</div>
+
+<div id="publicar-resultado"></div>
+{% endblock %}

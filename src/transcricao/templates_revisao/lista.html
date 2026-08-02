@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<h1>Itens para revisao</h1>
+{% if not itens %}
+<p>Nenhum item encontrado.</p>
+{% endif %}
+{% for item in itens %}
+<div class="item-lista">
+  <div><a href="/item/{{ item.nome }}">{{ item.nome }}</a></div>
+  <div class="resumo">
+    <span>{{ item.resumo.confirmados }} confirmados</span>
+    <span>{{ item.resumo.rejeitados }} rejeitados</span>
+    <span class="{{ 'pendente' if item.resumo.pendentes else '' }}">{{ item.resumo.pendentes }} pendentes</span>
+    {% if item.pronto %}<span class="pronto">pronto para publicar</span>{% endif %}
+  </div>
+  {% if item.url %}<div class="meta">{{ item.url }}</div>{% endif %}
+</div>
+{% endfor %}
+{% endblock %}

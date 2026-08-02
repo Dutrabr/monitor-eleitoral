@@ -1,0 +1,12 @@
+<div id="controles" hx-swap-oob="true">
+  <div class="resumo" id="resumo-{{ nome }}">
+    <span>{{ resumo.confirmados }} confirmados</span>
+    <span>{{ resumo.rejeitados }} rejeitados</span>
+    <span class="{{ 'pendente' if resumo.pendentes else '' }}">{{ resumo.pendentes }} pendentes</span>
+  </div>
+  <form hx-post="/item/{{ nome }}/publicar" hx-target="#publicar-resultado">
+    <button type="submit" {% if not pronto %}disabled{% endif %}>
+      Publicar {% if not pronto %}(ha' pendencias){% endif %}
+    </button>
+  </form>
+</div>

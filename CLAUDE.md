@@ -43,6 +43,9 @@ src/transcricao/
   cli.py                interface de linha de comando (arquivo/pasta local)
   cli_youtube.py        interface de linha de comando (URL do YouTube)
   cli_instagram.py      interface de linha de comando (URL do Reel)
+  revisao.py            fluxo fila -> decisao -> publicacao — PURO, testado
+  site_revisao.py       FastAPI + Jinja2 + HTMX: interface de revisao humana
+  templates_revisao/    templates Jinja2 do site de revisao
 ```
 
 **Camadas puras vs. de I/O:** `qualidade.py` e `atribuir.py` nao fazem I/O e nao
@@ -98,12 +101,27 @@ conversao de data). Antes do primeiro uso real, gere uma sessao com
 `instaloader --login SEU_USUARIO` e exporte `INSTAGRAM_USUARIO` (e
 `INSTAGRAM_SESSAO` se o arquivo nao estiver no caminho padrao).
 
+Pronto: site de revisao humana (`site_revisao.py`), interno — nao e' o site
+publico. Fluxo fila -> decisao -> publicacao: cada item citavel exige
+CONFIRMADO ou REJEITADO explicito de um humano (nunca automatico); rejeitar
+so' marca, nao apaga. Publicar recusa (HTTP 400) se houver pendencia. O
+player de audio serve o `.wav` de 16 kHz que a propria pipeline ja gera ao
+lado da fila, com suporte a range request para pular direto ao timestamp.
+Decisoes ficam num sidecar `NOME.decisoes.json`, com timestamp de auditoria;
+publicacao final em `NOME.publicado.json` — so' evidencia confirmada, nunca
+veredito. Rodar: `cd src && python3 -m transcricao.site_revisao --dados
+../dados/transcricoes`. Validado com teste HTTP completo (confirmar,
+rejeitar, gating de publicacao, persistencia, range request) — **sem**
+verificacao visual em navegador (extensao do Chrome nao estava conectada
+na sessao em que foi construido).
+
 Proximo:
 - ingestao dos planos de governo (disponiveis no DivulgaCandContas apos o
   registro, ate 15/08/2026)
-- taxonomia tematica unica, publicada antes de qualquer analise
-- interface de revisao humana (fila -> conferencia -> publicacao)
-- FastAPI + Jinja2 + HTMX para o site
+- taxonomia tematica unica, publicada antes de qualquer analise — decisao
+  editorial, nao so' tecnica; precisa de definicao do dono do projeto antes
+  de qualquer analise comparativa
+- site publico (FastAPI + Jinja2 + HTMX) — depende dos dois itens acima
 
 ## Fora de escopo, por decisao
 

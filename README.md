@@ -90,6 +90,25 @@ uso com arquivo local.
 Sem `INSTAGRAM_USUARIO`, o instaloader tenta acesso anonimo — o Instagram
 costuma bloquear ou limitar isso mesmo para conteudo publico.
 
+## Revisao humana (fila -> conferencia -> publicacao)
+
+Depois de coletar e transcrever, cada item precisa de um humano confirmando
+ou rejeitando cada trecho antes de qualquer publicacao — nenhuma citacao
+vai ao ar so' porque o Whisper marcou como `ok`.
+
+```bash
+cd src
+python3 -m transcricao.site_revisao --dados ../dados/transcricoes
+# abra http://127.0.0.1:8000
+```
+
+Pagina inicial lista os itens com contagem de confirmados/rejeitados/
+pendentes. Na pagina de cada item, o player toca o trecho exato ao clicar
+no timestamp do segmento; "Confirmar" aceita o texto (editavel antes de
+confirmar) e "Rejeitar" so' marca — nao apaga nada. O botao "Publicar" so'
+fica disponivel quando todo item citavel tiver decisao; produz
+`NOME.publicado.json` com so' as citacoes confirmadas.
+
 ## Saida
 
 Por item, dois arquivos:

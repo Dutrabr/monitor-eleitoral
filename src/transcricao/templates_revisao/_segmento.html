@@ -1,0 +1,15 @@
+<div class="segmento {{ segmento.decisao or '' }}" id="segmento-{{ segmento.indice }}">
+  <div class="meta">
+    <button type="button" onclick="const a=document.getElementById('player'); a.currentTime={{ segmento.inicio }}; a.play();">&#9654; {{ segmento.timestamp }}</button>
+    falante: {{ segmento.falante or '?' }} | status ASR: {{ segmento.status }}
+    {% if segmento.motivos %} | motivos: {{ segmento.motivos | join(', ') }}{% endif %}
+    {% if segmento.decisao %} | decisao registrada: <strong>{{ segmento.decisao }}</strong>{% endif %}
+  </div>
+  <form hx-post="/item/{{ nome }}/segmento/{{ segmento.indice }}" hx-target="#segmento-{{ segmento.indice }}" hx-swap="outerHTML">
+    <textarea name="texto_final">{{ segmento.texto_final or segmento.texto }}</textarea>
+    <div class="acoes">
+      <button type="submit" name="decisao" value="confirmado">Confirmar</button>
+      <button type="submit" name="decisao" value="rejeitado">Rejeitar</button>
+    </div>
+  </form>
+</div>

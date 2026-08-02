@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block titulo %}Monitor Eleitoral — revisao{% endblock %}</title>
+<script src="https://unpkg.com/htmx.org@2.0.3"></script>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+  header { margin-bottom: 2rem; }
+  header a { text-decoration: none; }
+  .resumo { display: flex; gap: 1rem; font-size: 0.9rem; opacity: 0.8; flex-wrap: wrap; }
+  .item-lista { border: 1px solid currentColor; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; opacity: 0.95; }
+  .item-lista a { font-weight: 600; font-size: 1.05rem; }
+  .pendente { color: #b8860b; }
+  .pronto { color: #2e7d32; font-weight: 600; }
+  .segmento { border: 1px solid currentColor; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; opacity: 0.95; }
+  .segmento.confirmado { border-color: #2e7d32; background: rgba(46,125,50,0.10); }
+  .segmento.rejeitado { border-color: #c62828; background: rgba(198,40,40,0.10); }
+  .meta { font-size: 0.85rem; opacity: 0.75; margin-bottom: 0.5rem; }
+  textarea { width: 100%; min-height: 3rem; font-family: inherit; box-sizing: border-box; }
+  .acoes { margin-top: 0.5rem; }
+  .acoes button { margin-right: 0.5rem; }
+  audio { width: 100%; margin: 1.5rem 0; }
+  button { cursor: pointer; }
+</style>
+</head>
+<body>
+<header><a href="/">&larr; Monitor Eleitoral — revisao humana</a></header>
+{% block conteudo %}{% endblock %}
+</body>
+</html>

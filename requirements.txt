@@ -5,9 +5,16 @@ faster-whisper>=1.2.0
 # pyannote/speaker-diarization-3.1 e pyannote/segmentation-3.0)
 pyannote.audio>=3.1.0
 
-# coletores (proximo passo)
+# coletores
 yt-dlp>=2025.1.1
 instaloader>=4.13
 
+# site de revisao humana
+fastapi>=0.115
+uvicorn>=0.30
+jinja2>=3.1
+python-multipart>=0.0.9
+
 # testes
 pytest>=8.0
+httpx>=0.27
