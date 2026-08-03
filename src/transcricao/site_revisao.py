@@ -161,7 +161,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
         )
         return HTMLResponse(html_segmento + html_controles)
 
-    @app.post("/item/{nome}/publicar")
+    @app.post("/item/{nome}/publicar", response_class=HTMLResponse)
     def publicar(nome: str):
         caminho, fila = _carregar_fila(nome)
         decisoes = _carregar_decisoes(caminho)
@@ -171,7 +171,11 @@ def criar_app(pasta_dados: Path) -> FastAPI:
             raise HTTPException(400, str(e))
         destino = caminho.with_name(f"{_base(caminho)}.publicado.json")
         proveniencia.salvar_json(publicacao, destino)
-        return {"ok": True, "citacoes": len(publicacao["citacoes"]), "arquivo": str(destino)}
+        return (
+            f'<p style="color:#2e7d32">'
+            f"publicado: {len(publicacao['citacoes'])} citacao(oes) em "
+            f"{destino.name}</p>"
+        )
 
     return app
 

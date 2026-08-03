@@ -121,9 +121,11 @@ Decisoes ficam num sidecar `NOME.decisoes.json`, com timestamp de auditoria;
 publicacao final em `NOME.publicado.json` — so' evidencia confirmada, nunca
 veredito. Rodar: `cd src && python3 -m transcricao.site_revisao --dados
 ../dados/transcricoes`. Validado com teste HTTP completo (confirmar,
-rejeitar, gating de publicacao, persistencia, range request) — **sem**
-verificacao visual em navegador (extensao do Chrome nao estava conectada
-na sessao em que foi construido).
+rejeitar, gating de publicacao, persistencia, range request) e depois
+com verificacao visual real no navegador (clique real em confirmar/
+rejeitar/publicar, player tocando, swap OOB do resumo funcionando sem
+reload). O endpoint de publicar devolvia JSON cru na tela; trocado para
+devolver uma mensagem HTML legivel.
 
 Pronto (2026-08-03, via DevTools no navegador real): ingestao do plano de
 governo via API do DivulgaCandContas, `plano_de_governo.py`. A sessao
