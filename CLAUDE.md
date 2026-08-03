@@ -116,23 +116,29 @@ rejeitar, gating de publicacao, persistencia, range request) — **sem**
 verificacao visual em navegador (extensao do Chrome nao estava conectada
 na sessao em que foi construido).
 
-Pesquisado (2026-08-02): API do DivulgaCandContas para plano de governo.
-Nao documentada oficialmente; achada via
-`github.com/augusto-herrmann/divulgacandcontas-doc` (swagger nao-oficial) e
-`github.com/augusto-herrmann/eleicoes-2020-planos-de-governo` (script real
-que baixou planos de prefeitos em 2020 — confirma o padrao em producao).
-Endpoint base `http://divulgacandcontas.tse.jus.br/divulga/rest/v1`;
-`/candidatura/buscar/{ano}/{municipio}/{codigo_eleicao}/candidato/{id}`
-devolve `arquivos: [{codTipo, url, nome}]`, plano de governo e' o item com
-`codTipo == "5"`. `plano_de_governo.py` implementa e testa so' essa parte
-pura (extrair a URL dado o JSON). **Nao verificado ainda contra a API
-real**: `codigo_eleicao` de 2026 nao existe publicamente ate' o registro
-fechar; o `cargo` de presidente (provavel "1", por convencao do TSE, mas
-nao confirmado) e como a API trata `municipio` para candidatura nacional
-(prefeito e' natural por municipio; presidente nao) ficaram em aberto —
-evitei chutar isso contra o servidor real. Dava pra verificar hoje contra
-a eleicao presidencial de 2022 (ja' encerrada, dado publico), sem esperar
-2026; ainda nao fiz essa chamada.
+Pesquisado (2026-08-02) e testado ao vivo (2026-08-03) contra a eleicao de
+2022: API do DivulgaCandContas para plano de governo. Nao documentada
+oficialmente; achada via `github.com/augusto-herrmann/divulgacandcontas-doc`
+(swagger nao-oficial) e `github.com/augusto-herrmann/eleicoes-2020-planos-de-governo`
+(script real que baixou planos de prefeitos em 2020). Confirmado ao vivo
+contra 2022 (eleicao encerrada, dado publico — nao mexe com 2026):
+BASE precisa ser https (`divulga/rest/v1`, a porta 80 nem conecta mais);
+`/candidatura/listar/2022/BR/544/1/candidatos` devolve candidatos reais a
+presidente, confirmando `municipio="BR"` e `cargo=1` para candidatura
+nacional a Presidente. **Bloqueio novo, sem solucao ainda**:
+`/candidatura/buscar/.../candidato/{id}` — que deveria trazer `arquivos`
+(onde mora a URL do plano de governo, `codTipo == "5"`) — devolve HTTP 200
+com corpo vazio de forma reproduzivel (testado com id da listagem, numero
+de urna, com/sem cookie de sessao, com/sem Referer). Hotlink direto ao PDF
+pelo padrao mais novo (achado por busca, URLs reais de 2022) devolve 403
+da propria infra do TSE. Aparenta que o portal atual trocou a rota de
+detalhe do candidato — falta descobrir qual e' a nova, provavelmente
+inspecionando as chamadas de rede do site num navegador de verdade
+(DevTools), nao so' testando rotas do script antigo de 2020. Detalhes e
+as chamadas exatas testadas estao no docstring de `plano_de_governo.py`.
+`plano_de_governo.py` implementa e testa so' a parte pura (extrair a URL
+do PDF dado um JSON de candidato ja' obtido) — a parte de I/O fica
+bloqueada nesse endpoint quebrado.
 
 Observado no teste real com Whisper (nao-dublê, ver `transcrever.py`):
 `language` fica fixo em "pt" nas opcoes do decoder. Isso e' proposital (o
@@ -148,9 +154,9 @@ na hora que e' outro idioma. Isso reforca que a revisao humana nao e'
 so' verificacao de fidelidade — tambem pega escopo errado.
 
 Proximo:
-- confirmar contra a eleicao de 2022 os codigos de eleicao/cargo/municipio
-  certos para presidente na API do DivulgaCandContas, depois implementar a
-  parte de I/O da ingestao (hoje so' a extracao pura existe)
+- achar a rota atual de detalhe do candidato no DivulgaCandContas (a do
+  script de 2020 devolve corpo vazio agora — ver bloqueio acima), depois
+  implementar a parte de I/O da ingestao (hoje so' a extracao pura existe)
 - taxonomia tematica unica, publicada antes de qualquer analise — decisao
   editorial, nao so' tecnica; precisa de definicao do dono do projeto antes
   de qualquer analise comparativa

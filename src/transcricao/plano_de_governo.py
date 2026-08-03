@@ -9,31 +9,46 @@ API nao documentada oficialmente (DivulgaCandContas). Pesquisa feita em
     prefeitos em 2020 e confirma o padrao abaixo em producao)
 
 Padrao confirmado (script de 2020, prefeitos):
-  BASE = "http://divulgacandcontas.tse.jus.br/divulga/rest/v1"
   GET  {BASE}/candidatura/listar/{ano}/{municipio}/{codigo_eleicao}/{cargo}/candidatos
   GET  {BASE}/candidatura/buscar/{ano}/{municipio}/{codigo_eleicao}/candidato/{id}
        -> resposta tem `arquivos: [{"codTipo": "...", "url": "...", "nome": "..."}]`
        -> plano de governo e' o arquivo com codTipo == "5"
        -> PDF final: "https://divulgacandcontas.tse.jus.br/" + url + nome
 
-NAO VERIFICADO ainda, precisa de confirmacao com dado real antes de usar:
-  - `codigo_eleicao`: e' um id numerico por eleicao (ex: "2030402020" foi o
-    de municipais 2020), NAO e' o ano. O de 2026 (geral) ainda nao existe
-    publicamente enquanto o registro de candidatura nao fecha (15/08/2026).
-  - `cargo` (POSITION_CODE): o script usa "11" para prefeito. Presidente
-    deveria ser "1" pela convencao usual do TSE, mas isso nao foi
-    confirmado contra a API real.
-  - `municipio`: candidatura de prefeito e' naturalmente por municipio.
-    Presidente e' candidatura nacional — nao esta confirmado se a API
-    exige um municipio "coringa" (ex: capital do estado, ou um codigo
-    nacional especial) para listar candidatos a presidente, ou se ha
-    outro endpoint. Isso precisa ser descoberto testando contra uma
-    eleicao presidencial ja' encerrada (2022) antes de apontar para 2026.
+VERIFICADO ao vivo em 2026-08-03 contra a eleicao presidencial de 2022 (ja'
+encerrada — nao mexe com dado de 2026, que ainda nao existe):
+  - BASE precisa ser https, nao http (a porta 80 nem aceita conexao mais):
+    "https://divulgacandcontas.tse.jus.br/divulga/rest/v1"
+  - `/candidatura/listar/2022/BR/544/1/candidatos` funciona e devolve
+    candidatos reais a presidente (Ciro Gomes id 280001612393, Constituinte
+    Eymael, etc.) — confirma `municipio="BR"` para candidatura nacional e
+    `cargo=1` para Presidente (a resposta trouxe
+    `"cargo":{"codigo":1,"nome":"Presidente"}` explicitamente).
+  - `codigo_eleicao="544"` funcionou para 2022. Ainda ASSIM E' PRECISO
+    achar o codigo equivalente de 2026 quando existir (nao adivinhar).
+  - Os candidatos devolvidos por `listar` vem com `"arquivos": null` —
+    essa chamada sozinha NAO da' a URL do plano de governo.
+
+BLOQUEIO ENCONTRADO (2026-08-03), ainda sem solucao:
+  - `/candidatura/buscar/.../candidato/{id}` — que deveria trazer o
+    `arquivos` de um candidato especifico — devolve HTTP 200 com corpo
+    VAZIO (0 bytes), de forma reproduzivel: testado com o `id` da listagem,
+    com o numero de urna, com/sem cookie de sessao, com/sem header
+    Referer, em varias tentativas espacadas. Parece que esse endpoint
+    especifico do script de 2020 nao funciona mais (o portal atual pode
+    ter trocado a rota de detalhe do candidato).
+  - Hotlink direto ao PDF pelo padrao mais novo
+    (`/candidaturas/oficial/2022/BR/BR/544/candidatos/{id}/{arquivo}.pdf`,
+    achado via busca — URLs reais de propostas de 2022) tambem devolve
+    HTTP 403 da propria infra do TSE, mesmo com Referer do dominio deles.
+  - Antes de escrever a parte de I/O deste modulo, alguem precisa achar a
+    rota de detalhe do candidato que o portal ATUAL usa de verdade —
+    provavelmente inspecionando as chamadas de rede que o site faz num
+    navegador de verdade (DevTools), nao só' testando as rotas do script
+    antigo de 2020.
 
 Este modulo so' implementa a parte pura (o que independe de rede): dado um
-JSON de candidato ja' obtido, extrair a URL do PDF do plano de governo. A
-parte de I/O (descobrir codigo_eleicao/cargo/municipio certos e buscar via
-HTTP) fica para quando houver dado real pra testar contra a API.
+JSON de candidato ja' obtido, extrair a URL do PDF do plano de governo.
 """
 
 from __future__ import annotations
