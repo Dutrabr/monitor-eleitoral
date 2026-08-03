@@ -21,6 +21,7 @@ from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 from . import proveniencia
+from .modelos import Tema
 from .revisao import (
     Decisao,
     montar_publicacao,
@@ -30,6 +31,24 @@ from .revisao import (
 )
 
 TEMPLATES_DIR = Path(__file__).parent / "templates_revisao"
+
+ROTULOS_TEMA = {
+    Tema.AGROPECUARIA.value: "Agropecuária e desenvolvimento rural",
+    Tema.ASSISTENCIA_SOCIAL.value: "Assistência social e combate à pobreza",
+    Tema.CIENCIA_TECNOLOGIA.value: "Ciência, tecnologia e inovação",
+    Tema.CULTURA.value: "Cultura",
+    Tema.DIREITOS_HUMANOS.value: "Direitos humanos e igualdade",
+    Tema.ECONOMIA_EMPREGO.value: "Economia e emprego",
+    Tema.EDUCACAO.value: "Educação",
+    Tema.INFRAESTRUTURA.value: "Infraestrutura e mobilidade",
+    Tema.MEIO_AMBIENTE.value: "Meio ambiente e clima",
+    Tema.POLITICA_EXTERNA.value: "Política externa e relações internacionais",
+    Tema.REFORMA_POLITICA.value: "Reforma política e institucional",
+    Tema.SAUDE.value: "Saúde",
+    Tema.SEGURANCA_PUBLICA.value: "Segurança pública",
+    Tema.SEM_TEMA_DEFINIDO.value: "Sem tema definido",
+}
+TEMAS_DISPONIVEIS = [(t.value, ROTULOS_TEMA[t.value]) for t in Tema]
 
 
 def _base(caminho_fila: Path) -> str:
@@ -93,6 +112,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
                     **item,
                     "decisao": d.get("decisao"),
                     "texto_final": d.get("texto_final"),
+                    "temas": d.get("temas") or [],
                 }
             )
         return templates.TemplateResponse(
@@ -104,6 +124,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
                 "segmentos": segmentos,
                 "resumo": resumo(fila, decisoes),
                 "pronto": pronto_para_publicacao(fila, decisoes),
+                "temas_disponiveis": TEMAS_DISPONIVEIS,
             },
         )
 
@@ -122,6 +143,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
         indice: int,
         decisao: str = Form(...),
         texto_final: str = Form(""),
+        temas: list[str] = Form([]),
     ):
         caminho, fila = _carregar_fila(nome)
         itens = fila.get("itens", [])
@@ -135,13 +157,17 @@ def criar_app(pasta_dados: Path) -> FastAPI:
         decisoes = _carregar_decisoes(caminho)
         item = itens[indice]
         texto_limpo = texto_final.strip()
-        novas = registrar_decisao(
-            decisoes,
-            indice,
-            d,
-            texto_final=(texto_limpo or item["texto"]) if d is Decisao.CONFIRMADO else None,
-            revisado_em=proveniencia.agora_utc(),
-        )
+        try:
+            novas = registrar_decisao(
+                decisoes,
+                indice,
+                d,
+                texto_final=(texto_limpo or item["texto"]) if d is Decisao.CONFIRMADO else None,
+                temas=temas if d is Decisao.CONFIRMADO else None,
+                revisado_em=proveniencia.agora_utc(),
+            )
+        except ValueError as e:
+            raise HTTPException(400, str(e))
         _salvar_decisoes(caminho, novas)
 
         segmento = {
@@ -149,9 +175,13 @@ def criar_app(pasta_dados: Path) -> FastAPI:
             **item,
             "decisao": novas[str(indice)]["decisao"],
             "texto_final": novas[str(indice)].get("texto_final"),
+            "temas": novas[str(indice)].get("temas") or [],
         }
         html_segmento = templates.get_template("_segmento.html").render(
-            request=request, nome=nome, segmento=segmento
+            request=request,
+            nome=nome,
+            segmento=segmento,
+            temas_disponiveis=TEMAS_DISPONIVEIS,
         )
         html_controles = templates.get_template("_controles.html").render(
             request=request,

@@ -19,6 +19,30 @@ class Status(str, Enum):
     DESCARTADO = "descartado"    # provavel silencio/musica/alucinacao, nao usar
 
 
+class Tema(str, Enum):
+    """Taxonomia tematica do projeto — ver TAXONOMIA.md (aprovada).
+
+    Ordem alfabetica de proposito, nao e' ranking. `SEM_TEMA_DEFINIDO`
+    existe para nao forcar encaixe artificial — mesmo principio de
+    `qualidade.py` (na duvida, nao decida sozinho).
+    """
+
+    AGROPECUARIA = "agropecuaria_e_desenvolvimento_rural"
+    ASSISTENCIA_SOCIAL = "assistencia_social_e_combate_a_pobreza"
+    CIENCIA_TECNOLOGIA = "ciencia_tecnologia_e_inovacao"
+    CULTURA = "cultura"
+    DIREITOS_HUMANOS = "direitos_humanos_e_igualdade"
+    ECONOMIA_EMPREGO = "economia_e_emprego"
+    EDUCACAO = "educacao"
+    INFRAESTRUTURA = "infraestrutura_e_mobilidade"
+    MEIO_AMBIENTE = "meio_ambiente_e_clima"
+    POLITICA_EXTERNA = "politica_externa_e_relacoes_internacionais"
+    REFORMA_POLITICA = "reforma_politica_e_institucional"
+    SAUDE = "saude"
+    SEGURANCA_PUBLICA = "seguranca_publica"
+    SEM_TEMA_DEFINIDO = "sem_tema_definido"
+
+
 @dataclass
 class Palavra:
     inicio: float

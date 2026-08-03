@@ -168,14 +168,19 @@ DESCARTADO. A rede de seguranca aqui e' a revisao humana obrigatoria (regra
 na hora que e' outro idioma. Isso reforca que a revisao humana nao e'
 so' verificacao de fidelidade — tambem pega escopo errado.
 
+Pronto (2026-08-03): taxonomia tematica aprovada pelo dono do projeto —
+ver TAXONOMIA.md. 13 categorias + `SEM_TEMA_DEFINIDO`, em `modelos.Tema`.
+Marcacao de tema acontece no mesmo passo da revisao humana (quem confirma
+um segmento pode marcar um ou mais temas via checkbox); `temas: list[str]`
+viaja ate' `montar_publicacao`, vazio se o revisor nao marcou nada — nunca
+forca encaixe.
+
 Proximo:
 - quando o registro de candidatura a presidente fechar (15/08/2026),
   aplicar `plano_de_governo.buscar_candidato`/`baixar_proposta` aos
   candidatos reais (municipio="BR", cargo=1, codigo_eleicao="20322002026")
-- taxonomia tematica unica, publicada antes de qualquer analise — decisao
-  editorial, nao so' tecnica; precisa de definicao do dono do projeto antes
-  de qualquer analise comparativa
-- site publico (FastAPI + Jinja2 + HTMX) — depende dos dois itens acima
+- site publico (FastAPI + Jinja2 + HTMX) — depende do item acima (planos
+  de governo reais) para ter o que comparar com as citacoes publicadas
 
 ## Fora de escopo, por decisao
 

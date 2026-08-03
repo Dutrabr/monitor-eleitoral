@@ -1,79 +1,65 @@
-# Taxonomia temática — RASCUNHO, precisa de aprovação
+# Taxonomia temática — APROVADA (2026-08-03)
 
-**Este documento não está em uso.** Nenhum código do projeto depende
-dele. É um ponto de partida para você revisar, editar e aprovar — só
-depois disso ele deveria virar código (um enum, uma lista de constantes)
-e ser referenciado pelo pipeline.
+Aprovada pelo dono do projeto. As 13 categorias abaixo estão em uso em
+`modelos.Tema`. As perguntas em aberto que não foram respondidas
+explicitamente na aprovação levaram a uma decisão padrão minha — marcadas
+como **[padrão meu]** abaixo. Se não era essa a intenção, é so' me avisar
+e eu ajusto (mudar um Enum e seus usos é barato).
 
-## Por que isso é decisão sua, não minha
-
-O CLAUDE.md do projeto já registra isso, mas vale repetir aqui: a
-taxonomia decide **como o conteúdo é organizado** para a comparação
-plano-de-governo vs. fala pública. Isso molda a leitura do produto final
-mesmo sem nenhum veredito explícito — se "segurança pública" for uma
-categoria e "direitos humanos" não for, ou se forem fundidas numa só,
-isso já é uma escolha editorial com peso. A Resolução TSE 23.610/2019
-(art. 9º-B) veda que sistemas de IA "recomendem, ranqueiem, sugiram ou
-priorizem" — uma taxonomia em si não faz isso, mas quem a define está
-tomando uma decisão jornalística que precisa ser sua, documentada e
-publicada antes de qualquer análise (regra já registrada no CLAUDE.md).
-
-## Critérios que usei para este rascunho
+## Critérios usados
 
 - Baseado em categorias recorrentes em coberturas de propostas de governo
   no Brasil (educação, saúde, segurança, economia aparecem quase
   universalmente).
-- Ordem **alfabética de propósito** — não é ranking de importância. Se
-  aprovar, sugiro manter alfabética no código também, para não insinuar
-  prioridade.
-- Tentei nem agregar demais (perde nuance) nem fragmentar demais (louça
-  demais pra manter simetria entre candidatos — regra 3 do projeto).
-- Cada categoria devia, na teoria, conseguir classificar tanto um trecho
-  de plano de governo quanto uma frase solta de rede social — categorias
-  burocráticas demais (ex: "gestão orçamentária") tendem a falhar nisso.
+- Ordem **alfabética de propósito** — não é ranking de importância. Mantida
+  alfabética também no código, para não insinuar prioridade.
+- Nem agregada demais (perde nuance) nem fragmentada demais (regra 3 do
+  projeto: simetria entre candidatos).
 
-## Proposta (13 categorias)
+## Categorias (13)
 
-1. **Agropecuária e desenvolvimento rural**
-2. **Assistência social e combate à pobreza**
-3. **Ciência, tecnologia e inovação**
-4. **Cultura**
-5. **Direitos humanos e igualdade** (raça, gênero, orientação sexual, pessoas com deficiência)
-6. **Economia e emprego**
-7. **Educação**
-8. **Infraestrutura e mobilidade**
-9. **Meio ambiente e clima**
-10. **Política externa e relações internacionais**
-11. **Reforma política e institucional**
-12. **Saúde**
-13. **Segurança pública**
+1. Agropecuária e desenvolvimento rural
+2. Assistência social e combate à pobreza
+3. Ciência, tecnologia e inovação
+4. Cultura
+5. Direitos humanos e igualdade (raça, gênero, orientação sexual, pessoas com deficiência)
+6. Economia e emprego
+7. Educação
+8. Infraestrutura e mobilidade
+9. Meio ambiente e clima
+10. Política externa e relações internacionais
+11. Reforma política e institucional
+12. Saúde
+13. Segurança pública
 
-## Perguntas em aberto para você decidir
+## Decisões sobre as perguntas em aberto
 
-- **Granularidade de economia**: "Economia e emprego" está genérico de
-  propósito. Vale separar tributação/reforma tributária como categoria
-  própria? Foi um dos temas mais debatidos nas eleições recentes.
-- **Habitação**: mereceria categoria própria ou fica dentro de
-  "Infraestrutura"? Depende de quanto os candidatos costumam falar disso
-  como pauta própria.
-- **Item "outros/sem classificação"**: toda taxonomia fechada tem sobra.
-  Um item confirmado mas que não se encaixa em nenhuma categoria vai pra
-  onde? Sugiro um rótulo explícito tipo "sem tema definido" em vez de
-  forçar encaixe — mas isso é call sua.
-- **Multi-tema**: um trecho pode caber em mais de uma categoria (ex:
-  "creche para trabalhadoras rurais" toca educação + trabalho +
-  agropecuária). Permitir mais de um rótulo por citação, ou forçar
-  escolha de um só?
-- **Fonte de validação**: pretende validar essa lista contra alguma
-  taxonomia já publicada (TSE, IBGE, alguma ONG de monitoramento
-  eleitoral) para dar mais peso institucional à escolha, ou é
-  suficiente ser uma decisão própria do projeto, documentada?
+- **Granularidade de economia** — **[padrão meu]**: nao separei
+  tributação em categoria própria. "Economia e emprego" cobre por ora;
+  fácil de desmembrar depois se a cobertura real mostrar que precisa.
+- **Habitação** — **[padrão meu]**: fica dentro de "Infraestrutura e
+  mobilidade", sem categoria própria.
+- **Item "sem tema definido"** — **[padrão meu, mas alinhado ao espírito
+  do projeto]**: existe um valor explícito `SEM_TEMA_DEFINIDO` no enum.
+  Nunca força encaixe artificial — mesmo principio de "na dúvida, não
+  decida sozinho" que já rege `qualidade.py` (REVISAR em vez de OK
+  forçado).
+- **Multi-tema** — **[padrão meu]**: uma citação pode ter mais de um
+  tema. Implementado como lista (`temas: list[str]`), não campo único.
+  Combina com o resto do projeto: `Segmento.motivos` já é lista pelo
+  mesmo motivo (nunca forçar uma unica explicação/rotulo quando mais de
+  um se aplica).
+- **Fonte de validação externa** — não validado contra taxonomia de
+  terceiros (TSE/IBGE/ONGs). Decisão própria do projeto, documentada
+  aqui.
 
-## Próximo passo
+## Onde isso vive no código
 
-Edite a lista acima direto neste arquivo (ou me diga o que mudar), decida
-as perguntas em aberto, e quando estiver fechada eu transformo isso em
-código (provavelmente um `Enum` em `src/transcricao/` similar ao
-`Status` de `modelos.py`) com testes garantindo que toda citação
-publicada tenha exatamente a cardinalidade de tema que você decidir
-(um só, ou permitir múltiplos).
+- `modelos.Tema`: o enum com as 13 categorias + `SEM_TEMA_DEFINIDO`.
+- `revisao.registrar_decisao(...)`: aceita `temas: list[str] | None` ao
+  confirmar um segmento — a marcação de tema acontece no mesmo passo da
+  revisão humana, por quem já está ouvindo o trecho.
+- `revisao.montar_publicacao(...)`: cada citação publicada carrega
+  `"temas": [...]` (lista vazia se o revisor não marcou nenhum).
+- Interface (`site_revisao.py` / `_segmento.html`): checkboxes de tema no
+  formulário de confirmação.

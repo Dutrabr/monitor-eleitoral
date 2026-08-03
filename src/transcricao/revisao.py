@@ -11,10 +11,22 @@ from __future__ import annotations
 from enum import Enum
 from typing import Any
 
+from .modelos import Tema
+
 
 class Decisao(str, Enum):
     CONFIRMADO = "confirmado"
     REJEITADO = "rejeitado"
+
+
+def _validar_temas(temas: list[str] | None) -> list[str]:
+    if not temas:
+        return []
+    validos = {t.value for t in Tema}
+    invalidos = [t for t in temas if t not in validos]
+    if invalidos:
+        raise ValueError(f"tema(s) invalido(s): {invalidos}")
+    return list(temas)
 
 
 def registrar_decisao(
@@ -23,6 +35,7 @@ def registrar_decisao(
     decisao: Decisao,
     *,
     texto_final: str | None = None,
+    temas: list[str] | None = None,
     revisado_por: str | None = None,
     revisado_em: str | None = None,
 ) -> dict[str, Any]:
@@ -31,11 +44,17 @@ def registrar_decisao(
     Nao muta o dict recebido. Nao acessa relogio por conta propria: quem
     chama passa `revisado_em`, o que mantem a funcao testavel sem mock de
     tempo e deixa explicito de onde vem o timestamp de auditoria.
+
+    `temas` (ver TAXONOMIA.md) so' se aplica a CONFIRMADO — uma citacao
+    rejeitada nao vai ao ar, entao classifica-la por tema nao tem uso. Uma
+    citacao pode ter varios temas, ou nenhum (lista vazia): nunca forca
+    encaixe artificial.
     """
     novas = dict(decisoes)
     entrada: dict[str, Any] = {"decisao": decisao.value}
     if decisao is Decisao.CONFIRMADO:
         entrada["texto_final"] = texto_final
+        entrada["temas"] = _validar_temas(temas)
     if revisado_por:
         entrada["revisado_por"] = revisado_por
     if revisado_em:
@@ -87,6 +106,7 @@ def montar_publicacao(fila: dict[str, Any], decisoes: dict[str, Any]) -> dict[st
                 "timestamp": item["timestamp"],
                 "falante": item["falante"],
                 "texto": d.get("texto_final") or item["texto"],
+                "temas": d.get("temas") or [],
             }
         )
 
