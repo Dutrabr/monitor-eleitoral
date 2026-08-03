@@ -118,6 +118,39 @@ confirmar) e "Rejeitar" so' marca — nao apaga nada. O botao "Publicar" so'
 fica disponivel quando todo item citavel tiver decisao; produz
 `NOME.publicado.json` com so' as citacoes confirmadas.
 
+Ao confirmar, o revisor pode marcar um ou mais temas (ver TAXONOMIA.md) —
+nunca obrigatorio, uma citacao sem tema marcado fica "sem tema definido".
+
+## Site publico
+
+Mostra evidencia lado a lado: dados do candidato, link para o plano de
+governo (PDF), e as citacoes confirmadas agrupadas por tema. **Nao ha
+nenhum cruzamento automatico entre "prometeu" e "disse"**, nem pontuacao
+de aderencia — a leitura e' de quem le (regra 1 do CLAUDE.md).
+
+Precisa de um registro por candidato em `dados/candidatos/NOME.json`:
+
+```json
+{
+  "slug": "fulano-de-tal",
+  "nome": "Fulano de Tal",
+  "partido": "PARTIDO X",
+  "cargo": "Presidente",
+  "falante_id": "candidato_fulano",
+  "plano_de_governo": "caminho/ou/url/para/o/pdf"
+}
+```
+
+`falante_id` precisa bater com o nome que voce deu no `--mapa-falantes` da
+coleta (ver secao "Sobre a diarizacao" abaixo) — e' assim que uma citacao
+publicada e' associada a uma pessoa.
+
+```bash
+cd src
+python3 -m transcricao.site_publico --candidatos ../dados/candidatos --dados ../dados/transcricoes
+# abra http://127.0.0.1:8001
+```
+
 ## Saida
 
 Por item, dois arquivos:

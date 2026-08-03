@@ -47,6 +47,9 @@ src/transcricao/
   site_revisao.py       FastAPI + Jinja2 + HTMX: interface de revisao humana
   templates_revisao/    templates Jinja2 do site de revisao
   plano_de_governo.py   busca candidato e baixa o PDF do plano de governo (API TSE)
+  candidatos.py         registro de candidatos + agregacao por tema — PURO em boa parte, testado
+  site_publico.py       site publico: FastAPI + Jinja2, evidencia lado a lado
+  templates_publico/    templates Jinja2 do site publico
 ```
 
 **Camadas puras vs. de I/O:** `qualidade.py` e `atribuir.py` nao fazem I/O e nao
@@ -175,12 +178,33 @@ um segmento pode marcar um ou mais temas via checkbox); `temas: list[str]`
 viaja ate' `montar_publicacao`, vazio se o revisor nao marcou nada — nunca
 forca encaixe.
 
+Pronto (2026-08-03): site publico (`site_publico.py`). So' mostra: dados
+basicos do candidato, link para o PDF do plano de governo, e as citacoes
+CONFIRMADAS (nunca as pendentes/rejeitadas) agrupadas por tema em ordem
+alfabetica do rotulo. **Nenhum cruzamento automatico entre "prometeu" e
+"disse"** — nao ha extracao de texto do PDF por tema nem pontuacao de
+aderencia; isso seria interpretacao, e regra 1 do projeto proibe qualquer
+coisa que beire veredito. Link com timestamp funciona so' para YouTube
+(`?t=Ns`, unico formato documentado publicamente); outras fontes linkam
+sem parametro de tempo, nunca inventando um que a plataforma nao suporta.
+
+Falta um registro de candidato real: `candidatos.py` define o formato
+(`slug`, `nome`, `partido`, `cargo`, `falante_id`, `plano_de_governo`) mas
+os arquivos em `dados/candidatos/*.json` ainda nao existem — dependem de
+quem sao os candidatos e de rodar `--mapa-falantes` na coleta pra que
+`Segmento.falante` vire o `falante_id` esperado. Validado so' com dado
+sintetico (dois candidatos fake, testado via HTTP real e conferido o
+agrupamento multi-tema) — **sem verificacao visual em navegador**
+(extensao do Chrome caiu de novo durante a sessao).
+
 Proximo:
-- quando o registro de candidatura a presidente fechar (15/08/2026),
+- quando o registro de candidatura a presidente fechar (15/08/2026):
   aplicar `plano_de_governo.buscar_candidato`/`baixar_proposta` aos
-  candidatos reais (municipio="BR", cargo=1, codigo_eleicao="20322002026")
-- site publico (FastAPI + Jinja2 + HTMX) — depende do item acima (planos
-  de governo reais) para ter o que comparar com as citacoes publicadas
+  candidatos reais (municipio="BR", cargo=1, codigo_eleicao="20322002026"),
+  e criar os registros reais em `dados/candidatos/`
+- decidir se/como extrair texto do plano de governo por tema (hoje e' so'
+  um link pro PDF inteiro) — se fizer, repensar com cuidado o risco de
+  virar interpretacao automatizada
 
 ## Fora de escopo, por decisao
 

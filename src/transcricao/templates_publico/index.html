@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<h1>Candidatos</h1>
+{% if not candidatos %}
+<p>Nenhum candidato cadastrado ainda.</p>
+{% endif %}
+{% for c in candidatos %}
+<div class="candidato-lista">
+  <a href="/candidato/{{ c.slug }}">{{ c.nome }}</a>
+  <div class="meta">{{ c.partido }} — {{ c.cargo }}</div>
+</div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<h1>{{ candidato.nome }}</h1>
+<div class="meta">{{ candidato.partido }} — {{ candidato.cargo }}</div>
+
+{% if candidato.plano_de_governo %}
+<div class="plano">
+  <a href="{{ candidato.plano_de_governo }}" target="_blank" rel="noopener">Ler o plano de governo (PDF)</a>
+</div>
+{% endif %}
+
+<p>{{ total_citacoes }} citação(ões) publicamente confirmada(s), agrupadas por tema.</p>
+
+{% if not temas_ordenados %}
+<p>Nenhuma citação publicada ainda para este candidato.</p>
+{% endif %}
+
+{% for tema in temas_ordenados %}
+<div class="tema">
+  <h2>{{ rotulos_tema.get(tema, tema) }}</h2>
+  {% for c in grupos[tema] %}
+  <div class="citacao">
+    <p>&ldquo;{{ c.texto }}&rdquo;</p>
+    <div class="fonte">
+      {{ c.timestamp }}
+      {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver trecho na fonte</a>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+{% endblock %}
