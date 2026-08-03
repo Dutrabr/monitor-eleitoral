@@ -1,13 +1,15 @@
 # transcricao
 faster-whisper>=1.2.0
 
-# diarizacao (opcional; exige HF_TOKEN e aceite dos termos dos modelos
-# pyannote/speaker-diarization-3.1 e pyannote/segmentation-3.0)
-pyannote.audio>=3.1.0
+# diarizacao (opcional; exige HF_TOKEN e aceite dos termos de TRES modelos —
+# speaker-diarization-3.1, segmentation-3.0 e speaker-diarization-community-1,
+# esse ultimo so' aparece como dependencia transitiva; ver diarizar.py)
+pyannote.audio>=4.0
 
 # coletores
 yt-dlp>=2025.1.1
 instaloader>=4.13
+requests>=2.31
 
 # site de revisao humana
 fastapi>=0.115

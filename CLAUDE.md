@@ -46,7 +46,7 @@ src/transcricao/
   revisao.py            fluxo fila -> decisao -> publicacao — PURO, testado
   site_revisao.py       FastAPI + Jinja2 + HTMX: interface de revisao humana
   templates_revisao/    templates Jinja2 do site de revisao
-  plano_de_governo.py   extrai URL do PDF do plano de governo (API TSE) — PURO, testado
+  plano_de_governo.py   busca candidato e baixa o PDF do plano de governo (API TSE)
 ```
 
 **Camadas puras vs. de I/O:** `qualidade.py` e `atribuir.py` nao fazem I/O e nao
@@ -125,29 +125,33 @@ rejeitar, gating de publicacao, persistencia, range request) — **sem**
 verificacao visual em navegador (extensao do Chrome nao estava conectada
 na sessao em que foi construido).
 
-Pesquisado (2026-08-02) e testado ao vivo (2026-08-03) contra a eleicao de
-2022: API do DivulgaCandContas para plano de governo. Nao documentada
-oficialmente; achada via `github.com/augusto-herrmann/divulgacandcontas-doc`
-(swagger nao-oficial) e `github.com/augusto-herrmann/eleicoes-2020-planos-de-governo`
-(script real que baixou planos de prefeitos em 2020). Confirmado ao vivo
-contra 2022 (eleicao encerrada, dado publico — nao mexe com 2026):
-BASE precisa ser https (`divulga/rest/v1`, a porta 80 nem conecta mais);
-`/candidatura/listar/2022/BR/544/1/candidatos` devolve candidatos reais a
-presidente, confirmando `municipio="BR"` e `cargo=1` para candidatura
-nacional a Presidente. **Bloqueio novo, sem solucao ainda**:
-`/candidatura/buscar/.../candidato/{id}` — que deveria trazer `arquivos`
-(onde mora a URL do plano de governo, `codTipo == "5"`) — devolve HTTP 200
-com corpo vazio de forma reproduzivel (testado com id da listagem, numero
-de urna, com/sem cookie de sessao, com/sem Referer). Hotlink direto ao PDF
-pelo padrao mais novo (achado por busca, URLs reais de 2022) devolve 403
-da propria infra do TSE. Aparenta que o portal atual trocou a rota de
-detalhe do candidato — falta descobrir qual e' a nova, provavelmente
-inspecionando as chamadas de rede do site num navegador de verdade
-(DevTools), nao so' testando rotas do script antigo de 2020. Detalhes e
-as chamadas exatas testadas estao no docstring de `plano_de_governo.py`.
-`plano_de_governo.py` implementa e testa so' a parte pura (extrair a URL
-do PDF dado um JSON de candidato ja' obtido) — a parte de I/O fica
-bloqueada nesse endpoint quebrado.
+Pronto (2026-08-03, via DevTools no navegador real): ingestao do plano de
+governo via API do DivulgaCandContas, `plano_de_governo.py`. A sessao
+anterior tinha documentado um bloqueio ("buscar candidato" devolvia corpo
+vazio, hotlink do PDF devolvia 403) e concluido que faltava achar uma rota
+nova. Era mais simples que isso: **faltava so' o header `Referer:
+https://divulgacandcontas.tse.jus.br/divulga/`** — sem ele, `buscar`
+devolve HTTP 200 com corpo vazio (nao um erro) e o download do arquivo
+devolve 403. Nao precisa de cookie de sessao nem navegador real, so' esse
+header, confirmado com `curl` puro. Descoberto navegando o portal de
+verdade (candidatura ja' em andamento para 2026 — Governador, Senador etc.
+— presidente ainda nao registrou) e lendo as chamadas de rede reais via
+DevTools.
+
+Tambem corrigido: o campo `arquivos[].url + arquivos[].nome` (o jeito que
+o script de 2020 baixava) NAO funciona mais — da' 403 mesmo com Referer e
+mesmo numa sessao de navegador logada. O download real e' por
+`arquivos[].idArquivo` em `GET .../rest/arquivo/doc/{idArquivo}`.
+Validado contra dado real: baixado o PDF de 20 paginas do plano de
+governo 2026 de ACM Neto (candidato a Governador da Bahia).
+
+`codigo_eleicao` de 2026 (eleicao geral): `"20322002026"` — visto direto
+na URL do portal, nao precisou adivinhar. `cargo=1`/`municipio="BR"` para
+candidatura nacional a Presidente segue confirmado (contra 2022, ja' que
+presidente nao registrou ainda) mas falta testar com um candidato a
+presidente de verdade quando o registro fechar (15/08/2026) — o
+mecanismo de busca+download ja' esta' prova, so' falta aplicar aos ids
+certos quando existirem.
 
 Observado no teste real com Whisper (nao-dublê, ver `transcrever.py`):
 `language` fica fixo em "pt" nas opcoes do decoder. Isso e' proposital (o
@@ -163,9 +167,9 @@ na hora que e' outro idioma. Isso reforca que a revisao humana nao e'
 so' verificacao de fidelidade — tambem pega escopo errado.
 
 Proximo:
-- achar a rota atual de detalhe do candidato no DivulgaCandContas (a do
-  script de 2020 devolve corpo vazio agora — ver bloqueio acima), depois
-  implementar a parte de I/O da ingestao (hoje so' a extracao pura existe)
+- quando o registro de candidatura a presidente fechar (15/08/2026),
+  aplicar `plano_de_governo.buscar_candidato`/`baixar_proposta` aos
+  candidatos reais (municipio="BR", cargo=1, codigo_eleicao="20322002026")
 - taxonomia tematica unica, publicada antes de qualquer analise — decisao
   editorial, nao so' tecnica; precisa de definicao do dono do projeto antes
   de qualquer analise comparativa
