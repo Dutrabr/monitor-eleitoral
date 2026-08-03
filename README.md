@@ -35,6 +35,15 @@ por cinco sinais independentes).
 
 ## Uso real
 
+Antes de rodar com diarizacao, aceite os termos de USO dos tres modelos no
+Hugging Face (logado na sua conta) — sao tres, nao dois, o terceiro so'
+aparece no erro se faltar:
+- https://huggingface.co/pyannote/speaker-diarization-3.1
+- https://huggingface.co/pyannote/segmentation-3.0
+- https://huggingface.co/pyannote/speaker-diarization-community-1
+
+Gere o token em https://huggingface.co/settings/tokens (role "Read" basta).
+
 ```bash
 export HF_TOKEN=...   # sem isso, diarizacao desliga e tudo vai para revisao
 

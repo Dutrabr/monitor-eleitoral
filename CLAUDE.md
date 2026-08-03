@@ -74,7 +74,16 @@ cd src && python3 -m transcricao.cli ARQUIVO --fonte youtube
 ## Estado atual
 
 Pronto: modulo de transcricao com proveniencia, diarizacao, atribuicao de
-falante e descarte por confianca.
+falante e descarte por confianca. Validado ao vivo em 2026-08-03 com
+Whisper real + pyannote real (nao dublê), pipeline completo YouTube ->
+transcricao. Corrigidos dois bugs de compatibilidade com versoes
+instaladas mais novas das libs (detalhes no docstring de `diarizar.py`):
+`Pipeline.from_pretrained(use_auth_token=)` -> `token=`, e o retorno da
+pipeline de diarizacao mudou de `Annotation` direto para `DiarizeOutput`
+(usamos `.exclusive_speaker_diarization`, de proposito, para nao herdar
+ambiguidade de fala sobreposta). Tambem sao TRES modelos gated no Hugging
+Face agora, nao dois — o terceiro (`speaker-diarization-community-1`) e'
+dependencia transitiva nao documentada em lugar nenhum.
 
 Pronto: coletor do YouTube (`coletar_youtube.py` / `cli_youtube.py`). Baixa o
 video (nao so o audio, para preservar a midia completa como prova). Prefere
