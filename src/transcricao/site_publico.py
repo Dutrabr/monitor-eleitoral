@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 from .candidatos import (
@@ -32,9 +32,12 @@ from .site_revisao import ROTULOS_TEMA
 TEMPLATES_DIR = Path(__file__).parent / "templates_publico"
 
 
-def criar_app(pasta_candidatos: Path, pasta_dados: Path) -> FastAPI:
+def criar_app(
+    pasta_candidatos: Path, pasta_dados: Path, pasta_planos: Path | None = None
+) -> FastAPI:
     pasta_candidatos = Path(pasta_candidatos)
     pasta_dados = Path(pasta_dados)
+    pasta_planos = Path(pasta_planos) if pasta_planos else pasta_candidatos.parent / "planos_de_governo"
     templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
     app = FastAPI(title="Monitor Eleitoral")
 
@@ -84,6 +87,20 @@ def criar_app(pasta_candidatos: Path, pasta_dados: Path) -> FastAPI:
             },
         )
 
+    @app.get("/plano/{slug}")
+    def plano_de_governo(slug: str):
+        """Serve o PDF baixado localmente — nunca linka direto pro TSE.
+
+        Cadeia de custodia (regra 6 do CLAUDE.md): o hash do arquivo como
+        baixado ja foi registrado no momento da coleta (ver MANIFESTO.json
+        ao lado dos PDFs); servir do nosso proprio storage garante que o
+        link nao quebra se o portal do TSE mudar de endpoint de novo.
+        """
+        caminho = pasta_planos / f"{slug}.pdf"
+        if not caminho.exists():
+            raise HTTPException(404, f"plano de governo de '{slug}' nao encontrado")
+        return FileResponse(caminho, media_type="application/pdf")
+
     return app
 
 
@@ -93,11 +110,12 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description="Site publico do Monitor Eleitoral.")
     ap.add_argument("--candidatos", type=Path, default=Path("dados/candidatos"))
     ap.add_argument("--dados", type=Path, default=Path("dados/transcricoes"))
+    ap.add_argument("--planos", type=Path, default=Path("dados/planos_de_governo"))
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--porta", type=int, default=8001)
     args = ap.parse_args(argv)
 
-    app = criar_app(args.candidatos, args.dados)
+    app = criar_app(args.candidatos, args.dados, args.planos)
     uvicorn.run(app, host=args.host, port=args.porta)
     return 0
 

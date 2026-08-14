@@ -137,17 +137,32 @@ Precisa de um registro por candidato em `dados/candidatos/NOME.json`:
   "partido": "PARTIDO X",
   "cargo": "Presidente",
   "falante_id": "candidato_fulano",
-  "plano_de_governo": "caminho/ou/url/para/o/pdf"
+  "plano_de_governo": "/plano/fulano-de-tal"
 }
 ```
 
 `falante_id` precisa bater com o nome que voce deu no `--mapa-falantes` da
 coleta (ver secao "Sobre a diarizacao" abaixo) — e' assim que uma citacao
-publicada e' associada a uma pessoa.
+publicada e' associada a uma pessoa. `plano_de_governo` aponta pra rota
+`/plano/{slug}`, que serve o PDF do storage local (nao linka direto pro
+TSE — evita depender da disponibilidade/formato de URL do portal deles).
+
+Para os candidatos a Presidente 2026, ja' existe um script que busca a
+lista oficial no DivulgaCandContas e baixa os planos de governo de
+verdade (rode de novo a qualquer momento ate' 15/08/2026, e' idempotente):
+
+```bash
+python3 scripts/atualizar_candidatos_presidente.py
+```
+
+Isso preenche `dados/candidatos/` e `dados/planos_de_governo/` (com hash
+sha256 de cada PDF registrado em `MANIFESTO.json`, ao lado). **Nao vai
+pro git** — `dados/` inteiro e' gitignored, entao essa base existe so'
+na maquina onde voce rodou o script.
 
 ```bash
 cd src
-python3 -m transcricao.site_publico --candidatos ../dados/candidatos --dados ../dados/transcricoes
+python3 -m transcricao.site_publico --candidatos ../dados/candidatos --dados ../dados/transcricoes --planos ../dados/planos_de_governo
 # abra http://127.0.0.1:8001
 ```
 

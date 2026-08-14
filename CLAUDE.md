@@ -188,23 +188,51 @@ coisa que beire veredito. Link com timestamp funciona so' para YouTube
 (`?t=Ns`, unico formato documentado publicamente); outras fontes linkam
 sem parametro de tempo, nunca inventando um que a plataforma nao suporta.
 
-Falta um registro de candidato real: `candidatos.py` define o formato
-(`slug`, `nome`, `partido`, `cargo`, `falante_id`, `plano_de_governo`) mas
-os arquivos em `dados/candidatos/*.json` ainda nao existem — dependem de
-quem sao os candidatos e de rodar `--mapa-falantes` na coleta pra que
-`Segmento.falante` vire o `falante_id` esperado. Validado so' com dado
-sintetico (dois candidatos fake, testado via HTTP real e conferido o
-agrupamento multi-tema) — **sem verificacao visual em navegador**
-(extensao do Chrome caiu de novo durante a sessao).
+Pronto (2026-08-14): registro real dos 9 candidatos a Presidente 2026 ja
+inscritos no DivulgaCandContas (EDMILSON COSTA/PCB, ESCRITOR AUGUSTO
+CURY/AVANTE, FLAVIO BOLSONARO/PL, HERTZ DIAS/PSTU, LULA/PT, RENAN
+SANTOS/MISSAO, SAMARA/UP, VETERINARIO WILSON GRASSI/DEMOCRATA, ZEMA/NOVO
+— registro ainda nao fechou, essa lista pode crescer ate' 15/08/2026).
+`dados/candidatos/{slug}.json` com dados reais (nome completo, partido,
+numero, vice, `fonte_dados` com o id do candidato na API do TSE para
+rastreabilidade) para cada um; os 9 PDFs de plano de governo baixados de
+verdade em `dados/planos_de_governo/{slug}.pdf`, com hash sha256 de cada
+um registrado em `MANIFESTO.json` ao lado (cadeia de custodia, regra 6).
+`falante_id` segue o padrao `candidato_{slug_com_underscore}` (ex:
+`candidato_lula`) — e' o valor que `--mapa-falantes` precisa usar na
+hora de coletar midia desses candidatos.
+
+Adicionado `site_publico.py: GET /plano/{slug}`, que serve o PDF do
+proprio storage local em vez de linkar direto pro TSE — evita depender
+da disponibilidade/formato de URL do portal deles (que ja mudou de
+endpoint uma vez nesta mesma pesquisa). Validado contra o servidor real
+rodando com os 9 candidatos: index lista todos em ordem alfabetica,
+pagina de candidato carrega, PDF baixa integro (conferido com `file`).
+5 testes novos com `fastapi.testclient.TestClient` (nao tinha esse padrao
+de teste no projeto ainda) cobrindo a rota `/plano/{slug}` e o 404 de
+plano ausente.
+
+**`dados/candidatos/` e `dados/planos_de_governo/` NAO estao no git** —
+`dados/` inteiro e' gitignored (mesma convencao de todo resto que o
+pipeline gera). Isso significa que essa base de 9 candidatos existe so'
+nesta maquina; se for rodar em outro lugar, precisa gerar de novo (o
+script que fez isso nao faz parte do repositorio ainda, rodou como
+scratch — se for repetir com regularidade conforme mais candidatos se
+registrarem antes de 15/08, vale promover a um script de verdade tipo
+`scripts/atualizar_candidatos.py`).
+
+Ainda falta: `--mapa-falantes` real na hora de coletar midia de cada um
+desses 9 candidatos (a peca que falta para citacoes reais aparecerem no
+site publico) e decidir se/como extrair texto do plano de governo por
+tema (hoje e' so' um link pro PDF inteiro) — se fizer, repensar com
+cuidado o risco de virar interpretacao automatizada.
 
 Proximo:
-- quando o registro de candidatura a presidente fechar (15/08/2026):
-  aplicar `plano_de_governo.buscar_candidato`/`baixar_proposta` aos
-  candidatos reais (municipio="BR", cargo=1, codigo_eleicao="20322002026"),
-  e criar os registros reais em `dados/candidatos/`
-- decidir se/como extrair texto do plano de governo por tema (hoje e' so'
-  um link pro PDF inteiro) — se fizer, repensar com cuidado o risco de
-  virar interpretacao automatizada
+- coletar midia real (YouTube/Instagram) dos 9 candidatos, rodando com
+  `--mapa-falantes` batendo no `falante_id` de cada registro
+- revisar e publicar as citacoes via `site_revisao.py`, marcando tema
+- acompanhar o DivulgaCandContas ate' 15/08/2026: a lista de 9 pode
+  crescer; reexecutar a coleta de candidatos quando fechar
 
 ## Fora de escopo, por decisao
 
