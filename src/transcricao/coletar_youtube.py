@@ -22,9 +22,26 @@ from .transcrever import MODELO_PADRAO
 
 IDIOMAS_PADRAO = ("pt", "pt-BR", "pt-PT")
 
+FORMATO_PADRAO = "bv*[height<=1080]+ba/b"
+FORMATO_RESERVA = "best"
+
 
 class ColetaIndisponivel(RuntimeError):
     pass
+
+
+def _erro_menciona(erro: Exception, texto: str) -> bool:
+    return texto in str(erro).lower()
+
+
+def _falha_de_legenda_ou_formato(erro: Exception) -> bool:
+    return _erro_menciona(erro, "subtitle") or _erro_menciona(
+        erro, "unable to download video data"
+    )
+
+
+def _falha_de_formato(erro: Exception) -> bool:
+    return _erro_menciona(erro, "unable to download video data")
 
 
 def _data_para_iso(data: str | None) -> str | None:
@@ -73,11 +90,21 @@ def baixar(
     (`coletar(..., forcar_whisper=True)`), o que economiza requisicoes ao
     YouTube e evita o proximo paragrafo por completo.
 
-    O video em si e' sempre mais importante que a legenda: uma falha
-    transitoria so' no download da legenda (ex: rate limit do YouTube,
-    HTTP 429 — aconteceu de verdade em producao) NAO pode derrubar a
-    coleta inteira e desperdicar o download do video, que ja' pode ter
-    concluido. Se isso acontecer, refaz a chamada sem pedir legenda.
+    O video em si e' sempre mais importante que legenda ou qualidade
+    maxima: duas falhas transitorias reais de producao motivaram uma
+    cadeia de fallback (2026-08-17):
+      1. Legenda rate-limitada pelo YouTube (HTTP 429) derrubava a coleta
+         inteira mesmo com o video ja baixado — corrigido tentando de
+         novo sem pedir legenda.
+      2. O formato preferido (video+audio separados, ate 1080p, exige
+         merge) as vezes recebe HTTP 403 num stream especifico, enquanto
+         um formato mais simples (`best`, unico stream, resolucao menor)
+         funciona no mesmo instante — corrigido caindo pra esse formato
+         de reserva. Resolucao nao importa para transcricao; a midia
+         completa como prova de custodia sim, e essa ela preserva.
+    As duas causas podem se combinar na mesma chamada (legenda falha,
+    tenta sem legenda, MESMO formato falha de novo, ai' cai pro formato
+    de reserva) — a cadeia abaixo cobre isso.
     """
     try:
         import yt_dlp
@@ -91,29 +118,36 @@ def baixar(
 
     opcoes_base = {
         "outtmpl": str(destino / "%(id)s.%(ext)s"),
-        "format": "bv*[height<=1080]+ba/b",
+        "format": FORMATO_PADRAO,
         "merge_output_format": "mp4",
         "quiet": True,
         "no_warnings": True,
     }
-    opcoes_com_legenda = {
+    opcoes_legenda = {
         **opcoes_base,
         "writesubtitles": True,
         "writeautomaticsub": True,
         "subtitleslangs": list(idiomas),
         "subtitlesformat": "vtt",
     }
-    opcoes = opcoes_com_legenda if baixar_legenda else opcoes_base
+    opcoes_reserva = {**opcoes_base, "format": FORMATO_RESERVA}
 
-    try:
-        with yt_dlp.YoutubeDL(opcoes) as ydl:
-            info = ydl.extract_info(url, download=True)
-    except yt_dlp.utils.DownloadError as e:
-        if baixar_legenda and "subtitle" in str(e).lower():
-            with yt_dlp.YoutubeDL(opcoes_base) as ydl:
+    tentativas: list[tuple[dict, Any]] = []
+    if baixar_legenda:
+        tentativas.append((opcoes_legenda, _falha_de_legenda_ou_formato))
+    tentativas.append((opcoes_base, _falha_de_formato))
+    tentativas.append((opcoes_reserva, None))
+
+    info = None
+    for i, (opcoes, erro_recuperavel) in enumerate(tentativas):
+        try:
+            with yt_dlp.YoutubeDL(opcoes) as ydl:
                 info = ydl.extract_info(url, download=True)
-        else:
-            raise
+            break
+        except yt_dlp.utils.DownloadError as e:
+            ultima_tentativa = i == len(tentativas) - 1
+            if ultima_tentativa or erro_recuperavel is None or not erro_recuperavel(e):
+                raise
 
     coletado_em = proveniencia.agora_utc()
 
