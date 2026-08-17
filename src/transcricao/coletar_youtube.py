@@ -58,12 +58,26 @@ def _escolher_legenda(
 
 
 def baixar(
-    url: str, destino: Path, idiomas: tuple[str, ...] = IDIOMAS_PADRAO
+    url: str,
+    destino: Path,
+    idiomas: tuple[str, ...] = IDIOMAS_PADRAO,
+    baixar_legenda: bool = True,
 ) -> dict[str, Any]:
     """Baixa video + legenda (se houver) e devolve metadados de proveniencia.
 
     `coletado_em` e' registrado logo apos o download terminar: e' o momento
     em que o COLETOR viu o conteudo, que e' o que a proveniencia exige.
+
+    `baixar_legenda=False` pula o pedido de legenda por completo — use
+    quando o chamador ja sabe que vai forcar Whisper de qualquer jeito
+    (`coletar(..., forcar_whisper=True)`), o que economiza requisicoes ao
+    YouTube e evita o proximo paragrafo por completo.
+
+    O video em si e' sempre mais importante que a legenda: uma falha
+    transitoria so' no download da legenda (ex: rate limit do YouTube,
+    HTTP 429 — aconteceu de verdade em producao) NAO pode derrubar a
+    coleta inteira e desperdicar o download do video, que ja' pode ter
+    concluido. Se isso acontecer, refaz a chamada sem pedir legenda.
     """
     try:
         import yt_dlp
@@ -75,20 +89,31 @@ def baixar(
     destino = Path(destino)
     destino.mkdir(parents=True, exist_ok=True)
 
-    opcoes = {
+    opcoes_base = {
         "outtmpl": str(destino / "%(id)s.%(ext)s"),
         "format": "bv*[height<=1080]+ba/b",
         "merge_output_format": "mp4",
+        "quiet": True,
+        "no_warnings": True,
+    }
+    opcoes_com_legenda = {
+        **opcoes_base,
         "writesubtitles": True,
         "writeautomaticsub": True,
         "subtitleslangs": list(idiomas),
         "subtitlesformat": "vtt",
-        "quiet": True,
-        "no_warnings": True,
     }
+    opcoes = opcoes_com_legenda if baixar_legenda else opcoes_base
 
-    with yt_dlp.YoutubeDL(opcoes) as ydl:
-        info = ydl.extract_info(url, download=True)
+    try:
+        with yt_dlp.YoutubeDL(opcoes) as ydl:
+            info = ydl.extract_info(url, download=True)
+    except yt_dlp.utils.DownloadError as e:
+        if baixar_legenda and "subtitle" in str(e).lower():
+            with yt_dlp.YoutubeDL(opcoes_base) as ydl:
+                info = ydl.extract_info(url, download=True)
+        else:
+            raise
 
     coletado_em = proveniencia.agora_utc()
 
@@ -195,7 +220,7 @@ def coletar(
     saida = Path(saida)
     pasta_download = Path(pasta_download) if pasta_download else saida / "originais"
 
-    info = baixar(url, pasta_download, idiomas=idiomas)
+    info = baixar(url, pasta_download, idiomas=idiomas, baixar_legenda=not forcar_whisper)
 
     if info["legenda"] and not forcar_whisper:
         return _processar_com_legenda(info, saida)
