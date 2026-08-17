@@ -215,22 +215,49 @@ plano ausente.
 **`dados/candidatos/` e `dados/planos_de_governo/` NAO estao no git** —
 `dados/` inteiro e' gitignored (mesma convencao de todo resto que o
 pipeline gera). Isso significa que essa base de 9 candidatos existe so'
-nesta maquina; se for rodar em outro lugar, precisa gerar de novo (o
-script que fez isso nao faz parte do repositorio ainda, rodou como
-scratch — se for repetir com regularidade conforme mais candidatos se
-registrarem antes de 15/08, vale promover a um script de verdade tipo
-`scripts/atualizar_candidatos.py`).
+nesta maquina; se for rodar em outro lugar, precisa gerar de novo com
+`scripts/atualizar_candidatos_presidente.py` (idempotente, ja' no
+repositorio — nao e' mais scratch).
 
-Ainda falta: `--mapa-falantes` real na hora de coletar midia de cada um
-desses 9 candidatos (a peca que falta para citacoes reais aparecerem no
-site publico) e decidir se/como extrair texto do plano de governo por
-tema (hoje e' so' um link pro PDF inteiro) — se fizer, repensar com
-cuidado o risco de virar interpretacao automatizada.
+Pronto (2026-08-17): primeira citacao real, do inicio ao fim, publicada
+e visivel no site publico. Coletado um Short real do canal oficial do
+Zema (fonte: campo `sites` do proprio registro na API do TSE, nao busca
+generica), pipeline completo com Whisper real + diarizacao real,
+revisado por um humano de verdade em `site_revisao.py` (nao por mim —
+ver nota abaixo), publicado, e confirmado aparecendo em
+`/candidato/zema` com link certo pro plano de governo e pro trecho
+exato na fonte.
+
+No processo, achado e corrigido um gap real: a diarizacao deixou um
+segmento sem falante atribuido (buraco de cobertura, nao erro — ver
+`atribuir.py`). O humano ouviu, confirmou que era o Zema, mas
+`site_revisao.py` nao tinha como capturar essa correcao — so' texto e
+tema eram editaveis. Adicionado campo `falante` opcional no formulario
+de confirmacao (`revisao.registrar_decisao(..., falante=...)`,
+`montar_publicacao` usa `falante_confirmado` quando presente, senao cai
+no valor original da diarizacao — nunca inventa). Funciona tanto para
+preencher um buraco quanto para corrigir uma atribuicao errada. 12
+testes novos (7 em `test_revisao.py` puro, 5 em `test_site_revisao.py`
+novo, primeiro teste desse site usando `TestClient`).
+
+**Importante sobre quem fez a revisao humana**: eu (Claude) nunca
+cliquei em confirmar usando meu proprio julgamento sobre o audio — nao
+tenho como ouvir, e mesmo se tivesse, regra 2 exige um humano de
+verdade. Toda decisao de confirmar/rejeitar/corrigir texto e falante
+nesse teste foi do dono do projeto, ouvindo o audio real. Meu papel foi
+so' technical: subir o servidor, aplicar as correcoes que ele ditou
+(inclusive via chat, replicando o que ele teria digitado no formulario),
+e implementar o campo que faltava quando o formulario nao dava conta do
+que ele precisava corrigir.
+
+Ainda falta: repetir esse fluxo pros outros 8 candidatos (e' manual,
+video por video — nao ha' processo em lote ainda) e decidir se/como
+extrair texto do plano de governo por tema (hoje e' so' um link pro PDF
+inteiro) — se fizer, repensar com cuidado o risco de virar interpretacao
+automatizada.
 
 Proximo:
-- coletar midia real (YouTube/Instagram) dos 9 candidatos, rodando com
-  `--mapa-falantes` batendo no `falante_id` de cada registro
-- revisar e publicar as citacoes via `site_revisao.py`, marcando tema
+- repetir a coleta+revisao real pros outros 8 candidatos
 - acompanhar o DivulgaCandContas ate' 15/08/2026: a lista de 9 pode
   crescer; reexecutar a coleta de candidatos quando fechar
 

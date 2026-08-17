@@ -113,6 +113,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
                     "decisao": d.get("decisao"),
                     "texto_final": d.get("texto_final"),
                     "temas": d.get("temas") or [],
+                    "falante_efetivo": d.get("falante_confirmado") or item.get("falante"),
                 }
             )
         return templates.TemplateResponse(
@@ -144,6 +145,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
         decisao: str = Form(...),
         texto_final: str = Form(""),
         temas: list[str] = Form([]),
+        falante: str = Form(""),
     ):
         caminho, fila = _carregar_fila(nome)
         itens = fila.get("itens", [])
@@ -157,6 +159,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
         decisoes = _carregar_decisoes(caminho)
         item = itens[indice]
         texto_limpo = texto_final.strip()
+        falante_limpo = falante.strip()
         try:
             novas = registrar_decisao(
                 decisoes,
@@ -164,6 +167,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
                 d,
                 texto_final=(texto_limpo or item["texto"]) if d is Decisao.CONFIRMADO else None,
                 temas=temas if d is Decisao.CONFIRMADO else None,
+                falante=(falante_limpo or None) if d is Decisao.CONFIRMADO else None,
                 revisado_em=proveniencia.agora_utc(),
             )
         except ValueError as e:
@@ -176,6 +180,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
             "decisao": novas[str(indice)]["decisao"],
             "texto_final": novas[str(indice)].get("texto_final"),
             "temas": novas[str(indice)].get("temas") or [],
+            "falante_efetivo": novas[str(indice)].get("falante_confirmado") or item.get("falante"),
         }
         html_segmento = templates.get_template("_segmento.html").render(
             request=request,

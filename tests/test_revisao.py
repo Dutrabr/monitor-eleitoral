@@ -130,3 +130,45 @@ def test_montar_publicacao_temas_vazio_quando_nao_marcado():
     decisoes = revisao.registrar_decisao({}, 0, Decisao.CONFIRMADO, texto_final="a")
     pub = revisao.montar_publicacao(fila, decisoes)
     assert pub["citacoes"][0]["temas"] == []
+
+
+def test_registrar_decisao_aceita_falante_override():
+    novas = revisao.registrar_decisao(
+        {}, 0, Decisao.CONFIRMADO, texto_final="a", falante="candidato_zema"
+    )
+    assert novas["0"]["falante_confirmado"] == "candidato_zema"
+
+
+def test_rejeitado_nao_carrega_falante_confirmado():
+    novas = revisao.registrar_decisao({}, 0, Decisao.REJEITADO, falante="candidato_zema")
+    assert "falante_confirmado" not in novas["0"]
+
+
+def test_montar_publicacao_usa_falante_confirmado_quando_presente():
+    """Cobre o caso real: diarizacao nao atribuiu ninguem (falante=None na
+    fila), humano confirma que era um candidato especifico."""
+    fila = _fila(1)
+    fila["itens"][0]["falante"] = None
+    decisoes = revisao.registrar_decisao(
+        {}, 0, Decisao.CONFIRMADO, texto_final="a", falante="candidato_zema"
+    )
+    pub = revisao.montar_publicacao(fila, decisoes)
+    assert pub["citacoes"][0]["falante"] == "candidato_zema"
+
+
+def test_montar_publicacao_usa_falante_original_sem_override():
+    fila = _fila(1)
+    decisoes = revisao.registrar_decisao({}, 0, Decisao.CONFIRMADO, texto_final="a")
+    pub = revisao.montar_publicacao(fila, decisoes)
+    assert pub["citacoes"][0]["falante"] == "SPEAKER_00"
+
+
+def test_montar_publicacao_override_substitui_falante_original():
+    """Reviosor pode corrigir mesmo quando a diarizacao ja atribuiu alguem
+    (nao so' preencher um buraco) — a diarizacao pode ter errado."""
+    fila = _fila(1)
+    decisoes = revisao.registrar_decisao(
+        {}, 0, Decisao.CONFIRMADO, texto_final="a", falante="candidato_correto"
+    )
+    pub = revisao.montar_publicacao(fila, decisoes)
+    assert pub["citacoes"][0]["falante"] == "candidato_correto"

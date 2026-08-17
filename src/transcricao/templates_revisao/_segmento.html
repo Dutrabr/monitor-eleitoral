@@ -7,6 +7,9 @@
   </div>
   <form hx-post="/item/{{ nome }}/segmento/{{ segmento.indice }}" hx-target="#segmento-{{ segmento.indice }}" hx-swap="outerHTML">
     <textarea name="texto_final">{{ segmento.texto_final or segmento.texto }}</textarea>
+    <div class="falante-campo">
+      <label>Falante (so' aplica ao confirmar): <input type="text" name="falante" value="{{ segmento.falante_efetivo or '' }}" placeholder="ex: candidato_zema"></label>
+    </div>
     <div class="temas">
       {% for valor, rotulo in temas_disponiveis %}
       <label><input type="checkbox" name="temas" value="{{ valor }}" {% if valor in segmento.temas %}checked{% endif %}> {{ rotulo }}</label>

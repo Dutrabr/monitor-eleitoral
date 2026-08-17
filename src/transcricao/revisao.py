@@ -36,6 +36,7 @@ def registrar_decisao(
     *,
     texto_final: str | None = None,
     temas: list[str] | None = None,
+    falante: str | None = None,
     revisado_por: str | None = None,
     revisado_em: str | None = None,
 ) -> dict[str, Any]:
@@ -49,12 +50,20 @@ def registrar_decisao(
     rejeitada nao vai ao ar, entao classifica-la por tema nao tem uso. Uma
     citacao pode ter varios temas, ou nenhum (lista vazia): nunca forca
     encaixe artificial.
+
+    `falante`: a diarizacao pode nao atribuir ninguem a um segmento (gap de
+    cobertura — ver `atribuir.py`), ou atribuir errado. O humano que ouviu
+    o audio confirma ou corrige isso no mesmo passo em que confirma o
+    texto. Sem essa confirmacao explicita, `montar_publicacao` usa o
+    falante que a diarizacao deu (que pode ser None) — nunca inventa um.
     """
     novas = dict(decisoes)
     entrada: dict[str, Any] = {"decisao": decisao.value}
     if decisao is Decisao.CONFIRMADO:
         entrada["texto_final"] = texto_final
         entrada["temas"] = _validar_temas(temas)
+        if falante:
+            entrada["falante_confirmado"] = falante
     if revisado_por:
         entrada["revisado_por"] = revisado_por
     if revisado_em:
@@ -104,7 +113,7 @@ def montar_publicacao(fila: dict[str, Any], decisoes: dict[str, Any]) -> dict[st
                 "inicio": item["inicio"],
                 "fim": item["fim"],
                 "timestamp": item["timestamp"],
-                "falante": item["falante"],
+                "falante": d.get("falante_confirmado") or item["falante"],
                 "texto": d.get("texto_final") or item["texto"],
                 "temas": d.get("temas") or [],
             }

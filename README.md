@@ -121,6 +121,14 @@ fica disponivel quando todo item citavel tiver decisao; produz
 Ao confirmar, o revisor pode marcar um ou mais temas (ver TAXONOMIA.md) —
 nunca obrigatorio, uma citacao sem tema marcado fica "sem tema definido".
 
+Tambem ao confirmar, ha' um campo de texto para o falante. A diarizacao
+pode deixar um trecho sem ninguem atribuido (buraco de cobertura) ou
+atribuir errado; o revisor que ouviu o audio preenche ou corrige esse
+campo com o `falante_id` certo (o mesmo valor do registro em
+`dados/candidatos/`, ex: `candidato_zema`) antes de confirmar. Vazio
+mantem o que a diarizacao ja tinha atribuido — nunca inventa um falante
+sozinho.
+
 ## Site publico
 
 Mostra evidencia lado a lado: dados do candidato, link para o plano de
