@@ -256,6 +256,21 @@ extrair texto do plano de governo por tema (hoje e' so' um link pro PDF
 inteiro) — se fizer, repensar com cuidado o risco de virar interpretacao
 automatizada.
 
+Observado DUAS vezes agora (Zema em 2026-08-17, Flavio Bolsonaro em
+2026-08-18, ambos clipes de campanha/comicio): segmentos com texto
+coerente e politicamente relevante descartados por `no_speech_prob` alto
+(0.78-0.99), provavelmente por musica/aplausos de fundo confundindo o
+classificador do Whisper — nao silencio de verdade. `DESCARTADO` nunca
+entra na fila de revisao (`pipeline.fila_de_verificacao` exclui), entao
+esse conteudo fica invisivel para o humano, mesmo sendo potencialmente
+relevante (no caso do Flavio, incluia mencao a CPMI do INSS e pedido de
+prisao do "Lulinha"). **Nao mexi no limiar `NO_SPEECH_MAX` de
+`qualidade.py`** — regra do proprio arquivo e' so' ajustar contra amostra
+rotulada a mao com taxa de erro medida, nao por duas observacoes. Mas se
+esse padrao se repetir mais vezes em clipes de comicio/campanha, vale
+juntar esses casos como a amostra rotulada que falta para uma recalibragem
+de verdade.
+
 Pronto (2026-08-18): coletor do YouTube autentica com cookies de um
 navegador local logado (`coletar_youtube.baixar(..., navegador_cookies=
 "chrome")`, padrao). Achado em producao: depois de algumas dezenas de
