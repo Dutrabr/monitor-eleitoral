@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 from . import qualidade
-from .coletar_youtube import IDIOMAS_PADRAO, ColetaIndisponivel, coletar
+from .coletar_youtube import IDIOMAS_PADRAO, NAVEGADOR_COOKIES_PADRAO, ColetaIndisponivel, coletar
 from .transcrever import MODELO_PADRAO
 
 
@@ -45,6 +45,20 @@ def main(argv: list[str] | None = None) -> int:
         default=None,
         help='JSON tipo {"SPEAKER_00": "candidato_x"}',
     )
+    ap.add_argument(
+        "--navegador-cookies",
+        default=NAVEGADOR_COOKIES_PADRAO,
+        help=(
+            "navegador local (com sessao logada) de onde extrair cookies "
+            "para evitar bloqueio do YouTube por volume de trafego anonimo "
+            f"(padrao: {NAVEGADOR_COOKIES_PADRAO})"
+        ),
+    )
+    ap.add_argument(
+        "--sem-cookies-navegador",
+        action="store_true",
+        help="desliga cookies de navegador (necessario em ambiente sem Chrome, ex: CI/servidor)",
+    )
     args = ap.parse_args(argv)
 
     mapa = None
@@ -61,6 +75,7 @@ def main(argv: list[str] | None = None) -> int:
             usar_diarizacao=not args.sem_diarizacao,
             max_falantes=args.max_falantes,
             mapa_falantes=mapa,
+            navegador_cookies=None if args.sem_cookies_navegador else args.navegador_cookies,
         )
     except ColetaIndisponivel as e:
         print(f"erro: {e}", file=sys.stderr)

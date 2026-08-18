@@ -24,6 +24,7 @@ IDIOMAS_PADRAO = ("pt", "pt-BR", "pt-PT")
 
 FORMATO_PADRAO = "bv*[height<=1080]+ba/b"
 FORMATO_RESERVA = "best"
+NAVEGADOR_COOKIES_PADRAO = "chrome"
 
 
 class ColetaIndisponivel(RuntimeError):
@@ -79,6 +80,7 @@ def baixar(
     destino: Path,
     idiomas: tuple[str, ...] = IDIOMAS_PADRAO,
     baixar_legenda: bool = True,
+    navegador_cookies: str | None = NAVEGADOR_COOKIES_PADRAO,
 ) -> dict[str, Any]:
     """Baixa video + legenda (se houver) e devolve metadados de proveniencia.
 
@@ -89,6 +91,20 @@ def baixar(
     quando o chamador ja sabe que vai forcar Whisper de qualquer jeito
     (`coletar(..., forcar_whisper=True)`), o que economiza requisicoes ao
     YouTube e evita o proximo paragrafo por completo.
+
+    `navegador_cookies`: nome do navegador de onde extrair cookies de uma
+    sessao logada (padrao "chrome"; None desliga). Descoberto em producao
+    (2026-08-18): apos algumas dezenas de downloads anonimos no mesmo dia,
+    o YouTube passou a devolver HTTP 403 em QUALQUER video, nao so' os que
+    a sessao ja tinha tocado — bloqueio por volume de trafego anonimo, nao
+    por video especifico. Autenticar com cookies de um navegador local
+    logado de verdade (`--cookies-from-browser`, recurso padrao e
+    documentado do yt-dlp) resolveu na hora: o YouTube trata sessao
+    autenticada com muito mais tolerancia. Isso NAO e' burlar protecao —
+    e' usar a propria conta logada do usuario, o oposto de se disfarcar.
+    Exige um Chrome instalado nesta maquina com sessao ja logada no
+    Google/YouTube; sem isso, ou em ambiente sem navegador (CI, servidor),
+    passe `navegador_cookies=None`.
 
     O video em si e' sempre mais importante que legenda ou qualidade
     maxima: duas falhas transitorias reais de producao motivaram uma
@@ -104,7 +120,9 @@ def baixar(
          completa como prova de custodia sim, e essa ela preserva.
     As duas causas podem se combinar na mesma chamada (legenda falha,
     tenta sem legenda, MESMO formato falha de novo, ai' cai pro formato
-    de reserva) — a cadeia abaixo cobre isso.
+    de reserva) — a cadeia abaixo cobre isso. `navegador_cookies` e'
+    ortogonal a essa cadeia: se aplica em toda tentativa, pois e' a defesa
+    contra a causa mais provavel de bloqueio (volume, nao formato/legenda).
     """
     try:
         import yt_dlp
@@ -116,13 +134,16 @@ def baixar(
     destino = Path(destino)
     destino.mkdir(parents=True, exist_ok=True)
 
-    opcoes_base = {
+    opcoes_base: dict[str, Any] = {
         "outtmpl": str(destino / "%(id)s.%(ext)s"),
         "format": FORMATO_PADRAO,
         "merge_output_format": "mp4",
         "quiet": True,
         "no_warnings": True,
     }
+    if navegador_cookies:
+        opcoes_base["cookiesfrombrowser"] = (navegador_cookies,)
+        opcoes_base["remote_components"] = ["ejs:github"]
     opcoes_legenda = {
         **opcoes_base,
         "writesubtitles": True,
@@ -244,17 +265,28 @@ def coletar(
     usar_diarizacao: bool = True,
     max_falantes: int | None = None,
     mapa_falantes: dict[str, str] | None = None,
+    navegador_cookies: str | None = NAVEGADOR_COOKIES_PADRAO,
 ) -> Transcricao:
     """Baixa do YouTube e transcreve: legenda se houver, Whisper senao.
 
     `forcar_whisper=True` ignora legenda disponivel e roda a pipeline normal
     (com diarizacao) mesmo assim — util quando a legenda existe mas e'
     ruim demais para servir de base.
+
+    `navegador_cookies`: ver docstring de `baixar()`. Padrao usa cookies do
+    Chrome local (autenticado) para evitar bloqueio por volume de trafego
+    anonimo; passe None em ambiente sem navegador (CI, servidor).
     """
     saida = Path(saida)
     pasta_download = Path(pasta_download) if pasta_download else saida / "originais"
 
-    info = baixar(url, pasta_download, idiomas=idiomas, baixar_legenda=not forcar_whisper)
+    info = baixar(
+        url,
+        pasta_download,
+        idiomas=idiomas,
+        baixar_legenda=not forcar_whisper,
+        navegador_cookies=navegador_cookies,
+    )
 
     if info["legenda"] and not forcar_whisper:
         return _processar_com_legenda(info, saida)

@@ -77,6 +77,15 @@ diarizacao, mesmas regras do uso com arquivo local).
 `--forcar-whisper` ignora legenda disponivel e roda a pipeline normal mesmo
 assim. `--idiomas` controla a ordem de preferencia (padrao: `pt pt-BR pt-PT`).
 
+Por padrao, a coleta usa cookies do **Chrome local** (precisa estar com
+sessao logada no Google/YouTube) para evitar bloqueio do YouTube por
+volume de trafego anonimo — descoberto em producao: apos algumas dezenas
+de downloads no mesmo dia sem autenticacao, o YouTube passa a devolver
+HTTP 403 em qualquer video, nao so' os ja tocados. Isso NAO e' burlar
+protecao alguma — e' usar a propria conta logada do usuario, o oposto de
+se disfarcar. Sem Chrome instalado (ex: rodando em servidor/CI), use
+`--sem-cookies-navegador`; para outro navegador, `--navegador-cookies firefox`.
+
 ## Coleta de Reels do Instagram
 
 So' Reels — a URL precisa ter `/reel/` ou `/reels/`. Post comum, story e

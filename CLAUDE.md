@@ -256,6 +256,26 @@ extrair texto do plano de governo por tema (hoje e' so' um link pro PDF
 inteiro) — se fizer, repensar com cuidado o risco de virar interpretacao
 automatizada.
 
+Pronto (2026-08-18): coletor do YouTube autentica com cookies de um
+navegador local logado (`coletar_youtube.baixar(..., navegador_cookies=
+"chrome")`, padrao). Achado em producao: depois de algumas dezenas de
+downloads anonimos no mesmo dia (varios candidatos, varios vídeos), o
+YouTube passou a devolver HTTP 403 em QUALQUER video — nao so' os ja'
+tocados, confirmado testando um video completamente nao relacionado que
+tinha funcionado horas antes. Nao era rate-limit de um video especifico,
+era bloqueio por volume de trafego anonimo. Levou uma noite inteira pra
+descobrir isso: tentativa as 03:33 via cron (agendada pra 2h depois da
+primeira falha) ainda falhou, e so' foi resolvido comparando com outro
+projeto do dono (coletor de video de "influenciadores" apostas, em
+`~/Documents/PROJETOS/PROJETO - PROJETO_INFLUENCIADORES/Download_youtube.py`)
+que usa exatamente essa tecnica e nunca foi bloqueado. `--cookies-from-
+browser` e' recurso padrao e documentado do yt-dlp — usar a propria conta
+logada do usuario e' o oposto de burlar protecao, e' se identificar de
+verdade em vez de trafegar anonimo. CLI ganhou `--navegador-cookies` e
+`--sem-cookies-navegador` (para ambiente sem Chrome, ex: servidor/CI).
+5 testes novos cobrindo o comportamento (padrao ligado, desligavel,
+customizavel, presente em toda tentativa da cadeia de fallback).
+
 Proximo:
 - repetir a coleta+revisao real pros outros 8 candidatos
 - acompanhar o DivulgaCandContas ate' 15/08/2026: a lista de 9 pode

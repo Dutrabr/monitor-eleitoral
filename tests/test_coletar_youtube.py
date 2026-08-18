@@ -197,3 +197,59 @@ def test_formato_de_reserva_e_ultimo_recurso_propaga_se_tambem_falhar(monkeypatc
     with pytest.raises(_DownloadErrorFalso, match="403"):
         baixar("https://youtube.com/watch?v=abc123", tmp_path, baixar_legenda=False)
     assert len(chamadas) == 2
+
+
+def test_cookies_de_navegador_habilitados_por_padrao(monkeypatch, tmp_path):
+    """Descoberto em producao (2026-08-18): sem autenticacao, o YouTube
+    passa a bloquear (403) QUALQUER video apos volume de trafego anonimo.
+    Cookies de uma sessao logada real resolvem — deve ser o padrao."""
+    chamadas = _instalar_yt_dlp_falso(monkeypatch, tmp_path, decidir=lambda o, i: None)
+
+    baixar("https://youtube.com/watch?v=abc123", tmp_path, baixar_legenda=False)
+
+    assert chamadas[0]["cookiesfrombrowser"] == ("chrome",)
+    assert chamadas[0]["remote_components"] == ["ejs:github"]
+
+
+def test_navegador_cookies_none_desliga_cookies(monkeypatch, tmp_path):
+    chamadas = _instalar_yt_dlp_falso(monkeypatch, tmp_path, decidir=lambda o, i: None)
+
+    baixar(
+        "https://youtube.com/watch?v=abc123", tmp_path,
+        baixar_legenda=False, navegador_cookies=None,
+    )
+
+    assert "cookiesfrombrowser" not in chamadas[0]
+    assert "remote_components" not in chamadas[0]
+
+
+def test_navegador_cookies_customizado(monkeypatch, tmp_path):
+    chamadas = _instalar_yt_dlp_falso(monkeypatch, tmp_path, decidir=lambda o, i: None)
+
+    baixar(
+        "https://youtube.com/watch?v=abc123", tmp_path,
+        baixar_legenda=False, navegador_cookies="firefox",
+    )
+
+    assert chamadas[0]["cookiesfrombrowser"] == ("firefox",)
+
+
+def test_cookies_aplicam_em_todas_as_tentativas_da_cadeia(monkeypatch, tmp_path):
+    """cookiesfrombrowser e' defesa contra bloqueio por volume, ortogonal
+    a legenda/formato — precisa estar presente em toda tentativa, nao so'
+    na primeira."""
+
+    def decidir(opcoes, indice):
+        if opcoes.get("writesubtitles"):
+            return _MSG_LEGENDA_429
+        if opcoes.get("format") == FORMATO_PADRAO:
+            return _MSG_FORMATO_403
+        return None
+
+    chamadas = _instalar_yt_dlp_falso(monkeypatch, tmp_path, decidir=decidir)
+
+    baixar("https://youtube.com/watch?v=abc123", tmp_path)
+
+    assert len(chamadas) == 3
+    for c in chamadas:
+        assert c["cookiesfrombrowser"] == ("chrome",)
