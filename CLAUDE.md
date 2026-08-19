@@ -356,21 +356,51 @@ tema "consta" no plano.
   logica de toggle via JS direto no navegador (a ferramenta de resize de
   janela desta sessao nao mudava o viewport real pra confirmar visualmente
   em largura de celular, mas a media query em si e' CSS padrao).
-- **Pendencia real antes de publicar de verdade**: o rodape e a pagina de
-  metodologia linkam `mailto:contato@exemplo.org` — e' placeholder, nao
-  um email real. Trocar antes de expor o site pra fora do localhost.
 - Fase 2 (nao feita ainda, escopo separado por decisao — ver plano
   salvo): modo comparar 2-4 candidatos, busca com destaque, player
   embutido do YouTube, botao "copiar link", animacoes de entrada.
 
+Pronto (2026-08-19): email placeholder do rodape/metodologia trocado por
+contato real (jvriibmr@gmail.com).
+
+Pronto (2026-08-19): coleta+revisao real dos 2 candidatos que faltavam
+(Samara, Veterinario Wilson Grassi) — os 9 candidatos tem citacao
+publicada agora. No processo, mesmo gap de falante do Hertz Dias
+reapareceu nos dois (formulario de revisao preenchido com o rotulo bruto
+da diarizacao em vez de `candidato_*`) — corrigido a mao apos confirmar
+com o dono que era mesmo o candidato falando, republicado. Achado
+tambem: o primeiro Reel testado da Samara (9.7s) nao tinha fala alguma
+(so' musica/texto na tela) — Whisper devolveu 0 segmentos, exit code 0,
+sem erro — silencioso o suficiente pra passar despercebido se ninguem
+checasse a contagem de segmentos. Trocado por outro Reel do mesmo perfil.
+
+Pronto (2026-08-19): curadoria manual dos 13 temas × 9 candidatos = 117
+entradas em `dados/planos_curados/` completa — o painel de comparacao
+nao mostra mais "tema nao verificado" em lugar nenhum. Processo: criado
+`scripts/buscar_trecho_plano.py` (usa `pdftotext -layout`, ja disponivel
+no sistema, sem lib nova) pra achar pagina candidata por titulo de secao
+ou por contagem de palavra-chave; eu (Claude) nunca decidi sozinho se um
+tema consta — sempre apresentei o trecho achado com pagina e pedi
+confirmacao antes de gravar, mesmo espirito de `revisao.py`. 9 entradas
+viraram `"status": "nao_consta"` de verdade, nao suposicao: Renan Santos
+(sem capitulo dedicado a meio ambiente nem a direitos humanos, confirmado
+contra a lista completa dos seus 14 capitulos), Veterinario Wilson Grassi
+(sem eixo de assistencia social nem de cultura, confirmado contra os 14
+eixos do documento — e um caso raro onde o proprio candidato *declara*
+por escrito que omite doutrina de politica externa, "a omissao e
+deliberada", entao esse tema entrou como `consta` citando a propria
+frase), Samara (plano de so' 2 paginas, sem conteudo de ciencia/
+tecnologia nem de cultura), Escritor Augusto Cury e Hertz Dias (sem
+projeto/secao dedicada a cultura, so' mencoes de passagem).
+
 Proximo:
-- trocar o email placeholder do rodape/metodologia por um contato real
-- curar manualmente pelo menos 1-2 temas de plano de governo por
-  candidato em `dados/planos_curados/`, pra o painel de comparacao
-  deixar de mostrar "nao verificado" pra tudo
 - decidir se/quando faz a Fase 2 do site publico (modo comparar)
-- repetir a coleta+revisao real pros 2 candidatos restantes (Samara,
-  Veterinario Wilson Grassi)
+- acompanhar o DivulgaCandContas: registro fechava 15/08/2026 (ja
+  passou); checar se a lista de 9 cresceu e reexecutar a coleta de
+  candidatos se sim
+- considerar se `buscar_trecho_plano.py` deveria virar comando com
+  interface melhor (hoje e' so' `print`, uso manual) se a curadoria for
+  repetida com frequencia (ex: quando a lista de candidatos crescer)
 - acompanhar o DivulgaCandContas: registro fechava 15/08/2026 (ja
   passou); checar se a lista de 9 cresceu e reexecutar a coleta de
   candidatos se sim
