@@ -1,13 +1,20 @@
 {% extends "base.html" %}
 {% block conteudo %}
-<h1>Escolha um tema e um candidato</h1>
-<p>
-  Veja, lado a lado, o que cada candidato registrou no plano de governo (TSE)
-  e o que disse publicamente sobre o mesmo tema — sempre com fonte, data e
-  link para o original.
-</p>
+<section style="padding: 1rem 0 2.5rem;">
+  <span class="selo-eyebrow">Eleições 2026</span>
+  <h1>O que prometeram × o que dizem</h1>
+  <p style="font-size: 1.15rem; max-width: 62ch; color: var(--texto-suave);">
+    Veja, lado a lado, o que cada candidato registrou no plano de governo (TSE)
+    e o que disse publicamente sobre o mesmo tema — sempre com fonte, data e
+    link para o original. Sem nota, sem ranking.
+  </p>
+  <p style="font-size: .85rem; font-weight: 700; color: var(--teal-forte); margin-top: 1rem;">
+    {{ candidatos|length }} candidato(s) cadastrado(s) · {{ temas|length }} temas
+    · <a href="/comparar">comparar dois ou mais →</a>
+  </p>
+</section>
 
-<h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:2rem;">Tema</h2>
+<h2 style="font-size:.85rem; text-transform:uppercase; letter-spacing:.06em; color:var(--texto-suave); margin-top:1rem;">Tema</h2>
 <div class="chips">
   <a class="chip{% if not tema_selecionado %} ativo{% endif %}" href="/">Todos os temas</a>
   {% for valor, rotulo in temas %}
@@ -15,13 +22,14 @@
   {% endfor %}
 </div>
 
-<h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:2rem;">Candidato</h2>
+<h2 style="font-size:.85rem; text-transform:uppercase; letter-spacing:.06em; color:var(--texto-suave); margin-top:2rem;">Candidato</h2>
 {% if not candidatos %}
 <p>Nenhum candidato cadastrado ainda.</p>
 {% endif %}
 <div class="grade-candidatos">
 {% for c in candidatos %}
   <a class="card-candidato" href="/candidato/{{ c.slug }}{% if tema_selecionado %}?tema={{ tema_selecionado }}{% endif %}">
+    <div class="avatar-candidato">{{ c.nome[0] }}</div>
     {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
     <h3>{{ c.nome }}</h3>
     <div class="partido">{{ c.partido }}{% if c.cargo %} — {{ c.cargo }}{% endif %}</div>

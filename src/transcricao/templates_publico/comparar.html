@@ -23,6 +23,7 @@
     {% for c in candidatos %}
     <label class="card-candidato card-opcao">
       <input type="checkbox" name="candidatos" value="{{ c.slug }}" {% if c.slug in slugs_escolhidos %}checked{% endif %}>
+      <div class="avatar-candidato">{{ c.nome[0] }}</div>
       {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
       <h3>{{ c.nome }}</h3>
       <div class="partido">{{ c.partido }}</div>
@@ -41,6 +42,7 @@
   <div class="comparar-grade">
     {% for col in colunas %}
     <div class="coluna-candidato">
+      <div class="avatar-candidato">{{ col.candidato.nome[0] }}</div>
       <h3><a href="/candidato/{{ col.candidato.slug }}?tema={{ tema_escolhido }}">{{ col.candidato.nome }}</a></h3>
       <div class="meta">
         {% if col.candidato.numero %}Número {{ col.candidato.numero }} — {% endif %}{{ col.candidato.partido }}

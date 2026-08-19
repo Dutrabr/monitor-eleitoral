@@ -4,9 +4,14 @@
 {% block og_descricao %}{{ og_descricao }}{% endblock %}
 {% block conteudo %}
 <p><a href="/">← Todos os candidatos</a></p>
-<h1>{{ candidato.nome }}</h1>
-<div class="meta">
-  {% if candidato.numero %}Número {{ candidato.numero }} — {% endif %}{{ candidato.partido }} — {{ candidato.cargo }}
+<div style="display:flex; align-items:center; gap:1rem;">
+  <div class="avatar-candidato" style="width:64px; height:64px; font-size:1.4rem;">{{ candidato.nome[0] }}</div>
+  <div>
+    <h1 style="margin-bottom:.2rem;">{{ candidato.nome }}</h1>
+    <div class="meta">
+      {% if candidato.numero %}Número {{ candidato.numero }} — {% endif %}{{ candidato.partido }} — {{ candidato.cargo }}
+    </div>
+  </div>
 </div>
 
 {% if candidato.plano_de_governo %}
