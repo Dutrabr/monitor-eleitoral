@@ -393,17 +393,60 @@ frase), Samara (plano de so' 2 paginas, sem conteudo de ciencia/
 tecnologia nem de cultura), Escritor Augusto Cury e Hertz Dias (sem
 projeto/secao dedicada a cultura, so' mencoes de passagem).
 
+Pronto (2026-08-19): modo comparar (`/comparar?tema=X&candidatos=a,b`) —
+2 a 4 candidatos lado a lado, mesmo tema, ordenados por numero de urna
+sempre (nao pela ordem da URL). Formulario GET puro, sem JS de tab
+framework; URL do resultado ja e' o link compartilhavel.
+
+Pronto (2026-08-19): redesign visual completo (header em gradiente,
+hero na home, avatares circulares, hover com elevacao, divisores em
+gradiente) — o layout anterior estava sobrio demais, dono do projeto
+nem tinha aberto o site ainda por causa disso. Paleta neutra mantida
+(sem vermelho/azul).
+
+Pronto (2026-08-19): lista de candidatos a Presidente cresceu de 9 pra
+13 (registro fechou 15/08). Adicionados CLARIANA BARAO, PABLO MARÇAL,
+RONALDO CAIADO, RUI COSTA PIMENTA. **Achado importante**: a API do
+DivulgaCandContas (`requests`/`curl` direto, o metodo que
+`plano_de_governo.py` e os scripts sempre usaram) passou a devolver
+403 do Akamai — nao so' pra candidato novo, pro dominio inteiro,
+mesmo com headers de navegador completos. NAO e' bug de codigo, e'
+bot-detection real; nao tentei contornar (proibido). Descoberto que a
+API responde normal quando chamada de dentro de uma aba real do
+Chrome ja carregada (via `fetch()` no console) — sessao real passa no
+desafio, script direto nao. Pra esses 4, dados + 1 PDF (Clariana)
+foram pegos assim; Ronaldo Caiado e Rui Costa Pimenta ficaram so' com
+o `idArquivo` anotado em `fonte_dados.plano_pendente_idArquivo` — o
+download automatico via blob+`<a download>` funcionou uma vez só,
+Chrome bloqueia downloads automaticos em sequencia depois da primeira
+(precisa de interacao real do usuario pra autorizar mais). Pablo
+Marçal genuinamente nao tem plano de governo cadastrado no TSE ainda
+(`arquivos` vazio na resposta da API).
+
+Nao feito, escopo grande demais pra uma sessao — Governador (197
+candidatos em 26 estados + DF) e "outros politicos" (Senador 316,
+Deputado Federal 7679, Deputado Estadual 11148): o dono topou
+"presidente e governador, tudo bem se nao der o resto". Mesmo so'
+governador, isso significa dezenas de novos `dados/candidatos/*.json`
++ PDFs de plano — viavel dado que e' so' registro factual (sem
+julgamento editorial), mas cada citacao de video desses candidatos
+ainda vai precisar do MESMO fluxo de revisao humana obrigatoria
+(regra 2) que os 9 de presidente — ou seja, essa expansao aumenta MUITO
+o trabalho de revisao manual do dono do projeto, nao so' o meu.
+
 Proximo:
-- decidir se/quando faz a Fase 2 do site publico (modo comparar)
-- acompanhar o DivulgaCandContas: registro fechava 15/08/2026 (ja
-  passou); checar se a lista de 9 cresceu e reexecutar a coleta de
-  candidatos se sim
-- considerar se `buscar_trecho_plano.py` deveria virar comando com
-  interface melhor (hoje e' so' `print`, uso manual) se a curadoria for
-  repetida com frequencia (ex: quando a lista de candidatos crescer)
-- acompanhar o DivulgaCandContas: registro fechava 15/08/2026 (ja
-  passou); checar se a lista de 9 cresceu e reexecutar a coleta de
-  candidatos se sim
+- se for expandir pra Governador: decidir por onde comecar (todos os
+  26 estados de uma vez, ou um piloto de poucos estados primeiro?) —
+  vale perguntar antes de rodar, dado o tamanho
+- baixar os planos de governo pendentes de Ronaldo Caiado
+  (idArquivo 280017106566) e Rui Costa Pimenta (idArquivo 280017113417)
+  — via navegador real (`fetch` + `<a download>`), um de cada vez
+- curar Saude/Educacao/Seguranca/etc. pros 4 candidatos novos de
+  Presidente (ainda sem nenhuma entrada em `dados/planos_curados/`)
+- decidir se/quando faz o resto da Fase 2 (busca com destaque, player
+  embutido, botao copiar link)
+- decidir sobre hospedagem publica — hoje o site so' roda em
+  localhost, ninguem fora desta maquina consegue ver
 
 ## Fora de escopo, por decisao
 
