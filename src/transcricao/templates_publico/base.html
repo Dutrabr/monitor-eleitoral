@@ -88,6 +88,20 @@
   .chip:hover { border-color: var(--teal); }
   .chip.ativo { background: var(--teal); border-color: var(--teal); color: #fff; }
 
+  .chip-opcao {
+    display: inline-flex; align-items: center; gap: .4rem; padding: .5rem 1rem; border-radius: 999px;
+    border: 1px solid var(--borda); background: var(--superficie); font-size: .9rem; font-weight: 600;
+    cursor: pointer; margin: 0 .4rem .4rem 0;
+  }
+  .chip-opcao:has(input:checked) { background: var(--teal); border-color: var(--teal); color: #fff; }
+
+  .card-opcao { cursor: pointer; display: block; }
+  .card-opcao input { margin-bottom: .5rem; }
+  .card-opcao:has(input:checked) { border-color: var(--teal); box-shadow: 0 0 0 2px var(--teal); }
+
+  .comparar-grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-top: 1rem; }
+  .coluna-candidato { background: var(--superficie); border: 1px solid var(--borda); border-radius: 14px; padding: 1.25rem; box-shadow: var(--sombra); }
+
   .grade-candidatos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
   .card-candidato {
     display: block; text-decoration: none; color: var(--texto); background: var(--superficie);
@@ -166,6 +180,7 @@
       <span>Plano de governo × redes sociais, lado a lado</span>
     </a>
     <nav class="topo-links">
+      <a href="/comparar">Comparar candidatos</a>
       <a href="/metodologia">Metodologia</a>
       <button id="alternar-tema" type="button" aria-label="Alternar tema claro/escuro">◐ Tema</button>
     </nav>

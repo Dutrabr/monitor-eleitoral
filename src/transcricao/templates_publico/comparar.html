@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block titulo %}{% if modo == "resultado" %}{{ og_titulo }}{% else %}Comparar candidatos — Monitor Eleitoral{% endif %}{% endblock %}
+{% block og_titulo %}{% if modo == "resultado" %}{{ og_titulo }}{% else %}Comparar candidatos — Monitor Eleitoral{% endif %}{% endblock %}
+{% block og_descricao %}{% if modo == "resultado" %}{{ og_descricao }}{% else %}Escolha um tema e de 2 a 4 candidatos para comparar plano de governo e redes sociais lado a lado.{% endif %}{% endblock %}
+{% block conteudo %}
+<p><a href="/">← Início</a></p>
+<h1>Comparar candidatos</h1>
+<p>Escolha um tema e de 2 a 4 candidatos. Mesma evidência de sempre, sem placar — a ordem das colunas é sempre por número de urna.</p>
+
+<form method="get" action="/comparar">
+  <h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:1.5rem;">Tema</h2>
+  <div class="chips">
+    {% for valor, rotulo in temas %}
+    <label class="chip-opcao">
+      <input type="radio" name="tema" value="{{ valor }}" {% if valor == tema_escolhido %}checked{% endif %}>
+      {{ rotulo }}
+    </label>
+    {% endfor %}
+  </div>
+
+  <h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:1.5rem;">Candidatos (de {{ 2 }} a {{ 4 }})</h2>
+  <div class="grade-candidatos">
+    {% for c in candidatos %}
+    <label class="card-candidato card-opcao">
+      <input type="checkbox" name="candidatos" value="{{ c.slug }}" {% if c.slug in slugs_escolhidos %}checked{% endif %}>
+      {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
+      <h3>{{ c.nome }}</h3>
+      <div class="partido">{{ c.partido }}</div>
+    </label>
+    {% endfor %}
+  </div>
+
+  {% if erro %}<p style="color:#B45309; font-weight:600; margin-top:1rem;">{{ erro }}</p>{% endif %}
+
+  <button type="submit" style="margin-top:1.5rem; background:var(--teal); color:#fff; border:none; padding:.75rem 1.5rem; border-radius:999px; font-weight:700; font-size:1rem; cursor:pointer;">Comparar</button>
+</form>
+
+{% if modo == "resultado" %}
+<section class="tema-secao">
+  <h2>{{ rotulo_tema }}</h2>
+  <div class="comparar-grade">
+    {% for col in colunas %}
+    <div class="coluna-candidato">
+      <h3><a href="/candidato/{{ col.candidato.slug }}?tema={{ tema_escolhido }}">{{ col.candidato.nome }}</a></h3>
+      <div class="meta">
+        {% if col.candidato.numero %}Número {{ col.candidato.numero }} — {% endif %}{{ col.candidato.partido }}
+      </div>
+
+      <h4 style="margin-top:1.25rem; font-size:.85rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave);">Plano de governo</h4>
+      {% if col.plano and col.plano.status == "consta" %}
+        <span class="rotulo-status consta">Consta no plano</span>
+        {% for trecho in col.plano.trechos %}
+        <div class="trecho">
+          &ldquo;{{ trecho.texto }}&rdquo;
+          <div class="fonte">
+            {% if trecho.pagina %}página {{ trecho.pagina }}{% endif %}
+            {% if col.candidato.plano_de_governo %} — <a href="{{ col.candidato.plano_de_governo }}{% if trecho.pagina %}#page={{ trecho.pagina }}{% endif %}" target="_blank" rel="noopener">ver no PDF</a>{% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      {% elif col.plano and col.plano.status == "nao_consta" %}
+        <span class="rotulo-status nao-consta">Não consta no plano</span>
+      {% else %}
+        <span class="rotulo-status nao-verificado">Não verificado ainda</span>
+      {% endif %}
+
+      <h4 style="margin-top:1.25rem; font-size:.85rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave);">Redes sociais</h4>
+      {% for c in col.citacoes %}
+      <div class="citacao">
+        <p>&ldquo;{{ c.texto }}&rdquo;</p>
+        <div class="fonte">
+          {% if c.publicado_em %}{{ c.publicado_em[:10] }} —{% endif %} {{ c.timestamp }}
+          {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver na fonte</a>{% endif %}
+        </div>
+      </div>
+      {% else %}
+      <p>Nenhuma publicação encontrada sobre este tema até o momento.</p>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}

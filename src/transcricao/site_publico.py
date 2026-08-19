@@ -21,7 +21,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse, HTMLResponse, Response
 from fastapi.templating import Jinja2Templates
 
@@ -42,6 +42,9 @@ CAMPOS_EXPORT = [
     "candidato_slug", "candidato_nome", "partido", "temas",
     "texto", "timestamp", "url_origem", "publicado_em",
 ]
+
+MIN_COMPARAR = 2
+MAX_COMPARAR = 4
 
 
 def criar_app(
@@ -146,6 +149,102 @@ def criar_app(
                 "timeline": timeline,
                 "og_titulo": og_titulo,
                 "og_descricao": og_descricao,
+            },
+        )
+
+    @app.get("/comparar", response_class=HTMLResponse)
+    def comparar(
+        request: Request,
+        tema: str | None = None,
+        candidatos: list[str] | None = Query(None),
+    ):
+        """Modo comparar: mesmo tema, 2 a 4 candidatos lado a lado.
+
+        Sem totalizacao, sem placar — cada coluna e' so' a mesma evidencia que
+        `/candidato/{slug}` ja mostra, filtrada pro tema escolhido. Ordem das
+        colunas e' sempre por numero de urna (regra 3), nunca pela ordem em
+        que os slugs vieram na URL — assim duas pessoas comparando os mesmos
+        candidatos sempre veem a mesma ordem.
+        """
+        temas_navegaveis = [
+            (valor, rotulo) for valor, rotulo in TEMAS_DISPONIVEIS
+            if valor != TEMA_SEM_CLASSIFICACAO
+        ]
+        todos_candidatos = _candidatos_por_numero()
+
+        slugs_pedidos: list[str] = []
+        for item in candidatos or []:
+            slugs_pedidos.extend(s.strip() for s in item.split(",") if s.strip())
+
+        contexto_base = {
+            "temas": temas_navegaveis,
+            "candidatos": todos_candidatos,
+            "tema_escolhido": tema,
+            "slugs_escolhidos": slugs_pedidos,
+        }
+
+        if not tema or not slugs_pedidos:
+            return templates.TemplateResponse(
+                request, "comparar.html", {**contexto_base, "modo": "selecionar", "erro": None}
+            )
+
+        mapa_candidatos = {c["slug"]: c for c in todos_candidatos}
+        slugs_unicos = list(dict.fromkeys(slugs_pedidos))
+        invalidos = [s for s in slugs_unicos if s not in mapa_candidatos]
+        temas_validos = dict(temas_navegaveis)
+
+        erro = None
+        if invalidos:
+            erro = f"candidato(s) não encontrado(s): {', '.join(invalidos)}"
+        elif tema not in temas_validos:
+            erro = f"tema '{tema}' inválido"
+        elif not (MIN_COMPARAR <= len(slugs_unicos) <= MAX_COMPARAR):
+            erro = (
+                f"escolha entre {MIN_COMPARAR} e {MAX_COMPARAR} candidatos "
+                f"(você escolheu {len(slugs_unicos)})"
+            )
+
+        if erro:
+            return templates.TemplateResponse(
+                request, "comparar.html", {**contexto_base, "modo": "selecionar", "erro": erro}
+            )
+
+        selecionados = sorted(
+            (mapa_candidatos[s] for s in slugs_unicos), key=lambda c: c.get("numero") or 0
+        )
+        publicados = _publicados()
+        colunas = []
+        for c in selecionados:
+            citacoes = citacoes_do_candidato(c["falante_id"], publicados)
+            for cit in citacoes:
+                cit["url_com_timestamp"] = url_com_timestamp(cit.get("url_origem"), cit["inicio"])
+            plano_curado = carregar_plano_curado(pasta_planos_curados, c["slug"])
+            colunas.append(
+                {
+                    "candidato": c,
+                    "citacoes": agrupar_por_tema(citacoes).get(tema, []),
+                    "plano": plano_curado.get(tema),
+                }
+            )
+
+        rotulo_tema = temas_validos[tema]
+        nomes = " × ".join(c["nome"] for c in selecionados)
+
+        return templates.TemplateResponse(
+            request,
+            "comparar.html",
+            {
+                **contexto_base,
+                "slugs_escolhidos": [c["slug"] for c in selecionados],
+                "modo": "resultado",
+                "erro": None,
+                "rotulo_tema": rotulo_tema,
+                "colunas": colunas,
+                "og_titulo": f"{rotulo_tema}: {nomes} — Monitor Eleitoral",
+                "og_descricao": (
+                    f"Compare o que {nomes} registraram no plano de governo e "
+                    f"disseram publicamente sobre {rotulo_tema.lower()}."
+                ),
             },
         )
 
