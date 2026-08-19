@@ -291,10 +291,30 @@ verdade em vez de trafegar anonimo. CLI ganhou `--navegador-cookies` e
 5 testes novos cobrindo o comportamento (padrao ligado, desligavel,
 customizavel, presente em toda tentativa da cadeia de fallback).
 
+Pronto (2026-08-19): coletado o segundo dos 9 candidatos, Renan Santos
+(canal oficial achado pelo site cadastrado no TSE, que linkava pro
+YouTube @RenanSantosMBL). Achado e corrigido um gap real no caminho:
+o video tinha legenda automatica do YouTube, entao caiu em
+`_processar_com_legenda` — e essa funcao nunca chamava
+`proveniencia.extrair_audio`, so' o caminho Whisper gerava o `.wav`.
+Resultado: `site_revisao.py` devolvia 404 em `/item/{nome}/audio` pra
+qualquer item vindo de legenda, travando a revisao humana (regra 2 exige
+poder ouvir). Nunca tinha aparecido porque os 3 videos de YouTube
+coletados antes (Lula, Flavio, Zema) caiam todos no caminho Whisper.
+Corrigido chamando `extrair_audio` tambem em `_processar_com_legenda`
+(mesmo padrao de `pipeline.processar`), com teste novo usando ffmpeg
+real (`test_caminho_de_legenda_tambem_gera_wav_para_o_player_de_revisao`).
+Pro item ja coletado antes do fix, o `.wav` foi gerado retroativamente do
+`.mp4` original ja baixado (sem novo download) e o manifesto de
+proveniencia foi atualizado a mao com o registro da extracao.
+
 Proximo:
-- repetir a coleta+revisao real pros outros 8 candidatos
-- acompanhar o DivulgaCandContas ate' 15/08/2026: a lista de 9 pode
-  crescer; reexecutar a coleta de candidatos quando fechar
+- revisar/publicar o video do Renan Santos (346 segmentos na fila,
+  aguardando revisao humana no site_revisao.py)
+- repetir a coleta+revisao real pros outros 7 candidatos restantes
+- acompanhar o DivulgaCandContas: registro fechava 15/08/2026 (ja
+  passou); checar se a lista de 9 cresceu e reexecutar a coleta de
+  candidatos se sim
 
 ## Fora de escopo, por decisao
 

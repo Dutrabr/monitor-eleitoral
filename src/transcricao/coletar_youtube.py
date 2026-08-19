@@ -230,6 +230,10 @@ def _processar_com_legenda(info: dict[str, Any], saida: Path) -> Transcricao:
         },
     )
 
+    # audio para o player de site_revisao.py (regra 2: humano precisa poder ouvir)
+    caminho_wav = saida / f"{base}.wav"
+    manifesto["audio"] = proveniencia.extrair_audio(info["arquivo"], caminho_wav)
+
     conteudo = info["legenda"].read_text(encoding="utf-8")
     segmentos = legendas.montar_segmentos(conteudo)
 

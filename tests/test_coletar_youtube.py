@@ -1,6 +1,10 @@
+import shutil
+import subprocess
 import sys
 import types
 from pathlib import Path
+
+import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
@@ -9,8 +13,32 @@ from transcricao.coletar_youtube import (
     FORMATO_RESERVA,
     _data_para_iso,
     _escolher_legenda,
+    _processar_com_legenda,
     baixar,
 )
+
+ffmpeg_ok = shutil.which("ffmpeg") is not None
+requer_ffmpeg = pytest.mark.skipif(not ffmpeg_ok, reason="ffmpeg ausente")
+
+VTT_SIMPLES = """WEBVTT
+
+00:00:00.080 --> 00:00:02.500
+vamos ampliar a rede federal de ensino tecnico
+"""
+
+
+@pytest.fixture
+def video_original(tmp_path):
+    """Arquivo de midia real, gerado pelo ffmpeg — simula o .mp4 baixado do YouTube."""
+    destino = tmp_path / "abc123.mp4"
+    subprocess.run(
+        [
+            "ffmpeg", "-f", "lavfi", "-i", "sine=frequency=440:duration=3",
+            "-y", str(destino), "-loglevel", "error",
+        ],
+        check=True,
+    )
+    return destino
 
 
 def test_data_para_iso_converte_upload_date():
@@ -253,3 +281,33 @@ def test_cookies_aplicam_em_todas_as_tentativas_da_cadeia(monkeypatch, tmp_path)
     assert len(chamadas) == 3
     for c in chamadas:
         assert c["cookiesfrombrowser"] == ("chrome",)
+
+
+@requer_ffmpeg
+def test_caminho_de_legenda_tambem_gera_wav_para_o_player_de_revisao(
+    tmp_path, video_original
+):
+    """site_revisao.py serve /item/{nome}/audio a partir de um .wav ao lado
+    da fila — sem ele, o revisor nao consegue ouvir o trecho (regra 2).
+    O caminho de legenda pulava esse passo (so' o caminho Whisper gerava
+    o wav), entao todo item vindo de legenda ficava sem audio tocavel."""
+    legenda = tmp_path / "abc123.pt.vtt"
+    legenda.write_text(VTT_SIMPLES, encoding="utf-8")
+
+    info = {
+        "arquivo": video_original,
+        "legenda": legenda,
+        "legenda_tipo": "automatica",
+        "legenda_idioma": "pt",
+        "video_id": "abc123",
+        "titulo": "titulo de teste",
+        "canal": "@canal",
+        "url": "https://youtube.com/watch?v=abc123",
+        "publicado_em": None,
+        "coletado_em": "2026-08-18T12:00:00+00:00",
+    }
+
+    saida = tmp_path / "saida"
+    _processar_com_legenda(info, saida)
+
+    assert (saida / "abc123.wav").exists()
