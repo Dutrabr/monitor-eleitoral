@@ -14,6 +14,8 @@ def _fila(n=2):
         "arquivo": "video.mp4",
         "hash_sha256_original": "abc123",
         "url": "https://exemplo/watch?v=1",
+        "publicado_em": "2026-08-01T00:00:00+00:00",
+        "coletado_em": "2026-08-18T12:00:00+00:00",
         "itens": [
             {
                 "inicio": float(i),
@@ -76,6 +78,8 @@ def test_montar_publicacao_so_inclui_confirmados():
     assert len(pub["citacoes"]) == 1
     assert pub["citacoes"][0]["texto"] == "texto corrigido"
     assert pub["hash_sha256_original"] == "abc123"
+    assert pub["publicado_em"] == "2026-08-01T00:00:00+00:00"
+    assert pub["coletado_em"] == "2026-08-18T12:00:00+00:00"
 
 
 def test_montar_publicacao_usa_texto_original_se_sem_correcao():

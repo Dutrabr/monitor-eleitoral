@@ -292,6 +292,24 @@ def test_fila_traz_timestamp_para_conferencia(midia, tmp_path, monkeypatch):
         assert "inicio" in item
 
 
+def test_fila_traz_data_de_publicacao_e_coleta(midia, tmp_path, monkeypatch):
+    """Sem isso, cards e linha do tempo do site publico nao tem data pra mostrar."""
+    monkeypatch.setattr(
+        mod_diarizar, "diarizar", lambda *a, **k: [Turno(0.0, 6.0, "SPEAKER_00")]
+    )
+    t = pipeline.processar(
+        midia,
+        fonte="youtube",
+        saida=tmp_path / "s",
+        modelo=ModeloFalso(),
+        publicado_em="2026-08-01T00:00:00+00:00",
+        coletado_em="2026-08-18T12:00:00+00:00",
+    )
+    fila = pipeline.fila_de_verificacao(t)
+    assert fila["publicado_em"] == "2026-08-01T00:00:00+00:00"
+    assert fila["coletado_em"] == "2026-08-18T12:00:00+00:00"
+
+
 def test_hms_formata_certo():
     assert pipeline._hms(0) == "00:00:00"
     assert pipeline._hms(61) == "00:01:01"

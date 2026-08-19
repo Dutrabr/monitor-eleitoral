@@ -123,5 +123,7 @@ def montar_publicacao(fila: dict[str, Any], decisoes: dict[str, Any]) -> dict[st
         "arquivo": fila.get("arquivo"),
         "hash_sha256_original": fila.get("hash_sha256_original"),
         "url": fila.get("url"),
+        "publicado_em": fila.get("publicado_em"),
+        "coletado_em": fila.get("coletado_em"),
         "citacoes": citacoes,
     }

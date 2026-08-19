@@ -123,6 +123,8 @@ def fila_de_verificacao(t: Transcricao) -> dict[str, Any]:
         "arquivo": t.proveniencia.get("arquivo"),
         "hash_sha256_original": t.proveniencia.get("hash_sha256_original"),
         "url": t.proveniencia.get("url"),
+        "publicado_em": t.proveniencia.get("publicado_em_utc"),
+        "coletado_em": t.proveniencia.get("coletado_em_utc"),
         "exige_revisao_humana": t.exige_revisao_humana,
         "multi_falante": t.multi_falante,
         "diarizacao_disponivel": t.diarizacao_disponivel,

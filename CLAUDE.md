@@ -308,10 +308,69 @@ Pro item ja coletado antes do fix, o `.wav` foi gerado retroativamente do
 `.mp4` original ja baixado (sem novo download) e o manifesto de
 proveniencia foi atualizado a mao com o registro da extracao.
 
+Pronto (2026-08-19): Renan Santos e Hertz Dias coletados, revisados pelo
+dono do projeto e publicados (Renan: 346 citacoes via legenda do YouTube;
+Hertz: 7 citacoes via Instagram Reel, Whisper + diarizacao real). No caso
+do Hertz, achado um gap na revisao: o campo `falante` ficou em branco no
+formulario (so' 1 falante detectado), entao a citacao publicada nao
+batia com `falante_id` do candidato e ficava invisivel no site publico —
+corrigido a mao nas decisoes (`falante_confirmado`) apos confirmar com o
+dono que era mesmo o candidato falando, e republicado. 7 dos 9 candidatos
+tem citacao publicada agora; faltam Samara e Veterinario Wilson Grassi.
+
+Pronto (2026-08-19): site publico v2, Fase 1 — comparacao por tema entre
+plano de governo e redes sociais, por candidato. Motivado por um prompt de
+design que o dono trouxe pedindo exatamente esse cruzamento; decisao
+tomada junto com ele pra nao virar "interpretacao automatizada" (o que a
+regra 1 proibe): o pareamento tema-a-tema do lado do plano e' **curadoria
+manual**, mesmo espirito de `revisao.py` — nenhum algoritmo decide se um
+tema "consta" no plano.
+
+- Novo: `dados/planos_curados/{slug}.json` (fora do git, hand-edited),
+  schema documentado no docstring de `candidatos.py`. Por tema:
+  `{"status": "consta", "trechos": [{"texto":..., "pagina":...}]}` ou
+  `{"status": "nao_consta"}`. Tema ausente do arquivo = "nao verificado
+  ainda" — nunca vira "nao consta" por omissao (mesmo principio de
+  `qualidade.py`). `carregar_plano_curado` levanta erro claro se o
+  `status` gravado nao for um dos dois validos, pra pegar erro de
+  digitacao na curadoria cedo.
+- Gap pequeno corrigido no caminho: `publicado_em`/`coletado_em` existiam
+  em `proveniencia.manifesto` mas nunca eram propagados por
+  `pipeline.fila_de_verificacao` nem `revisao.montar_publicacao` — sem
+  isso nao dava pra mostrar data nos cards nem montar a linha do tempo.
+  Agora os dois campos atravessam a cadeia toda.
+- `site_publico.py` ganhou: `/candidato/{slug}` redesenhado com painel de
+  2 colunas por tema (plano curado × citacoes, com os 3 rotulos "Consta no
+  plano" / "Nao consta no plano" / "Tema nao verificado ainda"), linha do
+  tempo cronologica, `/metodologia`, exports `/dados/citacoes.json` e
+  `/dados/citacoes.csv`. Candidatos agora ordenados por **numero de urna**
+  em vez de alfabetico (uma das duas opcoes que o proprio prompt de design
+  permitia; descartei "ordem aleatoria por sessao" porque URL de
+  comparacao compartilhavel ficaria mais complexa sem ganho real).
+- Design: paleta teal/ambar/grafite, dark mode (`prefers-color-scheme` +
+  toggle persistido em `localStorage`), fonte de sistema em vez de
+  Inter Tight/Satoshi (evita gerenciar asset binario de fonte por pouco
+  ganho visual), tudo inline em `base.html` — sem build step, sem pacote
+  novo. Paineis 2-colunas/abas-mobile sao CSS puro (radio+label,
+  `nth-of-type` estrutural), sem framework de tabs em JS — testado a
+  logica de toggle via JS direto no navegador (a ferramenta de resize de
+  janela desta sessao nao mudava o viewport real pra confirmar visualmente
+  em largura de celular, mas a media query em si e' CSS padrao).
+- **Pendencia real antes de publicar de verdade**: o rodape e a pagina de
+  metodologia linkam `mailto:contato@exemplo.org` — e' placeholder, nao
+  um email real. Trocar antes de expor o site pra fora do localhost.
+- Fase 2 (nao feita ainda, escopo separado por decisao — ver plano
+  salvo): modo comparar 2-4 candidatos, busca com destaque, player
+  embutido do YouTube, botao "copiar link", animacoes de entrada.
+
 Proximo:
-- revisar/publicar o video do Renan Santos (346 segmentos na fila,
-  aguardando revisao humana no site_revisao.py)
-- repetir a coleta+revisao real pros outros 7 candidatos restantes
+- trocar o email placeholder do rodape/metodologia por um contato real
+- curar manualmente pelo menos 1-2 temas de plano de governo por
+  candidato em `dados/planos_curados/`, pra o painel de comparacao
+  deixar de mostrar "nao verificado" pra tudo
+- decidir se/quando faz a Fase 2 do site publico (modo comparar)
+- repetir a coleta+revisao real pros 2 candidatos restantes (Samara,
+  Veterinario Wilson Grassi)
 - acompanhar o DivulgaCandContas: registro fechava 15/08/2026 (ja
   passou); checar se a lista de 9 cresceu e reexecutar a coleta de
   candidatos se sim

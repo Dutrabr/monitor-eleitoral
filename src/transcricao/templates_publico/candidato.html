@@ -1,32 +1,119 @@
 {% extends "base.html" %}
+{% block titulo %}{{ og_titulo }}{% endblock %}
+{% block og_titulo %}{{ og_titulo }}{% endblock %}
+{% block og_descricao %}{{ og_descricao }}{% endblock %}
 {% block conteudo %}
+<p><a href="/">← Todos os candidatos</a></p>
 <h1>{{ candidato.nome }}</h1>
-<div class="meta">{{ candidato.partido }} — {{ candidato.cargo }}</div>
+<div class="meta">
+  {% if candidato.numero %}Número {{ candidato.numero }} — {% endif %}{{ candidato.partido }} — {{ candidato.cargo }}
+</div>
 
 {% if candidato.plano_de_governo %}
-<div class="plano">
-  <a href="{{ candidato.plano_de_governo }}" target="_blank" rel="noopener">Ler o plano de governo (PDF)</a>
-</div>
+<p style="margin-top:1rem;">
+  <a href="{{ candidato.plano_de_governo }}" target="_blank" rel="noopener">Ler o plano de governo completo (PDF)</a>
+</p>
 {% endif %}
 
 <p>{{ total_citacoes }} citação(ões) publicamente confirmada(s), agrupadas por tema.</p>
+
+<div class="chips" role="navigation" aria-label="Ir para tema">
+  {% for tema in temas_ordenados %}
+  <a class="chip{% if tema == tema_foco %} ativo{% endif %}" href="#tema-{{ tema }}">{{ rotulos_tema.get(tema, tema) }}</a>
+  {% endfor %}
+</div>
 
 {% if not temas_ordenados %}
 <p>Nenhuma citação publicada ainda para este candidato.</p>
 {% endif %}
 
 {% for tema in temas_ordenados %}
-<div class="tema">
+<section class="tema-secao" id="tema-{{ tema }}">
   <h2>{{ rotulos_tema.get(tema, tema) }}</h2>
-  {% for c in grupos[tema] %}
-  <div class="citacao">
-    <p>&ldquo;{{ c.texto }}&rdquo;</p>
-    <div class="fonte">
-      {{ c.timestamp }}
-      {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver trecho na fonte</a>{% endif %}
+
+  {% if tema == tema_sem_classificacao %}
+    <p class="contagem">{{ (grupos.get(tema) or [])|length }} citação(ões) sem tema marcado ainda.</p>
+    {% for c in grupos.get(tema) or [] %}
+    <div class="citacao">
+      <p>&ldquo;{{ c.texto }}&rdquo;</p>
+      <div class="fonte">
+        {% if c.publicado_em %}{{ c.publicado_em[:10] }} —{% endif %} {{ c.timestamp }}
+        {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver trecho na fonte</a>{% endif %}
+      </div>
     </div>
-  </div>
-  {% endfor %}
-</div>
+    {% endfor %}
+  {% else %}
+    <div class="comparacao">
+      <input type="radio" id="tab-plano-{{ loop.index0 }}" name="aba-{{ loop.index0 }}" class="aba-radio" checked>
+      <input type="radio" id="tab-redes-{{ loop.index0 }}" name="aba-{{ loop.index0 }}" class="aba-radio">
+      <div class="comparacao-abas">
+        <label for="tab-plano-{{ loop.index0 }}">Plano de governo</label>
+        <label for="tab-redes-{{ loop.index0 }}">Redes sociais</label>
+      </div>
+      <div class="paineis">
+        <div class="coluna coluna-plano">
+          <h3>Plano de governo (TSE)</h3>
+          {% set entrada = plano_curado.get(tema) %}
+          {% if entrada and entrada.status == "consta" %}
+            <span class="rotulo-status consta">Consta no plano</span>
+            {% for trecho in entrada.trechos %}
+            <div class="trecho">
+              &ldquo;{{ trecho.texto }}&rdquo;
+              <div class="fonte">
+                {% if trecho.pagina %}página {{ trecho.pagina }}{% endif %}
+                {% if candidato.plano_de_governo %} —
+                  <a href="{{ candidato.plano_de_governo }}{% if trecho.pagina %}#page={{ trecho.pagina }}{% endif %}" target="_blank" rel="noopener">ver no PDF</a>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          {% elif entrada and entrada.status == "nao_consta" %}
+            <span class="rotulo-status nao-consta">Não consta no plano</span>
+            <p class="fonte">Um revisor leu o plano de governo completo e não encontrou este tema.</p>
+          {% else %}
+            <span class="rotulo-status nao-verificado">Tema não verificado no plano ainda</span>
+            <p class="fonte">Ainda não checamos o plano de governo deste candidato para este tema.</p>
+          {% endif %}
+        </div>
+        <div class="coluna coluna-redes">
+          <h3>Redes sociais</h3>
+          {% for c in grupos.get(tema) or [] %}
+          <div class="citacao">
+            <p>&ldquo;{{ c.texto }}&rdquo;</p>
+            <div class="fonte">
+              {% if c.publicado_em %}{{ c.publicado_em[:10] }} —{% endif %} {{ c.timestamp }}
+              {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver trecho na fonte</a>{% endif %}
+            </div>
+          </div>
+          {% else %}
+          <p>Nenhuma publicação encontrada sobre este tema até o momento.</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</section>
 {% endfor %}
+
+{% if timeline %}
+<section class="tema-secao">
+  <h2>Linha do tempo</h2>
+  <ol class="linha-tempo">
+    {% for c in timeline %}
+    <li>
+      <div class="data">{{ c.publicado_em[:10] if c.publicado_em else "data desconhecida" }}</div>
+      <p>&ldquo;{{ c.texto }}&rdquo;</p>
+      {% if c.url_com_timestamp %}<a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver na fonte</a>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+{% if tema_foco %}
+<script>
+  var alvo = document.getElementById("tema-{{ tema_foco }}");
+  if (alvo) alvo.scrollIntoView();
+</script>
+{% endif %}
 {% endblock %}

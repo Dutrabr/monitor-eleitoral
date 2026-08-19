@@ -1,13 +1,31 @@
 {% extends "base.html" %}
 {% block conteudo %}
-<h1>Candidatos</h1>
+<h1>Escolha um tema e um candidato</h1>
+<p>
+  Veja, lado a lado, o que cada candidato registrou no plano de governo (TSE)
+  e o que disse publicamente sobre o mesmo tema — sempre com fonte, data e
+  link para o original.
+</p>
+
+<h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:2rem;">Tema</h2>
+<div class="chips">
+  <a class="chip{% if not tema_selecionado %} ativo{% endif %}" href="/">Todos os temas</a>
+  {% for valor, rotulo in temas %}
+  <a class="chip{% if tema_selecionado == valor %} ativo{% endif %}" href="/?tema={{ valor }}">{{ rotulo }}</a>
+  {% endfor %}
+</div>
+
+<h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:2rem;">Candidato</h2>
 {% if not candidatos %}
 <p>Nenhum candidato cadastrado ainda.</p>
 {% endif %}
+<div class="grade-candidatos">
 {% for c in candidatos %}
-<div class="candidato-lista">
-  <a href="/candidato/{{ c.slug }}">{{ c.nome }}</a>
-  <div class="meta">{{ c.partido }} — {{ c.cargo }}</div>
-</div>
+  <a class="card-candidato" href="/candidato/{{ c.slug }}{% if tema_selecionado %}?tema={{ tema_selecionado }}{% endif %}">
+    {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
+    <h3>{{ c.nome }}</h3>
+    <div class="partido">{{ c.partido }}{% if c.cargo %} — {{ c.cargo }}{% endif %}</div>
+  </a>
 {% endfor %}
+</div>
 {% endblock %}

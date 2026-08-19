@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block titulo %}Metodologia — Monitor Eleitoral{% endblock %}
+{% block og_titulo %}Metodologia — Monitor Eleitoral{% endblock %}
+{% block og_descricao %}Como o Monitor Eleitoral coleta, transcreve e revisa o conteúdo — e o que o site não faz.{% endblock %}
+{% block conteudo %}
+<p><a href="/">← Voltar</a></p>
+<h1>Metodologia</h1>
+
+<h2>O que este site faz</h2>
+<p>
+  Mostra, lado a lado e por tema, o que cada candidato registrou no plano de
+  governo entregue à Justiça Eleitoral e o que disse publicamente em vídeos
+  e redes sociais. Todo trecho citado traz fonte, data e link direto para o
+  original.
+</p>
+
+<h2>O que este site NÃO faz</h2>
+<ul>
+  <li>Não dá nota, ranking, selo de confiabilidade ou qualquer placar agregado.</li>
+  <li>Não classifica nenhuma fala como "mentira" ou "verdade" — os únicos
+    rótulos usados são "consta no plano", "não consta no plano" ou "tema
+    ainda não verificado".</li>
+  <li>Não recomenda voto, nem sugere que um candidato é melhor que outro.
+    Isso é vedado pela Resolução TSE 23.610/2019 (art. 9º-B, alterada pela
+    Res. 23.755/2026), que proíbe sistemas de IA de recomendar, ranquear ou
+    priorizar candidatos — mesmo a pedido do usuário.</li>
+  <li>Não cruza automaticamente o texto do plano com as falas por meio de
+    algoritmo. Todo pareamento entre um trecho do plano e um tema é feito
+    por um humano lendo o documento.</li>
+</ul>
+
+<h2>Como o conteúdo chega até aqui</h2>
+<ol>
+  <li><strong>Coleta.</strong> Vídeos são baixados diretamente das fontes
+    oficiais do candidato (canal do YouTube ou perfil do Instagram
+    registrados junto ao TSE) — nunca de agregadores ou rippers de
+    terceiros, para preservar a cadeia de custódia. O hash do arquivo como
+    baixado é registrado antes de qualquer conversão.</li>
+  <li><strong>Transcrição.</strong> Feita por reconhecimento de fala
+    automático (Whisper) ou, quando o YouTube já tem legenda, a partir
+    dela. Nos dois casos, a transcrição automática nunca vai ao ar sem
+    revisão humana.</li>
+  <li><strong>Identificação de quem fala.</strong> Um modelo de
+    diarização separa vozes diferentes no áudio. Quando não é possível
+    identificar o falante com confiança, o trecho fica sinalizado e um
+    humano decide.</li>
+  <li><strong>Revisão humana obrigatória.</strong> Nenhuma citação é
+    publicada sem que uma pessoa tenha ouvido o trecho de áudio original e
+    confirmado o texto, o falante e o tema.</li>
+  <li><strong>Plano de governo.</strong> O PDF é baixado da API oficial do
+    TSE (DivulgaCandContas) e servido por este site, para não depender da
+    disponibilidade do portal. Os trechos usados na comparação por tema são
+    selecionados manualmente por um revisor lendo o documento.</li>
+</ol>
+
+<h2>Correção de erros</h2>
+<p>
+  Encontrou um trecho errado, mal atribuído ou fora de contexto? Use o link
+  "Reportar um erro" em qualquer citação, ou escreva para
+  <a href="mailto:contato@exemplo.org">contato@exemplo.org</a>. Correções
+  passam pela mesma revisão humana usada na publicação original.
+</p>
+
+<h2>Dados abertos</h2>
+<p>
+  Todas as citações publicadas estão disponíveis para download em
+  <a href="/dados/citacoes.json">JSON</a> e
+  <a href="/dados/citacoes.csv">CSV</a>.
+</p>
+{% endblock %}

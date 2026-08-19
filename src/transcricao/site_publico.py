@@ -2,10 +2,12 @@
 
 Regra invioravel (CLAUDE.md, regra 1): sem nota, sem ranking, sem "vale a
 pena votar". Este site mostra o plano de governo (link para o PDF
-original, baixado por `plano_de_governo.py`) e as citacoes publicamente
-confirmadas (ja passaram por revisao humana obrigatoria — ver
-`site_revisao.py`), agrupadas por tema. Nao ha cruzamento automatico entre
-"prometeu" e "disse" — a leitura e' de quem le.
+original, baixado por `plano_de_governo.py`, mais trechos curados
+manualmente por tema — ver `candidatos.carregar_plano_curado`) e as
+citacoes publicamente confirmadas (ja passaram por revisao humana
+obrigatoria — ver `site_revisao.py`), agrupadas por tema. Nao ha
+cruzamento automatico entre "prometeu" e "disse" — mesmo o pareamento por
+tema do lado do plano e' curadoria manual, nunca inferido por algoritmo.
 
 Rodar: python3 -m transcricao.site_publico --candidatos dados/candidatos --dados dados/transcricoes
 """
@@ -13,31 +15,48 @@ Rodar: python3 -m transcricao.site_publico --candidatos dados/candidatos --dados
 from __future__ import annotations
 
 import argparse
+import csv
+import io
 import json
 from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.responses import FileResponse, HTMLResponse, Response
 from fastapi.templating import Jinja2Templates
 
 from .candidatos import (
+    TEMA_SEM_CLASSIFICACAO,
     agrupar_por_tema,
     carregar_candidatos,
+    carregar_plano_curado,
     citacoes_do_candidato,
+    citacoes_para_linhas,
     url_com_timestamp,
 )
-from .site_revisao import ROTULOS_TEMA
+from .site_revisao import ROTULOS_TEMA, TEMAS_DISPONIVEIS
 
 TEMPLATES_DIR = Path(__file__).parent / "templates_publico"
 
+CAMPOS_EXPORT = [
+    "candidato_slug", "candidato_nome", "partido", "temas",
+    "texto", "timestamp", "url_origem", "publicado_em",
+]
+
 
 def criar_app(
-    pasta_candidatos: Path, pasta_dados: Path, pasta_planos: Path | None = None
+    pasta_candidatos: Path,
+    pasta_dados: Path,
+    pasta_planos: Path | None = None,
+    pasta_planos_curados: Path | None = None,
 ) -> FastAPI:
     pasta_candidatos = Path(pasta_candidatos)
     pasta_dados = Path(pasta_dados)
     pasta_planos = Path(pasta_planos) if pasta_planos else pasta_candidatos.parent / "planos_de_governo"
+    pasta_planos_curados = (
+        Path(pasta_planos_curados) if pasta_planos_curados
+        else pasta_candidatos.parent / "planos_curados"
+    )
     templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
     app = FastAPI(title="Monitor Eleitoral")
 
@@ -45,6 +64,10 @@ def criar_app(
         if not pasta_candidatos.exists():
             return []
         return carregar_candidatos(pasta_candidatos)
+
+    def _candidatos_por_numero() -> list[dict[str, Any]]:
+        """Ordem de exibicao publica: numero de urna (regra 3, simetria total)."""
+        return sorted(_candidatos(), key=lambda c: c.get("numero") or 0)
 
     def _publicados() -> list[dict[str, Any]]:
         if not pasta_dados.exists():
@@ -55,13 +78,23 @@ def criar_app(
         ]
 
     @app.get("/", response_class=HTMLResponse)
-    def index(request: Request):
+    def index(request: Request, tema: str | None = None):
+        temas_navegaveis = [
+            (valor, rotulo) for valor, rotulo in TEMAS_DISPONIVEIS
+            if valor != TEMA_SEM_CLASSIFICACAO
+        ]
         return templates.TemplateResponse(
-            request, "index.html", {"candidatos": _candidatos()}
+            request,
+            "index.html",
+            {
+                "candidatos": _candidatos_por_numero(),
+                "temas": temas_navegaveis,
+                "tema_selecionado": tema,
+            },
         )
 
     @app.get("/candidato/{slug}", response_class=HTMLResponse)
-    def candidato(request: Request, slug: str):
+    def candidato(request: Request, slug: str, tema: str | None = None):
         candidatos = {c["slug"]: c for c in _candidatos()}
         c = candidatos.get(slug)
         if not c:
@@ -73,7 +106,30 @@ def criar_app(
                 cit.get("url_origem"), cit["inicio"]
             )
         grupos = agrupar_por_tema(citacoes)
-        temas_ordenados = sorted(grupos.keys(), key=lambda t: ROTULOS_TEMA.get(t, t))
+        plano_curado = carregar_plano_curado(pasta_planos_curados, slug)
+
+        temas_presentes = set(grupos.keys()) | set(plano_curado.keys())
+        temas_ordenados = sorted(temas_presentes, key=lambda t: ROTULOS_TEMA.get(t, t))
+        tema_foco = tema if tema in temas_ordenados else None
+
+        timeline = sorted(
+            (cit for cit in citacoes if cit.get("publicado_em")),
+            key=lambda cit: cit["publicado_em"],
+        )
+
+        rotulo_tema_foco = ROTULOS_TEMA.get(tema_foco, tema_foco) if tema_foco else None
+        if rotulo_tema_foco:
+            og_titulo = f"{c['nome']} sobre {rotulo_tema_foco} — Monitor Eleitoral"
+            og_descricao = (
+                f"O que {c['nome']} registrou no plano de governo sobre "
+                f"{rotulo_tema_foco.lower()}, comparado ao que disse nas redes sociais."
+            )
+        else:
+            og_titulo = f"{c['nome']} — Monitor Eleitoral"
+            og_descricao = (
+                f"Compare o que {c['nome']} registrou no plano de governo com o "
+                "que disse publicamente, tema por tema."
+            )
 
         return templates.TemplateResponse(
             request,
@@ -81,9 +137,15 @@ def criar_app(
             {
                 "candidato": c,
                 "grupos": grupos,
+                "plano_curado": plano_curado,
                 "temas_ordenados": temas_ordenados,
+                "tema_foco": tema_foco,
+                "tema_sem_classificacao": TEMA_SEM_CLASSIFICACAO,
                 "rotulos_tema": ROTULOS_TEMA,
                 "total_citacoes": len(citacoes),
+                "timeline": timeline,
+                "og_titulo": og_titulo,
+                "og_descricao": og_descricao,
             },
         )
 
@@ -101,6 +163,24 @@ def criar_app(
             raise HTTPException(404, f"plano de governo de '{slug}' nao encontrado")
         return FileResponse(caminho, media_type="application/pdf")
 
+    @app.get("/metodologia", response_class=HTMLResponse)
+    def metodologia(request: Request):
+        return templates.TemplateResponse(request, "metodologia.html", {})
+
+    @app.get("/dados/citacoes.json")
+    def dados_citacoes_json():
+        return citacoes_para_linhas(_candidatos(), _publicados())
+
+    @app.get("/dados/citacoes.csv")
+    def dados_citacoes_csv():
+        linhas = citacoes_para_linhas(_candidatos(), _publicados())
+        buffer = io.StringIO()
+        escritor = csv.DictWriter(buffer, fieldnames=CAMPOS_EXPORT)
+        escritor.writeheader()
+        for linha in linhas:
+            escritor.writerow({**linha, "temas": "|".join(linha["temas"])})
+        return Response(content=buffer.getvalue(), media_type="text/csv")
+
     return app
 
 
@@ -111,11 +191,12 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--candidatos", type=Path, default=Path("dados/candidatos"))
     ap.add_argument("--dados", type=Path, default=Path("dados/transcricoes"))
     ap.add_argument("--planos", type=Path, default=Path("dados/planos_de_governo"))
+    ap.add_argument("--planos-curados", type=Path, default=Path("dados/planos_curados"))
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--porta", type=int, default=8001)
     args = ap.parse_args(argv)
 
-    app = criar_app(args.candidatos, args.dados, args.planos)
+    app = criar_app(args.candidatos, args.dados, args.planos, args.planos_curados)
     uvicorn.run(app, host=args.host, port=args.porta)
     return 0
 

@@ -4,11 +4,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
+import pytest
+
 from transcricao.candidatos import (
     TEMA_SEM_CLASSIFICACAO,
     agrupar_por_tema,
     carregar_candidatos,
+    carregar_plano_curado,
     citacoes_do_candidato,
+    citacoes_para_linhas,
     url_com_timestamp,
 )
 
@@ -85,3 +89,71 @@ def test_url_com_timestamp_fonte_desconhecida_nao_altera():
 
 def test_url_com_timestamp_sem_url():
     assert url_com_timestamp(None, 10.0) is None
+
+
+def test_citacoes_do_candidato_propaga_data_de_publicacao():
+    publicados = [
+        {
+            "url": "https://exemplo/1",
+            "publicado_em": "2026-08-01T00:00:00+00:00",
+            "citacoes": [{"falante": "candidato_a", "texto": "x"}],
+        }
+    ]
+    citacoes = citacoes_do_candidato("candidato_a", publicados)
+    assert citacoes[0]["publicado_em"] == "2026-08-01T00:00:00+00:00"
+
+
+def test_carregar_plano_curado_sem_arquivo_devolve_vazio(tmp_path):
+    assert carregar_plano_curado(tmp_path, "ninguem") == {}
+
+
+def test_carregar_plano_curado_le_status_e_trechos(tmp_path):
+    (tmp_path / "fulano.json").write_text(
+        json.dumps(
+            {
+                "saude": {
+                    "status": "consta",
+                    "trechos": [{"texto": "trecho do plano", "pagina": 12}],
+                },
+                "educacao": {"status": "nao_consta"},
+            }
+        ),
+        encoding="utf-8",
+    )
+    dados = carregar_plano_curado(tmp_path, "fulano")
+    assert dados["saude"]["status"] == "consta"
+    assert dados["saude"]["trechos"][0]["pagina"] == 12
+    assert dados["educacao"]["status"] == "nao_consta"
+
+
+def test_carregar_plano_curado_status_invalido_levanta_erro(tmp_path):
+    (tmp_path / "fulano.json").write_text(
+        json.dumps({"saude": {"status": "mentira"}}), encoding="utf-8"
+    )
+    with pytest.raises(ValueError, match="status invalido"):
+        carregar_plano_curado(tmp_path, "fulano")
+
+
+def test_citacoes_para_linhas_achata_por_candidato():
+    candidatos = [
+        {"slug": "fulano", "nome": "Fulano", "partido": "P", "falante_id": "candidato_fulano"},
+    ]
+    publicados = [
+        {
+            "url": "u1",
+            "publicado_em": "2026-08-01T00:00:00+00:00",
+            "citacoes": [
+                {
+                    "falante": "candidato_fulano",
+                    "texto": "x",
+                    "temas": ["saude", "educacao"],
+                    "timestamp": "00:00:01",
+                }
+            ],
+        }
+    ]
+    linhas = citacoes_para_linhas(candidatos, publicados)
+    assert len(linhas) == 1
+    assert linhas[0]["candidato_slug"] == "fulano"
+    assert linhas[0]["temas"] == ["saude", "educacao"]
+    assert linhas[0]["publicado_em"] == "2026-08-01T00:00:00+00:00"

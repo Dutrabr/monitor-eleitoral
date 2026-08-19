@@ -3,32 +3,200 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  (function () {
+    var salvo = localStorage.getItem("tema-cor");
+    if (salvo) document.documentElement.setAttribute("data-tema", salvo);
+  })();
+</script>
 <title>{% block titulo %}Monitor Eleitoral{% endblock %}</title>
+<meta name="description" content="{% block og_descricao %}Compara o que candidatos à Presidência registraram no plano de governo com o que disseram publicamente, lado a lado.{% endblock %}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% block og_titulo %}Monitor Eleitoral{% endblock %}">
+<meta property="og:description" content="{{ self.og_descricao() }}">
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
-  header { margin-bottom: 2rem; border-bottom: 1px solid currentColor; padding-bottom: 1rem; }
-  header a { text-decoration: none; font-weight: 700; font-size: 1.1rem; }
-  .aviso { font-size: 0.85rem; opacity: 0.75; margin-top: 0.5rem; }
-  .candidato-lista { border: 1px solid currentColor; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
-  .candidato-lista a { font-weight: 600; font-size: 1.05rem; text-decoration: none; }
-  .meta { font-size: 0.9rem; opacity: 0.8; }
-  .tema { margin: 2rem 0; }
-  .tema h2 { font-size: 1.1rem; border-bottom: 1px solid currentColor; padding-bottom: 0.3rem; }
-  .citacao { border-left: 3px solid currentColor; padding-left: 1rem; margin-bottom: 1rem; opacity: 0.95; }
-  .citacao .fonte { font-size: 0.8rem; opacity: 0.7; }
-  .plano { margin: 1.5rem 0; padding: 1rem; border: 1px solid currentColor; border-radius: 8px; }
+  :root {
+    --teal: #0D9488;
+    --teal-forte: #0F766E;
+    --ambar: #F59E0B;
+    --grafite: #18181B;
+    --off-white: #FAFAF9;
+    --bg: var(--off-white);
+    --superficie: #ffffff;
+    --texto: var(--grafite);
+    --texto-suave: #52525B;
+    --borda: #E4E4E7;
+    --sombra: 0 1px 2px rgba(24,24,27,.04), 0 4px 12px rgba(24,24,27,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141416; --superficie:#1F1F23; --texto:#FAFAF9; --texto-suave:#A1A1AA; --borda:#33333A; --sombra: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.35); }
+  }
+  :root[data-tema="escuro"] { --bg:#141416; --superficie:#1F1F23; --texto:#FAFAF9; --texto-suave:#A1A1AA; --borda:#33333A; --sombra: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.35); }
+  :root[data-tema="claro"] { --bg: var(--off-white); --superficie:#ffffff; --texto: var(--grafite); --texto-suave:#52525B; --borda:#E4E4E7; --sombra: 0 1px 2px rgba(24,24,27,.04), 0 4px 12px rgba(24,24,27,.06); }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px; line-height: 1.65;
+    background: var(--bg); color: var(--texto);
+    margin: 0; padding: 0;
+  }
+  a { color: var(--teal-forte); }
+  :root[data-tema="escuro"] a { color: #2DD4BF; }
+  @media (prefers-color-scheme: dark) {
+    a { color: #2DD4BF; }
+    :root[data-tema="claro"] a { color: var(--teal-forte); }
+  }
+  h1, h2, h3 { font-weight: 800; letter-spacing: -0.01em; line-height: 1.2; }
+  .envelope { max-width: 960px; margin: 0 auto; padding: 0 1.25rem; }
+
+  a:focus-visible, button:focus-visible, label:focus-visible, input:focus-visible {
+    outline: 3px solid var(--ambar); outline-offset: 2px; border-radius: 4px;
+  }
+  .pular-conteudo {
+    position: absolute; left: -9999px; top: 0; background: var(--ambar); color: var(--grafite);
+    padding: .75rem 1.25rem; font-weight: 700; z-index: 100; border-radius: 0 0 8px 0;
+  }
+  .pular-conteudo:focus { left: 0; }
+
+  header.topo { border-bottom: 1px solid var(--borda); background: var(--superficie); }
+  .barra-topo { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 0; }
+  .marca { display: flex; flex-direction: column; text-decoration: none; }
+  .marca strong { font-size: 1.15rem; color: var(--texto); }
+  .marca span { font-size: .85rem; color: var(--texto-suave); font-weight: 400; }
+  nav.topo-links { display: flex; align-items: center; gap: 1rem; font-size: .92rem; }
+  nav.topo-links a { text-decoration: none; font-weight: 600; }
+  #alternar-tema {
+    background: transparent; border: 1px solid var(--borda); border-radius: 999px;
+    padding: .4rem .8rem; cursor: pointer; color: var(--texto); font-size: .85rem; font-weight: 600;
+  }
+  .faixa-aviso {
+    background: var(--grafite); color: var(--off-white); font-size: .82rem; text-align: center;
+    padding: .5rem 1rem;
+  }
+  .faixa-aviso a { color: var(--ambar); }
+
+  main { padding: 2rem 0 4rem; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0 2rem; }
+  .chip {
+    display: inline-block; padding: .5rem 1rem; border-radius: 999px; border: 1px solid var(--borda);
+    background: var(--superficie); color: var(--texto); text-decoration: none; font-size: .9rem; font-weight: 600;
+    transition: background-color .15s ease, border-color .15s ease;
+  }
+  .chip:hover { border-color: var(--teal); }
+  .chip.ativo { background: var(--teal); border-color: var(--teal); color: #fff; }
+
+  .grade-candidatos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+  .card-candidato {
+    display: block; text-decoration: none; color: var(--texto); background: var(--superficie);
+    border: 1px solid var(--borda); border-radius: 14px; padding: 1.1rem; box-shadow: var(--sombra);
+  }
+  .card-candidato .numero { font-size: .78rem; font-weight: 700; color: var(--teal-forte); }
+  .card-candidato h3 { margin: .3rem 0 .15rem; font-size: 1.05rem; }
+  .card-candidato .partido { font-size: .85rem; color: var(--texto-suave); }
+
+  .tema-secao { margin: 2.5rem 0; border-top: 1px solid var(--borda); padding-top: 1.5rem; }
+  .tema-secao h2 { font-size: 1.25rem; margin-bottom: .25rem; }
+  .tema-secao .contagem { font-size: .85rem; color: var(--texto-suave); margin-bottom: 1rem; }
+
+  .comparacao-abas { display: none; gap: .5rem; margin-bottom: 1rem; }
+  .comparacao-abas label {
+    flex: 1; text-align: center; padding: .55rem 1rem; border-radius: 999px; border: 1px solid var(--borda);
+    cursor: pointer; font-weight: 700; font-size: .88rem; background: var(--superficie);
+  }
+  input.aba-radio { position: absolute; opacity: 0; pointer-events: none; width: 1px; height: 1px; }
+  .paineis { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; align-items: start; }
+  .coluna { background: var(--superficie); border: 1px solid var(--borda); border-radius: 14px; padding: 1.25rem; box-shadow: var(--sombra); }
+  .coluna h3 { font-size: .95rem; text-transform: uppercase; letter-spacing: .04em; color: var(--texto-suave); margin: 0 0 1rem; }
+  .rotulo-status {
+    display: inline-block; font-size: .78rem; font-weight: 700; padding: .25rem .65rem; border-radius: 999px;
+    margin-bottom: .85rem;
+  }
+  .rotulo-status.consta { background: rgba(13,148,136,.14); color: var(--teal-forte); }
+  .rotulo-status.nao-consta { background: rgba(245,158,11,.16); color: #B45309; }
+  .rotulo-status.nao-verificado { background: var(--borda); color: var(--texto-suave); }
+
+  .trecho, .citacao {
+    font-family: ui-serif, Georgia, "Times New Roman", serif; font-size: 1rem; line-height: 1.7;
+    border-left: 3px solid var(--teal); background: rgba(13,148,136,.06); padding: .85rem 1rem;
+    border-radius: 0 10px 10px 0; margin-bottom: 1rem;
+  }
+  .citacao { border-left-color: var(--ambar); background: rgba(245,158,11,.07); }
+  .fonte { font-family: ui-sans-serif, system-ui, sans-serif; font-size: .8rem; color: var(--texto-suave); margin-top: .4rem; }
+  .fonte a { font-weight: 600; }
+
+  .linha-tempo { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--borda); }
+  .linha-tempo li { padding: 0 0 1.25rem 1.25rem; position: relative; }
+  .linha-tempo li::before {
+    content: ""; position: absolute; left: -6px; top: .3rem; width: 10px; height: 10px; border-radius: 50%;
+    background: var(--teal);
+  }
+  .linha-tempo .data { font-size: .78rem; color: var(--texto-suave); font-weight: 700; }
+
+  footer.rodape { border-top: 1px solid var(--borda); background: var(--superficie); margin-top: 3rem; }
+  footer.rodape .envelope { padding: 2rem 1.25rem; font-size: .88rem; color: var(--texto-suave); }
+  footer.rodape a { color: var(--texto); font-weight: 600; }
+  footer.rodape .links-rodape { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; margin-bottom: 1rem; }
+
+  @media (max-width: 767px) {
+    .comparacao-abas { display: flex; }
+    .paineis { grid-template-columns: 1fr; }
+    .paineis .coluna { display: none; }
+    .comparacao input.aba-radio:nth-of-type(1):checked ~ .paineis .coluna-plano { display: block; }
+    .comparacao input.aba-radio:nth-of-type(2):checked ~ .paineis .coluna-redes { display: block; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation: none !important; transition: none !important; }
+  }
 </style>
 </head>
 <body>
-<header>
-  <a href="/">Monitor Eleitoral</a>
-  <div class="aviso">
-    Este site apresenta evidência lado a lado — o que cada candidato registrou
-    no plano de governo e o que disse publicamente. Não há nota, ranking ou
-    recomendação de voto.
+<a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+<div class="faixa-aviso">
+  Conteúdo informativo e sem vínculo com partidos ou campanhas — <a href="/metodologia">como isso é construído</a>.
+</div>
+<header class="topo">
+  <div class="envelope barra-topo">
+    <a class="marca" href="/">
+      <strong>Monitor Eleitoral</strong>
+      <span>Plano de governo × redes sociais, lado a lado</span>
+    </a>
+    <nav class="topo-links">
+      <a href="/metodologia">Metodologia</a>
+      <button id="alternar-tema" type="button" aria-label="Alternar tema claro/escuro">◐ Tema</button>
+    </nav>
   </div>
 </header>
+<main id="conteudo" class="envelope">
 {% block conteudo %}{% endblock %}
+</main>
+<footer class="rodape">
+  <div class="envelope">
+    <div class="links-rodape">
+      <a href="/metodologia">Metodologia</a>
+      <a href="/dados/citacoes.json">Dados abertos (JSON)</a>
+      <a href="/dados/citacoes.csv">Dados abertos (CSV)</a>
+      <a href="mailto:contato@exemplo.org?subject=Correção%20—%20Monitor%20Eleitoral">Reportar um erro</a>
+    </div>
+    <p>
+      Este site apresenta evidência lado a lado — o que cada candidato registrou no plano de
+      governo e o que disse publicamente. Não há nota, ranking, índice de confiabilidade ou
+      recomendação de voto. Todos os candidatos com registro deferido aparecem, sem exceção,
+      em ordem de número de urna.
+    </p>
+  </div>
+</footer>
+<script>
+  document.getElementById("alternar-tema").addEventListener("click", function () {
+    var atual = document.documentElement.getAttribute("data-tema");
+    var novo = atual === "escuro" ? "claro" : "escuro";
+    document.documentElement.setAttribute("data-tema", novo);
+    localStorage.setItem("tema-cor", novo);
+  });
+</script>
 </body>
 </html>
