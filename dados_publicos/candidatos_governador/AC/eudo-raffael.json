@@ -1,0 +1,20 @@
+{
+  "slug": "eudo-raffael",
+  "uf": "AC",
+  "nome": "EUDO RAFFAEL",
+  "nome_completo": "EUDO RAFFAEL LIMA DA SILVA",
+  "partido": "PCB",
+  "numero": 21,
+  "cargo": "Governador",
+  "vice": "POETA CESINHA",
+  "falante_id": "candidato_eudo_raffael",
+  "plano_de_governo": "/governador/AC/eudo-raffael/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 10002549500,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AC",
+    "hash_sha256_pdf": "8c811667d3b306d3e2cdf5fbda08cf6665f1e78496560b3d0a1a10716e06773a",
+    "bytes_pdf": 70478
+  }
+}

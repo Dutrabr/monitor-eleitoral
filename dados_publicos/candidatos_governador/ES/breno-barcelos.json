@@ -1,0 +1,20 @@
+{
+  "slug": "breno-barcelos",
+  "uf": "ES",
+  "nome": "BRENO BARCELOS",
+  "nome_completo": "BRENO AUGUSTO FAGUNDES BARCELOS",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Governador",
+  "vice": "VICTOR OLIVEIRA",
+  "falante_id": "candidato_breno_barcelos",
+  "plano_de_governo": "/governador/ES/breno-barcelos/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 80002541012,
+    "eleicao_id_tse": "20322002026",
+    "uf": "ES",
+    "hash_sha256_pdf": "aa288d9a332f2e7aeec90ceab6b82b80c07cf288011ae59b3f1607aa2cbff972",
+    "bytes_pdf": 1975005
+  }
+}

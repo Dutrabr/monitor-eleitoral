@@ -1,0 +1,20 @@
+{
+  "slug": "professora-maria-do-carmo",
+  "uf": "AM",
+  "nome": "PROFESSORA MARIA DO CARMO",
+  "nome_completo": "MARIA DO CARMO SEFFAIR LINS DE ALBUQUERQUE",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "CORONEL ANIBAL",
+  "falante_id": "candidato_professora_maria_do_carmo",
+  "plano_de_governo": "/governador/AM/professora-maria-do-carmo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 40002541626,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AM",
+    "hash_sha256_pdf": "067216d950fb6a35b0e45bfd8a426d0fb191e63e35bb82a2466ae7823c3c383b",
+    "bytes_pdf": 128481
+  }
+}

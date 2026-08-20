@@ -1,0 +1,20 @@
+{
+  "slug": "cadu-de-lula",
+  "uf": "RN",
+  "nome": "CADU DE LULA",
+  "nome_completo": "CARLOS EDUARDO XAVIER",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "LARISSA",
+  "falante_id": "candidato_cadu_de_lula",
+  "plano_de_governo": "/governador/RN/cadu-de-lula/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 200002534001,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RN",
+    "hash_sha256_pdf": "9cf48cc58171d260472648e7e3ef2f13a4c034ca3c08ba706c99f63c5e045288",
+    "bytes_pdf": 819488
+  }
+}

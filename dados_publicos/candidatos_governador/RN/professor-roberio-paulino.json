@@ -1,0 +1,20 @@
+{
+  "slug": "professor-roberio-paulino",
+  "uf": "RN",
+  "nome": "PROFESSOR ROBERIO PAULINO",
+  "nome_completo": "ROBERIO PAULINO RODRIGUES",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "LENNY GRILO",
+  "falante_id": "candidato_professor_roberio_paulino",
+  "plano_de_governo": "/governador/RN/professor-roberio-paulino/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 200002546757,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RN",
+    "hash_sha256_pdf": "615d47611274d44ec0ccb6ee800e47ca99a9882d8b0470c5530d31b2a6e83fd9",
+    "bytes_pdf": 224203
+  }
+}

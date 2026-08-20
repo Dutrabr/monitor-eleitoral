@@ -1,0 +1,20 @@
+{
+  "slug": "daniel-lemes",
+  "uf": "MS",
+  "nome": "DANIEL LEMES",
+  "nome_completo": "DANIEL LEMES VASQUES",
+  "partido": "PCO",
+  "numero": 29,
+  "cargo": "Governador",
+  "vice": "SILVIA BENITES",
+  "falante_id": "candidato_daniel_lemes",
+  "plano_de_governo": "/governador/MS/daniel-lemes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 120002552201,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MS",
+    "hash_sha256_pdf": "ed380b23d6e033e8616ce71efcf66eb42d2baee2b58f1c9ae80690009c20dfe9",
+    "bytes_pdf": 96070
+  }
+}

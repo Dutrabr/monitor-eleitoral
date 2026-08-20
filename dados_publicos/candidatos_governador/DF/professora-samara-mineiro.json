@@ -1,0 +1,20 @@
+{
+  "slug": "professora-samara-mineiro",
+  "uf": "DF",
+  "nome": "PROFESSORA SAMARA MINEIRO",
+  "nome_completo": "SAMARA MINEIRO OLIVEIRA",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "THAÍS OLIVEIRA",
+  "falante_id": "candidato_professora_samara_mineiro",
+  "plano_de_governo": "/governador/DF/professora-samara-mineiro/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 70002537111,
+    "eleicao_id_tse": "20322002026",
+    "uf": "DF",
+    "hash_sha256_pdf": "ec83b163ad05efc80a2579f23b97b524e3546a39312be2871739ff46990f0a1f",
+    "bytes_pdf": 149402
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cappelli",
+  "uf": "DF",
+  "nome": "CAPPELLI",
+  "nome_completo": "RICARDO GARCIA CAPPELLI",
+  "partido": "PSB",
+  "numero": 40,
+  "cargo": "Governador",
+  "vice": "SOFIA CARVALHO",
+  "falante_id": "candidato_cappelli",
+  "plano_de_governo": "/governador/DF/cappelli/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 70002551557,
+    "eleicao_id_tse": "20322002026",
+    "uf": "DF",
+    "hash_sha256_pdf": "0578d5eed2c77e1002fd2a4ea967aac4eff78bd29b82b7bcfea0dc55a28cc31c",
+    "bytes_pdf": 372995
+  }
+}

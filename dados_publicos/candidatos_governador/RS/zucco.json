@@ -1,0 +1,20 @@
+{
+  "slug": "zucco",
+  "uf": "RS",
+  "nome": "ZUCCO",
+  "nome_completo": "LUCIANO LORENZINI ZUCCO",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "SILVANA COVATTI",
+  "falante_id": "candidato_zucco",
+  "plano_de_governo": "/governador/RS/zucco/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 210002547857,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RS",
+    "hash_sha256_pdf": "75acd509380ad747445f76ada322a6ec3c97c2c378fa4eb1e18a329e411807af",
+    "bytes_pdf": 2260716
+  }
+}

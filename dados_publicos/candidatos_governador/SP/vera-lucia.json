@@ -1,0 +1,20 @@
+{
+  "slug": "vera-lucia",
+  "uf": "SP",
+  "nome": "VERA LÚCIA",
+  "nome_completo": "VERA LÚCIA PEREIRA DA SILVA SALGADO",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "RENATA FRANÇA",
+  "falante_id": "candidato_vera_lucia",
+  "plano_de_governo": "/governador/SP/vera-lucia/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 250002536915,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SP",
+    "hash_sha256_pdf": "25d1d5ee8b4bcc79806c1a04b3973b3bf27b23c124a5ecc880affc826009f924",
+    "bytes_pdf": 567706
+  }
+}

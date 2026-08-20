@@ -1,0 +1,20 @@
+{
+  "slug": "david-almeida",
+  "uf": "AM",
+  "nome": "DAVID ALMEIDA",
+  "nome_completo": "DAVID ANTÔNIO ABISAI PEREIRA DE ALMEIDA",
+  "partido": "AVANTE",
+  "numero": 70,
+  "cargo": "Governador",
+  "vice": "DRA. SHÁDIA",
+  "falante_id": "candidato_david_almeida",
+  "plano_de_governo": "/governador/AM/david-almeida/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 40002536086,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AM",
+    "hash_sha256_pdf": "00bb1ea88eb1ac2a1b909c89c357b286c28bbccdf3a066b7d436f709f79cdb63",
+    "bytes_pdf": 2067355
+  }
+}

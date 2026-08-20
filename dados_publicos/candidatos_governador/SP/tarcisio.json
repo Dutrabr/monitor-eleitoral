@@ -1,0 +1,20 @@
+{
+  "slug": "tarcisio",
+  "uf": "SP",
+  "nome": "TARCÍSIO",
+  "nome_completo": "TARCISIO GOMES DE FREITAS",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "FELICIO RAMUTH",
+  "falante_id": "candidato_tarcisio",
+  "plano_de_governo": "/governador/SP/tarcisio/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 250002541303,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SP",
+    "hash_sha256_pdf": "55f742949759f84ea5d55040a9b33493935ad235cb52fb78b86f1ed84e747a93",
+    "bytes_pdf": 7403347
+  }
+}

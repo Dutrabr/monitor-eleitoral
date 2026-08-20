@@ -1,0 +1,20 @@
+{
+  "slug": "ivan-moraes",
+  "uf": "PE",
+  "nome": "IVAN MORAES",
+  "nome_completo": "IVAN VASCONCELLOS DE MORAES FILHO",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "ALICE GABINO",
+  "falante_id": "candidato_ivan_moraes",
+  "plano_de_governo": "/governador/PE/ivan-moraes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 170002538097,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PE",
+    "hash_sha256_pdf": "feb9103e4f14b03ab120f3232de5d2db0dac6861719332e823c8cda0e9aa6404",
+    "bytes_pdf": 746340
+  }
+}

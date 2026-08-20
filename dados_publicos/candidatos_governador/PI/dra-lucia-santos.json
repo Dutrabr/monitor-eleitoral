@@ -1,0 +1,20 @@
+{
+  "slug": "dra-lucia-santos",
+  "uf": "PI",
+  "nome": "DRA. LÚCIA SANTOS",
+  "nome_completo": "LÚCIA MARIA DE SOUSA AGUIAR DOS SANTOS",
+  "partido": "PSDB",
+  "numero": 45,
+  "cargo": "Governador",
+  "vice": "DR. PAULO EUDES",
+  "falante_id": "candidato_dra_lucia_santos",
+  "plano_de_governo": "/governador/PI/dra-lucia-santos/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002544216,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "634f6e74281d828b5d4a36e2da880a3482db8acbe3b2768b69c0f2262c76c173",
+    "bytes_pdf": 393121
+  }
+}

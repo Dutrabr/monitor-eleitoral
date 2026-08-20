@@ -1,0 +1,20 @@
+{
+  "slug": "prof-witer-naves",
+  "uf": "TO",
+  "nome": "PROF WITER NAVES",
+  "nome_completo": "WITER FONSECA NAVES",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "LÚCIA VIANA",
+  "falante_id": "candidato_prof_witer_naves",
+  "plano_de_governo": "/governador/TO/prof-witer-naves/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 270002539187,
+    "eleicao_id_tse": "20322002026",
+    "uf": "TO",
+    "hash_sha256_pdf": "ddbab69e74b2271c4c006c6e9b98f7034bf8a83eedecdf2885bd978d40c937de",
+    "bytes_pdf": 432593
+  }
+}

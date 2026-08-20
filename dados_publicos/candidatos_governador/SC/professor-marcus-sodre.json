@@ -1,0 +1,20 @@
+{
+  "slug": "professor-marcus-sodre",
+  "uf": "SC",
+  "nome": "PROFESSOR MARCUS SODRÉ",
+  "nome_completo": "MARCUS ALEXANDRE SODRE",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "PROFESSORA TATY",
+  "falante_id": "candidato_professor_marcus_sodre",
+  "plano_de_governo": "/governador/SC/professor-marcus-sodre/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 240002541913,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SC",
+    "hash_sha256_pdf": "66f6eb23af087c30496778a3cc5ea0f2ecd633ddd7f9e837da36cd18614fb220",
+    "bytes_pdf": 541485
+  }
+}

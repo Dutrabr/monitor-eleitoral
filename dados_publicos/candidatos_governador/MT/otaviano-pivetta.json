@@ -1,0 +1,20 @@
+{
+  "slug": "otaviano-pivetta",
+  "uf": "MT",
+  "nome": "OTAVIANO PIVETTA",
+  "nome_completo": "OTAVIANO OLAVO PIVETTA",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "GISELA SIMONA",
+  "falante_id": "candidato_otaviano_pivetta",
+  "plano_de_governo": "/governador/MT/otaviano-pivetta/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 110002551480,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MT",
+    "hash_sha256_pdf": "0be1d52602122bfbc44f6a0a8908b61b5e7db96524f6212b532fe93fc8039aec",
+    "bytes_pdf": 376276
+  }
+}

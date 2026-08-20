@@ -1,0 +1,20 @@
+{
+  "slug": "lorenzo-pazolini",
+  "uf": "ES",
+  "nome": "LORENZO PAZOLINI",
+  "nome_completo": "LORENZO SILVA DE PAZOLINI",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "ELIANE LEAL",
+  "falante_id": "candidato_lorenzo_pazolini",
+  "plano_de_governo": "/governador/ES/lorenzo-pazolini/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 80002552682,
+    "eleicao_id_tse": "20322002026",
+    "uf": "ES",
+    "hash_sha256_pdf": "c1e92e41340af2f42a7d4d1945ca88a1664f5d603f21c91116b34381b78965d4",
+    "bytes_pdf": 966686
+  }
+}

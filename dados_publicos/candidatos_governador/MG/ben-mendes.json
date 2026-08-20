@@ -1,0 +1,18 @@
+{
+  "slug": "ben-mendes",
+  "uf": "MG",
+  "nome": "BEN MENDES",
+  "nome_completo": "BENONI BENJAMIN CARDOSO MENDES",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Governador",
+  "vice": "CABO DAVID SOUZA",
+  "falante_id": "candidato_ben_mendes",
+  "plano_de_governo": null,
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002544411,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG"
+  }
+}

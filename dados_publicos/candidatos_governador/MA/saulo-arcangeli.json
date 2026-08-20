@@ -1,0 +1,20 @@
+{
+  "slug": "saulo-arcangeli",
+  "uf": "MA",
+  "nome": "SAULO ARCANGELI",
+  "nome_completo": "SAULO COSTA ARCANGELI",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "PRETA LU",
+  "falante_id": "candidato_saulo_arcangeli",
+  "plano_de_governo": "/governador/MA/saulo-arcangeli/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 100002534190,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MA",
+    "hash_sha256_pdf": "079b5b1bebdb9d7edabde62059eb72fac0f517c4f7df9aaf8528478d60b184b3",
+    "bytes_pdf": 1349262
+  }
+}

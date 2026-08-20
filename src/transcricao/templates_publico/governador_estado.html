@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block titulo %}Governador — {{ nome_estado }} — Monitor Eleitoral{% endblock %}
+{% block og_titulo %}Governador — {{ nome_estado }} — Monitor Eleitoral{% endblock %}
+{% block og_descricao %}Compare o que os candidatos a Governador de {{ nome_estado }} registraram no plano de governo com o que disseram publicamente.{% endblock %}
+{% block conteudo %}
+<p><a href="/governador">← Todos os estados</a></p>
+<section style="padding: 1rem 0 2.5rem;">
+  <span class="selo-eyebrow">Eleições 2026</span>
+  <h1>Governador — {{ nome_estado }}</h1>
+  <p style="font-size: .85rem; font-weight: 700; color: var(--teal-forte); margin-top: 1rem;">
+    {{ candidatos|length }} candidato(s) cadastrado(s), em ordem de número de urna.
+  </p>
+</section>
+
+{% if not candidatos %}
+<p>Nenhum candidato cadastrado ainda para {{ nome_estado }}.</p>
+{% endif %}
+<div class="grade-candidatos">
+{% for c in candidatos %}
+  <a class="card-candidato" href="/governador/{{ uf }}/{{ c.slug }}">
+    <div class="avatar-candidato">{{ c.nome[0] }}</div>
+    {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
+    <h3>{{ c.nome }}</h3>
+    <div class="partido">{{ c.partido }}{% if c.vice %} — vice {{ c.vice }}{% endif %}</div>
+  </a>
+{% endfor %}
+</div>
+{% endblock %}

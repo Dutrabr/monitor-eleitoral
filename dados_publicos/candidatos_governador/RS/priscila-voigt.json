@@ -1,0 +1,20 @@
+{
+  "slug": "priscila-voigt",
+  "uf": "RS",
+  "nome": "PRISCILA VOIGT",
+  "nome_completo": "PRISCILA VOIGT SEVERIANO",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "NAF NASCIMENTO",
+  "falante_id": "candidato_priscila_voigt",
+  "plano_de_governo": "/governador/RS/priscila-voigt/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 210002533355,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RS",
+    "hash_sha256_pdf": "63661f8ce376bac8b76e986ffe8a2031e25bf1ce078e137bb0686116b63637cc",
+    "bytes_pdf": 85548
+  }
+}

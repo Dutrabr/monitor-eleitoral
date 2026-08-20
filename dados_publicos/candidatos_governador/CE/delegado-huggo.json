@@ -1,0 +1,20 @@
+{
+  "slug": "delegado-huggo",
+  "uf": "CE",
+  "nome": "DELEGADO HUGGO",
+  "nome_completo": "HUGGO LEONARDO DE LIMA ANASTACIO",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Governador",
+  "vice": "FELIPE MOREIRA",
+  "falante_id": "candidato_delegado_huggo",
+  "plano_de_governo": "/governador/CE/delegado-huggo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002540417,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE",
+    "hash_sha256_pdf": "02201be6df173b668c0f4be3dcc58ae70c663569404e346614d0e04bd9976048",
+    "bytes_pdf": 788262
+  }
+}

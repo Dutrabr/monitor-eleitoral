@@ -1,0 +1,20 @@
+{
+  "slug": "guilherme-fonseca",
+  "uf": "PE",
+  "nome": "GUILHERME FONSECA",
+  "nome_completo": "GUILHERME FONSECA",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "VALÉRIA FÉLIX",
+  "falante_id": "candidato_guilherme_fonseca",
+  "plano_de_governo": "/governador/PE/guilherme-fonseca/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 170002536575,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PE",
+    "hash_sha256_pdf": "ddad81bd495da44f7265519d745e4cb51133ea67256b9ef51e64d46fdc653f41",
+    "bytes_pdf": 97962
+  }
+}

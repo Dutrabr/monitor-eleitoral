@@ -1,0 +1,20 @@
+{
+  "slug": "allyson",
+  "uf": "RN",
+  "nome": "ALLYSON",
+  "nome_completo": "ALLYSON LEANDRO BEZERRA SILVA",
+  "partido": "UNIÃO",
+  "numero": 44,
+  "cargo": "Governador",
+  "vice": "HERMANO MORAIS",
+  "falante_id": "candidato_allyson",
+  "plano_de_governo": "/governador/RN/allyson/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 200002535255,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RN",
+    "hash_sha256_pdf": "e288e9c5d5372c6648f41a29058d8eab2474763af486e6e59d8f7aa4d1cde9b5",
+    "bytes_pdf": 1526455
+  }
+}

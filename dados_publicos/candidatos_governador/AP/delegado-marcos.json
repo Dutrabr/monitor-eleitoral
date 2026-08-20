@@ -1,0 +1,20 @@
+{
+  "slug": "delegado-marcos",
+  "uf": "AP",
+  "nome": "DELEGADO MARCOS",
+  "nome_completo": "MARCOS JOSE REATEGUI DE SOUZA",
+  "partido": "DC",
+  "numero": 27,
+  "cargo": "Governador",
+  "vice": "CRISTINA ARAÚJO",
+  "falante_id": "candidato_delegado_marcos",
+  "plano_de_governo": "/governador/AP/delegado-marcos/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 30002552017,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AP",
+    "hash_sha256_pdf": "72fc8c60bb07c74e7bb649cacacb796a49e7da7a9cb888fb3d22bb77b28d3647",
+    "bytes_pdf": 526382
+  }
+}

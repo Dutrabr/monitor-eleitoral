@@ -1,0 +1,20 @@
+{
+  "slug": "isael-munduruku",
+  "uf": "AM",
+  "nome": "ISAEL MUNDURUKU",
+  "nome_completo": "ISAEL FRANKLIN GONÇALVES",
+  "partido": "REDE",
+  "numero": 18,
+  "cargo": "Governador",
+  "vice": "LEO BALBI",
+  "falante_id": "candidato_isael_munduruku",
+  "plano_de_governo": "/governador/AM/isael-munduruku/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 40002550776,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AM",
+    "hash_sha256_pdf": "1b28d5c7298f9904b4110748d1acdaea5291a6b13850c1b31f71154779d96e5f",
+    "bytes_pdf": 589360
+  }
+}

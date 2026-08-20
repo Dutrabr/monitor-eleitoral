@@ -1,0 +1,20 @@
+{
+  "slug": "fabio",
+  "uf": "SE",
+  "nome": "FÁBIO",
+  "nome_completo": "FABIO CRUZ MITIDIERI",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "JEFERSON ANDRADE",
+  "falante_id": "candidato_fabio",
+  "plano_de_governo": "/governador/SE/fabio/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 260002542491,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SE",
+    "hash_sha256_pdf": "bd4be7751374a5041c5568862195102e9ae4e49a31e3c09b901dc66348069ef3",
+    "bytes_pdf": 1106562
+  }
+}

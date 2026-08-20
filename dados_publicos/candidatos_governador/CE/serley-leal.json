@@ -1,0 +1,20 @@
+{
+  "slug": "serley-leal",
+  "uf": "CE",
+  "nome": "SERLEY LEAL",
+  "nome_completo": "SERLEY DE SOUZA LEAL",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "CATHERINE TELES",
+  "falante_id": "candidato_serley_leal",
+  "plano_de_governo": "/governador/CE/serley-leal/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002533729,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE",
+    "hash_sha256_pdf": "245dcb42335d6c5e45172e817535b20fb66cab7f7761c96d7ecc9533e64cdd1a",
+    "bytes_pdf": 601651
+  }
+}

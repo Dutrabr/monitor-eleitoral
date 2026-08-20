@@ -1,0 +1,20 @@
+{
+  "slug": "professor-tulio-lopes",
+  "uf": "MG",
+  "nome": "PROFESSOR TÚLIO LOPES",
+  "nome_completo": "TULIO CESAR DIAS LOPES",
+  "partido": "PCB",
+  "numero": 21,
+  "cargo": "Governador",
+  "vice": "WARLEN NUNES",
+  "falante_id": "candidato_professor_tulio_lopes",
+  "plano_de_governo": "/governador/MG/professor-tulio-lopes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002544122,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "a146399d87d2f7b4e1e2854e4bc9f87e8cf6059b9c779478fc680c611ff6b424",
+    "bytes_pdf": 564355
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "renan",
+  "uf": "PE",
+  "nome": "RENAN",
+  "nome_completo": "RENAN LUCIO SANT ANNA HALLAIS",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Governador",
+  "vice": "LUCAS XAVIER",
+  "falante_id": "candidato_renan",
+  "plano_de_governo": "/governador/PE/renan/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 170002540337,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PE",
+    "hash_sha256_pdf": "cee039360efea5a9a11be2624b3f8aa23e384eb17ba8100d664b93ba5bb44f6c",
+    "bytes_pdf": 894225
+  }
+}

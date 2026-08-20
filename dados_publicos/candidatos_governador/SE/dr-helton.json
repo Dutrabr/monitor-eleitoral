@@ -1,0 +1,20 @@
+{
+  "slug": "dr-helton",
+  "uf": "SE",
+  "nome": "DR. HELTON",
+  "nome_completo": "JOSE HELTON SILVA MONTEIRO",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "IZALTINA QUILOMBOLA",
+  "falante_id": "candidato_dr_helton",
+  "plano_de_governo": "/governador/SE/dr-helton/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 260002547415,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SE",
+    "hash_sha256_pdf": "7d421f29b19c1654ae6c53764e29d10c29580b5d163500d6d978b140e50c0cc2",
+    "bytes_pdf": 1982760
+  }
+}

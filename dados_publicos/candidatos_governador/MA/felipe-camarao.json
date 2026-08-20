@@ -1,0 +1,20 @@
+{
+  "slug": "felipe-camarao",
+  "uf": "MA",
+  "nome": "FELIPE CAMARÃO",
+  "nome_completo": "FELIPE COSTA CAMARAO",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "RICARDO RODRIGUES",
+  "falante_id": "candidato_felipe_camarao",
+  "plano_de_governo": "/governador/MA/felipe-camarao/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 100002542556,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MA",
+    "hash_sha256_pdf": "4dbaefad4e83048b272517bf832ebb0752b5f8470cbd7234db270e3d491fc2be",
+    "bytes_pdf": 2007689
+  }
+}

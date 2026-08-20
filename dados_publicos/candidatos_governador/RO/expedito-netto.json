@@ -1,0 +1,20 @@
+{
+  "slug": "expedito-netto",
+  "uf": "RO",
+  "nome": "EXPEDITO NETTO",
+  "nome_completo": "EXPEDITO GONCALVES FERREIRA NETTO",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "DR, LUIZ TEODORO",
+  "falante_id": "candidato_expedito_netto",
+  "plano_de_governo": "/governador/RO/expedito-netto/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 220002542185,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RO",
+    "hash_sha256_pdf": "e72ce3dff33991e91de51e512b2061b816e69346d0dbe8e92e5627203b85e670",
+    "bytes_pdf": 339363
+  }
+}

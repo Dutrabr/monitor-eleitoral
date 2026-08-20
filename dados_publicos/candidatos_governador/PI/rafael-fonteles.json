@@ -1,0 +1,20 @@
+{
+  "slug": "rafael-fonteles",
+  "uf": "PI",
+  "nome": "RAFAEL FONTELES",
+  "nome_completo": "RAFAEL TAJRA FONTELES",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "WASHINGTON BANDEIRA",
+  "falante_id": "candidato_rafael_fonteles",
+  "plano_de_governo": "/governador/PI/rafael-fonteles/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002532987,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "004c55a5f06c3461163efab19b1e2aa274274b360ec95bc8a9c820e62fd87328",
+    "bytes_pdf": 1107192
+  }
+}

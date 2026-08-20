@@ -1,0 +1,20 @@
+{
+  "slug": "vicentinho-junior",
+  "uf": "TO",
+  "nome": "VICENTINHO JÚNIOR",
+  "nome_completo": "VICENTE ALVES DE OLIVEIRA JÚNIOR",
+  "partido": "PSDB",
+  "numero": 45,
+  "cargo": "Governador",
+  "vice": "AMÉLIO CAYRES",
+  "falante_id": "candidato_vicentinho_junior",
+  "plano_de_governo": "/governador/TO/vicentinho-junior/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 270002544544,
+    "eleicao_id_tse": "20322002026",
+    "uf": "TO",
+    "hash_sha256_pdf": "60cfd10f7f71f2bffb914b85924f0d7471322ea91fa2ba7e033cc2a73d08f255",
+    "bytes_pdf": 1002369
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "dario-barbosa",
+  "uf": "RN",
+  "nome": "DÁRIO BARBOSA",
+  "nome_completo": "DARIO BARBOSA DE MELO",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "FERNANDA SOARES",
+  "falante_id": "candidato_dario_barbosa",
+  "plano_de_governo": "/governador/RN/dario-barbosa/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 200002542481,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RN",
+    "hash_sha256_pdf": "855b4d827ab66cef92afdc399ab87f0ce16456bb8724eb338c6bd8ad2dabee35",
+    "bytes_pdf": 120276
+  }
+}

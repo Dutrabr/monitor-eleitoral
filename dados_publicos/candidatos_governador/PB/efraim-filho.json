@@ -1,0 +1,20 @@
+{
+  "slug": "efraim-filho",
+  "uf": "PB",
+  "nome": "EFRAIM FILHO",
+  "nome_completo": "EFRAIM DE ARAUJO MORAIS FILHO",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "NAYANA PONTES",
+  "falante_id": "candidato_efraim_filho",
+  "plano_de_governo": "/governador/PB/efraim-filho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 150002538692,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PB",
+    "hash_sha256_pdf": "b174121c5c89bd86c5cfa56be0a9a167975bc6dbc0d0ab2d2f1c8dd838028e56",
+    "bytes_pdf": 779343
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "mauricio-coelho",
+  "uf": "MT",
+  "nome": "MAURICIO COELHO",
+  "nome_completo": "MAURICIO COELHO DE SOUZA JUNIOR",
+  "partido": "MOBILIZA",
+  "numero": 33,
+  "cargo": "Governador",
+  "vice": "DR. WAGNER MALHEIROS",
+  "falante_id": "candidato_mauricio_coelho",
+  "plano_de_governo": "/governador/MT/mauricio-coelho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 110002553058,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MT",
+    "hash_sha256_pdf": "314c2f4752c7d64a79bac72c6fe8bec47176353e6ba0c7f0a9b785b108da053d",
+    "bytes_pdf": 940298
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "mateus-simoes",
+  "uf": "MG",
+  "nome": "MATEUS SIMÕES",
+  "nome_completo": "MATEUS SIMÕES DE ALMEIDA",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "DANILO DE CASTRO",
+  "falante_id": "candidato_mateus_simoes",
+  "plano_de_governo": "/governador/MG/mateus-simoes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002541911,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "60794fb74dd02e57426130c1250102ccbb11b6f6ad8362059bd3c2a34a16bb74",
+    "bytes_pdf": 785849
+  }
+}

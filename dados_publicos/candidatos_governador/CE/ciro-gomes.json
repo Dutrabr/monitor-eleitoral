@@ -1,0 +1,20 @@
+{
+  "slug": "ciro-gomes",
+  "uf": "CE",
+  "nome": "CIRO GOMES",
+  "nome_completo": "CIRO FERREIRA GOMES",
+  "partido": "PSDB",
+  "numero": 45,
+  "cargo": "Governador",
+  "vice": "ROBERTO CLAUDIO",
+  "falante_id": "candidato_ciro_gomes",
+  "plano_de_governo": "/governador/CE/ciro-gomes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002531351,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE",
+    "hash_sha256_pdf": "d598aabb624172d31a5ab963fed02285fa6fb4660c8953d9fd0d16578b3ad7eb",
+    "bytes_pdf": 701767
+  }
+}

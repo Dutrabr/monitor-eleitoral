@@ -1,0 +1,20 @@
+{
+  "slug": "mailza-assis",
+  "uf": "AC",
+  "nome": "MAILZA ASSIS",
+  "nome_completo": "MAILZA ASSIS CAMELI",
+  "partido": "PP",
+  "numero": 11,
+  "cargo": "Governador",
+  "vice": "JESSICA SALES",
+  "falante_id": "candidato_mailza_assis",
+  "plano_de_governo": "/governador/AC/mailza-assis/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 10002544107,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AC",
+    "hash_sha256_pdf": "81abd9d775bc37381c88c2ff95bda2afbd5e8dff605a33e6e5e6826f3493e967",
+    "bytes_pdf": 656073
+  }
+}

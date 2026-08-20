@@ -1,0 +1,20 @@
+{
+  "slug": "arinalda-do-mlb",
+  "uf": "RN",
+  "nome": "ARINALDA DO MLB",
+  "nome_completo": "ARINALDA VASCONCELOS DE MEDEIROS",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "FRANCISCO DIAS",
+  "falante_id": "candidato_arinalda_do_mlb",
+  "plano_de_governo": "/governador/RN/arinalda-do-mlb/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 200002547826,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RN",
+    "hash_sha256_pdf": "a39f68d9094a16f34fc3fd64f869c085bc47cd5f65a2bb0aa068dd2b6d2d2a22",
+    "bytes_pdf": 2074403
+  }
+}

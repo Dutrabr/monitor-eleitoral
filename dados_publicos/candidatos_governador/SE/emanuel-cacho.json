@@ -1,0 +1,20 @@
+{
+  "slug": "emanuel-cacho",
+  "uf": "SE",
+  "nome": "EMANUEL CACHO",
+  "nome_completo": "EMANUEL MESSIAS OLIVEIRA CACHO",
+  "partido": "PSDB",
+  "numero": 45,
+  "cargo": "Governador",
+  "vice": "SUELY BARRETO",
+  "falante_id": "candidato_emanuel_cacho",
+  "plano_de_governo": "/governador/SE/emanuel-cacho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 260002551712,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SE",
+    "hash_sha256_pdf": "6a53e1e890c6df997c8bd2ee7ae633dfb826a702dca28896ec7909846a5fdb05",
+    "bytes_pdf": 241901
+  }
+}

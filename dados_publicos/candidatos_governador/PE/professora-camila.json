@@ -1,0 +1,20 @@
+{
+  "slug": "professora-camila",
+  "uf": "PE",
+  "nome": "PROFESSORA CAMILA",
+  "nome_completo": "MARIA CAMILA DA SILVA FALCÃO",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "MARCELO PESSOA",
+  "falante_id": "candidato_professora_camila",
+  "plano_de_governo": "/governador/PE/professora-camila/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 170002537320,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PE",
+    "hash_sha256_pdf": "be2bd27896589c390b04d04ce233997a8e74e335f6f5a88023f6cbf255a85e9f",
+    "bytes_pdf": 130493
+  }
+}

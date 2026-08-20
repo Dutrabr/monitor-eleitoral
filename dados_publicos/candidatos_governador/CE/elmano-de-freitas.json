@@ -1,0 +1,20 @@
+{
+  "slug": "elmano-de-freitas",
+  "uf": "CE",
+  "nome": "ELMANO DE FREITAS",
+  "nome_completo": "ELMANO DE FREITAS DA COSTA",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "GABRIELLA AGUIAR",
+  "falante_id": "candidato_elmano_de_freitas",
+  "plano_de_governo": "/governador/CE/elmano-de-freitas/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002543969,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE",
+    "hash_sha256_pdf": "c48e3ea82c942942af2c775d33756f9ada7f8d3e1276c9663c417b79602c79ca",
+    "bytes_pdf": 461625
+  }
+}

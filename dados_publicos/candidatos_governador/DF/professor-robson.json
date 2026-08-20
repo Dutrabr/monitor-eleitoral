@@ -1,0 +1,20 @@
+{
+  "slug": "professor-robson",
+  "uf": "DF",
+  "nome": "PROFESSOR ROBSON",
+  "nome_completo": "ROBSON RAYMUNDO DA SILVA",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "GUILLEN",
+  "falante_id": "candidato_professor_robson",
+  "plano_de_governo": "/governador/DF/professor-robson/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 70002535930,
+    "eleicao_id_tse": "20322002026",
+    "uf": "DF",
+    "hash_sha256_pdf": "d7608df952d39d1fd5777dcd68e022932ed1187b3e88e0f9f6081998cbfbd4c1",
+    "bytes_pdf": 150305
+  }
+}

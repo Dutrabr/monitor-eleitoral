@@ -1,0 +1,20 @@
+{
+  "slug": "subtenente-luiz-carlos",
+  "uf": "TO",
+  "nome": "SUBTENENTE LUIZ CARLOS",
+  "nome_completo": "LUIZ CARLOS FERREIRA DA SILVA",
+  "partido": "DEMOCRATA",
+  "numero": 35,
+  "cargo": "Governador",
+  "vice": "JAIR MEDEIROS",
+  "falante_id": "candidato_subtenente_luiz_carlos",
+  "plano_de_governo": "/governador/TO/subtenente-luiz-carlos/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 270002546368,
+    "eleicao_id_tse": "20322002026",
+    "uf": "TO",
+    "hash_sha256_pdf": "9bad6ccc0ed2763fe4d4d3844c5ae833547cd399f86f0655a9c80368df66b995",
+    "bytes_pdf": 231182
+  }
+}

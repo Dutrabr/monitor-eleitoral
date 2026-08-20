@@ -1,0 +1,20 @@
+{
+  "slug": "soldado-sampaio",
+  "uf": "RR",
+  "nome": "SOLDADO SAMPAIO",
+  "nome_completo": "FRANCISCO DOS SANTOS SAMPAIO",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "SHÉRIDAN",
+  "falante_id": "candidato_soldado_sampaio",
+  "plano_de_governo": "/governador/RR/soldado-sampaio/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 230002551571,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RR",
+    "hash_sha256_pdf": "88182c074ac156ceb9defcbbf4c6af623125298ed2160109c20fd68ed50c9f6b",
+    "bytes_pdf": 540305
+  }
+}

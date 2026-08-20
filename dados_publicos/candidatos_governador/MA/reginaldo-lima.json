@@ -1,0 +1,20 @@
+{
+  "slug": "reginaldo-lima",
+  "uf": "MA",
+  "nome": "REGINALDO LIMA",
+  "nome_completo": "REGINALDO LIMA BRAUNO",
+  "partido": "PCB",
+  "numero": 21,
+  "cargo": "Governador",
+  "vice": "BARTOLOMEU",
+  "falante_id": "candidato_reginaldo_lima",
+  "plano_de_governo": "/governador/MA/reginaldo-lima/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 100002544073,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MA",
+    "hash_sha256_pdf": "f2188ce764afaff7db3a9194c175d44b7f77efbee71b8c3208bc220cec5cb509",
+    "bytes_pdf": 540274
+  }
+}

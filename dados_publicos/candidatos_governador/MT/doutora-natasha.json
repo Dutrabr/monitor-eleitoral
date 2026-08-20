@@ -1,0 +1,20 @@
+{
+  "slug": "doutora-natasha",
+  "uf": "MT",
+  "nome": "DOUTORA NATASHA",
+  "nome_completo": "NATASHA SLHESSARENKO FRAIFE BARRETO",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "DIOGO BOTELHO",
+  "falante_id": "candidato_doutora_natasha",
+  "plano_de_governo": "/governador/MT/doutora-natasha/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 110002544985,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MT",
+    "hash_sha256_pdf": "7fd01763297bbce7ce4bf327d0d896382fa97be7280ff8f5eb1e86641db81ef5",
+    "bytes_pdf": 859023
+  }
+}

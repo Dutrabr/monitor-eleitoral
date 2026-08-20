@@ -1,0 +1,18 @@
+{
+  "slug": "vera-lucia",
+  "uf": "CE",
+  "nome": "VERA LÚCIA",
+  "nome_completo": "VERA LUCIA DA SILVA",
+  "partido": "NOVO",
+  "numero": 30,
+  "cargo": "Governador",
+  "vice": "VERA LÚCIA, CAP. AMILTON GOMES",
+  "falante_id": "candidato_vera_lucia",
+  "plano_de_governo": null,
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002553922,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE"
+  }
+}

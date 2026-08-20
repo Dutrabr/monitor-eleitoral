@@ -1,0 +1,21 @@
+{
+  "slug": "elizeu-aguiar",
+  "uf": "PI",
+  "nome": "ELIZEU AGUIAR",
+  "nome_completo": "ELIZEU MORAIS DE AGUIAR",
+  "partido": "NOVO",
+  "numero": 30,
+  "cargo": "Governador",
+  "vice": "ISMAR MARQUES",
+  "falante_id": "candidato_elizeu_aguiar",
+  "plano_de_governo": "/governador/PI/elizeu-aguiar/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002549920,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "3dcc283f0f19d8982176f404a73258e2240d657597e5649cd38d1e652bdd5765",
+    "bytes_pdf": 26771,
+    "nota": "TSE tem 2 registros de candidatura para esta pessoa (mesmo nome/partido/numero/vice, numeroProcesso diferente, ambos Concorrendo): 180002549920 e 180002533958. Plano de governo aqui e do id 180002549920 (idArquivo 180017085378). O outro registro tem plano proprio (idArquivo 180016848295) nao anexado aqui."
+  }
+}

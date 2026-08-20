@@ -1,0 +1,20 @@
+{
+  "slug": "economista-renato-gomes",
+  "uf": "MS",
+  "nome": "ECONOMISTA RENATO GOMES",
+  "nome_completo": "RENATO WANDERLEY GOMES",
+  "partido": "DC",
+  "numero": 27,
+  "cargo": "Governador",
+  "vice": "THIAGO MARTINS",
+  "falante_id": "candidato_economista_renato_gomes",
+  "plano_de_governo": "/governador/MS/economista-renato-gomes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 120002549681,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MS",
+    "hash_sha256_pdf": "8251e9ddeeebadf934c2625cab5259c487d93ae05a81e65733c39e751fb1ec2b",
+    "bytes_pdf": 785418
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "william-siri",
+  "uf": "RJ",
+  "nome": "WILLIAM SIRI",
+  "nome_completo": "WILLIAM CARLOS BRUM BISPO",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "JULIANA CARVALHO",
+  "falante_id": "candidato_william_siri",
+  "plano_de_governo": "/governador/RJ/william-siri/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 190002536162,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RJ",
+    "hash_sha256_pdf": "e18e1041266f28d21443e373f104ccd201e04237eab01d2e207ee606d0f7ac64",
+    "bytes_pdf": 1574039
+  }
+}

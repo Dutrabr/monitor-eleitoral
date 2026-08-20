@@ -1,0 +1,20 @@
+{
+  "slug": "celina-leao",
+  "uf": "DF",
+  "nome": "CELINA LEÃO",
+  "nome_completo": "CELINA LEAO HIZIM FERREIRA",
+  "partido": "PP",
+  "numero": 11,
+  "cargo": "Governador",
+  "vice": "GUSTAVO ROCHA",
+  "falante_id": "candidato_celina_leao",
+  "plano_de_governo": "/governador/DF/celina-leao/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 70002553055,
+    "eleicao_id_tse": "20322002026",
+    "uf": "DF",
+    "hash_sha256_pdf": "07e5646b8492d28acacd222d7af70d2441c62a162cba965a9a5ebf619a40b269",
+    "bytes_pdf": 433241
+  }
+}

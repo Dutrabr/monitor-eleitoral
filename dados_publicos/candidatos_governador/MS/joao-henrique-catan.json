@@ -1,0 +1,20 @@
+{
+  "slug": "joao-henrique-catan",
+  "uf": "MS",
+  "nome": "JOÃO HENRIQUE CATAN",
+  "nome_completo": "JOÃO HENRIQUE MIRANDA SOARES CATAN",
+  "partido": "NOVO",
+  "numero": 30,
+  "cargo": "Governador",
+  "vice": "ANTÔNIO JOÃO JACINTO",
+  "falante_id": "candidato_joao_henrique_catan",
+  "plano_de_governo": "/governador/MS/joao-henrique-catan/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 120002552191,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MS",
+    "hash_sha256_pdf": "cd0b955dc13cb98e9d3aa5d00498d6eaccc86654fdeb82d69a013f50f6e61266",
+    "bytes_pdf": 886887
+  }
+}

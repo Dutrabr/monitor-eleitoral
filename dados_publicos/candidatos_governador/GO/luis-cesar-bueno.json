@@ -1,0 +1,20 @@
+{
+  "slug": "luis-cesar-bueno",
+  "uf": "GO",
+  "nome": "LUIS CESAR BUENO",
+  "nome_completo": "LUIS CESAR BUENO E FREITAS",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "CARLOS MUNDIM",
+  "falante_id": "candidato_luis_cesar_bueno",
+  "plano_de_governo": "/governador/GO/luis-cesar-bueno/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 90002545476,
+    "eleicao_id_tse": "20322002026",
+    "uf": "GO",
+    "hash_sha256_pdf": "b8aa37b0e0330f36bf81971d72b7316896515c3926b9b1606208856e0d1997e6",
+    "bytes_pdf": 726591
+  }
+}

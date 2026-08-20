@@ -1,0 +1,20 @@
+{
+  "slug": "rafael-duda",
+  "uf": "MG",
+  "nome": "RAFAEL DUDA",
+  "nome_completo": "RAFAEL RIBEIRO DE ÁVILA",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "PROF. DIANA DE CÁSSIA",
+  "falante_id": "candidato_rafael_duda",
+  "plano_de_governo": "/governador/MG/rafael-duda/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002546802,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "d42aaa94224f405697744b1381fa85ea74639ce46e432b9171514494928ac58b",
+    "bytes_pdf": 1332387
+  }
+}

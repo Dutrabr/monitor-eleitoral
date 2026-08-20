@@ -1,0 +1,20 @@
+{
+  "slug": "roberto-cidade",
+  "uf": "AM",
+  "nome": "ROBERTO CIDADE",
+  "nome_completo": "ROBERTO MAIA CIDADE FILHO",
+  "partido": "UNIÃO",
+  "numero": 44,
+  "cargo": "Governador",
+  "vice": "SERAFIM",
+  "falante_id": "candidato_roberto_cidade",
+  "plano_de_governo": "/governador/AM/roberto-cidade/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 40002541741,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AM",
+    "hash_sha256_pdf": "eddd0e80ecc6f14e24743e17ee7370d1b32a8e9c08440d5ac182b9196e29e4b3",
+    "bytes_pdf": 1951427
+  }
+}

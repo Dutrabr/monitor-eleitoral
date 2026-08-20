@@ -1,0 +1,20 @@
+{
+  "slug": "hildon-chaves",
+  "uf": "RO",
+  "nome": "HILDON CHAVES",
+  "nome_completo": "HILDON DE LIMA CHAVES",
+  "partido": "UNIÃO",
+  "numero": 44,
+  "cargo": "Governador",
+  "vice": "CIRONE DEIRÓ",
+  "falante_id": "candidato_hildon_chaves",
+  "plano_de_governo": "/governador/RO/hildon-chaves/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 220002542916,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RO",
+    "hash_sha256_pdf": "3ced457d9d60a97be34150457a414b46fa1dcbb8e133e6ea5114f1cd05cdd8d5",
+    "bytes_pdf": 109776
+  }
+}

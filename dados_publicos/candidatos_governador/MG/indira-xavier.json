@@ -1,0 +1,20 @@
+{
+  "slug": "indira-xavier",
+  "uf": "MG",
+  "nome": "INDIRA XAVIER",
+  "nome_completo": "INDIRA IVANISE XAVIER",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "RENATO CAMPOS",
+  "falante_id": "candidato_indira_xavier",
+  "plano_de_governo": "/governador/MG/indira-xavier/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002547874,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "acda21b3e76cdda7b09d20f8dd37a3ad595f155757003a89327a0617c17c57dd",
+    "bytes_pdf": 187615
+  }
+}

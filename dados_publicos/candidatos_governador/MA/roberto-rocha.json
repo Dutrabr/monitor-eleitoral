@@ -1,0 +1,20 @@
+{
+  "slug": "roberto-rocha",
+  "uf": "MA",
+  "nome": "ROBERTO ROCHA",
+  "nome_completo": "ROBERTO COELHO ROCHA",
+  "partido": "PRTB",
+  "numero": 28,
+  "cargo": "Governador",
+  "vice": "PASTOR JOSIAS",
+  "falante_id": "candidato_roberto_rocha",
+  "plano_de_governo": "/governador/MA/roberto-rocha/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 100002551399,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MA",
+    "hash_sha256_pdf": "be6d2ef8b3b9d686ba5ef07ace99edad3b10abeacd60968a46e318103ef924aa",
+    "bytes_pdf": 989429
+  }
+}

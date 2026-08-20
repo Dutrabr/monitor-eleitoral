@@ -1,0 +1,20 @@
+{
+  "slug": "lenilda-luna",
+  "uf": "AL",
+  "nome": "LENILDA LUNA",
+  "nome_completo": "LENILDA LUNA DE ALMEIDA",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "JARDEL QUEIROZ",
+  "falante_id": "candidato_lenilda_luna",
+  "plano_de_governo": "/governador/AL/lenilda-luna/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 20002539642,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AL",
+    "hash_sha256_pdf": "bfe8500d3185468c1746b71f5de9edaba8b380c63b68cb834e6b2c435f2803f6",
+    "bytes_pdf": 2057945
+  }
+}

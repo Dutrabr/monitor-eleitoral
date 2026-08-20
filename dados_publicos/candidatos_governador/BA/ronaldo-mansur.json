@@ -1,0 +1,20 @@
+{
+  "slug": "ronaldo-mansur",
+  "uf": "BA",
+  "nome": "RONALDO MANSUR",
+  "nome_completo": "RONALDO MANSUR SANTOS SILVA",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "PROFª MEIRE REIS",
+  "falante_id": "candidato_ronaldo_mansur",
+  "plano_de_governo": "/governador/BA/ronaldo-mansur/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 50002532269,
+    "eleicao_id_tse": "20322002026",
+    "uf": "BA",
+    "hash_sha256_pdf": "e7d8f6e6443895074d827bd626cb00a158f93d7d1ede48b80f0c4dc8c0eab337",
+    "bytes_pdf": 451402
+  }
+}

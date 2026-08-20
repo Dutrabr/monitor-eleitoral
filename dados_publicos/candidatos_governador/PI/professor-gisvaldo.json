@@ -1,0 +1,20 @@
+{
+  "slug": "professor-gisvaldo",
+  "uf": "PI",
+  "nome": "PROFESSOR GISVALDO",
+  "nome_completo": "GISVALDO OLIVEIRA DA SILVA",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "EDILENE PINHO",
+  "falante_id": "candidato_professor_gisvaldo",
+  "plano_de_governo": "/governador/PI/professor-gisvaldo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002549970,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "26418e0c2473940c867872215d8cee18b7203e13a17c903925305be80032d10f",
+    "bytes_pdf": 1350189
+  }
+}

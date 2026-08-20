@@ -1,0 +1,20 @@
+{
+  "slug": "douglas-ruas",
+  "uf": "RJ",
+  "nome": "DOUGLAS RUAS",
+  "nome_completo": "DOUGLAS RUAS DOS SANTOS",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "FERNANDA LOUBACK",
+  "falante_id": "candidato_douglas_ruas",
+  "plano_de_governo": "/governador/RJ/douglas-ruas/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 190002542887,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RJ",
+    "hash_sha256_pdf": "8e50ed1bb2ee5cfd935c2d3492eeb0b66a426b008e1ea2a88da83cd8a4b5ea58",
+    "bytes_pdf": 1143888
+  }
+}

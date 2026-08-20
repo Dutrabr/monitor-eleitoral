@@ -1,0 +1,20 @@
+{
+  "slug": "valmir-de-francisquinho",
+  "uf": "SE",
+  "nome": "VALMIR DE FRANCISQUINHO",
+  "nome_completo": "VALMIR DOS SANTOS COSTA",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "PRISCILA FELIZOLA",
+  "falante_id": "candidato_valmir_de_francisquinho",
+  "plano_de_governo": "/governador/SE/valmir-de-francisquinho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 260002532010,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SE",
+    "hash_sha256_pdf": "40c280b2c631b82cee1f801aab364533bdc5b980c3608edc0bc5b3af0f3e8fd4",
+    "bytes_pdf": 1173217
+  }
+}

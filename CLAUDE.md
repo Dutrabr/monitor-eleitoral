@@ -542,6 +542,134 @@ Nota tecnica do proprio deploy: `render.yaml` original tinha um campo
 corrigido pra `envVars: [{key: PYTHON_VERSION, value: "3.13.11"}]`,
 que e' a forma documentada.
 
+Pronto (2026-08-20): registro factual dos 197 candidatos a Governador 2026
+(26 estados + DF) coletado — decisao do dono do projeto, apos eu perguntar
+(regra do "Proximo" acima), de fazer todos os estados de uma vez em vez de
+um piloto. `dados/candidatos_governador/{uf}/{slug}.json` (mesmo schema de
+`dados/candidatos/`, `cargo: "Governador"`, pasta separada por decisao —
+nao mistura com os 13 de Presidente ainda, integracao no site publico e'
+decisao em aberto, nao feita nesta sessao). 190 dos 197 tem PDF de plano de
+governo baixado em `dados/planos_de_governo_governador/{uf}/`; os 6 sem
+plano sao factuais (API nao tem `arquivos` codTipo "5" pra eles): Vera
+Lucia (CE), Ben Mendes (MG), Pedro Coutinho (PB), Eduardo Paes (RJ),
+Garotinho (RJ), Policial Edjane (SP).
+
+Achado: a API `listar` (cargo=3) ainda bloqueia `requests`/`curl` direto
+com 403 do Akamai — confirmado de novo nesta sessao, mesmo bloqueio
+documentado em 2026-08-19 pros 4 candidatos novos de Presidente. Sessao
+real de aba do Chrome (via extensao Claude in Chrome, `fetch()` no
+contexto da pagina) continua sendo o unico jeito que funciona; nao e'
+"contornar" deteccao, e' navegacao real pelo portal.
+
+Tecnica nova pra download de PDF em volume (o caso de Presidente so'
+tinha baixado 1-2 por vez manualmente): `navigate()` direto pra URL do
+arquivo (`/rest/arquivo/doc/{idArquivo}`) baixa pro `~/Downloads` sem
+disparar o bloqueio de "downloads automaticos multiplos" do Chrome que
+uma sessao anterior [ver nota de 2026-08-19 acima] tinha batido usando
+blob+`<a download>`+`.click()` via JS — a diferenca parece ser que
+navegacao real (mesmo disparada pela extensao) conta como acao do
+usuario pro Chrome, enquanto o clique sintetico em JS sem gesto real
+nao conta. Baixados os 191 PDFs em lotes de ate 25 via `browser_batch`
+(varias chamadas `navigate` num so' round trip), sem nenhum bloqueio.
+
+Duas armadilhas reais encontradas e corrigidas:
+- **Nome de arquivo duplicado**: varios candidatos do mesmo partido (PCO,
+  15 casos) reusam o MESMO PDF nacional, mesmo nome de arquivo. Baixar
+  dois do mesmo nome no mesmo lote faz o Chrome sufixar "(1)", "(2)" —
+  sem cuidado, o script de mover por nome exato erra o candidato. Corrigido
+  separando por lotes sem nome duplicado (a maioria) e, pros duplicados,
+  casando por ORDEM de pedido (indice do sufixo = ordem em que o
+  `navigate` foi disparado, confirmado meticulosamente com contagem exata
+  antes de mover).
+- **Arquivo antigo com nome igual ja' no Downloads**: ACM Neto (BA) ja'
+  tinha um PDF de mesmo nome no `~/Downloads` de um teste manual de
+  2026-08-03 (`plano_de_governo.py`). O script de mover (que procura pelo
+  nome exato sem sufixo) pegou o arquivo ANTIGO em vez do baixado nesta
+  sessao, sem erro nenhum. So' nao virou dado errado porque o conteudo
+  e' byte-a-byte identico (mesmo hash sha256) — verificado comparando
+  todos os 190 PDFs por data de modificacao contra o horario da sessao;
+  so' esse caso deu incompatibilidade, e por sorte inofensiva. Isso e' um
+  risco generico de casar arquivo baixado por nome em vez de por
+  identificador: se o dono tiver outro PDF de nome igual e conteudo
+  DIFERENTE no Downloads dele no futuro, o mesmo mecanismo erraria
+  silenciosamente. Nao criei protecao automatica pra isso (regra de nao
+  adicionar validacao para cenario que nao aconteceu de verdade) mas fica
+  registrado o padrao de risco caso reapareca em escala.
+
+Achado tambem: a API devolveu DOIS registros de candidatura pra "ELIZEU
+AGUIAR" (PI, NOVO, mesmo nome/numero/vice), com `id` e `numeroProcesso`
+diferentes, ambos "Concorrendo". Nao decidi sozinho qual e' o "certo" —
+mantido um registro de candidato so' (mesmo slug), mas documentado o
+outro id/plano no campo `fonte_dados.nota` do JSON, pra um humano decidir
+se e' erro de cadastro do TSE ou coisa real (ex: substituicao de
+candidatura). Por isso 197 candidaturas da API viraram 196 arquivos de
+candidato.
+
+Ainda nao feito, decisao em aberto: curadoria dos 13 temas x candidatos
+de Governador (o que foi feito pra Presidente via `buscar_trecho_plano.py`
++ confirmacao humana) e integracao no site publico (`site_publico.py` hoje
+nao filtra por `cargo`, entao misturar as duas pastas de candidatos sem
+mudanca de codigo faria os 196 governadores aparecerem juntos com os 13
+presidenciais numa lista so' — precisa decisao de design antes: pagina
+separada por cargo? Filtro? Selecionar estado primeiro?).
+
+Pronto (2026-08-20): Governador integrado no site publico **local**
+(`site_publico.py`) — decisao do dono, apos eu perguntar, de fazer isso
+antes da curadoria de temas. Design: pasta separada (`dados/
+candidatos_governador/{uf}/`) nunca se mistura com os 13 de Presidente
+numa lista so' — o motivo e' que `numero` de urna e' por corrida (um
+governador de SP numero 13 nao tem relacao nenhuma com um presidente
+numero 13) e 196 nomes numa lista flat quebraria a leitura por numero de
+urna que o rodape do site promete. Rotas novas, todas com estado (`uf`)
+explicito na URL pra nao colidir com slug de Presidente:
+- `GET /governador` — lista as 27 UFs (ordem alfabetica pelo nome do
+  estado, nunca por sigla ou por contagem — regra 3).
+- `GET /governador/{uf}` — candidatos daquele estado, ordem de numero de
+  urna (mesma regra da pagina de Presidente).
+- `GET /governador/{uf}/{slug}` — reusa o MESMO template `candidato.html`
+  de Presidente (generico o bastante: so' precisava de um `voltar_url`/
+  `voltar_label` parametrizavel em vez de link fixo pra `/`). Mostra 0
+  citacoes pra todos os 196 (real — nenhuma coleta de video foi feita
+  ainda pra Governador) e todos os 13 temas como "nao verificado ainda"
+  (real — curadoria e' o proximo passo, ainda nao feito). Nao inventei
+  dado nenhum pra preencher isso.
+- `GET /governador/{uf}/{slug}/plano` — serve o PDF do storage local
+  (mesmo padrao de `/plano/{slug}` do Presidente).
+
+`candidatos.py` ganhou `UF_NOMES` (mapa sigla -> nome completo) e
+`carregar_candidatos_por_uf` (mesmo `carregar_candidatos`, mas usa
+`rglob` pra' entrar nas subpastas por UF). Os 190 JSONs de candidato que
+tinham plano tiveram o campo `plano_de_governo` corrigido de path de
+arquivo (`dados/planos_de_governo_governador/...`) pra rota
+(`/governador/{uf}/{slug}/plano`) — o campo sempre foi rota no formato
+de Presidente (`/plano/{slug}`), nao path de disco; o template so'
+funciona se for URL.
+
+Nao mexi no `/candidato/{slug}` nem em nenhuma rota de Presidente —
+zero risco pro que ja' esta' no ar. Rodei os 156 testes (todos passam,
+nenhum novo teste automatizado pras rotas de Governador ainda — validei
+manualmente: cada rota nova com `urllib` mais screenshot real no
+navegador de `/governador`, `/governador/BA` e `/governador/BA/acm-neto`)
+e testei os casos de erro (UF invalida, candidato inexistente — ambos
+404 correto).
+
+`/dados/citacoes.json` e `.csv` (export publico) agora somam os dois
+pools de candidato — hoje isso nao muda nada na pratica (Governador
+tem zero citacao), mas evita que uma citacao futura de Governador
+fique invisivel no export so' porque ninguem lembrou de atualizar essa
+rota depois.
+
+**Decisao em aberto, NAO feita nesta sessao**: publicar isso no site
+publico de verdade (`monitor-eleitoral.onrender.com`). Motivos pra nao
+fazer sozinho: (1) `dados/planos_de_governo_governador/` sozinho tem
+182MB — o fluxo de deploy hoje (`exportar_dados_publicos.py` -> git
+push) nunca lidou com um payload desse tamanho, precisa decisao sobre
+git-lfs ou outra estrategia; (2) zero curadoria feita ainda, entao os
+196 governadores apareceriam com todos os 13 temas em "nao verificado" —
+factualmente correto mas pode passar impressao de site incompleto pro
+publico; (3) e' push pra producao, decisao que cabe ao dono, nao a mim
+decidir sozinho.
+
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e

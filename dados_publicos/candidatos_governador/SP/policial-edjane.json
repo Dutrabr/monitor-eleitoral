@@ -1,0 +1,18 @@
+{
+  "slug": "policial-edjane",
+  "uf": "SP",
+  "nome": "POLICIAL EDJANE",
+  "nome_completo": "EDJANE LIMA DE SOUSA",
+  "partido": "AGIR",
+  "numero": 36,
+  "cargo": "Governador",
+  "vice": "RENATA BOLSONARO",
+  "falante_id": "candidato_policial_edjane",
+  "plano_de_governo": null,
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 250002548080,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SP"
+  }
+}

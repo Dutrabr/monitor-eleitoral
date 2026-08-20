@@ -1,0 +1,18 @@
+{
+  "slug": "garotinho",
+  "uf": "RJ",
+  "nome": "GAROTINHO",
+  "nome_completo": "ANTHONY WILLIAM GAROTINHO MATHEUS DE OLIVEIRA",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "MAJOR ELAINE",
+  "falante_id": "candidato_garotinho",
+  "plano_de_governo": null,
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 190002550196,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RJ"
+  }
+}

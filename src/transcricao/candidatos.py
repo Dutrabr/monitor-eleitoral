@@ -45,6 +45,33 @@ from typing import Any
 TEMA_SEM_CLASSIFICACAO = "sem_tema_definido"
 STATUS_PLANO_VALIDOS = {"consta", "nao_consta"}
 
+UF_NOMES = {
+    "AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "AM": "Amazonas",
+    "BA": "Bahia", "CE": "Ceará", "DF": "Distrito Federal",
+    "ES": "Espírito Santo", "GO": "Goiás", "MA": "Maranhão",
+    "MT": "Mato Grosso", "MS": "Mato Grosso do Sul", "MG": "Minas Gerais",
+    "PA": "Pará", "PB": "Paraíba", "PR": "Paraná", "PE": "Pernambuco",
+    "PI": "Piauí", "RJ": "Rio de Janeiro", "RN": "Rio Grande do Norte",
+    "RS": "Rio Grande do Sul", "RO": "Rondônia", "RR": "Roraima",
+    "SC": "Santa Catarina", "SP": "São Paulo", "SE": "Sergipe",
+    "TO": "Tocantins",
+}
+
+
+def carregar_candidatos_por_uf(pasta: Path) -> list[dict[str, Any]]:
+    """Le candidatos organizados em subpastas por UF (`pasta/{uf}/*.json`).
+
+    Mesma ordem alfabetica por nome de `carregar_candidatos` — a diferenca
+    e' so' que Governador tem uma corrida por estado, entao os registros
+    ficam em `dados/candidatos_governador/{uf}/{slug}.json` em vez de um
+    unico nivel (`dados/candidatos/{slug}.json`).
+    """
+    candidatos = [
+        json.loads(caminho.read_text(encoding="utf-8"))
+        for caminho in sorted(Path(pasta).rglob("*.json"))
+    ]
+    return sorted(candidatos, key=lambda c: c["nome"])
+
 
 def carregar_candidatos(pasta: Path) -> list[dict[str, Any]]:
     """Le todos os registros de candidato numa pasta, ordenados por nome.

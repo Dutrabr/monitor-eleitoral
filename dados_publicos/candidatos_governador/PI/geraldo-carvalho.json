@@ -1,0 +1,20 @@
+{
+  "slug": "geraldo-carvalho",
+  "uf": "PI",
+  "nome": "GERALDO CARVALHO",
+  "nome_completo": "GERALDO DO NASCIMENTO CARVALHO",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "GERVÁSIO SANTOS",
+  "falante_id": "candidato_geraldo_carvalho",
+  "plano_de_governo": "/governador/PI/geraldo-carvalho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002537422,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "a7170e0a2cefe3c955406d261779cfd269ff5ca452d7e9ec9d9d045baf1676a8",
+    "bytes_pdf": 307096
+  }
+}

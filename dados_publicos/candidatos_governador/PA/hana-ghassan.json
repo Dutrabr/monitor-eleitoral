@@ -1,0 +1,20 @@
+{
+  "slug": "hana-ghassan",
+  "uf": "PA",
+  "nome": "HANA GHASSAN",
+  "nome_completo": "HANA GHASSAN TUMA",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "DIRCEU TEN CATEN",
+  "falante_id": "candidato_hana_ghassan",
+  "plano_de_governo": "/governador/PA/hana-ghassan/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 140002551598,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PA",
+    "hash_sha256_pdf": "3feb4edbe2b82e1fecf48ac9c3474d97bfd5de8f193b764d50d3859f7a6ca09f",
+    "bytes_pdf": 1028336
+  }
+}

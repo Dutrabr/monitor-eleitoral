@@ -1,0 +1,20 @@
+{
+  "slug": "cleitinho-azevedo",
+  "uf": "MG",
+  "nome": "CLEITINHO AZEVEDO",
+  "nome_completo": "CLEITON GONTIJO DE AZEVEDO",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "FALCÃO",
+  "falante_id": "candidato_cleitinho_azevedo",
+  "plano_de_governo": "/governador/MG/cleitinho-azevedo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002552296,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "e8b42dd72ffe80300eff68c10c7785066d13c42aa0f3db4e1748f679478b377f",
+    "bytes_pdf": 1853915
+  }
+}

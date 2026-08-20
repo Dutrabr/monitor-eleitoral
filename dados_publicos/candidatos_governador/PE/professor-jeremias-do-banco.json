@@ -1,0 +1,20 @@
+{
+  "slug": "professor-jeremias-do-banco",
+  "uf": "PE",
+  "nome": "PROFESSOR JEREMIAS DO BANCO",
+  "nome_completo": "JEREMIAS COSMO SILVA DOS SANTOS",
+  "partido": "DEMOCRATA",
+  "numero": 35,
+  "cargo": "Governador",
+  "vice": "CARLOS ALBERTO",
+  "falante_id": "candidato_professor_jeremias_do_banco",
+  "plano_de_governo": "/governador/PE/professor-jeremias-do-banco/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 170002541258,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PE",
+    "hash_sha256_pdf": "5b4ca82a021b96f92f4d600242265c5b4a53d7861e6c4a7c4eac9b9106a50527",
+    "bytes_pdf": 179965
+  }
+}

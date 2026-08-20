@@ -1,0 +1,20 @@
+{
+  "slug": "pedro-abib",
+  "uf": "RO",
+  "nome": "PEDRO ABIB",
+  "nome_completo": "PEDRO ABIB HECKTHEUER",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "MAURO PEREIRA",
+  "falante_id": "candidato_pedro_abib",
+  "plano_de_governo": "/governador/RO/pedro-abib/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 220002551251,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RO",
+    "hash_sha256_pdf": "ec9d80a9fbd5601272a4160e37899639e7f9feecd481a6badffd60846537c916",
+    "bytes_pdf": 2019235
+  }
+}

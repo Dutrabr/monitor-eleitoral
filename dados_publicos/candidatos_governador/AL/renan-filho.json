@@ -1,0 +1,20 @@
+{
+  "slug": "renan-filho",
+  "uf": "AL",
+  "nome": "RENAN FILHO",
+  "nome_completo": "JOSÉ RENAN VASCONCELOS CALHEIROS FILHO",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "YALE BARBOSA",
+  "falante_id": "candidato_renan_filho",
+  "plano_de_governo": "/governador/AL/renan-filho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 20002553745,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AL",
+    "hash_sha256_pdf": "e5db82b2ef6452635a30ccbc0d01d04cd628b1efeab88c466aab1fad8457949d",
+    "bytes_pdf": 308685
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "lais-chaud",
+  "uf": "SC",
+  "nome": "LAÍS CHAUD",
+  "nome_completo": "LAÍS PAGANELLI CHAUD",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "NATHÁLIA MELO",
+  "falante_id": "candidato_lais_chaud",
+  "plano_de_governo": "/governador/SC/lais-chaud/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 240002550544,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SC",
+    "hash_sha256_pdf": "552428823ee4d34d41e4011f1be270281e92eacc39a73336d21b9b35cfd6010b",
+    "bytes_pdf": 246638
+  }
+}

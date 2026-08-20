@@ -1,0 +1,20 @@
+{
+  "slug": "alan-rick",
+  "uf": "AC",
+  "nome": "ALAN RICK",
+  "nome_completo": "ALAN RICK MIRANDA",
+  "partido": "REPUBLICANOS",
+  "numero": 10,
+  "cargo": "Governador",
+  "vice": "RICARDO LEITE",
+  "falante_id": "candidato_alan_rick",
+  "plano_de_governo": "/governador/AC/alan-rick/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 10002532492,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AC",
+    "hash_sha256_pdf": "e48b61a093e52292b5e547a0f0d5fd172f7641e48f32b452e5245b14160cac42",
+    "bytes_pdf": 5313228
+  }
+}

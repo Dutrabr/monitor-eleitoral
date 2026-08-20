@@ -1,0 +1,18 @@
+{
+  "slug": "eduardo-paes",
+  "uf": "RJ",
+  "nome": "EDUARDO PAES",
+  "nome_completo": "EDUARDO DA COSTA PAES",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "JANE REIS",
+  "falante_id": "candidato_eduardo_paes",
+  "plano_de_governo": null,
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 190002543380,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RJ"
+  }
+}

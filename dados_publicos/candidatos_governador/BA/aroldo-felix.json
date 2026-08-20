@@ -1,0 +1,20 @@
+{
+  "slug": "aroldo-felix",
+  "uf": "BA",
+  "nome": "AROLDO FELIX",
+  "nome_completo": "AROLDO FELIX DE AZEVEDO JUNIOR",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "MARILIA DO MLB",
+  "falante_id": "candidato_aroldo_felix",
+  "plano_de_governo": "/governador/BA/aroldo-felix/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 50002544692,
+    "eleicao_id_tse": "20322002026",
+    "uf": "BA",
+    "hash_sha256_pdf": "b383e75810226556bbab78450d816c328e7a2768ef3424ed8d0c224847f2641f",
+    "bytes_pdf": 572083
+  }
+}

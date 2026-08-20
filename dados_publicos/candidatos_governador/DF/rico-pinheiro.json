@@ -1,0 +1,20 @@
+{
+  "slug": "rico-pinheiro",
+  "uf": "DF",
+  "nome": "RICO PINHEIRO",
+  "nome_completo": "ALDERICO DA SILVA PINHEIRO FILHO",
+  "partido": "PRTB",
+  "numero": 28,
+  "cargo": "Governador",
+  "vice": "CRISTIANE BARROS",
+  "falante_id": "candidato_rico_pinheiro",
+  "plano_de_governo": "/governador/DF/rico-pinheiro/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 70002553982,
+    "eleicao_id_tse": "20322002026",
+    "uf": "DF",
+    "hash_sha256_pdf": "ac857a986d18f82fb3f912425d36f8ec347c75c8b67ef1257425fa3880da0cb2",
+    "bytes_pdf": 40723
+  }
+}

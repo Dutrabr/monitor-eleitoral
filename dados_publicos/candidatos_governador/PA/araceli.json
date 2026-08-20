@@ -1,0 +1,20 @@
+{
+  "slug": "araceli",
+  "uf": "PA",
+  "nome": "ARACELI",
+  "nome_completo": "ARACELI MARIA PEREIRA LEMOS",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "FATIMA SANTANA",
+  "falante_id": "candidato_araceli",
+  "plano_de_governo": "/governador/PA/araceli/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 140002542386,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PA",
+    "hash_sha256_pdf": "5b876d95803eabda5b8b95660e037b2bfe48b72b916ace60ef2c10faf1f38cec",
+    "bytes_pdf": 253338
+  }
+}

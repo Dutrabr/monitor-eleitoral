@@ -1,0 +1,20 @@
+{
+  "slug": "dr-furlan",
+  "uf": "AP",
+  "nome": "DR. FURLAN",
+  "nome_completo": "ANTONIO PAULO DE OLIVEIRA FURLAN",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "LUCIANA GURGEL",
+  "falante_id": "candidato_dr_furlan",
+  "plano_de_governo": "/governador/AP/dr-furlan/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 30002530014,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AP",
+    "hash_sha256_pdf": "410bae0a51d30322c5ab91f25fac8891aaf298a9e31102a077ca5f9326ac03a1",
+    "bytes_pdf": 5371564
+  }
+}

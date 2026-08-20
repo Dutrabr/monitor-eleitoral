@@ -1,0 +1,20 @@
+{
+  "slug": "kiko-caputo",
+  "uf": "DF",
+  "nome": "KIKO CAPUTO",
+  "nome_completo": "FRANCISCO QUEIROZ CAPUTO NETO",
+  "partido": "NOVO",
+  "numero": 30,
+  "cargo": "Governador",
+  "vice": "DELEGADO RAFAEL SAMPAIO",
+  "falante_id": "candidato_kiko_caputo",
+  "plano_de_governo": "/governador/DF/kiko-caputo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 70002547775,
+    "eleicao_id_tse": "20322002026",
+    "uf": "DF",
+    "hash_sha256_pdf": "c0bb49d6573fddc29574bda088e5f76a6fbe50a1fcb715cb2c043518a7ea6168",
+    "bytes_pdf": 2204807
+  }
+}

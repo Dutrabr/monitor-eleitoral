@@ -1,0 +1,20 @@
+{
+  "slug": "wellington-fagundes",
+  "uf": "MT",
+  "nome": "WELLINGTON FAGUNDES",
+  "nome_completo": "WELLINGTON ANTONIO FAGUNDES",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "REINALDO GOMES DE MORAIS",
+  "falante_id": "candidato_wellington_fagundes",
+  "plano_de_governo": "/governador/MT/wellington-fagundes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 110002551737,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MT",
+    "hash_sha256_pdf": "2224b04d7501d27b9b0965e3f07d27aa7498d0dd1a4d59e0fe5937d19b85e584",
+    "bytes_pdf": 843079
+  }
+}

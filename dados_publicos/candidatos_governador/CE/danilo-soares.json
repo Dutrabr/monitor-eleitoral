@@ -1,0 +1,20 @@
+{
+  "slug": "danilo-soares",
+  "uf": "CE",
+  "nome": "DANILO SOARES",
+  "nome_completo": "DANILO SOARES SOUSA",
+  "partido": "DEMOCRATA",
+  "numero": 35,
+  "cargo": "Governador",
+  "vice": "ERYCK VELOSO",
+  "falante_id": "candidato_danilo_soares",
+  "plano_de_governo": "/governador/CE/danilo-soares/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002552498,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE",
+    "hash_sha256_pdf": "b9b60bd40c93675592114905a1f2fded5b72cbe159873db0453e071ba569cf3d",
+    "bytes_pdf": 300153
+  }
+}

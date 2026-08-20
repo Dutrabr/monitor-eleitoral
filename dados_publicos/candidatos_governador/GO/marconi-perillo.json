@@ -1,0 +1,20 @@
+{
+  "slug": "marconi-perillo",
+  "uf": "GO",
+  "nome": "MARCONI PERILLO",
+  "nome_completo": "MARCONI FERREIRA PERILLO JUNIOR",
+  "partido": "PSDB",
+  "numero": 45,
+  "cargo": "Governador",
+  "vice": "JACQUELINE ZAIDEN",
+  "falante_id": "candidato_marconi_perillo",
+  "plano_de_governo": "/governador/GO/marconi-perillo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 90002543463,
+    "eleicao_id_tse": "20322002026",
+    "uf": "GO",
+    "hash_sha256_pdf": "4e51f13d3d8187af6a1b6b08c03576fd8f16d8e6beade9c58c16bee5723e65fe",
+    "bytes_pdf": 818822
+  }
+}

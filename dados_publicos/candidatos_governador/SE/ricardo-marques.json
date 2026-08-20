@@ -1,0 +1,20 @@
+{
+  "slug": "ricardo-marques",
+  "uf": "SE",
+  "nome": "RICARDO MARQUES",
+  "nome_completo": "JOSE RICARDO MARQUES DOS SANTOS",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "PASTORA SALETE",
+  "falante_id": "candidato_ricardo_marques",
+  "plano_de_governo": "/governador/SE/ricardo-marques/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 260002549466,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SE",
+    "hash_sha256_pdf": "314a5af86021b5e382e7270f60051c7ab5f671ac905f8fa7de161c31eeec9840",
+    "bytes_pdf": 1643565
+  }
+}

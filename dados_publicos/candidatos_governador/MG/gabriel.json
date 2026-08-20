@@ -1,0 +1,20 @@
+{
+  "slug": "gabriel",
+  "uf": "MG",
+  "nome": "GABRIEL",
+  "nome_completo": "GABRIEL SOUSA MARQUES DE AZEVEDO",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "MARIA HELENA",
+  "falante_id": "candidato_gabriel",
+  "plano_de_governo": "/governador/MG/gabriel/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002549557,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "bf6997a139b1fafcd71125c2463469d6757cb73e9950edaf159e6bb782573bf8",
+    "bytes_pdf": 9256380
+  }
+}

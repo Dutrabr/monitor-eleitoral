@@ -1,0 +1,20 @@
+{
+  "slug": "vivian-mendes",
+  "uf": "SP",
+  "nome": "VIVIAN MENDES",
+  "nome_completo": "VIVIAN MENDES DA SILVA",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "CRIS DAMASIO, MARCELO PEREIRA",
+  "falante_id": "candidato_vivian_mendes",
+  "plano_de_governo": "/governador/SP/vivian-mendes/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 250002544912,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SP",
+    "hash_sha256_pdf": "760d8fdd32694e6d161ed5deafa76259af7f8a2082058f9c76df57eb531fe59b",
+    "bytes_pdf": 2067454
+  }
+}

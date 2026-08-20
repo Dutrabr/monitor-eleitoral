@@ -1,0 +1,20 @@
+{
+  "slug": "samuel-costa",
+  "uf": "RO",
+  "nome": "SAMUEL COSTA",
+  "nome_completo": "SAMUEL COSTA MENEZES",
+  "partido": "PSB",
+  "numero": 40,
+  "cargo": "Governador",
+  "vice": "SARGENTO MACHADO",
+  "falante_id": "candidato_samuel_costa",
+  "plano_de_governo": "/governador/RO/samuel-costa/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 220002550927,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RO",
+    "hash_sha256_pdf": "beb29a0fd236841e596c4466116fde554bfed9bcaa2eed14a09a59519a28a9f5",
+    "bytes_pdf": 270554
+  }
+}

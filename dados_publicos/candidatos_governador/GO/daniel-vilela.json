@@ -1,0 +1,20 @@
+{
+  "slug": "daniel-vilela",
+  "uf": "GO",
+  "nome": "DANIEL VILELA",
+  "nome_completo": "DANIEL ELIAS CARVALHO VILELA",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "LUIZ DO CARMO",
+  "falante_id": "candidato_daniel_vilela",
+  "plano_de_governo": "/governador/GO/daniel-vilela/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 90002540993,
+    "eleicao_id_tse": "20322002026",
+    "uf": "GO",
+    "hash_sha256_pdf": "fb86e68829db94adea82c6f096f0d5a7e37d73700252b50b72bad098c062967f",
+    "bytes_pdf": 1975601
+  }
+}

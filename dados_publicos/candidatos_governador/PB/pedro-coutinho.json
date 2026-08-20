@@ -1,0 +1,18 @@
+{
+  "slug": "pedro-coutinho",
+  "uf": "PB",
+  "nome": "PEDRO COUTINHO",
+  "nome_completo": "PEDRO JORGE COUTINHO GUERRA",
+  "partido": "DC",
+  "numero": 27,
+  "cargo": "Governador",
+  "vice": "LENILDA PEREIRA",
+  "falante_id": "candidato_pedro_coutinho",
+  "plano_de_governo": null,
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 150002551911,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PB"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "rafael-demuner",
+  "uf": "ES",
+  "nome": "RAFAEL DEMUNER",
+  "nome_completo": "RAFAEL KETLEY DEMUNER",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "DIONARY SARMENTO",
+  "falante_id": "candidato_rafael_demuner",
+  "plano_de_governo": "/governador/ES/rafael-demuner/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 80002550832,
+    "eleicao_id_tse": "20322002026",
+    "uf": "ES",
+    "hash_sha256_pdf": "fdb7dcc3ff7e430894465a9b1e4a68e16442552da4682f7c796b44229a3e0aef",
+    "bytes_pdf": 261883
+  }
+}

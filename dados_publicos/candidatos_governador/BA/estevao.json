@@ -1,0 +1,20 @@
+{
+  "slug": "estevao",
+  "uf": "BA",
+  "nome": "ESTÊVÃO",
+  "nome_completo": "JOSE ESTEVAO DOS SANTOS BARBOSA",
+  "partido": "DC",
+  "numero": 27,
+  "cargo": "Governador",
+  "vice": "NEUZIMAR CAMACAM",
+  "falante_id": "candidato_estevao",
+  "plano_de_governo": "/governador/BA/estevao/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 50002536579,
+    "eleicao_id_tse": "20322002026",
+    "uf": "BA",
+    "hash_sha256_pdf": "fff695c88b6c8b2161859bca267daa159b5518c7d0e45f6abb534f5412e259a1",
+    "bytes_pdf": 457304
+  }
+}

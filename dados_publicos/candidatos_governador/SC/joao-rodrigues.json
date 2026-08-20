@@ -1,0 +1,20 @@
+{
+  "slug": "joao-rodrigues",
+  "uf": "SC",
+  "nome": "JOÃO RODRIGUES",
+  "nome_completo": "JOAO RODRIGUES",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "CARLOS CHIODINI",
+  "falante_id": "candidato_joao_rodrigues",
+  "plano_de_governo": "/governador/SC/joao-rodrigues/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 240002551001,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SC",
+    "hash_sha256_pdf": "536e88944a4fee46d92874517ef1a00b80a9b74c77a7c28ba85320e8a49b5dc9",
+    "bytes_pdf": 172785
+  }
+}

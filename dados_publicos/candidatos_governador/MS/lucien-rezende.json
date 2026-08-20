@@ -1,0 +1,20 @@
+{
+  "slug": "lucien-rezende",
+  "uf": "MS",
+  "nome": "LUCIEN REZENDE",
+  "nome_completo": "LUCIEN ROBERTO GARCIA DE REZENDE",
+  "partido": "PSOL",
+  "numero": 50,
+  "cargo": "Governador",
+  "vice": "PROF. ENFERMEIRA KAELLY",
+  "falante_id": "candidato_lucien_rezende",
+  "plano_de_governo": "/governador/MS/lucien-rezende/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 120002532257,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MS",
+    "hash_sha256_pdf": "b00c08377c13dc283f8293bb682ee418c29a380966ba4a3a673673cc71653478",
+    "bytes_pdf": 150862
+  }
+}

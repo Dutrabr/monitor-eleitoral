@@ -1,0 +1,20 @@
+{
+  "slug": "izadora-dias",
+  "uf": "SP",
+  "nome": "IZADORA DIAS",
+  "nome_completo": "IZADORA CRISTINA DIAS DA SILVA",
+  "partido": "PCO",
+  "numero": 29,
+  "cargo": "Governador",
+  "vice": "NIVALDO ORLANDI",
+  "falante_id": "candidato_izadora_dias",
+  "plano_de_governo": "/governador/SP/izadora-dias/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 250002553062,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SP",
+    "hash_sha256_pdf": "ed380b23d6e033e8616ce71efcf66eb42d2baee2b58f1c9ae80690009c20dfe9",
+    "bytes_pdf": 96070
+  }
+}

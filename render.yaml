@@ -14,6 +14,9 @@ services:
       --dados ../dados_publicos/transcricoes
       --planos ../dados_publicos/planos_de_governo
       --planos-curados ../dados_publicos/planos_curados
+      --candidatos-governador ../dados_publicos/candidatos_governador
+      --planos-governador ../dados_publicos/planos_de_governo_governador
+      --planos-curados-governador ../dados_publicos/planos_curados_governador
       --host 0.0.0.0
       --porta $PORT
     envVars:

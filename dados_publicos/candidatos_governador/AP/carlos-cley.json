@@ -1,0 +1,20 @@
+{
+  "slug": "carlos-cley",
+  "uf": "AP",
+  "nome": "CARLOS CLEY",
+  "nome_completo": "CARLOS CLEY RAMOS PAIVA",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "ANA PAULA PINHEIRO",
+  "falante_id": "candidato_carlos_cley",
+  "plano_de_governo": "/governador/AP/carlos-cley/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 30002536313,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AP",
+    "hash_sha256_pdf": "0fe3ca8c7888366a5e64e2310da4cb60d4d4163d3a042de4cf324ba96ccdc175",
+    "bytes_pdf": 127340
+  }
+}

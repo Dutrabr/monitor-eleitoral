@@ -1,0 +1,20 @@
+{
+  "slug": "coronel-busnello",
+  "uf": "RJ",
+  "nome": "CORONEL BUSNELLO",
+  "nome_completo": "JOÃO JACQUES SOARES BUSNELLO",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Governador",
+  "vice": "RAFA LUZ",
+  "falante_id": "candidato_coronel_busnello",
+  "plano_de_governo": "/governador/RJ/coronel-busnello/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 190002544120,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RJ",
+    "hash_sha256_pdf": "86604b4a8d9951a761a8fe4a580a4ff04d6f1ce0319eefc3a269692908d02025",
+    "bytes_pdf": 775598
+  }
+}

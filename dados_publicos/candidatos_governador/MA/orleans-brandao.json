@@ -1,0 +1,20 @@
+{
+  "slug": "orleans-brandao",
+  "uf": "MA",
+  "nome": "ORLEANS BRANDÃO",
+  "nome_completo": "CARLOS ORLEANS BRAIDE BRANDÃO",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "EDIVALDO HOLANDA JUNIOR",
+  "falante_id": "candidato_orleans_brandao",
+  "plano_de_governo": "/governador/MA/orleans-brandao/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 100002543869,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MA",
+    "hash_sha256_pdf": "a637981388d05744e44978e9c84b187b841f8cce6463d81f5c22a9df2792e178",
+    "bytes_pdf": 703110
+  }
+}

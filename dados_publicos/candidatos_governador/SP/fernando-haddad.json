@@ -1,0 +1,20 @@
+{
+  "slug": "fernando-haddad",
+  "uf": "SP",
+  "nome": "FERNANDO HADDAD",
+  "nome_completo": "FERNANDO HADDAD",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "MÁRCIO FRANÇA",
+  "falante_id": "candidato_fernando_haddad",
+  "plano_de_governo": "/governador/SP/fernando-haddad/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 250002549705,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SP",
+    "hash_sha256_pdf": "6bca690843bd1e205e6e6b8f5b37641b8969252aeb7cb7e39269a264e81fdfb0",
+    "bytes_pdf": 392838
+  }
+}

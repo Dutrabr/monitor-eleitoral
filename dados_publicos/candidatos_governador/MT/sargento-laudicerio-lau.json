@@ -1,0 +1,20 @@
+{
+  "slug": "sargento-laudicerio-lau",
+  "uf": "MT",
+  "nome": "SARGENTO LAUDICÉRIO (LAU)",
+  "nome_completo": "LAUDICERIO AGUIAR MACHADO",
+  "partido": "AGIR",
+  "numero": 36,
+  "cargo": "Governador",
+  "vice": "ALEX PUCINELI",
+  "falante_id": "candidato_sargento_laudicerio_lau",
+  "plano_de_governo": "/governador/MT/sargento-laudicerio-lau/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 110002553937,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MT",
+    "hash_sha256_pdf": "2ddc780d3188ec24b464ad5ef45526797936cf4f0791ed7981aae6e835053212",
+    "bytes_pdf": 680214
+  }
+}

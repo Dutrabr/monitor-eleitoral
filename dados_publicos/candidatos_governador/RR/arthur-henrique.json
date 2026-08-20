@@ -1,0 +1,20 @@
+{
+  "slug": "arthur-henrique",
+  "uf": "RR",
+  "nome": "ARTHUR HENRIQUE",
+  "nome_completo": "ARTHUR HENRIQUE BRANDAO MACHADO",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "HAROLDO CATHEDRAL",
+  "falante_id": "candidato_arthur_henrique",
+  "plano_de_governo": "/governador/RR/arthur-henrique/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 230002549223,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RR",
+    "hash_sha256_pdf": "26da448b0ec767981835b0d5936275875f1631cc8f06ab65a29efa01b23805d3",
+    "bytes_pdf": 1890868
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ieri-braga",
+  "uf": "CE",
+  "nome": "IERI BRAGA",
+  "nome_completo": "IERI DE SOUSA BRAGA JUNIOR",
+  "partido": "PCO",
+  "numero": 29,
+  "cargo": "Governador",
+  "vice": "LAERTE SILVA",
+  "falante_id": "candidato_ieri_braga",
+  "plano_de_governo": "/governador/CE/ieri-braga/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002552320,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE",
+    "hash_sha256_pdf": "ed380b23d6e033e8616ce71efcf66eb42d2baee2b58f1c9ae80690009c20dfe9",
+    "bytes_pdf": 96070
+  }
+}

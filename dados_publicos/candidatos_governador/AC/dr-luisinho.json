@@ -1,0 +1,20 @@
+{
+  "slug": "dr-luisinho",
+  "uf": "AC",
+  "nome": "DR.LUISINHO",
+  "nome_completo": "FRANCISCO DAS CHAGAS CONCEICAO DA SILVA",
+  "partido": "AGIR",
+  "numero": 36,
+  "cargo": "Governador",
+  "vice": "DANIELA PAIVA",
+  "falante_id": "candidato_dr_luisinho",
+  "plano_de_governo": "/governador/AC/dr-luisinho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 10002533539,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AC",
+    "hash_sha256_pdf": "f1a6f8f3b526b195f9103d4f617702c4354ed768bf60766559ca8ffbb4fa63ce",
+    "bytes_pdf": 399509
+  }
+}

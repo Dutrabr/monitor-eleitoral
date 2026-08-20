@@ -1,0 +1,20 @@
+{
+  "slug": "raquel-lyra",
+  "uf": "PE",
+  "nome": "RAQUEL LYRA",
+  "nome_completo": "RAQUEL TEIXEIRA LYRA LUCENA",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "PRISCILA KRAUSE",
+  "falante_id": "candidato_raquel_lyra",
+  "plano_de_governo": "/governador/PE/raquel-lyra/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 170002537227,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PE",
+    "hash_sha256_pdf": "3041874e9c767aa94d623b2e62ff85ccfa62949c70ea9f07dc6876e8a7483850",
+    "bytes_pdf": 5965957
+  }
+}

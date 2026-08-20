@@ -1,0 +1,20 @@
+{
+  "slug": "ralf-zimmer",
+  "uf": "SC",
+  "nome": "RALF ZIMMER",
+  "nome_completo": "RALF GUIMARAES ZIMMER JUNIOR",
+  "partido": "PRD",
+  "numero": 25,
+  "cargo": "Governador",
+  "vice": "CARLOS BORDIN",
+  "falante_id": "candidato_ralf_zimmer",
+  "plano_de_governo": "/governador/SC/ralf-zimmer/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 240002552157,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SC",
+    "hash_sha256_pdf": "b09199e2b606125d047b5101cfd63861b4a63191cd1abb16a1473971eb7b5cb9",
+    "bytes_pdf": 319835
+  }
+}

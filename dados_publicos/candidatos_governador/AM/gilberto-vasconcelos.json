@@ -1,0 +1,20 @@
+{
+  "slug": "gilberto-vasconcelos",
+  "uf": "AM",
+  "nome": "GILBERTO VASCONCELOS",
+  "nome_completo": "GILBERTO VASCONCELOS DA SILVA",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "JULIANA FROTA",
+  "falante_id": "candidato_gilberto_vasconcelos",
+  "plano_de_governo": "/governador/AM/gilberto-vasconcelos/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 40002535267,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AM",
+    "hash_sha256_pdf": "ef372dbb4f3dd92de436642f04d31fc73cbbde726d43fd057079c0700397a1c4",
+    "bytes_pdf": 361649
+  }
+}

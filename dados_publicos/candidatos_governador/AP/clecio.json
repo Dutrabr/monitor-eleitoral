@@ -1,0 +1,20 @@
+{
+  "slug": "clecio",
+  "uf": "AP",
+  "nome": "CLÉCIO",
+  "nome_completo": "CLÉCIO LUÍS VILHENA VIEIRA",
+  "partido": "UNIÃO",
+  "numero": 44,
+  "cargo": "Governador",
+  "vice": "TELES JR.",
+  "falante_id": "candidato_clecio",
+  "plano_de_governo": "/governador/AP/clecio/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 30002536311,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AP",
+    "hash_sha256_pdf": "1e95175516a9a444d8bcec408eea308f9f7a1a635fed58ebaf1a1b0f81d6c81f",
+    "bytes_pdf": 1390454
+  }
+}

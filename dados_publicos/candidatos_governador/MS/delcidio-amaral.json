@@ -1,0 +1,20 @@
+{
+  "slug": "delcidio-amaral",
+  "uf": "MS",
+  "nome": "DELCIDIO AMARAL",
+  "nome_completo": "DELCIDIO DO AMARAL GOMEZ",
+  "partido": "PRD",
+  "numero": 25,
+  "cargo": "Governador",
+  "vice": "MARILIANA SANTOS",
+  "falante_id": "candidato_delcidio_amaral",
+  "plano_de_governo": "/governador/MS/delcidio-amaral/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 120002552155,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MS",
+    "hash_sha256_pdf": "39041016f175f81883560939a222eb0f35a320a4faf2c0236a03c6fa2758ec00",
+    "bytes_pdf": 491537
+  }
+}

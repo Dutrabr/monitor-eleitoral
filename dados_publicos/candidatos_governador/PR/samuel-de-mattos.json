@@ -1,0 +1,20 @@
+{
+  "slug": "samuel-de-mattos",
+  "uf": "PR",
+  "nome": "SAMUEL DE MATTOS",
+  "nome_completo": "SAMUEL DE MATTOS FIGUEIREDO",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "HELENA FIGUEIREDO",
+  "falante_id": "candidato_samuel_de_mattos",
+  "plano_de_governo": "/governador/PR/samuel-de-mattos/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 160002548010,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PR",
+    "hash_sha256_pdf": "2abcbeac6450652c6e2dceebf4bba9025bbf642e533315384f19fb147c627ecb",
+    "bytes_pdf": 130861
+  }
+}

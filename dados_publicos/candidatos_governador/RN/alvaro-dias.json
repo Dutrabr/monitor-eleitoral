@@ -1,0 +1,20 @@
+{
+  "slug": "alvaro-dias",
+  "uf": "RN",
+  "nome": "ÁLVARO DIAS",
+  "nome_completo": "ÁLVARO COSTA DIAS",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Governador",
+  "vice": "BABÁ",
+  "falante_id": "candidato_alvaro_dias",
+  "plano_de_governo": "/governador/RN/alvaro-dias/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 200002534442,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RN",
+    "hash_sha256_pdf": "88f158c68d7fb438070f39335fedd15a73d79c371ac037ef68d7c8d8b491a46c",
+    "bytes_pdf": 569434
+  }
+}

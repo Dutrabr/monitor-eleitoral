@@ -1,0 +1,20 @@
+{
+  "slug": "arruda",
+  "uf": "DF",
+  "nome": "ARRUDA",
+  "nome_completo": "JOSÉ ROBERTO ARRUDA",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "LUIZ PITIMAN",
+  "falante_id": "candidato_arruda",
+  "plano_de_governo": "/governador/DF/arruda/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 70002552586,
+    "eleicao_id_tse": "20322002026",
+    "uf": "DF",
+    "hash_sha256_pdf": "ecaa15df00f667a1042ec296845616301d7cb357b2c10fa4f0812e573602eff3",
+    "bytes_pdf": 2072075
+  }
+}

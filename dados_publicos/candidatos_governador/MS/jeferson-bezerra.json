@@ -1,0 +1,20 @@
+{
+  "slug": "jeferson-bezerra",
+  "uf": "MS",
+  "nome": "JEFERSON BEZERRA",
+  "nome_completo": "JEFERSON JOSE BEZERRA",
+  "partido": "AGIR",
+  "numero": 36,
+  "cargo": "Governador",
+  "vice": "VALDENIR DUARTE",
+  "falante_id": "candidato_jeferson_bezerra",
+  "plano_de_governo": "/governador/MS/jeferson-bezerra/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 120002550198,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MS",
+    "hash_sha256_pdf": "834b708ff3dcad62fbfc884c81a209f036c826516e90b631df044325dcac76ee",
+    "bytes_pdf": 443074
+  }
+}

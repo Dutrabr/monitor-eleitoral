@@ -1,0 +1,20 @@
+{
+  "slug": "sandro-alex",
+  "uf": "PR",
+  "nome": "SANDRO ALEX",
+  "nome_completo": "SANDRO ALEX CRUZ DE OLIVEIRA",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Governador",
+  "vice": "RAFAEL GRECA",
+  "falante_id": "candidato_sandro_alex",
+  "plano_de_governo": "/governador/PR/sandro-alex/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 160002549553,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PR",
+    "hash_sha256_pdf": "7d7e651ef8946467c6877ca63965f1cc9d361b8dfa15817cd9807ec3590a4b6a",
+    "bytes_pdf": 1937803
+  }
+}

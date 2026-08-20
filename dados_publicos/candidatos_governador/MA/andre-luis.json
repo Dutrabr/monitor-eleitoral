@@ -1,0 +1,20 @@
+{
+  "slug": "andre-luis",
+  "uf": "MA",
+  "nome": "ANDRÉ LUIS",
+  "nome_completo": "ANDRÉ LUÍS CAETANO DOS SANTOS",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Governador",
+  "vice": "PROF. CADU",
+  "falante_id": "candidato_andre_luis",
+  "plano_de_governo": "/governador/MA/andre-luis/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 100002544076,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MA",
+    "hash_sha256_pdf": "d844ecd625694b6eaa614e6958a94f6bb8aa6ecdfef4621d470d0f26cb346103",
+    "bytes_pdf": 283658
+  }
+}

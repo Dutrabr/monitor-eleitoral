@@ -1,0 +1,20 @@
+{
+  "slug": "luciana-amorim",
+  "uf": "GO",
+  "nome": "LUCIANA AMORIM",
+  "nome_completo": "LUCIANA DE DEUS AMORIM",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "CAYMMI HENRIQUE",
+  "falante_id": "candidato_luciana_amorim",
+  "plano_de_governo": "/governador/GO/luciana-amorim/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 90002550707,
+    "eleicao_id_tse": "20322002026",
+    "uf": "GO",
+    "hash_sha256_pdf": "c62a13d368ad4101401c9cfd43a675adae6094bbbba14b22be9bc904a2fe21b3",
+    "bytes_pdf": 375349
+  }
+}

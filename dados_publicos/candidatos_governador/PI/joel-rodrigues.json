@@ -1,0 +1,20 @@
+{
+  "slug": "joel-rodrigues",
+  "uf": "PI",
+  "nome": "JOEL RODRIGUES",
+  "nome_completo": "JOEL RODRIGUES DA SILVA",
+  "partido": "PP",
+  "numero": 11,
+  "cargo": "Governador",
+  "vice": "JEOVÁ ALENCAR",
+  "falante_id": "candidato_joel_rodrigues",
+  "plano_de_governo": "/governador/PI/joel-rodrigues/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002538530,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "c809ed9293b4f566e4238f94196597f7c3ea019aa4c1f3560db811eb5f392867",
+    "bytes_pdf": 1703052
+  }
+}

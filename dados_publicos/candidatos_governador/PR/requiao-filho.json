@@ -1,0 +1,20 @@
+{
+  "slug": "requiao-filho",
+  "uf": "PR",
+  "nome": "REQUIÃO FILHO",
+  "nome_completo": "MAURICIO THADEU DE MELLO E SILVA",
+  "partido": "PDT",
+  "numero": 12,
+  "cargo": "Governador",
+  "vice": "MICHELE CAPUTO",
+  "falante_id": "candidato_requiao_filho",
+  "plano_de_governo": "/governador/PR/requiao-filho/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 160002547666,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PR",
+    "hash_sha256_pdf": "b8a822479c3609979135d6dd1acb61f5c924253c25aa194b60f369dfea08b4e9",
+    "bytes_pdf": 4754284
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "taty-cristina-de-jesus",
+  "uf": "SE",
+  "nome": "TATY  CRISTINA DE JESUS",
+  "nome_completo": "TATIANA CRISTINA SANTOS DE JESUS",
+  "partido": "DC",
+  "numero": 27,
+  "cargo": "Governador",
+  "vice": "SIMEÃO BARBOSA",
+  "falante_id": "candidato_taty_cristina_de_jesus",
+  "plano_de_governo": "/governador/SE/taty-cristina-de-jesus/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 260002550683,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SE",
+    "hash_sha256_pdf": "24daa37c0fb4c9b80011539a929b2622eb0994b92e1b5057cd8314e5054a3661",
+    "bytes_pdf": 158042
+  }
+}

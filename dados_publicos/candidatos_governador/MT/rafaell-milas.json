@@ -1,0 +1,20 @@
+{
+  "slug": "rafaell-milas",
+  "uf": "MT",
+  "nome": "RAFAELL MILAS",
+  "nome_completo": "RAFAELL MILAS DE OLIVEIRA",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Governador",
+  "vice": "THALES SARTORELO",
+  "falante_id": "candidato_rafaell_milas",
+  "plano_de_governo": "/governador/MT/rafaell-milas/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 110002543953,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MT",
+    "hash_sha256_pdf": "5dd8b959382c59d9d04f5d3334ea99601e54c2889c3da117ed2609d9d14a454b",
+    "bytes_pdf": 282243
+  }
+}

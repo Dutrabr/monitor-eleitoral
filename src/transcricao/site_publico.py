@@ -27,8 +27,10 @@ from fastapi.templating import Jinja2Templates
 
 from .candidatos import (
     TEMA_SEM_CLASSIFICACAO,
+    UF_NOMES,
     agrupar_por_tema,
     carregar_candidatos,
+    carregar_candidatos_por_uf,
     carregar_plano_curado,
     citacoes_do_candidato,
     citacoes_para_linhas,
@@ -52,6 +54,9 @@ def criar_app(
     pasta_dados: Path,
     pasta_planos: Path | None = None,
     pasta_planos_curados: Path | None = None,
+    pasta_candidatos_governador: Path | None = None,
+    pasta_planos_governador: Path | None = None,
+    pasta_planos_curados_governador: Path | None = None,
 ) -> FastAPI:
     pasta_candidatos = Path(pasta_candidatos)
     pasta_dados = Path(pasta_dados)
@@ -59,6 +64,18 @@ def criar_app(
     pasta_planos_curados = (
         Path(pasta_planos_curados) if pasta_planos_curados
         else pasta_candidatos.parent / "planos_curados"
+    )
+    pasta_candidatos_governador = (
+        Path(pasta_candidatos_governador) if pasta_candidatos_governador
+        else pasta_candidatos.parent / "candidatos_governador"
+    )
+    pasta_planos_governador = (
+        Path(pasta_planos_governador) if pasta_planos_governador
+        else pasta_candidatos.parent / "planos_de_governo_governador"
+    )
+    pasta_planos_curados_governador = (
+        Path(pasta_planos_curados_governador) if pasta_planos_curados_governador
+        else pasta_candidatos.parent / "planos_curados_governador"
     )
     templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
     app = FastAPI(title="Monitor Eleitoral")
@@ -71,6 +88,18 @@ def criar_app(
     def _candidatos_por_numero() -> list[dict[str, Any]]:
         """Ordem de exibicao publica: numero de urna (regra 3, simetria total)."""
         return sorted(_candidatos(), key=lambda c: c.get("numero") or 0)
+
+    def _candidatos_governador() -> list[dict[str, Any]]:
+        if not pasta_candidatos_governador.exists():
+            return []
+        return carregar_candidatos_por_uf(pasta_candidatos_governador)
+
+    def _candidatos_governador_uf(uf: str) -> list[dict[str, Any]]:
+        """Mesma ordem de exibicao publica dos demais cargos: numero de urna."""
+        return sorted(
+            (c for c in _candidatos_governador() if c["uf"] == uf),
+            key=lambda c: c.get("numero") or 0,
+        )
 
     def _publicados() -> list[dict[str, Any]]:
         if not pasta_dados.exists():
@@ -149,8 +178,112 @@ def criar_app(
                 "timeline": timeline,
                 "og_titulo": og_titulo,
                 "og_descricao": og_descricao,
+                "voltar_url": "/",
+                "voltar_label": "Todos os candidatos",
             },
         )
+
+    @app.get("/governador", response_class=HTMLResponse)
+    def governador_index(request: Request):
+        contagem_por_uf: dict[str, int] = {}
+        for c in _candidatos_governador():
+            contagem_por_uf[c["uf"]] = contagem_por_uf.get(c["uf"], 0) + 1
+        estados = sorted(
+            (
+                {"uf": uf, "nome": nome, "total": contagem_por_uf.get(uf, 0)}
+                for uf, nome in UF_NOMES.items()
+            ),
+            key=lambda e: e["nome"],
+        )
+        return templates.TemplateResponse(
+            request,
+            "governador_index.html",
+            {"estados": estados, "total_candidatos": sum(contagem_por_uf.values())},
+        )
+
+    @app.get("/governador/{uf}", response_class=HTMLResponse)
+    def governador_estado(request: Request, uf: str):
+        uf = uf.upper()
+        if uf not in UF_NOMES:
+            raise HTTPException(404, f"UF '{uf}' invalida")
+        return templates.TemplateResponse(
+            request,
+            "governador_estado.html",
+            {
+                "uf": uf,
+                "nome_estado": UF_NOMES[uf],
+                "candidatos": _candidatos_governador_uf(uf),
+            },
+        )
+
+    @app.get("/governador/{uf}/{slug}", response_class=HTMLResponse)
+    def governador_candidato(request: Request, uf: str, slug: str, tema: str | None = None):
+        uf = uf.upper()
+        nome_estado = UF_NOMES.get(uf, uf)
+        candidatos = {c["slug"]: c for c in _candidatos_governador_uf(uf)}
+        c = candidatos.get(slug)
+        if not c:
+            raise HTTPException(404, f"candidato '{slug}' nao encontrado em {uf}")
+
+        citacoes = citacoes_do_candidato(c["falante_id"], _publicados())
+        for cit in citacoes:
+            cit["url_com_timestamp"] = url_com_timestamp(
+                cit.get("url_origem"), cit["inicio"]
+            )
+        grupos = agrupar_por_tema(citacoes)
+        plano_curado = carregar_plano_curado(pasta_planos_curados_governador, slug)
+
+        temas_presentes = set(grupos.keys()) | set(plano_curado.keys())
+        temas_ordenados = sorted(temas_presentes, key=lambda t: ROTULOS_TEMA.get(t, t))
+        tema_foco = tema if tema in temas_ordenados else None
+
+        timeline = sorted(
+            (cit for cit in citacoes if cit.get("publicado_em")),
+            key=lambda cit: cit["publicado_em"],
+        )
+
+        rotulo_tema_foco = ROTULOS_TEMA.get(tema_foco, tema_foco) if tema_foco else None
+        if rotulo_tema_foco:
+            og_titulo = f"{c['nome']} sobre {rotulo_tema_foco} — Monitor Eleitoral"
+            og_descricao = (
+                f"O que {c['nome']} (Governador, {nome_estado}) registrou no plano de "
+                f"governo sobre {rotulo_tema_foco.lower()}, comparado ao que disse "
+                "nas redes sociais."
+            )
+        else:
+            og_titulo = f"{c['nome']} — Monitor Eleitoral"
+            og_descricao = (
+                f"Compare o que {c['nome']}, candidato a Governador de {nome_estado}, "
+                "registrou no plano de governo com o que disse publicamente, tema por tema."
+            )
+
+        return templates.TemplateResponse(
+            request,
+            "candidato.html",
+            {
+                "candidato": c,
+                "grupos": grupos,
+                "plano_curado": plano_curado,
+                "temas_ordenados": temas_ordenados,
+                "tema_foco": tema_foco,
+                "tema_sem_classificacao": TEMA_SEM_CLASSIFICACAO,
+                "rotulos_tema": ROTULOS_TEMA,
+                "total_citacoes": len(citacoes),
+                "timeline": timeline,
+                "og_titulo": og_titulo,
+                "og_descricao": og_descricao,
+                "voltar_url": f"/governador/{uf}",
+                "voltar_label": f"Candidatos a Governador — {nome_estado}",
+            },
+        )
+
+    @app.get("/governador/{uf}/{slug}/plano")
+    def governador_plano_de_governo(uf: str, slug: str):
+        uf = uf.upper()
+        caminho = pasta_planos_governador / uf / f"{slug}.pdf"
+        if not caminho.exists():
+            raise HTTPException(404, f"plano de governo de '{slug}' ({uf}) nao encontrado")
+        return FileResponse(caminho, media_type="application/pdf")
 
     @app.get("/comparar", response_class=HTMLResponse)
     def comparar(
@@ -268,11 +401,11 @@ def criar_app(
 
     @app.get("/dados/citacoes.json")
     def dados_citacoes_json():
-        return citacoes_para_linhas(_candidatos(), _publicados())
+        return citacoes_para_linhas(_candidatos() + _candidatos_governador(), _publicados())
 
     @app.get("/dados/citacoes.csv")
     def dados_citacoes_csv():
-        linhas = citacoes_para_linhas(_candidatos(), _publicados())
+        linhas = citacoes_para_linhas(_candidatos() + _candidatos_governador(), _publicados())
         buffer = io.StringIO()
         escritor = csv.DictWriter(buffer, fieldnames=CAMPOS_EXPORT)
         escritor.writeheader()
@@ -291,11 +424,24 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--dados", type=Path, default=Path("dados/transcricoes"))
     ap.add_argument("--planos", type=Path, default=Path("dados/planos_de_governo"))
     ap.add_argument("--planos-curados", type=Path, default=Path("dados/planos_curados"))
+    ap.add_argument("--candidatos-governador", type=Path, default=Path("dados/candidatos_governador"))
+    ap.add_argument("--planos-governador", type=Path, default=Path("dados/planos_de_governo_governador"))
+    ap.add_argument(
+        "--planos-curados-governador", type=Path, default=Path("dados/planos_curados_governador")
+    )
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--porta", type=int, default=8001)
     args = ap.parse_args(argv)
 
-    app = criar_app(args.candidatos, args.dados, args.planos, args.planos_curados)
+    app = criar_app(
+        args.candidatos,
+        args.dados,
+        args.planos,
+        args.planos_curados,
+        args.candidatos_governador,
+        args.planos_governador,
+        args.planos_curados_governador,
+    )
     uvicorn.run(app, host=args.host, port=args.porta)
     return 0
 

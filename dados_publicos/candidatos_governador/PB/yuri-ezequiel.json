@@ -1,0 +1,20 @@
+{
+  "slug": "yuri-ezequiel",
+  "uf": "PB",
+  "nome": "YURI EZEQUIEL",
+  "nome_completo": "YURI EZEQUIEL DE LIMA SILVA",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "CARMINHA LOURENÇO",
+  "falante_id": "candidato_yuri_ezequiel",
+  "plano_de_governo": "/governador/PB/yuri-ezequiel/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 150002540204,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PB",
+    "hash_sha256_pdf": "0e8924b4a2abfc473c83dde63632c96e06105f3eb96df8e011d94a2163451dcb",
+    "bytes_pdf": 97259
+  }
+}

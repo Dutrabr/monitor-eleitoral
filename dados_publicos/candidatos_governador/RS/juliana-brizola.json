@@ -1,0 +1,20 @@
+{
+  "slug": "juliana-brizola",
+  "uf": "RS",
+  "nome": "JULIANA BRIZOLA",
+  "nome_completo": "JULIANA BRIZOLA",
+  "partido": "PDT",
+  "numero": 12,
+  "cargo": "Governador",
+  "vice": "EDEGAR PRETTO",
+  "falante_id": "candidato_juliana_brizola",
+  "plano_de_governo": "/governador/RS/juliana-brizola/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 210002551508,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RS",
+    "hash_sha256_pdf": "a42d6e9cc872b3d8897a62d5d5e8844b8e401e034b931ccf0876f40c5ce7ed8a",
+    "bytes_pdf": 498221
+  }
+}

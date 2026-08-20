@@ -1,0 +1,20 @@
+{
+  "slug": "alexandre-salomao",
+  "uf": "PR",
+  "nome": "ALEXANDRE SALOMÃO",
+  "nome_completo": "ALEXANDRE SALOMAO",
+  "partido": "MOBILIZA",
+  "numero": 33,
+  "cargo": "Governador",
+  "vice": "DAIANA CRIMINACIO",
+  "falante_id": "candidato_alexandre_salomao",
+  "plano_de_governo": "/governador/PR/alexandre-salomao/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 160002547594,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PR",
+    "hash_sha256_pdf": "e289c37e785c8530c9c6a6917e173ac90f4c34222bbeb66e6c29be215e619356",
+    "bytes_pdf": 90519
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "gustavo-pelo-piaui-ou-gustavo",
+  "uf": "PI",
+  "nome": "GUSTAVO PELO PIAUÍ OU GUSTAVO",
+  "nome_completo": "GUSTAVO HENRIQUE LEITE FEIJÓ",
+  "partido": "AVANTE",
+  "numero": 70,
+  "cargo": "Governador",
+  "vice": "LUCAS VERAS DE MORAES",
+  "falante_id": "candidato_gustavo_pelo_piaui_ou_gustavo",
+  "plano_de_governo": "/governador/PI/gustavo-pelo-piaui-ou-gustavo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002550421,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "3c1f64b905ff12b19d0182ff11124d6b4a263b51268edb2aaa762af258c25d00",
+    "bytes_pdf": 181313
+  }
+}

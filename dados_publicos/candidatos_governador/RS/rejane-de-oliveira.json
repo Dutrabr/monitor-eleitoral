@@ -1,0 +1,20 @@
+{
+  "slug": "rejane-de-oliveira",
+  "uf": "RS",
+  "nome": "REJANE DE OLIVEIRA",
+  "nome_completo": "REJANE SILVA DE OLIVEIRA",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "ADÃO LIMA",
+  "falante_id": "candidato_rejane_de_oliveira",
+  "plano_de_governo": "/governador/RS/rejane-de-oliveira/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 210002541367,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RS",
+    "hash_sha256_pdf": "8fade2d2856fcc33e029fa58c39b71410580e83d2ffaf1c3e88dfd50fde0d3da",
+    "bytes_pdf": 1715324
+  }
+}

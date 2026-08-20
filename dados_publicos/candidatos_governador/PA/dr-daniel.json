@@ -1,0 +1,20 @@
+{
+  "slug": "dr-daniel",
+  "uf": "PA",
+  "nome": "DR. DANIEL",
+  "nome_completo": "DANIEL BARBOSA SANTOS",
+  "partido": "PODE",
+  "numero": 20,
+  "cargo": "Governador",
+  "vice": "ELLAYNE D ALMEIDA",
+  "falante_id": "candidato_dr_daniel",
+  "plano_de_governo": "/governador/PA/dr-daniel/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 140002549930,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PA",
+    "hash_sha256_pdf": "ad78f36906862eed33fd0017200f93ca1706fc9ae47cf305fb5342f2238d6e82",
+    "bytes_pdf": 450395
+  }
+}

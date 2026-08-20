@@ -1,0 +1,20 @@
+{
+  "slug": "cyro-garcia",
+  "uf": "RJ",
+  "nome": "CYRO GARCIA",
+  "nome_completo": "CYRO GARCIA",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "PERCILIANA",
+  "falante_id": "candidato_cyro_garcia",
+  "plano_de_governo": "/governador/RJ/cyro-garcia/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 190002540198,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RJ",
+    "hash_sha256_pdf": "8398563d5b691e4eb122e1d7af14ddfe99fd2c6852879ec121adfab35e001b0c",
+    "bytes_pdf": 236358
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "gelson-merisio",
+  "uf": "SC",
+  "nome": "GELSON MERÍSIO",
+  "nome_completo": "GELSON LUIZ MERISIO",
+  "partido": "PSB",
+  "numero": 40,
+  "cargo": "Governador",
+  "vice": "ANGELA ALBINO",
+  "falante_id": "candidato_gelson_merisio",
+  "plano_de_governo": "/governador/SC/gelson-merisio/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 240002548628,
+    "eleicao_id_tse": "20322002026",
+    "uf": "SC",
+    "hash_sha256_pdf": "4317be5f0e60ff92aa0a1fce6eaabb8ddfb75efe29b4269181add7f274837013",
+    "bytes_pdf": 1972855
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "jose-moita",
+  "uf": "PA",
+  "nome": "JOSÉ MOITA",
+  "nome_completo": "JOSÉ LUCIVALDO MOITA",
+  "partido": "DEMOCRATA",
+  "numero": 35,
+  "cargo": "Governador",
+  "vice": "RUTH REIS",
+  "falante_id": "candidato_jose_moita",
+  "plano_de_governo": "/governador/PA/jose-moita/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 140002551357,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PA",
+    "hash_sha256_pdf": "0f178c87c8f689c1333b8c6c661802188f8d759866505ed223e5bdaaf268a8f8",
+    "bytes_pdf": 195002
+  }
+}

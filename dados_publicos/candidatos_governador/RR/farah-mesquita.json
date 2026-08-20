@@ -1,0 +1,20 @@
+{
+  "slug": "farah-mesquita",
+  "uf": "RR",
+  "nome": "FARAH MESQUITA",
+  "nome_completo": "FARAH MESQUITA",
+  "partido": "SOLIDARIEDADE",
+  "numero": 77,
+  "cargo": "Governador",
+  "vice": "NATÁLIA WAKIRI",
+  "falante_id": "candidato_farah_mesquita",
+  "plano_de_governo": "/governador/RR/farah-mesquita/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 230002549294,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RR",
+    "hash_sha256_pdf": "09fc3c344948de9a25943f79f9d6b93e216048ca4231163164df45783edd8808",
+    "bytes_pdf": 742758
+  }
+}

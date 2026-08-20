@@ -1,0 +1,20 @@
+{
+  "slug": "clebio-genuino",
+  "uf": "RR",
+  "nome": "CLÉBIO GENUÍNO",
+  "nome_completo": "JOSE CLEBIO GENUINO DO NASCIMENTO",
+  "partido": "PCO",
+  "numero": 29,
+  "cargo": "Governador",
+  "vice": "GREGÓRIO PEREIRA",
+  "falante_id": "candidato_clebio_genuino",
+  "plano_de_governo": "/governador/RR/clebio-genuino/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 230002553857,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RR",
+    "hash_sha256_pdf": "ed380b23d6e033e8616ce71efcf66eb42d2baee2b58f1c9ae80690009c20dfe9",
+    "bytes_pdf": 96070
+  }
+}

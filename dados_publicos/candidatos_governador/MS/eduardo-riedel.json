@@ -1,0 +1,20 @@
+{
+  "slug": "eduardo-riedel",
+  "uf": "MS",
+  "nome": "EDUARDO RIEDEL",
+  "nome_completo": "EDUARDO CORREA RIEDEL",
+  "partido": "PP",
+  "numero": 11,
+  "cargo": "Governador",
+  "vice": "BARBOSINHA",
+  "falante_id": "candidato_eduardo_riedel",
+  "plano_de_governo": "/governador/MS/eduardo-riedel/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 120002536582,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MS",
+    "hash_sha256_pdf": "9a250a365378cece30dbdd049086c1328bf91788d9d58b1732798347683f62d4",
+    "bytes_pdf": 724999
+  }
+}

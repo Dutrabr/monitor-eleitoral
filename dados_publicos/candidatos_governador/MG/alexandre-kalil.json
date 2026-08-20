@@ -1,0 +1,20 @@
+{
+  "slug": "alexandre-kalil",
+  "uf": "MG",
+  "nome": "ALEXANDRE KALIL",
+  "nome_completo": "ALEXANDRE KALIL",
+  "partido": "PDT",
+  "numero": 12,
+  "cargo": "Governador",
+  "vice": "CARLOS MOSCONI",
+  "falante_id": "candidato_alexandre_kalil",
+  "plano_de_governo": "/governador/MG/alexandre-kalil/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002539775,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "13a0ff039b27663107f972d455687ba3618416c8497c7ab3999156fc0f3299cc",
+    "bytes_pdf": 1028065
+  }
+}

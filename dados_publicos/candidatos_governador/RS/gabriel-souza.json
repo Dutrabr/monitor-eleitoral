@@ -1,0 +1,20 @@
+{
+  "slug": "gabriel-souza",
+  "uf": "RS",
+  "nome": "GABRIEL SOUZA",
+  "nome_completo": "GABRIEL VIEIRA DE SOUZA",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "ERNANI POLO",
+  "falante_id": "candidato_gabriel_souza",
+  "plano_de_governo": "/governador/RS/gabriel-souza/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 210002542892,
+    "eleicao_id_tse": "20322002026",
+    "uf": "RS",
+    "hash_sha256_pdf": "fd13f17284dd0b8ef756666bcd7257b581f40d0df659e9059ca1cff34acab168",
+    "bytes_pdf": 603861
+  }
+}

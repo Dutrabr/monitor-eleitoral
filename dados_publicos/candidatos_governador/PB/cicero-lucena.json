@@ -1,0 +1,20 @@
+{
+  "slug": "cicero-lucena",
+  "uf": "PB",
+  "nome": "CÍCERO LUCENA",
+  "nome_completo": "CICERO DE LUCENA FILHO",
+  "partido": "MDB",
+  "numero": 15,
+  "cargo": "Governador",
+  "vice": "DIOGO CUNHA LIMA",
+  "falante_id": "candidato_cicero_lucena",
+  "plano_de_governo": "/governador/PB/cicero-lucena/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 150002544133,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PB",
+    "hash_sha256_pdf": "818514371331ca40e2bd420aa8b3fecb4771ddea5ddb46467c9fe93d76ade181",
+    "bytes_pdf": 522216
+  }
+}

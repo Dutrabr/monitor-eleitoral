@@ -1,0 +1,20 @@
+{
+  "slug": "patrus-ananias",
+  "uf": "MG",
+  "nome": "PATRUS ANANIAS",
+  "nome_completo": "PATRUS ANANIAS DE SOUSA",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Governador",
+  "vice": "JARBAS SOARES",
+  "falante_id": "candidato_patrus_ananias",
+  "plano_de_governo": "/governador/MG/patrus-ananias/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 130002550464,
+    "eleicao_id_tse": "20322002026",
+    "uf": "MG",
+    "hash_sha256_pdf": "edf7c6ac2ad4aad4931bdd8a929ab7595b9583f9c2a1e208e13b0298a26dc774",
+    "bytes_pdf": 2180833
+  }
+}

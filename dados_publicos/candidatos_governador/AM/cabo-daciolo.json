@@ -1,0 +1,20 @@
+{
+  "slug": "cabo-daciolo",
+  "uf": "AM",
+  "nome": "CABO DACIOLO",
+  "nome_completo": "BENEVENUTO DACIOLO FONSECA DOS SANTOS",
+  "partido": "MOBILIZA",
+  "numero": 33,
+  "cargo": "Governador",
+  "vice": "IGOR OLIVEIRA",
+  "falante_id": "candidato_cabo_daciolo",
+  "plano_de_governo": "/governador/AM/cabo-daciolo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 40002551740,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AM",
+    "hash_sha256_pdf": "2f17be0dde9e89825fb460a136f9767f46af95f802027ff5b61a40331d02242d",
+    "bytes_pdf": 984687
+  }
+}

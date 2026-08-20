@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block titulo %}Governador — Monitor Eleitoral{% endblock %}
+{% block og_titulo %}Governador — Monitor Eleitoral{% endblock %}
+{% block og_descricao %}Compare o que candidatos a Governador registraram no plano de governo com o que disseram publicamente, estado por estado.{% endblock %}
+{% block conteudo %}
+<section style="padding: 1rem 0 2.5rem;">
+  <span class="selo-eyebrow">Eleições 2026</span>
+  <h1>Governador — escolha o estado</h1>
+  <p style="font-size: 1.15rem; max-width: 62ch; color: var(--texto-suave);">
+    Mesma evidência lado a lado da página de Presidente, organizada por
+    estado — cada UF elege seu próprio governador. Sem nota, sem ranking.
+  </p>
+  <p style="font-size: .85rem; font-weight: 700; color: var(--teal-forte); margin-top: 1rem;">
+    {{ total_candidatos }} candidato(s) cadastrado(s) em {{ estados|length }} unidades da federação
+    · <a href="/">ver Presidente →</a>
+  </p>
+</section>
+
+<h2 style="font-size:.85rem; text-transform:uppercase; letter-spacing:.06em; color:var(--texto-suave); margin-top:1rem;">Estado</h2>
+<div class="grade-candidatos">
+{% for e in estados %}
+  <a class="card-candidato" href="/governador/{{ e.uf }}">
+    <div class="avatar-candidato">{{ e.uf }}</div>
+    <h3>{{ e.nome }}</h3>
+    <div class="partido">{{ e.total }} candidato(s)</div>
+  </a>
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{
+  "slug": "du-pereira",
+  "uf": "TO",
+  "nome": "DU PEREIRA",
+  "nome_completo": "IVAILDO PEREIRA DA CRUZ",
+  "partido": "DC",
+  "numero": 27,
+  "cargo": "Governador",
+  "vice": "SILVINO VITOR",
+  "falante_id": "candidato_du_pereira",
+  "plano_de_governo": "/governador/TO/du-pereira/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 270002550458,
+    "eleicao_id_tse": "20322002026",
+    "uf": "TO",
+    "hash_sha256_pdf": "e3e7ee44f2bbf3777d8c46dfaff1042e041642c27460560f039c52a2a1af7cf7",
+    "bytes_pdf": 840281
+  }
+}

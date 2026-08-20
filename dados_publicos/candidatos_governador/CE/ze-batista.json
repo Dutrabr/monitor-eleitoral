@@ -1,0 +1,20 @@
+{
+  "slug": "ze-batista",
+  "uf": "CE",
+  "nome": "ZÉ BATISTA",
+  "nome_completo": "JOSE BATISTA NETO",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Governador",
+  "vice": "IVONETE",
+  "falante_id": "candidato_ze_batista",
+  "plano_de_governo": "/governador/CE/ze-batista/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 60002549967,
+    "eleicao_id_tse": "20322002026",
+    "uf": "CE",
+    "hash_sha256_pdf": "68a0510466f110476591ce4b2a179be84d14641547b73ad096135dde918c0d4c",
+    "bytes_pdf": 396998
+  }
+}

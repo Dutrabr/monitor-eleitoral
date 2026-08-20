@@ -1,0 +1,20 @@
+{
+  "slug": "ataides-de-oliveira",
+  "uf": "TO",
+  "nome": "ATAIDES DE OLIVEIRA",
+  "nome_completo": "ATAIDES DE OLIVEIRA",
+  "partido": "NOVO",
+  "numero": 30,
+  "cargo": "Governador",
+  "vice": "ROSILEIA DIAS CARNEIRO",
+  "falante_id": "candidato_ataides_de_oliveira",
+  "plano_de_governo": "/governador/TO/ataides-de-oliveira/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 270002548412,
+    "eleicao_id_tse": "20322002026",
+    "uf": "TO",
+    "hash_sha256_pdf": "8e41a0158c92bbeb9a694df21f5009a1dee4349b4be5ee4b09eb91dcd3f3c7c3",
+    "bytes_pdf": 406166
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "santiago-belizario",
+  "uf": "PI",
+  "nome": "SANTIAGO BELIZÁRIO",
+  "nome_completo": "JOSÉ SANTIAGO BELIZÁRIO",
+  "partido": "UP",
+  "numero": 80,
+  "cargo": "Governador",
+  "vice": "THAYS DIAS",
+  "falante_id": "candidato_santiago_belizario",
+  "plano_de_governo": "/governador/PI/santiago-belizario/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 180002549995,
+    "eleicao_id_tse": "20322002026",
+    "uf": "PI",
+    "hash_sha256_pdf": "a74f339992f35acd1bcc984d265b14280495990aa621b31165703332a8bb6e47",
+    "bytes_pdf": 132287
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "marcio-jambo",
+  "uf": "AL",
+  "nome": "MÁRCIO JAMBO",
+  "nome_completo": "MARCIO FERREIRA JAMBO SOBRINHO",
+  "partido": "DEMOCRATA",
+  "numero": 35,
+  "cargo": "Governador",
+  "vice": "JAUDINETE PONTES",
+  "falante_id": "candidato_marcio_jambo",
+  "plano_de_governo": "/governador/AL/marcio-jambo/plano",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 20002552502,
+    "eleicao_id_tse": "20322002026",
+    "uf": "AL",
+    "hash_sha256_pdf": "3ff42d2562fcac3d5e7874b8d685395a78472858d5365cd6531253b114a8396d",
+    "bytes_pdf": 12737
+  }
+}
