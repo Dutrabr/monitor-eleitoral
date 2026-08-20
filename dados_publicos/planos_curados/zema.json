@@ -1,0 +1,119 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Três em cada quatro brasileiros dependem exclusivamente do SUS e, muitas vezes, o que encontram é fila: fila para consultas, exames e cirurgias que não podem esperar.",
+        "pagina": 57
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação básica brasileira ainda enfrenta problemas graves: apenas 13,3% dos alunos saem do ensino fundamental sabendo Português e Matemática de forma adequada.",
+        "pagina": 50
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública segue sendo a principal preocupação dos brasileiros, e os dados comprovam que isso tem motivo... em um período de 20 anos, o Brasil ultrapassou a marca de um milhão de homicídios.",
+        "pagina": 5
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A força de trabalho é o maior ativo de uma nação... no trimestre encerrado em janeiro de 2026, o país tinha 38,5 milhões de trabalhadores informais, o equivalente a 37,5% da população ocupada fora da CLT.",
+        "pagina": 23
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Expandir reservatórios e sistemas de irrigação por meio de parcerias com o setor privado, ampliando a oferta de água para o agro e reduzindo perdas causadas por secas, com modelos que garantam acesso também a pequenos e médios produtores.",
+        "pagina": 45
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Brasil é uma potência ambiental: abriga a maior biodiversidade do planeta, conserva mais de dois terços do seu território com vegetação nativa... Contudo, a agenda de preservação segue fraca, o desmatamento ilegal avança.",
+        "pagina": 47
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Modernizar a gestão da infraestrutura rodoviária nacional: aperfeiçoar os modelos de contratação, financiamento e gestão dos ativos rodoviários, ampliando o uso de concessões e PPPs.",
+        "pagina": 30
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reduzir a subnotificação e reincidência de casos de violência contra a mulher: ampliar a rede de delegacias da mulher com atuação 24 horas e equipes preferencialmente femininas capacitadas em violência de gênero.",
+        "pagina": 7
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reestruturar os esforços do governo na superação da pobreza, oferecendo a cada família em situação de vulnerabilidade um Plano de Desenvolvimento Social familiar integrando capacitação, inclusão no mercado de trabalho e incremento de renda.",
+        "pagina": 63
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na ciência, somos o 13o país que mais produz ciência no mundo e apenas o 50o em inovação, porque o conhecimento produzido aqui quase nunca vira patente, produto ou empresa.",
+        "pagina": 54
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Modernizar as ferramentas de proteção do patrimônio histórico e cultural: revisar o sistema de proteção do patrimônio histórico e cultural para modernizar os institutos jurídicos existentes, como o do tombamento.",
+        "pagina": 70
+      }
+    ]
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Brasil já foi uma voz respeitada no mundo, com uma diplomacia reconhecida pelo pragmatismo... a política externa passou a ser orientada por afinidades ideológicas, aproximando o Brasil de regimes autoritários e afastando-o das democracias.",
+        "pagina": 36
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "COMBATE À CORRUPÇÃO E AOS PRIVILÉGIOS: o Brasil convive há décadas com um problema estrutural de privilégios, corrupção e baixa responsabilização dos políticos e agentes do Estado que cometem crimes.",
+        "pagina": 8
+      }
+    ]
+  }
+}

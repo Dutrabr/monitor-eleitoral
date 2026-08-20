@@ -1,0 +1,119 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos implantar o prontuário eletrônico único, vinculado ao CPF e integrado ao Gov.br, interoperável entre as redes pública e privada, com histórico completo de consultas, exames, vacinas e prescrições.",
+        "pagina": 26
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O começo de tudo é alfabetizar direito. Vamos priorizar o método fônico, que é o de melhor resultado comprovado pela ciência. E, para o aluno com dificuldade, vamos criar o Programa Acolher.",
+        "pagina": 35
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos declarar guerra ao crime organizado. PCC, CV, milícias e todos os grupos criminosos. Segurança não é um tema entre outros: é a condição para todos os demais.",
+        "pagina": 13
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O beneficiário de programa social terá prioridade em todas as ações do Estado voltadas ao trabalho: prioridade nos programas de primeiro emprego, nas ações de qualificação profissional e na intermediação de mão de obra.",
+        "pagina": 43
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos ampliar o Seguro Rural e trazer ferramentas de securitização e reorganização das dívidas do setor... Vamos ampliar a capacidade de armazenamento das safras, para garantir melhores preços ao produtor.",
+        "pagina": 54
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Proteção dos biomas e combate ao crime ambiental. O Brasil protegerá todos os seus biomas... Teremos a meta de zerar o desmatamento ilegal até 2029.",
+        "pagina": 58
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias. Criaremos os Corredores Logísticos Inteligentes de integração nacional.",
+        "pagina": 51
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Brasil por Elas foi criado para garantir que nenhuma mulher deixe de ter escolha por falta de informação, de proteção, de renda ou de oportunidade.",
+        "pagina": 17
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Manteremos e aperfeiçoaremos os programas sociais, porque liberdade também se constrói com uma rede de proteção que ampara quem precisa sem aprisionar ninguém na dependência.",
+        "pagina": 9
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tecnologia e inovação — a inovação que faz o pequeno vender mais e o jovem trabalhar sem sair do país. Daremos alta prioridade à pesquisa e ao desenvolvimento, que são a base da inovação.",
+        "pagina": 56
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cultura que valoriza nossas raízes — menos concentração, mais Brasil na cultura. A miscigenação e a construção de um país de imigrantes e de múltiplas culturas são motivos de orgulho.",
+        "pagina": 41
+      }
+    ]
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nossa proposta é o oposto: uma diplomacia guiada pelo profissionalismo e pelo pragmatismo, não pela ideologia. O Itamaraty voltará a ser conduzido pela competência técnica que sempre marcou seus quadros.",
+        "pagina": 62
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reforma política: a reforma política é urgente e será prioridade. O modelo atual favorece a perpetuação de políticas de \"meia-entrada\", o capitalismo de compadrio.",
+        "pagina": 66
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5 – Saúde 100% pública. Expansão do sistema público de saúde, com a reversão das privatizações e revogação dos contratos de todas as OSs no setor, bem como estatização de todo o setor privado de saúde.",
+        "pagina": 10
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na educação, implantaremos o ensino 100% público e gratuito, das creches à pós-graduação, com a estatização do sistema privado de ensino.",
+        "pagina": 7
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Se faz necessária a completa desmilitarização da segurança pública, com unificação das polícias... Será desenvolvida uma política de segurança dos direitos humanos, no lugar da segurança pública baseada na repressão à classe trabalhadora.",
+        "pagina": 6
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Faremos uma reestruturação tanto no Conselho Monetário Nacional quanto na diretoria do Banco Central... Defendemos a Petrobras 100% estatal, com a redução do ritmo da exploração do petróleo e a criação de um fundo para financiar energia limpa.",
+        "pagina": 5
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3 – Reforma Agrária Popular. A reforma agrária popular tem perspectiva anticapitalista, respeitando os povos originários e quilombolas e buscando configurar uma nova relação campo-cidade.",
+        "pagina": 9
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "No meio ambiente, o governo do Poder Popular desenvolverá uma política radical de combate à destruição da natureza promovida pelo capitalismo.",
+        "pagina": 7
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8 – Transportes públicos para todas e todos: estatização completa do sistema de transportes em grande escala, sob o controle de Conselhos Populares: serão reestatizados portos, aeroportos, ferrovias e rodovias.",
+        "pagina": 11
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11 – Enfrentamento radical ao racismo e defesa dos povos originários: defesa da liberdade de culto religioso, com o combate ao preconceito e aos ataques às religiões de matriz africana e o fim do genocídio dos povos indígenas e do povo negro.",
+        "pagina": 12
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2 – Combate à fome e política de pleno emprego: programa emergencial voltado pelas áreas mais pobres do país, como forma de reduzir emergencialmente a fome e a resolução do problema das pessoas em situação de rua.",
+        "pagina": 9
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa de uma educação laica e socialmente referenciada e de políticas de ciência e tecnologia em prol de um projeto popular de soberania nacional. Expansão dos programas de bolsas de mestrado e doutorado e de apoio à pesquisa.",
+        "pagina": 10
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na cultura, será desenvolvida uma política que estimule a criatividade, experimentação e as mais diversas expressões da juventude e dos artistas brasileiros; resgate da cultura popular, sufocada em pequenos núcleos de resistência.",
+        "pagina": 7
+      }
+    ]
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Diante da atual agressividade do imperialismo, o governo do poder popular fortalecerá todos os processos de integração, reafirmará a soberania dos povos e prestará ativa solidariedade a Cuba, Palestina, Venezuela, Irã, Saara Ocidental.",
+        "pagina": 8
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1 – Construção do Poder Popular: os Conselhos Populares serão a espinha dorsal do novo poder... a população também será chamada a governar através da realização de plebiscitos e referendos sobre todas as questões relevantes.",
+        "pagina": 9
+      }
+    ]
+  }
+}

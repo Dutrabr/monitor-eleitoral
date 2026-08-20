@@ -1,0 +1,107 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Sistema Único de Saúde (SUS)... padece de graves problemas, como a ausência de médicos em regiões de difícil acesso, a morosidade das filas de regulação e o ônus excessivo decorrente da judicialização da saúde.",
+        "pagina": 25
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Aquele velho truísmo que diz que a educação forma nações é uma verdade amarga para o Brasil... os resultados do PISA... demonstram a falência dos projetos políticos majoritários das últimas décadas.",
+        "pagina": 30
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Surgiu o lema \"Prendeu, Matou\"... naturalmente, não consiste em prender e matar os criminosos, mas em permitir que as forças de segurança tratem como inimigos aqueles que ameaçam a segurança dos cidadãos.",
+        "pagina": 12
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O ajuste fiscal urgente para desatolar o Estado brasileiro... o principal instrumento de ajuste fiscal foi a elevação da carga tributária; um modelo que secou as fontes de investimento.",
+        "pagina": 9
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agro e Inteligência Artificial: o primeiro alimenta uma população humana que se aproxima dos dez bilhões de habitantes em uma era de instabilidade climática... esgotamento dos limites de expansão da fronteira agrícola.",
+        "pagina": 41
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO VI INFRAESTRUTURA — Missão Rondon: o Brasil enfrenta um déficit crítico em sua infraestrutura... a participação do investimento em infraestrutura no PIB caiu de cerca de 4% nos anos 1980 para aproximadamente 2% atualmente.",
+        "pagina": 23
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Destaque para a reforma do assistencialismo e a substituição do Bolsa Família por frentes de trabalho remunerado.",
+        "pagina": 6
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO XI TERRAS RARAS E INDÚSTRIA: o Brasil só converterá suas reservas de terras raras e minerais críticos em poder nacional se reunir a mineração e a indústria de transformação ao domínio tecnológico, a pesquisa e o refino de alto valor.",
+        "pagina": 37
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO VIII CULTURA — Chega de Saudade: tratamos aqui a cultura e a imprensa não como adornos, mas como infraestrutura simbólica da nação — instrumentos de soberania, coesão e projeção internacional.",
+        "pagina": 27
+      }
+    ]
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO XIII POLÍTICA EXTERNA — Brasil Poderoso: a Agenda Geopolítica da Missão. O Brasil enfrenta um cenário geopolítico complexo... a ausência de uma estratégia internacional institucionalizada que transcenda as ideologias conjunturais.",
+        "pagina": 44
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO III PACTO FEDERATIVO — Quem Paga a Banda: distorções do Pacto Federativo e a Grande Consolidação Municipal brasileira.",
+        "pagina": 14
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "arquivo": "2026-08-05_19-15-04_UTC.mp4",
+  "hash_sha256_original": "2bc8562bbde48487ebec7b306319ad50dfda690935919c9143e979d315df8a87",
+  "url": "https://www.instagram.com/reel/Dbq3iBDBoGI/",
+  "citacoes": [
+    {
+      "inicio": 0.09,
+      "fim": 2.79,
+      "timestamp": "00:00:00",
+      "falante": "candidato_hertz_dias",
+      "texto": "Lula, que diabo é isso? Alckmin é anjo pra tu",
+      "temas": []
+    },
+    {
+      "inicio": 2.79,
+      "fim": 5.79,
+      "timestamp": "00:00:02",
+      "falante": "candidato_hertz_dias",
+      "texto": "Não se enfrenta, me lico com picolé de chuchu",
+      "temas": []
+    },
+    {
+      "inicio": 5.79,
+      "fim": 6.41,
+      "timestamp": "00:00:05",
+      "falante": "candidato_hertz_dias",
+      "texto": "Avisa os",
+      "temas": []
+    },
+    {
+      "inicio": 6.41,
+      "fim": 8.85,
+      "timestamp": "00:00:06",
+      "falante": "candidato_hertz_dias",
+      "texto": "cara da quebra, manda um salve pros torres",
+      "temas": []
+    },
+    {
+      "inicio": 8.85,
+      "fim": 11.77,
+      "timestamp": "00:00:08",
+      "falante": "candidato_hertz_dias",
+      "texto": "Não deixe Verônica só, bote as pretas na cola",
+      "temas": []
+    },
+    {
+      "inicio": 11.77,
+      "fim": 14.61,
+      "timestamp": "00:00:11",
+      "falante": "candidato_hertz_dias",
+      "texto": "O som é a ação, é o lemage, é a prancha meu forte",
+      "temas": []
+    },
+    {
+      "inicio": 14.61,
+      "fim": 17.59,
+      "timestamp": "00:00:14",
+      "falante": "candidato_hertz_dias",
+      "texto": "Dê arma pra classe operária, que a classe operaria resolve",
+      "temas": []
+    }
+  ]
+}

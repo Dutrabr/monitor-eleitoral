@@ -1,0 +1,107 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nacionalização dos planos de Saúde. Aumento do Orçamento que permita o funcionamento de 100% da saúde pública (SUS) e obrigatoriedade de todos os políticos usarem o SUS e a Educação públicas.",
+        "pagina": 2
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10% do PIB para educação! Livre acesso à universidade e fim do vestibular (ENEM). Educação não é mercadoria.",
+        "pagina": 1
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Essa situação prova que os governos, apesar das propagandas, nada realizam para acabar com a violência contra a mulher... exigimos a prisão imediata de todos que incentivam e promovem o assédio e a violência contra a mulher. Basta de feminicídio!",
+        "pagina": 1
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Brasil é um dos países mais ricos do mundo, mas o povo vive na pobreza... os seis homens mais ricos do Brasil possuem juntos uma fortuna equivalente à soma do patrimônio de mais de 100 milhões de brasileiros.",
+        "pagina": 1
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso minério de ferro, a soja, as carnes bovina e de frango, os alimentos que produzimos, tudo isso é explorado por multinacionais enquanto o povo brasileiro vive na pobreza.",
+        "pagina": 1
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa do meio ambiente e da Amazônia. Fim da exploração estrangeira de nossos minérios.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. Estatização do transporte público: passe-livre para estudantes e trabalhadores. 9. Moradia digna para todas as famílias brasileiras. Especulação imobiliária é crime!",
+        "pagina": 1
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Fim do feminicídio e do assédio às mulheres. Salário igual e creche no local de trabalho. Prisão de todos os agressores e assassinos das mulheres.",
+        "pagina": 1
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Brasil é um dos países mais ricos do mundo, mas o povo vive na pobreza... os seis homens mais ricos do Brasil possuem juntos uma fortuna equivalente à soma do patrimônio de mais de 100 milhões de brasileiros.",
+        "pagina": 1
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. Fim da submissão do Brasil aos EUA, a China e a todos os países imperialistas – Retomada da base de Alcântara e revogação do contrato de entrega das terras raras.",
+        "pagina": 2
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O motivo é simples: o Congresso não representa o povo, mas sim a burguesia. 13. Combate à corrupção, confisco dos bens dos corruptos e de suas empresas.",
+        "pagina": 1
+      }
+    ]
+  }
+}

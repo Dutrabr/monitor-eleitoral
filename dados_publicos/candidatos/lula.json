@@ -1,0 +1,17 @@
+{
+  "slug": "lula",
+  "nome": "LULA",
+  "nome_completo": "LUIZ INÁCIO LULA DA SILVA",
+  "partido": "PT",
+  "numero": 13,
+  "cargo": "Presidente",
+  "vice": "GERALDO ALCKMIN",
+  "falante_id": "candidato_lula",
+  "plano_de_governo": "/plano/lula",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002542548,
+    "eleicao_id_tse": "20322002026",
+    "coletado_em": "2026-08-14T16:40:34+00:00"
+  }
+}

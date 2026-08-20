@@ -1,0 +1,17 @@
+{
+  "slug": "escritor-augusto-cury",
+  "nome": "ESCRITOR AUGUSTO CURY",
+  "nome_completo": "AUGUSTO JORGE CURY",
+  "partido": "AVANTE",
+  "numero": 70,
+  "cargo": "Presidente",
+  "vice": "JÚLIO DELGADO",
+  "falante_id": "candidato_escritor_augusto_cury",
+  "plano_de_governo": "/plano/escritor-augusto-cury",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002551547,
+    "eleicao_id_tse": "20322002026",
+    "coletado_em": "2026-08-14T16:40:29+00:00"
+  }
+}

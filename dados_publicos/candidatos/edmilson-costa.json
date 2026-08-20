@@ -1,0 +1,17 @@
+{
+  "slug": "edmilson-costa",
+  "nome": "EDMILSON COSTA",
+  "nome_completo": "EDMILSON SILVA COSTA",
+  "partido": "PCB",
+  "numero": 21,
+  "cargo": "Presidente",
+  "vice": "CLEUSA SANTOS",
+  "falante_id": "candidato_edmilson_costa",
+  "plano_de_governo": "/plano/edmilson-costa",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002551975,
+    "eleicao_id_tse": "20322002026",
+    "coletado_em": "2026-08-14T16:40:28+00:00"
+  }
+}

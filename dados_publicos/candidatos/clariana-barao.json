@@ -1,0 +1,16 @@
+{
+  "slug": "clariana-barao",
+  "nome": "CLARIANA BARAO",
+  "nome_completo": "CLARIANA ZACARKIM BARAO",
+  "partido": "DC",
+  "numero": 27,
+  "cargo": "Presidente",
+  "vice": "FABIANA TORQUATO",
+  "falante_id": "candidato_clariana_barao",
+  "plano_de_governo": "/plano/clariana-barao",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002552484,
+    "eleicao_id_tse": "20322002026"
+  }
+}

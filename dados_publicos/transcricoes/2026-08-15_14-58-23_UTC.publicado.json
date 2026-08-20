@@ -1,0 +1,95 @@
+{
+  "arquivo": "2026-08-15_14-58-23_UTC.mp4",
+  "hash_sha256_original": "3fe9b55527bee94ea4a5e542ce51953584d8befc20461a9316aa594fb0428d62",
+  "url": "https://www.instagram.com/reel/DcEJ0BsR26y/",
+  "citacoes": [
+    {
+      "inicio": 0.0,
+      "fim": 1.8,
+      "timestamp": "00:00:00",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "Você tem cachorro, você tem gato?",
+      "temas": []
+    },
+    {
+      "inicio": 1.82,
+      "fim": 5.32,
+      "timestamp": "00:00:01",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "Você precisa saber que eu, veterinário Wilson Grassi,",
+      "temas": []
+    },
+    {
+      "inicio": 5.34,
+      "fim": 8.62,
+      "timestamp": "00:00:05",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "sou o primeiro veterinario candidato a presidente do Brasil.",
+      "temas": []
+    },
+    {
+      "inicio": 8.78,
+      "fim": 11.76,
+      "timestamp": "00:00:08",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "E sou o primeira protetor de animais também candidato",
+      "temas": []
+    },
+    {
+      "inicio": 11.76,
+      "fim": 12.74,
+      "timestamp": "00:00:11",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "a presidente no Brasil.",
+      "temas": []
+    },
+    {
+      "inicio": 12.98,
+      "fim": 15.18,
+      "timestamp": "00:00:12",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "Ah, Wilson, mas você só vai defender os animais?",
+      "temas": []
+    },
+    {
+      "inicio": 15.36,
+      "fim": 16.92,
+      "timestamp": "00:00:15",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "Lógico que não. Por quê?",
+      "temas": []
+    },
+    {
+      "inicio": 16.98,
+      "fim": 19.44,
+      "timestamp": "00:00:16",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "Quem cuida dos animais, cuida das pessoas também.",
+      "temas": []
+    },
+    {
+      "inicio": 19.66,
+      "fim": 20.32,
+      "timestamp": "00:00:19",
+      "falante": "candidato_veterinario_wilson_grassi",
+      "texto": "Vem comigo.",
+      "temas": []
+    },
+    {
+      "inicio": 21.34,
+      "fim": 23.96,
+      "timestamp": "00:00:21",
+      "falante": "SPEAKER_00",
+      "texto": "Vem, faz aliança comigo",
+      "temas": []
+    },
+    {
+      "inicio": 23.96,
+      "fim": 26.76,
+      "timestamp": "00:00:23",
+      "falante": "SPEAKER_00",
+      "texto": "e diz caminho",
+      "temas": []
+    }
+  ]
+}

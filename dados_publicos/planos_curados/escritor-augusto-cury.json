@@ -1,0 +1,113 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. SAÚDE INTEGRAL — Fortalecimento da atenção primária: a atenção básica continuará sendo o principal eixo do Sistema Único de Saúde.",
+        "pagina": 44
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. EDUCAÇÃO PARA O BRASIL DO FUTURO — Prioridade absoluta para a educação básica. A educação será a principal política de transformação nacional.",
+        "pagina": 43
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública será fortalecida pelo uso de câmeras inteligentes, reconhecimento de padrões, análise preditiva, drones, monitoramento integrado e inteligência artificial. Programa FATO – Força de Alerta Total.",
+        "pagina": 46
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10 milhões de Microempresas: mais Empreendedorismo, mais oportunidades, mais Brasil. A inteligência artificial e a robótica não estão apenas transformando profissões — estão redesenhando o próprio conceito de trabalho.",
+        "pagina": 95
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Turismo Rural e Agroturismo serão incentivados como instrumentos de diversificação da renda, valorização das propriedades rurais, fortalecimento da cultura do campo e desenvolvimento econômico das comunidades locais.",
+        "pagina": 49
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROJETO 17 - FLORESTA VIVA – BR: Proteger o meio ambiente brasileiro com tecnologia de ponta, ciência e mobilização social... Sistema nacional de monitoramento com satélites + IA para identificar focos de calor.",
+        "pagina": 182
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Modernização da logística nacional: rodovias, ferrovias, hidrovias, portos e aeroportos formam a espinha dorsal da economia brasileira. Implantaremos um grande programa nacional de integração logística.",
+        "pagina": 50
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. IGUALDADE SALARIAL E JUSTIÇA DE OPORTUNIDADES: é inaceitável que o gênero continue influenciando as oportunidades econômicas de uma pessoa. Diferença média de remuneração de aproximadamente 21% entre mulheres e homens.",
+        "pagina": 89
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROJETO 12 - PLANO DE COMBATE MUNDIAL DA FOME: o Brasil como o maior exportador mundial de alimentos deve ter um líder com o dever moral de propor soluções para combater a fome mundial.",
+        "pagina": 157
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Empreendedorismo jovem e inovação: ampliaremos o acesso a crédito, incubadoras de startups, parques tecnológicos e programas de capacitação em inovação digital, inteligência artificial, economia criativa e negócios.",
+        "pagina": 57
+      }
+    ]
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Brasil adotará uma política externa ativa, equilibrada e pragmática, baseada no diálogo, na cooperação internacional e na defesa dos interesses nacionais. Buscaremos ampliar nossa influência em fóruns globais.",
+        "pagina": 59
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. COMBATE À CORRUPÇÃO E TRANSPARÊNCIA — Programa SEO (Sociedade Está de Olho): implantaremos uma ampla rede nacional de controle social.",
+        "pagina": 52
+      }
+    ]
+  }
+}

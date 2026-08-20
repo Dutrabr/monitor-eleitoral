@@ -1,0 +1,55 @@
+{
+  "arquivo": "2026-08-18_17-14-07_UTC.mp4",
+  "hash_sha256_original": "b03ebf1846e7e686d82f9f4290160b58f1db60618e1e02e87941b3222ed764ad",
+  "url": "https://www.instagram.com/reel/DcMHk4xOh__/",
+  "citacoes": [
+    {
+      "inicio": 0.0,
+      "fim": 5.42,
+      "timestamp": "00:00:00",
+      "falante": "candidato_zema",
+      "texto": "para decidir que o primeiro ato meu como presidente vai ser acabar com as bets.",
+      "temas": []
+    },
+    {
+      "inicio": 5.66,
+      "fim": 9.62,
+      "timestamp": "00:00:05",
+      "falante": "candidato_zema",
+      "texto": "É uma praga, é um câncer que nós temos hoje dentro do Brasil.",
+      "temas": []
+    },
+    {
+      "inicio": 9.9,
+      "fim": 14.9,
+      "timestamp": "00:00:09",
+      "falante": "candidato_zema",
+      "texto": "Continuar tolerando isso é estar assistindo o enriquecimento de poucos",
+      "temas": []
+    },
+    {
+      "inicio": 14.9,
+      "fim": 16.64,
+      "timestamp": "00:00:14",
+      "falante": "candidato_zema",
+      "texto": "que estão ganhando aí milhões",
+      "temas": []
+    },
+    {
+      "inicio": 16.64,
+      "fim": 22.44,
+      "timestamp": "00:00:16",
+      "falante": "candidato_zema",
+      "texto": "então é algo que realmente tem levado a vida dos brasileiros para o buraco",
+      "temas": []
+    },
+    {
+      "inicio": 22.44,
+      "fim": 26.32,
+      "timestamp": "00:00:22",
+      "falante": "candidato_zema",
+      "texto": "e como presidente faz questão de mudar isso por completo.",
+      "temas": []
+    }
+  ]
+}

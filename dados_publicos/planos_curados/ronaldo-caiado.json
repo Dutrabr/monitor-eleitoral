@@ -1,0 +1,119 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 25 · SAÚDE — Programa Nacional de Saúde 2027–2030: fortalecer o SUS, reduzir desigualdades, organizar o acesso, prevenir antes de tratar, incorporar ciência e tecnologia.",
+        "pagina": 75
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Ensino médio com sentido e flexibilidade: coordenar implementação curricular, ampliar carga horária com qualidade e assegurar base comum sólida. 6. Educação profissional e tecnológica em escala.",
+        "pagina": 33
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 6 · SEGURANÇA PÚBLICA E COMBATE À CORRUPÇÃO — segurança é o primeiro dever do Estado. O governo federal assumirá liderança efetiva no combate às facções, milícias, narcotráfico, crimes digitais.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 14 · INDÚSTRIA: O BRASIL QUE PRODUZ, INOVA E GERA EMPREGOS — o Brasil precisa voltar a crescer de forma sustentada, gerar empregos de qualidade, elevar a renda das famílias e reduzir dependências externas.",
+        "pagina": 42
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 16 · MEIO AMBIENTE — o Brasil será uma potência ambiental que transforma conservação em prosperidade. O Estado será rigoroso contra desmatamento, grilagem, garimpo ilegal, incêndios criminosos e poluição.",
+        "pagina": 50
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12. Logística integrada para reduzir o Custo Brasil: rebalancear a matriz de transportes, hoje excessivamente concentrada no modal rodoviário, com prioridade a ferrovias, hidrovias, cabotagem e terminais intermodais.",
+        "pagina": 48
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 22 · RACISMO — combater o racismo é cumprir a Constituição, proteger a dignidade humana e remover barreiras que desperdiçam talentos. O governo reconhecerá a maioria negra da população brasileira.",
+        "pagina": 67
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 9 · CULTURA — cultura é direito de cidadania, identidade nacional e cadeia econômica. O plano garantirá continuidade, acesso e profissionalização. O Sistema Nacional de Cultura será consolidado.",
+        "pagina": 28
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 8 · CIÊNCIA, TECNOLOGIA E INOVAÇÃO — ciência, tecnologia, inovação e transformação digital serão bases do desenvolvimento, da produtividade e da soberania.",
+        "pagina": 25
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 20 · POLÍTICA E PROTEÇÃO SOCIAL — a proteção social será organizada para acolher quem enfrenta pobreza, fome, violência, deficiência, velhice desassistida ou perda de renda, construindo caminhos de autonomia.",
+        "pagina": 61
+      }
+    ]
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Diplomacia a serviço do desenvolvimento e da competitividade: integrar a política externa à estratégia nacional de desenvolvimento. Relações simultâneas com todos os polos, sem alinhamento automático.",
+        "pagina": 73
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 3 · REFORMAR O SISTEMA POLÍTICO — o sistema político precisa aproximar representantes e eleitores, reduzir a fragmentação, tornar os partidos mais democráticos.",
+        "pagina": 10
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TEMA 7 · AGRONEGÓCIO — o agronegócio será tratado como plataforma de liderança global do Brasil em alimentos, bioenergia, biotecnologia e sustentabilidade.",
+        "pagina": 22
+      }
+    ]
+  }
+}

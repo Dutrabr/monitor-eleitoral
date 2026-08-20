@@ -1,0 +1,113 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Expansão da rede pública de hospitais, upas e Unidades Básicas de Saúde (UBS).",
+        "pagina": 11
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cada vez mais se aprofunda a desigualdade educacional no país: enquanto os filhos dos ricos têm acesso a escolas equipadas e a um ensino completo, os filhos da classe trabalhadora estudam em escolas sem estrutura.",
+        "pagina": 12
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A população trabalhadora convive diariamente com diferentes formas de violência... além da violência praticada pelo próprio Estado contra as periferias, especialmente contra a juventude negra e pobre.",
+        "pagina": 18
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O trabalho é a principal fonte de riqueza da sociedade. Entretanto, milhões estão desempregados, e a classe trabalhadora empregada continua enfrentando baixos salários, jornadas excessivas, precarização das relações de trabalho.",
+        "pagina": 8
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Terra a quem nela trabalha! Por reforma agrária e por uma revolução na estrutura do campo brasileiro! Transferir o controle das terras para os trabalhadores rurais.",
+        "pagina": 16
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A questão ambiental se tornou uma das principais questões do nosso tempo... A crise ambiental expressa o esgotamento do próprio sistema e modelo de produção.",
+        "pagina": 15
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE, EDUCAÇÃO, MORADIA, TRANSPORTE PÚBLICO, APOSENTADORIA: os direitos sociais e os serviços públicos fazem parte das condições de vida da classe trabalhadora... determinam quanto custa viver, em que condições a população se desloca.",
+        "pagina": 10
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implementação efetiva da Lei 1645/2008, com ensino de história e cultura afro-brasileira e indígena em toda rede de ensino. Punição severa dos empregadores que estimulam ou toleram racismo nos locais de trabalho.",
+        "pagina": 22
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "É preciso superar o modelo do grande agronegócio e construir formas de produção que respeitem os territórios, os povos e os limites ecológicos da Terra. Também para garantir soberania alimentar, acabar com a fome no Brasil.",
+        "pagina": 16
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Se neste projeto não cabem investimentos em industrialização, tampouco faz sentido garantir educação, saúde, segurança e desenvolver pesquisa ou tecnologia. Essa é a razão pela qual vemos o sucateamento de universidades, centros e agências de fomento.",
+        "pagina": 3
+      }
+    ]
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Enfrentar os capitalistas e o imperialismo em defesa da soberania nacional. As candidaturas do PT, do centrão e da extrema direita prometem, de forma vaga, melhorar a vida da população. Mas isso é simplesmente impossível mantendo o país dominado pelo imperialismo.",
+        "pagina": 4
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Não somos cretinos antiparlamentares. A disputa eleitoral e institucional pode ter importância tática... mas deve estar subordinada à mobilização, à ação direta, à auto-organização e à estratégia de conquista do poder político pela classe trabalhadora.",
+        "pagina": 30
+      }
+    ]
+  }
+}

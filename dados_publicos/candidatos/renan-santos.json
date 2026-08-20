@@ -1,0 +1,17 @@
+{
+  "slug": "renan-santos",
+  "nome": "RENAN SANTOS",
+  "nome_completo": "RENAN ANTONIO FERREIRA DOS SANTOS",
+  "partido": "MISSÃO",
+  "numero": 14,
+  "cargo": "Presidente",
+  "vice": "CORONEL MEDINA",
+  "falante_id": "candidato_renan_santos",
+  "plano_de_governo": "/plano/renan-santos",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002540694,
+    "eleicao_id_tse": "20322002026",
+    "coletado_em": "2026-08-14T16:40:35+00:00"
+  }
+}

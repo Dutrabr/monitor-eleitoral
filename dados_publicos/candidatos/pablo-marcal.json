@@ -1,0 +1,16 @@
+{
+  "slug": "pablo-marcal",
+  "nome": "PABLO MARÇAL",
+  "nome_completo": "PABLO HENRIQUE COSTA MARCAL",
+  "partido": "PRTB",
+  "numero": 28,
+  "cargo": "Presidente",
+  "vice": "LEONARDO AVALANCHE",
+  "falante_id": "candidato_pablo_marcal",
+  "plano_de_governo": null,
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002553884,
+    "eleicao_id_tse": "20322002026"
+  }
+}

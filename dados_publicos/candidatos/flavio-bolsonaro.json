@@ -1,0 +1,17 @@
+{
+  "slug": "flavio-bolsonaro",
+  "nome": "FLAVIO BOLSONARO",
+  "nome_completo": "FLAVIO NANTES BOLSONARO",
+  "partido": "PL",
+  "numero": 22,
+  "cargo": "Presidente",
+  "vice": "ALFREDO GASPAR",
+  "falante_id": "candidato_flavio_bolsonaro",
+  "plano_de_governo": "/plano/flavio-bolsonaro",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002551544,
+    "eleicao_id_tse": "20322002026",
+    "coletado_em": "2026-08-14T16:40:31+00:00"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "arquivo": "2026-08-17_12-30-59_UTC.mp4",
+  "hash_sha256_original": "8112aa942fa22c69ba0ad5c01ba7c3b86ef86071311c496365fc588078e626e7",
+  "url": "https://www.instagram.com/reel/DcJCoE6R6ed/",
+  "citacoes": [
+    {
+      "inicio": 0.0,
+      "fim": 5.72,
+      "timestamp": "00:00:00",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "Hoje nós vamos lançar a minha candidatura de maneira definitiva à presidência da República",
+      "temas": []
+    },
+    {
+      "inicio": 5.72,
+      "fim": 6.22,
+      "timestamp": "00:00:05",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "do Brasil.",
+      "temas": []
+    },
+    {
+      "inicio": 6.4,
+      "fim": 12.18,
+      "timestamp": "00:00:06",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "Neste dia, vamos lança um grande sonho, o sonho onde a polarização que paralisou o",
+      "temas": []
+    },
+    {
+      "inicio": 12.18,
+      "fim": 18.38,
+      "timestamp": "00:00:12",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "país vai começar a diminuir porque nós queremos focar em 100% projetos e sem ataques",
+      "temas": []
+    },
+    {
+      "inicio": 18.38,
+      "fim": 18.84,
+      "timestamp": "00:00:18",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "pessoais.",
+      "temas": []
+    },
+    {
+      "inicio": 18.88,
+      "fim": 25.22,
+      "timestamp": "00:00:18",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "Na verdade, o que nós estamos lançando aqui não é um projeto para governarmos Brasília",
+      "temas": []
+    },
+    {
+      "inicio": 25.22,
+      "fim": 31.3,
+      "timestamp": "00:00:25",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "a partir de Brasília, mas é um governo que escuta as pessoas e vai abraçar 213 milhões",
+      "temas": []
+    },
+    {
+      "inicio": 31.3,
+      "fim": 32.02,
+      "timestamp": "00:00:31",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "de brasileiros.",
+      "temas": []
+    },
+    {
+      "inicio": 32.48,
+      "fim": 39.0,
+      "timestamp": "00:00:32",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "Somos o único projeto que de fato quero escutar a dor se preocupar com a dor e solucionar",
+      "temas": []
+    },
+    {
+      "inicio": 39.0,
+      "fim": 43.5,
+      "timestamp": "00:00:39",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "a dor dos brasileiros muito obrigado por você estar aqui vamos lançando portanto",
+      "temas": []
+    },
+    {
+      "inicio": 43.5,
+      "fim": 47.54,
+      "timestamp": "00:00:43",
+      "falante": "candidato_escritor_augusto_cury",
+      "texto": "essa candidatura vencedora para impactar a nação brasileira",
+      "temas": []
+    }
+  ]
+}

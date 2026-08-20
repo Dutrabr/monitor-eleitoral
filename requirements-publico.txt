@@ -1,0 +1,8 @@
+# Dependencias do site publico (transcricao.site_publico) so' — nao inclui
+# faster-whisper/pyannote/yt-dlp/instaloader, que o deploy publico nunca usa
+# (coleta e transcricao rodam so' localmente). Mantem o build do deploy
+# leve e rapido.
+fastapi>=0.115
+uvicorn>=0.30
+jinja2>=3.1
+python-multipart>=0.0.9

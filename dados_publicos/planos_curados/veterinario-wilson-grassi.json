@@ -1,0 +1,107 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 4 — Saúde Única: saúde humana, saúde animal e saúde ambiental são o mesmo problema visto de ângulos diferentes.",
+        "pagina": 26
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 8 — Educação e formação: continuidade e endurecimento da política federal de alfabetização na idade certa, com condicionalidade vinculada a resultado aferido em avaliação externa.",
+        "pagina": 36
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integração entre a base de segurança e as bases que não são policiais. Mandado de prisão que não conversa com folha de pagamento pública produz a situação absurda de o Estado procurar alguém que ele mesmo está pagando.",
+        "pagina": 23
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Com a extinção da CSLL, cuja alíquota é de 9%, o Imposto de Renda da Pessoa Jurídica cai dos atuais 34% para 25%. Não se trata de renúncia adicional.",
+        "pagina": 10
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 6 — Agropecuária, sanidade e comércio exterior: bem-estar animal e agronegócio não são campos opostos. Quem compra carne brasileira lá fora exige padrão sanitário, rastreabilidade e padrão de bem-estar.",
+        "pagina": 32
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12.3 Meio ambiente e clima: combater o desmatamento ilegal com inteligência, rastreabilidade da cadeia produtiva e responsabilização patrimonial.",
+        "pagina": 47
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 12 — Infraestrutura, energia e meio ambiente: o Brasil escoa a própria safra em cima de caminhão, por rodovia, em distâncias continentais... deixa de ser apenas caro e passa a ser fisicamente inviável.",
+        "pagina": 46
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mineração em terra indígena: sair da clandestinidade. Defendemos abrir o debate sobre um regime legal de aproveitamento mineral em terra indígena com participação econômica dos indígenas e responsabilidade ambiental.",
+        "pagina": 47
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "nao_consta"
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Carreira federal de pesquisador, com ingresso por processo seletivo público de base curricular e de produção, porque produção científica não se mede em múltipla escolha.",
+        "pagina": 37
+      }
+    ]
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13.6 O interesse brasileiro em toda negociação externa: este plano não traz doutrina de política externa, e a omissão é deliberada... em toda negociação internacional, a pergunta que decide a posição brasileira é o que o Brasil ganha.",
+        "pagina": 51
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 14 — Pacto institucional e superação da polarização: um governo de partido sem maioria parlamentar governa por acordo ou não governa. Agenda legislativa pública e priorizada, com no máximo cinco projetos declarados como prioridade por semestre.",
+        "pagina": 53
+      }
+    ]
+  }
+}

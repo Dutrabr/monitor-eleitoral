@@ -1,0 +1,16 @@
+{
+  "slug": "rui-costa-pimenta",
+  "nome": "RUI COSTA PIMENTA",
+  "nome_completo": "RUI COSTA PIMENTA",
+  "partido": "PCO",
+  "numero": 29,
+  "cargo": "Presidente",
+  "vice": "ANTÔNIO CARLOS",
+  "falante_id": "candidato_rui_costa_pimenta",
+  "plano_de_governo": "/plano/rui-costa-pimenta",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002552487,
+    "eleicao_id_tse": "20322002026"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "No Brasil Sorridente, há hoje quase 35 mil equipes de saúde bucal em 5.208 municípios... Retomamos o Farmácia Popular, ampliando para 41 o número de medicamentos gratuitos distribuídos.",
+        "pagina": 36
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mesmo priorizando a educação básica, voltamos a investir na expansão do ensino técnico e tecnológico, e retomamos o fomento ao ensino superior. O Compromisso Nacional Criança Alfabetizada... 66% das crianças alfabetizadas na idade certa em 2025.",
+        "pagina": 31
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O crime organizado deve ser enfrentado com firmeza, nos marcos da Constituição e do Estado Democrático de Direito... construção de um Sistema Nacional de Segurança Pública mais articulado.",
+        "pagina": 27
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Manteremos nossa ação junto ao Senado Federal para assegurar o fim da escala 6x1 e a redução da jornada de trabalho para 40 horas, sem redução salarial, nos termos aprovados na Câmara dos Deputados.",
+        "pagina": 75
+      }
+    ]
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Já ampliamos para 45% o percentual da alimentação escolar a ser comprada da agricultura familiar. E elevamos para 80% a parcela da alimentação escolar composta por alimentos in natura ou minimamente processados.",
+        "pagina": 59
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Promovemos uma das principais reformas da política climática nacional ao instituir o mercado regulado de carbono, com a lei que criou o Sistema Brasileiro de Comércio de Emissões (SBCE). Na COP30, o Brasil assumiu a liderança pelo exemplo.",
+        "pagina": 70
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O governo Lula investiu de forma consistente em saneamento. A partir de 2023, foram R$ 23,3 bilhões para novas obras de abastecimento de água.",
+        "pagina": 46
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Voltamos a assegurar aos povos e comunidades tradicionais – indígenas, quilombolas e ribeirinhos – seus direitos, inclusive em relação a seus territórios.",
+        "pagina": 19
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Bolsa Família foi recriado e expandido com benefícios especiais para crianças e adolescentes.",
+        "pagina": 12
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Indústria ainda mais forte, inovadora e verde: a Nova Indústria Brasil (NIB) terá disponibilizado R$ 860 bilhões entre 2023 e 2026, repensando o papel da indústria no Brasil.",
+        "pagina": 50
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos avançar ainda mais na desconcentração regional e para todas as formas de manifestação cultural, fortalecendo nossa diversidade cultural, com o Conselho Nacional de Política Cultural e os Comitês de Cultura Estaduais.",
+        "pagina": 41
+      }
+    ]
+  },
+  "politica_externa_e_relacoes_internacionais": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na política externa, o Brasil deverá ser cada vez mais independente, ativo e comprometido com a integração regional e com a afirmação da América do Sul e do Caribe como zona de paz.",
+        "pagina": 80
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O enfrentamento da violência requer uma ação permanente e integrada do Estado, baseada em investigação, cooperação entre as instituições... capaz de combinar medidas imediatas com as reformas constitucionais e legais necessárias.",
+        "pagina": 27
+      }
+    ]
+  }
+}

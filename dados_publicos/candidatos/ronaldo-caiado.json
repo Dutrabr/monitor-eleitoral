@@ -1,0 +1,16 @@
+{
+  "slug": "ronaldo-caiado",
+  "nome": "RONALDO CAIADO",
+  "nome_completo": "RONALDO RAMOS CAIADO",
+  "partido": "PSD",
+  "numero": 55,
+  "cargo": "Presidente",
+  "vice": "GILBERTO KASSAB",
+  "falante_id": "candidato_ronaldo_caiado",
+  "plano_de_governo": "/plano/ronaldo-caiado",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002551932,
+    "eleicao_id_tse": "20322002026"
+  }
+}

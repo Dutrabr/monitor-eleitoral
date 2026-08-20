@@ -1,0 +1,95 @@
+{
+  "arquivo": "42qHnFjCgrs.mp4",
+  "hash_sha256_original": "3bb4ffc1818373ac87c939ad07515ea0a067c44f0471c9b5303da3ca90f3ce44",
+  "url": "https://www.youtube.com/watch?v=42qHnFjCgrs",
+  "citacoes": [
+    {
+      "inicio": 0.47,
+      "fim": 9.18,
+      "timestamp": "00:00:00",
+      "falante": "candidato_lula",
+      "texto": "Se ao final do meu mandato todos os brasileiros tiverem a possibilidade de tomar café da",
+      "temas": []
+    },
+    {
+      "inicio": 9.18,
+      "fim": 17.54,
+      "timestamp": "00:00:09",
+      "falante": "candidato_lula",
+      "texto": "manhã, almoçar e jantar, terei cumprido a missão da minha vida.",
+      "temas": []
+    },
+    {
+      "inicio": 17.64,
+      "fim": 23.56,
+      "timestamp": "00:00:17",
+      "falante": "candidato_lula",
+      "texto": "Quase o principal compromisso que assumimos em 2003 foi o de lutar contra desigualdade",
+      "temas": []
+    },
+    {
+      "inicio": 23.56,
+      "fim": 33.92,
+      "timestamp": "00:00:23",
+      "falante": "candidato_lula",
+      "texto": "e a extrema pobreza. Infelizmente, hoje, 20 anos depois, votamos a um passado que julgava os enterrados",
+      "temas": []
+    },
+    {
+      "inicio": 33.92,
+      "fim": 40.52,
+      "timestamp": "00:00:33",
+      "falante": "candidato_lula",
+      "texto": "muito do que fizemos foi defeito de forma irresponsável e criminosa",
+      "temas": []
+    },
+    {
+      "inicio": 40.52,
+      "fim": 44.12,
+      "timestamp": "00:00:40",
+      "falante": "candidato_lula",
+      "texto": "As sementes que plantamos fortificaram",
+      "temas": []
+    },
+    {
+      "inicio": 44.12,
+      "fim": 51.1,
+      "timestamp": "00:00:44",
+      "falante": "candidato_lula",
+      "texto": "Neste ano, a FAO anunciou que outra vez o Brasil saiu do Mapa da Fome",
+      "temas": []
+    },
+    {
+      "inicio": 51.1,
+      "fim": 57.41,
+      "timestamp": "00:00:51",
+      "falante": "candidato_lula",
+      "texto": "Trinta milhões de pessoas começaram a almoçar, jantar e tomar café.",
+      "temas": []
+    },
+    {
+      "inicio": 57.69,
+      "fim": 61.59,
+      "timestamp": "00:00:57",
+      "falante": "candidato_lula",
+      "texto": "Um país soberano é um país capaz de alimentar o sopor.",
+      "temas": []
+    },
+    {
+      "inicio": 61.85,
+      "fim": 64.53,
+      "timestamp": "00:01:01",
+      "falante": "candidato_lula",
+      "texto": "A fome é inimiga da democracia",
+      "temas": []
+    },
+    {
+      "inicio": 64.53,
+      "fim": 66.89,
+      "timestamp": "00:01:04",
+      "falante": "candidato_lula",
+      "texto": "e do pleno exercício da cidadania.",
+      "temas": []
+    }
+  ]
+}

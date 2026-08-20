@@ -1,0 +1,17 @@
+{
+  "slug": "zema",
+  "nome": "ZEMA",
+  "nome_completo": "ROMEU ZEMA NETO",
+  "partido": "NOVO",
+  "numero": 30,
+  "cargo": "Presidente",
+  "vice": "EDUARDO GIRÃO",
+  "falante_id": "candidato_zema",
+  "plano_de_governo": "/plano/zema",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002539826,
+    "eleicao_id_tse": "20322002026",
+    "coletado_em": "2026-08-14T16:40:37+00:00"
+  }
+}

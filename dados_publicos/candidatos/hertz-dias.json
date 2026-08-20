@@ -1,0 +1,17 @@
+{
+  "slug": "hertz-dias",
+  "nome": "HERTZ DIAS",
+  "nome_completo": "HERTZ DA CONCEICAO DIAS",
+  "partido": "PSTU",
+  "numero": 16,
+  "cargo": "Presidente",
+  "vice": "VANESSA PORTUGAL",
+  "falante_id": "candidato_hertz_dias",
+  "plano_de_governo": "/plano/hertz-dias",
+  "fonte_dados": {
+    "api": "divulgacandcontas.tse.jus.br",
+    "candidato_id_tse": 280002541457,
+    "eleicao_id_tse": "20322002026",
+    "coletado_em": "2026-08-14T16:40:33+00:00"
+  }
+}
