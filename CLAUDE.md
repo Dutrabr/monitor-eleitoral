@@ -508,6 +508,16 @@ apos ver o numero real.** Amostra ainda pequena; revisitar com
 real crescer (o proprio script avisa se a amostra ainda ta' abaixo de
 300).
 
+Pronto (2026-08-19): planos de governo dos 2 PDFs pendentes (Ronaldo
+Caiado, Rui Costa Pimenta) baixados via navegador real e registrados.
+Curadoria dos 13 temas completa pros 3 candidatos novos com plano
+(Clariana Barao, Ronaldo Caiado, Rui Costa Pimenta) — 12 dos 13
+candidatos a Presidente com o painel de comparacao 100% preenchido
+(consta ou nao_consta medido, nunca "nao verificado"). Pablo Marcal e'
+excecao genuina: nao tem nenhum plano de governo registrado no TSE
+(`arquivos` vazio na resposta da API), entao os 13 temas dele ficam
+"nao verificado" de proposito — nao ha' documento pra checar.
+
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e
