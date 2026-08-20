@@ -7,7 +7,6 @@ services:
     name: monitor-eleitoral
     runtime: python
     plan: free
-    pythonVersion: "3.13.11"
     buildCommand: "pip install -r requirements-publico.txt"
     startCommand: >-
       cd src && python3 -m transcricao.site_publico
@@ -17,3 +16,6 @@ services:
       --planos-curados ../dados_publicos/planos_curados
       --host 0.0.0.0
       --porta $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.11"
