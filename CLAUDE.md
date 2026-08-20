@@ -12,9 +12,18 @@ leitor tira a conclusao.
    sem "vale a pena votar". A Resolucao TSE 23.610/2019, art. 9º-B (alterada pela
    Res. 23.755/2026) veda que sistemas de IA recomendem, ranqueiem, sugiram ou
    priorizem candidatos — inclusive a pedido expresso do usuario.
-2. **Nenhuma citacao vai ao ar sem um humano ter ouvido o trecho.** A
-   transcricao serve para *encontrar* a fala em escala. A publicacao e'
-   verificada. `Transcricao.exige_revisao_humana` implementa isso.
+2. **Nenhuma citacao vai ao ar sem um humano ter ouvido o trecho — OU sem
+   passar num limiar de confianca calibrado e explicitamente aceito pelo
+   dono do projeto.** A transcricao serve para *encontrar* a fala em
+   escala. A publicacao e' verificada — por humano na maioria dos casos,
+   ou automaticamente quando os 4 sinais de confianca do Whisper batem
+   **e** o video inteiro tem um so' falante do inicio ao fim (nunca em
+   video com mais de uma pessoa). Excecao decidida em 2026-08-19 (ver
+   `auto_aprovacao.py` e "Estado atual" abaixo) — taxa de erro aceita
+   ~5%, calibrada contra amostra real, nao intuicao. Ajustar o limiar
+   exige amostra nova medida (`scripts/analisar_confianca_threshold.py`),
+   nunca so' "parece que ta' bom". `Transcricao.exige_revisao_humana`
+   implementa a parte que ainda e' sempre manual.
 3. **Simetria total entre candidatos.** Mesma pipeline, mesma janela temporal,
    mesmos parametros. Assimetria transforma ferramenta civica em peca de
    campanha.
@@ -447,6 +456,57 @@ Proximo:
   embutido, botao copiar link)
 - decidir sobre hospedagem publica — hoje o site so' roda em
   localhost, ninguem fora desta maquina consegue ver
+
+Pronto (2026-08-19): **auto-aprovacao de segmentos de alta confianca —
+excecao explicita e calibrada a regra 2** (ver `auto_aprovacao.py`).
+Motivo: o dono do projeto nao tem tempo pra revisar cada citacao a mao e
+pediu uma metrica que aumente a confianca sem depender do tempo dele.
+Recusei aprovar automatico "porque parece confiavel" sem medir — rodei
+`scripts/analisar_confianca_threshold.py` contra os 141 segmentos ja
+revisados a mao ate' agora (10 videos via Whisper real, excluindo o de
+legenda que nao tem essas metricas). Achado real, nao intuicao: usando
+so' `no_speech_prob` como sinal, o mesmo nivel de "incerteza" aparecia
+tanto em trechos que precisaram correcao quanto em trechos perfeitos —
+36 dos 136 segmentos confirmados sem correcao tinham `no_speech_prob`
+igual ou maior que um dos 2 episodios reais de erro. Um sinal so' nao
+separa nada.
+
+Testei combinar os 4 sinais que a pipeline ja calcula (`no_speech_prob
+< 0.15`, `avg_logprob > -0.30`, `compression_ratio < 2.0`,
+`pureza_falante == 1.0`) **mais** a exigencia de o video inteiro ter um
+so' falante do inicio ao fim (nunca em video multi-falante — esse
+cenario a amostra nem testou ainda). Resultado: 87 dos 141 segmentos
+(62%) teriam sido auto-aprovados por esses 4 sinais juntos, com **zero**
+erros de texto observados nesse grupo. Pela regra de tres (limite
+superior pra zero eventos observados em n tentativas, 95% de confianca,
+e' ~3/n), a taxa real de erro nesse grupo fica em ate' ~3,4% — dentro do
+~5% ("1 em 20") que o dono decidiu aceitar explicitamente, depois de eu
+apresentar tambem a opcao mais conservadora (~1%) e explicar que a
+amostra e' pequena demais (so' 2 episodios de erro no total) pra
+qualquer numero ser garantia.
+
+Implementado em `auto_aprovacao.py` (funcoes puras, testadas —
+`tests/test_auto_aprovacao.py`, 17 testes): `segmento_elegivel` checa os
+4 sinais; `video_e_falante_unico` bloqueia qualquer video com mais de um
+falante detectado (sem excecao); `gerar_decisoes_automaticas` gera
+decisoes CONFIRMADO reusando `revisao.registrar_decisao`, marcadas com
+`revisado_por="auto_aprovacao_confianca"` pra distinguir de revisao
+humana real no audit trail. Nunca sobrescreve decisao ja existente.
+
+Ligado nas CLIs (`cli_youtube.py`, `cli_instagram.py`) via flag nova
+`--falante-confirmado candidato_x`: o dono continua afirmando de qual
+canal oficial o video veio (mesma convencao de sempre — nunca busca
+generica), mas nao precisa mais ouvir cada segmento se o video inteiro
+for de um so' falante com sinais bons. Se o video tiver mais de um
+falante, a flag nao faz nada e cai na revisao humana normal de sempre,
+sem aviso enganoso de "tudo aprovado".
+
+**Isso e' decisao explicita do dono do projeto, registrada aqui porque
+mexe numa regra inviolavel — nao decidi isso sozinho, e' escolha dele
+apos ver o numero real.** Amostra ainda pequena; revisitar com
+`scripts/analisar_confianca_threshold.py` quando o volume de revisao
+real crescer (o proprio script avisa se a amostra ainda ta' abaixo de
+300).
 
 ## Fora de escopo, por decisao
 

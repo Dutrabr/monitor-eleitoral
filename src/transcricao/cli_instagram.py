@@ -7,7 +7,8 @@ import json
 import sys
 from pathlib import Path
 
-from . import qualidade
+from . import proveniencia, qualidade
+from .auto_aprovacao import gerar_decisoes_automaticas
 from .coletar_instagram import ColetaIndisponivel, coletar
 from .transcrever import MODELO_PADRAO
 
@@ -30,6 +31,18 @@ def main(argv: list[str] | None = None) -> int:
         type=Path,
         default=None,
         help='JSON tipo {"SPEAKER_00": "candidato_x"}',
+    )
+    ap.add_argument(
+        "--falante-confirmado",
+        default=None,
+        help=(
+            "falante_id (ex: candidato_fulano) do perfil de onde este Reel foi "
+            "coletado. So' tem efeito se o video inteiro tiver UM UNICO falante: "
+            "gera confirmacao automatica pros segmentos de alta confianca (ver "
+            "auto_aprovacao.py — excecao explicita a regra 2, taxa de erro "
+            "aceita ~5%, decisao do dono do projeto em 2026-08-19). Video com "
+            "mais de um falante ignora esta flag e cai na revisao normal."
+        ),
     )
     args = ap.parse_args(argv)
 
@@ -58,6 +71,24 @@ def main(argv: list[str] | None = None) -> int:
     )
     for aviso in t.avisos:
         print(f"aviso: {aviso}")
+
+    if args.falante_confirmado:
+        base = Path(t.proveniencia["arquivo"]).stem
+        segmentos = t.para_dict()["segmentos"]
+        decisoes = gerar_decisoes_automaticas(
+            segmentos, args.falante_confirmado, {}, revisado_em=proveniencia.agora_utc()
+        )
+        if decisoes:
+            caminho = args.saida / f"{base}.decisoes.json"
+            caminho.write_text(json.dumps(decisoes, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(
+                f"auto-aprovacao: {len(decisoes)}/{r['ok'] + r['revisar']} segmento(s) "
+                f"confirmado(s) automaticamente em {caminho.name} — o resto continua "
+                "na revisao humana normal."
+            )
+        else:
+            print("auto-aprovacao: nenhum segmento se qualificou (ou video tem mais de um falante).")
+
     return 0
 
 
