@@ -518,6 +518,30 @@ excecao genuina: nao tem nenhum plano de governo registrado no TSE
 (`arquivos` vazio na resposta da API), entao os 13 temas dele ficam
 "nao verificado" de proposito — nao ha' documento pra checar.
 
+Pronto (2026-08-20): **site publico no ar**, fora do localhost —
+https://monitor-eleitoral.onrender.com (Render, plano free — "dorme"
+depois de ~15min sem acesso, primeiro request seguinte demora uns
+30-50s pra acordar, normal do plano gratuito). Repo no GitHub:
+github.com/Dutrabr/monitor-eleitoral.
+
+Deploy so' le `dados_publicos/` (ver
+`scripts/exportar_dados_publicos.py`), nunca `dados/` inteiro — sem
+midia original, sem decisoes de revisao, sem fila de verificacao, so'
+o que ja' e' evidencia confirmada e publica (candidatos, planos de
+governo em PDF, planos curados, citacoes ja' publicadas).
+`requirements-publico.txt` fica sem faster-whisper/pyannote/yt-dlp/
+instaloader — deploy nunca coleta nem transcreve.
+
+**Fluxo pra atualizar o site publico depois de publicar algo novo
+localmente**: `python3 scripts/exportar_dados_publicos.py` (regenera
+`dados_publicos/`) -> `git add dados_publicos/` -> commit -> `git push`
+-> Render redeploya sozinho a cada push na branch `main`.
+
+Nota tecnica do proprio deploy: `render.yaml` original tinha um campo
+`pythonVersion` que nao existe nesse formato do blueprint do Render —
+corrigido pra `envVars: [{key: PYTHON_VERSION, value: "3.13.11"}]`,
+que e' a forma documentada.
+
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e
