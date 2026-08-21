@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na infraestrutura rural, o Programa Caminhos do Campo (...) pavimentou mais de 1.300 quilômetros de estradas. Em 2025, foram investidos R$ 218,46 milhões na revitalização de 288,75 quilômetros em 30 municípios.",
+        "pagina": 84
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer o Programa Compra Direta de Alimentos, ampliando sua cobertura, garantindo reajustes periódicos e fortalecendo simultaneamente a agricultura familiar e a segurança alimentar.",
+        "pagina": 45
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Consolidou-se uma mudança de paradigma na gestão da inovação capixaba (...) transformando o ES no estado brasileiro com o maior investimento per capita em CT&I.",
+        "pagina": 133
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A cultura deixou de ser um setor isolado para se tornar vetor de desenvolvimento social e econômico (...) O investimento total em fomento à cultura saltou de R$ 21,8 milhões, em 2019, para R$ 120,3 milhões em 2025.",
+        "pagina": 64
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os direitos humanos constituem um compromisso permanente do Estado Democrático de Direito e devem orientar todas as políticas públicas. Promover direitos humanos significa ampliar cidadania, fortalecer a democracia, proteger vidas, prevenir violências e garantir que todas as pessoas sejam tratadas com dignidade.",
+        "pagina": 43
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Este eixo apresenta os caminhos para consolidar o Espírito Santo como um dos estados mais competitivos do Brasil, capaz de combinar crescimento econômico, sustentabilidade ambiental, inclusão produtiva e inovação.",
+        "pagina": 79
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Para o quadriênio 2027-2030, o Espírito Santo consagrará a visão de 'educação sem muros' que transcende o espaço físico da sala de aula para integrar escola, comunidade, setor produtivo e inovação tecnológica.",
+        "pagina": 13
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nota A na Capacidade de Pagamento (CAPAG), alcançou A+ em 2024, 2025 e 2026 (...) Entre 2019 e 2025, foram investidos R$ 21 bilhões, sendo R$ 4,8 bilhões apenas em 2025, novo recorde anual.",
+        "pagina": 130
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mobilidade que conecta pessoas, impulsiona o desenvolvimento, acompanha o crescimento das cidades, aumenta a eficiência e o conforto nos deslocamentos.",
+        "pagina": 56
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Entre 2019 e 2026, a agenda ambiental do Espírito Santo passou por um processo de ampliação temática e institucional (...) ganharam centralidade temas como parques e unidades de conservação, crédito de carbono, descarbonização, reflorestamento, combate ao desmatamento.",
+        "pagina": 106
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os últimos oito anos comprovaram como a consolidação da cultura da boa governança, da integridade e da transparência são valores que vão muito além da agenda interna da administração pública.",
+        "pagina": 148
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a parceria entre Estado e municípios, ampliando o compartilhamento de soluções digitais e reduzindo desigualdades na capacidade de modernização das administrações municipais.",
+        "pagina": 143
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde é a política pública que mais diretamente transforma a vida das pessoas (...) Um sistema de saúde forte também impulsiona o desenvolvimento social, reduz desigualdades, fortalece a economia e amplia as oportunidades para toda a população.",
+        "pagina": 23
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Espírito Santo transformou sua política de segurança pública em uma referência nacional. O desafio da próxima década será preservar essas conquistas e preparar o Estado para enfrentar uma nova geração de ameaças, marcada pela expansão das organizações criminosas, pela criminalidade digital e pela crescente sofisticação das economias ilícitas.",
+        "pagina": 29
+      }
+    ]
+  }
+}

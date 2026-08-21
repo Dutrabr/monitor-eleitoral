@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Proteger quem produz. Integrar a regularização fundiária, ambiental e sanitária, ampliar o georreferenciamento, facilitar o crédito e combater grilagem, fraudes, sobreposições e títulos irregulares, protegendo o produtor de boa-fé.", "pagina": 9}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Proteger quem mais precisa. Elevar o Auxílio Estadual Permanente para R$ 300,00, fortalecer a proteção de mulheres, crianças, idosos, pessoas com deficiência, povos indígenas e comunidades tradicionais.", "pagina": 5}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Tornar a cultura amazonense um fator de desenvolvimento social e econômico. Utilizar a cultura amazonense, motivo de orgulho do nosso povo, como propulsora do desenvolvimento social e econômico, apoiando as comunidades e artistas do Festival de Parintins.", "pagina": 4}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Reforçar a Proteção à Mulher em todo o Amazonas. Garantir presença policial especializada e resposta ágil às mulheres em situação de violência em todos os municípios do estado, capital e interior.", "pagina": 7}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Melhorar a qualificação dos amazonenses para o mercado de trabalho. Integrar CETAM, Sistema S, universidades, SUFRAMA, empresas e organizações parceiras para oferecer formação técnica.", "pagina": 3}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Garantir que toda escola do interior funcione. Assegurar professor em sala, merenda, transporte escolar seguro e as condições essenciais para o aprendizado.", "pagina": 2}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fazer o dinheiro público render mais. Vincular recursos à entrega de resultados concretos, encerrar fundos e programas que não funcionem, revisar gastos correntes e ampliar a transparência sobre contas públicas.", "pagina": 8}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Garantir moradia digna e promover a regularização das propriedades. Focalizar a construção e o financiamento de moradias populares em áreas com infraestrutura e próximas da oferta de trabalho.", "pagina": 5}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Modernizar o licenciamento ambiental para destravar o Amazonas. Adequar os procedimentos do estado à nova Lei Geral do Licenciamento Ambiental, com prazos definidos.", "pagina": 9}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Valorizar o servidor e profissionalizar a gestão. Reconhecer o desempenho, fortalecer a capacitação e as carreiras, selecionar chefias por critérios técnicos, reduzir cargos comissionados sem função definida.", "pagina": 6}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Cuidar desde os primeiros anos de vida. Apoiar os municípios na ampliação da oferta de vagas em creches e pré-escolas e na orientação às famílias sobre saúde, alimentação e desenvolvimento infantil.", "pagina": 2}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Levar atenção à saúde básica a todo o interior. Ampliar as equipes de saúde fluvial e ribeirinha e a telessaúde. Regionalizar o atendimento hospitalar: construir hospitais regionais em São Gabriel da Cachoeira, Tefé, Tabatinga, Humaitá, Itacoatiara e Eirunepé.", "pagina": 7}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecer a presença e a inteligência policial no interior. Levar câmeras integradas, análise de dados e centros regionais de inteligência aos municípios.", "pagina": 6}
+    ]
+  }
+}

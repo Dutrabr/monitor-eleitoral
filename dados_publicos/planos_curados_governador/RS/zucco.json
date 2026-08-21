@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "AGROPECUÁRIA E AGROINDÚSTRIA. O agronegócio é a principal força econômica do Rio Grande do Sul, mas enfrenta um cenário de crescente vulnerabilidade. A sucessão de estiagens severas e enchentes históricas expôs a fragilidade da infraestrutura hídrica, da armazenagem e dos mecanismos de financiamento ao produtor.",
+        "pagina": 44
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "FAMÍLIA, DESENVOLVIMENTO SOCIAL E INCLUSÃO. Embora a assistência social seja essencial para garantir proteção às pessoas em situação de vulnerabilidade, ainda predominam políticas fragmentadas, baixa integração entre os serviços públicos, desigualdade na capacidade de atendimento entre os municípios.",
+        "pagina": 34
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INOVAÇÃO, CIÊNCIA E TECNOLOGIA. O Rio Grande do Sul reúne universidades de excelência, centros de pesquisa reconhecidos e um ecossistema empreendedor cada vez mais dinâmico, mas ainda enfrenta dificuldades para transformar esse potencial em desenvolvimento econômico em larga escala.",
+        "pagina": 47
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ESPORTE, CULTURA E QUALIDADE DE VIDA. O Rio Grande do Sul possui uma das mais ricas tradições esportivas e culturais do país, mas ainda convive com grandes desigualdades de acesso e participação.",
+        "pagina": 37
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROTEÇÃO ÀS MULHERES, CRIANÇAS E PESSOAS VULNERÁVEIS. O Rio Grande do Sul ainda convive com níveis inaceitáveis de violência e vulnerabilidade que atingem especialmente mulheres, crianças, adolescentes, pessoas idosas e pessoas com deficiência.",
+        "pagina": 19
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO ECONÔMICO E AMBIENTE DE NEGÓCIOS. O Rio Grande do Sul perdeu dinamismo econômico nas últimas décadas em relação a outras unidades da Federação, convivendo com baixo crescimento da produtividade, elevada complexidade tributária, excesso de burocracia e insegurança regulatória.",
+        "pagina": 41
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. A educação pública gaúcha convive há décadas com um problema central: muitos estudantes passam anos na escola sem aprender o que deveriam. Os resultados do Rio Grande do Sul seguem distantes do patamar exigido.",
+        "pagina": 27
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PLANEJAMENTO, FINANÇAS E RESPONSABILIDADE FISCAL. O Rio Grande do Sul ainda convive com um histórico de desequilíbrios fiscais, elevado comprometimento de receitas, rigidez orçamentária e baixa capacidade de transformar planejamento em resultados concretos.",
+        "pagina": 76
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INFRAESTRUTURA LOGÍSTICA. A infraestrutura logística do Rio Grande do Sul deixou de acompanhar as necessidades de uma economia altamente dependente do agronegócio, da indústria e do comércio exterior. Gargalos históricos em rodovias, ferrovias, hidrovias, portos e aeroportos elevam o custo do transporte.",
+        "pagina": 57
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO SUSTENTÁVEL E GESTÃO AMBIENTAL. O Rio Grande do Sul convive com o desafio de compatibilizar proteção ambiental, segurança hídrica e desenvolvimento econômico. As enchentes históricas de 2024 evidenciaram fragilidades na gestão dos recursos hídricos.",
+        "pagina": 95
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GESTÃO PÚBLICA E GOVERNANÇA. O Rio Grande do Sul enfrenta um desafio histórico de transformar boas intenções em resultados concretos para a população. A fragmentação das políticas públicas, a sobreposição de estruturas administrativas e o excesso de instâncias decisórias comprometem a capacidade do Estado.",
+        "pagina": 73
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MUNICIPALISMO E DESENVOLVIMENTO REGIONAL. O Rio Grande do Sul convive há décadas com profundas desigualdades territoriais. Mais de dois terços dos municípios gaúchos possuem menos de 20 mil habitantes, realidade que limita a arrecadação própria e amplia a dependência de transferências intergovernamentais.",
+        "pagina": 89
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE. A saúde pública do Rio Grande do Sul enfrenta um desafio que vai muito além do financiamento: trata-se de um problema de acesso, organização e gestão. Milhares de gaúchos aguardam por consultas especializadas, exames, cirurgias e tratamentos.",
+        "pagina": 23
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA E COMBATE AO CRIME. O Rio Grande do Sul ainda convive com a expansão e o fortalecimento das organizações criminosas, que disputam territórios, comandam o tráfico de drogas, movimentam milhões por meio da lavagem de dinheiro.",
+        "pagina": 7
+      }
+    ]
+  }
+}

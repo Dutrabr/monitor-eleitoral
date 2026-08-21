@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. Agronegócio, Agricultura Familiar e Desenvolvimento Rural. Consolidar a força agropecuária do Tocantins com mais tecnologia, agroindustrialização, sanidade, armazenagem, segurança hídrica e inclusão produtiva.",
+        "pagina": 26
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Desenvolvimento Social, Direitos Humanos e Inclusão. Organizar uma rede de proteção social capaz de enfrentar vulnerabilidades e, ao mesmo tempo, criar caminhos de autonomia, renda, cuidado e participação.",
+        "pagina": 16
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Educação, Juventude, Ciência e Tecnologia. Garantir aprendizagem, permanência e preparação para o trabalho e para a cidadania, alinhando a política estadual ao Plano Nacional de Educação.",
+        "pagina": 8
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12. Cultura, Turismo, Esporte, Comunicação e Economia Criativa. Valorizar a identidade tocantinense e transformar cultura, turismo, esporte e comunicação em desenvolvimento, bem-estar, inclusão e oportunidades.",
+        "pagina": 32
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Desenvolvimento Social, Direitos Humanos e Inclusão. Organizar uma rede de proteção social capaz de enfrentar vulnerabilidades e, ao mesmo tempo, criar caminhos de autonomia, renda, cuidado e participação.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. Desenvolvimento Econômico, Emprego, Indústria, Tributação e Energia. Criar um ambiente de negócios previsível e transformar a produção tocantinense em emprego, renda, inovação e maior valor agregado dentro do Estado.",
+        "pagina": 23
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Educação, Juventude, Ciência e Tecnologia. Garantir aprendizagem, permanência e preparação para o trabalho e para a cidadania, alinhando a política estadual ao Plano Nacional de Educação aprovado pela Lei nº 15.388/2026.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "011. Gestão Fiscal e Previdenciária Responsável. Ação: Acompanhar receitas, despesas, dívida, previdência e riscos fiscais com cenários plurianuais e transparência. Indicador sugerido: Resultado fiscal, limites da LRF e indicadores previdenciários.",
+        "pagina": 6
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Infraestrutura, Logística, Mobilidade e Conectividade. Usar infraestrutura como instrumento de integração territorial, segurança viária, competitividade e acesso aos serviços, com planejamento, manutenção e transparência.",
+        "pagina": 19
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. Meio Ambiente, Água, Clima e Proteção Animal. Fazer do patrimônio natural um ativo de desenvolvimento sustentável, com gestão ambiental eficiente, segurança hídrica, prevenção de incêndios e proteção da fauna.",
+        "pagina": 28
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Governança, Municipalismo, Transparência e Estado Digital. Construir uma administração pública que planeje, execute, meça resultados e preste contas, com responsabilidade fiscal e cooperação permanente com os 139 municípios.",
+        "pagina": 5
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. Desenvolvimento Regional e Redução das Desigualdades. Territorializar investimentos e serviços para que municípios pequenos e regiões distantes tenham acesso real às oportunidades de desenvolvimento.",
+        "pagina": 30
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. Saúde e Qualidade de Vida. Regionalizar a atenção, reduzir filas e fortalecer a rede do SUS, com prioridade para atendimento próximo de onde as pessoas vivem, eficiência da regulação e cuidado integral.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. Segurança Pública, Justiça, Defesa Civil e Proteção. Combater a violência com presença, investigação, inteligência, integração, prevenção e valorização das forças de segurança, respeitando direitos e evidências.",
+        "pagina": 14
+      }
+    ]
+  }
+}

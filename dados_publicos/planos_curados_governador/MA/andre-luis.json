@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Água para produzir, técnica para crescer, mercado para vender e segurança para investir (...) Maranhão Produtivo: expandir as compras públicas (Procaf, PNAE, PAA) dos atuais 88 municípios para novos territórios.",
+        "pagina": 24
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12,2% extrema pobreza em 2023, ante 15,0% em 2022 — ~567 mil pessoas saíram da pobreza em um ano, mas os índices seguem entre os piores do país.",
+        "pagina": 30
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Transformar conhecimento em soluções, empregos e oportunidades para todas as regiões (...) Maranhão Inova: fomento orientado por missões públicas: saúde, bioeconomia, água, clima e agricultura.",
+        "pagina": 27
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Maranhão 365 — Calendário integrado de experiências (...) Lençóis, Chapada das Mesas (...) bumba meu boi, tambor de crioula, reggae e gastronomia (...) quem vem ao São João encontra roteiros culturais e gastronômicos.",
+        "pagina": 23
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Promoção por mérito, experientes na ponta operacional e academias formando as forças em conjunto, com direitos humanos e uso correto da força.",
+        "pagina": 39
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Moralizar para cuidar. Industrializar para prosperar.",
+        "pagina": 30
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Aprender de verdade, em todo o Maranhão — com dados auditados, professor em sala e prioridade a quem mais precisa.",
+        "pagina": 40
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segunda [exigência] é a viabilidade fiscal: nenhuma promessa é feita sem considerar orçamento disponível, despesa permanente e fonte de financiamento.",
+        "pagina": 6
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reduzir a distância entre o potencial logístico do Maranhão e a estrada que isola, encarece e mata.",
+        "pagina": 10
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Resíduos, água, biodiversidade, clima e bem-estar animal em uma política ambiental que mede resultado, e não anúncio.",
+        "pagina": 16
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A quarta [exigência] é a transparência: metas, indicadores e responsáveis publicados, para que qualquer cidadão possa verificar se a ação começou, quanto custou e o que entregou.",
+        "pagina": 6
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoio de Verdade aos Municípios — Cardápio público de apoio: formação, avaliação, engenharia de projetos para captar FNDE, transporte —, com porta única regional e filas 100% públicas.",
+        "pagina": 43
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Atenção primária forte, fila por prioridade clínica e 19 regiões de saúde que efetivamente resolvem.",
+        "pagina": 34
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SISMA — Sistema Integrado de Segurança do Maranhão: inteligência, elucidação e presença permanente do Estado no território.",
+        "pagina": 37
+      }
+    ]
+  }
+}

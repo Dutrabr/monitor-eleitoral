@@ -1,0 +1,132 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.3. Agropecuária e Agricultura Familiar. Apoiar a agricultura familiar, a pecuária leiteira, a caprinovinocultura, a avicultura e a carciniculltura, por meio da assistência técnica continuada.",
+        "pagina": 22
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.4. Assistência Social. Ampliar o acesso equitativo aos serviços do Sistema Único de Assistência Social (SUAS), priorizando as famílias em situação de maior vulnerabilidade.",
+        "pagina": 18
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Consolidar o Centro Internacional de Computação e Tecnologias Quânticas (CIQUANTA) como polo de excelência, promovendo a atração científica, o desenvolvimento de softwares de alta segurança, a instalação de novos datacenters e a ampliação da conectividade por fibra óptica.",
+        "pagina": 22
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.3. Cultura e Lazer. Fortalecer a gestão cultural com participação social, fortalecimento dos conselhos e integração com a educação, o turismo e a economia criativa.",
+        "pagina": 13
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — Mulheres, Diversidade, Direitos Humanos e Animal. A Paraíba precisa enfrentar problemas estruturais relacionados ao aumento da violência contra as mulheres e grupos vulnerabilizados.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 — Economia Produtiva, Inovação e Trabalho. Este eixo propõe uma economia mais moderna, inovadora e competitiva, capaz de impulsionar a indústria, fortalecer a agropecuária, expandir o turismo, dinamizar os polos regionais de desenvolvimento.",
+        "pagina": 21
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.2. Educação. Garantir Políticas Públicas de Educação, fortalecendo a permanência escolar para que cada estudante permaneça, aprenda e conclua sua trajetória com apoio pedagógico contínuo.",
+        "pagina": 12
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.2 Sustentabilidade Fiscal e Contencioso Tributário. Preparar a Paraíba para a transição decorrente da Reforma Tributária. Modernizar os serviços tributários e a inteligência fiscal.",
+        "pagina": 25
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7 — Infraestrutura, Mobilidade e Sustentabilidade Ambiental. Implantação de mais de 800 km de novas rodovias e requalificação de mais de 200 km de rodovias existentes.",
+        "pagina": 31
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As propostas pactuadas para o Eixo 7 reafirmam o compromisso de concluir grandes obras estruturantes, ampliar a segurança hídrica (...) expandir as energias renováveis, proteger a Caatinga e preparar o Estado para os desafios das mudanças climáticas.",
+        "pagina": 30
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Eixo 5 parte do princípio de que a governança pública consiste em transformar recursos em resultados, dados em decisões responsáveis e serviços em direitos acessíveis à população.",
+        "pagina": 25
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Governar a Paraíba é reconhecer cada vocação, reduzir desigualdades, ouvir os municípios, valorizar servidores e fazer o Estado chegar aonde a vida acontece.",
+        "pagina": 3
+      },
+      {
+        "texto": "Apoiar os municípios na elaboração de planos de mobilidade urbana inclusiva.",
+        "pagina": 31
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.1. Saúde. Promover Políticas Públicas voltadas à atenção primária e à atenção especializada. Consolidar o Centro Estadual de Regulação Hospitalar.",
+        "pagina": 9
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — Segurança Pública, Justiça e Proteção da Vida. As propostas deste eixo constroem uma segurança moderna e integrada: fortalecem a inteligência policial e penitenciária, ampliam o monitoramento tecnológico.",
+        "pagina": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "35. Agropecuária de Baixo Carbono (Plano ABC+): Linhas de financiamento para recuperação de 1,5 milhão de hectares de pastagens degradadas. 36. Fortalecimento da Agricultura Familiar e Bioeconomia: Expansão dos Sistemas Agroflorestais (SAFs Açaí/Cacau/Espécies Nativas).",
+        "pagina": 5
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "40. Proteção Integral à Família e Primeira Infância: Programa Família Protegida, integrando assistência, qualificação e saúde para criar planos individuais de autonomia financeira para núcleos vulneráveis.",
+        "pagina": 6
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "24. Parceria Estratégica com o Sistema S e IFPA: Utilização compartilhada de laboratórios e estrutura do SENAI, SENAC, SENAR, SEBRAE e IFPA para formação técnica e inserção no programa Primeiro Emprego Técnico.",
+        "pagina": 4
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "14. Consolidação do Territórios pela Paz (TerPaz / UsiPaz): Expansão das Usinas da Paz para os municípios polo do interior com maior vulnerabilidade social, integrando segurança, cultura, esporte e cidadania.",
+        "pagina": 2
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "27. Atração de Investimentos e Industrialização (InvestPará 2.0): Atuação em modelo de balcão único para atração de empresas, exigindo como contrapartida dos incentivos fiscais o processamento local de matérias-primas e a contratação de no mínimo 80% de mão de obra local.",
+        "pagina": 5
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "22. Pacto Estadual \"Pará Alfabetizado\": Garantia de 100% das crianças alfabetizadas até o final do 2º ano do Ensino Fundamental, apoiado pela distribuição de material estruturado e pelo incentivo financeiro do ICMS Educação.",
+        "pagina": 4
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Rigor Fiscal e Capacidade de Investimento (Nota CAPAG \"A\"): Manter a gestão orçamentária alinhada à Lei de Responsabilidade Fiscal (LRF), assegurando o selo de Capacidade de Pagamento junto à Secretaria do Tesouro Nacional.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "30. Plano de Infraestrutura Logística e Concessões (InfraPará): Pavimentação de mais de 1.000 km de rodovias estaduais (PAs), concessões de eixos rodoviários estratégicos e erradicação de 100% das pontes de madeira nas PAs.",
+        "pagina": 5
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "32. Desmatamento Ilegal Zero e Fiscalização Remota: Uso de monitoramento por satélite de alta resolução com alertas em tempo real e integração das forças policiais para combate contínuo a crimes ambientais.",
+        "pagina": 5
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Transparência Regionalizada e Rastreio de Obras: Reestruturar o Portal da Transparência com recortes específicos por município e criar o painel Obras Transparentes, com geolocalização e acompanhamento físico-financeiro em tempo real.",
+        "pagina": 2
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "42. Escritório Técnico \"Pró-Municípios\": Estrutura pública estadual de engenharia e projetos para elaboração gratuita de projetos executivos para prefeituras de pequeno porte, garantindo acesso a recursos federais e internacionais.",
+        "pagina": 6
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "15. Pacto de Cofinanciamento da Atenção Primária: Transferência direta de recursos estaduais aos 144 municípios que atingirem metas de cobertura da Estratégia Saúde da Família (ESF), vacinação infantil e acompanhamento de pré-natal.",
+        "pagina": 3
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. Inteligência Integrada e CICC nas 13 RISPs: Consolidação dos Centros Integrados de Comando e Controle nas 13 Regiões de Integração, unificando os bancos de dados da Polícia Militar, Polícia Civil, SEAP, Bombeiros, Perícia e Guardas Municipais.",
+        "pagina": 2
+      }
+    ]
+  }
+}

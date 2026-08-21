@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. TERRA, AGRICULTURA FAMILIAR E SOBERANIA ALIMENTAR. Atacar o latifúndio. Fazer reforma agrária radical e regularização dos territórios quilombolas e demarcação de territórios indígenas.",
+        "pagina": 12
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer mercados públicos, feiras e cozinhas comunitárias; combater fome e desperdício de alimentos.",
+        "pagina": 12
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elaborar Plano Estadual de Industrialização e Transição Ecológica, articulado a universidades, institutos federais, trabalhadores e comunidades. Priorizar cadeias de alimentos, medicamentos, equipamentos de saúde, tecnologia da informação.",
+        "pagina": 8
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13. JUVENTUDE, CULTURA, ESPORTE E LAZER. Ampliar bolsas de permanência, garantir passe livre estudantil, garantir restaurantes universitários em todos os campi da Uespi, moradia para estudantes.",
+        "pagina": 15
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. MULHERES E ENFRENTAMENTO À VIOLÊNCIA. Combate ao feminicídio e violência à mulher! Delegacias de mulher devem funcionar 24h por dia, de domingo à domingo.",
+        "pagina": 14
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. UM PLANO ECONÔMICO PARA QUEM TRABALHA. Criar um Plano Estadual de Obras e Serviços Públicos, com prioridade para saneamento, habitação, recuperação de escolas, hospitais, estradas vicinais. Fim da escala 6x1.",
+        "pagina": 7
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. EDUCAÇÃO PÚBLICA, CIÊNCIA E TECNOLOGIA — 6.1 Educação básica. Construir um plano estadual sem a participação de empresários, e com a presença efetiva de trabalhadores(as) da educação, estudantes, famílias e comunidades.",
+        "pagina": 10
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "18. COMO FINANCIAR O PROGRAMA. As prioridades serão financiadas pela reorganização do orçamento em favor dos direitos sociais, com a suspensão imediata do pagamento da dívida pública, pela revisão de contratos e incentivos fiscais, pelo combate à sonegação.",
+        "pagina": 19
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "15. HABITAÇÃO, SANEAMENTO, MOBILIDADE E INFRAESTRUTURA. Estatização das grandes empresas de transportes de passageiros urbanos e interurbanos; Criação de empresa 100% pública de transporte.",
+        "pagina": 16
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. MEIO AMBIENTE, ÁGUA, ENERGIA E CLIMA. Criar plano estadual de adaptação climática com metas para convivência com a seca, calor extremo, queimadas, enchentes e proteção de populações vulneráveis.",
+        "pagina": 13
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "16. COMUNICAÇÃO PÚBLICA, TRANSPARÊNCIA E DEMOCRACIA. Garantir dados públicos abertos, linguagem acessível e transmissão de licitações, audiências e reuniões decisórias. Criar mecanismos de iniciativa popular, consultas, conferências e conselhos com poder efetivo de acompanhamento.",
+        "pagina": 17
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoiar municípios na implantação de transporte coletivo público, integrado e acessível; defender tarifa zero financiada por fundos públicos e contribuição de grandes empregadores.",
+        "pagina": 17
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. SAÚDE PÚBLICA E SUS. Fim das terceirizações e contratos com Organizações Sociais (OSs); fortalecer gestão pública direta dos hospitais e serviços estaduais. Dinheiro público só para a saúde pública.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. SEGURANÇA PÚBLICA E DIREITOS HUMANOS. Gerar emprego e renda.",
+        "pagina": 13
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Ao polo agropecuário de Conquista e Jequié, centros de atendimento regional (...) ao polo pastoril de Jacobina, grande produtor de leite e com os maiores rebanhos de gado do estado.", "pagina": 7}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Ao longo dos anos, a classe trabalhadora construiu o Sistema Único de Assistência Social (Suas), mantendo-se a luta por seu financiamento e gestão.", "pagina": 12}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O \"marketing agressivo\" da BAHIATURSA tem sido acusado de homogeneizador (...) É preciso diversificar o turismo levando em conta os novos perfis de renda da população brasileira.", "pagina": 15}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Nosso governo reconhecerá a dívida com estas populações e as reparará através de políticas públicas transversais que beneficiem os seus descendentes (...) apoio às nações nativas assim como das comunidades descendentes de quilombos.", "pagina": 4}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O nosso compromisso é com a modernização da sociedade, com o progresso, com os avanços técnicos, com o desenvolvimento econômico.", "pagina": 14}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortaleceremos a educação de qualidade, a educação básica, articuladas com a União e os municípios.", "pagina": 12}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Organizamos especialistas em orçamento, analistas e técnicos constitucionais que subsidiarão os municípios baianos na captação de recursos públicos e privados.", "pagina": 5}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "As principais cidades do estado sofrem com problemas de trânsito, com o crescimento vertical e horizontal descontrolado (...) de falta de mobilidade urbana.", "pagina": 4}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Especial atenção ambiental, as mudanças climáticas, cuidando de nossas riquezas naturais assim como com a produção e consumo responsável.", "pagina": 22}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Pela democracia direta, combate implacável à corrupção e tráfico de influência, pela real independência dos poderes.", "pagina": 16}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Organizamos especialistas em orçamento, analistas e técnicos constitucionais que subsidiarão os municípios baianos na captação de recursos públicos e privados. Poremos, assim, um fim na discriminação dos municípios atendendo aos pleitos independente da opção política de seus prefeitos.", "pagina": 5}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Concretizar uma Vigilância em Saúde participativa com reconhecimento de saberes do cotidiano de populações vulnerabilizadas (...) Expandir a Atenção Básica.", "pagina": 12}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "É preciso, imediatamente, fazer um giro para priorizar a investigação como instrumento principal de enfrentamento à violência ao crime.", "pagina": 10}
+    ]
+  }
+}

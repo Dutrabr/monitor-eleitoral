@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Quanto ao setor agropecuário, o estado é destaque na fruticultura de exportação, vendendo principalmente melão, manga e melancia para o mercado internacional. O Ceará é também o maior produtor de castanha de cajú e de camarão do Brasil.", "pagina": 6}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Atuação efetiva com a equipe de desenvolvimento econômico e assistência social com o intuito de promover a geração de empregos e cursos profissionalizan[tes].", "pagina": 22}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "10. Criação do Instituto Estadual de Fomento à Inovação Tecnológica.", "pagina": 15}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "6. CULTURA. O orçamento do Governo do Estado do Ceará para a cultura foi de R$285.107.322,00, o que equivale a menos de 1% do orçamento.", "pagina": 48}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "13. MULHERES. Por isso, precisamos ter um governo do estado que acolha todas as mulheres, das jovens às idosas, as mulheres portadoras de deficiência, as mulheres negras, as pobres e as mulheres trans. (Também capítulos dedicados 7. Étnico-Racial, 8. LGBTTIA+, 9. PCDs.)", "pagina": 80}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. DESENVOLVIMENTO ECONÔMICO E FINANÇAS PÚBLICAS. A economia do Ceará é uma das que mais crescem no Brasil atualmente.", "pagina": 5}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3. EDUCAÇÃO. O Ceará conta com 7.622 escolas, sendo 5.932 delas públicas e 1.690 privadas.", "pagina": 24}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. Elaboração das peças orçamentárias (PPA, LDO e LOA) junto à população através de audiências de orçamento participativo. Aprovação efetiva submetida à população via referendo.", "pagina": 14}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4. MORADIA. A renda de 90% das famílias cearenses é inferior a R$ 2.000 reais mensais, enquanto o valor dos aluguéis aumenta consideravelmente.", "pagina": 35}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "12. MEIO AMBIENTE. O Ceará é o campeão nacional de desmatamento de restinga na Mata Atlântica. Entre 2019 e 2024, o estado concentrou 65% de toda a perda nacional desse ecossistema frágil.", "pagina": 72}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Elaboração das peças orçamentárias (PPA, LDO e LOA) junto à população através de audiências de orçamento participativo. Aprovação efetiva submetida à população via referendo.", "pagina": 14}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {"status": "nao_consta"},
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5. SAÚDE. O sistema de saúde pública do Ceará apresenta um quadro contraditório: expansão da infraestrutura hospitalar e regionalização em paralelo a fragilidades crônicas na Atenção Primária à Saúde.", "pagina": 40}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2. SEGURANÇA PÚBLICA. Em 2024, o Ceará registrou uma taxa de 34,3 homicídios por 100 mil habitantes, a quinta maior do país.", "pagina": 17}
+    ]
+  }
+}

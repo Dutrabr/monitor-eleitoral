@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A agricultura familiar, a pesca artesanal, o extrativismo do babaçu e as demais economias rurais encontram-se exatamente no ponto em que os dois grandes eixos deste Plano se cruzam.",
+        "pagina": 89
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Maranhão enfrenta um problema habitacional que não se resume à falta de casas (...) municípios de menor renda da Baixada Maranhense, do leste e da pré-Amazônia.",
+        "pagina": 37
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A transformação digital será orientada pelo resultado percebido pelo cidadão, e não pelo número de aplicativos, sistemas ou portais implantados. A política seguirá uma cadeia única: conectividade, serviço.",
+        "pagina": 117
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Maranhão reúne ativos turísticos, ambientais, históricos e culturais de projeção internacional que ainda geram menos renda, emprego e desenvolvimento territorial do que seu potencial permite.",
+        "pagina": 53
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A política para mulheres e primeira infância será estruturada a partir de uma relação econômica e social direta: quando o cuidado não é compartilhado nem apoiado por serviços públicos, parte relevante de seu custo recai sobre as mulheres.",
+        "pagina": 104
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Porto do Itaqui, a Estrada de Ferro Carajás, a Ferrovia Norte-Sul e a produção agropecuária, mineral e extrativista dão ao Maranhão uma posição logística singular.",
+        "pagina": 24
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os indicadores educacionais do Maranhão seguem entre os piores do país (...) O problema educacional se conecta diretamente ao desafio econômico tratado neste Plano.",
+        "pagina": 68
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Fundo Nacional de Desenvolvimento Regional (FNDR) deve ser tratado pelo Maranhão como um dos principais instrumentos de financiamento da transformação econômica do Estado nas próximas décadas.",
+        "pagina": 127
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A infraestrutura rodoviária do Maranhão precisa deixar de ser tratada apenas como política de conservação de estradas e passar a funcionar como parte de uma rede logística integrada de desenvolvimento.",
+        "pagina": 29
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Em 2025, o Maranhão registrou a maior área sob alerta de desmatamento do Cerrado do país (...) Crescer mais não pode significar degradar mais.",
+        "pagina": 43
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Será criada uma Unidade de Entregas, vinculada ao centro de governo, responsável por acompanhar as prioridades estratégicas, identificar gargalos, coordenar dependências intersetoriais.",
+        "pagina": 134
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A maior parte dos 217 municípios maranhenses possui população pequena, quadro técnico reduzido e capacidade limitada para elaborar projetos (...) Esse problema ganhará uma dimensão ainda maior com a implementação da Reforma Tributária.",
+        "pagina": 110
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Maranhão dispõe de uma rede regional de hospitais, mas prédio não é atendimento. O desafio não é construir indiscriminadamente novos hospitais, e sim fazer a rede existente resolver mais perto de onde as pessoas vivem.",
+        "pagina": 75
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segurança Pública Orientada a Resultados, Proteção Territorial e Proteção à Mulher (...) o Maranhão segue entre os estados mais violentos do país.",
+        "pagina": 82
+      }
+    ]
+  }
+}

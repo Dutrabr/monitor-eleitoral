@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 12 — AGRO FORTE - O AMAZONAS TAMBÉM É AGRO. O setor primário amazonense reúne agricultura familiar, pesca, piscicultura, agroextrativismo, pecuária, manejo sustentável, bioeconomia, agroindústria e turismo rural.", "pagina": 17}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 17 — PROTEÇÃO SOCIAL E INCLUSÃO. PROGRAMA 29 - PROTEÇÃO SOCIAL COM PORTA DE SAÍDA. A assi[stência social...]", "pagina": 24}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 9 — ECONOMIA, CIÊNCIA E TECNOLOGIA. PROGRAMA 16 - AMAZONAS POTÊNCIA CIENTÍFICA E TECNOLÓGICA. O Amazonas precisa ampliar a complexidade tecnológica da sua economia.", "pagina": 13}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 15 — CULTURA, ECONOMIA CRIATIVA E TURISMO. PROGRAMA 25 - CULTURA VIVA AMAZONAS.", "pagina": 22}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 18 — POVOS DO AMAZONAS. PROGRAMA 32 - POVOS INDÍGENAS E COMUNIDADES TRADICIONAIS. A diversidade de povos indígenas, ribeirinhos, extrativistas e demais comunidades tradicionais é parte estrutural do Amazonas.", "pagina": 25}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 14 — EMPREGO, RENDA, EMPREENDEDORISMO E DESENVOLVIMENTO ECONÔMICO. PROGRAMA 23 - TRABALH[O...]", "pagina": 21}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1 — EDUCAÇÃO INTEGRAL E OPORTUNIDADE PARA A JUVENTUDE. PROGRAMA 1 - AMAZONAS EDUCAÇÃO INTEGRAL.", "pagina": 4}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 11 — RESPONSABILIDADE FISCAL E TRANSPARÊNCIA. PROGRAMA 19 - RAIO-X DAS CONTAS DO AMAZONAS. Nos primeiros 100 dias, o Governo apresentará um Raio-X fiscal, financeiro e patrimonial do Estado.", "pagina": 15}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 16 — INFRAESTRUTURA, LOGÍSTICA, HABITAÇÃO E SANEAMENTO. PROGRAMA 27 - AMAZONAS LOGÍSTICA INTEGRADA. No Amazonas, infraestrutura não pode ser pensada apenas como rodovia.", "pagina": 23}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 19 — RESILIÊNCIA CLIMÁTICA E DEFESA CIVIL. PROGRAMA 33 - AMAZONAS RESILIENTE E DEFESA CI[VIL].", "pagina": 26}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 11 — RESPONSABILIDADE FISCAL E TRANSPARÊNCIA. Antes de assumir novos compromissos, a população precisa saber com clareza quanto o Amazonas arrecada, quanto gasta, o que deve.", "pagina": 15}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7 — AMAZONAS DESCENTRALIZADO. PROGRAMA 14 - GOVERNO PRESENTE NAS CALHAS. O Amazonas será administrado com uma lógica mais próxima do território (...) doze polos de referência, organizados por calhas e áreas territoriais.", "pagina": 10}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 13 — SAÚDE PARA TODOS. PROGRAMA 21 - AMAZONAS SAÚDE REGIONALIZADA E CONECTADA.", "pagina": 20}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4 — SEGURANÇA PÚBLICA. PROGRAMA 8 - RECOMPOSIÇÃO DOS EFETIVOS. A Polícia Militar, a Polícia Civil, o Corpo de Bombeiros Militar e a Polícia Penal terão planejamento plurianual de recomposição de efetivos.", "pagina": 7}
+    ]
+  }
+}

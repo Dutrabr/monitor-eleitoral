@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O agronegócio é um dos pilares da economia estadual e deve ser acompanhado por uma estratégia de industrialização, inovação, logística e sustentabilidade. Ao mesmo tempo, a agricultura familiar precisa de assistência técnica, crédito, mercado e infraestrutura.",
+        "pagina": 34
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A proteção social deve integrar assistência, educação, saúde, habitação, trabalho e segurança. O Estado atuará em cooperação com municípios para enfrentar vulnerabilidades, apoiar famílias e ampliar autonomia econômica.",
+        "pagina": 25
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Governo digital de ponta a ponta. Redesenhar serviços para que possam ser solicitados, acompanhados e concluídos digitalmente quando possível, preservando atendimento presencial inclusivo.",
+        "pagina": 54
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Esporte, cultura e turismo não serão tratados como áreas periféricas. Eles fortalecem pertencimento, saúde, prevenção social, formação de jovens e atividade econômica.",
+        "pagina": 46
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso com a inclusão e com a comunidade autista (...) essa identidade será traduzida em políticas públicas verificáveis, com metas, orçamento, regionalização e participação das próprias pessoas com deficiência, pessoas autistas, familiares e cuidadores.",
+        "pagina": 25
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso precisa transformar crescimento em emprego qualificado, renda e empresas mais produtivas. O governo atuará para simplificar processos, ampliar previsibilidade, fortalecer micro e pequenas empresas.",
+        "pagina": 30
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação estadual deve combinar aprendizagem efetiva, permanência, inclusão, formação para o trabalho e valorização dos profissionais.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nenhuma meta de investimento deverá ser tratada isoladamente da capacidade de custeio e manutenção (...) Programas permanentes deverão demonstrar sustentabilidade fiscal.",
+        "pagina": 62
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura é política econômica e social. Estradas, pontes, ferrovias, hidrovias, energia e internet definem o custo da produção, o acesso à escola, à saúde e às oportunidades.",
+        "pagina": 37
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso depende da qualidade de seus rios, nascentes, florestas, cerrado e Pantanal para viver e produzir. A política ambiental deve ser firme contra ilegalidades e eficiente com quem trabalha dentro da lei.",
+        "pagina": 40
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Painel Mato Grosso em Resultados. Publicar metas estratégicas, indicadores, execução física e financeira e responsáveis por cada compromisso prioritário.",
+        "pagina": 54
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Municipalismo: cooperação técnica e financeira com os 142 municípios.",
+        "pagina": 62
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde será organizada para que o cidadão encontre cuidado perto de onde vive, com atenção primária resolutiva, rede regional fortalecida, regulação transparente e integração efetiva entre Estado e municípios.",
+        "pagina": 17
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública será tratada como política de Estado. O objetivo é aumentar a capacidade de prevenção e resposta, recompor efetivos de forma planejada, integrar instituições, fortalecer fronteiras e perícia.",
+        "pagina": 12
+      }
+    ]
+  }
+}

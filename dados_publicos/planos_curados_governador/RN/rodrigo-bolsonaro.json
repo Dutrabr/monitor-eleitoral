@@ -1,0 +1,80 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cooperativas e Agricultura: Criação de um programa para formar cooperativas voltadas à produção de hortifrutigranjeiros. Garantia de Compra: O Estado atuaria garantindo a compra de parte dessa produção agrícola, com o objetivo de gerar empregos no campo e combater a fome.",
+        "pagina": 1
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "nao_consta"
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Construção de 06 CIAS (Centro Industrial Avançado): Grande Natal, João Câmara, Mossoró, Caicó, Pau dos Ferros e Nova Cruz. Redução dos impostos para fábricas e indústrias. Novo Banco do RN voltado para o crescimento do RN.",
+        "pagina": 1
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Construção de novas escolas e reformas das antigas. Aumento salarial de 10% para os professores a partir de março de 2027. Alimentação de Qualidade para crianças, jovens e adultos nas escolas.",
+        "pagina": 2
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reativação do Aeroporto Augusto Severo para voos domésticos e o Aeroporto Aluízio Alves para cargas. Construção da terceira ponte em Natal. Reforma geral nas estradas RN e duplicação de RNs. Construção de Porto Marítimo.",
+        "pagina": 1
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "nao_consta"
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Investimento em Estrutura: Proposta de construção de laboratórios de análises clínicas no estado em todas as regiões Polos. Construção de um Hospital Metropolitano e por Polo com a capacidade de 2.000 leitos, em parceria privada.",
+        "pagina": 1
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Duas Penitenciárias máximas do RN. Concurso público: 10 mil policiais militares, 5 mil policiais civis, 2 mil policiais penais. Aquisição de novas viaturas, armamentos e materiais de última geração.",
+        "pagina": 2
+      }
+    ]
+  }
+}

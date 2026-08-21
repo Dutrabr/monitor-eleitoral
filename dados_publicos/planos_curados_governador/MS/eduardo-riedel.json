@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Bioeconomia, Economia Verde e Economia Circular (...) Mato Grosso do Sul assumiu posição de protagonismo nacional na construção de uma economia de baixo carbono, transformando sustentabilidade em estratégia de desenvolvimento.",
+        "pagina": 25
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul ampliou significativamente sua rede de proteção social nos últimos anos, fortalecendo programas de transferência de renda, segurança alimentar (...) reduzir a extrema pobreza a 1,6%.",
+        "pagina": 14
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A atualização da Política Estadual de Ciência e Tecnologia, o fortalecimento da Fundect (...) e iniciativas como a cooperação firmada com empresas globais, como o Google, para desenvolvimento de soluções em inteligência artificial.",
+        "pagina": 21
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul fortaleceu sua política cultural ao ampliar mecanismos de fomento, valorizar o patrimônio histórico e cultural e estimular a economia criativa.",
+        "pagina": 17
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Desenvolver ações integradas para povos indígenas, priorizando inclusão produtiva, geração de renda (...) Consolidar políticas voltadas ao bem-estar das pessoas idosas e às pessoas com deficiência.",
+        "pagina": 15
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desafio para o próximo ciclo será transformar ainda mais o crescimento econômico em oportunidades para a população, ampliando a qualificação profissional.",
+        "pagina": 22
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação sul-mato-grossense viveu um importante ciclo de transformação nos últimos anos, marcado pela expansão da educação em tempo integral, universalização da educação profissional em todos os municípios.",
+        "pagina": 16
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul mantém carga tributária reduzida de 7% sobre diversos produtos indispensáveis ao consumo da população, como arroz, feijão, óleo de soja.",
+        "pagina": 39
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul iniciou um dos maiores ciclos de investimentos em infraestrutura logística de sua história (...) O estado avançou na parceria com municípios, assumindo investimentos robustos em drenagem e pavimentação urbana.",
+        "pagina": 29
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul promoveu uma profunda modernização da gestão ambiental, tornando o licenciamento mais eficiente, transparente e previsível, sem renunciar à proteção dos recursos naturais.",
+        "pagina": 34
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul consolidou uma importante agenda de modernização da governança e gestão pública, fortalecendo o Conselho de Governança, o planejamento estratégico.",
+        "pagina": 37
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O estado avançou na parceria com municípios, assumindo investimentos robustos em drenagem e pavimentação urbana.",
+        "pagina": 29
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul consolidou importantes avanços em equilíbrio fiscal, atração de investimentos, desenvolvimento econômico, inclusão social, infraestrutura, educação, saúde, segurança pública e sustentabilidade.",
+        "pagina": 3
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul consolidou importantes avanços na área de segurança pública, fortalecendo a integração entre as forças policiais, ampliando investimentos em tecnologia, inteligência e infraestrutura.",
+        "pagina": 13
+      }
+    ]
+  }
+}

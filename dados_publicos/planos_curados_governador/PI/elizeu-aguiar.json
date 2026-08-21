@@ -1,0 +1,98 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecimento do agronegócio. Ampliação do acesso ao crédito rural. Incentivo à modernização da produção agrícola. Apoio técnico aos pequenos e médios produtores.",
+        "pagina": 1
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "nao_consta"
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Desenvolvimento econômico. Redução gradual da carga tributária estadual, com destaque para a revisão do ICMS em setores estratégicos. Programa de industrialização do Estado.",
+        "pagina": 1
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. Modernização das escolas: reforma e ampliação das escolas, climatização das salas, modernização de laboratórios, internet de alta velocidade.",
+        "pagina": 2
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Redução gradual da carga tributária estadual, com destaque para a revisão do ICMS em setores estratégicos.",
+        "pagina": 1
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura. Grandes obras estruturantes. Construção, recuperação e manutenção das rodovias estaduais. Investimentos em infraestrutura logística.",
+        "pagina": 2
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segurança hídrica. Implantação do Programa Cinturão das Águas do Piauí.",
+        "pagina": 2
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Gestão pública eficiente. Modernização da administração pública. Redução da burocracia. Transparência e eficiência na aplicação dos recursos públicos.",
+        "pagina": 2
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE. Fortalecimento da rede hospitalar: ampliar, reformar e equipar hospitais regionais. Regionalização da saúde: implantar policlínicas, ampliar especialidades médicas.",
+        "pagina": 3
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA. Valorização da Polícia Militar, Polícia Civil, Polícia Penal e demais profissionais da segurança pública. Combate ao crime organizado, proteção das divisas do Piauí.",
+        "pagina": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A terra deve produzir alimento e vida — não lucro especulativo (...) Programa Estadual de Reforma Agrária, com direito de uso e usufruto da terra.",
+        "pagina": 11
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa Estadual de Segurança Alimentar, integrado com a reforma agrária e com políticas de distribuição (...) A fome não se enfrenta com caridade: enfrenta-se com terra, comida barata, cooperativas e poder popular.",
+        "pagina": 13
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa Estadual de Tecnologia Popular, para fomentar inovações de baixo custo nas regiões metropolitanas e no interior.",
+        "pagina": 20
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nossa política cultural é de classe: fortalecer a criatividade popular como forma de identidade, resistência e emancipação.",
+        "pagina": 20
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reativação da Comissão da Verdade de Minas Gerais (COVEMG) (...) Ampliar os direitos das mulheres, dos povos indígenas, dos quilombolas e da população LGBTQIAPN+.",
+        "pagina": 21
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento econômico defendido por este programa não se confunde com o mero crescimento quantitativo ou com a atração de capitais privados e estrangeiros especulativos.",
+        "pagina": 12
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação mineira é uma fábrica de desigualdades: escolas sem estrutura, professores precarizados, currículos subordinados à empregabilidade empresarial.",
+        "pagina": 16
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A auditoria da dívida pública do Estado de Minas Gerais é urgente e necessária. Propomos: Auditoria completa da dívida pública estadual, com participação popular e transparência total.",
+        "pagina": 10
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O transporte coletivo em Minas opera hoje com tarifas altas, linhas canceladas, ônibus superlotados (...) Propomos uma revolução na mobilidade, centrada no transporte estatal público, integrado e gratuito.",
+        "pagina": 18
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A política de resíduos sólidos em Minas penaliza os mais pobres e expõe trabalhadores a condições degradantes (...) Eliminar lixões e aterros irregulares.",
+        "pagina": 24
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A nossa proposta é estimular, garantir e instituir a organização do Poder Popular nos territórios, com participação direta da população na formulação, aplicação, acompanhamento e fiscalização das políticas públicas.",
+        "pagina": 6
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Atualmente o governo de Minas descumpre o financiamento da atenção básica e empurra responsabilidades para os municípios; Mecanismos legais e políticos de cobrança ao governo federal e às prefeituras.",
+        "pagina": 14
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A crise da saúde em Minas não é obra do acaso nem de má gestão: é resultado de um projeto de privatização silenciosa, baseado em terceirizações, OSS.",
+        "pagina": 13
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nossa proposta é outra: segurança como direito social, não como mero aparato repressivo.",
+        "pagina": 19
+      }
+    ]
+  }
+}

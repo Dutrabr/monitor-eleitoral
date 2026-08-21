@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "67. Recuperação da CEASA-DF para a Agricultura Familiar: Modernizar a infraestrutura da CEASA para que funcione como o principal polo de logística e comercialização direta do pequeno produtor, fortalecendo a soberania alimentar.", "pagina": 10}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "17. Ampliação da Rede do SUAS com criação de albergues: Expansão do atendimento digno à população sem-teto com higiene e alimentação em imóveis abandonados pelo próprio GDF.", "pagina": 6}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "48. Incentivo à Mulher na Ciência e Tecnologia: Reservas de vagas e bolsas em cursos técnicos e na UnDF.", "pagina": 8}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "VIII. Cultura, Esporte e Lazer. 57. Fortalecimento da cultura popular e periférica: destinar 1% da Receita Corrente Líquida (RCL) ao Fundo de Apoio à Cultura (FAC), garantindo a ampliação do financiamento à produção cultural, com prioridade para a arte popular e periférica.", "pagina": 9}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "VII. População LGBTQIA+. 53. Cotas Trans no Serviço Público e em Empresas de Grande Porte: Reserva de vagas em concursos e estágios para inclusão no mercado formal.", "pagina": 8}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "18. Qualidade de Vida e Trabalho aos Trabalhadores de Aplicativo: Instalar em todas as Regiões Administrativas (RAs) centros de apoio com infraestrutura básica (...) para motoristas e entregadores. (Também item 13 — Salário Mínimo Regional: aumento de 100% do valor do salário mínimo nacional atual.)", "pagina": 6}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "V. Educação. 38. Fim da superlotação das escolas: Construção de novas escolas em todas as Regiões Administrativas do DF, além da reforma das escolas já existentes.", "pagina": 8}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3. Auditoria da Dívida Pública do DF: Revisão dos contratos financeiros que sangram o orçamento para enriquecer bancos. Rompimento de todos os contratos que o GDF firmou com o Estado genocida de Israel.", "pagina": 5}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "27. Criação de empresa pública de transporte: Criação de uma empresa pública para o transporte no DF, que concentre o orçamento desse setor, com a implementação gradual do transporte gratuito para toda a população do DF e Entorno.", "pagina": 7}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "IX. Meio Ambiente e Área Rural. 63. Proteção e recuperação dos recursos hídricos do Distrito Federal: implementar uma política permanente de preservação, recuperação e monitoramento de todos os rios, córregos, nascentes, lagoas e reservatórios do DF.", "pagina": 9}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "8. Democracia nas Administrações Regionais: Alteração da Lei Orgânica do Distrito Federal para possibilitar o fim do uso das RAs como moeda de troca política com a CLDF. Eleição quadrienal dos administradores de cada RA e criação de Comitês de Orçamento Participativo.", "pagina": 5}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "14. Rede de Lavanderias e Ampliação dos Restaurantes Comunitários: Construção de uma rede de lavanderias públicas e ampliação dos restaurantes comunitários, socializando o trabalho doméstico, para atender a população trabalhadora e do Entorno.", "pagina": 6}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "II. Saúde. 19. Fim do IGESDF e da Tabela SUS Candanga: Retomada da administração direta de todos os hospitais públicos pelo Estado e eliminação dos repasses emergenciais do SUS para hospitais e clínicas privadas.", "pagina": 6}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "IV. Segurança Pública. 31. Desmilitarização da Polícia: Transição para o policiamento de ciclo completo, com carreira única e civil, rompendo com o paradigma herdado pela Ditadura fascista Empresarial-Militar.", "pagina": 7}
+    ]
+  }
+}

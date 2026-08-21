@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Em Presidente Prudente, AgTech e Agricultura Resiliente, inspirada no Volcani Institute, em Israel (tecnologias para solos, recuperação de pastagens, água, irrigação, sensoriamento, monitoramento climático e produção).",
+        "pagina": 54
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "04. DESENVOLVIMENTO SOCIAL — eixo dedicado do plano de governo.",
+        "pagina": 29
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "08. ECONOMIA DO CONHECIMENTO NA TRILHA CERTA — Gestão pública inovadora, inteligência artificial responsável e a ciência que vira oportunidade. Posicionar São Paulo cada vez mais como referência mundial em pesquisa e inovação.",
+        "pagina": 53
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "09. PROSPERIDADE NA TRILHA CERTA — promover a prosperidade do povo paulista, com estímulo às vocações (...) empreendedorismo, economia criativa, tecnologia, turismo, setores produtivos.",
+        "pagina": 60
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "05. MULHERES NA TRILHA CERTA — eixo dedicado do plano de governo.",
+        "pagina": 36
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "09. PROSPERIDADE NA TRILHA CERTA — capacitação, trabalho e geração de oportunidades. Mais do que ensinar uma profissão, São Paulo quer formar e conectar pessoas prontas para trabalhar, empreender e liderar.",
+        "pagina": 60
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "03. EDUCAÇÃO NA TRILHA CERTA — eixo dedicado do plano de governo.",
+        "pagina": 20
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso propósito: otimizar gastos e ampliar investimentos com eficiência, apoio e parceria com as prefeituras e consórcios, transparência e responsabilidade fiscal, combatendo toda forma de corrupção. (10.1 SP na Direção Certa: medidas voltadas à responsabilidade fiscal.)",
+        "pagina": 65
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "07. INFRAESTRUTURA NA TRILHA CERTA — ampliar e fortalecer a infraestrutura paulista por meio de uma rede moderna, integrada, segura e eficiente. Dos trilhos aos transportes hidroviário e rodoviário.",
+        "pagina": 48
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "06. SUSTENTABILIDADE — eixo dedicado do plano de governo.",
+        "pagina": 42
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. GOVERNANÇA NA TRILHA CERTA — os cidadãos no centro, 10 objetivos estratégicos funcionando como uma rede em torno de cada trajetória de vida.",
+        "pagina": 65
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso propósito: (...) apoio e parceria com as prefeituras e consórcios (...). Apoiaremos as prefeituras, buscando fortalecer a capacidade de resposta local.",
+        "pagina": 65
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "02. SAÚDE NA TRILHA CERTA — eixo dedicado do plano de governo.",
+        "pagina": 13
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "01. SEGURANÇA NA TRILHA CERTA — eixo dedicado do plano de governo.",
+        "pagina": 7
+      }
+    ]
+  }
+}

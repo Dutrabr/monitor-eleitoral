@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 7 — Agropecuária. O campo paraibano tem força e vocação reconhecidas, com cadeias produtivas em expansão, mas enfrenta a realidade do semiárido: a vulnerabilidade hídrica limita a produção, a produtividade ainda é baixa em muitas culturas e a agroindústria sofre com a informalidade.",
+        "pagina": 7
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 20 — Assistência Social. A proteção social existe, mas é desigual entre os territórios: muitas famílias ainda vivem em situação de pobreza extrema, e a fome permanece como uma ferida aberta em parte do Estado, especialmente no semiárido e nas periferias urbanas.",
+        "pagina": 15
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 3 — Governo Digital, Inteligência Artificial (IA) e Computação Soberana. Caminho proposto: Criar comando único para a política de tecnologia, implantar um data center estadual com modelo de parceria entre Estado e universidades e adotar uma política de IA responsável, com avaliação de impacto, supervisão humana e direito de contestação de decisões automatizadas.",
+        "pagina": 5
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 22 — Cultura. A Paraíba tem uma riqueza cultural reconhecida mundialmente — do forró ao cordel, do teatro ao cinema, do artesanato à gastronomia. Nossa cultura é nossa maior marca e uma economia criativa pujante que já gera milhares de empregos.",
+        "pagina": 16
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 21 — Mulher, Infância, Juventude, Pessoas com Deficiência e Neurodesenvolvimento. A violência contra a mulher ainda cobra vidas e deixa marcas profundas em milhares de famílias paraibanas todos os anos.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 5 — Desenvolvimento Econômico. A Paraíba é um Estado com alguma renda, mas com produção insuficiente. A participação da economia paraibana no cenário nacional vem caindo, a indústria perdeu força ao longo da última década e o Estado ainda depende fortemente de transferências federais.",
+        "pagina": 6
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 18 — Educação. A Paraíba avançou no ensino em tempo integral e na redução do abandono escolar, mas o aprendizado ainda precisa avançar em qualidade e equidade entre regiões.",
+        "pagina": 14
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Caminho proposto: Instituir um Centro de Governo capaz de conduzir o ciclo completo: do plano à entrega. Adotar gestão por resultados, com metas pactuadas, nominadas e apuradas publicamente. Estabelecer a integridade por lei.",
+        "pagina": 4
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 11 — Infraestrutura e Logística. Caminho proposto: Construir um corredor multimodal que integre porto, rodovias, aeroporto e, no futuro, ferrovia; aprofundar o porto e ampliar a cabotagem (...) A visão é transformar a Paraíba em um hub logístico do Nordeste.",
+        "pagina": 10
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 17 — Meio Ambiente, Energia e Sustentabilidade (...) A revisão do plano incorporará as novas metas globais de descarbonização, garantindo que a Paraíba esteja na vanguarda da transição energética e da resiliência climática.",
+        "pagina": 13
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 1 — Governança, Gestão Pública e Integridade. O planejamento, o orçamento, a execução e o monitoramento ainda funcionam como ciclos separados, que pouco conversam entre si (...) ainda não há uma cultura consolidada de gestão por metas e transparência.",
+        "pagina": 3
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A estratégia foca na parceria com o governo federal e municípios, no uso de métodos construtivos mais rápidos e baratos, e na implementação de programas de autogestão e reforma habitacional.",
+        "pagina": 13
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Caminho proposto: Fortalecer a atenção primária com equipes resolutivas e cuidado digital; implantar uma rede de urgências e emergências com cobertura sertaneja (...) garantindo que o \"Cuidado Certo, no Tempo Certo, Perto de Casa\" seja uma realidade para todos.",
+        "pagina": 15
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Seção 25 — Segurança Pública e Defesa Civil. A Paraíba avançou na redução de alguns indicadores de violência letal, mas os crimes patrimoniais, o tráfico de drogas e a violência sexual ainda crescem em várias regiões.",
+        "pagina": 18
+      }
+    ]
+  }
+}

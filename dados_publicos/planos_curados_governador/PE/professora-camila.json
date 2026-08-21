@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoio Direto ao Pequeno Produtor: Romper com o financiamento direcionado ao agronegócio e as grandes agroindústrias. Os recursos estaduais e o crédito devem ser canalizados para a agricultura familiar.",
+        "pagina": 3
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cuidados com a infância: Ampliação da rede de creches e melhoria da infraestrutura para as creches sucateadas, da capital ao sertão, garantindo vagas em tempo integral.",
+        "pagina": 1
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa e incentivo à cultura nacional e popular; nacionalização de todas as companhias gravadoras de música e produtoras de filmes.",
+        "pagina": 7
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Combate à violência de gênero: Expansão urgente do funcionamento das Delegacias da Mulher para 24h (atualmente apenas 7 das 15 existentes funcionam de forma ininterrupta no estado).",
+        "pagina": 1
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Valorização do Trabalho: Apoio institucional irrestrito ao fim da escala 6x1 e defesa de aumento de 100% do salário mínimo para recuperar o poder de compra da população.",
+        "pagina": 2
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantia de 10% do PIB do nosso estado para a educação estadual. Todas as escolas com merenda de qualidade e profissionais da educação valorizados.",
+        "pagina": 2
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Em vez de destinar bilhões para o pagamento da dívida pública aos banqueiros ou gastar milhões em propagandas e shows, o governo estadual priorizará conselhos populares (...) para deliberar sobre investimentos.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Transporte de qualidade, público e gratuito. Extinção do modelo de concessões de rodovias e cobrança de pedágios, que oneram o custo de vida e o escoamento da produção de pequenos agricultores e feirantes.",
+        "pagina": 5
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa e proteção do meio ambiente e da natureza; proibição da destruição de florestas; estabelecimento do controle popular sobre a Amazônia.",
+        "pagina": 7
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Julgamento, prisão e confisco dos bens de todos os corruptos. Participação popular no orçamento público: o governo estadual priorizará conselhos populares formados por trabalhadores.",
+        "pagina": 7
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Extinção de consórcios intermunicipais de saneamento e água desenhados para entregar os serviços à iniciativa privada. Orçamento Regional Participativo: Criação de assembleias populares por todas as macrorregiões do estado.",
+        "pagina": 3
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Saúde Pública. Fortalecimento do SUS: a UP defende o fim do repasse de verbas públicas para organizações sociais privadas (OSs) que gerenciam a saúde.",
+        "pagina": 4
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pelo fim da polícia militar; fim de qualquer repressão aos movimentos sociais. Punição exemplar para os torturadores e assassinos da ditadura.",
+        "pagina": 8
+      }
+    ]
+  }
+}

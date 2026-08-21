@@ -1,0 +1,26 @@
+{
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "I.4 — Parceria com a FAPEAM e Órgãos de Ciência e Tecnologia (C.29). A Fundação de Amparo à Pesquisa do Estado do Amazonas (FAPEAM) — vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação (SEDECTI) — é o principal financiador de pesquisa científica estadual.", "pagina": 20}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "I.2 — Termo de Pactuação Federativa com os Municípios. Modelo de pactuação SNE/CITE com os 62 municípios amazonenses. A LC nº 220/2025, que institui o Sistema Nacional de Educação (SNE)...", "pagina": 17}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Plano Estratégico de Desenvolvimento do Amazonas foi concebido a partir de uma lógica de planejamento estruturado, progressivo e orientado por prioridades institucionais.", "pagina": 10}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "I.2 — Termo de Pactuação Federativa com os Municípios. Modelo de pactuação SNE/CITE com os 62 municípios amazonenses (...) negociação bilateral SEDUC + cada município.", "pagina": 17}
+    ]
+  }
+}

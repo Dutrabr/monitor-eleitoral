@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. Agricultura e desenvolvimento rural. O campo paranaense precisa de crédito, assistência técnica, infraestrutura e proteção diante das mudanças do clima. Assistência técnica pública — Fortalecer o IDR Paraná e ampliar extensão rural.",
+        "pagina": 9
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Renda e segurança alimentar — Criar renda complementar aos benefícios federais e ampliar cozinhas, restaurantes populares, bancos de alimentos e compras locais.",
+        "pagina": 13
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tecnologia como ferramenta — Ensinar computação, programação, robótica e uso crítico da inteligência artificial sem plataformização.",
+        "pagina": 6
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12. Cultura, esporte e turismo. Cultura, esporte e turismo não serão tratados como favor nem privilégio. Serão políticas de acesso, trabalho, identidade e desenvolvimento regional.",
+        "pagina": 14
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. Proteção social, igualdade, direitos e ciclos de vida. Ninguém pode ficar sem proteção por causa da renda, idade, deficiência, gênero, raça, orientação sexual ou lugar onde vive.",
+        "pagina": 13
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Trabalho, renda e desenvolvimento econômico. Crescimento só interessa quando melhora a vida de quem trabalha. Crédito para quem produz — Fortalecer Fomento Paraná, BRDE, microcrédito e Fundo Estadual de Aval.",
+        "pagina": 8
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. Educação, ciência e ensino superior. A escola pública voltará a ser organizada pela aprendizagem, pelo vínculo humano e pela valorização de quem ensina.",
+        "pagina": 6
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Justiça fiscal — Revisar incentivos fiscais, preservar os que entregam investimento e emprego e encerrar privilégios sem retorno público. Imposto menor para os pequenos — Zerar a carga estadual de ICMS das micro e pequenas empresas durante a transição para o IBS.",
+        "pagina": 3
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. Infraestrutura, logística e mobilidade. Infraestrutura deve ligar pessoas, produção e serviços, e não servir como vitrine de governo. Rodovias seguras — Priorizar manutenção, pontos críticos, duplicações e contornos.",
+        "pagina": 10
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. Meio ambiente, água, saneamento e clima. A crise climática já afeta cidades, lavouras, tarifas e vidas. Proteger água, solo e biodiversidade é uma política de saúde, produção e segurança.",
+        "pagina": 12
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Governo presente para cuidar das pessoas e proteger o patrimônio público. Transparência de verdade — Publicar contratos, obras, benefícios fiscais, metas, prazos e resultados em linguagem compreensível, com Controladoria e Ouvidoria fortalecidas.",
+        "pagina": 3
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Apoio aos municípios e desenvolvimento regional. O Estado será parceiro dos 399 municípios, levando capacidade técnica a quem mais precisa e coordenando soluções que ultrapassam divisas municipais.",
+        "pagina": 4
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. Saúde pública e regionalização do atendimento. Quem depende do SUS não pode esperar indefinidamente nem atravessar o Paraná para receber atendimento. A rede será organizada por regiões.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Segurança pública, justiça e defesa civil. Segurança pública não se resume a viaturas e discurso. Cuidar da população exige presença territorial, investigação, inteligência, prevenção e integração.",
+        "pagina": 7
+      }
+    ]
+  }
+}

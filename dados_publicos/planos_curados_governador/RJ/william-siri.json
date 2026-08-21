@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA ALIMENTAR E NUTRICIONAL — AGROECOLOGIA. Efetivar a Política Estadual de Agroecologia e Produção Orgânica, garantindo a participação ampla, direta e descentralizada da sociedade ao longo de todo o processo de elaboração e implantação.",
+        "pagina": 69
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ASSISTÊNCIA SOCIAL. Implementar um Programa Estadual de Assistência Social que garanta a integração da Rede de Proteção Social Básica com a Rede de Proteção Social Especial, assegurando infraestrutura adequada para funcionamento dos equipamentos.",
+        "pagina": 27
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CIÊNCIA E TECNOLOGIA — PESQUISA. Reorientar os financiamentos do Fundo de Amparo à Pesquisa do Estado do Rio de Janeiro (FAPERJ) para promover uma política de fomento a bolsas acadêmicas para estudantes e pesquisadores.",
+        "pagina": 14
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA. Democratizar a política de Cultura, visando seu fortalecimento institucional, orçamentário e técnico. Destinar 2% do orçamento do Governo do Estado para a Cultura.",
+        "pagina": 116
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DIREITOS HUMANOS — ADMINISTRAÇÃO PÚBLICA. Implementar um Plano Estadual de Igualdade de Gênero e Raça; garantir paridade de gênero e raça no secretariado do governo do Estado.",
+        "pagina": 15
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ECONOMIA E REINDUSTRIALIZAÇÃO. Instituir um Plano Estadual de Desenvolvimento Econômico e Reindustrialização, com metas de curto, médio e longo prazo para diversificar a estrutura produtiva, gerar empregos formais e bem remunerados, reduzir as desigualdades regionais e superar a dependência excessiva das receitas provenientes da exploração de petróleo e gás.",
+        "pagina": 18
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. Revisar o Plano Estadual de Educação, garantindo a participação ampla, direta e descentralizada da sociedade civil. Garantir processos de gestão democrática em toda a rede estadual de ensino, com a eleição de diretores nas escolas.",
+        "pagina": 105
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "FINANÇAS PÚBLICAS — DÍVIDA PÚBLICA. Garantir o cumprimento do Programa de Pleno Pagamento de Dívidas dos Estados (PROPAG) em condições que reduzam de forma sustentável o peso da dívida do Estado do Rio de Janeiro com a União (...) Tornar a Dívida Ativa uma fonte fundamental de receita para o estado.",
+        "pagina": 22
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MOBILIDADE. Implementar uma política de mobilidade sustentável pautada na estruturação de uma rede integrada de acessibilidade e mobilidade para o estado, priorizando o transporte público, em especial de alta capacidade sobre trilhos.",
+        "pagina": 82
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MEIO AMBIENTE. Instituir um Plano Estadual de Justiça Socioambiental, garantindo a participação ampla, direta e descentralizada da sociedade. Criação da Superintendência de Justiça Socioambiental, integrando com o INEA, Defesa Civil e os municípios.",
+        "pagina": 47
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PLANEJAMENTO E GESTÃO. Reestruturar a Secretaria de Estado de Planejamento e Gestão (SEPLAG) como órgão central de planejamento, monitoramento e gestão do Governo. Criação do Estatuto de Integridade Pública no âmbito da Administração Pública Estadual.",
+        "pagina": 7
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar o Fórum Estadual de Secretários de Planejamento e Gestão, coordenado pela SEPLAG, para fomentar a articulação interfederativa, disponibilizando apoio técnico aos municípios fluminenses para fortalecer a capacidade de planejamento, gestão e diálogo no estado e construir uma agenda de cooperação entre o Governo do Estado e as prefeituras.",
+        "pagina": 9
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE. Ampliar os recursos destinados à saúde com a aplicação do mínimo constitucional de 12% das verbas estaduais. Democratizar a gestão das políticas públicas de saúde, incentivando a criação de conselhos gestores, com eleições diretas.",
+        "pagina": 93
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA. Implementar um novo modelo de segurança pública, com o foco na proteção da vida, promoção da cidadania, na garantia de direitos e na defesa das liberdades. Extinguir indicações políticas nas polícias.",
+        "pagina": 37
+      }
+    ]
+  }
+}

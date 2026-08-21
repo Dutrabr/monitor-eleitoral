@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a pesquisa e a assistência técnica públicas para a agricultura familiar, com realização de concursos, retomada da extensão rural (...) desenvolvimento de tecnologias voltadas à agricultura familiar, à agroecologia e à produção de alimentos.",
+        "pagina": 40
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Bolsa-auxílio de um salário mínimo para todos os desempregados do estado de São Paulo, financiada pela taxação progressiva dos grandes grupos econômicos paulistas.",
+        "pagina": 32
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de um polo estadual de tecnologia, semicondutores e inteligência artificial 100% público, vinculado às universidades estaduais.",
+        "pagina": 32
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Financiamento público direto para coletivos de cultura popular, saraus, hip-hop, teatro de rua e manifestações periféricas, garantindo a total liberdade de expressão.",
+        "pagina": 41
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Negros e Negras: Reparação histórica e luta anticapitalista. Adoção de uma verdadeira política de reparação que combine demandas históricas com o combate à superexploração do trabalhador negro.",
+        "pagina": 38
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fim imediato da escala 6x1 e redução da jornada de trabalho para 36 horas semanais, sem qualquer redução de direitos ou salários.",
+        "pagina": 31
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Revogação imediata do projeto de militarização e das escolas cívico-militares, combatendo legislações de controle ideológico reacionário como o \"Escola Sem Partido\".",
+        "pagina": 34
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Contra o poder dos banqueiros e a espoliação financeira. A dívida do estado, que girava em torno de R$ 250 bilhões em 2021, funciona como um sistema que tira a riqueza gerada por quem trabalha e a entrega aos donos do dinheiro na forma de juros altos.",
+        "pagina": 45
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tarifa Zero e transporte público estatal: implantar a Tarifa Zero por meio de um sistema de transporte público, integrado, reestatizado e administrado em função das necessidades da população.",
+        "pagina": 30
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Combate às enchentes e enfrentamento à crise climática: execução imediata de obras estatais de macrodrenagem, contenção de encostas nas áreas de risco periféricas e reflorestamento urbano.",
+        "pagina": 39
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Democratização real e a construção do poder dos trabalhadores. As decisões orçamentárias e políticas planejadas diretamente por conselhos de trabalhadores de base nos bairros e locais de emprego.",
+        "pagina": 46
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ainda que UBSs, equipes de Saúde da Família e grande parte dos CAPS sejam administrados pelos municípios, cabe ao Estado organizar e financiar a rede regional, manter hospitais e serviços especializados, apoiar técnica e financeiramente as prefeituras.",
+        "pagina": 16
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Saúde pública 100% estatal. Fim das Organizações Sociais e reestatização dos hospitais e serviços privatizados, com gestão pública direta e controle dos trabalhadores e usuários.",
+        "pagina": 33
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segurança pública para o povo trabalhador. Fim da violência de Estado (...) proteção dos bairros e regiões populares: implantação de um plano estadual de prevenção à violência nas periferias.",
+        "pagina": 36
+      }
+    ]
+  }
+}

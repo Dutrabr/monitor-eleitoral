@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. AGRONOMIA, AGROPECUÁRIA E DESENVOLVIMENTO RURAL. A agropecuária de Pernambuco reflete a diversidade do próprio Estado (...) O setor movimenta cerca de R$14,2 bilhões, gera aproximadamente 90 mil empregos diretos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. ASSISTÊNCIA SOCIAL. A assistência social de Pernambuco ainda está muito concentrada na transferência de renda e pouco conectada a oportunidades permanentes de qualificação profissional, emprego e geração de renda.",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. CIÊNCIA, TECNOLOGIA E INOVAÇÃO. Pernambuco vive uma contradição na área de tecnologia. Ao mesmo tempo em que abriga o Porto Digital, um dos principais polos de inovação e economia criativa do país, o próprio Governo do Estado ainda enfrenta dificuldades para modernizar seus serviços.",
+        "pagina": 14
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA, TURISMO E ESPORTES. Pernambuco possui uma das culturas mais ricas e reconhecidas do Brasil. O frevo, o maracatu, o coco de roda, o cavalo-marinho, o repente, a xilogravura e o cinema pernambucano são expressões que projetam o Estado.",
+        "pagina": 18
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INDÚSTRIA. Pernambuco possui condições reais para se tornar uma potência industrial, energética e logística. O Estado reúne empresas consolidadas, uma forte produção de alimentos, o Porto de Suape.",
+        "pagina": 35
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. EDUCAÇÃO. O Índice de Criança Alfabetizada avançou de 28% para 66% entre 2021 e 2025, um progresso real que merece reconhecimento, mas ainda distante da meta de que toda criança pernambucana leia e escreva na idade certa.",
+        "pagina": 30
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. ECONOMIA, ORÇAMENTO E DESENVOLVIMENTO REGIONAL. A arrecadação do Estado depende principalmente do ICMS (...) Essa dependência torna as finanças estaduais vulneráveis a crises econômicas, quedas no consumo e mudanças nas regras tributárias.",
+        "pagina": 24
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INFRAESTRUTURA, TRANSPORTE E MOBILIDADE URBANA. Esse atraso gera o chamado \"Custo Pernambuco\": viagens mais demoradas, maior gasto com combustível, aumento da manutenção dos veículos, perda de produtividade.",
+        "pagina": 41
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SANEAMENTO BÁSICO, MEIO AMBIENTE E SUSTENTABILIDADE. Pernambuco vive uma crise sanitária e ambiental que atinge simultaneamente a Região Metropolitana do Recife, o Agreste e o Sertão.",
+        "pagina": 46
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Orçamento Cidadão e Balanço Cidadão, comunicando o orçamento estadual em linguagem acessível à população; Lei de Governança do Investimento Público, dando base legal permanente ao atual Sistema de Gestão de Projetos de Investimento Público.",
+        "pagina": 27
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Aprovar um Plano Estadual de Governança Digital com orçamento específico para equipar as gestões municipais.",
+        "pagina": 13
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE PÚBLICA. A saúde pública de Pernambuco recebeu investimentos importantes nos últimos anos, mas ainda enfrenta problemas que impedem esses recursos de se transformarem plenamente em atendimento de qualidade.",
+        "pagina": 52
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. SEGURANÇA PÚBLICA. A segurança pública de Pernambuco enfrenta um problema que vai além da falta de policiais nas ruas (...) acumulando um déficit de quase 18,5 mil profissionais.",
+        "pagina": 57
+      }
+    ]
+  }
+}

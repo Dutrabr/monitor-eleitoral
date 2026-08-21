@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. Agropecuária, irrigação e desenvolvimento rural. A agropecuária enfrenta variabilidade climática, custos elevados e necessidade de ampliar produtividade sem expansão predatória. Irrigação, sanidade, pesquisa e assistência técnica são prioridades.",
+        "pagina": 36
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "25. Proteção social, combate à pobreza e inclusão produtiva. A política social deve proteger em crises e construir autonomia. Cadastro, assistência, qualificação, crédito e intermediação de trabalho serão integrados.",
+        "pagina": 72
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "15. Ciência, tecnologia, inovação e nova economia. O Rio Grande do Sul possui universidades, parques tecnológicos e empresas inovadoras, mas precisa converter conhecimento em produtividade, empregos e soluções públicas.",
+        "pagina": 46
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "28. Cultura, economia criativa e patrimônio. Cultura é direito, identidade e atividade econômica. A política combinará descentralização, financiamento transparente e valorização do patrimônio material e imaterial.",
+        "pagina": 80
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "26. Mulheres, igualdade racial, diversidade e direitos humanos. O Estado deve assegurar acesso igualitário a direitos, prevenir violências e remover barreiras no trabalho, na educação e nos serviços.",
+        "pagina": 74
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. Indústria, comércio, serviços e produtividade. O Estado precisa elevar produtividade, densidade tecnológica e integração entre cadeias produtivas, com atenção às micro e pequenas empresas e à retenção de investimentos existentes.",
+        "pagina": 29
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "17. Educação básica e recuperação da aprendizagem. A educação deve assegurar aprendizagem, permanência e equidade. O plano preserva avaliação externa e gestão por resultados, mas combina metas com apoio pedagógico e valorização profissional.",
+        "pagina": 50
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Equilíbrio fiscal, orçamento e dívida pública. A sustentabilidade financeira condiciona a continuidade das políticas públicas. O plano adota realismo orçamentário, transparência de passivos, proteção do investimento e gestão ativa da dívida.",
+        "pagina": 15
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12. Infraestrutura rodoviária, ferroviária, hidroviária, portuária e aeroportuária. A logística gaúcha exige manutenção previsível, conclusão de obras, integração modal e resiliência climática.",
+        "pagina": 40
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "22. Meio ambiente, recursos hídricos e economia circular. Proteção ambiental e desenvolvimento devem ser articulados com planejamento, fiscalização, previsibilidade regulatória e participação social.",
+        "pagina": 66
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Governança, planejamento e gestão por resultados. A administração estadual precisa combinar responsabilidade fiscal, capacidade de execução e coordenação entre órgãos. O desafio não é apenas formular políticas, mas transformá-las em entregas regionalizadas, verificáveis e transparentes.",
+        "pagina": 13
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Desenvolvimento regional e redução das desigualdades. As regiões do Estado apresentam bases produtivas, dinâmicas demográficas e riscos climáticos distintos. A ação estadual deverá considerar diferenças regionais, capacidade municipal, efeitos distributivos.",
+        "pagina": 26
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "19. Saúde: regionalização, atenção primária e acesso especializado. O sistema deve reduzir desigualdades regionais, filas e deslocamentos desnecessários. A gestão será orientada por redes de atenção, prevenção e transparência.",
+        "pagina": 57
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "20. Segurança pública, prevenção e sistema prisional. A política de segurança será baseada em integração, inteligência, prevenção e controle de resultados, preservando direitos e valorizando profissionais.",
+        "pagina": 60
+      }
+    ]
+  }
+}

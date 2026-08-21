@@ -1,0 +1,87 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PROMOÇÃO DO DESENVOLVIMENTO ECONÔMICO. Antes de falar de indústria, de agronegócio, de mineração... (Segunda Trindade, subseção Agronegócio, Agricultura Familiar e Desenvolvimento Rural).", "pagina": 65
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "No Novo Governo, a Bahia vai identificar quem são essas pessoas: o Censo Estadual da População em Situação de Rua vai realizar um levantamento sobre quem é, de onde veio e do que precisa cada pessoa (Promoção Social, Cidadania e Combate à Pobreza).", "pagina": 152}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "INOVAÇÃO NA BAHIA. DA LANTERNA EM ESTRUTURA À LIDERANÇA TECNOLÓGICA. Em quatro anos, a Bahia criou menos empresas de tecnologia do que a média nacional.", "pagina": 188}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CULTURA. A BAHIA EXPORTA CULTURA HÁ DÉCADAS, É HORA DE EXPORTAR COM RETORNO PARA QUEM CRIA.", "pagina": 169}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CONFORTO DA MULHER: distribuição gratuita de absorventes para mulheres em pobreza extrema, estudantes e pessoas privadas de liberdade.", "pagina": 150}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SEGUNDA TRINDADE — PROSPERIDADE HUMANA E TERRITORIAL. Produzir, Conectar e Reorganizar Oportunidades. Desenvolvimento Econômico, Infraestrutura e Reengenharia Social (subseção Trabalho, Emprego e Geração de Renda).", "pagina": 56}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PRIMEIRA TRINDADE — VIDA DIGNA. O ESTADO QUE PROTEGE, CHEGA A TEMPO E MUDA DESTINOS. Segurança Pública e Defesa do Cidadão, Saúde, Educação.", "pagina": 9}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EXCELÊNCIA NA GESTÃO E RESPONSABILIDADE FISCAL. UMA BAHIA QUE GOVERNA BEM PARA ENTREGAR MAIS. GASTAR MENOS PARA INVESTIR MAIS: o Estado existe para servir o cidadão, não para sustentar a si mesmo.", "pagina": 194}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SEGUNDA TRINDADE — PROSPERIDADE HUMANA E TERRITORIAL (subseção Infraestrutura, Transporte e Logística; Habitação).", "pagina": 56}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MEIO AMBIENTE, SUSTENTABILIDADE E EMERGÊNCIA CLIMÁTICA. UM PATRIMÔNIO DE TRÊS BIOMAS TRATADO COMO RESÍDUO DE GESTÃO POR VINTE ANOS.", "pagina": 178}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EXCELÊNCIA NA GESTÃO E RESPONSABILIDADE FISCAL. UMA BAHIA QUE GOVERNA BEM PARA ENTREGAR MAIS.", "pagina": 194}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "GOVERNANÇA POR VOCAÇÃO REGIONAL, DNA DA BAHIA. Cada um dos 27 Territórios de Identidade terá seu Planejamento Estratégico Regional, construído a partir da vocação identificada — e não imposto de cima para baixo: prefeituras, lideranças municipais e comunidades de cada região.", "pagina": 6}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PRIMEIRA TRINDADE — VIDA DIGNA. O ESTADO QUE PROTEGE, CHEGA A TEMPO E MUDA DESTINOS (subseção Saúde).", "pagina": 9}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SEGURANÇA PÚBLICA E DEFESA DO CIDADÃO. A Bahia Vai Voltar a Ter Comando.", "pagina": 10}
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 9: INTERIOR FORTE E SUSTENTÁVEL. O Amazonas precisa superar o modelo de exportação de matéria-prima e avançar para uma realidade em que agricultores, extrativistas, pescadores e empreendedores locais participem das etapas de beneficiamento, processamento e comercialização.", "pagina": 69}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7: DESENVOLVIMENTO SOCIAL, CIDADANIA E DIREITOS HUMANOS - \"AMAZONAS COM DIGNIDADE\". Nós vivemos no Estado mais rico do mundo em biodiversidade (...) mas a [desigualdade social persiste].", "pagina": 61}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2: DESENVOLVIMENTO ECONÔMICO SUSTENTÁVEL E INOVAÇÃO - \"ACELERA AMAZONAS\".", "pagina": 39}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Estratégia de desenvolvimento para transformar as vocações naturais, culturais e produtivas do interior em oportunidades concretas de crescimento econômico.", "pagina": 69}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7: DESENVOLVIMENTO SOCIAL, CIDADANIA E DIREITOS HUMANOS - \"AMAZONAS COM DIGNIDADE\".", "pagina": 61}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O desenvolvimento econômico será uma das prioridades centrais do nosso Governo. Gerar empregos, ampliar a renda das famílias, atrair investimentos, fortalecer quem já produz, estimular novos negócios.", "pagina": 39}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4: EDUCAÇÃO TRANSFORMADORA.", "pagina": 49}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "III – Inteligência Fiscal e Sustentabilidade das Finanças Públicas: utilização de tecnologias avançadas para aperfeiçoar a arrecadação estadual e monitorar os resultados socioeconômicos dos incentivos fiscais e assegurar o equilíbrio das contas públicas.", "pagina": 35}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3: INFRAESTRUTURA E LOGÍSTICA PARA A INTEGRAÇÃO REGIONAL - \"INTEGRA AMAZONAS\". Aqui, os rios são as rodovias, as distâncias são continentais.", "pagina": 45}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 8: MEIO AMBIENTE, SUSTENTABILIDADE E TRANSIÇÃO CLIMÁTICA - \"AMAZONAS, FLORESTA QUE SUSTENTA\".", "pagina": 65}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1: GESTÃO PÚBLICA EFICIENTE E TRANSPARENTE - \"AMAZONAS CONECTADO\". A transformação do Amazonas exige uma gestão pública moderna, eficiente, transparente e orientada a resultados.", "pagina": 35}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Em parceria com a Prefeitura de Manaus, realizar: Interligação da Avenida Max Teixeira com a Avenida do Turismo.", "pagina": 46}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5: SAÚDE DESCENTRALIZADA E REGIONALIZADA – \"AVANÇA SAÚDE AMAZONAS\".", "pagina": 53}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6: SEGURANÇA INTEGRADA.", "pagina": 57}
+    ]
+  }
+}

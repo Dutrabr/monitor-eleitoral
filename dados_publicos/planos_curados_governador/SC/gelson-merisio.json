@@ -1,0 +1,132 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Programa Desenvolvimento Rural Sustentável. Implementar uma política estadual de desenvolvimento rural baseada na diversificação produtiva, inovação, sustentabilidade e fortalecimento das economias locais. O programa integrará agricultura, pecuária, pesca, maricultura, piscicultura, cooperativismo, agroindústria.",
+        "pagina": 45
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Santa Catarina apresenta indicadores sociais médios que mascaram desigualdades sociais importantes. Milhares de famílias vivem em situação de pobreza extrema, enfrentando insegurança alimentar, moradia precária, dificuldade de acesso ao trabalho, à educação, à saúde.",
+        "pagina": 14
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoiar projetos de pesquisa aplicada voltados aos desafios econômicos, sociais e ambientais de Santa Catarina. Fortalecer laboratórios de inovação pública e observatórios territoriais. Expandir acordos de cooperação científica internacional.",
+        "pagina": 33
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A cultura constitui patrimônio coletivo, expressão da diversidade catarinense e elemento fundamental para o desenvolvimento humano, a identidade regional e a democracia. Nosso governo fortalecerá o Sistema Estadual de Cultura.",
+        "pagina": 59
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13º MISSÃO: COMBATER A VIOLÊNCIA CONTRA A MULHER E PROMOVER A IGUALDADE DE GÊNERO. A violência contra a mulher representa uma das mais graves violações dos direitos humanos e constitui um desafio permanente para a democracia.",
+        "pagina": 67
+      },
+      {
+        "texto": "10º MISSÃO: DIREITOS, IGUALDADE E INCLUSÃO. O Estado deve atuar para eliminar todas as formas de discriminação, ampliar o acesso às políticas públicas e garantir proteção às populações historicamente vulnerabilizadas.",
+        "pagina": 54
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O programa promoverá: planejamento estratégico da economia catarinense; identificação das vocações regionais; fortalecimento das cadeias produtivas estratégicas; articulação entre investimentos públicos e privados; monitoramento permanente dos indicadores econômicos.",
+        "pagina": 19
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Programa Universidade para o Desenvolvimento Catarinense. Fortalecer o papel das universidades públicas e comunitárias como instituições estratégicas para o desenvolvimento do Estado. Apoio à UDESC, com autonomia total, inclusive orçamentária.",
+        "pagina": 31
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.6 Desenvolvimento com responsabilidade fiscal. O fortalecimento do planejamento não significa ampliação indiscriminada da máquina pública. A boa gestão exige responsabilidade fiscal, eficiência administrativa, transparência e avaliação permanente dos resultados.",
+        "pagina": 9
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Programa Plano Estadual de Infraestrutura e Logística. Elaborar e implementar um planejamento integrado da infraestrutura estadual, articulando investimentos públicos e privados, para reduzir desigualdades regionais e melhorar a qualidade de vida da população.",
+        "pagina": 71
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A emergência climática representa um dos maiores desafios para Santa Catarina. Esta missão integra adaptação climática, prevenção de desastres, recuperação ambiental, infraestrutura resiliente, transição energética, gestão das águas e proteção da biodiversidade.",
+        "pagina": 49
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento sustentável exige instituições públicas democráticas, transparentes e abertas à participação da sociedade. O governo fortalecerá os mecanismos de controle social, os conselhos de políticas públicas, as conferências estaduais.",
+        "pagina": 63
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. Programa Apoio ao Desenvolvimento Municipal. Fortalecer os municípios de menor capacidade técnica para planejar e executar políticas urbanas: assistência técnica permanente, elaboração de projetos executivos, capacitação de equipes municipais, apoio à captação de recursos.",
+        "pagina": 27
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6º MISSÃO: SAÚDE INTEGRAL E QUALIDADE DE VIDA. Garantir acesso universal, regionalizado e humanizado aos serviços públicos de saúde será prioridade.",
+        "pagina": 33
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Programa Santa Catarina Segura. Fortalecer o Sistema Estadual de Segurança Pública por meio da integração entre prevenção, inteligência, investigação, policiamento e participação social. Aumento do efetivo policial.",
+        "pagina": 40
+      }
+    ]
+  }
+}

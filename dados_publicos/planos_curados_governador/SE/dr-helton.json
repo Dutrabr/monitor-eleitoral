@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 9: AGRICULTURA FAMILIAR E SEGURANÇA ALIMENTAR. Sergipe Agroecológico: Reforma Agrária: Promover a reforma agrária numa perspectiva antilatifundiária e antimonocultura, orientada à produção de alimentos de base agroecológica para o mercado interno, com uso de sementes crioulas.",
+        "pagina": 44
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mapeamento de prédios e terrenos abandonados para embasar propostas de reestruturação a fim de que sirvam de moradia popular para famílias em situação de vulnerabilidade social. Ampliar o custeio público das contas de luz e água de famílias em vulnerabilidade social cadastradas no CADúnico com a perspectiva da gratuidade.",
+        "pagina": 36
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Sergipe Digital-Inclusão e Tecnologia: Levar internet banda larga gratuita a todas as escolas públicas, praças e centros comunitários do estado, e criar polos de tecnologia nas periferias com incubadoras de startups, priorizando jovens negros e de comunidades periféricas.",
+        "pagina": 22
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 10: CULTURA E TURISMO. CULTURA-SE: A cultura em Sergipe parte da superação da escassez e da valorização das experiências dos próprios trabalhadores da cultura como base para construir o futuro. Propomos a criação de uma Rede e de um Fórum Estadual de Cultura Popular.",
+        "pagina": 45
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7: DIREITOS DAS MULHERES, IGUALDADE RACIAL E DIVERSIDADE. Sergipe sem Feminicídio / Basta de Misoginia: Criar um plano estadual integrado de combate à violência contra a mulher, com delegacias especializadas funcionando 24 horas, implantação da Casa da Mulher Brasileira.",
+        "pagina": 41
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1: DESENVOLVIMENTO ECONÔMICO, EMPREGO E RENDA. Nos últimos anos em Sergipe a lógica de crescimento econômico é sinônimo de prosperidade que deve ser instituído.",
+        "pagina": 21
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2: EDUCAÇÃO. Os professores e demais profissionais da área educacional, tanto do ensino privado como da rede pública, enfrentam cotidianamente um processo de precarização e sucateamento da educação.",
+        "pagina": 24
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4: MORADIA, MOBILIDADE E INFRAESTRUTURA. Saneamento é Saúde: Esgoto para Todos: Universalizar a coleta e o tratamento de esgoto em todos os 75 municípios sergipanos — hoje cerca de 77% da população não tem acesso a esse direito básico.",
+        "pagina": 36
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 5: MEIO AMBIENTE, SUSTENTABILIDADE E TRANSIÇÃO ENERGÉTICA. Elaborar e implementar um Plano de desenvolvimento e recuperação do meio ambiente, que inclua recomposição da cobertura vegetal, a recuperação de rios, lagoas, restingas.",
+        "pagina": 38
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 11: PARTICIPAÇÃO POPULAR E GESTÃO DEMOCRÁTICA. Governo Aberto: Orçamento Participativo e Controle Social: Criar o Orçamento Participativo Estadual, com consultas públicas presenciais e digitais para definir prioridades de investimento.",
+        "pagina": 47
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3: SAÚDE PÚBLICA. A SAÚDE NÃO É MERCADORIA: HOSPITAIS COM FUNCIONAMENTO DA INTEGRA EM TODO ESTADO DE SERGIPE. Durante os últimos 10 anos de gestão do governo do Estado de Sergipe foram priorizadas a concentração dos equipamentos de saúde na região metropolitana.",
+        "pagina": 28
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6: SEGURANÇA PÚBLICA E DIREITOS HUMANOS. Polícia Cidadã / Prevenção e Proximidade: Reorientar a política de segurança para a prevenção, com policiamento comunitário, câmeras nos uniformes, inteligência e investigação qualificada.",
+        "pagina": 40
+      }
+    ]
+  }
+}

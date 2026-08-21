@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Crédito rural, da assistência técnica, da pesquisa agropecuária, da inovação tecnológica, da mecanização, da irrigação eficiente, do cooperativismo, da agroindustrialização.", "pagina": 23}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 02 — Fortalecer a Inclusão, a Assistência e a Cidadania. Trabalho e Ação Social – Proteção Social – Cultura – Esporte.", "pagina": 14}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 01 — Promover o Desenvolvimento Humano e a Qualidade de Vida. Saúde – Educação – Ciência, Tecnologia e Educaçã[o Profissional].", "pagina": 9}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A cultura afirma-se como elemento estratégico para a construção da cidadania e da identidade do povo cearense.", "pagina": 16}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Também consolidaremos políticas permanentes de proteção às pessoas idosas, às pessoas com deficiência, à população negra, aos povos originários, às comunidades quilombolas, à população LGBTQIA+ e aos demais grupos em situação de vulnerabilidade.", "pagina": 17}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 03 — Impulsionar o Desenvolvimento Econômico Sustentável. Desenvolvimento Econômico – Turismo – Desenvolvimento [Agropecuário].", "pagina": 19}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Os resultados alcançados colocaram o Estado entre os melhores desempenhos do país na educação básica.", "pagina": 10}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 06 — Assegurar a Governança, a Gestão e a Eficiência Fiscal. Fazenda – Planejamento e Gestão – Controladoria e Ouvidoria – Procuradoria-Gera[l]. O Ceará paga caro [pelos custos financeiros que comprometem investimentos].", "pagina": 36}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 04 — Avançar a Infraestrutura, as Cidades e a Conectividade. Infraestrutura – Desenvolvimento Urbano.", "pagina": 25}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Os desafios ambientais também se tornaram mais complexos. As mudanças climáticas intensificam eventos extremos, aumentam a pressão sobre os recursos naturais.", "pagina": 21}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 06 — Assegurar a Governança, a Gestão e a Eficiência Fiscal.", "pagina": 36}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortaleceremos o desenvolvimento urbano por meio do apoio técnico e financeiro aos municípios, estimulando a elaboração de p[lanos diretores].", "pagina": 27}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Na saúde, fortaleceremos a regionalização do Sistema Único de Saúde, consolidando a integração entre atenção primária, policlínicas, hospitais regionais e hospitais de alta [complexidade].", "pagina": 12}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 05 — Investir na Segurança Pública e na Justiça Social. Segurança Pública – Administração Penitenciária.", "pagina": 29}
+    ]
+  }
+}

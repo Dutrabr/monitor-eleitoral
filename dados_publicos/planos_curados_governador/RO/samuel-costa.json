@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "AGRICULTURA FAMILIAR E DESENVOLVIMENTO RURAL. EMATER-RO Fortalecida: Modernização técnica para atendimento no campo, incentivo à agroecologia, cacau, café, leite e hortifrúti.",
+        "pagina": 10
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO SOCIAL E SEGURANÇA ALIMENTAR. Fortalecimento dos CRAS/CREAS: Cofinanciamento estadual ampliado para assistência social nos municípios. Cozinhas Comunitárias e Restaurantes Populares: Implantação de rede de alimentação saudável a preços acessíveis para combate à fome.",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ecossistema de Startups e Bioeconomia: Fomento a startups locais focadas em biotecnologia da Amazônia, agritechs, energia renovável e sustentabilidade.",
+        "pagina": 10
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA E PATRIMÔNIO HISTÓRICO. Garantia de Recursos para o FEDEC-RO e PNAB: Repasse transparente e descentralizado dos fundos estaduais e federais de cultura para os 52 municípios. Pontos de Cultura e Patrimônio: Implantação de Pontos de Cultura nas periferias/interior.",
+        "pagina": 11
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MULHERES E COMBATE À VIOLÊNCIA DE GÊNERO. Rede de Proteção e DEACMs 24h: Estruturação multidisciplinar das Delegacias da Mulher, expansão das Casas Abrigo e fortalecimento da Patrulha Maria da Penha.",
+        "pagina": 10
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ECONOMIA, TRABALHO E RENDA. Estímulo à Mão de Obra Local: Condicionar concessão e renovação de incentivos fiscais estaduais à comprovação de no mínimo 80% de contratação de trabalhadores locais.",
+        "pagina": 9
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2: EDUCAÇÃO E DESENVOLVIMENTO UNIVERSITÁRIO. UNIVERSIDADE ESTADUAL DE RONDÔNIA E QUALIFICAÇÃO DE SERVIDORES. Criação da Universidade Estadual de Rondônia.",
+        "pagina": 7
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MOBILIDADE, INFRAESTRUTURA E COMUNIDADES RIBEIRINHAS. Rodovias Estaduais (ROs) Conservadas: Recuperação e sinalização da malha viária estadual. Presença do Estado no Alto, Médio e Baixo Madeira: Governo Itinerante periódico, transporte fluvial escolar e de produção.",
+        "pagina": 11
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MEIO AMBIENTE E TRANSIÇÃO ECOLÓGICA. Combate ao Desmatamento Ilegal e Queimadas: Geoprocessamento em tempo real, inteligência ambiental e fortalecimento das brigadas de combate a incêndios. Bioeconomia e Reciclagem: Valorização do açaí, castanha e óleos essenciais.",
+        "pagina": 11
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "VALORIZAÇÃO DOS SERVIDORES PÚBLICOS E MODERNIZAÇÃO DO ESTADO. Mesa Permanente de Negociação: Diálogo contínuo com entidades de classe para revisão de PCCS.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantia de Recursos para o FEDEC-RO e PNAB: Repasse transparente e descentralizado dos fundos estaduais e federais de cultura para os 52 municípios.",
+        "pagina": 11
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROPOSTA EMBLEMÁTICA: NOVO HOSPITAL JOÃO PAULO II. Um novo hospital de urgência, emergência e trauma para Rondônia em 4 anos. Rondônia não pode mais submeter sua população a uma estrutura hospitalar ultrapassada e incompatível com o crescimento do estado.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROPOSTA PRINCIPAL: RECOMPOSIÇÃO E EXPANSÃO DO EFETIVO. Abrir concurso público para 300 novos servidores das carreiras estratégicas (Oficiais da PM e CBM, Delegados da PC e Peritos Criminais) e iniciar as convocações nos dois primeiros anos de governo.",
+        "pagina": 9
+      }
+    ]
+  }
+}

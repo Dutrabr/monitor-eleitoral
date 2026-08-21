@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "nao_consta"
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Software, engenharia, contabilidade, design, saúde, educação, tecnologia, inteligência artificial, finanças e logística serão vendidos para o Brasil e para o mundo sem que o trabalhador precise deixar o Estado.",
+        "pagina": 130
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Haverá esporte, cultura, feiras, bibliotecas, atividades para crianças, convivência para idosos e comércio local.",
+        "pagina": 80
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A proteção da mulher exige investigação, prevenção e rede de atendimento.",
+        "pagina": 73
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A comida mais barata devolve dinheiro à família. O combustível mais barato devolve mobilidade. A moradia mais barata devolve tempo, segurança e capacidade de planejar o futuro.",
+        "pagina": 34
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A tecnologia permite romper essa lógica (...) A educação que Mato Grosso precisa tem uma sequência simples: aprendizagem na base, projetos no meio e trabalho no fim.",
+        "pagina": 41
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso renuncia a R$ 15 bilhões por ano em incentivos fiscais (...) Vamos reverter R$ 10 bilhões dessas renúncias — e devolver o dinheiro a quem trabalha e consome em Mato Grosso.",
+        "pagina": 9
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos criar o Plano Mato Grosso Multimodal, com uma carteira integrada de rodovias, ferrovias, hidrovias, aeroportos, portos secos e terminais de transbordo.",
+        "pagina": 119
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso não precisa de mais terra. Precisa de mais produção por hectare (...) sistemas como a Integração Lavoura-Pecuária-Floresta elevam a produtividade, diversificam a renda e reduzem a pressão pelo desmatamento.",
+        "pagina": 101
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cada região saberá o que pediu, o que foi aprovado e por que uma obra entrou antes de outra. O produtor terá voz. A população terá controle. O Estado terá a obrigação de executar.",
+        "pagina": 21
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Faremos parceria com os municípios para unificar a abordagem, formar professores, compartilhar instrumentos de avaliação e acompanhar a aprendizagem.",
+        "pagina": 44
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A hospitalidade começa com a transparência e a comunicação eficaz. O paciente deve saber onde está na fila, o que esperar e como participar do próprio tratamento.",
+        "pagina": 53
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O uso da força seguirá protocolos públicos, treinamento permanente, supervisão e investigação de cada ocorrência grave (...) O objetivo não é a guerra. É a pacificação.",
+        "pagina": 71
+      }
+    ]
+  }
+}

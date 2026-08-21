@@ -1,0 +1,80 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Cadeias Produtivas: Madeira → móveis e produtos industrializados; Agricultura → alimentos processados; Piscicultura → exportação; Bioeconomia → produtos sustentáveis.", "pagina": 7}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A Bolsa Esperança carregará uma mensagem forte para a população: \"Ninguém fica para trás. O filho do pobre também pode ser engenheiro, técnico, profissional qualificado.\"", "pagina": 33}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Cursos focados em: Energia solar, Agroindústria, Tecnologia e programação, Logística e comércio internacional, Construção civil industrializada.", "pagina": 23}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Secretaria de Cultura, Esporte e Juventude. Missão: Valorizar o povo e sua identidade. Plano Estratégico: Incentivo à cultura local, Esporte como inclusão social, Políticas para juventude.", "pagina": 17}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Secretaria de Desenvolvimento Econômico e Indústria. Missão: Liderar a industrialização do Acre.", "pagina": 14}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Educação – Complexos Educacionais. Objetivo: Garantir educação completa em todos os municípios. Estrutura: Ensino infantil ao médio, Ensino técnico e profissional, Laboratórios e tecnologia.", "pagina": 10}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Núcleo de Gestão Orçamentária: garante que o orçamento esteja alinhado às prioridades; controla gastos e evita desperdícios; foca em eficiência do uso dos recursos.", "pagina": 18}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Urbanismo moderno e inteligente: fiação elétrica subterrânea no centro e áreas turísticas, ruas bem planejadas, pavimentação em concreto nos bairros, reestruturação e modernização das pontes.", "pagina": 35}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Missão: Produzir com responsabilidade. Plano Estratégico: Licenciamento eficiente, Preservação ambiental, Desenvolvimento sustentável, Economia verde.", "pagina": 17}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Modelo de Governança – Governo da Indústria, 15 Pastas Estratégicas.", "pagina": 14}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Complexos regionais de saúde e educação e o Plano Antienchente do Rio Acre. Impacto: Fim da \"peregrinação por saúde\", Redução de filas, Atendimento regionalizado.", "pagina": 10}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Secretaria de Segurança Pública. Missão: Garantir ordem e proteção. Plano Estratégico: Integração das forças de segurança, Uso de tecnologia, Combate ao crime organizado.", "pagina": 16}
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compromisso 3 - Interior que Produz. O que a nossa terra produz, a nossa indústria transforma. A agricultura familiar é a base social e econômica do interior cearense, não uma política de nicho.", "pagina": 22}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compromisso 6 - Famílias Livres. O êxito de um programa social se mede pelo número de famílias que deixam de preci[sar de assistência].", "pagina": 36}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Empresas Juniores fomentadas, vouchers de inovação pública executados e projetos convertidos em startups.", "pagina": 26}
+    ]
+  },
+  "cultura": {"status": "nao_consta"},
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5. Juventude, mulher e inovação. Fundo Estadual de Microcrédito Rural Orientado; Programa Mulheres Rurais do Ceará; Jovem do Campo Empreendedor - fixar a juventude e fortalecer a mulher rural.", "pagina": 24}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PASSO II – RECONSTRUIR. O Estado constrói renda, futuro e autonomia.", "pagina": 22}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compromisso 4 - Escola que Forma para a Vida. Passar de ano não basta: tem que aprender.", "pagina": 27}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compromisso com o equilíbrio fiscal e as regras da Lei de Responsabilidade Fiscal (LC nº 101/2000).", "pagina": 44}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compromisso 7 - Base do Desenvolvimento. Água, energia, estradas e saneamento: a base física sem a qual nenhum out[ro avanço é possível].", "pagina": 39}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Complexo do Pecém e transição energética. Força-tarefa para destravar as licenças ambientais no Ibama.", "pagina": 40}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PARTE III - O MÉTODO. Um Estado que se deixa cobrar. Painel público de indicadores com todas as metas deste plano.", "pagina": 43}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "De onde vem o recurso? Regime de colaboração com os municípios (base do Mais Paic, desde 2007); FNDE e MEC.", "pagina": 29}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compromisso 5 - Saúde que Chega na Hora. Menos fila, menos espera e atendimento perto de casa - inclusive no i[nterior].", "pagina": 31}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compromisso 1: Criar a Secretaria de Segurança Pública, Defesa Social e Administra[ção Penitenciária, fusão SSPDS + SAP].", "pagina": 13}
+    ]
+  }
+}

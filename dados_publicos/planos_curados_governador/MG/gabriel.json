@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Emater-MG em assistência técnica, agricultura familiar, cooperativismo, adoção de tecnologia e acesso a mercados.",
+        "pagina": 11
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Uma política de proteção social se mede pela capacidade de o Estado chegar a quem mais precisa dele (...) com dados que orientam a busca ativa e equipes presentes no território.",
+        "pagina": 28
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fapemig como instituição estratégica de inovação. Financiar ciência, tecnologia e inovação e pesquisa aplicada.",
+        "pagina": 11
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais surpreende pela diversidade cultural, do barroco de Ouro Preto, Congonhas e Diamantina à modernidade da Pampulha; do Congado e dos Reinados às bandas de música.",
+        "pagina": 12
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantir que todas as pessoas sejam tratadas com igualdade perante a lei, proteger o patrimônio cultural dos diferentes povos e comunidades e assegurar que ninguém seja discriminado.",
+        "pagina": 30
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Desenvolvimento econômico começa com gente e conhecimento, boa gestão e uma parceria construtiva entre o setor público e o setor privado.",
+        "pagina": 10
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Ideb (...) é a régua nacional (...) O Pisa (...) é a régua internacional (...) O Brasil não tem ido bem em educação.",
+        "pagina": 19
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais saiu de superávit para déficit, há déficit projetado para este ano (...) a despesa de pessoal já alcança 62,37% da Receita Corrente Líquida, acima do teto de 60% da LRF.",
+        "pagina": 15
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais já teve uma rede extensa de ferrovias para viabilizar o transporte de minérios (...) Minas Gerais, tristemente, ficou conhecida pela má qualidade das suas estradas.",
+        "pagina": 16
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Proteger nascentes, matas ciliares e biodiversidade não é uma lista de boas intenções, é o que cria as condições para a produção sustentável, garante água limpa.",
+        "pagina": 25
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A agenda do governador e dos secretários deve ser pública; deve haver atas, agendas e registro dos atos relevantes; e os órgãos de controle (...) precisam ser fortalecidos.",
+        "pagina": 31
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Governos Regionais formados pela reorganização de estruturas já existentes, consórcios intermunicipais fortalecidos e arranjos regionais de desenvolvimento.",
+        "pagina": 8
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais tem boa cobertura de atenção primária, mas a fila reaparece na média e alta complexidade e no cuidado de quem é mais vulnerável.",
+        "pagina": 21
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Entre 2014 e 2024 os homicídios em Minas Gerais caíram 42,2% (...) a tendência, porém, se inverteu no último ano, com alta estimada de cerca de 25% entre 2023 e 2024.",
+        "pagina": 23
+      }
+    ]
+  }
+}

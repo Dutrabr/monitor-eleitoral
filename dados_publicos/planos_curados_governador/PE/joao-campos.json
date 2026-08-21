@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reforçar a política estadual de regularização fundiária rural, ampliando sua cobertura com ações integradas de levantamento, georreferenciamento, orientação jurídica e o apoio documental gratuitos para garantir a titulação de produtores, famílias assentadas e comunidades.",
+        "pagina": 23
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "» Desenvolvimento Social e Enfrentamento à Pobreza. A Assistência Social será fortalecida como uma política pública essencial para construir um Pernambuco mais justo, em que ninguém fique para trás.",
+        "pagina": 7
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reestruturar a Agência Estadual de Tecnologia da Informação de Pernambuco (ATI-PE) para consolidá-la como empresa pública de tecnologia capaz de prover a infraestrutura digital do Governo do Estado.",
+        "pagina": 20
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "» Cultura e Economia Criativa. Criar o EduCultura Pernambuco para integrar cultura nas escolas estaduais, garantindo que estudantes de todas as regiões tenham acesso à fruição artística.",
+        "pagina": 18
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "» Políticas para as Mulheres. Nosso compromisso é fazer com que essa política chegue a todo o território pernambucano, alcançando as mulheres que mais precisam da presença do Estado. Mulheres e meninas vítimas de violência, mães solo, mulheres negras, periféricas, rurais, indígenas, quilombolas, com deficiência.",
+        "pagina": 14
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Desenvolvimento Econômico e Turístico. Transformar Pernambuco em uma potência econômica regional exige que o Estado volte a liderar, de forma ativa, a atração de investimentos, o fortalecimento das cadeias produtivas.",
+        "pagina": 20
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a política estadual de alfabetização na idade certa, em regime de colaboração com os municípios, garantindo apoio técnico, pedagógico e financeiro às redes municipais.",
+        "pagina": 9
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer o PRODEPE no cenário da Reforma Tributária, reduzindo a dependência de incentivos fiscais e estruturando uma nova política de atração de investimentos.",
+        "pagina": 21
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Estado precisará transformar energia, segurança hídrica, infraestrutura econômica e urbana em vantagens concretas de competitividade, capazes de atrair novas indústrias, fortalecer as cadeias produtivas e assegurar a permanência e a expansão das empresas já instaladas.",
+        "pagina": 23
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Meio Ambiente, Sustentabilidade & Proteção e Direito dos Animais. Não existe desenvolvimento sustentável que não envolva preservação do meio ambiente.",
+        "pagina": 26
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Gestão Integrada, Regionalizada, Participativa e Digital. Ampliar a participação social e o controle social nas decisões de Governo, criando mecanismos permanentes de escuta, pactuação de prioridades e acompanhamento das políticas públicas, com práticas de governo aberto, transparência ativa e ampliação da oferta de dados abertos.",
+        "pagina": 28
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar a rede socioassistencial, fortalecendo a capacidade do Estado de apoiar e capacitar os municípios na identificação, no acolhimento e no acompanhamento das famílias e pessoas em situação de extrema pobreza e vulnerabilidade social.",
+        "pagina": 7
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Prontuário integrado, telemedicina, inteligência de dados, qualificação do processo regulatório e navegação do paciente serão instrumentos para reduzir filas, acompanhar tratamentos e dar mais transparência ao funcionamento da rede.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "» Segurança Cidadã. O novo ciclo da segurança pública terá como foco enfrentar o crime com firmeza, reduzir a violência e devolver tranquilidade à população.",
+        "pagina": 12
+      }
+    ]
+  }
+}

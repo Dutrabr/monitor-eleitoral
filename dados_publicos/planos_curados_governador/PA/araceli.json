@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A agricultura familiar como prioridade nas compras públicas — pra baratear a cesta básica e fazer o dinheiro do Estado ficar aqui, na mão de quem planta.",
+        "pagina": 7
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "VIDA MAIS 60. Centro de Referência Integral à Pessoa Idosa, em todas as mesorregiões do Pará. Nosso governo vai ter um programa com nome, com endereço e com data pra começar.",
+        "pagina": 9
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Com esse dinheiro nós criamos um fundo. E esse fundo financia educação, inovação e geração de renda — com prioridade para mulheres chefes de família, jovens de 16 a 34 anos e as comunidades tradicionais e periféricas.",
+        "pagina": 11
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "No mínimo 3% da receita do Estado para a cultura. Descentralizada. Chegando no mestre de carimbó, na quadrilha, no grupo de teatro, no produtor de tecnobrega, no artesão. Cultura não é sobra de orçamento.",
+        "pagina": 8
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Quinto: tolerância zero à violência contra as mulheres. Delegacia especializada em todos os municípios do Pará, funcionando 24 horas. Programa permanente de prevenção nas escolas estaduais. E crédito para mulher que sai de uma relação violenta.",
+        "pagina": 8
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Terceiro: quem trabalha tem que viver. Salário-mínimo regional de dois mil e duzentos reais, conforme o cálculo do Dieese. E licença mineral condicionada: quer explorar o minério do Pará? Beneficia aqui. Com mão de obra paraense.",
+        "pagina": 7
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Sexto: educação e cultura. Educação integral implantada de verdade. Escola reformada, com condição de o aluno entrar e de o aluno ficar. A UEPA fortalecida e presente em cada uma das seis mesorregiões, com orçamento vinculado.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DE ONDE VEM O DINHEIRO. Primeiro: cobrando os débitos fiscais das grandes empresas, principalmente do setor mineral e do agronegócio. Segundo: revisando os incentivos fiscais, com transparência e controle social. Toda renúncia fiscal deste Estado vai ser aberta, item por item.",
+        "pagina": 11
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Primeiro: água. Água em todas as torneiras. Nós vamos rever a privatização da Cosanpa e construir uma nova empresa pública de saneamento. Revisão das privatizações das rodovias paraenses e fim imediato dos pedágios.",
+        "pagina": 7
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Oitavo: Amazônia de pé, e trabalho aqui dentro. Desmatamento zero e combate implacável às atividades ilegais que ameaçam os territórios. Apoio de verdade à bioeconomia, ao turismo de base comunitária, à economia dos povos indígenas, ribeirinhos e quilombolas.",
+        "pagina": 9
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "E quarto, o mais importante: o povo decide. Nós vamos criar um processo permanente de participação social, em cada município e em cada macrorregião, para definir o orçamento do Estado e o plano plurianual. O orçamento vai deixar de ser segredo de gabinete.",
+        "pagina": 11
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nós vamos criar um processo permanente de participação social, em cada município e em cada macrorregião, para definir o orçamento do Estado e o plano plurianual.",
+        "pagina": 11
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segundo: saúde com prazo. Chega de fila sem fim. No nosso governo, prazo máximo de sessenta dias para exame e procedimento especializado. Prioridade absoluta no combate à mortalidade materna e infantil.",
+        "pagina": 7
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Sétimo: segurança cidadã. Polícia presente onde o crime tá, nos centros e no interior, com atenção aos rios e às comunidades isoladas. E, junto, o Estado presente todo dia: esporte, lazer, cultura e formação profissional pra juventude.",
+        "pagina": 8
+      }
+    ]
+  }
+}

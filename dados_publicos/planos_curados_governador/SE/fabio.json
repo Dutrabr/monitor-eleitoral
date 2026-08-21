@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "AGRICULTURA, PECUÁRIA E PESCA. 1. Agro Forte e Seguro. Consolidar uma defesa agropecuária rigorosa, garantindo a sanidade animal e vegetal, a segurança dos alimentos, a proteção da saúde pública e a competitividade da produção agropecuária sergipana.",
+        "pagina": 10
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ASSISTÊNCIA SOCIAL E COMBATE À POBREZA. 3. Assistência Mais Presente. Fortalecer o Sistema Único de Assistência Social (SUAS), especialmente por meio da ampliação do cofinanciamento estadual e do apoio técnico permanente aos municípios.",
+        "pagina": 11
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CIÊNCIA, TECNOLOGIA E INOVAÇÃO. 5. Sergipe Mais Inovador. Fortalecer o ecossistema sergipano de Inovação, por meio da criação do modelo de governança para o Plano Sergipano de Inteligência Artificial, voltado a garantir ações estratégicas de desenvolvimento desta tecnologia na administração pública.",
+        "pagina": 12
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA E SERGIPANIDADE. 7. Cultura Viva. Fortalecer a política estadual de cultura por meio da ampliação dos mecanismos de financiamento e fomento, com destaque para a Lei Estadual de Incentivo à Cultura, assegurando recursos permanentes para o desenvolvimento do setor.",
+        "pagina": 12
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DIREITOS HUMANOS. 15. Direitos para Todos. Criar e implementar a Política Estadual de Direitos Humanos, instrumento de política pública transversal com diretrizes para promoção, proteção e garantia dos Direitos Humanos à população sergipana, em especial aos grupos vulneráveis.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO ECONÔMICO. 10. Capital da Energia. Consolidar Sergipe como principal hub de gás do país e atrair indústrias intensivas em energia, com a modernização da gestão portuária e integração do porto às cadeias produtivas.",
+        "pagina": 14
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. 20. Educação em Parceria. Fortalecer o regime de colaboração, priorizando o Programa de Apoio aos Municípios para a Expansão da Educação Infantil (AMEEI) e o Programa Leitura e Escrita na Educação Infantil (ProLEEI).",
+        "pagina": 18
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GOVERNANÇA ESTRATÉGICA E GESTÃO FISCAL DO ESTADO. 29. Governo Inteligente. Garantir a excelência e a agilidade na prestação dos serviços públicos por meio da modernização da gestão e de uma governança estratégica integrada com foco no planejamento e monitoramento governamental baseado em evidências.",
+        "pagina": 22
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Entregar o Complexo Viário Senadora Maria do Carmo, que liga o corredor Tancredo Neves ao bairro Coroa do Meio, a nova ponte Aracaju/Barra, com uma carteira de projetos de infraestrutura e apoio aos municípios.",
+        "pagina": 24
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MEIO AMBIENTE, SUSTENTABILIDADE E CLIMA. 37. Natureza Protegida. Promover a conservação da biodiversidade e a restauração dos ecossistemas por meio da proteção e ampliação das Unidades de Conservação, recuperação de áreas degradadas.",
+        "pagina": 25
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GOVERNANÇA ESTRATÉGICA E GESTÃO FISCAL DO ESTADO. 29. Governo Inteligente. Garantir a excelência e a agilidade na prestação dos serviços públicos por meio da modernização da gestão e de uma governança estratégica integrada com foco no planejamento e monitoramento governamental baseado em evidências.",
+        "pagina": 22
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estabelece um forte compromisso de cooperação técnica com os municípios, fornecendo capacitação, conectividade e soluções compartilhadas para impulsionar a gestão pública local, com o fortalecimento das relações federativas, a captação de recursos, a conformidade cooperativa e a educação fiscal.",
+        "pagina": 22
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE. 44. Saúde Mais Forte. Realizar a reestruturação do Hospital de Urgências de Sergipe (HUSE), com ampliação da capacidade hospitalar do estado: construir o Hospital 60+, em Aracaju, para atendimento às pessoas idosas.",
+        "pagina": 27
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA. 50. Segurança Inteligente. Ampliar a estratégia de uso da Inteligência na Segurança Pública, por meio de investimentos em tecnologia, inteligência policial e integração institucional, do fortalecimento do Centro Integrado de Operações em Segurança Pública (CIOSP).",
+        "pagina": 30
+      }
+    ]
+  }
+}

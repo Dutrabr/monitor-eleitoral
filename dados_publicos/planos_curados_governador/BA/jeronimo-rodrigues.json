@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2.8 DESENVOLVIMENTO DO AGRONEGÓCIO / 2.9 DESENVOLVIMENTO RURAL.", "pagina": 46}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.3 ASSISTÊNCIA SOCIAL.", "pagina": 65}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.2 TECNOLOGIA E INOVAÇÃO (Temas Transversais Prioritários).", "pagina": 22}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.6 CULTURA.", "pagina": 67}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.3 IGUALDADE RACIAL / 1.5 MULHERES (Temas Transversais Prioritários); 3.9 CIDADANIA E DIREITOS HUMANOS; 3.10 POPULAÇÃO LGBTQIAPN+.", "pagina": 24}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2.4 TRABALHO, GERAÇÃO DE EMPREGO E RENDA.", "pagina": 39}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.2 EDUCAÇÃO.", "pagina": 62}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O fortalecimento da capacidade institucional, aliado ao equilíbrio fiscal e à boa gestão dos recursos públicos, amplia a capacidade de investimento, garante a execução de obras estruturantes.", "pagina": 77}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2.2 INFRAESTRUTURA, LOGÍSTICA E MOBILIDADE.", "pagina": 34}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.1 SUSTENTABILIDADE AMBIENTAL (Temas Transversais Prioritários).", "pagina": 21}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4 GOVERNANÇA DEMOCRÁTICA, COM INTEGRAÇÃO E EFETIVIDADE DAS POLÍTICAS PÚBLICAS.", "pagina": 77}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4.1 TERRITORIALIDADE E DESENVOLVIMENTO. Aprimorar a gestão estratégica com foco nos instrumentos de planejamento governamental, integrando as dimensões sistêmica, setorial e territorial de governança.", "pagina": 79}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.1 SAÚDE.", "pagina": 57}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.7 SEGURANÇA PÚBLICA E PREVENÇÃO À VIOLÊNCIA.", "pagina": 68}
+    ]
+  }
+}

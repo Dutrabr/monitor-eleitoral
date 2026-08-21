@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agropecuária, Pesca e Desenvolvimento Rural. Implantar o Programa Água para Produzir, ampliando a segurança hídrica destinada à produção rural, com reservação, irrigação eficiente, reúso, dessalinização, monitoramento climático e aproveitamento das águas da Transposição do Rio São Francisco.",
+        "pagina": 44
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Combate à Pobreza. Instituir o Plano RN sem Pobreza, estabelecendo metas, prioridades territoriais e ações integradas de proteção social, qualificação, inclusão produtiva e geração de renda.",
+        "pagina": 72
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Transformação Digital, Inovação e Infraestrutura Tecnológica. Instituir uma política estadual de governança da inteligência artificial, promovendo a elaboração do marco normativo. Implantar um hub estadual de inovação GovTech, conectando órgãos estaduais, municípios, universidades, setor produtivo e startups.",
+        "pagina": 29
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cultura. Implementar o Plano Estadual de Economia Criativa, fortalecendo o empreendedorismo, a inovação, a qualificação e a comercialização de produtos e serviços culturais potiguares. Fortalecer o Sistema Estadual de Cultura e a parceria com os municípios.",
+        "pagina": 38
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a rede estadual de proteção e acolhimento às pessoas LGBTQIAPN+ em situação de violência e vulnerabilidade social, ampliando a articulação entre assistência social, saúde, segurança pública, direitos humanos e sistema de justiça.",
+        "pagina": 81
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO II - Desenvolvimento Econômico, Inovação e Emprego. Diante da perda de competitividade e da dificuldade de atrair investimentos, o Estado precisa recuperar a capacidade de gerar oportunidades em todas as regiões.",
+        "pagina": 30
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação. Garantir a alfabetização de todas as crianças na idade certa, fortalecendo o regime de colaboração com os municípios, ampliando o Pacto Potiguar pela Alfabetização, implantando avaliações diagnósticas permanentes.",
+        "pagina": 64
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As despesas com pessoal do Poder Executivo permaneceram acima do limite de referência da Lei de Responsabilidade Fiscal (LRF), comprometendo 56,40% da Receita Corrente Líquida. O déficit anual da Previdência superou R$ 2 bilhões, enquanto a dívida consolidada aumentou de R$ 7,2 bilhões para R$ 9,74 bilhões.",
+        "pagina": 8
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO III - Infraestrutura e Integração Territorial. A malha viária do Estado soma cerca de 26,9 mil quilômetros, considerando as vias federais, estaduais e municipais. Uma estrada ruim não prejudica apenas quem dirige: atrasa o transporte de pacientes, encarece o frete, dificulta o escoamento da produção.",
+        "pagina": 46
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO V - Sustentabilidade, Recursos Naturais e Resiliência Climática. Ampliar o atendimento às pessoas em áreas de vulnerabilidade socioambiental, articulando prevenção de desastres, adaptação às mudanças climáticas e proteção dos recursos naturais.",
+        "pagina": 81
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO I - Estado Moderno e Gestão Eficiente. Reorganizar o Estado para que volte a planejar, investir e entregar resultados. Um governo existe para resolver problemas, prestar bons serviços, apoiar os municípios e criar condições para o desenvolvimento.",
+        "pagina": 21
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura Municipal. Instituir o Programa Estadual de Apoio à Infraestrutura Municipal, oferecendo assistência técnica, apoio institucional, apoio à captação de recursos externos e cooperação financeira para a execução de obras estruturantes nos municípios.",
+        "pagina": 50
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Saúde. Implantar o Programa RN Saúde 2030, instituindo um modelo de governança da saúde orientado por resultados, baseado em planejamento estratégico, regulação, monitoramento permanente, avaliação de desempenho, transparência e sustentabilidade fiscal.",
+        "pagina": 59
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segurança Pública, Justiça e Defesa Social. Implantar o Plano Estadual Integrado de Enfrentamento ao Crime Organizado, fortalecendo a cooperação entre as forças estaduais, os municípios, o Governo Federal, o Poder Judiciário e o Ministério Público.",
+        "pagina": 66
+      }
+    ]
+  }
+}

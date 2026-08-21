@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Campo e agronegócio. A CONCENTRAÇÃO FUNDIÁRIA NO RS. Nosso programa defende a superação do modelo destrutivo do agronegócio exportador, com apoio à agricultura familiar e reforma agrária.",
+        "pagina": 17
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A reparação é uma necessidade: mais de 10 mil famílias seguem aguardando suas casas. Há 492 famílias vivendo em moradias temporárias de 30 m², que acabaram se tornando permanentes, em locais sem infraestrutura, sem ônibus, sem creche e sem posto de saúde.",
+        "pagina": 33
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reindustrializar, mas com uma política industrial soberana. Criar um polo estadual de tecnologia, semicondutores e inteligência artificial 100% público, vinculado às universidades públicas.",
+        "pagina": 5
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fundo de Apoio à Cultura e construção de centro de apoio aos artistas, incentivando a ação política cultural independente. Descentralização de recursos hoje concentrados nos circuitos da elite e construção de centros culturais públicos autogeridos pela comunidade nas periferias.",
+        "pagina": 9
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. Machismo, racismo e LGBTQIfobia promovem violência e desigualdades profundas. Em um contexto de crise, o capitalismo amplia a exploração recorrendo ao racismo, ao machismo, à LGBTQIfobia e à xenofobia para dividir a classe trabalhadora.",
+        "pagina": 65
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "RS: Um estado estagnado e cada vez mais desigual. 17 bilionários concentram R$ 85,6 bi enquanto 1,6 milhão de pessoas seguem vivendo abaixo da linha da pobreza.",
+        "pagina": 10
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. Educação. A educação no Brasil enfrenta uma ofensiva ideológica de setores da extrema direita, representada por projetos como \"escola sem partido\". A educação enfrenta também um processo de mercantilização.",
+        "pagina": 51
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. Finanças do estado. Para que o orçamento do estado esteja a serviço da maioria do povo, é necessário cancelar a dívida com a União, cobrar os grandes devedores e acabar com as sangrias das isenções e terceirizações.",
+        "pagina": 22
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. Reestatização da infraestrutura do estado. CEEE, CORSAN, Ferrovia, Aeroporto: privatiza que piora! Nosso estado foi transformado em uma plataforma de negócios para concessionárias.",
+        "pagina": 25
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Meio ambiente. A catástrofe ambiental é capitalista. No dia 17/7 Porto Alegre registrou o dia mais quente em um mês de julho, durante todos os 116 anos em que a temperatura é acompanhada.",
+        "pagina": 35
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "16 PROPOSTAS DO PSTU PARA TIRAR O PODER E O DINHEIRO DOS BILIONÁRIOS CAPITALISTAS PARA QUE O POVO GAÚCHO POSSA TRABALHAR, COMER, TER DIREITO À SAÚDE, EDUCAÇÃO E DIREITO A UM FUTURO!",
+        "pagina": 7
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ainda que UBSs, equipes de Saúde da Família e grande parte dos CAPS sejam administrados pelos municípios, cabe ao estado organizar e financiar a rede regional, manter hospitais e serviços especializados, apoiar técnica e financeiramente as prefeituras.",
+        "pagina": 45
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. Saúde. SAÚDE NÃO É MERCADORIA: GARANTIR O SUS PÚBLICO (100% ESTATAL), UNIVERSAL, GRATUITO E DE QUALIDADE.",
+        "pagina": 43
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. Segurança pública. UM PROGRAMA PARA SEGURANÇA DA POPULAÇÃO E NÃO DO CAPITALISMO. O desemprego, o trabalho informal, os baixos salários e as perdas de direitos são consequências diretas do sistema capitalista.",
+        "pagina": 55
+      }
+    ]
+  }
+}

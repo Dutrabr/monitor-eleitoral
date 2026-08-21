@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 21. AGRICULTURA FAMILIAR, ABASTECIMENTO E SEGURANÇA ALIMENTAR. DIAGNÓSTICO: Do acesso à terra ao prato, as dimensões rurais do DF formam um sistema único. A agricultura familiar abastece a cidade com alimentos, mas enfrenta insegurança fundiária histórica (...) assistência técnica insuficiente e dificuldade de acesso a mercados.", "pagina": 97}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 5. ASSISTÊNCIA SOCIAL, SEGURANÇA ALIMENTAR E COMBATE ÀS DESIGUALDADES. DIAGNÓSTICO: O DF é a unidade da federação com maior desigualdade do país (Gini 0,570 pelo terceiro ano consecutivo) e cerca de 431 mil pessoas vivem abaixo da linha da pobreza na capital da República.", "pagina": 39}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 22. CIÊNCIA, TECNOLOGIA E INOVAÇÃO: BRASÍLIA, CAPITAL DA TECNOLOGIA. DIAGNÓSTICO: (...) há mais de vinte anos Brasília anuncia parques tecnológicos. O Biotic foi projetado para cerca de um milhão de metros [quadrados].", "pagina": 99}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 13. CULTURA EM TODA CIDADE: DIREITO, TRABALHO E IDENTIDADE. DIAGNÓSTICO: A cultura foi o quarto tema mais votado do Decide DF e o de maior consenso, com 100% dos relatos convergindo para a mesma demanda, que é ter espaço cultural público em toda RA, perto de casa.", "pagina": 67}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 7. IGUALDADE RACIAL, DIVERSIDADE E DIREITOS HUMANOS. DIAGNÓSTICO: O DF é majoritariamente negro, mas a desigualdade tem cor.", "pagina": 46}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PARTE II — TEMPO DE TRABALHAR. Emprego e renda perto de casa, com salário que dá conta da vida. O DF tem a maior renda per capita e a maior desigualdade do país (...) É tempo de estudar um piso distrital com quem produz e quem trabalha, de apoiar o pequeno negócio que mais emprega na periferia e de diversificar a economia.", "pagina": 89}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 11. EDUCAÇÃO COMO PROJETO DE CIDADE E DE SOCIEDADE. O DF tem o maior PIB per capita do país e uma escola pública que não corresponde. É tempo de mudar, com escola em tempo integral, esporte, arte e tecnologia.", "pagina": 57}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 1. FINANÇAS PÚBLICAS: RESGATAR BRA[SÍLIA]. NOSSO COMPROMISSO: Resgatar as finanças do DF com transparência radical sobre o rombo do BRB, recuperação do banco público, revisão de privilégios fiscais e prioridade absoluta do investimento em quem mais precisa.", "pagina": 18}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PARTE II — TEMPO DE CHEGAR. Devolver o tempo do trabalhador. Quem mora na periferia perde horas de vida todo dia no caminho para o centro (...) É tempo de devolver esse tempo, com o ônibus depois das 22h, o avanço dos estudos e da captação de recursos para levar o metrô à Asa Norte.", "pagina": 73}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 18. SANEAMENTO, ÁGUA, ENERGIA E MEIO AMBIENTE. DIAGNÓSTICO: O DF tem indicadores históricos altos de água e esgoto, mas convive com desigualdades brutais, porque áreas inteiras (Vicente Pires, Sol Nascente, ocupações) seguem sem rede de esgoto, com fossas contaminando o lençol e córregos virando esgoto a céu aberto.", "pagina": 85}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 2. GESTÃO PÚBLICA, PARTICIPAÇÃO POPULAR E TRANSPARÊNCIA. DIAGNÓSTICO: Este plano nasceu de um processo participativo, e o governo será assim também. O DF viveu oito anos de gestão fechada, com administradores regionais indicados por acordos políticos.", "pagina": 21}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "11. Pacto pelo Fundo Constitucional (FCDF): defesa permanente do FCDF em Brasília, com a força da relação do campo político com o governo federal.", "pagina": 20}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 4. SAÚDE: CUIDAR DE QUEM CUIDA E D[E QUEM PRECISA]. (Também: PARTE II — TEMPO DE CUIDAR, área Saúde, decidida por conselhos de saúde.)", "pagina": 28}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CAPÍTULO 23. SEGURANÇA PÚBLICA: PROTEÇÃO P[RESENTE]. (PARTE II — TEMPO DE VIVER SEM MEDO. Proteção presente, perto de casa. O feminicídio subiu 21,7% e o jovem da periferia morre 2,5 vezes mais que a média.)", "pagina": 110}
+    ]
+  }
+}

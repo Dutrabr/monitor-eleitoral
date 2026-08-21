@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. AGRICULTURA E DESENVOLVIMENTO ECONÔMICO. O agronegócio é um dos pilares da economia catarinense e da geração de emprego e renda no interior do Estado.",
+        "pagina": 17
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. DESENVOLVIMENTO E REINSERÇÃO SOCIAL. O Governo ampliará e fortalecerá a rede de assistência e promoção social, com atenção especial ao atendimento dos idosos e das pessoas em situação de maior vulnerabilidade.",
+        "pagina": 22
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. GESTÃO INTEGRADA E INOVADORA. A inovação tecnológica não será restrita à digitalização de serviços, mas alcançará a forma de governar: indicadores em tempo real, avaliação contínua de políticas públicas.",
+        "pagina": 23
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.5 Cultura. O desenvolvimento da cultura e das artes será implementado com valorização da produção artística e cultural de Santa Catarina. O acesso à cultura será ampliado para todos os catarinenses, reconhecendo a cultura como direito.",
+        "pagina": 16
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Instrumentalizar ações para a prevenção e repressão de crimes contra a mulher, violência doméstica e feminicídios, melhor aparelhando as Delegacias de Proteção à Mulher, com a adoção de medidas de amparo às vítimas, como implantação de casas de acolhimento.",
+        "pagina": 9
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O empreendedorismo, a pequena e a microempresa e os polos de produção e desenvolvimento tecnológico serão fortalecidos. A atração de investimentos estratégicos para geração de empregos e dinamização da economia do Estado será perseguida de forma permanente e profissional.",
+        "pagina": 22
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. EDUCAÇÃO E DESENVOLVIMENTO HUMANO. A prioridade será a educação em tempo integral, com a implementação de atividades no contraturno por meio de oficinas de interpretação e leitura de textos.",
+        "pagina": 15
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A responsabilidade fiscal é também um compromisso intergeracional. Governar com austeridade significa preservar a capacidade do Estado de investir no futuro, em segurança, saúde, educação, infraestrutura e desenvolvimento econômico.",
+        "pagina": 4
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. INFRAESTRUTURA, MOBILIDADE, LOGÍSTICA E DESENVOLVIMENTO SUSTENTÁVEL. O Estado precisa investir R$ 57 bilhões em infraestrutura de transportes entre 2026 e 2029, segundo estudos da FIESC.",
+        "pagina": 20
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. INFRAESTRUTURA, MOBILIDADE, LOGÍSTICA E DESENVOLVIMENTO SUSTENTÁVEL — o desenvolvimento sustentável integrado à política de infraestrutura, com atenção a parcerias e ao equilíbrio entre investimento e preservação ambiental.",
+        "pagina": 20
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. PLANO ESTRUTURAL DE GOVERNO – GESTÃO PÚBLICA. A qualidade da gestão pública é o alicerce sobre o qual se constroem todas as demais políticas. Sem uma administração eficiente, transparente e inovadora, mesmo os melhores programas setoriais tendem a perder efetividade.",
+        "pagina": 5
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. DESENVOLVIMENTO REGIONAL E CIDADES. O Governo trabalhará em estreita parceria com os municípios e com os arranjos regionais e metropolitanos, respeitando a autonomia municipal e potencializando as capacidades locais.",
+        "pagina": 24
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. SAÚDE. O livre e rápido acesso à saúde para todos os catarinenses será prioridade do Governo. A rede hospitalar própria do Estado é antiga — construída majoritariamente nas décadas de 1960 e 1970.",
+        "pagina": 12
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. SEGURANÇA PÚBLICA. É imprescindível que sejam mantidas e desenvolvidas políticas públicas eficientes e enérgicas de combate a todo tipo de crime, principalmente àqueles associados às facções criminosas e à ocupação territorial pelo tráfico de drogas.",
+        "pagina": 8
+      }
+    ]
+  }
+}

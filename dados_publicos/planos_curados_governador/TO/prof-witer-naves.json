@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Bem-estar da Gente organiza o Sistema Estadual de Desenvolvimento Territorial. Integram esse sistema políticas públicas voltadas para: desenvolvimento econômico; agricultura familiar e agropecuária; indústria, comércio e inovação.",
+        "pagina": 6
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Direito da Gente constitui o Sistema Estadual de Garantia dos Direitos Fundamentais. Estruturam esse sistema, entre outras, as seguintes políticas públicas: Política Estadual de Saúde; Política Estadual de Educação; Política Estadual de Assistência Social.",
+        "pagina": 5
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fundação Estadual de Ciência, Tecnologia e Inovação (FAPT). Secretaria do Desenvolvimento Econômico, Indústria, Comércio, Ciência, Tecnologia.",
+        "pagina": 9
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estruturam esse sistema, entre outras, as seguintes políticas públicas: ... Política Estadual de Cultura; Política Estadual de Esporte e Juventude. Secretaria da Cultura, Juventude e Economia Criativa; Fundação de Cultura, Memória e Patrimônio Tocantinense.",
+        "pagina": 5
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estruturam esse sistema, entre outras, as seguintes políticas públicas: ... Política Estadual de Direitos Humanos; Política Estadual de Igualdade Racial; Política Estadual das Mulheres; Política Estadual dos Povos Originários e Comunidades Tradicionais.",
+        "pagina": 5
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Bem-estar da Gente organiza o Sistema Estadual de Desenvolvimento Territorial, compreendendo que o desenvolvimento econômico somente possui legitimidade quando produz qualidade de vida, distribuição de oportunidades, sustentabilidade ambiental e equilíbrio regional.",
+        "pagina": 6
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Direito da Gente constitui o Sistema Estadual de Garantia dos Direitos Fundamentais. Estruturam esse sistema, entre outras, as seguintes políticas públicas: Política Estadual de Saúde; Política Estadual de Educação.",
+        "pagina": 5
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integram esse sistema políticas públicas voltadas para: ... infraestrutura e logística; cidades e habitação; saneamento ambiental. Agência Estadual de Infraestrutura e Mobilidade.",
+        "pagina": 6
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integram esse sistema políticas públicas voltadas para: ... recursos hídricos; proteção do Cerrado. Instituto Tocantinense das Águas, Saneamento e Mudanças Climáticas.",
+        "pagina": 9
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Bem-querer da Gente organiza o Sistema Estadual de Governança Democrática. Seu objetivo é reconstruir a relação entre Estado, municípios e sociedade, fortalecendo a democracia participativa, a transparência pública, o planejamento territorial e a cooperação institucional.",
+        "pagina": 6
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integram esse sistema: Política Estadual de Planejamento Participativo; ... Política Estadual de Cooperação Federativa; ... Secretaria de Relações Institucionais e Cooperação Federativa.",
+        "pagina": 6
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Direito da Gente constitui o Sistema Estadual de Garantia dos Direitos Fundamentais. Sua finalidade é assegurar que todas as pessoas tenham acesso universal às condições essenciais da cidadania. Estruturam esse sistema: Política Estadual de Saúde.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estruturam esse sistema, entre outras, as seguintes políticas públicas: ... Política Estadual de Segurança Pública e Segurança Cidadã.",
+        "pagina": 5
+      }
+    ]
+  }
+}

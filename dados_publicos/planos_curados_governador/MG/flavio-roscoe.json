@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O agronegócio mineiro exportou entre US$ 19,8 e 19,9 bilhões em 2025, recorde da série histórica iniciada em 1997, com o café respondendo por 57,1% dessa receita.",
+        "pagina": 8
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Priorizar a expansão de vagas de creche nos 55 municípios que hoje não têm nenhuma unidade pública, antes de ampliar a oferta onde já existe rede mínima instalada.",
+        "pagina": 17
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Belo Horizonte é o quarto ecossistema de tecnologia que mais cresce no mundo e o primeiro da América Latina.",
+        "pagina": 17
+      }
+    ]
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliação da rede de proteção à mulher com foco no momento de maior risco — o ciclo avançado de violência que hoje antecede a maioria dos feminicídios.",
+        "pagina": 12
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A proposta é tornar regra geral o diferimento do ICMS na importação de matéria-prima e ativo imobilizado independentemente do estado onde ocorre o desembaraço.",
+        "pagina": 14
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar um índice mineiro de continuidade da aprendizagem, medido a cada dois anos, que acompanhe a mesma coorte de estudantes.",
+        "pagina": 14
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas tem, hoje, o pior caixa entre os 27 estados brasileiros e pode ter deixado de arrecadar até R$ 22,65 bilhões em CFEM sonegada entre 2019 e 2025.",
+        "pagina": 11
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 9 — Infraestrutura, Saneamento, Habitação e Desigualdade Regional: déficit habitacional de 556 mil domicílios.",
+        "pagina": 16
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Instituir um cadastro público único de condicionantes ambientais por bacia hidrográfica, permitindo que qualquer cidadão acompanhe, pela internet, se as compensações ambientais foram cumpridas.",
+        "pagina": 15
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O que falta não é vontade, é transparência regional: não existe, hoje, dado público sobre o tempo de espera por cirurgia eletiva separado por macrorregião de saúde.",
+        "pagina": 5
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer o regime de colaboração significa assistência técnica permanente, formação continuada, compartilhamento de boas práticas entre redes e apoio direto à gestão educacional municipal.",
+        "pagina": 14
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde mineira tem, hoje, investimento recorde e avanços reais e mensuráveis: queda da mortalidade materna, ampliação do pré-natal adequado.",
+        "pagina": 12
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Plano de emergência para o déficit prisional, combinando ampliação de vagas com parcerias público-privadas de gestão, sem repetir os erros de superlotação.",
+        "pagina": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa Minas Rural Empreendedor: Ação coordenada pela Emater-MG para prestar assistência técnica, apoio à gestão e inovação nas pequenas propriedades rurais.",
+        "pagina": 12
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Índice Mineiro de Vulnerabilidade Familiar: Alocação de recursos e apoio do Estado priorizando os municípios com maiores indicadores de carência social e econômica.",
+        "pagina": 13
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Inovação Acessível e Compete Minas: Ampliação dos editais do Compete Minas com metas regionalizadas (...) maior integração entre startups, microempresas, universidades e APLs.",
+        "pagina": 10
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Descentralização dos Recursos da Cultura: Destinação prioritária de verbas estaduais para artistas, coletivos e projetos dos municípios do interior de Minas.",
+        "pagina": 15
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Prioridade Absoluta no Combate ao Feminicídio: Expansão das delegacias especializadas, fortalecimento da Patrulha de Proteção à Mulher e ampliação do monitoramento eletrônico de agressores.",
+        "pagina": 8
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ambiente de Negócios Simples e Digital: Expansão da REDESIM + Livre e do Minas Livre para Crescer, com apoio técnico do Sebrae.",
+        "pagina": 10
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Recomposição da Aprendizagem, Alfabetização e Educação Especial: Foco na alfabetização na idade certa e na recomposição da aprendizagem.",
+        "pagina": 9
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Renegociação da Dívida com a União: Atuação firme junto ao Governo Federal para renegociar a dívida estadual e criar um fundo de retorno de recursos para investimentos.",
+        "pagina": 6
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Priorização de Investimentos Públicos sem Novos Pedágios: Foco em investimentos diretos do orçamento e captação federal em vez de novas cobranças de pedágio.",
+        "pagina": 11
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Aceleração das Metas do Marco Legal do Saneamento: Universalização do abastecimento de água potável e do esgotamento sanitário, priorizando regiões mais deficitárias.",
+        "pagina": 14
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tolerância zero com a corrupção e com o uso do recurso público para interesses particulares. Transparência será regra absoluta, com o dinheiro do povo voltando para o povo.",
+        "pagina": 3
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os Fóruns Regionais de Gestão Pública serão institucionalizados com encontros semestrais em cada região de Minas Gerais, reunindo prefeitos, vereadores e representantes do Governo do Estado.",
+        "pagina": 4
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tabela Mineira de Procedimentos Estratégicos: Complementação do financiamento federal para expandir exames, consultas especializadas e cirurgias eletivas, reduzindo o tempo de espera.",
+        "pagina": 7
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Policiamento Ostensivo e Territorial: Ampliação da presença física das forças de segurança, com atuação orientada por dados.",
+        "pagina": 8
+      }
+    ]
+  }
+}

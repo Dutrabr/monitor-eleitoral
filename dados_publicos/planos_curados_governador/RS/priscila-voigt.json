@@ -1,0 +1,110 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reforma agrária popular, do monopólio privado sobre as terras. Defendemos a redistribuição das terras do Rio Grande do Sul, o fortalecimento da agricultura familiar, a produção de alimentos para suprir as necessidades do povo gaúcho e combater a fome que assola 1,7 milhão de pessoas no estado.",
+        "pagina": 7
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Construção e entrega de moradias definitivas para todas famílias atingidas pelas enchentes e ainda não contempladas pelo governo, incluindo as famílias que hoje estão em moradias temporárias.",
+        "pagina": 4
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Investimento massivo na UERGS e construção de novas unidades em todas as cidades polo do estado. Fortalecimento da Fapergs, como forma de incentivar e valorizar a produção de ciência no ensino superior do RS.",
+        "pagina": 6
+      }
+    ]
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implementação de real política de combate à violência contra as mulheres e as crianças, implementação de delegacias 24h em todas as regiões e no máximo de cidades do estado, política de moradia e emprego para mulheres vítimas de violência.",
+        "pagina": 7
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Lutar como governadora para que a nível nacional seja aprovado o fim da escala 6x1, a redução da jornada de trabalho, o aumento de 100% no salário-mínimo, bem como a revogação das reformas trabalhista e da previdência.",
+        "pagina": 7
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantia de investimento massivo na educação estadual. Não permitir a militarização das escolas, bem como sua privatização e as PPPs. Garantia de eleição direta para diretores das escolas, valorização dos professores.",
+        "pagina": 7
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Auditoria e suspensão da dívida pública do estado, com redirecionamento deste recurso às áreas sociais, como educação, transporte, alimentação e moradia. Anulação dos impostos extorsivos cobrados do povo; imposto sobre as grandes fortunas e progressivo.",
+        "pagina": 8
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reestatização de todos os meios de transportes coletivos do estado. Garantia do passe livre aos estudantes e aos trabalhadores, respeitando o direito de acesso à cidade.",
+        "pagina": 8
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa contra as enchentes e reforma urbana. Construção e desenvolvimento de estruturas de defesas nas cidades e a nível de estado contra cheias e inundações, bem como o fortalecimento e a reconstrução das estruturas, diques e sistemas de defesa destruídos nas últimas cheias.",
+        "pagina": 4
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "nao_consta"
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantia de investimento massivo na saúde estadual. Valorização dos profissionais da saúde, abertura de concurso público e convocação dos aprovados nos concursos anteriores. Contratação direta em 100% das atividades do SUS em todos os municípios do estado.",
+        "pagina": 7
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Proibição de operações militares em vilas e favelas. Desmilitarização da Brigada Militar. Punição exemplar para os policiais que tiverem praticado crime de tortura e execuções.",
+        "pagina": 7
+      }
+    ]
+  }
+}

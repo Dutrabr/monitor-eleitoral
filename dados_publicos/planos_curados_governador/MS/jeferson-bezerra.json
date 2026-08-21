@@ -1,0 +1,104 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cadeias Produtivas — apoio a arranjos produtivos locais (APLs) e cadeias estratégicas — agronegócio, bioenergia, celulose, turismo.",
+        "pagina": 1
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Inclusão produtiva articulada ao Eixo 1: programas sociais como ponte para qualificação e emprego.",
+        "pagina": 2
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Crédito MS Empreendedor — linha de crédito estadual com juros subsidiados e prazo estendido para micro e pequenas empresas do interior.",
+        "pagina": 1
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Valorização de profissionais e expansão do ensino técnico alinhado às vocações regionais.",
+        "pagina": 2
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Responsabilidade fiscal e eficiência administrativa (...) Orçamento por Resultados — recursos vinculados a metas de emprego e de presença estadual por região.",
+        "pagina": 1
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Rodovias e conectividade priorizadas pelos polos regionais definidos no Eixo 2.",
+        "pagina": 2
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Painel de Metas Aberto à Sociedade — acompanhamento público, em linguagem acessível, dos indicadores de emprego, investimento e serviços por região.",
+        "pagina": 2
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Conselho Estadual de Desenvolvimento Regional — instância permanente de coordenação entre governo, prefeituras e setor produtivo.",
+        "pagina": 2
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Regionalização da rede hospitalar e telemedicina para reduzir deslocamentos do interior à capital.",
+        "pagina": 2
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integração de forças de segurança e investimento em tecnologia, com presença ampliada no interior.",
+        "pagina": 2
+      }
+    ]
+  }
+}

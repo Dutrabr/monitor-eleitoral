@@ -1,0 +1,92 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "nao_consta"
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa \"Mato Grosso Tech\": Inclusão obrigatória de disciplinas de programação de computadores, robótica aplicada, inteligência artificial e introdução à ciência de dados na grade das escolas estaduais.",
+        "pagina": 8
+      }
+    ]
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Verticalizar as cadeias produtivas agropecuárias de Mato Grosso, expandindo a capacidade de processamento local, simplificando os processos regulatórios e assegurando previsibilidade jurídica para a instalação de novos distritos industriais.",
+        "pagina": 4
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elevar a qualidade do ensino público estadual combinando disciplina, modernização curricular tecnológica e expansão de escolas de tempo integral integradas ao ensino técnico profissionalizante.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fixar o princípio do Déficit Zero, estabilizar o crescimento das despesas correntes abaixo do crescimento das receitas e consolidar a excelência fiscal de Mato Grosso.",
+        "pagina": 11
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O objetivo central é consolidar Mato Grosso como o principal polo logístico e agroindustrial da América do Sul, convertendo a pujança econômica do setor primário em desenvolvimento estrutural.",
+        "pagina": 1
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Enxugar a estrutura administrativa do Estado, eliminar despesas supérfluas, profissionalizar a gestão pública por meio da meritocracia e implementar transparência em tempo real sobre todo e qualquer centavo gasto pelo erário.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Instituir a transparência absoluta no sistema de regulação de vagas, otimizar a operação dos Hospitais Regionais por meio de contratos de gestão orientados a resultados.",
+        "pagina": 13
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Assegurar o controle territorial e das fronteiras estaduais, desarticular as finanças do crime organizado e reestruturar o sistema penitenciário por meio do isolamento penal rígido.",
+        "pagina": 6
+      }
+    ]
+  }
+}

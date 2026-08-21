@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O interior paulista é uma potência: o agro mais sofisticado do país, a agroindústria, a energia da biomassa, o cooperativismo e a agricultura familiar que abastece as cidades.",
+        "pagina": 10
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos fortalecer a rede de assistência social em cooperação com os municípios, apoiar quem mais precisa com prioridade à primeira infância e às famílias em vulnerabilidade e garantir que nenhum paulista conviva com a fome.",
+        "pagina": 13
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "São Paulo reúne o que pouquíssimos lugares do mundo reúnem: universidades de ponta, base industrial, energia limpa, um mercado gigante e o ecossistema de startups mais desenvolvido da América Latina. Com esses ingredientes, vamos disputar os grandes investimentos da era da inteligência artificial.",
+        "pagina": 10
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A cultura paulista é potência econômica e alma do estado. Vamos apoiar a produção cultural em todas as regiões, garantir o acesso da população aos equipamentos e às linguagens culturais.",
+        "pagina": 13
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos enfrentar o racismo e toda forma de discriminação com política pública séria: igualdade de oportunidades na escola e no trabalho, resposta rigorosa aos crimes de ódio e serviço público que trate cada paulista com o mesmo respeito, seja qual for a sua cor, a sua fé ou a sua orientação.",
+        "pagina": 12
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos atuar para que o emprego paulista seja de melhor qualidade e melhor remuneração, conectando a formação profissional às vocações econômicas de cada região.",
+        "pagina": 10
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Toda criança paulista alfabetizada na idade certa, com o estado exercendo de verdade o papel de coordenador das redes: um pacto com os 645 municípios, com apoio técnico e financeiro, avaliação transparente e metas medidas pela régua federal.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Este programa foi feito para caber na responsabilidade fiscal: cada compromisso será implementado com fonte identificada no planejamento e no orçamento do estado, com rigor contra o gasto que não entrega e prioridade para o que muda a vida das pessoas.",
+        "pagina": 14
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos expandir o transporte sobre trilhos, avançar na integração entre os sistemas e os modais, qualificar o transporte metropolitano e cuidar das ligações que conectam o interior.",
+        "pagina": 12
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os eventos extremos deixaram de ser exceção, e o estado precisa estar preparado. Vamos fortalecer a prevenção de desastres e a Defesa Civil, mapear e cuidar das áreas de risco em parceria com os municípios.",
+        "pagina": 12
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O governador vai liderar pessoalmente um modelo de gestão com prioridades claras, metas públicas e responsáveis nomeados, cobrados em ciclos regulares de avaliação e em parceria com as prefeituras de cada região do estado.",
+        "pagina": 13
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Toda criança paulista alfabetizada na idade certa, com o estado exercendo de verdade o papel de coordenador das redes: um pacto com os 645 municípios, com apoio técnico e financeiro, avaliação transparente e metas medidas pela régua federal.",
+        "pagina": 8
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "No nosso governo, a saúde vai chegar na hora certa: com o paciente no centro do cuidado, uma rede de atenção que funcionará e o atendimento que chegará antes da doença.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública será a prioridade número um do governo Haddad (...) o SP Protege tem como eixo central a Impunidade Zero, para que os crimes finalmente sejam resolvidos no estado.",
+        "pagina": 6
+      }
+    ]
+  }
+}

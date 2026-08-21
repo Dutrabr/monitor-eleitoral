@@ -1,0 +1,132 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A agricultura familiar, embora seja central para a produção de alimentos, a geração de renda e a permanência das famílias no campo, ainda não ocupa posição prioritária na estratégia econômica estadual.",
+        "pagina": 10
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ASSISTÊNCIA SOCIAL. A Assistência Social é uma política pública essencial para enfrentar a pobreza, a fome, as desigualdades sociais e as múltiplas formas de violação de direitos.",
+        "pagina": 37
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CIÊNCIA E TECNOLOGIA. O Porto Digital consolidou Pernambuco como uma referência nacional e latino-americana em inovação, tecnologia e economia do conhecimento (...) os benefícios desse avanço permanecem concentrados na Região Metropolitana do Recife.",
+        "pagina": 54
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA. Pernambuco possui uma produção cultural ampla, marcada pela diversidade de manifestações populares, artísticas e tradicionais presentes em todas as regiões do estado.",
+        "pagina": 29
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MULHERES. A pauta das mulheres não pode ser tratada como um tema isolado ou restrito ao enfrentamento da violência doméstica. Ela precisa orientar o conjunto das políticas públicas, reconhecendo que a desigualdade de gênero estrutura a forma como as mulheres acessam direitos.",
+        "pagina": 63
+      },
+      {
+        "texto": "POPULAÇÃO LGBTQIAPN+. A violência contra a população LGBTQIAPN+ permanece como uma grave violação de direitos humanos no Brasil (...) em 2024, o estado ocupou a 7ª posição nacional em número de assassinatos de pessoas trans.",
+        "pagina": 69
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pernambuco permanece marcado por elevados índices de pobreza, desemprego, insegurança alimentar e informalidade. Mais de 4,8 milhões de pessoas vivem abaixo da linha da pobreza.",
+        "pagina": 9
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. Em 2024, a Rede Estadual de Ensino de Pernambuco registrou 514.832 matrículas, uma redução de aproximadamente 4,52% em relação a 2023.",
+        "pagina": 25
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A reforma tributária nacional ampliará esses desafios (...) Pernambuco precisará superar a dependência da guerra fiscal (...) A transição tributária também exige uma administração fiscal capaz de arrecadar melhor, combater a sonegação e proteger os contribuintes de boa-fé.",
+        "pagina": 9
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MOBILIDADE. O transporte é um direito social consagrado no artigo 6º da Constituição Federal e uma condição fundamental para o acesso ao trabalho, à educação, à saúde, à cultura, ao lazer e aos demais serviços públicos.",
+        "pagina": 32
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MEIO AMBIENTE. Pernambuco vive uma profunda crise socioambiental, climática e territorial (...) o Índice de Gini, em torno de 0,52, revela que o crescimento econômico não tem se convertido em distribuição justa de renda.",
+        "pagina": 47
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pernambuco precisa construir um governo digital orientado por direitos humanos, com plena implementação da Lei Geral de Proteção de Dados, controle público sobre tecnologias de alto risco e proibição do reconhecimento facial na segurança pública.",
+        "pagina": 55
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Coordenar programas de cooperação técnica de apoio, padronização e integração da rede municipal de atendimento às mulheres vítimas de violência com municípios pernambucanos, sobretudo aqueles do interior.",
+        "pagina": 24
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE E POLÍTICAS DE DROGAS. A saúde em Pernambuco expressa um conjunto de desafios estruturais que exigem uma atuação mais firme, planejada e integrada do governo estadual.",
+        "pagina": 3
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA. 94% das pessoas reconhecem algum grau de violência na cidade onde vivem; mais da metade, 53%, evita sair à noite; e 31% evita usar o celular na rua como forma de autoproteção.",
+        "pagina": 15
+      }
+    ]
+  }
+}

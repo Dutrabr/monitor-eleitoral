@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "9. Produzir mais no campo e crescer junto com a RIDE. Compromisso assumido: O campo é uma das grandes forças econômicas do Distrito Federal e pode gerar ainda mais oportunidades quando trabalha integrado à região. Nosso compromisso é fortalecer o cinturão rural e periurbano com inovação, assistência técnica, logística, tecnologia e integração produtiva entre o Distrito Federal e os municípios da RIDE.", "pagina": 116}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 5 DE 13. Desenvolvimento Humano e Proteção Social. Vulnerabilidades raramente aparecem de forma isolada. Falta de renda, insegurança alimentar, violência, rompimento de vínculos, desemprego, deficiência, envelhecimento e dificuldade de acesso a serviços podem se acumular na mesma trajetória.", "pagina": 83}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 2 DE 13. Inteligência Artificial, TIC e Cidades Inteligentes.", "pagina": 54}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 10 DE 13. Cultura, Turismo, Esporte e Lazer.", "pagina": 120}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 6 DE 13. Políticas Públicas para as Mulheres. (Também Política Pública 7 — Cidadania, Direitos e Justiça Social.)", "pagina": 94}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 8 DE 13. Trabalho, Emprego, Empreendedorismo e Renda. (Também Política Pública 9 — Desenvolvimento Econômico.)", "pagina": 105}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 4 DE 13. Educação.", "pagina": 69}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 1 DE 13. Economia, Gestão Governamental e Políticas Públicas. Capacidade fiscal e capacidade de governo precisam avançar juntas. O equilíbrio das contas preserva os meios de ação do Estado (...) O governo deve arrecadar e gastar com responsabilidade, escolher prioridades, coordenar a execução e preservar condições para responder aos desafios presentes e futuros.", "pagina": 45}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 11 DE 13. Desenvolvimento Urbano, Habitação e Ordenamento Territorial. (Também Política Pública 12 — Infraestrutura, Mobilidade, Logística, Meio Ambiente e Sustentabilidade.)", "pagina": 128}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 12 DE 13. Infraestrutura, Mobilidade, Logística, Meio Ambiente e Sustentabilidade.", "pagina": 134}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Como o governo organiza suas capacidades para transformar visão em resultados. Capítulo 8 — Direção Estratégica de Governo: Centro de Governo. Capítulo 9 — As Capacidades Permanentes do Estado.", "pagina": 27}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "fortalecer a integração operacional e interfederativa com os sistemas de transporte da Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE-DF), observados os instrumentos de cooperação entre os entes federativos.", "pagina": 137}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 3 DE 13. Saúde.", "pagina": 58}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "POLÍTICA PÚBLICA 13 DE 13. Segurança Pública, Proteção da Vida e Defesa Social.", "pagina": 150}
+    ]
+  }
+}

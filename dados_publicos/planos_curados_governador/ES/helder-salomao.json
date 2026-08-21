@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 — AGRICULTURA E MEIO AMBIENTE. Milhares de famílias que residem no Espírito Santo, vivem e sobrevivem ou dependem da produção agrícola. (...) O Instituto de Defesa Agropecuária e Florestal do Espírito Santo (IDAF) já mapeou 133 mil produtores da agricultura familiar em nosso território.", "pagina": 8}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 — SAÚDE, ASSISTÊNCIA E PROTEÇÃO SOCIAL. A saúde é um direito de todos. A assistência social é direito de quem vive em situação de vulnerabilidade. A proteção social é o compromisso do Estado em garantir a dignidade e a segurança de seus cidadãos.", "pagina": 14}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "os desafios não se encerram na educação formal, novos desafios surgem a cada dia com os avanços da ciência e da tecnologia no mundo moderno (...) É preciso investir na infraestrutura científica, tecnológica e de inovação em todas as unidades escolares nas diversas regiões do Espírito Santo.", "pagina": 19}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5 — CULTURA, TURISMO E ESPORTE. Turismo, cultura e esporte são políticas públicas imprescindíveis para o esforço de construção da paz social, geração de oportunidades, reconstrução democrática e desenvolvimento do Espírito Santo que queremos.", "pagina": 24}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 8 — RESPEITO ÀS DIVERSIDADES, COMBATE ÀS DESIGUALDADES E JUSTIÇA SOCIAL. No Espírito Santo, o acesso a direitos e serviços públicos varia conforme o gênero, a cor da pele, a idade, a deficiência e o lugar onde a pessoa vive.", "pagina": 36}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 10 — DESENVOLVIMENTO ECONÔMICO, REFORMA TRIBUTÁRIA, MICRO E PEQUENA EMPRESAS. O esgotamento do projeto político e econômico que hegemonizou o Estado nas últimas décadas se explica tanto pelas suas concepções, quanto pela incapacidade dos seus detentores de perceberem o alcance e as mudanças em curso.", "pagina": 51}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A Constituição Federal de 1988 atribui à educação o papel de promover o pleno desenvolvimento da pessoa, de prepará-la para o exercício da cidadania e de qualificá-la para o trabalho.", "pagina": 19}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "realizar uma gestão pública eficiente, democrática e voltada para as pessoas, com responsabilidade fiscal, gestão orçamentária eficaz e justiça social em todo o território capixaba.", "pagina": 5}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6 — MOBILIDADE URBANA, INFRAESTRUTURA, HABITAÇÃO E SANEAMENTO. A Constituição Federal de 1988 consagra, dentre os direitos sociais, a moradia, o transporte e o saneamento.", "pagina": 29}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecer o Sistema Estadual de Unidades de Conservação (SISEUC) e realizar estudos para ampliar e criar novas unidades de conservação, bem como implantar e implementar corredores ecológicos. Revisar a Política Estadual de Recursos Hídricos com participação e controle social.", "pagina": 12}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1 — GESTÃO PÚBLICA E CONTROLE SOCIAL. (...) fundamental, ainda, fortalecer a democracia e o controle social, com o avanço do debate popular do Orçamento e a garantia do pleno funcionamento dos conselhos de políticas públicas e outros fóruns que possibilitam a participação cidadã.", "pagina": 5}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "a valorização dos municípios parte da compreensão de que a cooperação entre o Estado e os poderes locais precisa respeitar as características e as necessidades de cada região capixaba.", "pagina": 3}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 — SAÚDE, ASSISTÊNCIA E PROTEÇÃO SOCIAL. A saúde é um direito de todos.", "pagina": 14}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 9 — SEGURANÇA PÚBLICA E DIREITOS HUMANOS. Para a maioria da população capixaba, a segurança não se mede em estatística. Ela se traduz em algo simples: poder sair de casa, trabalhar, se divertir e voltar em paz.", "pagina": 42}
+    ]
+  }
+}

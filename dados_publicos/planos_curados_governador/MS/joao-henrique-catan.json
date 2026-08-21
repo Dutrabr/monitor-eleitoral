@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecimento da agricultura familiar, de cooperativas e de compras governamentais (...) Agroindustrialização com apoio à transformação local da produção.",
+        "pagina": 41
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integração entre segurança, assistência social, educação e saúde mental para áreas de maior risco.",
+        "pagina": 37
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tecnologia será tratada como infraestrutura administrativa. O objetivo é fazer o Estado caber no celular do cidadão, reduzir burocracia, integrar bases de dados.",
+        "pagina": 35
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul possui uma identidade própria, formada pelas culturas pantaneira, fronteiriça, indígena, rural e urbana. A política cultural valorizará esse patrimônio.",
+        "pagina": 38
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Enfrentamento forte ao feminicídio, assédio e demais formas de violência contra a mulher (...) Atendimento a comunidades indígenas, quilombolas, ribeirinhas e demais populações tradicionais.",
+        "pagina": 37
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A integração logística com Paraguai, Argentina e demais mercados sul-americanos será utilizada como instrumento para atrair investimentos, ampliar cadeias produtivas, agregar valor e gerar novos empregos.",
+        "pagina": 41
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação será tratada como base do desenvolvimento de Mato Grosso do Sul, com foco em aprendizagem, qualidade do ensino, tecnologia e preparação dos jovens.",
+        "pagina": 32
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul precisa de um Estado que gaste melhor, cobre menos e entregue mais. O dinheiro arrecadado deve ser tratado com responsabilidade.",
+        "pagina": 14
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A espinha dorsal do plano é uma missão de infraestrutura com escala de Estado (...) mobilidade, no escoamento, na saúde urbana e na competitividade regional.",
+        "pagina": 18
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Bonito e Serra da Bodoquena: proteger a qualidade e a transparência das águas, nascentes e bacias hidrográficas.",
+        "pagina": 43
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Um governo eficiente não é aquele que apenas arrecada e administra recursos, mas aquele que transforma dinheiro público em resultados concretos para a população.",
+        "pagina": 45
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Pacto 79 Municípios será a principal engrenagem político-administrativa do mandato. Em vez de trabalhar com uma relação episódica com as prefeituras, o Estado adotará uma plataforma permanente de cooperação.",
+        "pagina": 16
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul fará um choque de gestão na saúde, com foco na redução do tempo de espera, ampliação da capacidade regional, prevenção e controle rigoroso dos custos.",
+        "pagina": 28
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segurança Pública, Fronteira e Proteção Social — 12.1 Presença, tecnologia e resposta: Observatório de dados para orientar a política de segurança.",
+        "pagina": 36
+      }
+    ]
+  }
+}

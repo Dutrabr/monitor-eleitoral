@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer sistemas produtivos resilientes ao clima, com distribuição de kits de irrigação eficiente e adoção de tecnologias de convivência com o semiárido.",
+        "pagina": 53
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 5 — Direitos e Proteção Social: Ninguém Fica Para Trás. Entre 2022 e 2024, a taxa de pobreza foi reduzida de 48,3% para 37,3%, enquanto a proporção da população em situação de extrema pobreza caiu de 11,7% para 4,0%.",
+        "pagina": 39
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 4 — Ciência, Tecnologia e Inovação: O Estado a um Clique. O Piauí vive uma profunda transformação digital (...) figurando como o líder nacional no Índice ABEP-TIC de Oferta de Serviços Públicos Digitais.",
+        "pagina": 34
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 3 — Educação, Cultura e Esporte: Desenvolvendo talentos, construindo futuros. Os avanços também alcançaram a cultura e o esporte, com o fortalecimento dos mecanismos de fomento.",
+        "pagina": 27
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os avanços também chegaram às políticas de direitos humanos e inclusão. O Piauí ampliou os serviços destinados às pessoas com deficiência, com mais de 97 mil atendimentos realizados pelo Centro Integrado de Reabilitação (CEIR).",
+        "pagina": 39
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 1 — Pacto pela Economia: Piauí com Mais Empreendedorismo, Mais Trabalho e Mais Renda. O Piauí vive um novo ciclo de desenvolvimento econômico. O estado registrou crescimento de 11,1% do PIB em 2023, acima da média do Nordeste.",
+        "pagina": 7
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O maior patrimônio do Piauí é o talento do seu povo. Hoje, a rede estadual conta com cerca de 60% das matrículas do ensino médio integradas à Educação Profissional e Tecnológica.",
+        "pagina": 27
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nos últimos anos, o Piauí consolidou uma gestão reconhecida nacionalmente pelo planejamento, pelo equilíbrio fiscal e pela capacidade de investimento.",
+        "pagina": 62
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 6 — Infraestrutura: Logística, Mobilidade, Habitação, Saneamento e Energia. Entre 2023 e 2025, foram recuperados mais de 8 mil quilômetros de rodovias estaduais, implantados mais de 1.200 quilômetros de novas rodovias pavimentadas.",
+        "pagina": 49
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 7 — Meio Ambiente, Clima, Recursos Hídricos, Defesa Civil e Proteção Animal. Entre 2023 e 2025, foram distribuídas 3 milhões de mudas de espécies nativas, capacitadas 102 brigadas municipais e 1.333 brigadistas florestais.",
+        "pagina": 56
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 8 — Governo Eficiente, Participativo e Colaborativo. O governo ampliou a transformação digital, fortaleceu os mecanismos de transparência e controle (...) por meio do Orçamento Participativo Digital (OPA).",
+        "pagina": 62
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implantaremos um escritório permanente dos Pactos para apoiar os municípios e promoveremos o desenvolvimento integrado das regiões metropolitanas de Teresina e Parnaíba.",
+        "pagina": 63
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 2 — Saúde, Segurança e Trânsito: A Vida em Primeiro Lugar. O tempo médio de espera por consultas especializadas caiu para 10 dias, um dos menores do país, enquanto a espera por cirurgias eletivas foi reduzida de 464 dias em 2022 para 32 dias em 2026.",
+        "pagina": 18
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na segurança pública, o estado também alcançou resultados históricos. Em 2025, o Piauí registrou o menor número de Mortes Violentas Intencionais (MVIs) dos últimos dez anos, com 573 ocorrências, representando uma redução de 31% em relação a 2022.",
+        "pagina": 18
+      }
+    ]
+  }
+}

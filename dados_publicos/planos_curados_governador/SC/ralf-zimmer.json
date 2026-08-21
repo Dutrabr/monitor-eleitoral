@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "AGRICULTURA, AGROINDÚSTRIA E DESENVOLVIMENTO RURAL. Fortalecer o campo, a agricultura familiar, a agroindústria e a competitividade do produtor catarinense. Ampliar qualificação profissional; estimular tecnologia no campo; melhorar conectividade rural.",
+        "pagina": 14
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "HABITAÇÃO E PROTEÇÃO SOCIAL. Apoiar famílias em situação de vulnerabilidade e ampliar caminhos para autonomia. Enfrentar a questão das pessoas em situação de rua sem populismo ou soluções simplistas.",
+        "pagina": 17
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TECNOLOGIA, INOVAÇÃO E CIÊNCIA. Posicionar Santa Catarina na fronteira da inovação e usar tecnologia para melhorar serviços e produtividade. Fortalecer ambientes de inovação; apoiar parques tecnológicos; aproximar universidades e empresas.",
+        "pagina": 21
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA, ESPORTE E ECONOMIA CRIATIVA. Ampliar oportunidades de participação cultural e esportiva e fortalecer talentos catarinenses. Aperfeiçoar mecanismos de incentivo à cultura; apoiar novos talentos; fortalecer patrimônio e identidade regional.",
+        "pagina": 20
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MULHER, FAMÍLIA, JUVENTUDE E INCLUSÃO. Fortalecer políticas de proteção, prevenção e oportunidades. Ampliar a proteção e o atendimento às mulheres vítimas de violência; fortalecer redes de prevenção.",
+        "pagina": 18
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO ECONÔMICO E LIBERDADE PARA EMPREENDER. Tornar Santa Catarina cada vez mais competitiva para empreendedores, trabalhadores e investidores. Simplificar abertura e fechamento de empresas; reduzir burocracia.",
+        "pagina": 13
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO E FORMAÇÃO PROFISSIONAL. Preparar crianças e jovens para a cidadania, para o ensino superior e para o mercado de trabalho. Ampliar progressivamente a educação em tempo integral.",
+        "pagina": 10
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GESTÃO PÚBLICA E RESPONSABILIDADE FISCAL. Construir um Estado mais simples, eficiente, digital e orientado por resultados. Fortalecer mecanismos de controle interno; aprimorar compras públicas; ampliar transparência de contratos e despesas.",
+        "pagina": 5
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INFRAESTRUTURA E MOBILIDADE. Eliminar gargalos que prejudicam a mobilidade das pessoas e o escoamento da produção. Assumir a duplicação da BR-282 como prioridade número um.",
+        "pagina": 11
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DEFESA CIVIL E RESILIÊNCIA CLIMÁTICA. Proteger vidas, reduzir perdas e preparar Santa Catarina para eventos climáticos extremos. Modernizar monitoramento hidrológico e meteorológico; ampliar sistemas de alerta.",
+        "pagina": 8
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GOVERNO DIGITAL E DESBUROCRATIZAÇÃO. Adotar o modelo de Gestão 100% Transparente, disponibilizando em portal público o relatório de produtividade trimestral de todos os servidores e comissionados, a agenda diária e a divulgação pública obrigatória dos dados financeiros.",
+        "pagina": 6
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MUNICIPALISMO E DESENVOLVIMENTO REGIONAL. Fazer do Governo do Estado um parceiro efetivo dos 295 municípios catarinenses. Fortalecer convênios e transferências com critérios transparentes; ampliar apoio técnico.",
+        "pagina": 22
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE: ATENDIMENTO MAIS RÁPIDO. Reduzir filas e ampliar o acesso à média e alta complexidade, aproximando o atendimento da população.",
+        "pagina": 9
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA E CIDADANIA. Proteger as famílias catarinenses, combater o crime organizado e fortalecer a capacidade operacional das forças de segurança. Ampliar o uso de inteligência policial; integrar informações entre as forças.",
+        "pagina": 7
+      }
+    ]
+  }
+}

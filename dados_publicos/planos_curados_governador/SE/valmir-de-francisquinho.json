@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.7 Agricultura, Pecuária e Segurança Alimentar. O desenvolvimento de Sergipe passa, necessariamente, pelo fortalecimento do campo. A agricultura, a pecuária e a segurança alimentar são pilares estratégicos.",
+        "pagina": 38
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar o acesso a políticas públicas voltadas às famílias inscritas no Cadastro Único e das comunidades em situação de vulnerabilidade, mediante qualificação profissional e incentivo ao empreendedorismo.",
+        "pagina": 47
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.3.1 Inovação Tecnológica. Ampliar e melhorar a distribuição dos recursos do FUNTEC, buscando fortalecer o sistema estadual de ciência, tecnologia e inovação (CT&I); ampliar as ações de fomento à pesquisa e à inovação por meio da Fapitec/SE.",
+        "pagina": 23
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.10 Cultura, Turismo e Identidade Sergipana. A cultura, o turismo e a valorização da identidade sergipana constituem pilares.",
+        "pagina": 48
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.8 Mulheres, Juventude, Diversidade e Inclusão Social. O desenvolvimento de Sergipe passa necessariamente pela construção de uma sociedade mais justa, inclusiva e comprometida com a promoção da dignidade humana. Ainda persistem no Estado desafios históricos relacionados às mulheres.",
+        "pagina": 41
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.1 Gente: Desafios Econômicos, Geração de Emprego e Inserção Social. O desenvolvimento econômico somente alcança seu verdadeiro propósito quando promove dignidade, reduz desigualdades, amplia oportunidades.",
+        "pagina": 12
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.3 Educação para o Futuro e Inovação Tecnológica. Escolas inteligentes, conectividade, laboratórios, bibliotecas digitais, robótica, inteligência artificial e inovação pedagógica.",
+        "pagina": 20
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.5 Responsabilidade Fiscal e Modernização da Gestão Pública. A construção de um Estado moderno, eficiente e socialmente justo exige uma gestão pública responsável, transparente e comprometida com a boa aplicação dos recursos públicos.",
+        "pagina": 27
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.6 Infraestrutura, Desenvolvimento Regional e Transição Energética. A interiorização dos investimentos, a modernização da logística, a ampliação da mobilidade e o fortalecimento da infraestrutura urbana e regional permitirão reduzir desigualdades.",
+        "pagina": 31
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13. Meio Ambiente e Conservação. Modernizar o sistema estadual de licenciamento ambiental, garantindo segurança jurídica, transparência e eficiência; fortalecer a governança ambiental e a participação social; recuperar áreas degradadas e ampliar programas de reflorestamento.",
+        "pagina": 36
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.5 Responsabilidade Fiscal e Modernização da Gestão Pública. Sergipe precisa fortalecer sua capacidade institucional para planejar, investir, executar e prestar contas com transparência.",
+        "pagina": 27
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "VI – Governança e Cooperação Federativa. Integração permanente entre Estado, municípios, Governo Federal, universidades, setor produtivo e sociedade civil para a construção de políticas públicas educacionais sustentáveis.",
+        "pagina": 20
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.2 Saúde Humanizada e Eficiente. Nosso governo trabalhará para construir um sistema de saúde mais humano, regionalizado, moderno e resolutivo. O cidadão será colocado no centro das políticas públicas.",
+        "pagina": 18
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.4 Segurança Pública e Cultura de Paz. Nosso Governo promoverá uma política de segurança pública baseada na inteligência, na prevenção, na integração institucional e na valorização da vida.",
+        "pagina": 27
+      }
+    ]
+  }
+}

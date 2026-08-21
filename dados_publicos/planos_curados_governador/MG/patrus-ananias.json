@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a política agrícola e o desenvolvimento do agronegócio mineiro (...) Apoiar a modernização, a inovação tecnológica, a agregação de valor e a expansão dos mercados.",
+        "pagina": 43
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Transformar Minas Gerais em território livre da fome, por meio do fortalecimento da agricultura familiar e das cadeias produtivas, da ampliação de hortas, cozinhas comunitárias.",
+        "pagina": 18
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais possui um dos mais robustos sistemas de Ciência, Tecnologia e Inovação do Brasil (...) sendo necessário potencializar este ativo para fortalecer a inovação.",
+        "pagina": 32
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A cultura é um direito de todos e uma dimensão essencial do desenvolvimento de Minas Gerais.",
+        "pagina": 57
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar o Plano Estadual de Promoção da Igualdade Racial, com metas de enfrentamento ao racismo e ações de valorização da história, da memória e da cultura afro-brasileira e indígena.",
+        "pagina": 65
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso compromisso é fortalecer a capacidade produtiva do estado por meio da inovação, da qualificação da força de trabalho, do apoio às pequenas e médias empresas.",
+        "pagina": 39
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação é um pilar fundamental para o desenvolvimento de um Estado (...) fortalecimento da articulação entre as políticas públicas e a cooperação com os municípios.",
+        "pagina": 7
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A dívida do Estado, que era de R$113,8 bilhões no início deste governo, chegou a R$213,5 bilhões ao final do período.",
+        "pagina": 47
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A qualidade das rodovias é decisiva para reduzir as desigualdades regionais, promover a integração do território, fortalecer a economia e garantir o direito de ir e vir.",
+        "pagina": 51
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Construir uma política estadual de enfrentamento à emergência climática considerando as especificidades e desigualdades dos territórios de Minas Gerais.",
+        "pagina": 23
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A gestão pública será orientada pela participação social, pela transparência, pelo uso estratégico de dados, pela inovação tecnológica e pela descentralização administrativa.",
+        "pagina": 54
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Problemas como transporte e mobilidade, logística, saneamento, segurança, meio ambiente, emprego e renda (...) somente podem ser enfrentados adequadamente se entendemos que eles nunca se restringem a um único município.",
+        "pagina": 50
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde é um direito fundamental e deve ser garantido por meio de um SUS público, universal, integral e de qualidade.",
+        "pagina": 14
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Instituir e consolidar o Sistema Único de Segurança Pública (SUSP) em Minas Gerais, promovendo atuação integrada, compartilhamento de informações, planejamento conjunto.",
+        "pagina": 36
+      }
+    ]
+  }
+}

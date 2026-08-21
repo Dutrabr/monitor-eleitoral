@@ -1,0 +1,98 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "V - UM OUSADO PROGRAMA DE HABITAÇÃO POPULAR. CONSTRUIR 50.000 NOVAS RESIDÊNCIAS POPULARES EM 4 ANOS. Teremos como prioridade as pessoas que vivem em condições precárias.",
+        "pagina": 11
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "D – A UERN COMO ALAVANCA ESSENCIAL DO DESENVOLVIMENTO. Criar novos polos tecnológicos ligados à UERN. Laboratórios em parceria com indústria, agricultura, energias renováveis, saúde pública e tecnologia.",
+        "pagina": 6
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "VI - DIVULGAR COM MUITA FORÇA E ALAVANCAR O TURISMO, DOBRANDO A RECEITA EM OITO ANOS. Consolidar o Rio Grande do Norte como referência nacional em turismo sustentável.",
+        "pagina": 11
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "IV - INDUSTRIALIZAÇÃO ACELERADA DO ESTADO. Vamos promover viagens à Ásia, particularmente à China (...) o caminho é construir nossas próprias empresas, ainda que seja partindo do zero.",
+        "pagina": 10
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "I - UMA REVOLUÇÃO NA QUALIDADE DA EDUCAÇÃO. Também o analfabetismo funcional deve cair, no mínimo, 50% em 4 anos.",
+        "pagina": 2
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "nao_consta"
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "É importante realizar uma forte campanha de educação de nosso povo sobre a gravidade da crise ambiental (...) forte EDUCAÇÃO AMBIENTAL NAS ESCOLAS E UNIVERSIDADES, por nossas crianças e jovens, que por sua vez educarão as suas famílias.",
+        "pagina": 14
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "III – OTIMIZAÇÃO DO SERVIÇO PÚBLICO E FORTE VALORIZAÇÃO E RESPEITO AOS SERVIDORES. Um Projeto de Lei estabelecendo a contratualização direta entre os serviços e os correspondentes níveis de gestão, com o estabelecimento de metas e deveres, com Conselho Gestor para acompanhar sua execução.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estruturação da rede de serviços em todos os municípios, de forma regionalizada e hierarquizada, de acordo com o perfil sócio-epidemiológico e as reais necessidades de cada localidade.",
+        "pagina": 9
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "II – SAÚDE DE QUALIDADE. Diante desse quadro que inviabiliza quaisquer possibilidades reais de consolidar o SUS universal e integral conforme preconizado na Constituição Federal, propomos o debate das propostas a seguir.",
+        "pagina": 6
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "nao_consta"
+  }
+}

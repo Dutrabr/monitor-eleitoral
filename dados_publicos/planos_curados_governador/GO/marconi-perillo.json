@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A agropecuária é uma das grandes forças econômicas de Goiás (...) O desafio será elevar a produtividade e agregar valor à produção, ampliar o acesso à tecnologia, fortalecer a defesa agropecuária.",
+        "pagina": 30
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantir atendimento às famílias e pessoas em situação de pobreza, insegurança alimentar, abandono, violência ou outras formas de vulnerabilidade (...) Retomar e atualizar o Renda Cidadã.",
+        "pagina": 46
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Exige também fortalecer a educação profissional e a Universidade Estadual de Goiás, aproximando educação, pesquisa, inovação e desenvolvimento regional.",
+        "pagina": 11
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Goiás possui um patrimônio cultural, histórico, natural e humano que constitui uma de suas maiores riquezas (...) O desafio é fazer com que esse patrimônio seja cada vez mais preservado, valorizado, acessível.",
+        "pagina": 50
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As políticas para mulheres deverão considerar as diferentes realidades vividas ao longo da vida, articulando proteção, saúde, qualificação, trabalho, empreendedorismo, crédito e habitação, com atenção especial às mães solo, mulheres em situação de vulnerabilidade, mulheres rurais e idosas.",
+        "pagina": 48
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O próximo desafio é transformar essa base econômica em mais produtividade, investimentos, inovação, empregos de qualidade e renda para a população.",
+        "pagina": 25
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação é uma das principais bases do desenvolvimento humano, econômico e social de Goiás (...) assegurar que crianças e jovens aprendam efetivamente.",
+        "pagina": 11
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Modernização administrativa deverá caminhar junto com integridade, transparência, proteção de dados, controle, eficiência do gasto e responsabilidade fiscal.",
+        "pagina": 56
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A qualidade das rodovias, da mobilidade, do saneamento, da conectividade e da infraestrutura urbana interfere diretamente no cotidiano das pessoas, na competitividade das empresas e nas possibilidades de desenvolvimento dos municípios.",
+        "pagina": 35
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento de Goiás depende diretamente da qualidade de seus recursos naturais. Água, solo, vegetação, biodiversidade e equilíbrio climático são essenciais.",
+        "pagina": 40
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A transparência deverá avançar para além da divulgação de receitas e despesas. A sociedade deverá ter condições de acompanhar, de forma simples e acessível, as principais prioridades e compromissos do Governo.",
+        "pagina": 58
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A relação com os municípios será republicana, institucional e independente de filiação partidária (...) Nenhum município será discriminado ou terá seu acesso ao Governo condicionado por razões político-partidárias.",
+        "pagina": 60
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Queremos construir uma saúde pública mais próxima, integrada, humanizada e resolutiva, capaz de cuidar das pessoas no momento em que precisam.",
+        "pagina": 15
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Queremos consolidar Goiás como um Estado cada vez mais seguro para viver, trabalhar, produzir e criar uma família.",
+        "pagina": 20
+      }
+    ]
+  }
+}

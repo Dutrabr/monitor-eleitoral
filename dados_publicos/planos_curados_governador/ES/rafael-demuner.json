@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "6. Reforma Agrária Popular. Fim do latifúndio. Controle estatal dos preços dos alimentos e controle e redução do uso de agrotóxicos. Garantia de acesso à terra e crédito para aqueles que nela trabalham, com fomento às pequenas culturas, agricultura urbana e agricultura familiar.", "pagina": 12}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Criação de uma rede de supermercados populares, para garantir a distribuição de alimentos a preço baixo. Redução de impostos para comerciantes locais e pequenos agricultores.", "pagina": 12}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Investimento em ciência e tecnologia com participação e controle popular da agenda de pesquisa e de seus resultados.", "pagina": 14}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "15. Defesa e incentivo à cultura nacional e popular; nacionalização de todas as companhias gravadoras de música e produtoras de filmes. Democratização dos meios de comunicação, com canais de televisão estaduais, jornais e rádios estatais e comunitários.", "pagina": 20}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2. Fim do feminicídio e do assédio às mulheres. Salário igual e creche no local de trabalho. Prisão de todos os agressores e assassinos das mulheres. Fortalecimento da Secretaria Estadual das Mulheres. (Também item 14 — Demarcação das terras indígenas e quilombolas; item 16 — Combate à LGBTfobia.)", "pagina": 9}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. Aumento de 100% do salário-mínimo. Revogação das reformas trabalhista e da Previdência. Redução da jornada de trabalho, fim da escala 6x1 e jornada de 36 horas semanais. Combate à precarização do trabalho por aplicativos.", "pagina": 8}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Combate à privatização da educação pública e fortalecimento de um sistema público integrado entre estado e municípios. Realizar uma Reforma Popular da Educação, construída com a participação de professores, estudantes, trabalhadores da educação.", "pagina": 13}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3. Suspensão dos pagamentos da dívida pública. Auditoria da Dívida. Nacionalização dos bancos. Manutenção do Banestes integralmente público. Proibição de sua privatização.", "pagina": 10}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "8. Estatização do transporte público: passe-livre para estudantes e trabalhadores. Implementar a tarifa zero no transporte público.", "pagina": 15}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "12. Defesa do meio ambiente. Fim da exploração estrangeira de nossos minérios. Maior regulamentação das atividades industriais, visando reduzir os impactos ao povo e à natureza. Cumprimento integral do acordo do pó preto.", "pagina": 17}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "13. Combate à corrupção, confisco dos bens dos corruptos e de suas empresas. Expropriação das empresas que têm trabalho análogo à escravidão. Confisco dos bens e cassação dos direitos políticos de corruptos e corruptores após condenação.", "pagina": 18}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Combate à privatização da educação pública e fortalecimento de um sistema público integrado entre estado e municípios.", "pagina": 13}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "11. Nacionalização dos planos de Saúde. Aumento do Orçamento que permita o funcionamento de 100% da saúde pública (SUS) e obrigatoriedade de todos os políticos usarem o SUS e a Educação públicas. Abertura de concursos públicos para substituir terceirizações.", "pagina": 17}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "17. Punição exemplar para os torturadores e assassinos da ditadura, revisão da lei da Anistia. Luta pelo direito à memória, verdade, justiça e reparação; Desmilitarização das polícias!", "pagina": 20}
+    ]
+  }
+}

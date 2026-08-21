@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "12.4) [Apoiar] produtivas locais durante o período defeso, para manter a geração de renda e a ocupação profissional dos pescadores. 12.5) Nos municípios onde possuem IFCE, fomentar a inclusão de cursos voltados para áreas do agronegócio.", "pagina": 14}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "7.1) Formalizar parcerias com comunidades terapêuticas e centros de reabilitação de adictos para realizar o acolhimento dessas pessoas e em situação de rua. Compromisso: ajudar a levantar, não a manter preso à dependência.", "pagina": 10}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "11. CIÊNCIA, TECNOLOGIA, INOVAÇÃO E COMUNICAÇÕES. 11.1) Incentivar parcerias entre universidades, empresas e startups para resolver gargalos tecnológicos.", "pagina": 13}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "7.6) Incentivar programas no estilo do Fábricas de Cultura do Governo do Estado de São Paulo, que utiliza parcerias com o terceiro setor e leva cursos ligados à música, teatro, dança, circo, audiovisual.", "pagina": 10}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Provisão de cursos e linhas de treinamento com organizações de capacitação profissional privadas e do Sistema S específicas para pessoas com deficiência, fazendo a conexão dos indivíduos com o mercado de trabalho.", "pagina": 10}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Estado deixará de atrapalhar quem quer trabalhar. Vamos simplificar licenças, reduzir burocracia e atrair investimentos.", "pagina": 9}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5. EDUCAÇÃO QUE PREPARA PARA A VIDA. Todo jovem deve sair da escola com qualificação e perspectiva de emprego.", "pagina": 8}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {"status": "nao_consta"},
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Chega de obra parada e dinheiro enterrado. Toda obra terá prazo, custo e fiscalização. Compromisso: ou conclui, ou cancela.", "pagina": 11}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "9. MEIO AMBIENTE COM RE[SPONSABILIDADE]. Dar urgência aos licenciamentos ambientais de obras de esgoto, drenagem, áreas de alagamento.", "pagina": 11}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2.2) Reduzir em 50% o número de secretarias. 2.1) Estruturar modelos de bônus variável por desempenho vinculado a metas institucionais.", "pagina": 6}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Nos municípios onde possuem IFCE, fomentar a inclusão de cursos voltados para áreas do agronegócio.", "pagina": 14}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4. SAÚDE SEM FILA \"ESCONDIDA\" E COM ATENDIMENTO MAIS HUMANIZADO. Implantaremos fila transparente, com prazo para exames e cirurgias.", "pagina": 7}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.1) Enviar todas as lideranças de facção para presídio de segurança máxima.", "pagina": 5}
+    ]
+  }
+}

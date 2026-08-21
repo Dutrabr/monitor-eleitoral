@@ -1,0 +1,66 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {"status": "nao_consta"},
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Criar o hospital do Idoso e centros de acolhimento a pessoa idosa em todas as cidades do DF, um espaço para que idosos e idosas recebam atendimento médico, psicológico, terapêutico, realizem atividades esportivas, artísticas.", "pagina": 3}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fim da PPP do Mané Garrincha, Centro de Convenções, gestão 100% estatal de todos equipamentos públicos de cultura e lazer do DF. Dobrar as verbas destinadas ao FAC-DF e construção de centro de apoio aos artistas.", "pagina": 3}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Cotas raciais para todos os concursos públicos do DF, adotando o percentual de reserva de vagas igual ao censo da população negra do DF, que representa quase 60% da população. Cota Trans para todos os concursos públicos do DF e para UnDF.", "pagina": 3}
+    ]
+  },
+  "economia_e_emprego": {"status": "nao_consta"},
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Educação Libertadora: Salário digno para os professores e profissionais da educação. Fim da militarização das escolas, ampliação e efetivação da gestão democrática das escolas.", "pagina": 2}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Suspensão do pagamento da dívida pública do DF aos grandes bancos. Fim da política de isenção fiscal aos grandes empresários, que rende cerca de R$ 10 Bilhões de reais todos os anos aos capitalistas, auditoria popular de todas as isenções concedidas.", "pagina": 4}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. Estatização e Passe Livre Já! Pelo direito à cidade! Fim da máfia dos transportes e Tarifa Zero: Estatização total das empresas de ônibus e do metrô, sob controle dos trabalhadores e usuários.", "pagina": 2}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Garantir prioritariamente a destinação dos recursos públicos para recuperação da bacia do Descoberto, que é a reserva hídrica mais ameaçada pela ação humana no DF. Em defesa da Serrinha do Paranoá, fim dos empreendimentos imobiliários na região.", "pagina": 3}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Democratizar a gestão pública, eleição de todos os secretários de estado, chefias e construção de um conselho gestor das empresas públicas, eleito pelos trabalhadores e organizações da classe trabalhadora, com mandatos revogáveis.", "pagina": 2}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {"status": "nao_consta"},
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fim do IGESDF: Saúde 100% pública e estatal. Concursos públicos para todas as áreas e fim das terceirizações que precarizam o trabalho.", "pagina": 2}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4. Segurança Pública para a Vida, Não para a Morte. Fim da violência policial: Desmilitarização da PM e criação de uma segurança pública sob controle comunitário.", "pagina": 3}
+    ]
+  }
+}

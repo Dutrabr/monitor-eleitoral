@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Realização de uma reforma agrária popular, combatendo o latifúndio, desapropriando-o e garantindo alimentação digna para o povo potiguar. Fortalecimento da EMPARN, EMATER E CENTERN, realizando sua capacitação técnica, tecnológica, expandindo e ampliando o quadro de funcionários.",
+        "pagina": 5
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. REFORMA AGRÁRIA, URBANA E HABITAÇÃO. Garantia de moradia digna, saneamento e coleta de lixo para todas as famílias; destinar os imóveis abandonados para resolver o déficit habitacional. Realização de uma profunda reforma urbana.",
+        "pagina": 5
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa e incentivo à cultura nacional e popular; nacionalização de todas as companhias gravadoras de música e produtoras de filmes. Incentivo à cultura popular potiguar, defendendo seus patrimônios artísticos bem como os artistas locais.",
+        "pagina": 7
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Combate fervoroso ao machismo, xenofobia, discriminação religiosa, racismo e LGBTfobia. Enfrentamento firme ao feminicídio, com a criação um Programa Público contra o Machismo e a Misoginia obrigatório em todas as escolas da rede estadual.",
+        "pagina": 6
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. TRABALHO E DESENVOLVIMENTO ECONÔMICO. Redução da jornada de trabalho para 30h semanais. Elevação de 100% do salário mínimo para todos os trabalhadores que ganham apenas 1 salário mínimo. Reativação de parques industriais abandonados.",
+        "pagina": 3
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. EDUCAÇÃO, SAÚDE E CULTURA. Investimento massivo nas universidades estaduais, construção de novas unidades em todas as cidades polo do estado. Acabar com a militarização das escolas, garantia de eleição direta para diretores das escolas.",
+        "pagina": 7
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fim das dívidas dos pequenos e médios produtores com os bancos. O povo decide: ampliar participação popular no controle das finanças públicas do estado. Elevar transparência das contas.",
+        "pagina": 3
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. MOBILIDADE URBANA. Ampliação do sistema ferroviário e combate a privatização da CBTU. Estatização de todo o transporte estadual, garantindo passe livre para todos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. MEIO AMBIENTE. Combate ao desmatamento ilegal. Combate ao avanço predatório das energias eólicas no interior e litoral do estado. Ampliar programas de combate à seca, elevando políticas de segurança hídrica.",
+        "pagina": 8
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O povo decide: ampliar participação popular no controle das finanças públicas do estado. Elevar transparência das contas.",
+        "pagina": 3
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de uma empresa pública de transporte coletivo, ampliando para municípios das regiões do Seridó e Oeste Potiguar.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantia de investimento massivo em educação e saúde estadual. Obrigatoriedade para que todos os políticos do estado e suas famílias sejam obrigados a usar o SUS e a educação públicas.",
+        "pagina": 7
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. SEGURANÇA PÚBLICA E DIREITOS HUMANOS. Proibição de operações militares em vilas e favelas. Contribuir ao máximo para desmilitarizar a PM, desarticular os batalhões especiais como de choque.",
+        "pagina": 6
+      }
+    ]
+  }
+}

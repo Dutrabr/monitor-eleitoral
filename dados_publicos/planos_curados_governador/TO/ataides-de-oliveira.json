@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 9 – AGRICULTURA, PECUÁRIA E AGROINDÚSTRIA. O agronegócio é uma das maiores forças econômicas do Tocantins. O próximo passo é ampliar produtividade, sustentabilidade e agregação de valor.",
+        "pagina": 19
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 11 – DESENVOLVIMENTO SOCIAL, HABITAÇÃO E INCLUSÃO. A política social deverá proteger famílias vulneráveis e, ao mesmo tempo, criar condições para autonomia. Assistência sem integração com educação, saúde, qualificação e trabalho tende a administrar a vulnerabilidade, em vez de superá-la.",
+        "pagina": 23
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 12 – MEIO AMBIENTE, RECURSOS HÍDRICOS, TURISMO, CULTURA E ESPORTE. O patrimônio ambiental e cultural do Tocantins deve ser protegido e utilizado de forma responsável para gerar desenvolvimento.",
+        "pagina": 25
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O plano propõe coordenação entre políticas, fortalecimento dos municípios e atendimento prioritário a crianças, mulheres, idosos, pessoas com deficiência, juventude e comunidades vulneráveis. 11.6 Pessoa idosa e pessoas com deficiência: Acessibilidade física e digital, saúde e atendimento especializado, inclusão no trabalho e na educação, proteção contra violência.",
+        "pagina": 23
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 8 – DESENVOLVIMENTO ECONÔMICO, INDÚSTRIA, COMÉRCIO E SERVIÇOS. O desenvolvimento econômico sustentável é a base para ampliar renda, reduzir dependência de transferências e financiar serviços públicos.",
+        "pagina": 17
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 7 – EDUCAÇÃO. A educação será avaliada pelo que os estudantes aprendem e pelas oportunidades que conseguem construir. O acesso à escola é fundamental, mas insuficiente se não houver alfabetização, aprendizagem, permanência.",
+        "pagina": 15
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 3 – RESPONSABILIDADE FISCAL E REFORMA ADMINISTRATIVA. Reduzir desperdícios, reorganizar a máquina e recuperar capacidade de investimento. A responsabilidade fiscal é condição para que o governo cumpra compromissos sociais.",
+        "pagina": 7
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 10 – INFRAESTRUTURA, LOGÍSTICA, ENERGIA E SANEAMENTO. A infraestrutura conecta pessoas, mercados e serviços públicos. Rodovias ruins elevam preços, reduzem competitividade e dificultam acesso à saúde e à educação.",
+        "pagina": 21
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Meio ambiente e produção não serão tratados como adversários: o objetivo é segurança jurídica, licenciamento eficiente, prevenção de danos e recuperação de áreas degradadas.",
+        "pagina": 25
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 4 – GOVERNO DIGITAL, TRANSPARÊNCIA E INTEGRIDADE. Transparência e integridade serão tratadas como elementos de gestão. Quanto mais claros forem os processos, contratos, indicadores e responsáveis, menor será o espaço para decisões arbitrárias, desperdício e corrupção.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Regionalizar serviços e investimentos, aproximando o Estado dos 139 municípios. O diálogo com municípios, servidores, setor produtivo, universidades e organizações sociais será incorporado ao processo de planejamento.",
+        "pagina": 4
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 5 – SAÚDE. Regionalizar, ampliar capacidade e reduzir filas. A saúde será prioridade de governo. O problema não é apenas a falta de recursos; é a dificuldade de transformar orçamento em atendimento no tempo adequado.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 6 – SEGURANÇA PÚBLICA. Presença do Estado, inteligência e valorização das forças. A extensão territorial, as rodovias, as áreas rurais e a atuação de organizações criminosas exigem uma política própria para o Tocantins.",
+        "pagina": 13
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR. Promovemos uma virada de chave nas políticas de fomento à agricultura familiar e ao agronegócio pernambucanos. Já em 2024, atingimos um crescimento de 14% do setor agropecuário, liderando a produção nacional de uva e manga no Sertão do São Francisco.",
+        "pagina": 64
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "UM OLHAR PARA QUEM MAIS PRECISA — PESSOAS EM SITUAÇÃO DE VULNERABILIDADE E POBREZA. Em nossa gestão, mais de meio milhão de pessoas saíram da extrema pobreza. Iremos consolidar o Sistema Único de Assistência Social (SUAS) como nossa principal rede de proteção.",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CIÊNCIA, TECNOLOGIA E INOVAÇÃO. A Ciência, a Tecnologia e a Inovação (CT&I) são vetores fundamentais para o desenvolvimento econômico e social de Pernambuco (...) lançamos o Inova PE, o maior programa da história do estado, com mais de R$ 1 bilhão em recursos.",
+        "pagina": 20
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA, ECONOMIA CRIATIVA E PATRIMÔNIO HISTÓRICO. A Cultura é a expressão máxima da identidade de Pernambuco, com um patrimônio imaterial e artístico que projeta o nosso Estado no cenário nacional e internacional.",
+        "pagina": 74
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "POLÍTICAS PARA MULHERES. A construção de uma sociedade verdadeiramente justa e democrática exige o enfrentamento direto das desigualdades que limitam a cidadania das mulheres (...) Um estado extremamente violento, com taxa de feminicídios muito acima da média nacional.",
+        "pagina": 46
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INDÚSTRIA, COMÉRCIO E SERVIÇOS. Pernambuco vive hoje um novo ciclo de prosperidade econômica (...) Criamos mais de 200 mil empregos com carteira assinada, alcançando a menor taxa de desemprego em 11 anos.",
+        "pagina": 58
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. Quando assumimos o Governo de Pernambuco, encontramos escolas sucateadas, profissionais desvalorizados e um enorme déficit de vagas em creches (...) lançamos o Juntos pela Educação, o maior programa de requalificação da rede pública da nossa história.",
+        "pagina": 13
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nos recusamos a aceitar o cenário de completo abandono, desequilíbrio fiscal e desesperança que encontramos quando assumimos o Governo do Estado. Em nosso primeiro ano de governo, promovemos uma economia de R$ 2,5 bilhões nos gastos públicos, recuperando a capacidade do Governo do Estado de investir.",
+        "pagina": 4
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INFRAESTRUTURA RODOVIÁRIA E MOBILIDADE URBANA. A infraestrutura viária e a mobilidade urbana de Pernambuco acumulavam gargalos históricos (...) lançamos o PE na Estrada, o maior programa de infraestrutura viária da nossa história.",
+        "pagina": 52
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CLIMA E MEIO AMBIENTE. Pernambuco convive há décadas com desafios socioambientais e os efeitos extremos das mudanças climáticas (...) lançamos o Programa Plantar Juntos, a maior política de reflorestamento da nossa história, com o plantio de 4,7 milhões de árvores.",
+        "pagina": 84
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GESTÃO, TRANSPARÊNCIA E COMBATE À CORRUPÇÃO. O futuro de Pernambuco exige um Estado inteligente e responsável com o uso dos recursos públicos (...) Com responsabilidade fiscal, inovação e transparência de verdade, queremos garantir que cada centavo arrecadado se transforme em serviços públicos de qualidade.",
+        "pagina": 97
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Destinamos também mais de R$ 1 bilhão para tirar do papel o Arco Metropolitano, a obra viária mais aguardada da nossa história, que garantirá fluidez e segurança a 15 municípios, além de ampliar a competitividade do Porto de Suape.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE E QUALIDADE DE VIDA. A realidade desafiadora da saúde pública em Pernambuco é conhecida por toda a população do nosso estado. No início de 2023, encontramos uma rede médico-hospitalar defasada, com imensas filas de espera.",
+        "pagina": 27
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA E RESSOCIALIZAÇÃO. Hoje, Pernambuco vive um momento de virada histórica na segurança pública. Com responsabilidade e trabalho firme, alcançamos em 2025 a menor taxa de homicídios dos últimos 22 anos.",
+        "pagina": 37
+      }
+    ]
+  }
+}

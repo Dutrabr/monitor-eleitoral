@@ -1,0 +1,132 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 5 — Agricultura, Pesca e Desenvolvimento Rural. O que trava a agropecuária e a pesca é a falta de pesquisa e de transferência de tecnologia, de infraestrutura logística e de defesa agropecuária à altura do mercado.",
+        "pagina": 43
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6 — Assistência Social e Combate à Pobreza. Instituir uma rede de proteção que chega primeiro a quem mais precisa, com prioridade para a primeira infância, a pessoa idosa e o combate à fome.",
+        "pagina": 48
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7 — Ciência, Tecnologia e Inovação. Um ecossistema de inovação que liga conhecimento a emprego e renda, interioriza a tecnologia e usa o poder de compra do Estado para induzir soluções paraibanas inovadoras.",
+        "pagina": 51
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cultura: financiamento e fomento. Reestruturar o Fundo de Incentivo à Cultura Augusto dos Anjos, existente desde 2003, garantindo aporte regular, previsibilidade e editais descentralizados por território.",
+        "pagina": 38
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 9 — Direitos Humanos, Mulheres e Inclusão Social. Um Estado que protege e inclui, leva cidadania do Litoral ao Sertão, com as ações afirmativas deixando de ser exceção para virar método de execução dos programas sociais.",
+        "pagina": 60
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 8 — Desenvolvimento Econômico, Recursos Minerais e Empreendedorismo. Uma Paraíba livre para empreender, competitiva por competências e capaz de transformar crescimento em emprego formal e melhores salários em todas as regiões.",
+        "pagina": 54
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — Educação e Cultura. A educação é a prioridade estratégica deste Plano de Governo: uma rede pública que ofereça oportunidades equivalentes ao estudante do Litoral e ao do Sertão.",
+        "pagina": 31
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tudo isso com observância à governança fiscal integrada, auditoria da folha, e à Lei de Eficiência na Gestão, com teto para cargos comissionados e a valorização do servidor por concursos regulares.",
+        "pagina": 66
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 13 — Infraestrutura, Mobilidade e Logística. Uma Paraíba conectada: estradas seguras, novos modais e energia limpa como vetores de desenvolvimento.",
+        "pagina": 73
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 14 — Meio Ambiente e Sustentabilidade. Desenvolvimento sustentável de verdade inclui o combate à desertificação, lixo zero, rios vivos e a Caatinga como fonte de renda e oportunidades no futuro.",
+        "pagina": 77
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 11 — Gestão Pública, Governança e Transformação Digital. Um governo que entrega é eficiente, digital, transparente e descentralizado. Cumpre metas, fiscaliza cada real, e trabalha junto com os municípios.",
+        "pagina": 66
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Assinar, nos primeiros cem dias, Pacto de Gestão com cada um dos 223 municípios, com metas verificáveis.",
+        "pagina": 66
+      },
+      {
+        "texto": "É por isso que acredito que o Governo do Estado deve ser o maior parceiro dos municípios (...) Nosso governo será genuinamente municipalista.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 — Saúde. Uma saúde forte e regionalizada, que aproxima o cuidado especializado do cidadão, reduz filas com gestão e tecnologia, leva o socorro aéreo a todas as regiões e valoriza os profissionais.",
+        "pagina": 23
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — Segurança Pública e Defesa Social. Uma Paraíba segura e presente, que combina autoridade, inteligência, prevenção e repressão; que investiga para responsabilizar, moderniza o sistema penitenciário.",
+        "pagina": 18
+      }
+    ]
+  }
+}

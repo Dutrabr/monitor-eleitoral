@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agronegócio, Agricultura Familiar, Cooperativismo e Agroindustrialização. Fortalecer o agronegócio como um dos principais motores do desenvolvimento econômico do Tocantins, incentivando a produtividade, a inovação, a sustentabilidade e a competitividade das cadeias produtivas.",
+        "pagina": 27
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO VII Desenvolvimento Social, Cultura, Esporte e Cidadania. O verdadeiro desenvolvimento acontece quando todas as pessoas têm oportunidades para viver com dignidade, participar da vida em sociedade e construir um futuro melhor para suas famílias.",
+        "pagina": 53
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO IV Educação, Ciência, Tecnologia e Formação para o Futuro. A educação é o caminho mais seguro para transformar vidas, reduzir desigualdades e preparar o Tocantins para os desafios do futuro.",
+        "pagina": 39
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO VII Desenvolvimento Social, Cultura, Esporte e Cidadania. Articular cultura e clima nas políticas públicas, com valorização dos saberes tradicionais, proteção do Cerrado e dos territórios culturais, fortalecimento da sociobiodiversidade.",
+        "pagina": 57
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Políticas para as mulheres. Instituir programa de capacitação continuada para profissionais da rede de atendimento sobre identificação e notificação de violência contra públicos vulneráveis. Promover ações permanentes de capacitação, qualificação profissional e educação para mulheres.",
+        "pagina": 60
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO II Desenvolvimento Econômico, Inovação e Empreendedorismo. Desenvolvimento não é apenas fazer a economia crescer. É criar oportunidades, reduzir desigualdades e melhorar a vida das pessoas em cada município do Tocantins.",
+        "pagina": 25
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO IV Educação, Ciência, Tecnologia e Formação para o Futuro. A educação é o caminho mais seguro para transformar vidas, reduzir desigualdades e preparar o Tocantins para os desafios do futuro. Investir nas pessoas é o maior investimento que um governo pode fazer.",
+        "pagina": 39
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "RESPONSABILIDADE FISCAL E DESENVOLVIMENTO SUSTENTÁVEL. O equilíbrio das contas públicas será tratado como condição essencial para garantir investimentos, ampliar a capacidade do Estado de executar políticas públicas e manter a confiança da sociedade e dos investidores.",
+        "pagina": 8
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO III Infraestrutura, Desenvolvimento Regional, Mobilidade e Sustentabilidade. Criar um Plano de Logística para os Pequenos Municípios, priorizando estradas vicinais, armazéns, internet, energia e centros de distribuição regionais.",
+        "pagina": 28
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Meio Ambiente e Desenvolvimento Sustentável. Fortalecer e aprimorar o ICMS Ecológico; fortalecer a conservação do Cerrado, da biodiversidade e dos recursos naturais, conciliando preservação ambiental e desenvolvimento sustentável.",
+        "pagina": 38
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO I Governança, Inovação e Transformação Digital. Governar bem significa utilizar cada centavo dos recursos públicos com responsabilidade, transparência e eficiência. Nosso compromisso é construir um Estado moderno, digital, inovador e próximo das pessoas.",
+        "pagina": 12
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MUNICIPALISTA. O desenvolvimento do Tocantins começa nos municípios, afinal é nas cidades que as pessoas vivem, trabalham, estudam, empreendem e constroem suas famílias. Por isso, nenhuma estratégia estadual será eficaz se não fortalecer a capacidade dos governos municipais.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO V Saúde, Bem-Estar e Qualidade de Vida. Cuidar da saúde é cuidar das pessoas. Nosso compromisso é construir um sistema mais humano, eficiente e acessível, para que cada tocantinense tenha atendimento digno, próximo de casa e mais qualidade de vida.",
+        "pagina": 44
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO VI Segurança Pública, Justiça e Defesa Social. Segurança pública se constrói com planejamento, inteligência, valorização dos profissionais, integração entre as instituições e promoção da cidadania.",
+        "pagina": 48
+      }
+    ]
+  }
+}

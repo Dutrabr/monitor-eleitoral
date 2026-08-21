@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Crédito e assistência técnica para a agricultura familiar. Quem produz alimento no pequeno não pode ser o único sem porta no banco: linha de crédito e assistência técnica dedicadas.",
+        "pagina": 25
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cadastro Único como porta de direitos, proteção e oportunidades. A garantia de renda protege as famílias nos períodos de maior vulnerabilidade e não será condicionada à aceitação de emprego, crédito, curso ou atividade determinada pelo Estado.",
+        "pagina": 9
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pesquisa e inovação como a Constituição estadual já manda (...) destinação efetiva dos recursos de pesquisa, tecnologia e inovação previstos na Constituição de Mato Grosso.",
+        "pagina": 26
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cultura, esporte e juventude com política e orçamento (...) Estabelecer um sistema estadual de cultura em funcionamento, com orçamento plurianual definido, editais regulares e calendário previsível.",
+        "pagina": 13
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Este plano reúne, num eixo só, o diagnóstico e o compromisso completo do Estado com a mulher (...) Secretaria de Estado da Mulher, com orçamento próprio, coordenará todas as ações de proteção.",
+        "pagina": 20
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ambiente de negócios como política pública. Quem gera emprego no interior precisa de um Estado que facilite: programa de desburocratização e crédito para a pequena e a média empresa.",
+        "pagina": 26
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação é dignidade. Só o conhecimento liberta e empodera as pessoas. É apenas pela Educação que acontece o desenvolvimento de uma sociedade.",
+        "pagina": 7
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Piso de 15% da Receita Corrente Líquida (...) passam a ser aplicados por ano em ações econômicas e sociais, no mesmo formato do piso que já existe para a saúde.",
+        "pagina": 28
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pavimentação por criticidade técnica, com painel público de obras. Os trechos em pior estado passam à frente, com cronograma divulgado e painel de acompanhamento aberto a qualquer cidadão.",
+        "pagina": 23
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Orçamento ambiental compatível com o tamanho do problema. Não se combate o maior desmatamento da Amazônia Legal com a menor fatia do orçamento: recomposição da verba ambiental e do efetivo de fiscalização.",
+        "pagina": 26
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso é hoje o 13º colocado no ranking nacional de transparência: se o indicador tinha problema de apuração, a resposta era corrigir a apuração, não abandonar a régua.",
+        "pagina": 28
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Dinheiro que chega ao município pobre. Aprofundamento da reforma do índice de participação dos municípios, antecipando em lei estadual as premissas de distribuição da reforma tributária.",
+        "pagina": 29
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde digital será complementar ao atendimento presencial e integrada às unidades básicas, hospitais e serviços especializados. Não será utilizada para substituir equipes, fechar unidades, precarizar vínculos de trabalho ou negar atendimento presencial.",
+        "pagina": 14
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cada instituição resolve uma parte do problema e ninguém responde pelo todo: coordenação permanente da SESP sobre Polícia Militar, Polícia Judiciária Civil, Corpo de Bombeiros, Politec, Polícia Penal e Detran, com protocolo único de atuação conjunta.",
+        "pagina": 18
+      }
+    ]
+  }
+}

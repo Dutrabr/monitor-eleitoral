@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 · ALIMENTO E TERRITÓRIO — Agroecologia, pesca e soberania alimentar. O governo apoiará roças, quintais, pesca artesanal, manejo comunitário, feiras e cozinhas solidárias.", "pagina": 17}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 11 · PROTEÇÃO SOCIAL — Combater fome, pobreza e abandono. Nenhuma família deve escolher entre comida, remédio, transporte e energia.", "pagina": 40}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 · JUVENTUDE E CIÊNCIA — Ensino técnico, universidade e inovação a serviço do povo.", "pagina": 13}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 12 · CULTURA — Cultura amazônica como direito, memória e trabalho. Cultura não é ornamento. Ela produz identidade, saúde, renda, educação e pertencimento.", "pagina": 42}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 11 · IGUALDADE — Mulheres, população negra, LGBTQIA+ e pessoas com deficiência. Desigualdades de gênero, raça, orientação sexual, identidade de gênero e deficiência atravessam todas as políticas.", "pagina": 41}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 · ECONOMIA — Economia da floresta em pé e do trabalho digno.", "pagina": 14}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 · EDUCAÇÃO — Educação pública para o futuro e para o território.", "pagina": 10}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "FINANCIAMENTO — Como financiar a mudança. O programa será financiado com prioridade orçamentária, revisão de gastos e incentivos, melhoria da arrecadação (...) Promessas serão compatibilizadas com a realidade fiscal após auditoria de transição.", "pagina": 46}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7 · INFRAESTRUTURA — Logística que conecte pessoas sem abrir caminho para a destruição.", "pagina": 29}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4 · CLIMA — Adaptação climática com justiça territorial. Secas extremas, cheias, calor, erosão, incêndios e fumaça não atingem todos da mesma maneira.", "pagina": 18}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 13 · DEMOCRACIA — Participação popular com poder sobre prioridades e orçamento. Parte dos investimentos será definida por orçamento participativo.", "pagina": 45}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 10 · COOPERAÇÃO MUNICIPAL — Municípios fortes, sem abandono e sem tutela. O Estado deve cooperar, financiar e coordenar, não transferir obrigações sem recursos.", "pagina": 39}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1 · SAÚDE — Saúde que chega a todos os territórios. O direito à saúde não pode depender do preço da passagem, da disponibilidade de combustível ou de uma vaga em Manaus.", "pagina": 7}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6 · SEGURANÇA — Segurança pública cidadã, territorial e baseada em inteligência.", "pagina": 27}
+    ]
+  }
+}

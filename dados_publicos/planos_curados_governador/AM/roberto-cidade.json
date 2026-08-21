@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 37 — Produzir mais. Preservar sempre. Ampliar assistência técnica, mecanização, crédito, regularização, armazenagem, agroindústria e vicinais.", "pagina": 83}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 25 — Ampliar o Auxílio Estadual de R$ 150 para R$ 250 mensais, beneficiando aproximadamente 300 mil famílias.", "pagina": 58}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 34 — A nova economia exige inovação, pesquisa e diversificação para manter a competitividade do Polo Industrial. Estimular automação, IA, semicondutores, biotecnologia, economia digital e indústria de baixo carbono.", "pagina": 77}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 40 — O Amazonas reúne um dos maiores potenciais turísticos e culturais do mundo. Da floresta aos rios, dos festivais populares às tradições indígenas.", "pagina": 89}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 26 — Criar o Auxílio Atípico de R$ 500 mensais para famílias vulneráveis, integrado à Rede Amazonas de Cuidado Atípico [pessoas com deficiência e TEA].", "pagina": 60}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 33 — Criar o maior programa estadual de inserção de jovens no mercado, integrando escolas, CETAM, universidades e empresas.", "pagina": 75}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 20 — A educação precisa acompanhar IA, robótica, programação e idiomas. Modernizar escolas com conectividade, laboratórios, tecnologia, educação financeira e ensino de idiomas.", "pagina": 47}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 43 — Cada obra, dentro da responsabilidade fiscal e da capacidade de investimento do Estado.", "pagina": 95}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 43 — AMAZONAS EM OBRAS: o maior programa de infraestrutura municipal da história do Estado. Executar um amplo programa de asfaltamento urbano nos 62 municípios.", "pagina": 94}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 42 — Transformar o Amazonas em referência mundial em desenvolvimento sustentável, conciliando a preservação da floresta com a valorização de quem vive nela, fortalecendo a adaptação às mudanças climáticas.", "pagina": 93}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "GOVERNO QUE ENTREGA RESULTADOS. Implantar um modelo de gestão baseado em metas, indicadores, transparência e avaliação permanente.", "pagina": 99}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Universalizar gradualmente o acesso à água segura, com sistemas simplificados, poços, tratamento, soluções ribeirinhas e apoio técnico e financeiro aos municípios.", "pagina": 97}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 11 — Ampliar a quantidade de carretas da saúde para atendimento itinerantes na capital e região metropolitana, com exames de mamografia, ultrassom, oftalmologia, cardiologia, laboratório, odontologia e pequenas cirurgias.", "pagina": 28}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "COMPROMISSO 01 — Integrar PM, PC, BOPE, Rocam, cavalaria, helicóptero, inteligência e serviços públicos.", "pagina": 7}
+    ]
+  }
+}

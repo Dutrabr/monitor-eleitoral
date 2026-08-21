@@ -1,0 +1,104 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defendemos ampla reforma agrária, titulação coletiva dos territórios quilombolas, demarcação das terras indígenas (...) fortalecimento da soberania alimentar, garantindo crédito, assistência técnica, infraestrutura, comercialização.",
+        "pagina": 35
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defendemos uma Lei de Responsabilidade Social que coloque a vida, os direitos e o bem-estar da maioria trabalhadora acima dos interesses do mercado financeiro, transformando o combate à pobreza, à desigualdade e à exclusão em obrigação permanente do poder público.",
+        "pagina": 30
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "É necessário criar empregos qualificados, fortalecer a universidade pública, investir em ciência, tecnologia e inovação e construir um processo de industrialização capaz de gerar desenvolvimento regional.",
+        "pagina": 35
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso governo apoiará a produção cultural, artística e intelectual da população LGBTQIA+, reconhecendo sua contribuição para a construção da diversidade cultural maranhense.",
+        "pagina": 32
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O PCB compreende que a LGBTfobia não é apenas um problema individual ou comportamental (...) combater a violência contra a população LGBT significa também combater a pobreza, o desemprego, a exclusão educacional.",
+        "pagina": 31
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliação do investimento público como indutor do desenvolvimento econômico e gerador de emprego, via Frente Estadual de Trabalho e programas de infraestrutura habitacional, saneamento e financiamento das atividades das cooperativas dos trabalhadores.",
+        "pagina": 30
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação como direito social, não privilégio de classe, com jornada integral, alimentação escolar, transporte gratuito e universidade pública de qualidade no próprio estado.",
+        "pagina": 21
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Toda a população tenha acesso à saúde, educação, cultura, esporte, moradia, saneamento básico, transporte público de qualidade e trabalho com direitos.",
+        "pagina": 35
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "nao_consta"
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Também defendemos um Maranhão onde toda a população tenha acesso à saúde, educação, cultura, esporte, moradia, saneamento básico, transporte público de qualidade e trabalho com direitos.",
+        "pagina": 35
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na área da segurança pública, combateremos os crimes motivados por LGBTfobia, garantindo acolhimento adequado às vítimas e aperfeiçoando os mecanismos de registro, investigação e acompanhamento.",
+        "pagina": 32
+      }
+    ]
+  }
+}

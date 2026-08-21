@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.8 AGRICULTURA E DESENVOLVIMENTO RURAL. A área rural do Distrito Federal é estratégica para a segurança alimentar, a geração de renda, a proteção dos mananciais e a diversificação econômica.", "pagina": 25}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.5 DESENVOLVIMENTO SOCIAL E COMBATE À POBREZA. A elevada renda média do Distrito Federal convive com pobreza, insegurança alimentar, desemprego, moradia precária.", "pagina": 18}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.12 CIÊNCIA, TECNOLOGIA E INOVAÇÃO. O Distrito Federal reúne um dos mais relevantes sistemas de conhecimento do país, com universidades, institutos federais, centros de pesquisa.", "pagina": 33}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.10 CULTURA, PATRIMÔNIO, ECONOMIA CRIATIVA E TURISMO. O Distrito Federal possui produção cultural intensa, diversa e reconhecida nacionalmente.", "pagina": 28}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.13 DIREITOS HUMANOS, IGUALDADE, CIDADANIA E POLÍTICAS PARA A PESSOA IDOSA. Fortalecer políticas específicas para mulheres, igualdade racial, pessoas com deficiência, população LGBTQIA+.", "pagina": 36}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.4 DESENVOLVIMENTO ECONÔMICO, EMPREGO, RENDA E BANCO DO POVO.", "pagina": 16}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.2 EDUCAÇÃO. O Distrito Federal dispõe de uma rede educacional experiente, profissionais qualificados, instituições de conhecimento e elevada capacidade de financiamento.", "pagina": 11}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.14 GESTÃO PÚBLICA, TRANSPARÊNCIA E RESPONSABILIDADE FISCAL. O próximo governo poderá receber uma situação financeira marcada por compromissos acumulados, insuficiência de caixa.", "pagina": 38}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.6 INFRAESTRUTURA, MOBILIDADE E TRANSPORTES. A mobilidade do Distrito Federal continua marcada por longos deslocamentos, forte dependência do transporte rodoviário.", "pagina": 20}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.9 MEIO AMBIENTE, RESÍDUOS SÓLIDOS E SUSTENTABILIDADE. O Distrito Federal precisa ampliar a proteção dos recursos hídricos, enfrentar incêndios e eventos climáticos extremos.", "pagina": 27}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "8. GOVERNANÇA, MONITORAMENTO E AVALIAÇÃO. O governo implantará um sistema integrado de acompanhamento das propostas, com definição de responsáveis, metas e indicadores.", "pagina": 46}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.15 DESENVOLVIMENTO REGIONAL E RELAÇÃO COM AS REGIÕES ADMINISTRATIVAS. As Regiões Administrativas apresentam diferenças profundas de renda, emprego, infraestrutura, mobilidade, serviços.", "pagina": 40}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.1 SAÚDE. A rede pública de saúde do Distrito Federal reúne ampla capacidade instalada, mas enfrenta desigualdades territoriais, fragmentação dos serviços, filas prolongadas.", "pagina": 8}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.3 SEGURANÇA PÚBLICA. O Distrito Federal dispõe de forças de segurança qualificadas e de financiamento constitucional diferenciado, mas enfrenta crimes violentos, crimes patrimoniais.", "pagina": 14}
+    ]
+  }
+}

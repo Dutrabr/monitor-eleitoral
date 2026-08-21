@@ -20,7 +20,10 @@
 <div class="grade-candidatos">
 {% for e in estados %}
   <a class="card-candidato" href="/governador/{{ e.uf }}">
-    <div class="avatar-candidato">{{ e.uf }}</div>
+    <div class="avatar-candidato">
+      <img src="/static/bandeiras/{{ e.uf }}.svg" alt="" loading="lazy" onerror="this.remove()">
+      {{ e.uf }}
+    </div>
     <h3>{{ e.nome }}</h3>
     <div class="partido">{{ e.total }} candidato(s)</div>
   </a>

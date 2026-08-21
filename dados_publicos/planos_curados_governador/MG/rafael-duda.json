@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estatização do latifúndio e das multinacionais do agronegócio. Reforma agrária sem indenização e apoio à agricultura familiar e ao pequeno produtor.",
+        "pagina": 48
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Dar a função de ser moradias populares a prédios, casarões e edificações que se encontram inutilizadas por um período maior que 2 anos.",
+        "pagina": 44
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de empresas estatais voltadas para desenvolvimento e produção nas áreas de alta tecnologia (...) Criação de Polos e cidades tecnológicas em cidades mineradoras.",
+        "pagina": 36
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Concentração de equipamentos culturais e fomento estatal em regiões periféricas do Estado (...) criar conselhos populares de cultura nas regiões periféricas da capital.",
+        "pagina": 46
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Uma política de criação de empregos na cidade que leve em conta as desigualdades oriundas das opressões (...) Ampliação das casas abrigo para acolhimento de mulheres vítimas de violência, incluindo mulheres trans.",
+        "pagina": 41
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de empregos através de um plano de obras públicas necessárias, como saneamento básico, postos de saúde, escolas a serem construídas por uma [empresa] 100% pública e estatal.",
+        "pagina": 37
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Universalizar a educação pública para todas as crianças e jovens e adultos. Ninguém fora da escola!",
+        "pagina": 38
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defendemos a suspensão imediata do pagamento da dívida do Estado à União e, por meio dela, aos banqueiros. A negociação não resolve o problema da população.",
+        "pagina": 42
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reverter todas as privatizações do governo de Romeu Zema, seja de empresas ou de infraestrutura. Estatizar ou reestatizar empresas chaves no Estado (...) energia, saneamento, água e esgoto.",
+        "pagina": 37
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "COPASA seja 100% estatal; Desenvolver políticas públicas sustentáveis que garantam o abastecimento público das águas em Minas Gerais, mesmo em períodos de estiagem hídrica.",
+        "pagina": 43
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Queremos mudar esse estado, mudar a forma como a sociedade se organiza, queremos uma democracia dos trabalhadores.",
+        "pagina": 49
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implementação de Conselhos Populares, para que trabalhadores e usuários controlem a prestação dos serviços de saúde do Estado; Fim da terceirização dos serviços de saúde.",
+        "pagina": 40
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "nao_consta"
+  }
+}

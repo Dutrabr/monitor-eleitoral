@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. AGRICULTURA, PECUÁRIA, PESCA, AQUICULTURA E DESENVOLVIMENTO RURAL. O desenvolvimento do campo será tratado como parte essencial da estratégia econômica do Rio Grande do Norte. A política rural deverá considerar as características de cada região e apoiar tanto a agricultura familiar quanto os produtores de maior escala.",
+        "pagina": 48
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8.2 ASSISTÊNCIA SOCIAL E INCLUSÃO PRODUTIVA. O Governo apoiará o fortalecimento do Sistema Único de Assistência Social (SUAS), especialmente por meio da cooperação técnica com os municípios.",
+        "pagina": 39
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. TRANSFORMAÇÃO DIGITAL, INOVAÇÃO, MODERNIZAÇÃO DO ESTADO E GOVERNO INTELIGENTE. 7.1 Um Estado Preparado para o Século XXI. A tecnologia será utilizada para aproximar o Estado da população, melhorar a qualidade dos serviços e fortalecer a capacidade de gestão.",
+        "pagina": 33
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. TURISMO, CULTURA, ECONOMIA CRIATIVA E DESENVOLVIMENTO REGIONAL. Turismo e cultura serão tratados como instrumentos de desenvolvimento econômico, valorização da identidade potiguar e integração das diferentes regiões do Estado.",
+        "pagina": 51
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Entre as prioridades estarão: redução da pobreza e da vulnerabilidade social; proteção de crianças, adolescentes e idosos; inclusão das pessoas com deficiência; fortalecimento da participação cidadã.",
+        "pagina": 39
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. DESENVOLVIMENTO ECONÔMICO, GERAÇÃO DE EMPREGOS E COMPETITIVIDADE. O Rio Grande do Norte precisa voltar a crescer, ampliar sua capacidade de investimento, gerar empregos, atrair novos negócios.",
+        "pagina": 6
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. EDUCAÇÃO, CIÊNCIA, TECNOLOGIA E INOVAÇÃO. A gestão por resultados não significa reduzir a educação a números. Os indicadores devem servir para identificar onde estão os problemas e orientar as decisões necessárias para enfrentá-los.",
+        "pagina": 23
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Para isso, o Governo atuará com diálogo, responsabilidade fiscal, transparência e foco permanente em resultados, colocando o interesse público acima de disputas políticas e ideológicas.",
+        "pagina": 6
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6.2 RODOVIAS ESTADUAIS E MOBILIDADE REGIONAL. Os investimentos serão planejados com critérios técnicos, transparência, sustentabilidade e responsabilidade fiscal. A prioridade não será simplesmente realizar mais obras, mas realizar as obras certas, nos lugares certos.",
+        "pagina": 29
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. MEIO AMBIENTE, DESENVOLVIMENTO SUSTENTÁVEL, MUDANÇAS CLIMÁTICAS E ECONOMIA VERDE. O litoral, os diferentes ecossistemas, os recursos naturais e o enorme potencial para geração de energia renovável colocam o Estado diante de uma oportunidade: conciliar crescimento econômico, geração de empregos e preservação ambiental.",
+        "pagina": 43
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12.6 TRANSPARÊNCIA, CONTROLE E INTEGRIDADE. A confiança da população nas instituições depende de transparência e capacidade de controle. O Governo ampliará a divulgação de informações sobre receitas, despesas, contratos, obras, programas.",
+        "pagina": 57
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cooperação com os municípios. Essa cooperação deverá respeitar o regime de colaboração estabelecido pela Constituição, reconhecendo as responsabilidades próprias de cada ente federativo.",
+        "pagina": 23
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. SAÚDE: CUIDAR DAS PESSOAS COM EFICIÊNCIA, HUMANIZAÇÃO E INOVAÇÃO. A saúde será uma das prioridades permanentes do Governo do Estado. O objetivo é fazer com que o cidadão encontre atendimento no momento em que precisa, com qualidade, respeito e segurança.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.2 INTEGRAÇÃO DAS FORÇAS DE SEGURANÇA. O combate à criminalidade exige que as instituições trabalhem de maneira coordenada. Polícia Militar, Polícia Civil, Corpo de Bombeiros Militar, Instituto Técnico-Científico de Perícia.",
+        "pagina": 24
+      }
+    ]
+  }
+}

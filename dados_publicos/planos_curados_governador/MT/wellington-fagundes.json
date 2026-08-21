@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agricultura Familiar — Irrigação para a Agricultura Familiar: Estruturar um programa estadual de irrigação e desenvolvimento rural para a agricultura familiar, com foco nas regiões de menor dinamismo econômico.",
+        "pagina": 39
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso Sem Fome — Reestruturar e ampliar política estadual de segurança alimentar.",
+        "pagina": 51
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso compromisso é formar profissionais para a nova economia e modernizar a Administração Pública com dados, automação e inteligência artificial.",
+        "pagina": 35
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer o financiamento da cultura por meio de editais regulares, transparentes e regionalizados (...) Construir, modernizar e revitalizar bibliotecas, teatros, cinemas e centros culturais nos polos do interior.",
+        "pagina": 45
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nenhuma mulher sem proteção (...) Criar uma Secretaria voltada a políticas de proteção às mulheres, com coordenação própria, orçamento definido e em articulação com as demais Secretarias.",
+        "pagina": 18
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso possui uma das economias mais dinâmicas do país, mas precisa transformar sua indústria primária promovendo maior diversificação, industrialização e circulação de riqueza dentro do Estado.",
+        "pagina": 38
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação é ambiente de formação e o caminho mais seguro para ampliar oportunidades, fortalecer as famílias e preparar Mato Grosso para o futuro.",
+        "pagina": 25
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso compromisso na área da Fazenda é manter o equilíbrio das contas públicas para ampliar a capacidade de investimento do Estado, sem aumentar a carga tributária.",
+        "pagina": 12
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura é condição para escoar a produção, aproximar serviços, salvar vidas e integrar as regiões. Infraestrutura será tratada como investimento para reduzir distâncias e ampliar oportunidades.",
+        "pagina": 31
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso compromisso é uma gestão ambiental técnica, moderna e transparente, que proteja os recursos naturais, respeite a propriedade e dê segurança a quem produz dentro da lei.",
+        "pagina": 55
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso compromisso é construir um governo presente, participativo e municipalista, que escute as regiões, apoie as prefeituras e preste contas do que realiza. Governança será o método para fazer o Estado funcionar melhor.",
+        "pagina": 7
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoiar os municípios na elaboração e atualização de instrumentos de planejamento urbano (...) IDH Mais Humano: destinar investimentos públicos aos municípios mato-grossenses de mais baixo IDH.",
+        "pagina": 47
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso compromisso é construir uma saúde mais eficiente, transparente e próxima, que trate cada cidadão como pessoa e aplique cada recurso com responsabilidade.",
+        "pagina": 21
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso enfrenta o avanço das facções, crimes de fronteira, violência urbana e rural (...) Nosso compromisso é garantir ordem, liberdade e tranquilidade para as famílias, com metas, cobrança de resultados e presença efetiva do Estado.",
+        "pagina": 14
+      }
+    ]
+  }
+}

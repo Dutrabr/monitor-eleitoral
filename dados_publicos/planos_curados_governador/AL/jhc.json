@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "No campo, o Alagoas que Produz estruturará assistência técnica, crédito, agroindustrialização e acesso a mercados em todo o estado, enquanto o Sertão que Produz terá uma estratégia específica para transformar as cadeias produtivas do semiárido em renda.", "pagina": 29}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Propostas | Primeira Infância, Assistência e Proteção Social, com atenção a jovens em situação de vulnerabilidade.", "pagina": 23}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O acompanhamento seguirá o ciclo prometido, iniciado, em execução, entregue e resultado alcançado, com indicadores por município e região, transparência sobre repasses e obras e integração com serviços digitais.", "pagina": 40}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Propostas | Cultura, Esporte e Turismo.", "pagina": 32}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO G — ALAGOAS PARA TODOS. Este eixo reúne políticas que não cabem dentro de uma única secretaria porque atravessam praticamente todas as áreas de governo. Juventude, Mulheres, Igualdade Racial, Pessoas Idosas, Pessoas com Deficiência, Povos Tradicionais e Direitos Humanos.", "pagina": 49}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO C — ALAGOAS PRODUTIVA E DE OPORTUNIDADES. Propostas | Trabalho, Empreendedorismo e Desenvolvimento Produtivo.", "pagina": 28}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Propostas | Educação (Eixo A — Alagoas que Cuida).", "pagina": 21}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "[O plano] criará um inventário público dos incentivos e benefícios fiscais, condicionando sua renovação a prazo, contrapartidas e avaliação de resultados; e implantará uma revisão anual dos gastos para identificar desperdícios.", "pagina": 48}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO D — ALAGOAS DISRUPTIVA. Propostas | Infraestrutura, Transporte e Logística.", "pagina": 35}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO E — ALAGOAS PARA VIVER MELHOR. Propostas | Meio Ambiente.", "pagina": 41}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO F — ALAGOAS TRANSPARENTE.", "pagina": 47}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O acompanhamento seguirá o ciclo prometido, iniciado, em execução, entregue e resultado alcançado, com indicadores por município e região, transparência sobre repasses e obras.", "pagina": 40}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO A — ALAGOAS QUE CUIDA. Propostas | Saúde.", "pagina": 17}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO B — ALAGOAS SEGURA. Propostas | Segurança.", "pagina": 25}
+    ]
+  }
+}

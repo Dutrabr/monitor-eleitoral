@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estruturar e apoiar as pequenas propriedades rurais de Goiás (...) em consonância com os programas federais de fortalecimento da agricultura familiar, oferecendo crédito, compras institucionais e acesso a máquinas.",
+        "pagina": 53
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integrar registro, avaliação de risco, medida protetiva, acompanhamento preventivo, investigação, saúde e assistência social.",
+        "pagina": 17
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Talentos, universidades e inovação aplicada. A formação profissional será orientada pelas vagas que serão criadas. Universidades e institutos serão parceiros de pesquisa aplicada, extensão, empreendedorismo.",
+        "pagina": 11
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoiar eventos de natureza, cultura, astronomia, gastronomia e saberes tradicionais em baixa temporada.",
+        "pagina": 7
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mulher segura - proteção 24 horas. Objetivo: Acelerar a execução do Plano Estadual de Combate à Violência contra a Mulher 2026-2035 (...) Rede estadual mais rápida, integrada e capaz de proteger mulheres em todos os 246 municípios.",
+        "pagina": 17
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Goiás possui localização estratégica, forte produção agropecuária, polos industriais e uma ampla base de microempreendedores (...) o Estado ainda pode transformar mais matérias-primas, reduzir custos logísticos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A escola pública de tempo integral será tratada como uma das principais políticas de igualdade de oportunidades (...) transformar tempo adicional em aprendizagem, esporte, cultura, ciência, tecnologia, projeto de vida.",
+        "pagina": 25
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Financiamento público responsável, com auditoria permanente e uso eficiente dos recursos do SUS.",
+        "pagina": 39
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A mobilidade metropolitana será tratada como infraestrutura essencial para o funcionamento da economia e para a qualidade de vida. A proposta é implantar progressivamente a Tarifa Zero.",
+        "pagina": 29
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Este capítulo reúne contribuições programáticas para a construção de um projeto de desenvolvimento sustentável, justiça climática e proteção ambiental para o Estado de Goiás.",
+        "pagina": 48
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Transparência e controle social são inegociáveis: conselhos de saúde, sindicatos e Ministério Público participam da fiscalização e da transição.",
+        "pagina": 39
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Também há dificuldade de diálogo com outros entes da federação, que são tratados como subordinados, no caso das prefeituras (...) desrespeito ao pacto federativo. Propostas: reformulação da política de credenciamento dos municípios para licenciamento ambiental local.",
+        "pagina": 48
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Este documento apresenta as diretrizes e propostas para a política estadual de saúde em Goiás, construído a partir de um diagnóstico crítico do modelo de gestão atualmente em vigor.",
+        "pagina": 36
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segurança para viver, trabalhar, produzir, investir e visitar (...) O plano propõe consolidar essa trajetória e atacar os riscos que ganharam complexidade.",
+        "pagina": 15
+      }
+    ]
+  }
+}

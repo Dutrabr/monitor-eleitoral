@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 5 — Agricultura, Produção e Desenvolvimento Rural. O Estado tem terras férteis, clima favorável e potencial para se tornar referência em produção agropecuária na região Norte. Regularização Fundiária: força-tarefa estadual para dar segurança jurídica a produtores.",
+        "pagina": 10
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 8 — Desenvolvimento Social e Qualidade de Vida. Idosos, pessoas com deficiência, crianças, mulheres e jovens em situação de vulnerabilidade precisam de políticas públicas efetivas, que ofereçam dignidade e oportunidade real de melhoria de vida.",
+        "pagina": 13
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Roraima Digital: digitalização de serviços públicos, reduzindo filas e deslocamentos desnecessários. Inteligência Artificial na Gestão pública.",
+        "pagina": 14
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Roraima Cultural: apoio a festivais, eventos e manifestações culturais em todas as regiões do Estado.",
+        "pagina": 15
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Roraima Mulher: rede de apoio e capacitação profissional para mulheres, com foco em autonomia econômica. Atendimento à Violência Doméstica: delegacias especializadas e rede de apoio a mulheres em situação de violência em todos os municípios.",
+        "pagina": 13
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 1 — Desenvolvimento Econômico e Geração de Empregos. Nosso compromisso é transformar a posição geográfica de Roraima em vantagem econômica concreta, gerando emprego, renda e oportunidades.",
+        "pagina": 6
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 3 — Educação que Transforma. Roraima precisa de escolas modernas, conectadas e seguras, de um ensino técnico e profissionalizante forte, que prepare os jovens para o mercado de trabalho, e de professores valorizados.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Um governo presente em todas as regiões do Estado, que planeja com responsabilidade fiscal, que executa com transparência e que mede seus resultados pela melhoria concreta na vida de cada roraimense.",
+        "pagina": 5
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 6 — Infraestrutura e Mobilidade. Rodovias em más condições, falta de pavimentação urbana e saneamento básico insuficiente atrasam o crescimento de Roraima. Plano Estadual de Recuperação de Rodovias.",
+        "pagina": 11
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 7 — Desenvolvimento Sustentável, Mineração e Meio Ambiente. Roraima Bioeconomia: incentivo a cadeias produtivas sustentáveis, como frutas nativas, óleos vegetais e produtos florestais.",
+        "pagina": 12
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 9 — Governo Digital, Transparência e Modernização. Portal da Transparência Modernizado: divulgação em tempo real de gastos, contratos e licitações do governo estadual.",
+        "pagina": 14
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 10 — Municípios Fortes, Cultura, Turismo e Esporte. Parceria Estado-Municípios: programa permanente de apoio técnico e financeiro às prefeituras, respeitando a autonomia municipal.",
+        "pagina": 15
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 2 — Saúde para Todos. A saúde pública é a maior urgência sentida pela população de Roraima. Filas longas, falta de especialistas, unidades sucateadas e a dificuldade de acesso nos municípios do interior.",
+        "pagina": 7
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 4 — Segurança Pública Forte. Roraima, por sua posição de fronteira, enfrenta desafios específicos relacionados ao crime organizado, ao contrabando e à criminalidade transnacional.",
+        "pagina": 9
+      }
+    ]
+  }
+}

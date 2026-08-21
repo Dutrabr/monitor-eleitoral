@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Articular com instituições financeiras, cooperativas de crédito e bancos de fomento a ampliação do acesso ao crédito rural em condições compatíveis com a realidade amazônica, incluindo a facilitação de garantias, a simplificação de exigências e o fortalecimento do repasse dos fundos constitucionais do Norte ao pequeno e médio produtor.",
+        "pagina": 23
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A) ASSISTÊNCIA SOCIAL. Apoiar os municípios na qualificação da Proteção Social Básica - PSB, por meio dos CRAS, adequando o número de equipamentos à população do território a ser atendido. Apoiar os municípios na qualificação da Proteção Social Especial - PSE, por meio das CREAS.",
+        "pagina": 26
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.7 ESTIMULAR CIÊNCIA, TECNOLOGIA, INOVAÇÃO E A MODERNIZAÇÃO DA GESTÃO PÚBLICA. Criar rubrica orçamentária própria e específica para pesquisa no orçamento estadual, protegida de contingenciamento, com a FAPERO como instrumento central dessa política.",
+        "pagina": 39
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "E) CULTURA, ESPORTE E LAZER. Fortalecer e reestruturar o SECEL, criando em seu âmbito a Superintendência de Cultura e Economia Criativa, com autonomia técnica, administrativa e orçamentária para a formulação, execução, acompanhamento e avaliação das políticas públicas de cultura.",
+        "pagina": 33
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Instituir plano estadual de enfrentamento à violência contra a mulher, com execução integral dos recursos federais destinados à finalidade, interiorização do atendimento e expansão da Patrulha Maria da Penha.",
+        "pagina": 32
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.4 SETOR ECONÔMICO DE SERVIÇOS COMPLEMENTAR, COM AGREGAÇÃO DE VALOR E GERAÇÃO DE EMPREGOS. Qualificar os órgãos públicos estaduais para a oferta de serviços normativos adequados à nova configuração produtiva do estado.",
+        "pagina": 26
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Instituir o Programa Índice Rondônia do Ensino Médio - IREM, com meta de igualar os indicadores dessa faixa educacional à média nacional.",
+        "pagina": 27
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O ESPAÇO FISCAL: CAPACIDADE PARA INVESTIR, RESTRIÇÃO PARA CUSTEAR. Rondônia chega a 2027 com indicadores fiscais formalmente favoráveis. O estado mantém a nota A na Capacidade de Pagamento (CAPAG) avaliada pelo Tesouro Nacional. A dívida consolidada corresponde a aproximadamente 2% da Receita Corrente Líquida, quando o limite fixado pelo Senado Federal é de 200%.",
+        "pagina": 10
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.5 HUB LOGÍSTICO — COMPLEMENTO. Elaborar e executar Plano Estadual de Gestão da Infraestrutura Rodoviária, com inventário completo das rodovias, pontes e demais ativos sob responsabilidade do Estado.",
+        "pagina": 25
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MEIO AMBIENTE, CLIMA E PROTEÇÃO DO TERRITÓRIO. Em 2024, Rondônia viveu uma das crises ambientais mais graves de sua história recente. Somente em outubro daquele ano foram destruídos 573,5 mil hectares.",
+        "pagina": 37
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.1 INSTITUCIONALIZAR SISTEMA DE GOVERNANÇA E GESTÃO INOVADORA E EFICIENTE. Criar, no âmbito do Gabinete do Governador, a Coordenação de Projetos Estruturais e Compliance, com a atribuição de identificar oportunidades de políticas públicas estruturantes de interesse do estado e da sociedade.",
+        "pagina": 21
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.6 RETOMADA DA CAPACIDADE DE INVESTIMENTOS EM INFRAESTRUTURA, A PARTIR DO RESGATE POSITIVO DA RELAÇÃO FEDERATIVA. A posição geoestratégica de Rondônia exige a configuração de um sistema logístico integrado, acessível e competitivo.",
+        "pagina": 13
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "C) SAÚDE. Concluir ou implementar, se for o caso, Programa Estadual de Descentralização da Saúde; implementar Programa Estadual de Consórcio Intermunicipal em Saúde, ampliando progressivamente a cobertura entre as regiões de saúde do estado.",
+        "pagina": 29
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer o Núcleo de Fronteira da Polícia Militar, com melhoria do sistema de informação e integração entre as forças de segurança baseadas no território, reduzindo conflitos e situações de risco associadas a questões agrárias e à criminalidade na fronteira com a Bolívia.",
+        "pagina": 31
+      }
+    ]
+  }
+}

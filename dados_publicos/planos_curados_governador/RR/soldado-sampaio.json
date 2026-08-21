@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 5 — Roraima + Campo: Desenvolvimento Rural, Pesca e Agricultura Familiar. Um campo mais produtivo, mais inclusivo, mais participativo, mais inovador, mais legalizado, mais protetivo, mais sustentável e mais competitivo.",
+        "pagina": 31
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 4 — Família, Primeira Infância, Mulheres e Assistência Social. Da gestação à juventude, do enxoval do bebê à cesta da família, do CRAS ao acolhimento, o governo precisa estar do lado de quem cuida e de quem é cuidado, dos mais vulneráveis.",
+        "pagina": 26
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 9 — Ciência, Tecnologia, Inovação e Educação Profissionalizante. Este eixo aposta na FAPER, em uma legislação moderna de CT&I e na qualificação profissional articulada com a juventude e o setor produtivo.",
+        "pagina": 49
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 10 — Cultura, Esporte, Juventude, Turismo e Comunicação Pública. Quando o povo dança, joga, canta, viaja, escuta e participa, o Estado cumpre seu papel. Cultura, esporte e juventude não são luxo: são identidade, economia, saúde e cidadania.",
+        "pagina": 53
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Uma atenção especial às mulheres roraimenses. Infelizmente, aquela que cuida, muitas vezes, é violentada dentro de casa, violada nos seus direitos básicos.",
+        "pagina": 26
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 7 — Desenvolvimento Econômico, Emprego, Renda e Tributação Justa. Este eixo combina três dimensões inseparáveis: o estímulo à economia produtiva, a justiça tributária para o cidadão trabalhador e o aumento da capacidade de investimento do Estado.",
+        "pagina": 40
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 3 — Educação que Valoriza, Inclui e Prepara o Futuro. Da creche ao Ensino Superior, da escola indígena à escola profissionalizante, do professor à família, o Estado precisa estar do lado de quem ensina e de quem aprende.",
+        "pagina": 21
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O aumento da capacidade de investimento do Estado por meio da captação de recursos externos ao tesouro estadual, aliado à justiça tributária para o cidadão trabalhador.",
+        "pagina": 40
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 6 — Infraestrutura, Saneamento e Meio Ambiente. Água que chega na torneira, esgoto que não escorre na rua, lixo que não vira lixão, energia limpa e estradas que conectam: a infraestrutura é o chão sobre o qual se constrói a cidadania.",
+        "pagina": 36
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Este eixo organiza propostas relacionadas a saneamento básico, gestão de resíduos sólidos e meio ambiente, em consonância com o Novo Marco Legal do Saneamento Básico e as metas de universalização até 2033.",
+        "pagina": 36
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 8 — Gestão Pública Moderna, Digital e Transparente. Este eixo organiza a transformação digital dos serviços do Estado, a transparência ativa, a integridade contábil-fiscal e a modernização administrativa.",
+        "pagina": 45
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.6. Educação Infantil em Parceria com os Municípios. Pacto estadual com as 15 prefeituras para estimular o atendimento na primeira infância, com apoio técnico e articulação com o Programa Colo de Mãe.",
+        "pagina": 21
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 2 — Saúde Mais Perto das Pessoas. Redução drástica das filas de cirurgias e exames. A superlotação da capital decorre da concentração excessiva de serviços em Boa Vista e da baixa capacidade do interior.",
+        "pagina": 15
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 1 — Segurança Pública, Defesa Social e Proteção da Vida. Segurança não é só pena: é presença do Estado, é inteligência policial, é bombeiro chegando rápido, é mulher e criança protegida.",
+        "pagina": 10
+      }
+    ]
+  }
+}

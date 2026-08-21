@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliando os investimentos nos serviços de assistência social, saúde, educação e proteção especial, e combater toda forma de exploração econômica ou sexual, assegurando que nenhuma criança seja privada de sua infância pela pobreza ou pela violência.",
+        "pagina": 13
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso Governo Popular colocará a juventude no centro de seu projeto de transformação tecnológico, econômico e cultural do estado.",
+        "pagina": 16
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso Governo Popular colocará a juventude no centro de seu projeto de transformação tecnológico, econômico e cultural do estado.",
+        "pagina": 16
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "No mercado de trabalho formal, as mulheres chegam a receber, em média, 29% menos que os homens em nosso estado. (...) Construir uma sociedade justa exige enfrentar todas as formas de exploração e opressão.",
+        "pagina": 11
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Também criaremos mecanismos de proteção aos direitos trabalhistas e combatendo a precarização das relações de trabalho.",
+        "pagina": 16
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO: CONHECIMENTO PARA LIBERTAR O POVO. A educação é um dos principais instrumentos de transformação da sociedade.",
+        "pagina": 18
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "São Paulo possui o segundo maior orçamento público do Brasil (...) O orçamento é utilizado para atender aos interesses do mercado financeiro, em vez das necessidades da população. No nosso Governo Popular o orçamento estadual deixará de servir a esses interesses.",
+        "pagina": 3
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Planejar cidades para quem vive nelas. Construiremos moradias populares, urbanizaremos as periferias, combateremos a especulação imobiliária, garantiremos a função social da propriedade.",
+        "pagina": 27
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso compromisso é construir novas formas de participação popular, fortalecer a organização da classe trabalhadora e fazer com que o Estado passe a responder, de fato, aos interesses da maioria.",
+        "pagina": 4
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Trabalharemos em parceria com os municípios para fortalecer os [serviços de proteção à infância e adolescência].",
+        "pagina": 13
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliando os investimentos nos serviços de assistência social, saúde, educação e proteção especial.",
+        "pagina": 13
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Desmilitarizar a Polícia Militar e construir uma polícia (...) Romper com a militarização é o primeiro passo para garantir direitos.",
+        "pagina": 6
+      }
+    ]
+  }
+}

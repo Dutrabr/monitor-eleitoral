@@ -1,0 +1,71 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {"status": "nao_consta"},
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Cuidar das pessoas E PROMOVER DESENVOLVIMENTO SOCIAL. Cuidar das pessoas é colocar o cidadão no centro das decisões e garantir que o Estado esteja presente nos momentos em que ele mais precisa.", "pagina": 10}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "TRANSFORMAR BRASÍLIA NO VALE DO SILÍCIO BRASILEIRO. Aproveitar a presença de universidades, centros de pesquisa, empresas, profissionais altamente qualificados e a vocação de Brasília para a tecnologia e a inovação para transformar conhecimento em desenvolvimento econômico.", "pagina": 17}
+    ]
+  },
+  "cultura": {"status": "nao_consta"},
+  "direitos_humanos_e_igualdade": {"status": "nao_consta"},
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Cuidar da gestão E CRIAR CONDIÇÕES PARA O DESENVOLVIMENTO ECONÔMICO. Cuidar da gestão é fazer o governo funcionar melhor para que Brasília também cresça e gere oportunidades.", "pagina": 16}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Educação que cuida. TODA CRIANÇA E TODO JOVEM MERECEM A OPORTUNIDADE DE DESENVOLVER SEU POTENCIAL. O DESAFIO: A escola pública precisa garantir aprendizagem, mas seu papel vai além.", "pagina": 19}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Grande parte do orçamento está comprometida com despesas de pessoal e custeio, enquanto apenas 2,67% são destinados a investimentos. (...) Sua nota de capacidade de pagamento junto ao Tesouro Nacional é C, o que impede operações de crédito com garantia da União.", "pagina": 47}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Transporte cuidadoso. TODO CIDADÃO TEM O DIREITO DE IR E VIR EM SEGURANÇA, DIGNIDADE E DE FORMA EFICIENTE. O DESAFIO: Mobilidade é parte da vida das pessoas.", "pagina": 42}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "No meio ambiente, conciliar desenvolvimento e preservação, proteger nascentes, mananciais, parques e áreas verdes, cuidar da água e buscar soluções sustentáveis para o crescimento do Distrito Federal.", "pagina": 12}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3. CONSTRUIR UM GOVERNO INTEGRADO E DIGITAL DE VERDADE. Integrar os sistemas do Governo do Distrito Federal para que os órgãos públicos conversem entre si. O cidadão não pode continuar sendo o mensageiro do governo.", "pagina": 49}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Outra integração importante será entre Distrito Federal e Goiás. Por meio da criação de um Gabinete de Gestã[o Integrada].", "pagina": 40}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Saúde que cuida. CUIDAR DAS PESSOAS É GARANTIR ATENDIMENTO NO TEMPO CERTO. O DESAFIO: O maior desafio da saúde pública não começa na porta do hospital.", "pagina": 26}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Segurança cuidadosa. TODA FAMÍLIA TEM O DIREITO DE VIVER SEM MEDO. O DESAFIO: Segurança é poder viver a cidade com tranquilidade.", "pagina": 37}
+    ]
+  }
+}

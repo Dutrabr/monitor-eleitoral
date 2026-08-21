@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "AGRICULTURA, PECUÁRIA, AQUICULTURA, PESCA, AGROINDÚSTRIA, AGROECOLOGIA E AGRICULTURA FAMILIAR.", "pagina": 27}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2. ACOLHIMENTO, PROTEÇÃO SOCIAL E CUIDADOS.", "pagina": 19}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CIÊNCIA, TECNOLOGIA E INOVAÇÃO.", "pagina": 31}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CULTURA E PATRIMÔNIO.", "pagina": 51}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PROTEÇÃO SOCIAL E DIREITOS HUMANOS.", "pagina": 20}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4. DESENVOLVIMENTO ECONÔMICO E INCLUSÃO PRODUTIVA. O Estado consolidou sua liderança nacional na atração de investimentos.", "pagina": 26}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "7. EDUCAÇÃO TRANSFORMADORA, VALORIZAÇÃO DA CULTURA E INOVAÇÃO.", "pagina": 45}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Estado consolidou sua liderança nacional na atração de investimentos, preservou o equilíbrio fiscal, ampliou a infraestrutura logística.", "pagina": 26}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MOBILIDADE, ACESSIBILIDADE, TRANSPORTE PÚBLICO E SEGURANÇA VIÁRIA.", "pagina": 38}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5. RESILIÊNCIA AMBIENTAL E DESENVOLVIMENTO URBANO E RURAL. PRESERVAÇÃO AMBIENTAL E BIODIVERSIDADE. GOVERNANÇA E ADAPTAÇÃO ÀS MUDANÇAS CLIMÁTICAS.", "pagina": 32}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. GESTÃO ESTRATÉGICA, GOVERNANÇA INTERFEDERATIVA, COMPARTILHADA E INOVADORA. A gestão estratégica e a governança interfederativa constituem pilares fundamentais.", "pagina": 17}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O fortalecimento da gestão pública passa pela cooperação federativa, pelo planejamento integrado e pelo compartilhamento de capacidades institucionais entre Estado e municípios.", "pagina": 17}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "6. PROMOÇÃO DA SAÚDE, BEM-ESTAR E ENVELHECIMENTO SAUDÁVEL.", "pagina": 39}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3. SEGURANÇA PÚBLICA E PREVENÇÃO ÀS VIOLÊNCIAS. Os resultados da Política de Segurança do Governo Elma[no].", "pagina": 24}
+    ]
+  }
+}

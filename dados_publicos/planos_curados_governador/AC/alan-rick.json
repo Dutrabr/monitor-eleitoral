@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Agronegócio Competitivo e Cadeias Produtivas Fortes. O fortalecimento da produção rural será um dos pilares do desenvolvimento econômico do Acre. O Estado possui grande potencial nas cadeias da pecuária.", "pagina": 9}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Nosso governo fortalecerá o Sistema Único de Assistência Social (SUAS) por meio da descentralização dos serviços, de equipes volantes para alcançar comunidades tradicionais.", "pagina": 25}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7: Planejamento, Governança e Inovação. O Acre avançou em planejamento, governança e digitalização, mas ainda entrega abaixo do seu potencial.", "pagina": 37}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Cultura - Programas Cultura Viva Acre e Acre em Movimento. Transformar a cultura...", "pagina": 27}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Direitos humanos e inclusão social (...) priorizar mulheres chefes de família, jovens vulneráveis e pessoas com deficiência.", "pagina": 24}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A Força da Nossa Economia — Desenvolvimento Econômico Sustentável, Agronegócio e Produção Familiar (EIXO 1).", "pagina": 9}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A educação é um dos principais pilares para o desenvolvimento econômico e social do Acre. Embora o Estado tenha ampliado o acesso...", "pagina": 20}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Acre avançou em planejamento, governança e digitalização, mas ainda entrega abaixo do seu potencial. O Plano Plurianual (PPA) ficou mais detalhado, porém a expansão dos p[rocessos]...", "pagina": 37}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Rodovias, Ramais e Integração Regional. A infraestrutura é a base para...", "pagina": 14}
+    ]
+  },
+  "meio_ambiente_e_clima": {"status": "nao_consta"},
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7: Planejamento, Governança e Inovação. Nosso governo vai atuar simultaneamente para transformar [a gestão pública].", "pagina": 37}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecendo o consórcio público intermunicipal e soluções regionalizadas para disposição final ambientalmente adequada.", "pagina": 15}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Nosso governo vai reorganizar a rede estadual de saúde combinando grandes investimentos estruturantes com a valorização dos profissionais e a modernização da gestão.", "pagina": 30}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Acre reduziu em 57,2% os Crimes Violentos Letais Intencionais entre 2018 e 2024 (de 395 para 169 óbitos).", "pagina": 34}
+    ]
+  }
+}

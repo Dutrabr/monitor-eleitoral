@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reforma agrária, sob o controle dos trabalhadores e povos da floresta. Apoio financeiro e técnico à agricultura familiar, à agroecologia e à produção de alimentos para a população, em oposição à expansão do agronegócio.",
+        "pagina": 16
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tarifa zero para famílias desempregadas e aquelas cadastradas em programas sociais; para a classe trabalhadora, tarifa proporcional aos salários com uma política de descontos progressivos; nãos aos cortes de água por inadimplência. Água é vida!",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação, ciência e tecnologia de qualidade são direitos fundamentais da juventude. O principal índice da qualidade da educação básica no Brasil é o Ideb, e o estado Pará tinha um dos piores resultados nesse quesito.",
+        "pagina": 21
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. POR UMA CULTURA INDEPENDENTE E REVOLUCIONÁRIA NO PARÁ. O Pará é um dos lugares de maior riqueza cultural do mundo. Em seu território convivem centenas de povos, tradições, saberes e manifestações que atravessam séculos de história.",
+        "pagina": 34
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. COMBATE ÀS OPRESSÕES. Romper as engrenagens do capitalismo para acabar com o racismo, o machismo, a LGBTIfobia, a xenofobia e demais formas de preconceito. O capitalismo utiliza as opressões para explorar ainda mais os setores da classe trabalhadora.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. TRABALHO, EMPREGO E RENDA. Enquanto cria apenas 10 mil postos de trabalho formal neste ano, o Pará amarga o segundo maior índice de informalidade do país, com cerca de 56,5% de trabalhadores atuando nas condições precárias do trabalho informal.",
+        "pagina": 2
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. EDUCAÇÃO. Garantir educação pública, laica, democrática e de qualidade para a classe trabalhadora.",
+        "pagina": 26
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa do fim de políticas de renúncia fiscal para grandes empresas e redirecionamento de recursos públicos para o fomento à produção artística local e comunitária.",
+        "pagina": 23
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. SANEAMENTO BÁSICO. Água é direito, não mercadoria. O acesso à água potável e ao saneamento básico é um direito humano reconhecido internacionalmente e um dever do Estado brasileiro. A reestatização da COSANPA com a universalização do saneamento básico no Pará.",
+        "pagina": 7
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. CAMPO E MEIO AMBIENTE. Em defesa do meio ambiente, dos povos e populações tradicionais e contra os megaempreendimentos que devastam o Pará e a Amazônia. Combate ao garimpo ilegal, à grilagem, à exploração ilegal de madeira.",
+        "pagina": 13
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A transparência deve orientar a gestão do sistema de saneamento, tornando públicos e auditáveis todos os contratos, metas, indicadores de qualidade, receitas, custos e investimentos. O controle social deve assegurar que trabalhadores, usuários e representantes da sociedade participem das decisões estratégicas.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Descentralização: Levar o dinheiro da cultura para além da Região Metropolitana de Belém, atendendo os municípios do interior do estado; espaços públicos: reforma e abertura de teatros, centros culturais e locais de ensaio nas periferias e no interior.",
+        "pagina": 36
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. SÁUDE. Por uma saúde 100% pública, estatal, gratuito e de qualidade. A saúde é um direito fundamental e não uma mercadoria. A população paraense enfrenta diariamente longas filas por consultas, exames e cirurgias, falta de medicamentos.",
+        "pagina": 30
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. SEGURANÇA PÚBLICA. A segurança pública no Brasil é determinada pela Constituição Federal de 1988 como direito a ser garantido pelo Estado a todos os cidadãos. Combater o crime organizado, as máfias, as milícias, facções e demais organizações criminosas por meio da investigação e inteligência.",
+        "pagina": 4
+      }
+    ]
+  }
+}

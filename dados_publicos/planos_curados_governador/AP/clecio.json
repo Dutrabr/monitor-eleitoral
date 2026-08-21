@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.6 Pecuária. Implantar o Programa Pecuária do Amapá, fortalecendo a cadeia produtiva por meio de assistência técnica, melhoramento genético, recuperação de pastagens.", "pagina": 14}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.3 Proteção Social.", "pagina": 26}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.5 Ciência, Tecnologia e Inovação. Talentos para a nova economia: fortalecer a formação de talentos em áreas estratégicas.", "pagina": 13}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.12 Cultura e economia criativa. Implementar o Programa Amapá Criativo, estruturado para afirmar a cultura como eixo fundamental de desenvolvimento econômico, simbólico e social em todo o Estado.", "pagina": 16}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.4 Direitos humanos: Política para mulheres, Quilombolas e ribeirinhos, Povos indígenas, Igualdade racial e ações afirmativas, Pessoas com deficiência, Pessoa idosa, LGTBQIAPN+, Criança e adolescente.", "pagina": 27}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.1 Desenvolvimento Econômico: preparando o Amapá para crescer com investimentos e geração de empregos.", "pagina": 6}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.1 Educação para o Futuro: mais qualidade, inclusão e oportunidades para transformar vidas.", "pagina": 21}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5.2 Gestão Fiscal que gera confiança e resultados. O Governo do Estado consolidou uma gestão fiscal responsável, ampliando a capacidade de investimento, fortalecendo o equilíbrio das contas públicas.", "pagina": 33}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2. INFRAESTRUTURA E MOBILIDADE PARA O FUTURO.", "pagina": 18}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O primeiro mandato de Clécio Luís avançou significativamente aprimorando a segurança jurídica, por meio da modernização da legislação tributária, agilização do processo regulatório fundiário e licenciamento ambiental rápido e seguro.", "pagina": 9}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5: GESTÃO E TRANSFORMAÇÃO DIGITAL. Transformação digital e inovação governamental: ampliar o Governo Digital, com a criação do Super Fácil Amapá Digital.", "pagina": 34}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6: INTERIORIZAÇÃO DO DESENVOLVIMENTO. Integração Laranjal do Jari - Vitória do Jari: concluir a implantação dos 34 quilômetros da AP-160, integrando por rodovia os municípios.", "pagina": 35}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.2 Saúde da Gente: a primeira de todas as prioridades. Desde o primeiro dia de governo, a saúde foi definida como prioridade absoluta, imediata e inegociável.", "pagina": 24}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4: MAIS SEGURANÇA - MAIS FUTURO. Segurança Pública: ações consistentes gerando resultados.", "pagina": 30}
+    ]
+  }
+}

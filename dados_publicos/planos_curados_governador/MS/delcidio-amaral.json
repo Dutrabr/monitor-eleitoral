@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O agronegócio, a agricultura familiar, a agroindústria e o setor industrial possuem grande importância para a nossa economia.",
+        "pagina": 15
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mapeamento de Vulnerabilidade Social: Cruzamento de dados geográficos e socioeconômicos para direcionar a construção de praças, quadras e complexos esportivos nas regiões de maior vulnerabilidade.",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 7: Ciência, Tecnologia e Inovação (C&T&I) em Mato Grosso do Sul.",
+        "pagina": 20
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A Cultura das Elites e o Abandono dos Municípios (...) tratada como um direito fundamental, alcançando cada trabalhador, jovem e artista nos 79 municípios.",
+        "pagina": 8
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pacto de Enfrentamento ao Feminicídio: Criar uma rede estadual viva de proteção à mulher, com Patrulhas Maria da Penha integradas e delegacias especializadas nas macrorregiões.",
+        "pagina": 5
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Polo Mundial de Celulose na Costa Leste (...) A Rota Bioceânica e a Saída para o Pacífico (...) transformando de vez o estado no portal de conexão terrestre do Brasil com o mercado asiático.",
+        "pagina": 17
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Uma escola que forme cidadãos críticos, conscientes do meio ambiente e preparados para o mundo do trabalho, respeitando a diversidade e fortalecendo a democracia.",
+        "pagina": 7
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Colocar o ser humano, a dignidade, a sustentabilidade e a justiça social no centro do orçamento público.",
+        "pagina": 26
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Para garantir a capacidade de expansão da nossa economia em nosso estado, são imprescindíveis os investimentos em obras de infraestrutura e logística.",
+        "pagina": 13
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Espaço Geográfico e o Meio Ambiente: Precisam ser vistos como passíveis da criação de uma rede de interconexões inteligentes. O conhecimento científico deve permitir e induzir o desenvolvimento.",
+        "pagina": 20
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Servidores de Estado e diretores comissionados viraram alvos frequentes de investigações de combate à corrupção. É inadmissível que os ocupantes do primeiro escalão (...) pareçam ser escolhidos pela sua ficha corrida criminal.",
+        "pagina": 26
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Descentralização dos Recursos (Cultura nos 79 Municípios): Criar o programa Cultura Viva no Interior, garantindo que as verbas e os editais estaduais cheguem de forma proporcional a todas as microrregiões.",
+        "pagina": 9
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde em Mato Grosso do Sul foi privatizada (...) Saúde é direito essencial. Não pode ser tratada como mercadoria ou cabide de negócios privados.",
+        "pagina": 3
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública em Mato Grosso do Sul será exercida sob a ótica da cidadania e da responsabilidade social.",
+        "pagina": 4
+      }
+    ]
+  }
+}

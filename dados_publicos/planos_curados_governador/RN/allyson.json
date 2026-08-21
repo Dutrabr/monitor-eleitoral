@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 07 — Desenvolvimento Regional e Agricultura. Regularização fundiária e acesso a direitos: avançar em cadastro, titulação e regularização de imóveis rurais, articulando documentação, crédito, assistência técnica, proteção ambiental e segurança jurídica.",
+        "pagina": 29
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 10 — Mulheres, Cuidado e Proteção Social. RN Por Elas: integrar saúde, segurança, assistência, educação, trabalho e empreendedorismo em uma política estadual para ampliar proteção, autonomia, renda e oportunidades para as mulheres em todas as regiões.",
+        "pagina": 37
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 04 — Educação, Ciência, Tecnologia e Inovação. Inteligência Artificial a Serviço do Povo: utilizar dados e novas tecnologias para melhorar serviços e apoiar decisões, com proteção das informações, segurança digital, supervisão humana e transparência.",
+        "pagina": 9
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 11 — Cultura, Esporte e Juventude. Cultura Presente em Todas as Regiões: fortalecer o Sistema Estadual de Cultura, a Fundação José Augusto, editais e financiamento, interiorizar circulação e formação e ampliar o acesso às diferentes linguagens artísticas.",
+        "pagina": 40
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 09 — Inclusão, acessibilidade e respeito. Povos e Comunidades Tradicionais: desenvolver ações integradas para fortalecer comunidades quilombolas, indígenas, pesqueiras artesanais e demais povos e comunidades tradicionais, respeitando suas identidades culturais.",
+        "pagina": 34
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 02 — Desenvolvimento Econômico, Trabalho e Ambiente de Negócios. Infraestrutura para Produzir e Exportar: qualificar distritos produtivos, energia, água, gás, saneamento, acessos e conectividade e viabilizar projetos logísticos que ampliem a competitividade das empresas potiguares.",
+        "pagina": 13
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Talentos do RN: instituir o Programa Talentos do RN, promovendo o desenvolvimento das potencialidades dos estudantes nas áreas do esporte, das artes, da cultura, da música, da dança, do teatro, da ciência e da tecnologia, por meio de atividades no contraturno escolar.",
+        "pagina": 18
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Iniciar um novo ciclo de desenvolvimento sustentável, baseado em gestão qualificada, inovação, responsabilidade fiscal e compromisso permanente com as pessoas.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estradas Estaduais: executar plano permanente de recuperação e conservação das rodovias estaduais, com critérios de segurança, tráfego, produção e acesso a serviços, além de sinalização, drenagem e manutenção preventiva.",
+        "pagina": 25
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Salvar a Praia de Ponta Negra: atuar com a Prefeitura de Natal, CAERN, órgãos ambientais, universidades e instituições de controle para implantar a drenagem necessária, corrigir impactos e devolver dignidade ao principal cartão-postal do Rio Grande do Norte.",
+        "pagina": 25
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Diálogo com o Poder Judiciário e os Órgãos de Controle: manter diálogo institucional permanente, respeitoso e transparente com o Poder Judiciário, o Ministério Público, a Defensoria Pública, os tribunais de contas e os demais órgãos de controle.",
+        "pagina": 10
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pactos com os 167 Municípios: simplificar convênios, oferecer apoio técnico e construir compromissos territoriais com responsabilidades, fontes de recursos, metas e prestação de contas, respeitando a autonomia municipal.",
+        "pagina": 9
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 03 — Saúde. Saúde que Funciona: estabelecer programa estadual permanente para reduzir o tempo de espera por consultas, exames e cirurgias.",
+        "pagina": 15
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 05 — Segurança com Integração e Presença do Estado. RN com Segurança e Paz: integrar Polícia Militar, Polícia Civil, Polícia Científica, Corpo de Bombeiros, Polícia Penal, Guardas Municipais, forças de segurança nacional em planejamento permanente.",
+        "pagina": 22
+      }
+    ]
+  }
+}

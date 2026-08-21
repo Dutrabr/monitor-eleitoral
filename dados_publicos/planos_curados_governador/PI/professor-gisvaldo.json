@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fomento da agricultura familiar com fornecimento de assessoria técnica, incentivo à aquisição de bens de capital, prioridade de aquisição de alimentos pela agricultura familiar para instituições públicas.",
+        "pagina": 14
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a implementação do Sistema Nacional de Segurança Alimentar e Nutricional nos municípios piauienses. Reunir as cozinhas comunitárias e restaurantes populares presentes no estado em uma Rede de Equipamentos de Segurança Alimentar.",
+        "pagina": 17
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O estudo e a preservação dos ecossistemas, bem como a busca de inovações em eficiência da geração e uso de energias renováveis, deve ser, em si, um motor para o desenvolvimento do estado, focado não apenas na compra e venda, mas na transferência de conhecimento e tecnologia.",
+        "pagina": 12
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.4 CULTURA. Democratização da gestão da política de cultura no estado do Piauí, com investimentos na ampliação do acesso e recuperação, revitalização e fortalecimento dos espaços públicos e de convivência comunitária.",
+        "pagina": 34
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Piauí é o lar de mais de 3,2 milhões de pessoas com uma pequena maioria mulheres e uma enorme maioria de negros e negras e pardos e pardas. Além disso, mais de 7 mil pessoas indígenas e mais de 31 mil quilombolas têm sua história ligada a esse território.",
+        "pagina": 20
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — MODELO ECONÔMICO E JUSTIÇA CLIMÁTICA. A economia piauiense hoje, apesar dos resultados numéricos comemorados ano após ano, é baseada num modelo que reforça a dependência regional e nacional, é altamente predatória dos ecossistemas.",
+        "pagina": 9
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reforma e ampliação dos campi em funcionamento garantindo infraestrutura adequada para os cursos de graduação e para os estudantes, com laboratórios, bibliotecas, residências universitárias.",
+        "pagina": 28
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defenderemos nacionalmente a revogação dos limites para a contratação de pessoal da Lei de Responsabilidade Fiscal (...) a justiça tributária, a valorização do serviço público e a substituição de terceirizações serão prioridades do governo do PSOL.",
+        "pagina": 36
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Imediata reversão das privatizações do fornecimento de água, saneamento, energia e saúde no estado.",
+        "pagina": 37
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Buscar o desmatamento zero da vegetação nativa no estado, com absoluto rigor na fiscalização.",
+        "pagina": 15
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Gestão baseada nos princípios do Governo Aberto, aumentar a transparência e combater a corrupção (...) a ampliação do alcance e do orçamento dirigido ao Orçamento Participativo.",
+        "pagina": 36
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O diálogo permanente com a Associação Piauiense de Municípios, a justiça tributária, a valorização do serviço público (...) serão prioridades do governo do PSOL.",
+        "pagina": 36
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa da Reforma Sanitária Brasileira e do SUS. Reverter a lógica da expansão do setor privado na saúde pública, aumentando investimentos na aquisição de tecnologia e recursos humanos.",
+        "pagina": 29
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Investimento na valorização do profissional da segurança pública, através de um plano de cargos e salários que garantam a isonomia nos processos de promoção. Criação de complexo de inteligência em segurança pública na capital.",
+        "pagina": 33
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O modelo agroexportador concentra terra, riqueza e poder nas mãos de poucos. Nunca a produção agropecuári[a beneficiou os pequenos produtores].", "pagina": 21}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Programa público de atendimento domiciliar, com equipes multiprofissionais, voltado a idosos, pessoas com deficiência, pacientes acamados, pessoas com doenças crônicas e famílias que necessitam de acompanhamento continuado.", "pagina": 29}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "As plataformas digitais não devem permanecer sob controle de monopólios privados que exploram trabalhadores, usuários e pequenos empreendimentos. A própria tecnologia hoje usada para precarizar pode e deve ser colocada a serviço da organização social do trabalho.", "pagina": 9}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A luta indígena e quilombola é luta por terra, mas também por água, saneamento, escola, saúde, transporte, produção, cultura e proteção contra a violência.", "pagina": 38}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Contra o racismo: reparação, emprego, direitos e fim do genocídio da juventude negra. (Também capítulos dedicados a mulheres, LGBTfobia, povos indígenas e quilombolas.)", "pagina": 33}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. Acabar com o desemprego, a fome e a precarização do trabalho. O Brasil e o Ceará produzem riqueza suficiente para garantir uma vida digna ao seu povo.", "pagina": 13}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Somos contra essa captura empresarial da educação. Verba pública deve ser destinada exclusivamente à educação pública.", "pagina": 24}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A dívida pública não é apenas um problema de má gestão. Ela é parte do funcionamento normal do capitalismo. (...) Suspensão do pagamento das dívidas ilegítimas, abusivas ou sem comprovação de interesse público.", "pagina": 15}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "7. Reforma urbana e plano de obras públicas para resolver o problema da moradia e do emprego. O déficit habitacional no Ceará continua atingindo centenas de milhares de famílias.", "pagina": 30}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A questão da água é mais que decisiva. Em um estado marcado pelo semiárido, a água não pode ser mercadoria, nem instrumento de especulação privada.", "pagina": 20}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Democratizar a Justiça e enfrentar a criminalização dos pobres. O sistema de Justiça é duro com os pobres e complacente com os ricos.", "pagina": 43}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {"status": "nao_consta"},
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O SUS é uma conquista histórica da classe trabalhadora brasileira. Mas, desde sua criação, nunca recebeu os recursos necessários para funcionar plenamente.", "pagina": 27}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Em 2025, o Ceará registrou 3.021 crimes violentos letais intencionais. Isso significa mais de oito mortes violentas por dia.", "pagina": 39}
+    ]
+  }
+}

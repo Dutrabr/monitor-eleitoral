@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A política fundiária do Maranhão deve estar orientada pela democratização do acesso à terra, pela proteção dos territórios dos povos e comunidades tradicionais e pela promoção de um modelo de desenvolvimento socialmente justo.",
+        "pagina": 151
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A assistência social é um direito garantido pela Constituição Federal de 1988 e organizada pelo Sistema Único de Assistência Social (SUAS) (...) política pública destinada à proteção social de famílias e indivíduos em situação de vulnerabilidade.",
+        "pagina": 143
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Ciência, Tecnologia e Inovação para a Agricultura — Desenvolver tecnologias públicas voltadas ao manejo ecológico, ao controle biológico de pragas e à produção de insumos compatíveis com a agroecologia.",
+        "pagina": 157
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Maranhão possui um dos mais ricos patrimônios culturais do Brasil (...) Bumba meu boi, tambor de crioula, cacuriá, reggae, hip-hop, quadrilhas juninas, tambor de mina, festas populares.",
+        "pagina": 227
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Não pode existir uma sociedade verdadeiramente livre enquanto parte da humanidade continuar submetida ao racismo, ao machismo, à LGBTfobia, à xenofobia e às demais formas de discriminação e violência.",
+        "pagina": 177
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "É necessário romper com as políticas que colocam os interesses dos grandes empresários, do agronegócio e das multinacionais acima das necessidades da população, direcionando a riqueza produzida pelo trabalho para garantir emprego, renda.",
+        "pagina": 15
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação pública maranhense reflete as profundas desigualdades econômicas e sociais que marcam o estado (...) o Maranhão ainda apresenta alguns dos piores indicadores educacionais do país.",
+        "pagina": 101
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar os investimentos públicos em educação, destinando 10% do orçamento estadual ao setor, como forma de enfrentar o déficit histórico de financiamento da rede.",
+        "pagina": 115
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O transporte público não é apenas um serviço: é um direito social e um elemento fundamental para articular o território e garantir o acesso ao trabalho, à educação, à saúde, à cultura.",
+        "pagina": 135
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A emergência climática expressa o esgotamento de um modelo de produção baseado na exploração ilimitada da natureza em função do lucro.",
+        "pagina": 35
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A transparência na gestão pública é condição essencial para o combate à corrupção, o controle social e a boa aplicação dos recursos públicos.",
+        "pagina": 283
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Urbanizar as áreas periféricas e comunidades populares, em parceria com prefeituras e organizações da classe trabalhadora nos municípios.",
+        "pagina": 129
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Maranhão é um dos estados brasileiros que mais dependem do Sistema Único de Saúde (SUS) (...) 92,6% da população maranhense não possui plano de saúde privado.",
+        "pagina": 89
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública não pode ser tratada centralmente como um problema policial. A violência está profundamente relacionada às desigualdades sociais, à concentração de renda, ao desemprego, ao racismo.",
+        "pagina": 251
+      }
+    ]
+  }
+}

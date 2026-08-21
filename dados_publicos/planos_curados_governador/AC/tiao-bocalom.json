@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5 — AGRONEGÓCIO, BIOECONOMIA e MEIO AMBIENTE. A agropecuária é um dos principais pilares [da economia do Acre].", "pagina": 20}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Integrar segurança pública, justiça, assistência social e saúde, com ações educativas de prevenção.", "pagina": 9}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7 — TECNOLOGIA E GOVERNO DIGITAL. Nosso governo ampliará a incorporação de tecnologia [à gestão pública].", "pagina": 26}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 9 — ESPORTE, CULTURA E TURISMO. O nosso governo dará prioridade total ao Esporte e [à Cultura].", "pagina": 37}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Apoiar as famílias com Crianças com Deficiência, oferecendo ambientes e mão-de-obra especializados.", "pagina": 13}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 — COMÉRCIO E SERVIÇOS. O comércio, os serviços e o turismo são setores essenciais [da economia acreana].", "pagina": 15}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 8 — EDUCAÇÃO E QUALIFICAÇÃO PROFISSIONAL. A educação é o maior instrumento de transformação [social].", "pagina": 27}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Compras Governamentais como Política de Estado: direcionar o orçamento público de custeio e investimento para a aquisição de bens e serviços de empresas locais.", "pagina": 16}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6 — INFRAESTRUTURA, LOGÍSTICA E INTEGRAÇÃO INTERNACIONAL. A infraestrutura é a base que [sustenta o desenvolvimento].", "pagina": 24}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5 — AGRONEGÓCIO, BIOECONOMIA e MEIO AMBIENTE.", "pagina": 20}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7 — TECNOLOGIA E GOVERNO DIGITAL. Nosso governo ampliará a incorporação de tecnologia [na modernização da gestão pública].", "pagina": 26}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecer os CAPS municipais com política estadual de cofinanciamento. Criar um Programa de Recuperação de Dependentes Químicos em parceria com Prefeituras e entidades especializadas.", "pagina": 14}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 — SAÚDE. Direito não deve ser favor, e acesso não deve ser privilégio.", "pagina": 11}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1 — SEGURANÇA PÚBLICA. Tecnologia, integração e autoridade para proteger o Acre.", "pagina": 7}
+    ]
+  }
+}

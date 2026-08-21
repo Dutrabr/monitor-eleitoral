@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Revisar a política de alimentação escolar, priorizando produtores locais da agricultura familiar, garantindo alimentos de qualidade e livres de agrotóxicos para a comunidade escolar e fomentando a economia local.",
+        "pagina": 5
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantia de renda mínima para a população com um programa social estadual que utilize o Sistema Único de Assistência Social como forma de acompanhar e apoiar famílias em situação de miséria.",
+        "pagina": 3
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de entidade pública de pesquisa e produção de vacinas e medicamentos, articulada com as instituições de Ciência, Tecnologia e Inovação estabelecidas no Estado.",
+        "pagina": 4
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA E JUVENTUDE. Apoio a pré-vestibulares populares através de incentivos fiscais, auxílio para alocação de espaços e doação de materiais.",
+        "pagina": 6
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DIREITOS HUMANOS. Assegurar a liberdade religiosa, especialmente a promoção do respeito às religiões de matriz afro-brasileira (candomblé e umbanda). Combater o racismo e punir os racistas será uma das prioridades do governo.",
+        "pagina": 7
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ECONOMIA E TRABALHO PARA O POVO. Apoio à economia popular e aos pequenos comerciantes, especialmente nas comunidades e bairros pobres, com crédito popular fornecido por um banco estatal estadual.",
+        "pagina": 2
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. Concurso Público imediato para a UESPI, para acabar com a carência crônica de professores que afeta cerca de 300 disciplinas por semestre.",
+        "pagina": 5
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Realizar uma auditoria da dívida pública do estado do Piauí com entes estatais e privados para eliminar irregularidades e renegociar dívidas que só servem para sangrar os recursos públicos e enriquecer bancos e especuladores do sistema financeiro.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "HABITAÇÃO, MOBILIDADE URBANA E DIREITO À CIDADE. Redução das passagens e implementação da Política de Bilhete Único Intermodal e Intermunicipal.",
+        "pagina": 6
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Gestão democrática do Estado, com eleição para todos os órgãos de direção e estatais pelos trabalhadores, acabando com as indicações eleitoreiras.",
+        "pagina": 3
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implementar o passe-livre intermunicipal para os estudantes de todas as séries e etapas do ensino, inclusive de instituições de ensino superior públicas.",
+        "pagina": 6
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE PÚBLICA. Retomada da administração direta da saúde pública pelo Estado, encerrando e auditando os contratos com as OSS (Organizações Sociais de Saúde).",
+        "pagina": 4
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA. Mudança nos critérios de seleção e treinamento de novos policiais, com enfoque nos direitos humanos, não letalidade, antirracismo e feminismo.",
+        "pagina": 3
+      }
+    ]
+  }
+}

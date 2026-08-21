@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "20. AGRICULTURA E DESENVOLVIMENTO RURAL. Fortalecer assistência técnica e extensão rural. Apoiar agricultura familiar.",
+        "pagina": 8
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. CRECHE, PRIMEIRA INFÂNCIA E APOIO ÀS FAMÍLIAS. Muitas famílias precisam trabalhar e, em muitos casos, estudar. O Estado deve atuar em regime de colaboração com os municípios para ampliar a oferta de educação infantil.",
+        "pagina": 4
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estimular economia criativa, tecnologia e inovação.",
+        "pagina": 4
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13. CULTURA E ARTISTAS SERGIPANOS. Fortalecer editais transparentes e descentralizados. Ampliar circulação de artistas pelo interior e fora do Estado. Fortalecer música, dança, teatro, audiovisual, literatura, artes visuais e culturas populares.",
+        "pagina": 6
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. INCLUSÃO — SERGIPE PARA TODOS. Fortalecer atendimento educacional especializado. Ampliar formação de profissionais para atendimento inclusivo. Ampliar acessibilidade física, comunicacional e digital.",
+        "pagina": 4
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "15. ECONOMIA, EMPREGO E DESENVOLVIMENTO REGIONAL. Apoiar micro, pequenas e médias empresas. Reduzir burocracia dentro das competências estaduais. Estimular indústria, agropecuária, turismo, comércio, serviços, tecnologia e economia criativa.",
+        "pagina": 7
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. EDUCAÇÃO — ESCOLA PARA A VIDA. Ampliar progressivamente escolas em tempo integral conforme demanda, infraestrutura e capacidade financeira. Fortalecer infraestrutura, climatização, conectividade e ambientes de aprendizagem. Valorizar professores e profissionais da educação.",
+        "pagina": 3
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "23. RESPONSABILIDADE FISCAL E EXECUÇÃO. Nenhuma proposta será tratada como promessa automática de gasto. Cada programa deverá ser analisado quanto à competência do Estado, impacto financeiro, fonte de recursos, compatibilidade com PPA, LDO e LOA.",
+        "pagina": 9
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "19. RODOVIAS E INFRAESTRUTURA — PROGRAMA RODOVIA SEGURA. Priorizar acessos a hospitais, escolas, polos produtivos, municípios e destinos turísticos.",
+        "pagina": 8
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "21. SANEAMENTO, ÁGUA E MEIO AMBIENTE. Acompanhar metas de universalização de água e esgotamento sanitário. Proteger recursos hídricos e áreas ambientalmente relevantes. Fortalecer educação ambiental. Estimular economia circular e gestão adequada de resíduos.",
+        "pagina": 9
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "22. GOVERNO DIGITAL, TRANSPARÊNCIA E GESTÃO. Digitalizar serviços públicos quando aumentar acesso e eficiência. Estabelecer metas e indicadores para programas prioritários. Publicar resultados em linguagem acessível.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Propostas referentes a educação infantil, saúde, segurança, concursos, infraestrutura e demais áreas deverão ser ajustadas ao regime constitucional de competências e ao regime de colaboração entre União, Estado e municípios.",
+        "pagina": 11
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. SAÚDE — CUIDAR COM DIGNIDADE E RESULTADO. A saúde será prioridade. O Estado possui políticas e avanços importantes, mas continuam existindo desafios relacionados a filas, regulação, acesso especializado, atendimento humanizado, distribuição territorial.",
+        "pagina": 2
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "17. SEGURANÇA PÚBLICA. Planejar recomposição de efetivo conforme estudos técnicos, aposentadorias, déficit e disponibilidade orçamentária. Fortalecer formação e valorização das forças de segurança. Investir em inteligência, investigação e integração entre órgãos.",
+        "pagina": 7
+      }
+    ]
+  }
+}

@@ -35,6 +35,15 @@ leitor tira a conclusao.
 6. **Hash do arquivo como baixado, antes de qualquer conversao.** O hash do WAV
    convertido nao prova nada sobre a origem.
 
+## Design visual do site publico
+
+`DESIGN.md`, na raiz, e' a fonte da verdade do sistema visual (paleta,
+tipografia, espacamento, raio, sombra, componentes) — extraido do CSS
+real de `base.html`, nao inventado. Antes de mexer no CSS do site
+publico, ler `DESIGN.md`; depois de mexer, atualizar `DESIGN.md` no
+mesmo commit. Ver secao final do arquivo pro status atual (v1 linha de
+base, redesign v2 pendente de referencia visual do dono).
+
 ## Arquitetura
 
 ```
@@ -669,6 +678,591 @@ git-lfs ou outra estrategia; (2) zero curadoria feita ainda, entao os
 factualmente correto mas pode passar impressao de site incompleto pro
 publico; (3) e' push pra producao, decisao que cabe ao dono, nao a mim
 decidir sozinho.
+
+Corrigido (2026-08-20, durante a curadoria em lote de Governador):
+`dados/planos_curados_governador/` estava sendo gravada como pasta plana
+(`{slug}.json`), diferente de `candidatos_governador/` e
+`planos_de_governo_governador/`, que sempre foram por UF
+(`{uf}/{slug}.json`). Isso e' uma colisao real: "vera-lucia" existe como
+candidata a Governadora tanto em SP quanto no CE (pessoas diferentes).
+Sem a subpasta por UF, a curadoria de uma sobrescreveria/vazaria pra'
+pagina da outra — achado a tempo, antes de eu curar a segunda (a de SP
+ja' tinha 14 temas gravados; a do CE ainda nao tinha sido tocada).
+Corrigido: os ~50 arquivos ja' gravados foram migrados pra'
+`{uf}/{slug}.json`, `site_publico.governador_candidato` agora passa
+`pasta_planos_curados_governador / uf` pra' `carregar_plano_curado`, e
+`exportar_dados_publicos.py` usa `_copiar_por_uf` (mesmo helper de
+`planos_de_governo_governador`) em vez de copia plana. Verificado que
+`/governador/SP/vera-lucia` e `/governador/CE/vera-lucia` agora mostram
+dados independentes.
+
+Corrigido (2026-08-20, durante a curadoria em lote de Governador —
+Distrito Federal): o arquivo cadastrado pelo proprio TSE como "plano de
+governo" (`codTipo` "5") do candidato Rico Pinheiro (DF, PRTB) **nao e'
+um plano de governo** — e' uma decisao judicial do TRE-DF sobre disputa
+de filiacao partidaria (PJe, processo de FILIAÇÃO PARTIDÁRIA), 3 paginas,
+zero conteudo de proposta de governo. Confirmado que nao e' erro nosso
+de baixar/mover arquivo errado (mesmo padrao de risco documentado pro
+caso do ACM Neto em 2026-08-20): o hash sha256 do PDF local bate
+exatamente com o que ja' estava registrado em `fonte_dados.hash_sha256_pdf`
+desde o download original — o proprio TSE serviu esse documento sob a
+categoria errada. Corrigido: o PDF foi movido de
+`dados/planos_de_governo_governador/DF/rico-pinheiro.pdf` pra'
+`dados/planos_de_governo_governador/_documentos_invalidos/DF-rico-pinheiro-
+decisao-judicial-TRE-nao-e-plano-de-governo.pdf` (preservado como
+evidencia, fora do caminho normal de lookup por slug/UF — `_copiar_por_uf`
+so' varre `{uf}/*.pdf`, entao a subpasta `_documentos_invalidos/` nunca
+entra no export nem na rota publica). `plano_de_governo` no JSON do
+candidato virou `null` (mesmo padrao dos 6 candidatos genuinamente sem
+plano) e `fonte_dados` ganhou um campo `nota` documentando o problema, pra'
+nao virar um "sumiu sem explicacao" se alguem olhar o arquivo depois.
+Sem arquivo em `planos_curados_governador/DF/rico-pinheiro.json` — nao ha'
+o que curar, os 14 temas ficam "nao verificado ainda", mesmo tratamento
+de quando nao existe plano nenhum. Verificado com `TestClient`: a pagina
+`/governador/DF/rico-pinheiro` nao mostra mais o link "Ler o plano de
+governo completo", e a rota `/governador/DF/rico-pinheiro/plano` agora
+devolve 404 (antes serviria a decisao judicial como se fosse o plano).
+`dados_publicos/` regenerado depois do fix (`exportar_dados_publicos.py`);
+ainda nao commitado/enviado pro deploy publico nesta sessao.
+
+Pronto (2026-08-20/21): curadoria dos 14 temas completa pra' Mato Grosso — os
+6 candidatos a Governador (Doutora Natasha, Mauricio Coelho, Otaviano
+Pivetta, Rafaell Milas, Sargento Laudicerio (Lau), Wellington Fagundes)
+com `dados/planos_curados_governador/MT/*.json` gravado, cada trecho
+apresentado ao dono do projeto com pagina antes de gravar (mesmo fluxo
+de `buscar_trecho_plano.py` usado pra Presidente, so' que sem o script —
+os planos de Governador tem estrutura (indice, eixos numerados) variada
+demais entre candidatos pra' um script generico, entao a leitura foi
+manual por candidato, guiada por indice/sumario quando existia e por
+busca de palavra-chave quando nao). Dois achados reais de "nao consta"
+justificado por evidencia, nao por omissao: **Rafaell Milas** (MT) tem um
+plano tecnico enxuto de so' 6 eixos que genuinamente nao cobre 6 dos 14
+temas (confirmado por contagem de palavra-chave no PDF inteiro: zero
+mencao a mulher/racial/LGBT/deficiencia, pobreza/SUAS, agricultura
+familiar/rural, meio ambiente como agenda propria, cultura, ou municipio
+como parceria dedicada). **Mauricio Coelho** (MT) tem 2 nao-consta por
+um motivo mais especifico: o plano cita agricultura familiar e
+assistencia social so' pra dizer que vai REDIRECIONAR o fundo FETHAB que
+hoje financia essas duas areas pra pagar divida salarial de servidor —
+ou seja, a unica mencao e' de retirar recurso dessas areas, nao de
+expandi-las.
+
+Corrigido no caminho (2026-08-21): o PDF cadastrado pelo TSE como plano
+de governo de **Rico Pinheiro** (Governador, DF) nao e' um plano de
+governo — e' uma decisao judicial do TRE-DF sobre disputa de filiacao
+partidaria do PRTB. Ver nota de 2026-08-21 em "Estado atual" (mais acima
+nesse arquivo) pro detalhe completo da correcao (`plano_de_governo: null`
+no candidato, PDF movido pra' `_documentos_invalidos/`).
+
+Estado da curadoria de Governador por UF, 2026-08-21 (candidatos com
+plano de governo real / candidatos curados — os sem PDF ficam de fora da
+contagem por nao terem o que curar):
+AC 6/6, AL 4/4, AM 7/7, AP 5/5, BA 7/7, CE 8/8 (Vera Lucia sem plano),
+DF 10/10 (Rico Pinheiro sem plano valido), ES 5/5, GO 6/6, MT 6/6, SP 6/6
+(Policial Edjane sem plano) — 11 UFs completas. MA, MG, MS, PB, PE,
+PI, PR, RJ, RN, RR, RS, SC com 1 candidato curado cada (parcial). MT
+(quando comecei) tambem estava nessa lista mas foi concluido nesta
+mesma sessao. PA, RO, SE, TO ainda sem nenhum candidato curado.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Goiás — os 6
+candidatos (Daniel Vilela, Luciana Amorim, Luis Cesar Bueno, Marconi
+Perillo, Wilder Morais, e Danilo Pinheiro que ja' estava pronto de uma
+sessao anterior) com `dados/planos_curados_governador/GO/*.json`
+gravado. Padrao comum aos planos de Goiás: quase todos organizam o
+documento em eixos/programas numerados com sumario claro (Daniel Vilela:
+6 eixos; Marconi Perillo: 10 areas tematicas + pacto municipal; Wilder
+Morais: 12 programas numerados), o que tornou a localizacao dos 14 temas
+mais rapida que em Mato Grosso. Duas excecoes ficaram registradas como
+"nao_consta" — nenhuma por decisao unilateral minha, sempre confirmado
+com o dono do projeto antes de gravar:
+- Luciana Amorim (Unidade Popular): meio ambiente e clima, e gestao
+  fiscal e divida publica — zero mencao no documento inteiro (varredura
+  de palavra-chave confirmou).
+- Trés outros temas de fronteira dessa mesma candidata (ciencia e
+  tecnologia, reforma politica, relacoes federativas) tinham so' uma
+  mencao tenue/indireta cada; o dono decidiu marcar como "consta" mesmo
+  assim, entao ficaram registrados com o trecho tenue e a pagina, sem
+  inflar a citacao.
+Luis Cesar Bueno teve o mesmo padrao de fronteira em 3 temas (assistencia
+social, gestao fiscal, reforma politica) — so' apareciam embutidos como
+mecanismo de auditoria/financiamento DENTRO do capitulo de Saude ou do
+fundo de mobilidade, nunca como agenda propria do Estado. Apresentado ao
+dono caso a caso; ele decidiu "consta" nos 3, entao ficaram gravados
+citando o trecho embutido tal como esta' no documento (nao inventei
+conteudo mais forte do que existe).
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Maranhao — os 8
+candidatos a Governador (Andre Luis, Dimas Cassimiro — ja' pronto de sessao
+anterior, Eduardo Braide, Felipe Camarao, Orleans Brandao, Reginaldo Lima,
+Roberto Rocha, Saulo Arcangeli) com `dados/planos_curados_governador/MA/
+*.json` gravado. Dois documentos excepcionalmente longos (Roberto Rocha
+173 paginas, Saulo Arcangeli 290 paginas) — ambos genuinos, verificados
+antes de investir tempo neles (nao e' o padrao Rico Pinheiro de documento
+errado), so' que com sumario numerado perfeito que tornou a localizacao
+dos 14 temas rapida apesar do tamanho. Padrao oposto em dois planos de
+partido pequeno (Reginaldo Lima/PCB, Saulo Arcangeli/PSTU): documentos
+fortemente ideologicos/diagnosticos, com capitulos extensos sobre
+racismo, genero e diversidade sexual mas fracos ou ausentes em temas
+"tecnicos" como gestao fiscal e relacoes federativas — confirmado por
+varredura de palavra-chave, nao suposicao, e cada caso de fronteira
+apresentado ao dono antes de gravar como consta/nao_consta.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Minas Gerais — os
+10 candidatos com plano valido (Alexandre Kalil, Cleitinho Azevedo, Flavio
+Roscoe, Gabriel, Henrique Areas — ja' pronto de sessao anterior, Indira
+Xavier, Mateus Simoes, Patrus Ananias, Professor Tulio Lopes, Rafael Duda)
+com `dados/planos_curados_governador/MG/*.json` gravado. Ben Mendes (MISSAO)
+continua sem plano de governo cadastrado no TSE — fato, nao gap de coleta.
+MG e' o estado com a maior variacao de tamanho de documento ate agora:
+de 5 paginas (Mateus Simoes, diretrizes enxutas) a 147 paginas (Alexandre
+Kalil, plano detalhadissimo com sub-secao numerada pra quase todo
+subtema imaginavel). Em documentos grandes com sumario numerado
+confiavel (Flavio Roscoe, Gabriel, Patrus Ananias, Alexandre Kalil), a
+leitura foi rapida por navegacao direta ao capitulo certo; nos sem
+sumario confiavel (Indira Xavier, Rafael Duda, Reginaldo Lima — nenhum
+desses e' de MG na verdade, ver nota do MA) a leitura foi por busca de
+palavra-chave, mais lenta. Dois candidatos de partido pequeno em MG
+(Rafael Duda/PSTU) tiveram "nao_consta" real confirmado por varredura —
+seguranca_publica (so' criticado, nunca proposto) e relacoes federativas
+(municipio so' aparece incidentalmente) — igual ao padrao ja visto em
+outros estados com PCB/PSTU.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Mato Grosso do
+Sul — os 8 candidatos (Daniel Lemes — ja' pronto de sessao anterior,
+Delcidio Amaral, Economista Renato Gomes, Eduardo Riedel, Fabio Trad,
+Jeferson Bezerra, Joao Henrique Catan, Lucien Rezende) com
+`dados/planos_curados_governador/MS/*.json` gravado. Padrao forte em MS:
+a maioria dos planos usa sumario numerado confiavel (eixos/pilares/
+dimensoes), o que acelerou muito a curadoria comparado a MA/MG. Dois
+casos de plano curto e generico (Jeferson Bezerra, so' 3 paginas de
+conteudo real) exigiram confirmar varios "nao_consta" por ausencia
+genuina (cultura, direitos humanos, meio ambiente, ciencia/tecnologia) —
+o documento e' um esboco de campanha, nao um programa completo.
+
+Estado geral da curadoria por UF apos MS, 2026-08-21: 14 UFs completas
+(AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, SP). Restam com
+1 candidato curado cada (parcial): PB, PE, PI, PR, RJ, RN, RR, RS, SC.
+Sem nenhum candidato curado ainda: PA, RO, SE, TO.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Paraiba (6
+candidatos: Camilo Duarte, Cicero Lucena, Efraim Filho, Lucas Ribeiro,
+Yuri Ezequiel curados; Pedro Coutinho sem plano registrado no TSE, gap
+factual) e Pernambuco (8 candidatos: Guilherme Fonseca, Ivan Moraes,
+Joao Campos, Professor Jeremias do Banco, Professora Camila, Raquel
+Lyra, Renan, Victor Assis). Ambos os estados 100%.
+
+Mudanca de processo combinada com o dono nesta sessao: a partir daqui,
+curadoria segue sem pausa pra confirmar cada candidato individualmente
+("continua" e "consta" como padrao, so' "nao_consta" quando genuinamente
+nao ha' nada pra citar) — o dono revisa tudo de uma vez no final, nao
+mais candidato por candidato. Antes disso ainda pedi confirmacao via
+AskUserQuestion pra chamadas de fronteira (ex: Efraim Filho/PB,
+relacoes_federativas_e_municipios com evidencia fraca — usuario decidiu
+"Consta").
+
+Achado tecnico novo: o PDF de plano de governo de Raquel Lyra (PE,
+governadora buscando reeleicao) e' scaneado/imagem pura (Adobe Acrobat
+Image Conversion Plug-in, sem camada de texto) — `pdftotext` devolve
+essencialmente vazio, `pdffonts` nao lista fonte nenhuma. Primeiro caso
+assim na curadoria de Governador. Resolvido com OCR local: `pdftoppm`
+pra renderizar cada uma das 106 paginas em PNG (150dpi) e `tesseract
+-l por` pra extrair o texto. Achado de sandbox: rodar `pdftoppm`/
+`tesseract` direto em `/tmp` falhava silenciosamente ("Leptonica Error
+... image file not found", mesmo com o arquivo existindo) — o fix foi
+usar o diretorio de scratchpad da sessao em vez de `/tmp` puro. OCR de
+143 paginas de imagem 150dpi levou ~1min40 (pdftoppm) + tempo de
+tesseract em lote; qualidade OCR e' boa o suficiente pra achar secao e
+extrair citacao (typos tipo "6 PE" por "o PE", "RS" por "R$", "Auídez"
+por "fluidez"), mas exige limpar erros obvios de reconhecimento de
+caractere na hora de transcrever a citacao pro JSON — nao inventar
+conteudo, so' corrigir OCR claramente errado letra a letra. Se mais
+planos de Governador vierem escaneados (comum em campanhas que so'
+tem PDF impresso digitalizado), esse e' o caminho: pdftoppm + tesseract
+-l por, rodando de dentro do scratchpad.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Piaui (11
+candidatos: Dra. Lucia Santos, Elizeu Aguiar, Geraldo Carvalho, Gustavo
+Pelo Piaui, Joel Rodrigues, Lourdes Melo — ja' pronto de sessao anterior,
+Professor Gisvaldo, Professor Jurity, Rafael Fonteles, Ravenna da
+Inclusao, Santiago Belizario). Estado 100%.
+
+Com PI completo, 16 UFs 100% (AC, AL, AM, AP, BA, CE, DF, ES, GO, MA,
+MG, MS, MT, PB, PE, PI, SP). Restam parciais (1 candidato cada): PR, RJ,
+RN, RR, RS, SC. Sem nenhum: PA, RO, SE, TO.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' 6 dos 8
+candidatos de Parana (Adriano Funileiro — ja' pronto de sessao anterior,
+Alexandre Salomao, Luiz Franca, Requiao Filho, Sandro Alex, Tayna
+Miessa). Sandro Alex e' o documento mais completo e bem estruturado
+encontrado ate' agora na curadoria de Governador — 274 paginas, "5
+Pontes, 5 Compromissos, 25 Pilares Estrategicos", cada pilar com nome
+proprio de programa (ex: "Governanca Fiscal Parana", "Travessia
+Parana", "Casa da Mulher Paranaense") e objetivo estrategico explicito;
+mapeamento direto de cabecalho pra' pagina, sem ambiguidade.
+
+**2 gaps tecnicos genuinos em PR, documentados aqui em vez de
+inventados ou tratados como "nao_consta"**:
+- Samuel de Mattos: o PDF baixado do TSE (idArquivo do candidato) esta'
+  corrompido — falta o marcador de fim de arquivo (EOF) e a tabela xref,
+  confirmado com `pdftotext` (erro de sintaxe), PyMuPDF (0 paginas lidas
+  sem erro), `pypdf` ("Stream has ended unexpectedly") e `pypdfium2`
+  ("EOF marker not found") — quatro bibliotecas diferentes, mesmo
+  resultado. Nao e' um problema de OCR nem de formatacao, e' o arquivo
+  em si truncado/incompleto. Sem acesso a navegador nesta sessao pra'
+  re-baixar do portal (a API direta continua bloqueada por Akamai, ver
+  nota de 2026-08-19), nao da' pra' consertar agora.
+- Sergio Moro: o PDF anexado ao registro do candidato no TSE **nao e' o
+  plano de governo** — e' so' a peticao de protocolo de 1 pagina
+  ("Requer-se a juntada do incluso plano de governo"), citando um anexo
+  que nao veio junto no arquivo salvo. Mesmo padrao do caso Rico
+  Pinheiro (DF, 2026-08-20): o documento certo provavelmente existe no
+  portal do TSE sob outro idArquivo ou como anexo separado, mas nao foi
+  capturado corretamente na coleta original.
+Nenhum dos dois teve nenhum tema marcado como "nao_consta" — a ausencia
+aqui e' de acesso ao documento, nao de conteudo no documento, e marcar
+"nao_consta" seria uma afirmacao falsa (regra 1: nunca inventar). Os
+dois ficam sem arquivo em `dados/planos_curados_governador/PR/` ate'
+alguem com acesso a navegador re-verificar a fonte no TSE.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Rio de
+Janeiro — 7 dos 7 candidatos com plano registrado (Andre Marinho,
+Coronel Busnello, Cyro Garcia, Douglas Ruas, Juliete, Luan Monteiro —
+ja' pronto de sessao anterior, William Siri). Eduardo Paes e Garotinho
+seguem sem plano no TSE (`plano_de_governo: null`, gap factual real,
+nao tecnico). Estado 100%.
+
+Segundo caso de PDF escaneado nesta sessao (o primeiro foi Raquel
+Lyra/PE): Andre Marinho, 143 paginas de imagem pura, mesmo tratamento
+— `pdftoppm` + `tesseract -l por` rodando do scratchpad. Achado
+adicional aqui: a tabela de sumario (TOC) desse documento tem layout
+em colunas/grade que confunde a ordem de leitura do OCR (texto sai
+embaralhado, ilegivel), mas o corpo do texto em paragrafo corrido OCRa
+bem. Solucao: nao tentar ler a TOC pelo OCR; em vez disso, buscar por
+substrings distintas mencionadas em paragrafos de contexto (ex: nome de
+programa como "Escudo Rio", "ArcoMM", "Corredor Pavuna") pra achar a
+pagina real de cada eixo tematico, ignorando os hits que caem dentro da
+propria TOC corrompida.
+
+William Siri (RJ, PSOL) e' o documento mais bem organizado encontrado
+ate' agora depois do Sandro Alex (PR): sumario limpo com pagina exata
+por sub-tema (ex: "DIVIDA PUBLICA" pg22, "JUSTICA FISCAL" pg23,
+"AGROECOLOGIA" pg72), sem nenhuma ambiguidade de mapeamento.
+
+Estado geral apos RJ, 2026-08-21: 19 UFs 100% completas (AC, AL, AM,
+AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PB, PE, PI, RJ, SP + PR com 2
+gaps tecnicos documentados). Restam parciais (1 candidato cada): RN,
+RR, RS, SC. Sem nenhum: PA, RO, SE, TO.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Rio Grande
+do Norte — 9 dos 9 candidatos (Allyson, Alvaro Dias, Arinalda do MLB,
+Cadu de Lula/Xavier, Carlos Jararaca, Dario Barbosa, Henrique Lyra —
+ja' pronto de sessao anterior, Professor Roberio Paulino, Rodrigo
+Bolsonaro). Estado 100%. Sem nenhum gap tecnico neste estado — todos os
+9 PDFs abriram normalmente com `pdftotext`.
+
+Padrao notado: quanto menor o documento (Rodrigo Bolsonaro 3pg, Dario
+Barbosa e Arinalda ~5-9pg), maior a chance de faltar tema inteiro por
+ausencia real (nao por preguica de busca) — Rodrigo Bolsonaro ficou
+com 7 "nao_consta" genuinos (cultura, direitos humanos, ciencia/
+tecnologia, meio ambiente, gestao fiscal, relacoes federativas,
+assistencia social), o unico candidato desta sessao com tantos temas
+realmente ausentes.
+
+Estado geral apos RN, 2026-08-21: 20 UFs 100% completas. Restam
+parciais (1 candidato cada): RR, RS, SC. Sem nenhum: PA, RO, SE, TO.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Roraima — 5
+dos 5 candidatos (Arthur Henrique, Clebio Genuino — ja' pronto de
+sessao anterior, Farah Mesquita, Rosi Aires, Soldado Sampaio). Estado
+100%. Nenhum gap tecnico. Menor estado por numero de candidatos ate'
+agora (so' 5), o que tornou o estado mais rapido de completar nesta
+sessao.
+
+Estado geral apos RR, 2026-08-21: 21 UFs 100% completas. Restam
+parciais (1 candidato cada): RS, SC. Sem nenhum: PA, RO, SE, TO.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Rio Grande do
+Sul — 7 dos 7 candidatos (Cesar Pontes — ja' pronto de sessao anterior,
+Gabriel Souza, Juliana Brizola, Marcelo Maranata, Priscila Voigt, Rejane
+de Oliveira, Zucco). Estado 100%. Nenhum gap tecnico.
+
+Dois dos documentos mais bem estruturados de toda a curadoria de
+Governador apareceram neste estado: Marcelo Maranata (87 paginas, 30
+sub-temas numerados com formato identico — Diagnostico / Objetivo
+estrategico / Metas — cobrindo os 14 temas sem nenhuma ambiguidade) e
+Zucco (107 paginas, o documento mais extenso e mais granular ja' visto,
+com titulos de subsecao em CAIXA ALTA tao especificos que quase
+dispensam leitura do corpo do texto pra' mapear tema).
+
+Estado geral apos RS, 2026-08-21: 22 UFs 100% completas. Resta parcial
+(1 candidato): SC. Sem nenhum: PA, RO, SE, TO.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Santa
+Catarina — 8 dos 8 candidatos (Bruno Pedreiro do PCO — ja' pronto de
+sessao anterior, Gelson Merisio, Jorginho Mello, Joao Rodrigues, Lais
+Chaud, Marcelo Brigadeiro, Professor Marcus Sodre, Ralf Zimmer). Estado
+100%.
+
+Terceiro caso de PDF escaneado nesta sessao (apos Raquel Lyra/PE e
+Andre Marinho/RJ): Gelson Merisio, 74 paginas de imagem pura, mesmo
+tratamento — `pdftoppm` + `tesseract -l por` do scratchpad. Documento
+extremamente bem estruturado apesar do OCR (formato "Missao N: Titulo"
++ "Programa N: Titulo" bem padronizado), permitindo mapeamento direto
+mesmo com ruido de reconhecimento de caractere.
+
+**Estado geral apos SC, 2026-08-21: as 23 UFs que ja' tinham pelo menos
+1 candidato curado no inicio desta sessao agora estao 100% completas**
+(AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PB, PE, PI, PR*,
+RJ, RN, RR, RS, SC, SP — *PR com 2 gaps tecnicos documentados, nao
+"nao_consta"). Restam com ZERO candidato curado: PA, RO, SE, TO — essas
+nunca tiveram nenhum trabalho de curadoria de temas nesta sessao nem
+em sessoes anteriores; sao states novos pra' comecar do zero, nao
+continuacao.
+
+Proximo: decidir se continua pra' PA/RO/SE/TO (zero feito) ou se
+considera a curadoria de Governador suficientemente completa por ora
+(23 de 27 UFs 100%, ~155+ planos curados) e passa pra' outra prioridade
+do projeto — essa e' uma decisao do dono, nao minha, dado o volume de
+trabalho que ainda falta nesses 4 estados novos.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Pará — 6 dos 6
+candidatos (José Moita, Araceli, Cleber Rabelo, Dr. Daniel, Gal Leite,
+Hana Ghassan) com `dados/planos_curados_governador/PA/*.json` gravado.
+Primeiro estado trabalhado depois da decisao do dono (via "sim") de
+continuar de PA/RO/SE/TO — os 4 que nunca tinham sido tocados antes
+nesta frente. Padrao observado: forte variacao de formato mesmo dentro
+de 6 candidatos — José Moita usa lista numerada de 40+ propostas com
+sumario implicito por numeracao; Araceli e' um discurso em primeira
+pessoa ("Carta Aberta", "Primeiro:... Segundo:... Terceiro:...") sem
+sumario, exigindo leitura sequencial da fala; Cleber Rabelo (PSTU) segue
+o padrao ja visto noutros estados (capitulos numerados 1-12, forte em
+identidade/opressao, mais fraco mas ainda presente em ciencia/tecnologia
+e relacoes federativas, sem secao dedicada de reforma politica —
+usada uma mencao de transparencia/controle social do capitulo de
+saneamento como substituto); Dr. Daniel e' o documento mais bem
+estruturado do estado, 79 paginas em "Partes/Capitulos/Eixos" numerados
+com titulo tematico claro para cada um dos 8 eixos, mapeamento direto
+sem ambiguidade; Gal Leite segue o padrao "Unidade Popular" ja
+documentado em outros estados (propostas numeradas por secao, forte em
+pautas identitarias, agropecuaria e ciencia/tecnologia aparecem apenas
+de forma tangencial dentro do capitulo de Meio Ambiente, nao dedicados);
+Hana Ghassan tem o sumario mais explicito ja visto na curadoria de
+Governador — SUMARIO na pg2 do PDF ja lista pagina exata de cada um dos
+13 capitulos organizados em 3 "Pilares", eliminando qualquer necessidade
+de busca por palavra-chave para a maioria dos temas. Nenhum gap tecnico
+(PDF corrompido ou mal catalogado) neste estado — os 6 PDFs abriram
+normalmente com `pdftotext`. Todos os 6 candidatos ficaram com os 14
+temas "consta" (zero "nao_consta" genuino desta vez), incluindo casos de
+seguranca "fraca" que ainda assim tinham conteudo real suficiente pra'
+citar sob a politica liberal (regra combinada com o dono nesta sessao:
+"consta" e' o padrao sempre que ha' algo genuino pra citar, "nao_consta"
+so' quando a busca por palavra-chave confirma ausencia total).
+`dados_publicos/` regenerado (168 planos curados de Governador no total,
++6 sobre os 162 anteriores) apos completar PA; ainda nao commitado/
+enviado pro deploy publico nesta sessao.
+
+Estado geral apos PA, 2026-08-21: 24 UFs 100% completas (as 23 que ja'
+tinham progresso no inicio da sessao + PA, agora finalizado). Restam
+RO, SE, TO — os 3 unicos estados que ainda nao tiveram nenhum candidato
+curado.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Rondonia — 5
+dos 6 candidatos com plano valido (Adailton Furia, Expedito Netto,
+Marcos Rogerio, Pedro Abib, Samuel Costa) com
+`dados/planos_curados_governador/RO/*.json` gravado. Terceiro caso de
+PDF escaneado da sessao (apos Raquel Lyra/PE, Andre Marinho/RJ, Gelson
+Merisio/SC): Pedro Abib, 41 paginas de imagem pura (`pdftotext` retorna
+essencialmente vazio, `pdfimages -list` confirma paginas JPEG, sem fonte
+embutida), resolvido com `pdftoppm -r 130` + `tesseract -l por` do
+scratchpad, igual as vezes anteriores — OCR ruidoso mas suficiente pra
+mapear secao por titulo (ex: "5.7 ESTIMULAR CIENCIA, TECNOLOGIA,
+INOVACAO..." bem localizavel apesar de erros de reconhecimento em quase
+toda palavra), corrigidos erros obvios de caractere na hora de
+transcrever cada citacao pro JSON.
+
+Padrao notado: RO teve a maior densidade de documentos "eixo por eixo"
+com pagina exata explicita ja vista nesta frente de trabalho — Adailton
+Furia (117 paginas, sumario com pagina exata pra cada um de ~35
+subtemas dentro de 4 pilares, mapeamento direto sem ambiguidade nenhuma)
+e Marcos Rogerio (98 paginas, 10 eixos numerados com titulo tematico
+claro) tem os sumarios mais completos ja encontrados na curadoria de
+Governador. Expedito Netto e' um caso incomum: 32 paginas organizadas
+nao por tema proprio do candidato, mas seguindo literalmente os "10
+eixos do Guia Consolidado do TCE-RO" (diagnostico do Tribunal de Contas
+do Estado), com cada proposta citando a fonte de dado que a justifica e
+uma secao final "De onde vem o dinheiro" por eixo — documento mais
+factual/auditavel visto ate agora, mas com um gap real: nenhuma secao
+dedicada a ciencia/tecnologia/inovacao (busca por "inovação",
+"tecnologia", "pesquisa", "universidade", "startup" nao achou nada alem
+de mencoes administrativas de digitalizacao de servico publico) —
+marcado `nao_consta` apos busca extensiva, unico caso assim em RO.
+Samuel Costa (13 paginas, PSB) e' o documento mais compacto do estado
+mas cobre 13 dos 14 temas em texto corrido claro; gestao_fiscal_e_
+divida_publica marcado `nao_consta` ali tambem — nenhuma mencao a
+"fiscal" ou "dívida" no documento inteiro, so' uma mencao passageira a
+"incentivos fiscais" como contrapartida de contratacao local (nao e'
+politica de responsabilidade fiscal/divida).
+
+**Gap tecnico documentado, nao curado**: Hildon Chaves — o arquivo
+cadastrado pelo TSE como "plano de governo" e' na verdade uma peticao
+de 1 pagina ao TRE-RO ("HILDON DE LIMA CHAVES... vem... requerer a
+juntada do Plano de Governo"), pedindo a juntada do documento real que
+nao veio anexado no arquivo salvo — terceiro caso desse padrao exato
+nesta pesquisa (apos Rico Pinheiro/DF em 2026-08-20 e Sergio Moro/PR em
+2026-08-21). Sem arquivo em `dados/planos_curados_governador/RO/` —
+nao ha' o que curar, os 14 temas ficam "nao verificado ainda", mesmo
+tratamento dos outros dois casos.
+
+`dados_publicos/` regenerado (173 planos curados de Governador no
+total, +5 sobre os 168 anteriores) apos completar RO; ainda nao
+commitado/enviado pro deploy publico nesta sessao.
+
+Estado geral apos RO, 2026-08-21: 25 UFs completas (24 100% + RO com 1
+gap tecnico documentado, mesmo padrao usado pra PR). Restam SE e TO —
+os 2 unicos estados que ainda nao tiveram nenhum candidato curado.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Sergipe — 6
+dos 6 candidatos (Dr. Helton, Emanuel Cacho, Fabio, Ricardo Marques,
+Taty Cristina de Jesus, Valmir de Francisquinho) com
+`dados/planos_curados_governador/SE/*.json` gravado. Estado 100%, sem
+nenhum gap tecnico (todos os 6 PDFs abriram normalmente com
+`pdftotext`, incluindo Dr. Helton que gerou dezenas de avisos
+"Mismatch between font type and embedded font file" no stderr do
+`pdftotext` mas extraiu texto integro mesmo assim — aviso cosmetico,
+nao indicativo de problema real). Primeira vez nesta frente de trabalho
+que 4 dos 6 candidatos de um mesmo estado (Fabio, Emanuel Cacho, Ricardo
+Marques, Valmir de Francisquinho) tinham sumario/indice tao explicito
+que cobriu praticamente os 14 temas 1-para-1 por nome quase identico ao
+da taxonomia (ex: Fabio tem secoes chamadas literalmente "AGRICULTURA,
+PECUARIA E PESCA", "ASSISTENCIA SOCIAL E COMBATE A POBREZA", "CIENCIA,
+TECNOLOGIA E INOVACAO" em ordem alfabetica) — curadoria mais rapida do
+que a media da sessao por causa disso.
+
+Dois "nao_consta" genuinos, ambos por busca extensiva confirmando
+ausencia total (nao por preguica): Dr. Helton (PSOL) sem secao dedicada
+a gestao fiscal/divida publica (as unicas ocorrencias de "fiscal" no
+documento sao sobre fiscalizacao/oversight, nao orcamento — e o unico
+"arcabouco fiscal" mencionado e' parte do manifesto nacional do PSOL que
+antecede os eixos especificos de Sergipe, nao conteudo estadual) e sem
+relacoes federativas dedicadas (municipios aparecem so' como escopo de
+entrega de programa, nunca como politica de parceria/cooperacao em si);
+Emanuel Cacho (PSDB Cidadania) sem ciencia/tecnologia dedicada (busca
+por "pesquisa", "universidade", "instituto federal", "startup", "P&D",
+"laboratorio" achou so' uma mencao tangencial a universidades dentro do
+eixo economico).
+
+Achado tecnico novo: Fabio Mitidieri e' o unico candidato desta sessao
+que e' o governador atual buscando reeleicao (documento em tom de
+prestacao de contas — "Assumimos ha quatro anos... 418 das 476
+propostas realizadas") — nao muda o metodo de curadoria (mesma leitura
+evidencia-por-evidencia), mas e' o primeiro plano da curadoria de
+Governador organizado como indice alfabetico puro de 25 politicas
+nomeadas (de "AGRICULTURA, PECUARIA E PESCA" a "VALORIZACAO DE
+SERVIDORES") em vez de eixos tematicos numerados — formato inedito
+nesta pesquisa.
+
+`dados_publicos/` regenerado (179 planos curados de Governador no
+total, +6 sobre os 173 anteriores) apos completar SE; ainda nao
+commitado/enviado pro deploy publico nesta sessao.
+
+Estado geral apos SE, 2026-08-21: 26 UFs completas. Resta apenas
+Tocantins (TO) — o unico estado que ainda nao teve nenhum candidato
+curado nesta frente de trabalho.
+
+Pronto (2026-08-21): curadoria dos 14 temas completa pra' Tocantins —
+7 dos 7 candidatos (Ataides de Oliveira, Du Pereira, Laurez Moreira,
+Prof. Witer Naves, Professora Dorinha, Subtenente Luiz Carlos,
+Vicentinho Junior) com `dados/planos_curados_governador/TO/*.json`
+gravado. **Com isso, a curadoria dos 14 temas x candidatos de
+Governador esta' 100% completa nas 27 UFs do Brasil** — a frente de
+trabalho iniciada nesta sessao (decisao do dono via "sim", apos as 23
+UFs que ja' tinham progresso ficarem completas) terminou cobrindo os 4
+estados que nunca tinham sido tocados (PA, RO, SE, TO).
+
+Maior variedade estrutural de documentos vista num unico estado nesta
+sessao: Ataides de Oliveira (33p, capitulos numerados classicos, sem
+CT&I dedicado — `nao_consta` confirmado por busca extensiva); Du
+Pereira (41p, 12 eixos com sumario executivo explicito, cada eixo com
+titulo composto que mapeia 2-3 temas de uma vez, ex: "Educação,
+Juventude, Ciência e Tecnologia"); Laurez Moreira (64p, 7 eixos amplos,
+subtitulos internos ricos o bastante pra' cobrir temas que nao tem eixo
+proprio, ex: "MUNICIPALISTA" dentro do eixo de governanca, "Politicas
+para as mulheres" dentro do eixo social); Prof. Witer Naves (18p, unico
+documento de toda a curadoria de Governador que nao e' uma lista de
+propostas, e sim uma proposta de **reorganizacao do organograma do
+Poder Executivo** — descreve Secretarias e sistemas administrativos
+propostos em vez de acoes/programas; mapeamento por nome de Secretaria
+ou "Politica Estadual de X" em vez de trecho de proposta; `gestao_
+fiscal_e_divida_publica` marcado `nao_consta` porque o documento nunca
+propoe uma politica fiscal/de divida, so' menciona "fazenda" como
+estrutura administrativa que continua existindo); Professora Dorinha
+(98p, o mais extenso da curadoria de TO, 10 eixos com "Contexto" e
+"Propostas" bem demarcados, achado tecnico: "Pacto Tocantinense pela
+Ciência, Tecnologia e Inovação" com percentual fixo de receita
+tributaria vinculado por lei estadual — unico caso na curadoria de
+Governador de vinculacao orcamentaria constitucional pra' CT&I);
+Subtenente Luiz Carlos (7p, o documento mais curto de toda a curadoria
+de Governador nesta sessao — 3 "nao_consta" genuinos por ausencia total
+confirmada: assistencia social, ciencia/tecnologia, direitos humanos —
+nenhuma dessas palavras aparece em lugar nenhum do texto); Vicentinho
+Junior (37p, 28 eixos tematicos organizados em ordem alfabetica com
+foco curto por eixo, ex: "EIXO 8: FAZENDA PÚBLICA — Foco: Economia,
+Sefaz 5.0, pessoas, tecnologia e excelência", formato de "Acao/Resultado
+Esperado" numerado por proposta, o unico candidato desta sessao cujo
+plano e' explicitamente o de um governo em exercicio buscando
+continuidade, com propostas referenciando calendario 2033 da Reforma
+Tributaria).
+
+`dados_publicos/` regenerado apos completar TO: **186 planos curados de
+Governador no total** (173 + 6 SE + 7 TO ja contabilizados
+anteriormente somam 186 — bate exatamente com 190 PDFs disponiveis menos
+os 4 gaps tecnicos documentados ao longo da sessao: Rico Pinheiro/DF,
+Samuel de Mattos/PR, Sergio Moro/PR, Hildon Chaves/RO — nenhum PDF
+curavel ficou de fora). `python3 -m pytest tests/ -q` rodado: 151
+passam, 5 falham por dependencia de ambiente ja' preexistente
+(`python-multipart` ausente pro FastAPI em `test_site_revisao.py`) —
+nao relacionado as mudancas desta sessao, que tocaram so' arquivos JSON
+de curadoria. Nada commitado/enviado pro deploy publico nesta sessao —
+decisao de push pro Render segue em aberto, cabe ao dono.
+
+**As 27 UFs do Brasil tem curadoria completa de Governador agora.**
+Proximo, se o dono quiser: decidir sobre publicar Governador no site
+publico de producao (ver nota de 2026-08-20 acima sobre os 182MB de
+PDFs e a decisao de deploy ainda em aberto).
+
+Pronto (2026-08-21): fotos reais dos 196 candidatos a Governador,
+mesmo tratamento que os 13 de Presidente ja' tinham — ver changelog
+de `DESIGN.md` pro detalhe completo (bug real encontrado e corrigido:
+usar `UF="BR"` na URL da API do TSE, copiando o padrao de Presidente,
+devolvia o MESMO placeholder generico pra' todo candidato a Governador;
+corrigido usando a UF real de cada um). `dados/fotos_candidatos_
+governador/{uf}/{slug}.jpg` + `MANIFESTO.json` de proveniencia (regra
+6). Rota nova `/governador/{uf}/{slug}/foto`, `--fotos-governador` na
+CLI, `render.yaml` e `exportar_dados_publicos.py` atualizados.
+
+**Bug real encontrado e corrigido no proprio `exportar_dados_
+publicos.py` nesta sessao**: `_copiar_por_uf` iterava QUALQUER
+subdiretorio de `dados/planos_de_governo_governador/`, sem checar se o
+nome era uma UF valida — entao a pasta `_documentos_invalidos/`
+(criada em 2026-08-21 especificamente pra' guardar o PDF errado do
+Rico Pinheiro FORA do caminho publico, ver nota logo acima) estava
+sendo copiada pra' `dados_publicos/` tambem. Isso contradizia
+diretamente o que a propria nota de 2026-08-21 registrou ("a subpasta
+`_documentos_invalidos/` nunca entra no export nem na rota publica") —
+a alegacao era falsa na pratica, so' nao tinha sido testada de verdade
+rodando o script depois de criar a pasta. Achado ao rodar
+`exportar_dados_publicos.py` de novo nesta sessao pra' sincronizar as
+fotos novas de Governador; o arquivo da decisao judicial apareceu em
+`dados_publicos/planos_de_governo_governador/_documentos_invalidos/`,
+pronto pra' ir pro git se alguem commitasse sem checar. Corrigido:
+`_copiar_por_uf` agora tem uma lista explicita `UFS_VALIDAS` (as 27
+siglas) e so' copia subpastas cujo nome bate com uma delas — qualquer
+outra subpasta (presente ou futura) fica de fora do export por
+constructao, nao por acaso. `dados_publicos/` regenerado do zero
+depois do fix; confirmado que a pasta suja sumiu e a contagem de
+planos de Governador exportados caiu de 190 pra' 189 (o numero certo,
+sem o documento invalido). Suite de testes rodada de novo: 151 passam,
+mesmas 5 falhas pre-existentes de `python-multipart`.
 
 ## Fora de escopo, por decisao
 

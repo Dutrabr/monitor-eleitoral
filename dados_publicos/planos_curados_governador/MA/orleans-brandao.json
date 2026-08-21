@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nova ATER — Ampliar o número de unidades de Assistência Técnica, Pesquisa e Extensão Rural (ATER), incluindo aumento de equipes e equipamentos.",
+        "pagina": 18
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Maranhão Livre da Fome — Ampliar o alcance do programa (...) de modo a identificar pessoas em situação de vulnerabilidade social que não estejam contempladas e que vivam em situação de fome.",
+        "pagina": 27
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elaborar portfólio de oportunidades de investimentos para o setor privado, compatibilizando as prioridades do estado com formação de mão de obra, desenvolvimento científico e tecnológico.",
+        "pagina": 5
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Promover, em parceria com municípios, iniciativa privada, universidades e outras instituições, a prática de atividades e vivências culturais, como estratégia de fortalecimento da cidadania.",
+        "pagina": 22
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Maranhão contra a LGBTfobia — Criar programa estadual para prevenir e combater a violência e a discriminação contra pessoas LGBTQIAPN+, com serviços gratuitos de atendimento jurídico e psicológico.",
+        "pagina": 26
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elaborar portfólio de oportunidades de investimentos para o setor privado, compatibilizando as prioridades do estado com formação de mão de obra, desenvolvimento científico e tecnológico.",
+        "pagina": 5
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elaborar e implementar, em parceria com municípios, o Plano Integrado da Educação Básica do Maranhão.",
+        "pagina": 15
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar o Fundo Estadual de Recursos Estratégicos do Maranhão com o objetivo de financiar o desenvolvimento socioeconômico do povo maranhense, garantir a sustentabilidade fiscal.",
+        "pagina": 4
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Assegurar a pavimentação e manutenção das rodovias estaduais.",
+        "pagina": 9
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elaborar o Plano Estadual de Emergência Climática, em parceria com universidades e outras instituições.",
+        "pagina": 20
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Participa MA — Fortalecer os mecanismos de transparência e participação social no planejamento e no controle da gestão.",
+        "pagina": 4
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Unidades Regionais de Gestão — Implantar Unidades Regionais de Gestão, objetivando a integração, implementação, monitoramento e avaliação de políticas públicas, voltadas à redução das desigualdades regionais.",
+        "pagina": 4
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elaborar e implementar, em parceria com municípios, o Plano Integrado de Assistência à Saúde do Maranhão.",
+        "pagina": 12
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar o efetivo das forças de segurança pública do estado, com destaque para Polícia Militar, Perícia Oficial, Bombeiro Militar e Polícia Civil.",
+        "pagina": 7
+      }
+    ]
+  }
+}

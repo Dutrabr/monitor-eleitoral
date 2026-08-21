@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2.2 Agricultura, Aquicultura e Pesca. É TEMPO DE FORTALECER QUEM PRODUZ. Paz no campo é ter condições para produzir, trabalhar e prosperar. Infraestrutura, água, energia, conectividade, crédito, tecnologia e segurança jurídica fortalecem quem gera [alimento e renda].", "pagina": 34}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.4 Assistência Social e Cidadania. É TEMPO DE ACOLHER. Paz é viver com dignidade e ter apoio para atravessar os momentos de maior vulnerabilidade. É garantir proteção, cuidado e caminho [de volta à autonomia].", "pagina": 24}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2.4 Ciência, Tecnologia e Inovação. É TEMPO DE INOVAR. Paz é olhar para o futuro com confiança. Ciência, tecnologia e inovação ampliam a produtividade, abrem novas oportunidades profissionais e ajudam o Espírito Santo a transformar conhecimento e vocações regionais em desenvolvimento.", "pagina": 38}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2.3 Turismo, Cultura e Economia Criativa. É TEMPO DE VALORIZAR O QUE É NOSSO. Paz também é pertencimento. É reconhecer nossa cultura, nossas paisagens, nossa história e nossa criatividade como patrimônio e como oportunidade.", "pagina": 36}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Enfrentamento à Violência contra a Mulher: Reforçar rede intersetorial de atendimento (saúde, segurança e justiça); ampliar casas-abrigo e moradia segura. (Também: Autonomia e Oportunidades para as Mulheres; estruturar linhas de cuidado para pessoas com deficiência.)", "pagina": 24}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "II - Espírito Santo Competitivo. É TEMPO DE PROSPERAR. Paz também é ter trabalho, renda e oportunidade de construir o futuro. Um Espírito Santo competitivo cria condições para quem produz, empreende, investe e trabalha.", "pagina": 29}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "É TEMPO DE EDUCAR (seção 1.1, dedicada à educação, dentro de I - Espírito Santo das Pessoas).", "pagina": 13}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Revisão permanente do gasto e modernização da receita sem aumentar a carga tributária; Gestão Fiscal e Tributária Inteligente – Facilitar a vida do contribuinte, digitalizando e automatizando documentos, pagamentos e restituições.", "pagina": 50}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.1 Urbanismo, Saneamento e Habitação. É TEMPO DE VIVER COM DIGNIDADE. Paz começa dentro de casa e continua no bairro onde a vida acontece. Moradia segura, água tratada, esgoto, planejamento urbano e segurança jurídica sobre o próprio lar.", "pagina": 44}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3.2 Meio Ambiente e Sustentabilidade. É TEMPO DE PRESERVAR. Paz é cuidar da água, da terra, das riquezas naturais e da segurança das famílias diante dos desafios ambientais.", "pagina": 46}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "adequar às melhores práticas internacionais; Prevenção e Combate à Corrupção em primeiro lugar; Transparência como valor e não escolha, garantindo elevados padrões de integridade; Todo o trabalho da Controladoria-Geral será público; Participação Cidadã nas decisões de Controle.", "pagina": 50}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Agenda Estratégica: Defesa vigorosa e permanente dos interesses do Espírito Santo em todas as instâncias nacionais e regionais, articulando junto às diversas instâncias da União para viabilizar, em especial, a duplicação da BR-262, da BR-259 e da BR-101.", "pagina": 51}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.3 Saúde. É TEMPO DE CUIDAR DA SAÚDE. Paz é saber que o cuidado está presente quando a saúde pede atenção. Significa reduzir esperas, aproximar serviços das pessoas, cuidar da saúde física e emocional.", "pagina": 21}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1.2 Segurança Pública. É TEMPO DE PROTEGER. Paz é viver sem medo. É poder trabalhar, circular, cuidar da família e proteger o patrimônio com a confiança de que o Estado atua com inteligência, integração e capacidade de resposta.", "pagina": 18}
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a agricultura familiar e os pequenos produtores rurais, ampliando crédito de baixo custo, assistência técnica, seguro rural, infraestrutura e produção. Ampliar os programas estaduais de compra de alimentos da agricultura familiar para escolas, hospitais, restaurantes populares.",
+        "pagina": 3
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MORADIA. Criar frentes de trabalho para obras de infraestrutura, recuperação ambiental, saneamento e manutenção de equipamentos públicos, priorizando regiões com maiores necessidades sociais.",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Serviços públicos de qualidade, infraestrutura, moradia, saneamento, ciência e tecnologia e oportunidades para todas as regiões. Isso significa utilizar universidades públicas, institutos federais, Epagri e centros de pesquisa.",
+        "pagina": 2
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA. A cultura em Santa Catarina é conhecida por uma enorme diversidade (...) Porém, essa diversidade não significa que todos tenham o mesmo direito de produzir e acessar cultura. A cultura ainda é para grande parte dos catarinenses um direito distante.",
+        "pagina": 20
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MULHERES. A violência contra a mulher em Santa Catarina é alarmante. Em 2025, foram registrados 52 feminicídios e 255 tentativas de feminicídio, além de mais de 31 mil medidas protetivas requeridas por mulheres ameaçadas.",
+        "pagina": 14
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TRABALHO E ECONOMIA. A economia catarinense alcançou um PIB estimado em R$ 604,1 bilhões no ano de 2025. Nosso estado apresenta uma estrutura industrial diversificada, com destaque para os setores metalmecânico, têxtil, alimentício, cerâmico, madeireiro, de máquinas e equipamentos e de tecnologia.",
+        "pagina": 1
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. Quantas escolas estaduais em Santa Catarina ainda ocupam prédios com problemas estruturais, instalações elétricas que não comportam a instalação de sistemas de climatização, telhados com vazamentos.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar mecanismos de fiscalização e avaliação periódica dos incentivos fiscais, suspendendo benefícios quando as empresas não cumprirem as contrapartidas.",
+        "pagina": 3
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantir que os municípios tenham apoio técnico e financeiro do Estado para implantação de redes de saneamento, drenagem urbana e gestão adequada de resíduos.",
+        "pagina": 4
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento econômico precisa estar associado à preservação ambiental. O estado não pode aceitar que projetos econômicos sejam aprovados sem considerar seus impactos sobre rios, florestas, áreas rurais.",
+        "pagina": 2
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estabelecer critérios sociais e ambientais para grandes projetos de infraestrutura beneficiados por recursos públicos, garantindo fiscalização e participação das comunidades atingidas.",
+        "pagina": 5
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantir que os municípios tenham apoio técnico e financeiro do Estado para implantação de redes de saneamento, drenagem urbana e gestão adequada de resíduos.",
+        "pagina": 4
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE. O sistema de saúde pública de Santa Catarina apresenta uma contradição evidente. Em 2025, a fila de cirurgias eletivas alcançou 116 mil pacientes, o maior número já registrado, e a espera média por procedimentos ultrapassou 300 dias em diversas especialidades.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA E COMBATE AO RACISMO. Santa Catarina se apresenta nacionalmente como o estado mais seguro do Brasil. Essa segurança, porém, não é para todos. Enquanto a taxa geral de mortes violentas caiu, cresceu em 24% o número de mortes decorrentes de intervenção policial.",
+        "pagina": 12
+      }
+    ]
+  }
+}

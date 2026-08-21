@@ -1,0 +1,66 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Retomar a Empresa Baiana de Desenvolvimento Agrícola (EBDA), responsável pela implementação de diversas culturas agrícolas, bem como o desenvolvimento de tecnologias para combate a pragas nas plantações dos agricultores baianos. (...) Reforma agrária popular com o fim do latifúndio na Bahia.", "pagina": 1}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {"status": "nao_consta"},
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {"status": "nao_consta"},
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Combate ao feminicídio e à violência contra as mulheres. Aumento nos serviços de atendimento às mulheres vítimas de violência através da ampliação de DEAMs por toda a Bahia. (...) Pelo fim do genocídio do povo preto na Bahia!", "pagina": 1}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Aumento em 100% do salário-mínimo. Criação do salário-mínimo baiano (...) Acabar com a escala 6x1 e reduzir a jornada de trabalho para 36h semanais.", "pagina": 1}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Destinar 10% do PIB da Bahia para a educação. Acabar com o sucateamento das Universidades Estaduais e escolas estaduais. Realizar contratação imediata de profissionais da educação.", "pagina": 1}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Suspensão do pagamento da dívida pública estadual que hoje ultrapassa R$ 30 bi. Instalação de uma auditoria e reversão dos recursos de pagamento de juros e amortizações em Saúde, Educação e Moradia Popular.", "pagina": 1}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Trabalhar para que todos os baianos tenham seu direito à moradia digna garantido com a transformação de prédios abandonados das cidades baianas em moradia popular. (...) Implementar o transporte público, gratuito e de qualidade.", "pagina": 1}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Defesa das riquezas naturais baianas como a Serra da Chapadinha e todos os biomas da Bahia com o fim da exploração privada dos recursos naturais.", "pagina": 1}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Equiparação do salário do governador e deputados estaduais a de professoras e professores das escolas públicas baianas. Estabelecer a obrigatoriedade de que todo político deve usar o Sistema Único de Saúde (SUS) e a educação pública.", "pagina": 1}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {"status": "nao_consta"},
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Acabar com os contratos privados na saúde e as longas filas de regulação de pacientes. Capilarizar os hospitais e serviços de alta complexidade por todo o estado.", "pagina": 1}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Desmilitarização das polícias na Bahia. Garantir formação dos agentes de segurança no tema de direitos humanos, câmeras no fardamento de todos os policiais.", "pagina": 1}
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte III — Logística, Infraestrutura, Saneamento, Energia e Agro. O agronegócio já é o setor mais dinâmico da economia roraimense. A safra 2024/2025 foi a maior da história de Roraima, com mais de 692 mil toneladas de grãos colhidos.",
+        "pagina": 15
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte VII — Primeira Infância e Assistência Social. Pela Setrabes, funcionam hoje o Restaurante Cidadão, o Colo de Mãe, o Minha Horta Cidadã e a Casa do Trabalhador. Ampliação do Colo de Mãe, que hoje acompanha 3.208 famílias.",
+        "pagina": 29
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte XII — Roraima Digital: Conectividade, Governança e Inovação. A transformação digital é uma das principais ferramentas para promover o desenvolvimento econômico, reduzir desigualdades, ampliar o acesso aos serviços públicos.",
+        "pagina": 39
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte VIII — Turismo e Cultura. O turismo e a cultura representam uma das maiores oportunidades para diversificar a economia de Roraima, com uma combinação única de belezas naturais, diversidade cultural, povos indígenas e biodiversidade amazônica.",
+        "pagina": 30
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.6. Roraima Protege Elas. Nenhum indicador de Roraima é tão distante da média brasileira quanto os de violência contra a mulher. Em 2025, o estado registrou 1.173,5 ocorrências de violência psicológica por 100 mil mulheres, o maior índice do país.",
+        "pagina": 23
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estratégia estruturada de atração de investimento privado, usando a entrada de Roraima no Sistema Interligado Nacional como principal argumento competitivo. Energia confiável abre setores que antes não vinham para cá: agroindústria, irrigação, cadeia do frio, data centers e turismo estruturado.",
+        "pagina": 32
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte IV — Educação. Roraima tem a maior concentração de matrículas na rede estadual do país nos anos finais do ensino fundamental: 88,9% dos alunos dessa etapa estudam em escolas do Estado.",
+        "pagina": 19
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte II — Gestão, Finanças e Transparência. Não existe conquista social efetiva sem estabilidade fiscal. A disciplina fiscal que orientou o plano da eleição suplementar continua sendo a base deste plano, com planejamento plurianual e orçamento vinculado ao resultado.",
+        "pagina": 13
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Em relação a outras obras públicas, há construções começadas e abandonadas em quase todos os municípios: escola sem telhado, unidade de saúde sem equipamento, prédio cercado por tapume há anos. O compromisso deste governo é resolver a obra que já foi paga e não foi concluída.",
+        "pagina": 15
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte IX — Meio Ambiente, Mineração e Diversificação Econômica. Cumprimento da legislação ambiental, com fortalecimento da Fundação Estadual do Meio Ambiente nas funções de licenciamento e fiscalização. Consolidação do Roraima Verde, sistema jurisdicional de REDD+.",
+        "pagina": 32
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.3. Transparência total. Portal de dados abertos e painel público de gestão para que o cidadão roraimense acompanhe a aplicação dos investimentos estaduais. Publicação periódica de despesas, contratos e nomeações em formato pesquisável.",
+        "pagina": 13
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Roraima Conectada: Expansão da infraestrutura de internet de alta velocidade para todos os municípios.",
+        "pagina": 39
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte VI — Saúde. A saúde consome 17,61% do orçamento estadual em 2026, cerca de R$ 1,6 bilhão. O Hospital Geral de Roraima opera com 456 leitos e ainda assim acumula pacientes em cadeira de plástico no corredor.",
+        "pagina": 26
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parte V — Segurança Pública. A condição de fronteira com Venezuela e Guiana traz pressão de organizações criminosas, contrabando e fluxo migratório. Em 2024, o índice de mortes violentas intencionais (MVI) subiu 5,8%, ao contrário do Brasil.",
+        "pagina": 22
+      }
+    ]
+  }
+}

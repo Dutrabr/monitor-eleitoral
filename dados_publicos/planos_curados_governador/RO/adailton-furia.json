@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.1 Campo Forte: Agricultura Familiar e Agroindústria. Meu compromisso é fazer o campo forte gerar mais renda, mais valor e mais futuro para quem produz em Rondônia. Este programa apoia quem vive do campo, gera renda no interior.",
+        "pagina": 40
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Prevenir violências e enfrentar o trabalho infantil. Vamos unir escola, assistência, saúde, esporte, cultura, segurança e rede de proteção para identificar precocemente violações, acolher vítimas e apoiar suas famílias.",
+        "pagina": 27
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.1 Ciência, Talentos e Inovação. Meu compromisso é fazer de Rondônia uma terra em que o talento encontre oportunidade, o conhecimento gere resultado para a gestão governamental e a inovação melhore a vida de quem produz e trabalha.",
+        "pagina": 93
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.5 Cultura, Esporte e Juventude. Meu compromisso é fazer da cultura, do esporte e da juventude caminhos reais de pertencimento, renda e futuro em todos os territórios de Rondônia.",
+        "pagina": 56
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1.5 Mulher Protegida, Autônoma e Saudável. Meu compromisso é garantir que nenhuma mulher permaneça em risco por falta de proteção, cuidado ou autonomia. Protege mulheres da violência, assegura cuidado em saúde e cria condições para autonomia.",
+        "pagina": 35
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.3 Trabalho, Negócios e Renda. Meu compromisso é fazer o Governo abrir caminhos para quem quer trabalhar, empreender e melhorar de vida em Rondônia.",
+        "pagina": 47
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1.2 Educação para a Vida e o Futuro. Meu compromisso é assegurar que nenhuma criança ou jovem tenha seu futuro limitado pela falta de aprendizagem, proteção ou oportunidade.",
+        "pagina": 19
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.3 Contas em Ordem e Futuro Protegido. Meu compromisso é manter as contas em ordem, proteger os direitos de quem serviu ao Estado e garantir que Rondônia avance sem comprometer o futuro de sua gente.",
+        "pagina": 100
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.2 Estradas e Logística que Aproximam. Meu compromisso é fazer cada estrada, ponte e rota logística aproximar pessoas, oportunidades e resultados para Rondônia.",
+        "pagina": 67
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.5 Floresta Viva e Desenvolvimento Responsável. Meu compromisso é proteger a floresta, enfrentar a ilegalidade e fazer da conservação uma oportunidade real para as comunidades e para quem produz corretamente em Rondônia.",
+        "pagina": 87
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.2 Serviço Público que Resolve. Meu compromisso é fazer o serviço público respeitar o tempo das pessoas, valorizar quem entrega e resolver mais problemas na vida de cada rondoniense. Ele organiza pessoas, processos e tecnologia.",
+        "pagina": 96
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.5 Governo Íntegro e Municípios Fortes. Meu compromisso é fazer do Governo do Estado um parceiro sério dos municípios, transparente com a população e firme na proteção de cada recurso público de Rondônia.",
+        "pagina": 108
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1.1 Saúde Perto de Quem Precisa. Meu compromisso é fazer a saúde chegar antes que a fila, a distância ou a doença decidam pela pessoa.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1.4 Rondônia Segura e de Paz. Meu compromisso é fazer da segurança uma presença que protege antes da violência e devolve tranquilidade às famílias de Rondônia.",
+        "pagina": 29
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 7 — AGRICULTURA, PECUÁRIA, MEIO AMBIENTE, RECURSOS HÍDRICOS E DESENVOLVIMENTO RURAL. O Piauí possui enorme potencial agrícola, pecuário e ambiental. O desenvolvimento sustentável do Estado depende da valorização do homem e da mulher do campo, do fortalecimento da agricultura familiar.",
+        "pagina": 50
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 8 — DESENVOLVIMENTO SOCIAL, DIREITOS HUMANOS, CIDADANIA, MULHERES, JUVENTUDE E PROTEÇÃO ÀS FAMÍLIAS. O desenvolvimento social será uma prioridade permanente do Governo Ravenna Castro. Fortalecer o Sistema Único de Assistência Social em todas as regiões; ampliar as ações de combate à fome e à pobreza.",
+        "pagina": 57
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Incentivar a pesquisa científica e a inovação; promover maior integração entre educação, desenvolvimento econômico e tecnologia.",
+        "pagina": 28
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 3 — EDUCAÇÃO, CIÊNCIA, TECNOLOGIA, CULTURA E ESPORTE. Ampliar o acesso da população à cultura e ao esporte.",
+        "pagina": 28
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 2 — INCLUSÃO, PESSOA COM DEFICIÊNCIA, FAMÍLIAS ATÍPICAS E ACESSIBILIDADE. \"Uma sociedade verdadeiramente desenvolvida é aquela em que todas as pessoas têm oportunidades, autonomia, dignidade e respeito.\"",
+        "pagina": 12
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 5 — DESENVOLVIMENTO ECONÔMICO, TRABALHO, EMPREENDEDORISMO, INDÚSTRIA, COMÉRCIO E TURISMO. Nosso compromisso é construir um Piauí que gere oportunidades, fortaleça quem produz e transforme crescimento econômico em qualidade de vida.",
+        "pagina": 35
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3.1 INTRODUÇÃO. A educação será um dos principais instrumentos de desenvolvimento do Governo Ravenna Castro. Nosso compromisso é garantir ensino público de qualidade, valorização dos profissionais, inovação tecnológica, inclusão e permanência dos estudantes na escola.",
+        "pagina": 20
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A gestão pública será baseada em planejamento estratégico, responsabilidade fiscal, transformação digital, participação popular e permanente avaliação das políticas públicas.",
+        "pagina": 65
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 6 — INFRAESTRUTURA, MOBILIDADE, DESENVOLVIMENTO REGIONAL, HABITAÇÃO E LOGÍSTICA. \"O desenvolvimento do Piauí passa por estradas de qualidade, cidades planejadas, infraestrutura moderna e integração entre todas as regiões do Estado.\"",
+        "pagina": 43
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Proteger os recursos naturais e os biomas piauienses; incentivar energias renováveis e economia sustentável.",
+        "pagina": 57
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 9 — GESTÃO PÚBLICA, GOVERNANÇA, TRANSPARÊNCIA, CONTROLE, INOVAÇÃO E TRANSFORMAÇÃO DIGITAL. O Governo Ravenna Castro será pautado pelos princípios constitucionais da legalidade, impessoalidade, moralidade, publicidade, eficiência e transparência.",
+        "pagina": 64
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Rodovias seguras, habitação digna, saneamento, logística eficiente, conectividade digital e apoio aos municípios formarão a base para um Piauí mais competitivo e preparado para o futuro.",
+        "pagina": 50
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 1 — SAÚDE, VIDA E QUALIDADE DE VIDA. A saúde será a prioridade absoluta do Governo Ravenna Castro. O direito à saúde deve ser assegurado de forma universal, integral e humanizada.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CAPÍTULO 4 — SEGURANÇA PÚBLICA, DEFESA SOCIAL E PROTEÇÃO DO CIDADÃO. Garantir segurança é garantir liberdade. Nenhuma sociedade se desenvolve plenamente quando a população vive com medo da violência.",
+        "pagina": 28
+      }
+    ]
+  }
+}

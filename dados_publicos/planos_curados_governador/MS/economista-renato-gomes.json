@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6 em cada 10 propriedades de MS são pequenas/familiares, mas o discurso e o orçamento vão para o grande agro (...) Programa de favorecimento do pequeno.",
+        "pagina": 51
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Isenção total de ICMS na energia até 150 kWh; 7% de 151-250 kWh (...) Resultado esperado: 600-700 mil famílias.",
+        "pagina": 38
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROGRAMA DE INTELIGÊNCIA ARTIFICIAL NO SETOR PÚBLICO em três frentes: (1) Produtividade, (2) Transparência, (3) Integridade.",
+        "pagina": 23
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6.2 Cultura — Prioridade ao artista local nos editais e eventos públicos.",
+        "pagina": 29
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Política estadual de enfrentamento ao feminicídio — 3,14 feminicídios/100 mil mulheres, entre os piores do país.",
+        "pagina": 33
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fazer a riqueza gerada chegar à vida das pessoas: bolso do povo, justiça tributária, interior, energia, moradia, turismo, meio ambiente e o pequeno produtor.",
+        "pagina": 34
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Formar para as vagas reais do estado, com carreira e escola de qualidade, e valorizar a cultura regional.",
+        "pagina": 28
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GES-01, Renegociar a dívida (PROPAG) e os contratos de custeio.",
+        "pagina": 18
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os municípios que mais produzem riqueza per capita não ficam com a qualidade de vida — a riqueza passa, não fica (...) Interiorização do desenvolvimento.",
+        "pagina": 42
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Pantanal queimou catastroficamente (...) Brigada estadual PERMANENTE + manejo integrado do fogo; acessar o Fundo Amazônia.",
+        "pagina": 49
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O governo mais transparente da história do MS: o cidadão vê para onde vai cada real, em linguagem simples e no seu município.",
+        "pagina": 12
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cofinanciar creches (0-3 anos) com os municípios — competência municipal, mas o estado pode cofinanciar.",
+        "pagina": 29
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A prioridade nº 1 do MS: tirar a fila do lugar, levar a média e a alta complexidade ao interior e fixar médicos.",
+        "pagina": 24
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Recompor o efetivo, blindar a fronteira e prevenir o crime, com inteligência que segue o dinheiro.",
+        "pagina": 31
+      }
+    ]
+  }
+}

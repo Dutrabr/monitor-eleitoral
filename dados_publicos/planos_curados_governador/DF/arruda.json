@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SETOR RURAL. 1.1. Garantir a segurança jurídica aos produtores e às famílias do campo, na questão fundiária.", "pagina": 156}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "ASSISTÊNCIA SOCIAL E DESENVOLVIMENTO HUMANO (Eixo II - Cuidar das Pessoas).", "pagina": 30}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CIÊNCIA DE DADOS, INOVAÇÃO E INTELIGÊNCIA ARTIFICIAL.", "pagina": 13}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "11. CULTURA (Anexo II - Cuidar das Pessoas).", "pagina": 107}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4. JUSTIÇA, CIDADANIA E DIREITOS HUMANOS. O acesso à cidadania começa pelo acesso aos serviços públicos. (Também item 5 — MULHER, item 6 — POLÍTICAS DE EQUIDADE.)", "pagina": 90}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "DESENVOLVIMENTO ECONÔMICO (Eixo III - Gerar Prosperidade).", "pagina": 37}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EDUCAÇÃO (Eixo II - Cuidar das Pessoas).", "pagina": 26}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "RESPONSABILIDADE FISCAL E QUALIDADE DO GASTO PÚBLICO.", "pagina": 14}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MOBILIDADE URBANA / PLANEJAMENTO TERRITORIAL E DESENVOLVIMENTO URBANO / HABITAÇÃO E DESENVOLVIMENTO TERRITORIAL (Eixo IV - Transformar o Território).", "pagina": 45}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MEIO AMBIENTE, SUSTENTABILIDADE E CIDADES INTELIGENTES.", "pagina": 49}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "GOVERNANÇA, TRANSPARÊNCIA E APRENDIZAGEM INSTITUCIONAL.", "pagina": 23}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O BRT Sul fortalecerá a integração entre as regiões administrativas e o centro da capital (o DF não tem municípios, mas Regiões Administrativas com necessidade equivalente de coordenação territorial).", "pagina": 149}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SAÚDE (Eixo II - Cuidar das Pessoas).", "pagina": 28}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "8. SEGURANÇA PÚBLICA. 8.1. PROGRAMA BAIRRO SEGURO. A segurança pública é mais eficiente quando alia presença permanente do Estado, conhecimento do território e inteligência orientada por dados.", "pagina": 98}
+    ]
+  }
+}

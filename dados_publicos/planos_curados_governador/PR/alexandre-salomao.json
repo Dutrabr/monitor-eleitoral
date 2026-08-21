@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agro forte e logística à altura da nossa vocação. O Paraná é a 4ª maior economia do Brasil e um dos maiores polos agroexportadores do país — o Porto de Paranaguá é o maior porto exportador de grãos do Brasil.",
+        "pagina": 13
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "nao_consta"
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 — PARANÁ DOS TALENTOS. Ciência. Esporte. Arte. Tecnologia. Empreendedorismo. Formação profissional. Nenhuma criança deveria terminar a escola sem descobrir no que é boa.",
+        "pagina": 12
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — CULTURA: TIRAR CRIANÇAS DAS TELAS E COLOCÁ-LAS DIANTE DA VIDA. O Paraná foi um dos três únicos estados do Brasil a executar 100% dos recursos da Lei Paulo Gustavo, com R$ 209,75 milhões investidos.",
+        "pagina": 11
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 — NEURODIVERSIDADE: ENXERGAR TALENTOS ONDE OUTROS ENXERGAM LIMITAÇÕES. O Paraná já conta com uma rede de cerca de 3 mil Salas de Recursos Multifuncionais, 1,4 mil Professores de Apoio (PAEs).",
+        "pagina": 10
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 5 — PROSPERIDADE: DESENVOLVIMENTO QUE CHEGA ÀS PESSOAS. Queremos um Paraná que continue produzindo riqueza, mas que também produza oportunidades.",
+        "pagina": 13
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — EDUCAÇÃO: FORMAR PESSOAS, NÃO APENAS ALUNOS. O Paraná assumiu, em 2023, a liderança nacional do IDEB — primeiro lugar no ensino médio e também nos anos iniciais do ensino fundamental.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Paraná tem hoje uma economia forte, uma educação reconhecida nacionalmente e uma situação fiscal invejável entre os estados brasileiros (...) Plano de mitigação do impacto da Reforma Tributária, no primeiro ano de governo.",
+        "pagina": 6
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Priorizar a conclusão da Nova Ferroeste (mais de 1.500 km de nova malha ferroviária ligando o Paraná ao Mato Grosso do Sul, com ramais para Foz do Iguaçu e Santa Catarina) e do Moegão do Porto de Paranaguá.",
+        "pagina": 13
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GOVERNANÇA DO PLANO: COMO VAMOS EXECUTAR E PRESTAR CONTAS. Prestação de contas regular (...) o Paraná passará a publicar relatório anual de acompanhamento de cada eixo deste plano, com dados abertos e auditáveis por qualquer cidadão.",
+        "pagina": 18
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoio técnico do Estado aos municípios via o programa \"Educa Juntos\" (...) metas por município e apoio técnico direto do Estado às redes municipais.",
+        "pagina": 8
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6 — SAÚDE E SEGURANÇA: O BÁSICO PRECISA FUNCIONAR. Criar uma Tabela SUS Paranaense, mecanismo estadual de complementação aos valores pagos pela tabela federal do SUS, com prioridade para Santas Casas e hospitais filantrópicos em risco financeiro.",
+        "pagina": 16
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fechar o déficit histórico de efetivo policial, com calendário regular e cumprido de concursos para a Polícia Militar e a Polícia Civil, até que o efetivo operacional real se aproxime do efetivo previsto em lei.",
+        "pagina": 17
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Investimentos permanentes em defesa agropecuária, vigilância e rastreabilidade. Nos últimos anos, avançamos na construção de uma política de desenvolvimento rural baseada em competitividade, sustentabilidade e resiliência. O Rio Grande do Sul está entre os estados brasileiros mais impactados por estiagens, enchentes e eventos climáticos extremos, que afetam diretamente a produção agropecuária.",
+        "pagina": 43
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reduzir desigualdades, proteger famílias em situação de vulnerabilidade e ampliar oportunidades de inclusão econômica e social. As transformações demográficas, as mudanças no mundo do trabalho e os eventos climáticos extremos tornam o fortalecimento da proteção social ainda mais urgente.",
+        "pagina": 23
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A realização do South Summit Brazil e a participação ativa em eventos nacionais e internacionais consolidaram-se como instrumentos estratégicos para ampliar conexões e fortalecer a presença do Estado nos principais circuitos globais de inovação.",
+        "pagina": 46
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Assegurar a continuidade das políticas culturais, como de iniciativas educacionais.",
+        "pagina": 30
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer direitos humanos como eixo transversal das políticas públicas, fortalecendo ações voltadas à promoção da igualdade racial, da inclusão das pessoas com deficiência, da proteção dos povos indígenas e comunidades quilombolas e da garantia de direitos da população LGBTQIA+.",
+        "pagina": 27
+      },
+      {
+        "texto": "Garantir o acesso das mulheres aos direitos sociais, à saúde, à educação, à participação social e aos espaços de liderança, reduzindo desigualdades e fortalecendo a cidadania. Mulheres em situação de vulnerabilidade, mães solo, mulheres rurais, negras, indígenas e vítimas de violência enfrentam maiores dificuldades de inserção produtiva.",
+        "pagina": 33
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — Desenvolvimento e Liberdade Econômica. O desenvolvimento econômico depende de uma combinação de fatores: segurança jurídica, capital humano, infraestrutura, inovação, ambiente favorável aos negócios. Nos últimos três anos, o Estado atraiu quase R$ 240 bilhões em investimentos.",
+        "pagina": 39
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 — Cuidar das Pessoas. O desenvolvimento do Rio Grande do Sul se concretiza quando amplia oportunidades, reduz desigualdades e permite que cada pessoa desenvolva suas capacidades, exerça sua cidadania e construa seu projeto de vida.",
+        "pagina": 13
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — Cuidar das Contas. O Rio Grande do Sul enfrentou as mais severas restrições orçamentárias em governos que, sem observar o equilíbrio das contas públicas, conduziram o Estado ao parcelamento de dívidas.",
+        "pagina": 5
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura, Transporte e Logística. A infraestrutura é um dos principais fatores de competitividade e desenvolvimento de um território. O Estado avançou na modernização da infraestrutura aeroportuária regional, na ampliação dos modais de transporte e na retomada da navegação noturna de grande porte após 42 anos.",
+        "pagina": 48
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 — Resiliência Climática. Eventos climáticos extremos, crises sanitárias e oscilações econômicas tendem a ocorrer com maior frequência e intensidade. Modernizar e integrar as regras e instrumentos da política ambiental e climática.",
+        "pagina": 53
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Responder ao cenário de inovação fiscal que decorre da reforma tributária, revisando as políticas de incentivo e promovendo um novo arranjo institucional que fortaleça nossa matriz econômica e incentive novos negócios.",
+        "pagina": 5
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Com o equilíbrio fiscal recuperado, o Estado passou a registrar os maiores volumes de investimentos e convênios com municípios da sua história. Aprimorar o uso de incentivos fiscais como instrumento de estímulo ao desenvolvimento econômico, fortalecendo a capacidade de entrega das administrações municipais.",
+        "pagina": 10
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Estado tem trabalhado para organizar e melhorar a saúde pública para os gaúchos. O fortalecimento da regionalização, a ampliação dos investimentos estaduais e a qualificação da atenção primária e da rede hospitalar.",
+        "pagina": 17
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Consolidar o Rio Grande do Sul como referência nacional e internacional em segurança pública. Organizações criminosas continuam adaptando suas estratégias e ampliando sua atuação em atividades como tráfico de drogas e de armas, lavagem de dinheiro e crimes praticados por meios digitais.",
+        "pagina": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA ALIMENTAR E DESENVOLVIMENTO RURAL. Programa Produtor que Alimenta - Valorizando quem produz, alimentando quem precisa. Ampliar a aquisição de alimentos da agricultura familiar, cooperativas, associações, comunidades tradicionais e pequenos produtores.",
+        "pagina": 37
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 - DESENVOLVIMENTO SOCIAL E CIDADANIA. Embora Rondônia esteja entre os Estados que mais arrecadam e produzem riquezas no país, mais de 370 mil famílias estão inscritas no Cadastro Único e 126.579 famílias dependem do Bolsa Família.",
+        "pagina": 32
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INFRAESTRUTURA, TECNOLOGIA E INOVAÇÃO EDUCACIONAL. Programa Escola Digital - e-Digital Rondônia: Universalizar o acesso à internet de alta velocidade em todas as escolas estaduais, garantindo infraestrutura digital adequada ao ensino.",
+        "pagina": 30
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 - CULTURA, ESPORTE E LAZER. Embora estejam reunidos neste mesmo eixo estratégico, esporte, cultura e lazer possuem naturezas, objetivos, públicos e formas de atuação completamente distintas.",
+        "pagina": 39
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MULHERES. Rondônia por elas – A transformação de Rondônia passa por elas. O Governo de Rondônia instituirá o Programa Rondônia por Elas, política pública permanente, transversal e integrada, articulando assistência social, desenvolvimento econômico, agricultura e demais instituições estaduais para ampliar oportunidades, fortalecer a autonomia, incentivar a liderança feminina.",
+        "pagina": 34
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6 - DESENVOLVIMENTO ECONÔMICO. Segurança Jurídica e Desburocratização; Diálogo com o Setor Produtivo; Agricultura Familiar e Produção de Hortifrutigranjeiros; Cooperativismo e Associativismo; Desenvolvimento Agropecuário; Micro e Pequenas Empresas; Indústria, Comércio, Serviços e Turismo.",
+        "pagina": 61
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 - EDUCAÇÃO E INOVAÇÃO: PREPARANDO PARA O AMANHÃ. Uma educação pública de qualidade exige gestão eficiente, valorização e formação dos profissionais, infraestrutura adequada e aplicação responsável dos recursos.",
+        "pagina": 26
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 10 - GESTÃO ESTRATÉGICA, FINANÇAS/ECONOMIA E VALORIZAÇÃO DO SERVIDOR. Rondônia arrecada cada vez mais e entrega cada vez menos, a receita realizada saiu de R$ 8,5 bilhões em 2019 para R$ 17,86 bilhões em 2025, mas cada real novo já nasceu comprometido.",
+        "pagina": 90
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7 - INFRAESTRUTURA E LOGÍSTICA. Infraestrutura não é apenas obra de engenharia, é a artéria pela qual pulsa a economia de um estado. Dados da CNI revelam que 74% dos empresários do Norte consideram nossa infraestrutura precária, e 90% classificam nossas rodovias como inadequadas.",
+        "pagina": 72
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 8 - MEIO AMBIENTE. Rondônia foi forjada pela coragem de pioneiros que desbravaram a floresta para construir um dos Estados mais produtivos e pujantes do Brasil. Nosso governo romperá com a lógica que transformou a pauta ambiental em uma verdadeira \"indústria de multas\".",
+        "pagina": 81
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa Liderança Pública RO: Escola de governo reestruturada, com formação obrigatória em gestão, finanças públicas, licitações e liderança, e certificação como condição para o exercício de função gratificada e de chefia, com prioridade para servidores efetivos.",
+        "pagina": 94
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 9 - DESENVOLVIMENTO URBANO E MUNICIPALISMO. Embora o estado tenha forte capacidade produtiva, muitos municípios ainda enfrentam limitações em infraestrutura urbana, mobilidade, saneamento, habitação e elaboração de projetos técnicos.",
+        "pagina": 86
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 - SAÚDE: PESSOAS EM PRIMEIRO LUGAR. Saúde não é promessa; é acesso, agilidade e dignidade. Nosso governo vai transformar filas em atendimento, distância em cuidado e abandono em presença do Estado.",
+        "pagina": 16
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 5 - SEGURANÇA PÚBLICA: PAZ NO CAMPO, SEGURANÇA NA CIDADE E COMBATE AO CRIME ORGANIZADO. Rondônia, que sempre foi forjada e reconhecida pela força de suas famílias trabalhadoras, teve sua paz roubada.",
+        "pagina": 44
+      }
+    ]
+  }
+}

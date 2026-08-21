@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — Desenvolvimento Econômico, Trabalho e Renda. Fortalecer as cadeias produtivas, apoiar os pequenos negócios, ampliar a agricultura familiar e a fruticultura, estimular a indústria, desenvolver a economia do mar.",
+        "pagina": 11
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — Assistência Social, Acessibilidade, Inclusão e Direitos. Assistência social é direito de cidadania, não favor. É responsabilidade permanente do Estado e parte de um projeto que coloca a dignidade humana no centro.",
+        "pagina": 21
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 — Educação, Ciência, Tecnologia e Futuro. Educação básica, valorização profissional, educação integral, formação técnica, ciência, inovação e permanência estudantil formarão uma política educacional orientada pela aprendizagem e pelas oportunidades de futuro.",
+        "pagina": 25
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 10 — Cultura, Esporte e Lazer. Recuperou e reabriu equipamentos históricos, como o Teatro Alberto Maranhão, a Biblioteca Estadual Câmara Cascudo, a Pinacoteca do Estado. Cultura, esporte e lazer como direitos, dimensões da cidadania e forças do desenvolvimento.",
+        "pagina": 56
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6 — Mulheres, Autonomia, Cuidado e Proteção da Vida. O Rio Grande do Norte somente alcançará seu verdadeiro desenvolvimento quando todas as mulheres puderem viver sem medo, construir sua independência, cuidar e serem cuidadas e participar das decisões sobre o futuro do Estado.",
+        "pagina": 36
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — Desenvolvimento Econômico, Trabalho e Renda. O desenvolvimento que defendemos tem direção pública: agrega valor à produção, gera trabalho e renda, distribui oportunidades, reduz desigualdades e melhora concretamente a vida do povo.",
+        "pagina": 11
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 — Educação, Ciência, Tecnologia e Futuro. Assegurar o direito de aprender e preparar o Rio Grande do Norte para as transformações do mundo do trabalho.",
+        "pagina": 25
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. Responsabilidade fiscal, qualidade do gasto e capacidade de investir. Compreender a responsabilidade fiscal como proteção dos serviços, dos direitos, da valorização dos servidores e do futuro do Estado — e não como sinônimo de cortes indiscriminados.",
+        "pagina": 16
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 11 — Infraestrutura e Logística, Integração Territorial e Desenvolvimento Regional. Estradas, portos, aeroportos, sistemas hídricos, saneamento, mobilidade e conectividade aproximam pessoas dos serviços, reduzem custos, protegem vidas.",
+        "pagina": 61
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 13 — Sustentabilidade, Justiça Climática e Futuro. Proteger o meio ambiente, enfrentar as mudanças climáticas e utilizar os recursos naturais com responsabilidade não significam impedir o crescimento: significam criar bases duradouras para produzir.",
+        "pagina": 71
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 — Estado Eficiente, Íntegro, Digital e Capaz de Investir. Um Estado que aprende, entrega e transforma: íntegro nas decisões, simples nos processos, inteligente no uso da tecnologia e efetivo nos resultados.",
+        "pagina": 16
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer o papel do Estado na coordenação, no cofinanciamento, na regionalização, no apoio técnico e na avaliação do SUAS. A cooperação com os municípios deverá permanecer reduzindo desigualdades de capacidade.",
+        "pagina": 21
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 5 — Saúde, Cuidado e Qualidade de Vida. A saúde é direito fundamental, responsabilidade pública e condição para o desenvolvimento do Rio Grande do Norte. Cuidar significa promover qualidade de vida, prevenir doenças, assegurar atendimento no tempo adequado.",
+        "pagina": 31
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 12 — Segurança Pública, Proteção da Vida e Cidadania. Segurança pública é proteção da vida, garantia de direitos e condição para que as pessoas possam viver com liberdade, trabalhar, estudar, empreender e ocupar os espaços públicos sem medo.",
+        "pagina": 66
+      }
+    ]
+  }
+}

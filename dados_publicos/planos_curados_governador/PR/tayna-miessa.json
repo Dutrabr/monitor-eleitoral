@@ -1,0 +1,120 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MORADIA. A crise habitacional no Estado do Paraná atinge proporções alarmantes. Dados da Pesquisa de Necessidades Habitacionais (Cohapar, 2023) apontam que cerca de meio milhão de famílias enfrentam a falta de acesso à moradia digna.",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação do Instituto Estadual de Fomento à Inovação Tecnológica. Incentivar a criação do Programa PARANÁ do Futuro, com o objetivo de atrair projetos de tecnologia limpa, criando cooperativas nesse campo.",
+        "pagina": 4
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA. O Paraná soma-se aos outros Estados do país com o baixo financiamento da cultura e à falta de atenção à difusão e estruturação de estratégias permanentes de acesso.",
+        "pagina": 15
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ÉTNICO-RACIAL. O Paraná, diferente do que narrativas tradicionais defendem, é marcado por uma forte presença negra: com um índice de quase 30% de autodeclarados pretos e pardos, nosso estado é o estado mais negro da região Sul do Brasil.",
+        "pagina": 17
+      },
+      {
+        "texto": "MULHERES. O Paraná registrou mais de 35 mil notificações de violência contra a mulher em 2025 (...) O estado ocupa o ranking de segundo estado mais perigoso para se ser mulher.",
+        "pagina": 19
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO ECONÔMICO E FINANÇAS PÚBLICAS. A economia do Paraná é uma das que mais crescem no Brasil atualmente (...) mas os resultados da produção chegam em migalhas aos que precisam vender a própria força de trabalho para sobreviver.",
+        "pagina": 3
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. O Paraná conta com 9.975 escolas, sendo 7.350 delas públicas (...) Acompanhamos uma piora nas políticas educacionais que o estado tem fomentado através de mudanças no perfil das escolas públicas paranaenses após a aprovação da Lei Federal Nº13.415/2017.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A estrutura tributária, que hoje pesa na esfera do consumo, deve aumentar a incidência nas grandes rendas e patrimônios, com imposto progressivo: quem ganha mais, paga mais! Taxação das grandes propriedades agrícolas, comerciais e industriais do Estado.",
+        "pagina": 4
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TRANSPORTE. Para garantir de fato o direito de ir e vir, é urgente a implantação do Passe-Livre para estudantes e desempregados e a redução das tarifas do transporte coletivo.",
+        "pagina": 22
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação, saúde de qualidade para todos, valorizar o trabalho, proteger o meio ambiente com justiça social, promover a soberania popular e combater todas as formas de opressão.",
+        "pagina": 2
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Elaboração das peças orçamentárias (PPA, LDO e LOA) junto à população através de audiências de orçamento participativo. Aprovação efetiva submetida à população via referendo.",
+        "pagina": 4
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE — capítulo dedicado, com crítica aos contratos de gestão privada de hospitais: \"apesar de promessas de eficiência, os contratos geram despesas elevadas de contraprestação e dificuldades de fiscalização.\"",
+        "pagina": 12
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reduzir o uso da força letal por meio de protocolos claros, câmeras corporais.",
+        "pagina": 6
+      }
+    ]
+  }
+}

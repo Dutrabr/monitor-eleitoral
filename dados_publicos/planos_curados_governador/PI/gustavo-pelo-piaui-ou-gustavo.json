@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. AGRICULTURA FAMILIAR E DESENVOLVIMENTO RURAL. Não queremos apenas aumentar a produção. Queremos aumentar a renda do produtor. Fortalecer assistência técnica. Apoiar regularização fundiária. Incentivar cooperativismo.",
+        "pagina": 7
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "nao_consta"
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "14. CIÊNCIA, TECNOLOGIA E NOVA ECONOMIA. Aproximar universidades e empresas. Criar programas estaduais de pesquisa aplicada. Apoiar startups. Incentivar parques e ambientes de inovação.",
+        "pagina": 8
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13. TURISMO, CULTURA E ECONOMIA CRIATIVA. Valorizar patrimônio histórico. Integrar gastronomia e artesanato às rotas. Incentivar economia criativa.",
+        "pagina": 8
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer políticas de proteção às mulheres.",
+        "pagina": 4
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. DESENVOLVIMENTO ECONÔMICO SUSTENTÁVEL. O Piauí não pode limitar sua estratégia econômica a produzir matérias-primas. Precisamos produzir, transformar e agregar valor dentro do Estado.",
+        "pagina": 5
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. EDUCAÇÃO: VALORIZAR QUEM ENSINA. Educação não se faz apenas com concreto. Prédios, climatização, laboratórios, equipamentos e tecnologia são indispensáveis, mas nenhum deles substitui professores e demais profissionais da educação.",
+        "pagina": 3
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Plano de Governo Gustavo com o Povo pelo Piauí propõe uma administração baseada em gestão técnica, responsabilidade fiscal, desenvolvimento sustentável, industrialização, municipalismo.",
+        "pagina": 1
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. INFRAESTRUTURA QUE PRODUZ DESENVOLVIMENTO. Uma estrada não termina quando o asfalto termina. Ela precisa conectar produção, pessoas, escolas, hospitais, mercados e oportunidades.",
+        "pagina": 6
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12. ÁGUA, SANEAMENTO E MEIO AMBIENTE. Desenvolvimento sustentável não será slogan. Será critério de planejamento. Criar instrumentos de adaptação às mudanças climáticas.",
+        "pagina": 7
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. GESTÃO TÉCNICA E EFICIÊNCIA. Implantar metas anuais de desempenho para secretarias e órgãos. Estabelecer indicadores públicos de resultados. O governo deverá publicar periodicamente o andamento das metas.",
+        "pagina": 2
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Oferecer apoio técnico para pequenos municípios elaborarem projetos. Auxiliar prefeituras na captação de recursos. Integrar políticas estaduais e municipais de infraestrutura (...) instalação da mesa permanente Estado–Municípios.",
+        "pagina": 7
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. SAÚDE MAIS PERTO DAS PESSOAS. O objetivo será reduzir a excessiva dependência de Teresina para procedimentos que possam ser realizados regionalmente.",
+        "pagina": 4
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. SEGURANÇA PÚBLICA COM COMANDO TÉCNICO. Será preservado um princípio defendido desde 2022: segurança pública precisa ser conduzida tecnicamente.",
+        "pagina": 4
+      }
+    ]
+  }
+}

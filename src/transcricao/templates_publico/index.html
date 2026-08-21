@@ -17,9 +17,9 @@
 
 <h2 style="font-size:.85rem; text-transform:uppercase; letter-spacing:.06em; color:var(--texto-suave); margin-top:1rem;">Tema</h2>
 <div class="chips">
-  <a class="chip{% if not tema_selecionado %} ativo{% endif %}" href="/">Todos os temas</a>
+  <a class="chip-combo{% if not tema_selecionado %} ativo{% endif %}" href="/">Todos os temas <span class="n">{{ candidatos|length }}</span></a>
   {% for valor, rotulo in temas %}
-  <a class="chip{% if tema_selecionado == valor %} ativo{% endif %}" href="/?tema={{ valor }}">{{ rotulo }}</a>
+  <a class="chip-combo{% if tema_selecionado == valor %} ativo{% endif %}" href="/?tema={{ valor }}">{{ rotulo }} <span class="n">{{ contagem_por_tema.get(valor, 0) }}</span></a>
   {% endfor %}
 </div>
 
@@ -30,7 +30,10 @@
 <div class="grade-candidatos">
 {% for c in candidatos %}
   <a class="card-candidato" href="/candidato/{{ c.slug }}{% if tema_selecionado %}?tema={{ tema_selecionado }}{% endif %}">
-    <div class="avatar-candidato">{{ c.nome[0] }}</div>
+    <div class="avatar-candidato">
+      <img src="/foto/{{ c.slug }}" alt="" loading="lazy" onerror="this.remove()">
+      {{ c.nome[0] }}
+    </div>
     {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
     <h3>{{ c.nome }}</h3>
     <div class="partido">{{ c.partido }}{% if c.cargo %} — {{ c.cargo }}{% endif %}</div>

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Produtividade não depende apenas de máquinas. Depende de conhecimento. Agricultura de precisão, sensoriamento, melhoramento genético, bioinsumos.",
+        "pagina": 74
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A pobreza não pode ser enfrentada apenas quando se transforma em emergência (...) o Governo organizará uma estratégia estadual permanente de enfrentamento da pobreza.",
+        "pagina": 55
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Startups e empresas de base tecnológica podem transformar pesquisa, conhecimento profissional e problemas de mercado em novos produtos e serviços.",
+        "pagina": 85
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais é reconhecida por sua história, sua diversidade cultural, seu patrimônio, sua música, sua literatura, sua gastronomia.",
+        "pagina": 123
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Desigualdades raciais aparecem na renda, no emprego, na educação, na saúde, na exposição à violência e no acesso às oportunidades.",
+        "pagina": 59
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais possui uma economia diversificada, uma posição geográfica estratégica, recursos naturais, base industrial, produção agropecuária.",
+        "pagina": 66
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação para transformar pessoas e desenvolver Minas Gerais.",
+        "pagina": 38
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O objetivo será construir uma política fiscal responsável, transparente e orientada para resultados, na qual equilíbrio financeiro seja instrumento para melhorar a vida das pessoas.",
+        "pagina": 20
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura não pode ser tratada apenas como obra. Uma estrada conecta uma pessoa ao hospital. Uma ferrovia altera o custo de uma cadeia produtiva.",
+        "pagina": 109
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas não pode continuar tratando problemas ambientais apenas depois que eles aparecem. A política ambiental precisa atuar antes do dano.",
+        "pagina": 117
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais precisa recuperar a capacidade de executar. Política pública não se realiza apenas porque existe orçamento, norma, secretaria ou programa.",
+        "pagina": 129
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O lugar onde uma pessoa nasce ou escolhe viver não deveria determinar a qualidade dos serviços públicos que recebe nem limitar suas oportunidades de futuro.",
+        "pagina": 103
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Saúde será uma das principais prioridades do Governo de Minas Gerais (...) Filas, vazios assistenciais, dificuldade de acesso à atenção especializada.",
+        "pagina": 26
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Segurança pública precisa ser percebida pelas pessoas. Isso significa reduzir violência, melhorar investigação, proteger vítimas, recuperar territórios.",
+        "pagina": 46
+      }
+    ]
+  }
+}

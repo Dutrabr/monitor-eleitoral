@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agricultura Familiar, Inclusão Produtiva Rural e Desenvolvimento do Campo — Assistência Técnica e Extensão Rural (ATER): parceria direta com os municípios na execução dos serviços, disponibilizando veículos, integração de sistemas e cooperação técnica.",
+        "pagina": 30
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo de Entrega: O Estado onde os vulneráveis encontram apoio do governo. A reorganização rigorosa das contas públicas e o resgate da capacidade de investimento próprio permitiram direcionar volumes inéditos de recursos ao eixo estratégico.",
+        "pagina": 18
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implantada em 2022, a Plataforma Unificada de Governo Digital já reúne mais de 1,58 milhão de usuários cadastrados, ultrapassa 143 milhões de acessos e disponibiliza quase 400 serviços pelo Portal de Serviços e pelo aplicativo MT Cidadão.",
+        "pagina": 36
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Arte e Cultura nas Escolas (Programa de Vivência): Integrar artistas e mestres da cultura popular ao ambiente escolar da rede estadual, promovendo oficinas regulares que complementem o currículo tradicional.",
+        "pagina": 17
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Assumimos o compromisso de dedicar um pilar estratégico próprio e autônomo em nosso Plano de Governo, voltado exclusivamente à Proteção à Mulher, Apoio à Maternidade e Autonomia Financeira Feminina.",
+        "pagina": 24
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo de Entrega: O estado onde as pessoas encontram oportunidades e prosperam. Ao reorganizar as contas do Estado e resgatar a capacidade de investimento próprio, o Governo criou um ambiente de estabilidade e crescimento.",
+        "pagina": 28
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo de Entrega: O estado onde a educação forma cidadãos. Entre 2019 e 2026, Mato Grosso vivenciou uma verdadeira revolução na educação pública estadual.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Rigor Fiscal, Austeridade e Gestão do Custeio Futuro: Preservação da CAPAG A e Saúde Fiscal — manter a disciplina orçamentária e a nota máxima de Capacidade de Pagamento.",
+        "pagina": 40
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo de Entrega: O Estado que conecta regiões por meio da infraestrutura e da grande logística. A transformação viária e logística vivenciada entre 2019 e 2026 é a demonstração prática de como a disciplina fiscal se converte em melhorias na vida do cidadão.",
+        "pagina": 34
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo de Entrega: O Estado onde se produz de forma sustentável e inovadora. Mato Grosso provou ao Brasil e ao mundo que é plenamente possível conciliar a alta produtividade agropecuária com a preservação rigorosa e a valorização de seus ativos ambientais.",
+        "pagina": 27
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Governança Digital, IA e Controle Interno Preventivo: Fortalecimento do CIRA e Recuperação de Ativos (...) Transparência Ativa pelo Portal do Tesouro: aperfeiçoar e expandir as ferramentas de transparência ativa para permitir a fiscalização social ampla de cada real arrecadado.",
+        "pagina": 41
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nenhum Estado se desenvolve de verdade se as suas cidades estiverem abandonadas (...) construímos uma relação de parceria permanente com os municípios de todas as regiões.",
+        "pagina": 45
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo de Entrega: O Estado onde a saúde pública funciona e está perto do cidadão.",
+        "pagina": 12
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O programa Vigia Mais MT democratizou o acesso à segurança por meio do maior cercamento digital da história do Estado, conectando prefeituras, rodovias, escolas e o setor produtivo a uma central unificada no Ciosp.",
+        "pagina": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Realizar Reforma Agrária para ser ocupada por assentamentos agroecológicos focados na produção de alimentos para a cesta básica do povo alagoano.", "pagina": 4}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Transparência e correta aplicação dos recursos do Fundo Estadual de Combate e Erradicação da Pobreza (Fecoep). Reestruturação do conselho do fundo para garantir 50% de representação da sociedade civil.", "pagina": 14}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Rede Estadual de Cineclube e Circuito Popular: Estruturar salas públicas de cinema em equipamentos culturais estaduais no interior e apoiar a rede de cineclubes com cotas de tela obrigatórias para curtas e longas alagoanos.", "pagina": 9}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A questão indígena em Alagoas. Os povos indígenas em Alagoas, representados por etnias como Kariri-Xocó, Wassu Cocal, Karapotó, Kalankó, Katokinn, Koiupanká, Geripankó, Karuazu, Tingui-Botó e Kraunã, enfrentam desafios históricos.", "pagina": 10}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Jornada de trabalho: redução para seis horas para todos os trabalhadores e aumento geral dos salários.", "pagina": 3}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Realizar concursos públicos para professoras/es e funcionárias/os de educação (carreiras administrativas, merendeiras, vigilantes e apoio pedagógico), reduzindo drasticamente [a precarização].", "pagina": 6}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Transparência e correta aplicação dos recursos do Fundo Estadual de Combate e Erradicação da Pobreza (Fecoep).", "pagina": 14}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Integração Plena Litoral-Sertão: Frota pública intermunicipal garantindo passagem acessível/gratuita entre os municípios do interior e os polos regionais de saúde e educação.", "pagina": 6}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Conselho Estadual de Licenciamento e Fiscalização Minerária, com poder de veto sobre licenças ambientais de mineração no estado. Fortalecer o Instituto do Meio Ambiente de Alagoas (IMA-AL).", "pagina": 11}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Regularizar grandes áreas e resolver conflitos fundiários complexos (...) apoiar municípios com estrutura técnica e jurídica, priorizando a informalidade urbana.", "pagina": 5}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Integração Plena Litoral-Sertão: Frota pública intermunicipal garantindo passagem acessível/gratuita entre os municípios do interior e os polos regionais de saúde e educação.", "pagina": 6}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Radicalização Antimanicomial e Expansão da Rede de Atenção Psicossocial - RAPS: Fechamento de Comunidades Terapêuticas; direcionando esses recursos para a rede pública.", "pagina": 13}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Pelo fim da polícia militar; fim de qualquer repressão aos movimentos sociais.", "pagina": 3}
+    ]
+  }
+}

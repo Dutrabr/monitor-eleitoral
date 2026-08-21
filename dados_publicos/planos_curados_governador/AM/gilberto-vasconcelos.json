@@ -1,0 +1,76 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Ao lado dessa atividade produtiva de subsistência, se observa também o extrativismo vegetal (Açaí, óleos e pescado) realizado pelas conhecidas populações tradicionais que opera em pequena escala de comércio regional.", "pagina": 15}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Isso implica superar o caráter formal ou assistencial das políticas e avançar para uma perspectiva de universalização, continuidade e presença territorial, garantindo que as pessoas com deficiência tenham não apenas proteção legal, mas condições reais de autonomia e participação social.", "pagina": 11}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Apoio à produção cultural crítica, fortalecendo diversidade e expressão social. Democracia: Conselhos Populares com os trabalhadores envolvidos diretamente com cultura e arte.", "pagina": 13}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Negros e negras. (...) uma política de valorização das culturas negras e periféricas, combatendo a criminalização de manifestações como funk, batalhas de rima. Investimento na saúde especializada para pessoas LGBTI+.", "pagina": 17}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Apoiar a luta pelo fim da escala 6×1 sem redução de salários e direitos (...) Fortalecer a luta pelo aumento de 100% no salário mínimo, rumo ao salário mínimo necessário, calculado pelo DIEESE.", "pagina": 9}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Realização de concursos públicos para suprir as necessidades do setor. Valorizar os profissionais da educação. Contratar psicólogos, assistentes sociais escolares, Intérpretes de Libras.", "pagina": 12}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {"status": "nao_consta"},
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Amazonas possui um déficit habitacional estimado entre 120 à 140 mil moradias em todo o Estado, com maior concentração na Capital.", "pagina": 13}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Novo relatório do Programa das Nações Unidas para o Meio Ambiente (PNUMA) reforça o avanço acelerado da crise climática e o fracasso iminente das metas estabelecidas no Acordo de Paris.", "pagina": 14}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Nosso governo não se propõe a gerir o Estado burguês, mas a superá-lo por meio da organização e mobilização da classe trabalhadora (...) sustentado por conselhos populares nos locais de trabalho, moradia e estudo.", "pagina": 23}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Como se trata de uma responsabilidade compartilhada (União, Estado e Município), observa-se, por exemplo, que, em comparação com a União, o Estado tem investido quase nada.", "pagina": 13}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Implementar políticas estaduais de tratamento e atenção integral à saúde, com ampliação da rede pública de tratamento para dependência química (CAPS AD, equipes territoriais, acolhimento).", "pagina": 16}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Enfrentamento à violência armada e proteção das comunidades.", "pagina": 16}
+    ]
+  }
+}

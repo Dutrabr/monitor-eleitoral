@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A Bahia deixará de exportar apenas matéria-prima. Passará a exportar valor (mandioca, leite, frutas, mel, pescado).", "pagina": 28}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 7 — DESENVOLVIMENTO HUMANO E SOCIAL. O desenvolvimento da Bahia será medido pela melhoria concreta da vida das pessoas, especialmente daquelas que enfrentam fome, desemprego, violê[ncia].", "pagina": 61}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "ECONOMIA DIGITAL E INOVAÇÃO. O futuro da economia passa por tecnologia.", "pagina": 29}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "14. CULTURA. (...) Também serão criados circuitos territoriais de cultura e economia criativa, conectando produção artística, turismo, educação e geração de renda.", "pagina": 71}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Igualdade racial e desenvolvimento da população negra. A promoção da ig[ualdade racial] (...) [prioridade a] população LGBTQIA+, pessoas em situação de rua.", "pagina": 67}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 — TRABALHO, EMPREGO E RENDA. Este é o coração do nosso governo. Nossa meta central: Gerar 1 milhão de oportunidades em 4 anos.", "pagina": 23}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4 — REVOLUÇÃO EDUCACIONAL. Toda transformação profunda começa pela educação.", "pagina": 38}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5. Governar com responsabilidade fiscal. Estado eficiente, sem desperdícios.", "pagina": 15}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6 — INFRAESTRUTURA E DESENVOLVIMENTO TERRITORIAL. A infraestrutura será tratada como instrumento de desenvolvimento econômico.", "pagina": 49}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Recuperação de rios, nascentes e mananciais; redução das perdas de água; melhoria dos sistemas de tratamento.", "pagina": 53}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1 — REFORMA DO ESTADO E MODERNIZAÇÃO DA GESTÃO. A máquina pública baiana precisa ser redesenhada.", "pagina": 18}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5. MOBILIDADE URBANA E TRANSPORTE REGIONAL. O Governo do Estado atuará em parceria com os municípios para melhorar a mobilidade urbana e o transporte intermunicipal.", "pagina": 52}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5 — SAÚDE REGIONALIZADA E HUMANIZADA. A saúde é uma das maiores preocupações das famílias baianas.", "pagina": 43}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 — SEGURANÇA PÚBLICA E PAZ SOCIAL. A segurança pública é uma das maiores urgências da Bahia.", "pagina": 32}
+    ]
+  }
+}

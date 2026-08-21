@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa estadual de habitação popular em parceria com os 79 municípios de Mato Grosso do Sul, priorizando famílias de baixa renda, mulheres chefes de família, população em situação de vulnerabilidade.",
+        "pagina": 7
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de um calendário cultural estadual permanente, organizado em parceria com os municípios, movimentos culturais e artistas locais.",
+        "pagina": 3
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nosso governo irá promover uma parceria política com o governo federal, para promover saúde pública que respeite a diversidade (...) população indígena, negra, mulheres, LGBTQIA+, pessoas com deficiência.",
+        "pagina": 7
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As grandes multinacionais recebem bilhões em incentivos e isenções fiscais concedidos pelo Estado e pelos municípios, enquanto muitas cidades continuam enfrentando problemas históricos como desigualdade social, baixos salários, falta de infraestrutura.",
+        "pagina": 6
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Educação em período integral, garantindo mais oportunidades de aprendizagem, cultura, esporte, lazer e alimentação adequada para crianças e jovens.",
+        "pagina": 2
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As grandes multinacionais recebem bilhões em incentivos e isenções fiscais concedidos pelo Estado e pelos municípios, enquanto muitas cidades continuam enfrentando problemas históricos como desigualdade social, baixos salários, falta de infraestrutura.",
+        "pagina": 6
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar programas de regularização fundiária, urbanização de bairros periféricos e acesso à infraestrutura básica, como água, energia, saneamento, pavimentação, transporte público.",
+        "pagina": 7
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Pantanal (...) vem sofrendo há décadas com a devastação ambiental e com queimadas de grande proporção (...) fortalecer as políticas de proteção ambiental, ampliar a fiscalização contra o desmatamento.",
+        "pagina": 8
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defendemos maior transparência, fiscalização rigorosa e monitoramento permanente dos impactos ambientais causados pela mineração, garantindo que a exploração econômica dos recursos naturais ocorra com responsabilidade ambiental.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa estadual de habitação popular em parceria com os 79 municípios de Mato Grosso do Sul.",
+        "pagina": 7
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos ampliar os investimentos na saúde pública estadual, fortalecendo o Sistema Único de Saúde como instrumento de acesso universal, gratuito e de qualidade.",
+        "pagina": 2
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defendemos uma política de segurança pública baseada na inteligência, na prevenção e no respeito aos direitos humanos.",
+        "pagina": 5
+      }
+    ]
+  }
+}

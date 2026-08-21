@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROAGROF — Programa Fluminense de Fomento à Agricultura Familiar e Agroecologia. Dos 39 mil agricultores familiares do Estado, apenas cerca de 5 mil tinham o Cadastro Nacional da Agricultura Familiar atualizado em 2023.",
+        "pagina": 63
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO I — Assistência Social. Programa Calixcoca — Cooperação Científica contra a Dependência Química. A dependência de cocaína e crack gera ciclo recorrente de internações e sobrecarga nos sistemas de saúde e segurança.",
+        "pagina": 47
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fomento ao Desenvolvimento de Softwares e Jogos. O Governo do Estado expandirá o modelo NAVE (Núcleo Avançado em Educação) para quatro unidades com formação técnica em programação, design e arte digital integrada ao ensino médio.",
+        "pagina": 56
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SERRA IMPERIAL 365. O patrimônio histórico de Petrópolis possui potencial para impulsionar o desenvolvimento econômico durante todo o ano, desde que seja acompanhado por uma gestão integrada da atividade turística.",
+        "pagina": 60
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO II — Direitos Humanos. Direitos Humanos das Mulheres e Proteção Ativa. O Governo do Estado implantará botão de socorro silencioso no aplicativo 190 RJ (...) criará o Comando Especializado Patrulha Maria da Penha.",
+        "pagina": 48
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PARTE V — Emprego, Renda e Desenvolvimento. Responsabilidade Fiscal, Fundo Soberano e Reequilíbrio Orçamentário. O Estado acumula déficits sucessivos desde a queda do petróleo em 2014.",
+        "pagina": 34
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO I — Valorização e Gestão do Professor. Pacto pelo Piso e Gestão para Resultados. O Rio de Janeiro gasta mais por aluno do que São Paulo e paga menos ao professor.",
+        "pagina": 23
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "RESPONSABILIDADE FISCAL, FUNDO SOBERANO E REEQUILÍBRIO ORÇAMENTÁRIO. O Fundo Soberano, com R$ 2,1 bilhões acumulados, tem sua finalidade estratégica ameaçada por pressões recorrentes para uso em custeio corrente. O Governo do Estado reforçará a blindagem legal do Fundo Soberano.",
+        "pagina": 34
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PARTE IV — Transporte e Mobilidade. Trem Metropolitano RJ: Reestruturação e Padrão de Metrô de Superfície. Anel Logístico Multimodal da Baía de Guanabara.",
+        "pagina": 29
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO I — Biodiversidade e Conectividade Ecológica. RJ EcoWays. Trechos como a RJ-116, a BR-101 entre Angra dos Reis e Paraty e a RJ-106 cortam remanescentes de Mata Atlântica com índices expressivos de atropelamento de fauna silvestre.",
+        "pagina": 43
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reordenamento Estratégico da Administração Estadual. O Governo do Estado criará, por decreto, o Escritório de Gerenciamento de Projetos e Metas (EGPM), vinculado ao Gabinete do Governador, para monitorar com indicadores públicos os principais programas de governo.",
+        "pagina": 52
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO III — Colaboração com os Municípios. Pacto Estadual pela Educação. O Governo do Estado formalizará, por adesão e convênio, regime de colaboração do berço ao primeiro emprego com os municípios, com o ICMS Educacional como instrumento financeiro central.",
+        "pagina": 25
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O interior fluminense receberá padrão de acesso equivalente ao da capital em leitos críticos, cobertura de urgência e especialistas, e os repasses estaduais aos municípios seguirão critério técnico e público, e não negociação política caso a caso.",
+        "pagina": 17
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As dezesseis propostas deste capítulo organizam-se em quatro eixos — pessoal, operacional, sensação de segurança e inclusão — e correspondem às atribuições constitucionais do Governo do Estado sobre a Polícia Militar, a Polícia Civil, o Corpo de Bombeiros Militar.",
+        "pagina": 11
+      }
+    ]
+  }
+}

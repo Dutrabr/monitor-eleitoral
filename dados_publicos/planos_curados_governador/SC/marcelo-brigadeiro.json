@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.2 AGRICULTURA E AGRONEGÓCIO. Objetivo: Fortalecer o principal setor exportador catarinense. Investir em programas de qualificação profissional voltados à manutenção e à ampliação da produtividade agropecuária regional.",
+        "pagina": 5
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.3 ASSISTÊNCIA SOCIAL. Criação do registro estadual de pessoas em situação de rua, em apoio e articulação com os municípios catarinenses, pela combinação estruturada de tratamento e trabalho.",
+        "pagina": 6
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.7.5 Incentivos à criação de Parques Tecnológicos de Santa Catarina. 2.7.6 Reestruturar a Fundação de Amparo à Pesquisa de Santa Catarina (FAPESC) para que ela promova ciência e conhecimento em áreas essenciais da sociedade.",
+        "pagina": 10
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.6 CULTURA E ESPORTE. Objetivo: Incentivar a formação cidadã e profissional por meio da cultura empreendedora e do desenvolvimento do esporte. Desenvolver iniciativas que ampliem a participação de grupos vulneráveis em atividades de turismo, cultura e esporte.",
+        "pagina": 9
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.13 MULHER, FAMÍLIA E PROTEÇÃO SOCIAL. Valorizar e fomentar a Rede Catarina de Proteção à Mulher, programa da Polícia Militar de Santa Catarina. Ampliar as delegacias especializadas no atendimento à mulher.",
+        "pagina": 14
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.7 DESENVOLVIMENTO ECONÔMICO. Transformar Santa Catarina no estado mais competitivo do Brasil, com crescimento sustentável do PIB e ambiente cada vez mais favorável ao empreendedorismo.",
+        "pagina": 10
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.9 EDUCAÇÃO. Objetivo: Elevar a qualidade da educação pública com foco em desempenho e empregabilidade. Implementar a educação em tempo integral em todas as escolas estaduais catarinenses até 2030.",
+        "pagina": 11
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A presente proposta busca combinar responsabilidade fiscal, liberdade econômica, segurança jurídica, fortalecimento institucional e foco em resultados.",
+        "pagina": 4
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.11 INFRAESTRUTURA, LOGÍSTICA E MOBILIDADE. Objetivo: Eliminar definitivamente gargalos logísticos que limitam o crescimento econômico catarinense. Oferecer apoio institucional e financeiro à iniciativa privada para a construção, operação e manutenção de ferrovias.",
+        "pagina": 12
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.12 MEIO AMBIENTE E SUSTENTABILIDADE. Objetivo: Promover políticas de sustentabilidade sem perder de vista a necessidade de desenvolvimento econômico e social. Simplificar o processo de licenciamento; delegar aos municípios os licenciamentos ambientais de pequeno porte.",
+        "pagina": 13
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.4 COMBATE À CORRUPÇÃO E TRANSPARÊNCIA. Criar a Diretoria de Inteligência de Combate à Corrupção Pública (DICP), órgão permanente e com autonomia para investigar irregularidades administrativas.",
+        "pagina": 8
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Vamos elaborar e aprovar a lei de regionalização estadual do saneamento, permitindo que todos os 295 municípios catarinenses tenham acesso a investimentos para a universalização do serviço até o ano de 2033.",
+        "pagina": 3
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.14 SAÚDE. Nosso compromisso é com a eficiência da gestão, a redução das filas e a ampliação do acesso aos serviços especializados. O cidadão precisa encontrar respostas rápidas e atendimento digno.",
+        "pagina": 14
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2.15 SEGURANÇA PÚBLICA E CIDADANIA. O Estado deve estar presente, forte e organizado, utilizando inteligência, tecnologia e integração das forças de segurança para proteger os cidadãos de bem e combater o crime com firmeza.",
+        "pagina": 15
+      }
+    ]
+  }
+}

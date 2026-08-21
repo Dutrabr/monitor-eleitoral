@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer assistência técnica, cooperativismo, rastreabilidade, inspeção e compra pública competitiva para agricultura familiar e pequeno produtor.",
+        "pagina": 49
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Organizar acesso integrado à assistência social, com plano familiar e encaminhamento acompanhado nos casos de maior risco.",
+        "pagina": 33
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pesquisa pública partirá de problema de Goiás, terá parceiro capaz de usar o resultado e mostrará se a solução chegou à prática.",
+        "pagina": 56
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Editais terão calendário conhecido, acesso simples e abrangente para todo o estado, sem escolher artista ou entidade por preferência política.",
+        "pagina": 56
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar acolhimento à mulher vítima de violência, proteção aos filhos e caminhos de qualificação, trabalho e independência financeira.",
+        "pagina": 33
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A qualificação pública passará a ser planejada a partir de vagas de trabalho demandadas pela iniciativa privada, cadeias produtivas e salários reais de cada região.",
+        "pagina": 44
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Aprender a ler, escrever, calcular, conviver e concluir os estudos é a base da liberdade. A escola também precisa ser segura, bem cuidada, inclusiva e conectada às escolhas que o jovem fará depois.",
+        "pagina": 26
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Este plano não prevê a criação de novo imposto para financiá-lo. A execução será feita prioritariamente com orçamento existente, revisão de gasto, captação, crédito responsável.",
+        "pagina": 62
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura boa não é apenas obra nova. É ponte inspecionada, estrada com manutenção, sinalização visível, ônibus que passa no horário.",
+        "pagina": 36
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Planejar água por bacia e território, juntando abastecimento, produção, reservação, redução de perdas, proteção de manancial e resposta a seca.",
+        "pagina": 39
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A mesma informação usada pelo governador para decidir estará disponível para a população. Meta não será trocada em silêncio. Atraso terá explicação, providência e nova data.",
+        "pagina": 10
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A prefeitura será tratada como parceira, não como pedinte (...) O Estado será parceiro técnico dos municípios, usará critérios públicos e protegerá a capacidade de investir que Goiás reconquistou.",
+        "pagina": 54
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Uma rede de saúde só funciona de verdade quando a pessoa sabe qual é o próximo passo (...) O Estado vai organizar o acesso, fortalecer a capacidade regional e cobrar qualidade de cada contrato.",
+        "pagina": 23
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O próximo governo deve manter integração, inteligência, presença policial e controle do sistema prisional, ao mesmo tempo em que responde a crimes que cresceram ou mudaram de forma.",
+        "pagina": 29
+      }
+    ]
+  }
+}

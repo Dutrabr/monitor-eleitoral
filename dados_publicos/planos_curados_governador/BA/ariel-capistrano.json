@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "5. AGRICULTURA E PECUÁRIA. Ampliação do acesso ao crédito rural. Incentivo à agricultura familiar. Investimentos em armazenamento e distribuição da produção.", "pagina": 2}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "9. ASSISTÊNCIA SOCIAL. Ampliação das políticas de proteção social. Combate à fome e à extrema pobreza. Ampliação das políticas de inclusão social.", "pagina": 3}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "8. CULTURA, ESPORTE E TURISMO. Valorização das manifestações culturais. Fortalecimento do turismo religioso. Desenvolvimento do turismo histórico e ecológico.", "pagina": 3}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecimento das ações voltadas às crianças, mulheres, aos idosos e às pessoas com deficiência.", "pagina": 3}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Qualificação profissional. Incentivos aos setores da indústria, do comércio e dos serviços. Incentivo à economia criativa.", "pagina": 2}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3. EDUCAÇÃO. Expansão do ensino profissionalizante. Implantação de escolas cívico-militares. Valorização dos professores.", "pagina": 2}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Transparência na aplicação dos recursos públicos (...) Garantir transparência e responsabilidade na gestão pública.", "pagina": 4}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "6. INFRAESTRUTURA. Recuperação e ampliação da malha rodoviária estadual. Construção de pontes e viadutos. Ampliação do saneamento básico.", "pagina": 3}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "7. MEIO AMBIENTE. Recuperação de rios e nascentes. Combate ao desmatamento ilegal. Fortalecimento das políticas de sustentabilidade.", "pagina": 3}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "10. GESTÃO PÚBLICA. Combate permanente à corrupção. Digitalização dos serviços públicos. Modernização da administração estadual. Ampliação dos mecanismos de participação popular.", "pagina": 4}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecimento das guardas municipais por meio de convênios com os municípios.", "pagina": 1}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2. SAÚDE. Ampliação do número de leitos hospitalares. Construção e modernização de hospitais regionais. Redução das filas para exames e cirurgias.", "pagina": 1}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. SEGURANÇA PÚBLICA. Ampliação do efetivo das polícias Civil, Militar e Técnica. Investimentos em inteligência, tecnologia e monitoramento eletrônico.", "pagina": 1}
+    ]
+  }
+}

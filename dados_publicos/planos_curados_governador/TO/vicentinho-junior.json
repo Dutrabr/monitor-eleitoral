@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3: AGRONEGÓCIO 5.0. Foco: Industrialização, Cooperativismo e Bioinsumos. 021. Programa Armazém para Todos (Condomínios de Silos): Incentivar a construção de Condomínios de Armazenagem via linha de crédito do FNO, permitindo que pequenos produtores estoquem sua produção.",
+        "pagina": 6
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "187. Combate a violência contra os idosos. Ação: Fortalecimento dos centros de referência, campanhas de proteção à pessoa idosa e ampliação da assistência social, e criação de canal prioritário na Delegacia Virtual para denúncias financeiras e patrimoniais.",
+        "pagina": 24
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 22: TECNOLOGIA - ESTADO DIGITAL. Foco: Conectividade onde o Setor produtivo precisa. 221. Parque Tecnológico AgroTech: Instalação física dentro do parque da Agrotins. Resultado Esperado: Tecnologia local aumentando produtividade.",
+        "pagina": 28
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4: CULTURA, ESPORTE E BEM-ESTAR. Foco: Economia Criativa, Identidade e Qualidade de Vida Urbana. 031. Indústria das Festas Juninas: Financiar galpões permanentes de confecção de figurinos no Tocantins, gerando emprego o ano todo.",
+        "pagina": 7
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 16: PROTEÇÃO E PROMOÇÃO DA MULHER. Foco: Combate à violência e independência. 171. Programa Aluguel Social Mulher: Auxílio financeiro temporário para vítimas de violência doméstica saírem de casa. Resultado Esperado: Rompimento do ciclo da violência.",
+        "pagina": 22
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 14: PLENO EMPREGO. 154. Desoneração Jovem: Focar no setor de Comércio e Serviços do Tocantins. Resultado Esperado: Inserção precoce do jovem no mercado.",
+        "pagina": 20
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7: EDUCAÇÃO. Foco: Interiorização, valorização do Professor(a) e Excelência. 071. Alfabetização na Idade Certa: Capacitação focada nos municípios com pior IDH e maiores índices de evasão escolar. Resultado Esperado: Erradicação do analfabetismo funcional.",
+        "pagina": 11
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 8: FAZENDA PÚBLICA. Foco: Economia, Sefaz 5.0, pessoas, tecnologia e excelência. 081. Força-Tarefa Transição 2033: Criar equipe capacitada para calcular e auditar a Receita Média do Estado (2024-2028) para a Reforma Tributária, garantindo o repasse federal futuro.",
+        "pagina": 12
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 28: DESENVOLVIMENTO DAS RODOVIAS ESTADUAIS. 271. Expansão Rodoviária via Fundo de Desenvolvimento Regional (FDR): Aplicação estratégica dos recursos provenientes do FDR para a pavimentação e duplicação de eixos rodoviários prioritários que conectam as regiões produtoras aos corredores logísticos nacionais.",
+        "pagina": 34
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6: ECONOMIA VERDE E DESCARBONIZAÇÃO. Foco: Elevação do ativo ambiental. 061. Programa Produtor de Água: Compensação por Serviços Ambientais (PSA) a produtores que recuperarem nascentes nas bacias críticas. Resultado Esperado: Segurança hídrica para o Agro e renda extra para o produtor.",
+        "pagina": 9
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 15: PRESTAÇÃO DE SERVIÇOS ESTATAIS. 145. Marco Regulatório das Organizações da Sociedade Civil (MROSC) Estadual: Regulamentação simplificada da Lei 13.019 no Tocantins para facilitar repasses a ONGs que cuidam de crianças e idosos.",
+        "pagina": 21
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2: AGENDA MUNICIPALISTA. Foco: Fortalecimento institucional, economia de escala e apoio técnico aos Municípios. 011. Escritório Estadual de Projetos (Fábrica de Projetos): Criar um Escritório Cooperativo na Secretaria de Planejamento para elaborar projetos de engenharia e arquitetura gratuitos para os municípios.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 18: SAÚDE PÚBLICA. Foco: Fim da ambulancioterapia. 191. Alta e média complexidade Regionalizada: Credenciar hemodinâmica em Araguaína. Resultado Esperado: Fim das viagens para a capital.",
+        "pagina": 24
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 20: SEGURANÇA PÚBLICA. Foco: Fronteiras e Rural. 201. Cinturão de Segurança: Priorizar pontes e balsas no Estado do Tocantins. Resultado Esperado: Blindagem do Tocantins para Segurança Pública.",
+        "pagina": 26
+      }
+    ]
+  }
+}

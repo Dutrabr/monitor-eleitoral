@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Revisar a política de alimentação escolar, priorizando produtores locais da agricultura familiar, garantindo alimentos de qualidade e livres de agrotóxicos para a comunidade escolar e fomentando a economia local.",
+        "pagina": 9
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantia de renda mínima para a população com um programa social que utilize o Sistema Único de Assistência Social como forma de acompanhar e apoiar famílias em situação de miséria.",
+        "pagina": 6
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de entidade pública de pesquisa e produção de vacinas e medicamentos, articulada com as instituições de Ciência, Tecnologia e Inovação estabelecidas no Estado.",
+        "pagina": 7
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA E JUVENTUDE. Valorização da cultura de favela e periférica! Reconhecimento do Funk, Rap e demais produções culturais das periferias como patrimônio imaterial. Garantia do direito à livre expressão dessas manifestações.",
+        "pagina": 11
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DIREITOS HUMANOS. Assegurar a liberdade religiosa, especialmente a promoção do respeito às religiões de matriz afro-brasileira (candomblé e umbanda). Combater o racismo e punir os racistas será uma das prioridades do governo.",
+        "pagina": 12
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ECONOMIA E TRABALHO PARA O POVO. Criação de um Banco Estadual para fortalecer a capacidade de investimento público em infraestrutura. Revisão da política de isenções fiscais às grandes empresas e auditoria dos grandes devedores de impostos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO. Defesa da educação pública, gratuita, laica e de qualidade. Erradicar o analfabetismo completo e funcional em um ano. Desmilitarização imediata das escolas da rede estadual de educação.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Realizar a suspensão e uma auditoria da dívida pública do estado do Rio de Janeiro com entes estatais e privados para eliminar irregularidades e renegociar dívidas que só servem para sangrar os recursos públicos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implementação da Política de Bilhete Único Intermodal e Intermunicipal.",
+        "pagina": 10
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantir a gestão democrática e o controle social do estado como formas de planejar, produzir e governar coletivamente o espaço urbano. Criação e promoção do Conselho Estadual das Cidades.",
+        "pagina": 10
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implementar o passe-livre intermunicipal para os estudantes de todas as séries e etapas do ensino, inclusive de instituições de ensino superior públicas.",
+        "pagina": 10
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE PÚBLICA. Retomada da administração direta da saúde pública pelo Estado, encerrando e auditando os contratos com as OS (Organizações Sociais) e punindo possíveis casos de corrupção.",
+        "pagina": 7
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA. Desmilitarização das polícias e da guardas municipais. Mudança nos critérios de seleção e treinamento de novos policiais, com enfoque nos direitos humanos, não letalidade, antirracismo e feminismo.",
+        "pagina": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "AGRO GRANDE. Fortalecer o campo com inovação, assistência técnica, crédito e acesso a mercados, tornando o agro fluminense mais competitivo, sustentável e capaz de gerar renda em todas as regiões do estado.",
+        "pagina": 38
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "POLÍTICAS SOCIAIS E AUTONOMIA. O Estado vai coordenar e fortalecer os municípios, com dados, metas e cofinanciamento responsável, priorizando quem realmente precisa e devolvendo autonomia, nunca criando dependência permanente.",
+        "pagina": 26
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoio a estúdios, startups e empresas de games, com acesso a crédito, hubs e tecnologia.",
+        "pagina": 35
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "RIO CRIATIVO. Fazer da criatividade um ativo econômico do Rio de Janeiro, fortalecendo os setores culturais e criativos, atraindo investimentos e ampliando oportunidades de trabalho e geração de renda.",
+        "pagina": 35
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "RIO POR ELAS: SEGURANÇA E RESPEITO. Proteger a mulher é proteger a família fluminense. Alerta de proximidade: quando o agressor violar o limite de afastamento fixado pela justiça, a tornozeleira eletrônica emitirá um alerta sonoro.",
+        "pagina": 13
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — Rio Próspero. O Rio de Janeiro precisa voltar a ser um estado onde seja mais fácil trabalhar, produzir, empreender e investir. A redução de burocracias, o apoio aos pequenos negócios, a atração de investimentos.",
+        "pagina": 27
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "APRENDIZAGEM NOTA 10 / ESCOLA PROTEGIDA — políticas do Eixo 2 (Rio que Cuida) voltadas à qualidade do ensino e à segurança escolar.",
+        "pagina": 22
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "RJ INTEGRADO. Indústria, energia e serviços de engenharia, usando instrumentos como ICMS, FUNDES, concessões e parcerias privadas com responsabilidade fiscal, contrapartida de emprego, segurança jurídica e licenciamento ágil.",
+        "pagina": 31
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "NOVOS CORREDORES DE MOBILIDADE / BILHETE ÚNICO / RODOVIAS RJ — Eixo 4 (Rio que Avança). Reunimos aqui as políticas de infraestrutura, mobilidade e meio ambiente necessárias para conectar as regiões, reduzir riscos e criar condições permanentes para o desenvolvimento do Estado.",
+        "pagina": 39
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROTEÇÃO CONTRA TRAGÉDIAS. O Estado do Rio convive com enchentes, deslizamentos e perdas que poderiam ser reduzidas com planejamento, prevenção e resposta rápida. O Estado vai mudar a lógica da reação para a prevenção, usando tecnologia, inteligência de risco, defesa civil fortalecida.",
+        "pagina": 48
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GESTÃO INTEGRADA POR RESULTADOS. Comando técnico. Meta pública. Resultado cobrado. Comandantes de batalhão, delegados titulares e diretores de presídio indicados por critério técnico, com compromisso assinado por resultados.",
+        "pagina": 14
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MUNICÍPIOS — Transversal. Estado parceiro dos 92 municípios, com escuta ativa, cooperação técnica e soluções adaptadas à realidade local. ESTADO PARCEIRO DAS CIDADES: o Estado será parceiro técnico dos municípios para transformar demandas reais em projetos viáveis.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "FILA CURTA, CIRURGIA RÁPIDA / SAÚDE PERTO DE CASA — Eixo 2 (Rio que Cuida). Reúne as políticas que mais impactam na vida das pessoas: saúde mais rápida e digna, com atendimento de qualidade e agilidade.",
+        "pagina": 18
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — Rio Seguro. O Rio Seguro é o eixo estruturante do Plano e a primeira responsabilidade do governo. Seu objetivo será restabelecer a ordem pública, recuperar os territórios hoje dominados pelo crime.",
+        "pagina": 6
+      }
+    ]
+  }
+}

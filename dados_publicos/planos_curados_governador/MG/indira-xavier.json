@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecimento da política de agroecologia e da agricultura familiar urbana e periurbana — criação de infraestrutura estadual para escoamento da produção e estabelecimento de feiras populares permanentes.",
+        "pagina": 7
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Em articulação junto ao Governo Federal desenvolver (...) estoques de alimentos para regulação dos preços e abastecimento da população em situação de vulnerabilidade.",
+        "pagina": 7
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecimento da Fundação Ezequiel Dias. Investir em Ciência e Tecnologia Popular para formar um povo verdadeiramente soberano!",
+        "pagina": 12
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar política estadual de incentivo ao acesso à cultura para população, como redução dos preços em eventos culturais organizados pelo estado.",
+        "pagina": 16
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pelo fim da transfobia: por mais abrigos para a população trans, por garantia de atendimento pelo nome social (...) Por políticas de geração de renda e emprego para mulheres negras, quilombolas, PCDs e indígenas.",
+        "pagina": 9
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecimento das Estatais Mineiras (CEMIG, CODEMIG, PRODEMGE, MGS, entre outras) (...) Realizar uma reforma tributária que preveja a taxação das grandes fortunas.",
+        "pagina": 8
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar a rede de escolas estaduais, com atenção principal em áreas rurais, terras indígenas e quilombolas.",
+        "pagina": 13
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Auditoria Cidadã das Dívidas Públicas para comprovar que o endividamento é um mecanismo de roubo dos recursos do povo; Revogação do acordo do PROPAG.",
+        "pagina": 8
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Revisão das concessões da gestão de estradas estaduais a empresas privadas (...) Retorno do SUBÚRBIO – Trem Urbano de passageiro em toda Região Metropolitana de Belo Horizonte.",
+        "pagina": 13
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reconhecer a natureza como ser de direito.",
+        "pagina": 11
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Assegurar a participação popular no Orçamento, com a criação de conselhos deliberativos que versem sobre a prioridade de investimentos no estado.",
+        "pagina": 8
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Aumentar a porcentagem da CFEM e criar Conselhos Populares nos municípios para fiscalização e monitoramento dos recursos da CFEM, garantindo, obrigatoriamente, repasses à saúde, educação e moradia.",
+        "pagina": 11
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecimento do Sistema Único de Saúde através de investimentos na área.",
+        "pagina": 11
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O policial deve ser um servidor civil, sem subordinação à hiperverticalização de relações funcionais e sociais imposta pelos regulamentos e leis militares.",
+        "pagina": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.8. Agropecuária, Desenvolvimento do Interior e Recursos Hídricos. O interior sergipano vive fundamentalmente da agropecuária. E o setor tem demonstrado vitalidade notável em cadeias como a pecuária leiteira.",
+        "pagina": 13
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.7. Desenvolvimento Social e Combate à Pobreza. A pobreza e a vulnerabilidade social em Sergipe têm rosto conhecido: famílias chefiadas por mulheres, jovens fora da escola e do trabalho, trabalhadores informais do interior.",
+        "pagina": 12
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.10. Turismo, Cultura e Economia Criativa. O turismo sergipano cresceu de forma consistente nos últimos anos, com ampliação relevante da malha aérea e do fluxo de visitantes.",
+        "pagina": 15
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O enfrentamento à violência doméstica e de gênero será qualificado em articulação com toda a rede de proteção. Porque proteger a mulher e disputar o jovem com o crime não são políticas acessórias da segurança: são a sua metade preventiva.",
+        "pagina": 11
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.2. Desenvolvimento Econômico, Emprego e Renda. A economia sergipana é dominada pelo setor de comércio e serviços: essas empresas superam em muitas vezes o número de indústrias instaladas no Estado.",
+        "pagina": 8
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.3. Educação. Nenhum estado se desenvolveu de forma sustentada sem resolver sua educação básica. Isso não é frase de efeito: é a síntese de tudo o que a evidência econômica e social ensina.",
+        "pagina": 9
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.1. Gestão Pública, Governança e Responsabilidade Fiscal. A qualidade da gestão é o que diferencia estados que avançam de estados que ficam parados com orçamentos parecidos.",
+        "pagina": 7
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.6. Infraestrutura, Mobilidade e Habitação. Infraestrutura é a política pública que multiplica todas as outras. A rodovia conservada barateia o frete do produtor rural. O saneamento reduz internações.",
+        "pagina": 11
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.9. Meio Ambiente, Sustentabilidade e Transição Energética. Sergipe reúne condições privilegiadas para protagonizar a transição energética no Nordeste: irradiação solar abundante, potencial eólico.",
+        "pagina": 14
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Governança e Monitoramento do Plano. Interlocução permanente com a Assembleia Legislativa, com os municípios, com os órgãos de controle e com a sociedade civil, sob os princípios da legalidade, da impessoalidade, da moralidade, da publicidade e da eficiência.",
+        "pagina": 20
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cofinanciamento estadual dos serviços socioassistenciais nos municípios de menor porte, com a qualificação dos serviços de enfrentamento à violência contra a mulher, a criança e a pessoa idosa.",
+        "pagina": 13
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.4. Saúde. Sergipe apresenta resultados acima da média nacional em componentes de nutrição e de cuidados médicos básicos, o que revela uma atenção primária relativamente bem estruturada.",
+        "pagina": 9
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4.5. Segurança Pública. A segurança pública é a política em que a percepção do cidadão mais rapidamente se converte em juízo sobre o governo. E com razão: sem segurança não há liberdade que se exerça.",
+        "pagina": 10
+      }
+    ]
+  }
+}

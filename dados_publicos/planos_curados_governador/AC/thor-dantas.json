@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Apoiar micro e pequenas agroindústrias, cooperativas e arranjos produtivos. Ampliar certificação, integração ao sistema nacional de inspeção sanitária e adequação a protocolos de exportação.", "pagina": 21}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Retomar um programa de habitação social, com prioridade para famílias em risco ou vulnerabilidade, chefiadas por mulheres, com pessoas idosas ou com deficiência.", "pagina": 28}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Educação será tratada como projeto permanente de Estado, articulada à cultura, ao esporte, à ciência, à tecnologia, à formação profissional técnica e tecnológica.", "pagina": 9}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Apoiar a economia criativa (arte, cultura, comunicação, inovação), o turismo étnico-ambiental e as exportações de produtos acreanos.", "pagina": 21}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecer as redes regionais e assegurar atenção adequada às mulheres, crianças, juventudes, pessoas idosas, população negra, indígenas, pessoas com deficiência, população LGBTQIAPN+ e comunidades tradicionais.", "pagina": 16}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 · ECONOMIA — Emprego, renda e economia. Produzir mais, agregar valor e distribuir oportunidades.", "pagina": 19}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5 · EDUCAÇÃO — Educação e Desenvolvimento Humano para Transformar Vidas.", "pagina": 36}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Responsabilidade fiscal e justiça no uso dos recursos (...) negociação responsável dos passivos do Estado.", "pagina": 6}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 · INFRAESTRUTURA — Infraestrutura para o Desenvolvimento. Conectar pessoas [e regiões].", "pagina": 25}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Desenvolvimento adequado. O governo conciliará produção, trabalho e inovação com conservação, recuperação ambiental e preparação para as mudanças climáticas.", "pagina": 6}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Governo Único será sustentado por uma Agenda Estratégica do mandato, um Comitê Estratégico de Governo, a reconstrução do Sistema Estadual de Planejamento, um Escritório Estadual de Projetos Estratégicos e um Painel Público de Metas e Resultados.", "pagina": 7}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Atualizar e implementar o Plano Estadual de Educação, em parceria com a União e os municípios, vinculado ao orçamento.", "pagina": 39}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1 · SAÚDE — Saúde para cuidar das pessoas. Atendimento digno, no tempo certo e em todas [as regiões].", "pagina": 13}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4 · SEGURANÇA — Segurança e Proteção da Vida. Firmeza contra o crime, prevenção da violência e garantia de direitos.", "pagina": 31}
+    ]
+  }
+}

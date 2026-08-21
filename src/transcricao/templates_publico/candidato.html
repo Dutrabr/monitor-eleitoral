@@ -5,7 +5,10 @@
 {% block conteudo %}
 <p><a href="{{ voltar_url }}">← {{ voltar_label }}</a></p>
 <div style="display:flex; align-items:center; gap:1rem;">
-  <div class="avatar-candidato" style="width:64px; height:64px; font-size:1.4rem;">{{ candidato.nome[0] }}</div>
+  <div class="avatar-candidato" style="width:64px; height:64px; font-size:1.4rem;">
+    <img src="{% if candidato.uf %}/governador/{{ candidato.uf }}/{{ candidato.slug }}/foto{% else %}/foto/{{ candidato.slug }}{% endif %}" alt="" onerror="this.remove()">
+    {{ candidato.nome[0] }}
+  </div>
   <div>
     <h1 style="margin-bottom:.2rem;">{{ candidato.nome }}</h1>
     <div class="meta">
@@ -24,7 +27,7 @@
 
 <div class="chips" role="navigation" aria-label="Ir para tema">
   {% for tema in temas_ordenados %}
-  <a class="chip{% if tema == tema_foco %} ativo{% endif %}" href="#tema-{{ tema }}">{{ rotulos_tema.get(tema, tema) }}</a>
+  <a class="chip-combo{% if tema == tema_foco %} ativo{% endif %}" href="#tema-{{ tema }}">{{ rotulos_tema.get(tema, tema) }} <span class="n">{{ (grupos.get(tema) or [])|length }}</span></a>
   {% endfor %}
 </div>
 
@@ -80,9 +83,10 @@
             <p class="fonte">Ainda não checamos o plano de governo deste candidato para este tema.</p>
           {% endif %}
         </div>
-        <div class="coluna coluna-redes">
+        {% set citacoes = grupos.get(tema) or [] %}
+        <div class="coluna coluna-redes{% if not citacoes %} vazio{% endif %}">
           <h3>Redes sociais</h3>
-          {% for c in grupos.get(tema) or [] %}
+          {% for c in citacoes %}
           <div class="citacao">
             <p>&ldquo;{{ c.texto }}&rdquo;</p>
             <div class="fonte">
@@ -91,7 +95,7 @@
             </div>
           </div>
           {% else %}
-          <p>Nenhuma publicação encontrada sobre este tema até o momento.</p>
+          <p>Redes sociais — nenhuma citação coletada ainda para este tema.</p>
           {% endfor %}
         </div>
       </div>

@@ -1,0 +1,81 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecer a agricultura familiar alagoana através da expansão da assistência técnica e extensão rural, da disponibilização de crédito acessível e desburocratizado, do fornecimento de insumos e equipamentos.", "pagina": 2}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Expandir o cofinanciamento estadual de municípios para serviços continuados nos Centros de Referência de Assistência Social – CRAS/PAIF e nos Centros de Referência Especializados de Assistência Social – CREAS/PAEFI.", "pagina": 1}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Criar o Programa Educação IA de educação digital e inteligência artificial, desenvolvimento de competências digitais e uso ético das tecnologias emergentes no processo educacional.", "pagina": 2}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Criar uma política de desenvolvimento da economia criativa, de forma a ajudar quem produz criatividade a transformar talento em renda.", "pagina": 2}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Implantar Delegacias 24h da Mulher, do Idoso e da Pessoa com Deficiência, em regionais de segurança pública, para funcionar como central de flagrantes.", "pagina": 1}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MISSÃO 2: ECONOMIA INOVADORA, PARA GERAÇÃO DE EMPREGO E RENDA.", "pagina": 2}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Implantar o programa Escola da Hora Tech, destinado à manutenção de laboratórios, aquisição de insumos, execução de práticas pedagógicas e fortalecimento da oferta de cursos técnicos.", "pagina": 2}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {"status": "nao_consta"},
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MISSÃO 4: INFRAESTRUTURA REGIONALIZADA. Ampliar rodovias duplicadas na Região Metropolitana e no interior do estado.", "pagina": 3}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MISSÃO 3: TRANSFORMAÇÃO ECOLÓGICA. Criar a \"Agenda 21 de Alagoas\", para orientar políticas públicas de desenvolvimento ambiental (...) Criar o Programa de Restauração Florestal e Combate à Desertificação.", "pagina": 3}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "MISSÃO 5: ESTADO DIGITAL E EFICIENTE. Intensificar a transformação digital no Poder Executivo. Criar uma política estruturada de Governança de Dados do Estado.", "pagina": 3}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Apoiar os municípios na criação ou no fortalecimento de seus organismos de políticas para as mulheres e na organização das redes locais de atendimento.", "pagina": 1}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Ampliar a rede hospitalar do Estado, com foco em serviços para cuidados da mulher, tratamento oncológico, ortopédico, traumas, hemodiálise e urgências.", "pagina": 1}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Ampliar a integração de operações de órgãos de segurança pública com SAMU, Detran, Defesa Civil e Guarda Municipal, para pronto atendimento de ocorrências.", "pagina": 1}
+    ]
+  }
+}

@@ -8,13 +8,14 @@
   "cargo": "Governador",
   "vice": "CRISTIANE BARROS",
   "falante_id": "candidato_rico_pinheiro",
-  "plano_de_governo": "/governador/DF/rico-pinheiro/plano",
+  "plano_de_governo": null,
   "fonte_dados": {
     "api": "divulgacandcontas.tse.jus.br",
     "candidato_id_tse": 70002553982,
     "eleicao_id_tse": "20322002026",
     "uf": "DF",
-    "hash_sha256_pdf": "ac857a986d18f82fb3f912425d36f8ec347c75c8b67ef1257425fa3880da0cb2",
-    "bytes_pdf": 40723
+    "nota": "arquivo codTipo 5 (\"plano de governo\") cadastrado pelo proprio TSE para este candidato e' na verdade uma decisao judicial do TRE-DF sobre filiacao partidaria (PRTB), nao um plano de governo. Confirmado por hash sha256 identico ao baixado. PDF preservado em dados/planos_de_governo_governador/_documentos_invalidos/ como evidencia; nao serve mais como plano_de_governo deste candidato.",
+    "hash_sha256_pdf_documento_invalido": "ac857a986d18f82fb3f912425d36f8ec347c75c8b67ef1257425fa3880da0cb2",
+    "bytes_pdf_documento_invalido": 40723
   }
 }

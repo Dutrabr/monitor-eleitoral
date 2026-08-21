@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar e qualificar a assistência técnica e extensão rural (ATER) para agricultores familiares por meio da reestruturação da AGERP.",
+        "pagina": 12
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar a Força Estadual de Combate à Pobreza, de caráter intersetorial, articulando estado, municípios e parceiros do terceiro setor e da iniciativa privada.",
+        "pagina": 4
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar e modernizar a infraestrutura da UEMA e da UEMASUL, equipar laboratórios, fortalecer a pesquisa aplicada e ampliar a formação de profissionais em áreas estratégicas para as vocações e necessidades do Maranhão.",
+        "pagina": 11
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoiar manifestações culturais e festas tradicionais maranhenses, fortalecendo sua realização, circulação e geração de oportunidades para artistas, grupos culturais e trabalhadores da economia criativa.",
+        "pagina": 24
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar as políticas públicas estaduais de ações afirmativas, promovendo a igualdade racial e a equidade e enfrentando toda forma de discriminação e violência.",
+        "pagina": 5
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Atrair empresas e novos investimentos para o Maranhão, promovendo as potencialidades do estado e criando condições para sua instalação, expansão e geração de empregos.",
+        "pagina": 13
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar o Programa Escola Nova para construção de novas escolas, quadras poliesportivas e requalificação das unidades existentes, com climatização dos ambientes escolares.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reduzir o ICMS do estado do Maranhão.",
+        "pagina": 21
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implantar o Programa Estrada Nova para reconstruir as rodovias estaduais, bem como construir novas estradas, melhorando a mobilidade, interligando os municípios.",
+        "pagina": 15
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Revisar e atualizar o Plano Estadual de Mudanças Climáticas e a Política Estadual de Enfrentamento das Mudanças Climáticas, alinhando-os ao Plano Nacional sobre Mudança do Clima.",
+        "pagina": 25
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer os mecanismos de prevenção, controle e combate à corrupção, ampliando a transparência e aprimorando os processos de fiscalização e controle dos recursos públicos.",
+        "pagina": 22
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implantar o Programa de Apoio às Prefeituras (PAP) para fortalecer a parceria entre estado e municípios, por meio da execução de obras, serviços e investimentos prioritários nas cidades do Maranhão.",
+        "pagina": 15
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implantar o Programa Hospital Novo para construção de novos hospitais regionais e/ou macrorregionais, ampliando o acesso à saúde de média e alta complexidade.",
+        "pagina": 6
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implantar a Muralha Digital nas diversas regiões do Maranhão, com câmeras de reconhecimento facial, e fazer a integração das forças de segurança.",
+        "pagina": 19
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7 – AGROPECUÁRIA E DESENVOLVIMENTO RURAL. O Tocantins consolidou-se como fronteira agrícola madura e principal produtor de grãos da Região Norte. A safra 2024/25 encerrou em 9,17 milhões de toneladas, recorde da série histórica.",
+        "pagina": 75
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 – SEGURANÇA PÚBLICA, DESENVOLVIMENTO SOCIAL E DIREITOS HUMANOS. Este eixo trata de segurança pública e penal, desenvolvimento social e direitos humanos como uma política transversal, e não como três agendas paralelas.",
+        "pagina": 47
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Pacto Tocantinense pela Ciência, Tecnologia e Inovação. Garantir a aplicação estável dos recursos de 0,5% da receita tributária previstos na Constituição Estadual para financiamento de ciência, tecnologia e inovação.",
+        "pagina": 65
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 9 – CULTURA, TURISMO E DESENVOLVIMENTO CRIATIVO. Este eixo está organizado em sete diretrizes estratégicas, que articulam cultura, turismo e economia criativa como políticas públicas complementares e mutuamente fortalecedoras.",
+        "pagina": 88
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 – SEGURANÇA PÚBLICA, DESENVOLVIMENTO SOCIAL E DIREITOS HUMANOS. Atenção específica às mulheres rurais, às mulheres com deficiência e às mulheres privadas de liberdade e egressas, conforme as diretrizes de inclusão e de diversidade pactuadas com o Conselho Estadual.",
+        "pagina": 52
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 5 – DESENVOLVIMENTO ECONÔMICO E SUSTENTÁVEL. O eixo de Desenvolvimento Econômico, Produtivo e Tecnológico parte de um diagnóstico comum: o Tocantins tem vantagens estruturais relevantes, posição estratégica no Centro-Norte do país, a Ferrovia Norte-Sul.",
+        "pagina": 60
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 – EDUCAÇÃO E CAPITAL HUMANO. A educação tocantinense acumulou avanços consistentes na última década. No Ideb 2023, a rede estadual liderou a Região Norte na média de todas as etapas, com 4,9.",
+        "pagina": 19
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Governança, planejamento e capacidade institucional. Assegurar a sustentabilidade fiscal e previdenciária do Estado como base de execução de todo o plano.",
+        "pagina": 94
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 – INFRAESTRUTURA, HABITAÇÃO E CONECTIVIDADE. O desafio de infraestrutura do Tocantins é definido pela dispersão territorial: cerca de 1,5 milhão de habitantes distribuídos em 139 municípios ao longo de aproximadamente 277 mil km².",
+        "pagina": 55
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 8 – MEIO AMBIENTE, SUSTENTABILIDADE E CAUSA ANIMAL. O Tocantins ocupa posição geográfica estratégica no cenário nacional, com grande potencial para o agronegócio, para a produção florestal, para a mineração responsável, para o turismo ecológico.",
+        "pagina": 83
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 10 – GOVERNANÇA, TRANSPARÊNCIA E TRANSFORMAÇÃO DIGITAL. Este eixo resulta da associação de quatro fontes: demandas da sociedade, diagnósticos do próprio Estado, planos plurianuais e cartas de intenção estratégica.",
+        "pagina": 93
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6 – DESENVOLVIMENTO REGIONAL E REDUÇÃO DAS DESIGUALDADES. O Tocantins cresce, mas cresce de forma desigual. Dos 139 municípios, 5 deles concentram quase metade do PIB do Estado, enquanto municípios como Recursolândia e Campos Lindos ficam para trás.",
+        "pagina": 71
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 – SAÚDE E QUALIDADE DE VIDA. A visão estratégica deste plano é consolidar o Tocantins como referência em saúde regionalizada, eficiência na gestão do SUS e saúde digital.",
+        "pagina": 36
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 – SEGURANÇA PÚBLICA, DESENVOLVIMENTO SOCIAL E DIREITOS HUMANOS. Na segurança pública, a ação estadual será focada nos municípios que concentram as maiores taxas de letalidade violenta, com política própria de enfrentamento às violências.",
+        "pagina": 47
+      }
+    ]
+  }
+}

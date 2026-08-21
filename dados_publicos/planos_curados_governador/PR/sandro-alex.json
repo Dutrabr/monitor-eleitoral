@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "AGROPECUÁRIA, COOPERATIVISMO, BIOECONOMIA E AGRICULTURA FAMILIAR. Fortalecer a liderança do Paraná como potência agroalimentar sustentável, promovendo a inovação, a agregação de valor, a bioeconomia, a modernização tecnológica e o cooperativismo.",
+        "pagina": 125
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TRAVESSIA PARANÁ — Superação da Vulnerabilidade. Os Arranjos de Desenvolvimento Social ADSs - Paraná mobilizarão ciência, tecnologia e inovação de forma estratégica para enfrentar os principais desafios sociais do Estado.",
+        "pagina": 88
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ENSINO SUPERIOR, CIÊNCIA, TECNOLOGIA E INOVAÇÃO. Transformar conhecimento em desenvolvimento, fortalecendo as universidades estaduais, os institutos de pesquisa, a produção científica e a inovação tecnológica como motores da competitividade.",
+        "pagina": 186
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA, ESPORTE E LAZER. Valorizar a cultura, incentivar a prática esportiva e ampliar o acesso ao lazer como instrumentos de desenvolvimento humano, inclusão social, cidadania e qualidade de vida.",
+        "pagina": 100
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CASA DA MULHER PARANAENSE — Mulher Fortalecida. Autonomia Conquistada. Reunindo, em um mesmo espaço, orientação, acolhimento, qualificação profissional, apoio ao empreendedorismo, acesso ao crédito e suporte às mulheres cuidadoras.",
+        "pagina": 93
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INDÚSTRIA, COMÉRCIO, SERVIÇOS E AMBIENTE DE NEGÓCIOS. Impulsionar a competitividade da economia paranaense por meio da melhoria do ambiente de negócios, da atração de investimentos, da desburocratização, da inovação.",
+        "pagina": 110
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO BÁSICA, DESENVOLVIMENTO HUMANO E TRAJETÓRIA ESCOLAR. Promover uma educação pública de excelência ao longo da educação básica, assegurando o desenvolvimento integral dos estudantes.",
+        "pagina": 51
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "GOVERNANÇA FISCAL PARANÁ — Contas Equilibradas. Capacidade de Cuidar Preservada. Institui a política estadual permanente de responsabilidade fiscal, gestão da dívida pública, manutenção da Capag A+, planejamento tributário estadual e adaptação institucional à Reforma Tributária federal.",
+        "pagina": 221
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "INFRAESTRUTURA, ENERGIA E LOGÍSTICA. Expandir, modernizar e integrar a infraestrutura estadual, garantindo conectividade territorial, segurança energética, eficiência logística e mobilidade interurbana e intermodal.",
+        "pagina": 147
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MEIO AMBIENTE, RECURSOS HÍDRICOS, SANEAMENTO E CLIMA. Proteger o patrimônio ambiental do Paraná, conservar os recursos naturais, fortalecer a segurança hídrica, ampliar a cobertura e a qualidade do saneamento básico.",
+        "pagina": 174
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TRANSPARÊNCIA, INTEGRIDADE E CONTROLE SOCIAL. Promover a ética, a transparência, a integridade institucional, a prestação de contas e a participação cidadã por meio de conselhos, consultas públicas, orçamento participativo, escutas territoriais.",
+        "pagina": 211
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "COOPERAÇÃO FEDERATIVA E ATENDIMENTO AO CIDADÃO. Ampliar a cooperação entre União, Estado e municípios, ampliar a capacidade técnica das administrações locais e qualificar o atendimento ao cidadão em todos os canais.",
+        "pagina": 218
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE, BEM-ESTAR E LONGEVIDADE. Fortalecer uma rede de saúde integrada, acessível, resolutiva e humanizada, promovendo a prevenção, a atenção integral, a qualidade de vida e o cuidado contínuo em todas as fases da vida.",
+        "pagina": 61
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA, ACESSO À JUSTIÇA E DEFESA CIVIL. Assegurar a proteção das pessoas, do patrimônio e das instituições por meio da integração estratégica entre os órgãos de inteligência, do uso eficiente de tecnologias.",
+        "pagina": 76
+      }
+    ]
+  }
+}

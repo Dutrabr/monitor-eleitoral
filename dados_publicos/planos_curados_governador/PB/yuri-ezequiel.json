@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reforma Agrária Popular e combate ao latifúndio: Desapropriação imediata de todos os latifúndios improdutivos (...) Apoio total à agricultura familiar com foco na soberania alimentar.",
+        "pagina": 4
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reforma Urbana: Mapeamento e confisco de imóveis urbanos abandonados e vazios demográficos na Paraíba, destinando-os para moradia popular e zerando o déficit habitacional.",
+        "pagina": 4
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fomento direto à cultura paraibana, a exemplo de manifestações como maracatu, coco de roda, forró tradicional, cordel, artesanato de Picuí e arte do Cariri.",
+        "pagina": 5
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Combate ao machismo e ao feminicídio: Enfrentamento firme ao feminicídio por meio da criação de um Programa Público contra o Machismo e a Misoginia obrigatório em todas as escolas.",
+        "pagina": 5
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de frentes estaduais de trabalho para garantir emprego a todos os jovens e adultos paraibanos, focadas em infraestrutura social.",
+        "pagina": 2
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliação do orçamento público estadual em direção à meta nacional de 10% do orçamento exclusivamente para a educação pública.",
+        "pagina": 4
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Auditoria e suspensão da dívida pública estadual: Garantia de orçamento para os setores sociais.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação da Empresa Paraibana de Portos, Aeroportos, Rodovias e Ferrovias para retomar a administração pública sobre os eixos logísticos.",
+        "pagina": 3
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Proteção ambiental: Combate rigoroso ao desmatamento na Caatinga, Mata Atlântica e manguezais.",
+        "pagina": 6
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Combate à corrupção: Julgamento, prisão de corruptos e golpistas de ontem e de hoje, com o confisco integral dos bens e de suas empresas para ressarcimento dos cofres públicos.",
+        "pagina": 6
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa do SUS: Orçamento que garanta o funcionamento de 100% da saúde pública. Fim das terceirizações e rescisão imediata dos contratos com a iniciativa privada.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fim imediato do extermínio da juventude pobre e negra nas periferias e desmilitarização da Polícia Militar: Criação da Polícia Cidadã.",
+        "pagina": 5
+      }
+    ]
+  }
+}

@@ -58,6 +58,39 @@ UF_NOMES = {
 }
 
 
+ROTULOS_TEMA_GOVERNADOR = {
+    "agropecuaria_e_desenvolvimento_rural": "Agropecuária e desenvolvimento rural",
+    "assistencia_social_e_combate_a_pobreza": "Assistência social e combate à pobreza",
+    "ciencia_tecnologia_e_inovacao": "Ciência, tecnologia e inovação",
+    "cultura": "Cultura",
+    "direitos_humanos_e_igualdade": "Direitos humanos e igualdade",
+    "economia_e_emprego": "Economia e emprego",
+    "educacao": "Educação",
+    "gestao_fiscal_e_divida_publica": "Gestão fiscal e dívida pública",
+    "infraestrutura_e_mobilidade": "Infraestrutura e mobilidade",
+    "meio_ambiente_e_clima": "Meio ambiente e clima",
+    "reforma_politica_e_institucional": "Reforma política e institucional",
+    "relacoes_federativas_e_municipios": "Relações federativas e municípios",
+    "saude": "Saúde",
+    "seguranca_publica": "Segurança pública",
+    TEMA_SEM_CLASSIFICACAO: "Sem tema definido",
+}
+"""Taxonomia tematica de Governador — ver TAXONOMIA.md.
+
+Difere da de Presidente (`site_revisao.ROTULOS_TEMA`) em 1 troca: sai
+"Politica externa e relacoes internacionais" (fora da competencia
+constitucional de um estado — nao apareceu em nenhum dos planos de
+governo checados), entram "Relacoes federativas e municipios" e "Gestao
+fiscal e divida publica" (recorrentes nos planos, sem tema proprio antes).
+Decisao do dono do projeto, 2026-08-20.
+"""
+
+TEMAS_GOVERNADOR_DISPONIVEIS = [
+    (valor, rotulo) for valor, rotulo in ROTULOS_TEMA_GOVERNADOR.items()
+    if valor != TEMA_SEM_CLASSIFICACAO
+]
+
+
 def carregar_candidatos_por_uf(pasta: Path) -> list[dict[str, Any]]:
     """Le candidatos organizados em subpastas por UF (`pasta/{uf}/*.json`).
 

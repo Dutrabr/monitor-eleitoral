@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "AGRICULTURA (Eixo 3 - Desenvolvimento Econômico, Trabalho e Vocações Regionais). Assistência técnica e acesso ao [crédito rural].", "pagina": 31}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SEGURANÇA ALIMENTAR. A segurança alimentar é essencial para a proteção das famílias, a promoção da saúde e a superação das situações de vulnerabilidade.", "pagina": 12}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Transformação Digital, Governo Inteligente e Inovação (Eixo 5 - Gestão, Governança, Transformação Digital e Governo de Proximidade).", "pagina": 4}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "CULTURA E ECONOMIA CRIATIVA (Eixo 3 - Desenvolvimento Econômico, Trabalho e Vocações Regionais).", "pagina": 34}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "IGUALDADE, RESPEITO E CIDADANIA. O Governo do Distrito Federal promoverá o respeito, a igualdade de oportunidades e a proteção dos direitos de todos os cidadãos, enfrentando o racismo, a intolerância.", "pagina": 20}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3 — DESENVOLVIMENTO ECONÔMICO, TRABALHO E VOCAÇÕES REGIONAIS. Desenvolvimento Econômico, Trabalho e Renda.", "pagina": 28}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Educação (Eixo 1 - Cuidado, Dignidade e Inclusão Social).", "pagina": 2}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Planejamento, Orçamento, Gestão e Governança (Eixo 5 - Gestão, Governança, Transformação Digital e Governo de Proximidade).", "pagina": 41}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 — MORADIA, INFRAESTRUTURA, MOBILIDADE E SUSTENTABILIDADE. Habitação e Regularização Fundiária; Infraestrutura, Saneamento, Iluminação e Obras Públicas; Mobilidade Urbana.", "pagina": 2}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SUSTENTABILIDADE E MEIO AMBIENTE (Eixo 2 - Moradia, Infraestrutura, Mobilidade e Sustentabilidade).", "pagina": 25}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Gestão de Pessoas e Valorização dos Servidores; Sociedade Civil e Governo de Proximidade (Eixo 5).", "pagina": 2}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "ENTORNO. O Governo do Distrito Federal fortalecerá a integração regional por meio da governança interfederativa, do planejamento compartilhado e da articulação de investimentos estraté[gicos com os municípios do Entorno].", "pagina": 37}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Saúde (Eixo 1 - Cuidado, Dignidade e Inclusão Social).", "pagina": 2}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SEGURANÇA PÚBLICA. O Distrito Federal fortalecerá uma política de segurança pública integrada, preventiva, inteligente e orientada para a proteção da vida, das famílias e do patrimônio.", "pagina": 17}
+    ]
+  }
+}

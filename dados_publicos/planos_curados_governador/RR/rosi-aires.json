@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agricultura Familiar e Produção de Alimentos: Fortalecer crédito, assistência técnica, mecanização apropriada, irrigação eficiente, agroindústria artesanal e beneficiamento local. Ampliar compras públicas da agricultura familiar para merenda escolar, hospitais, presídios e equipamentos de assistência social.",
+        "pagina": 8
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. MORADIA POPULAR E REGULARIZAÇÃO FUNDIÁRIA.",
+        "pagina": 10
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Bioeconomia e Tecnologia: Fomentar startups, pesquisa aplicada e cadeias sustentáveis em cosméticos, fitoterápicos, alimentos regionais, alinhados às vocações regionais, fortalecendo a conexão com a UFRR, IFRR e a Universidade Estadual.",
+        "pagina": 8
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. CULTURA, JUVENTUDE, IDENTIDADE E ECONOMIA CRIATIVA.",
+        "pagina": 6
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. POVOS ORIGINÁRIOS: TERRITÓRIO, CULTURA E AUTONOMIA. 9. POLÍTICA PARA AS MULHERES: AUTONOMIA, SEGURANÇA E IGUALDADE. Combater a xenofobia, o racismo e todas as formas de discriminação mediante campanhas educativas, formação de servidores públicos.",
+        "pagina": 9
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. TRABALHO, EMPREGO, RENDA E DESENVOLVIMENTO SUSTENTÁVEL. Distrito Industrial Sustentável, alinhados às vocações regionais como bioeconomia, turismo, tecnologia, agroindústria, logística e comércio exterior, com integração com Guiana, Venezuela e Amazonas.",
+        "pagina": 7
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. EDUCAÇÃO: REVOLUÇÃO DEMOCRÁTICA, AUTONOMIA E VALORIZAÇÃO. Infraestrutura adequada (climatização, acessibilidade, laboratórios de ciências e informática, bibliotecas, internet). Implementar o programa \"Escola Aberta\".",
+        "pagina": 3
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Orçamento Participativo e Controle Social: Dividir o estado em regiões administrativas para audiências públicas e orçamento participativo. Reestruturar os conselhos estaduais (juventude, mulheres, indígenas, LGBT+, cultura, segurança alimentar).",
+        "pagina": 7
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "nao_consta"
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. MEIO AMBIENTE, CLIMA E SANEAMENTO. Fiscalização e Combate ao Garimpo Ilegal: Fortalecer a fiscalização ambiental, monitoramento por satélite, combate ao garimpo ilegal, grilagem, retirada de madeira ilegal.",
+        "pagina": 8
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. DEMOCRACIA, TRANSPARÊNCIA E COMBATE À CORRUPÇÃO. Portal de metas do governo com monitoramento público.",
+        "pagina": 7
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estabelecer cooperação permanente com municípios, Governo Federal, universidades, Defensoria Pública, Ministério Público, organizações da sociedade civil e organismos internacionais para ampliar a capacidade de resposta do Estado.",
+        "pagina": 12
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. SAÚDE PÚBLICA: CUIDADO, PREVENÇÃO E TRANSPARÊNCIA.",
+        "pagina": 4
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. SEGURANÇA PÚBLICA CIDADÃ E PREVENÇÃO À VIOLÊNCIA.",
+        "pagina": 5
+      }
+    ]
+  }
+}

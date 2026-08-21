@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecimento da agricultura familiar: implantação de um programa estadual de incentivo à agricultura familiar.", "pagina": 49}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Cidadania, Assistência e Proteção Social. A assistência social constitui uma das principais políticas públicas [de proteção à população vulnerável].", "pagina": 54}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Fortalecer a educação científica, tecnológica e de inovação na [rede estadual de ensino].", "pagina": 29}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Cultura, Patrimônio e Identidade Amapaense. A cultura é uma das maiores riquezas do Amapá e um dos principais elementos de construção da identidade [do povo amapaense].", "pagina": 60}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Eixo - Política para as Mulheres, Juventude, Família e Pessoa Idosa. O desenvolvimento social de um Estado depende da capacidade de proteger as pessoas em todas as fases da vida, promovendo igua[ldade].", "pagina": 57}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Economia, Emprego e Renda. Diversificar a economia amapaense e gerar oportunidades reais para o povo.", "pagina": 44}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Educação. A geração que vai transformar o Amapá começa na sala de aula.", "pagina": 24}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "05 Sustentabilidade, Responsabilidade Fiscal e Desenvolvimento Econômico. Assegura o equilíbrio das contas públicas, a gestão eficiente dos recursos.", "pagina": 11}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Infraestrutura Estratégica. Desenvolvimento Territorial, Logística, Mobilidade e Integração Regional. Ligar o Amapá para crescer — estradas, pontes e conectividade territorial.", "pagina": 32}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Meio Ambiente e Bioeconomia. A floresta é nosso maior ativo — vamos protegê-la e rentabilizá-la.", "pagina": 47}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Planejamento Estratégico, Governança e Gestão por resultados. A modernização da máquina pública será acompanhada de uma Reforma Administrativa voltada à racionalização da estrutura organizacional.", "pagina": 72}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Requalificar vias urbanas nos 16 municípios com pavimentação, drenagem, sinalização e passeios acessíveis, por meio da Secretaria de Desenvolvimento das Cidades.", "pagina": 41}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Saúde. Cuidar de quem cuida do Amapá — saúde como direito universal.", "pagina": 18}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO — Segurança Pública. Um Amapá onde as famílias possam viver com tranquilidade e dignidade.", "pagina": 12}
+    ]
+  }
+}

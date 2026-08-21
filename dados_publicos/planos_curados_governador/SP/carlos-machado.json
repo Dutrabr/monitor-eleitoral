@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Estado de São Paulo necessita superar tanto o modelo predatório de exploração do território quanto a falsa ideia de que preservar o meio ambiente significa impedir o desenvolvimento econômico. Nosso governo defenderá um novo modelo de desenvolvimento (...) baseado no planejamento democrático do território, na reindustrialização sustentável, na produção de alimentos (Capítulo 11: Desenvolvimento Territorial, Justiça Socioambiental, Reforma Agrária e Soberania Alimentar).",
+        "pagina": 172
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A assistência social constitui um direito de todas as pessoas que dela necessitem e um dever do Estado (...) organizada nacionalmente por meio do Sistema Único de Assistência Social (SUAS). Sua finalidade é garantir as condições materiais de existência e sobrevivência às famílias e aos indivíduos.",
+        "pagina": 163
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Estado de São Paulo concentra o maior sistema público de ensino superior, pesquisa científica e desenvolvimento tecnológico da América Latina. A USP, a Unesp, a Unicamp, o Centro Paula Souza, a FAPESP e os diversos institutos públicos de pesquisa constituem (a base do capítulo Ensino Superior, Ciência, Tecnologia e Inovação).",
+        "pagina": 112
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O território não é apenas um espaço geográfico. É nele que as pessoas vivem, trabalham, estudam, produzem cultura, constroem relações comunitárias e exercem sua cidadania (Capítulo 9: Território, Direito à Cidade, Mobilidade e Cultura).",
+        "pagina": 147
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A ausência de planejamento também se manifesta nas políticas voltadas à proteção das mulheres. Em um contexto de crescimento da violência doméstica e dos casos de feminicídio, o Governo do Estado promoveu um corte de aproximadamente...",
+        "pagina": 126
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Brasil passou as últimas três décadas atravessando um profundo processo de desindustrialização e de privatização de empresas estratégicas. Esse movimento reduziu a capacidade produtiva nacional (...) (Capítulo 3: Plano de Reindustrialização de São Paulo).",
+        "pagina": 39
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação constitui um direito social fundamental e um dos principais instrumentos para o desenvolvimento econômico, científico, tecnológico, cultural e humano de um povo.",
+        "pagina": 90
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O orçamento do Estado de São Paulo expressa, de forma concreta, as escolhas políticas sobre quem financia o Estado, quem se beneficia das políticas públicas e quais interesses econômicos são preservados (...) 2.3 Endividamento e Privatizações: Fortalecendo as Receitas Permanentes do Estado.",
+        "pagina": 24
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A forma como as cidades são planejadas determina quem tem acesso à moradia digna, ao transporte público, aos equipamentos culturais, à educação, à saúde, ao trabalho e às oportunidades de desenvolvimento.",
+        "pagina": 147
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento econômico e a proteção ambiental não constituem objetivos contraditórios. Ao contrário, uma sociedade que destrói seus recursos naturais compromete sua capacidade de produzir riqueza, gerar empregos, garantir segurança alimentar e oferecer qualidade de vida à população.",
+        "pagina": 172
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento econômico apresentado neste programa exige uma transformação profunda da forma como o poder é exercido em São Paulo (...) (Capítulo 1: O Poder Popular, conselhos populares e participação direta na gestão do Estado).",
+        "pagina": 14
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os municípios também desempenharão papel estratégico nesse sistema, atuando como parceiros na coordenação do desenvolvimento regional e na implantação da política de reindustrialização.",
+        "pagina": 46
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde constitui um direito fundamental da população e uma das principais responsabilidades do Estado. Garantir atendimento universal, integral, gratuito e de qualidade significa assegurar as condições materiais para que a população viva com dignidade.",
+        "pagina": 71
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública constitui um dos deveres fundamentais do Estado e um direito de toda a população. Sua finalidade deve ser a proteção da vida, da liberdade, da integridade física e dos direitos fundamentais.",
+        "pagina": 125
+      }
+    ]
+  }
+}

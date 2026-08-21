@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 23 - AGRICULTURA. Secretaria responsável: Secretaria de Agricultura e Desenvolvimento Rural. Objetivo: Fortalecer a agricultura do Distrito Federa[l].", "pagina": 88}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 14 - DESENVOLVIMENTO SOCIAL. Secretaria responsável: Secretaria de Desenvolvimento Social e Primeira Infância. Objetivo: Combater a fom[e e a pobreza].", "pagina": 54}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 27 - CIÊNCIA, TECNOLOGIA E INOVAÇÃO. Secretaria responsável: Secretaria de Ciência, Tecnologia, Inovação e Econom[ia Digital].", "pagina": 100}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 30 - CULTURA. Secretaria responsável: Secretaria de Cultura e Economia Criativa. Objetivo: Democratizar o acesso à cultura, valorizar os artistas.", "pagina": 109}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 11 - MULHER. Secretaria responsável: Secretaria da Mulher, Família, Pessoa Idosa e Pessoa com Deficiência. Objetivo: Garantir proteção, autonomia, igua[ldade]. (Também eixos dedicados 12 - Pessoa Idosa, 13 - Pessoa com Deficiência.)", "pagina": 48}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 24 - DESENVOLVIMENTO ECONÔMICO. Secretaria responsável: Secretaria de Desenvolvimento Econômico, Indústria, Comércio.", "pagina": 91}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 8 - EDUCAÇÃO. Objetivo: Garantir educação pública de qualidade, inclusiva, segura e conectada às nece[ssidades do Distrito Federal].", "pagina": 40}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2 - RESPONSABILIDADE FISCAL. Secretaria Responsável: Secretaria da Fazenda, Planejamento e [Orçamento]. Revisar contratos de maior impacto financeiro. Publicar o Plano de Eficiência do Gasto Público.", "pagina": 28}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Eixo 15 - Habitação; Eixo 17 - Mobilidade Urbana; Eixo 18 - Transporte Público; Eixo 19 - Infraestrutura Urbana; Eixo 20 - Água e Saneamento.", "pagina": 5}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 21 - MEIO AMBIENTE. Secretaria responsável: Secretaria do Meio Ambiente, Recursos Hídricos e Cerrado. Objetivo: Promover desenvolvimento sustent[ável]. (Também Eixo 22 - Cerrado.)", "pagina": 73}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Eixo 34 - Modernização da Administração Pública; Eixo 35 - Participação Popular.", "pagina": 5}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 33 - RELAÇÕES COM A RIDE E O ENTORNO. Secretaria responsável: Secretaria de Planejamento Estratégico, Brasília 2[060].", "pagina": 118}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6 - SAÚDE. Objetivo: Garantir atendimento público de saúde mais rápido, humanizado e próximo da residência.", "pagina": 36}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4 - SEGURANÇA PÚBLICA. Secretaria Responsável: Secretaria de Segurança Pública e Defesa Civil. Objetivo: Fortalecer a segurança pública po[r meio de inteligência e presença territorial].", "pagina": 32}
+    ]
+  }
+}

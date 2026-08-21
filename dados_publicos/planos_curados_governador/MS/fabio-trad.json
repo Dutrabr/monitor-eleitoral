@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A agricultura familiar, os assentamentos rurais e as pequenas comunidades produtivas ainda enfrentam dificuldades estruturais históricas relacionadas ao acesso à terra, crédito, assistência técnica.",
+        "pagina": 53
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Na assistência social, um dos principais problemas é a insuficiência da rede de proteção social diante do aumento da pobreza, da insegurança alimentar.",
+        "pagina": 47
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar o Programa Juventude, Ciência e Inovação, com foco em robótica, programação, inteligência artificial, feiras científicas e iniciação científica.",
+        "pagina": 35
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A cultura sul-mato-grossense é marcada pela presença indígena, pantaneira, fronteiriça, paraguaia, boliviana, sertaneja, preta e urbana, formando uma das identidades culturais mais ricas do país.",
+        "pagina": 42
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estado Cuidador e Inovador na Assistência Social e nos Direitos Humanos (...) enfrenta profundas desigualdades sociais, territoriais e étnicas.",
+        "pagina": 47
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Implantar uma política estadual de desenvolvimento regional com incentivos diferenciados para regiões menos desenvolvidas, fortalecimento das cidades-polo, desconcentração econômica.",
+        "pagina": 11
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O principal desafio é a persistência das desigualdades educacionais entre regiões, municípios e grupos sociais.",
+        "pagina": 32
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3 - Nova Política Estadual de Incentivos Fiscais.",
+        "pagina": 17
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul possui posição estratégica no centro da América do Sul (...) o estado ainda enfrenta gargalos estruturais importantes na área de infraestrutura.",
+        "pagina": 37
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Mato Grosso do Sul possui um dos patrimônios ambientais mais importantes do planeta, reunindo biomas estratégicos como o Pantanal, o Cerrado e a Mata Atlântica.",
+        "pagina": 58
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criar um Portal Estadual de Transparência Avançada, com informações em linguagem simples; dados abertos; acompanhamento em tempo real de obras e contratos.",
+        "pagina": 9
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fazer o Estado e os municípios trabalharem juntos para reduzir filas, acelerar obras e levar serviços para perto das pessoas, por meio de maior cooperação; consórcios regionais.",
+        "pagina": 10
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde pública de Mato Grosso do Sul enfrenta problemas estruturais históricos (...) A população ainda convive com dificuldades concretas de acesso aos serviços de saúde, sobretudo no interior.",
+        "pagina": 20
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A extensa faixa de fronteira com Paraguai e Bolívia transformou MS em rota relevante para tráfico internacional de drogas, armas, contrabando (...) e organizações criminosas transnacionais.",
+        "pagina": 24
+      }
+    ]
+  }
+}

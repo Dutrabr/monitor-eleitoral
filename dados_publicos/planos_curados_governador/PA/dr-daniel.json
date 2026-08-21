@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Agropecuária, Agricultura Familiar, Pesca e Aquicultura: produzir mais, produzir melhor e gerar renda. O desenvolvimento do Pará passa necessariamente pelo fortalecimento do campo.",
+        "pagina": 29
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A proteção social continuará sendo fortalecida. Em articulação permanente com os municípios, ampliaremos a capacidade da rede estadual de assistência social, fortalecendo os Centros de Referência, os serviços de proteção às famílias, o acolhimento das pessoas em situação de vulnerabilidade e as políticas voltadas à superação da pobreza.",
+        "pagina": 47
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ciência, tecnologia e inovação amazônica. A maior riqueza da Amazônia ainda está por ser descoberta. Por isso, investiremos fortemente na integração entre universidades, centros de pesquisa e setor produtivo.",
+        "pagina": 52
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Investir em cultura também significa investir em desenvolvimento econômico. Fortaleceremos a economia criativa, apoiando artistas, produtores culturais, festivais, museus, bibliotecas. O Círio de Nazaré, reconhecido como Patrimônio Cultural da Humanidade, representa muito mais do que uma manifestação religiosa.",
+        "pagina": 48
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As mulheres ocuparão posição central nas políticas públicas. Fortaleceremos programas de autonomia econômica, qualificação profissional, empreendedorismo feminino, proteção contra a violência.",
+        "pagina": 48
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO II. DESENVOLVIMENTO ECONÔMICO, INDUSTRIALIZAÇÃO, SEGURANÇA JURÍDICA E GERAÇÃO DE EMPREGOS. Que nossas potencialidades se convertam em empregos, renda, oportunidades e qualidade de vida para quem vive no Pará.",
+        "pagina": 27
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO III. EDUCAÇÃO: O CAMINHO PARA A LIBERDADE, O DESENVOLVIMENTO E A TRANSFORMAÇÃO DO PARÁ. Nenhuma sociedade alcançou desenvolvimento sustentável sem fazer da educação sua principal prioridade.",
+        "pagina": 33
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O quarto princípio será a responsabilidade fiscal. Administrar bem significa respeitar o dinheiro público. O equilíbrio das contas estaduais será tratado como condição indispensável para ampliar investimentos, fortalecer os serviços públicos e garantir estabilidade financeira ao Estado.",
+        "pagina": 17
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO VI. INFRAESTRUTURA, LOGÍSTICA E INTEGRAÇÃO REGIONAL: CONECTAR O PARÁ PARA DESENVOLVER O PARÁ. Estradas, hidrovias, ferrovias, portos, aeroportos, energia, conectividade digital e saneamento básico representam oportunidades de desenvolvimento.",
+        "pagina": 44
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO VIII. A AMAZÔNIA COMO VANTAGEM ESTRATÉGICA PARA O DESENVOLVIMENTO DO PARÁ. Desenvolver, preservar e prosperar. Nosso Estado abriga uma das maiores extensões contínuas da Floresta Amazônica.",
+        "pagina": 51
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO I. UM ESTADO MODERNO, EFICIENTE E PRESENTE. A tecnologia será utilizada para integrar bases de dados, apoiar decisões estratégicas, reduzir desperdícios e ampliar a transparência da administração pública.",
+        "pagina": 25
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O sétimo princípio será a parceria permanente com os municípios. O Pará possui 144 municípios, extremamente diferentes entre si em população, extensão territorial, capacidade administrativa e desafios.",
+        "pagina": 17
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO IV. SAÚDE: CUIDAR DAS PESSOAS, REDUZIR DISTÂNCIAS E GARANTIR DIGNIDADE. A saúde será tratada como o maior compromisso social do nosso governo.",
+        "pagina": 37
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO V. SEGURANÇA PÚBLICA, JUSTIÇA E DEFESA DA VIDA. Nenhum Estado alcança desenvolvimento sustentável quando sua população vive com medo.",
+        "pagina": 41
+      }
+    ]
+  }
+}

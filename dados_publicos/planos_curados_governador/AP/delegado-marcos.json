@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "6. AGRICULTURA, PESCA E AGROINDÚSTRIA — Produzir no Amapá e gerar renda no Amapá. 6.1 Agricultura familiar: assistência técnica, sementes, mecanização e irrigação.", "pagina": 16}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "14. ASSISTÊNCIA SOCIAL E PROTEÇÃO DAS FAMÍLIAS — Cuidar de quem mais precisa. A assistência será integrada à saúde, educação, segurança, habitação e trabalho.", "pagina": 24}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "12. TECNOLOGIA E INOVAÇÃO — Programa Amapá Digital. 12.2 Parque de inovação: integração entre universidades, institutos, startups, empresas.", "pagina": 22}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "15. CULTURA E ECONOMIA CRIATIVA — Valorizar a identidade do Amapá. Valorização do Marabaixo, Batuque, culturas indígena e quilombola. Editais para música, teatro, dança, literatura, artes visuais.", "pagina": 25}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "4. DELEGACIA SOCIAL — Programa Estadual de Prevenção da Violência Familiar e Proteção das Pessoas em Situação de Vulnerabilidade.", "pagina": 9}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "13. EMPREGO, EMPREENDEDORISMO E RENDA — Oportunidade para trabalhar e produzir. O governo estimulará a criação de trabalho e renda por meio de formação, crédito e apoio aos pequenos negócios.", "pagina": 23}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "2. EDUCAÇÃO — Conhecimento, profissão e oportunidades. A escola deverá preparar o estudante para a cidadania, para continuar seus estudos, ingressar no mercado de trabalho e empreender.", "pagina": 6}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "19.1 Gestão por metas e revisão de gastos. Revisão de contratos, aluguéis, compras e estruturas. Direcionamento das economias para serviços essenciais.", "pagina": 29}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "11. INFRAESTRUTURA, TRANSPORTES E LOGÍSTICA — Integrar o território e reduzir custos. A infraestrutura será planejada para conectar pessoas, produção, turismo e mercados.", "pagina": 21}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "18. MEIO AMBIENTE E PROTEÇÃO DOS RECURSOS NATURAIS — Preservar com ciência, fiscalização e participação. Combate ao desmatamento, mineração ilegal e crimes contra rios e fauna.", "pagina": 28}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "19. GESTÃO PÚBLICA — Governo eficiente, transparente e próximo. Cada secretaria terá metas, indicadores, prazos, responsáveis e relatórios públicos.", "pagina": 29}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "9.5 Fórum Permanente de Turismo do Amapá. O Fórum reunirá governo, municípios, iniciativa privada, trabalhadores, universidades, comunidades e entidades do setor para discutir decisões.", "pagina": 19}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "1. SAÚDE — Amapá com Saúde: uma rede integrada, humana e moderna. A saúde será estruturada como uma rede única que conectará prevenção, atendimento básico, diagnóstico, tratamento.", "pagina": 4}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "3. SEGURANÇA PÚBLICA — Prevenção, inteligência e firmeza contra o crime. A política de segurança será organizada sobre prevenção, investigação qualificada e presença efetiva do Estado.", "pagina": 8}
+    ]
+  }
+}

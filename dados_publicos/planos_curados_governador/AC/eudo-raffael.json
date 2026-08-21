@@ -1,0 +1,71 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {"status": "nao_consta"},
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "ASSISTÊNCIA E DIREITOS SOCIAIS. A assistência social deve ser um direito de cidadania pleno e estatal, rompendo com o assistencialismo eleitoreiro e as parcerias com as entidades privadas.", "pagina": 5}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {"status": "nao_consta"},
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "Memória das lutas populares e das raízes amazônicas, combatendo a aculturação promovida pelo imperialismo.", "pagina": 2}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "DIREITOS LGBTQIAPN+. A diversidade de orientação sexual e identidade de gênero deve ser plenamente respeitada, combatendo a LGBTfobia.", "pagina": 4}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "GERAÇÃO DE EMPREGO E DISTRIBUIÇÃO DE RENDA. O Estado deve liderar uma industrialização sustentável, com geração de empregos dignos, economia solidária.", "pagina": 2}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EDUCAÇÃO POPULAR, CRÍTICA E EMANCIPADORA. A educação deve ser um instrumento de libertação da classe trabalhadora, orientada por uma perspectiva crítica, científica e popular.", "pagina": 1}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "ARRECADAÇÃO E DÍVIDA. A política fiscal deve ser um instrumento de redistribuição da riqueza social (...) é urgente a realização de uma auditoria integral da dívida pública.", "pagina": 6}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "TRANSPORTE PÚBLICO E MOBILIDADE URBANA / INFRAESTRUTURA E REFORMA URBANA.", "pagina": 3}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "A gestão hídrica deve ser planejada para resistir aos impactos climáticos e proteger os mananciais amazônicos contra a poluição industrial, urbana e rural.", "pagina": 3}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "DEMOCRACIA PARTICIPATIVA. Defendemos a construção de um modelo de gestão baseado na participação direta do povo nas decisões políticas, por meio de conselhos populares, assembleias territoriais e orçamento participativo.", "pagina": 1}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {"status": "nao_consta"},
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SAÚDE PÚBLICA E 100% ESTATAL. A saúde deve ser retirada totalmente da esfera das mercadorias, acabando com qualquer forma de terceirização, privatização ou gestão por Organizações Sociais.", "pagina": 2}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "SEGURANÇA PÚBLICA A SERVIÇO DO POVO. A segurança deve ser baseada na proteção da vida e dos direitos humanos (...) Defendemos a desmilitarização da polícia militar, formação cidadã das forças de segurança e controle social.", "pagina": 2}
+    ]
+  }
+}

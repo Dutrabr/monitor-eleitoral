@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "fortalecimento dos corredores logísticos do agronegócio; apoio aos municípios estratégicos para o desenvolvimento regional.",
+        "pagina": 17
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. COMBATE À POBREZA E INCLUSÃO SOCIAL. Combater a pobreza vai muito além da transferência de renda. Significa criar condições para que cada pessoa tenha acesso à educação, qualificação profissional, emprego, alimentação adequada e oportunidades.",
+        "pagina": 24
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Tecnologia, inovação e economia do conhecimento. O futuro do desenvolvimento econômico passa pela inovação. Incentivo às startups e empresas de base tecnológica; fortalecimento dos parques tecnológicos e centros de inovação.",
+        "pagina": 13
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A escola deve ser um espaço de aprendizagem, cultura, esporte, inovação e desenvolvimento humano.",
+        "pagina": 9
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoio especial às mulheres chefes de família, jovens e pessoas com deficiência que desejam empreender. A inclusão produtiva será prioridade.",
+        "pagina": 24
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. DESENVOLVIMENTO ECONÔMICO E GERAÇÃO DE EMPREGOS. Um Piauí que produz, empreende e cresce. O desenvolvimento econômico é a principal ferramenta para reduzir desigualdades, gerar empregos e promover qualidade de vida.",
+        "pagina": 9
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. EDUCAÇÃO PARA TRANSFORMAR VIDAS. Acreditamos que uma educação pública forte transforma realidades e rompe ciclos de pobreza.",
+        "pagina": 9
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Entre as prioridades estão: revisão gradual das alíquotas de ICMS; simplificação da legislação tributária; redução da burocracia fiscal; maior previsibilidade para empresas e investidores.",
+        "pagina": 9
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. INFRAESTRUTURA PARA DESENVOLVER O ESTADO. Melhoria dos acessos aos polos produtivos; fortalecimento dos corredores logísticos do agronegócio; integração entre modais de transporte.",
+        "pagina": 13
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Indicadores públicos de desempenho. O governo deve ser avaliado pelos resultados que entrega. Nosso governo implantará um sistema estadual de indicadores de desempenho para acompanhar a qualidade dos serviços públicos.",
+        "pagina": 17
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Integração Piauí–Maranhão. O Rio Parnaíba une dois estados que compartilham relações econômicas, sociais e culturais intensas. Nosso governo atuará em cooperação com o Governo do Maranhão e com o Governo Federal para fortalecer a integração regional.",
+        "pagina": 17
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Saúde em colapso. A saúde pública vive uma crise marcada por longas filas de regulação, superlotação dos hospitais, demora na realização de exames e cirurgias, escassez de especialistas no interior.",
+        "pagina": 4
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "nao_consta"
+  }
+}

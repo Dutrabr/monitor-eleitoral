@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ampliar a segurança hídrica da produção agropecuária, com atenção à agricultura familiar e de médio porte e aos projetos estruturantes de infraestrutura hídrica.",
+        "pagina": 4
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Adotar a família como unidade central das políticas sociais, com ênfase no apoio à parentalidade e na prevenção da violência doméstica contra crianças e adolescentes.",
+        "pagina": 3
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Avançar na digitalização dos serviços públicos e no uso de inteligência artificial na gestão, com ganhos de eficiência em compras, arrecadação e atendimento.",
+        "pagina": 5
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais reúne patrimônio cultural de reconhecimento mundial, com conjuntos urbanos e bens imateriais inscritos pela Unesco, e uma identidade que constitui, em si mesma, ativo econômico.",
+        "pagina": 5
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Aprofundar as políticas de prevenção e de proteção às mulheres em situação de violência, com resposta integrada entre segurança, saúde e assistência social.",
+        "pagina": 3
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A economia mineira é uma das mais robustas e diversificadas do país, sustentada historicamente pela mineração e pelo agronegócio (...) geração expressiva de empregos formais, desburocratização do ambiente de negócios.",
+        "pagina": 3
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O estado mantém a maior rede estadual de ensino básico do Brasil (...) Subsistem desafios relevantes, sobretudo no ensino médio: a defasagem de aprendizagem, a evasão, as disparidades entre territórios.",
+        "pagina": 2
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais recebeu de gestões anteriores uma das maiores dívidas estaduais do país (...) o equacionamento definitivo do endividamento permaneça como agenda central.",
+        "pagina": 5
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Manter e aprimorar a qualidade da malha rodoviária estadual, avançando em modelos de contratação orientados a resultado.",
+        "pagina": 4
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais abriga dois dos biomas mais relevantes do país, o Cerrado e a Mata Atlântica (...) desmatamento ilegal, exposição a eventos climáticos extremos, destinação inadequada de resíduos sólidos.",
+        "pagina": 4
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Conduzir a transição tributária com foco em simplicidade, justiça fiscal, competitividade e transparência quanto aos benefícios concedidos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoiar os municípios na adaptação climática e na redução da vulnerabilidade a eventos extremos.",
+        "pagina": 4
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Minas Gerais opera uma das maiores e mais complexas redes públicas de saúde do país, organizada territorialmente.",
+        "pagina": 1
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O país atravessa uma transformação estrutural no perfil da criminalidade. As organizações criminosas evoluíram para estruturas de alcance transnacional.",
+        "pagina": 2
+      }
+    ]
+  }
+}

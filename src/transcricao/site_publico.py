@@ -23,9 +23,11 @@ from typing import Any
 
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse, HTMLResponse, Response
+from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from .candidatos import (
+    ROTULOS_TEMA_GOVERNADOR,
     TEMA_SEM_CLASSIFICACAO,
     UF_NOMES,
     agrupar_por_tema,
@@ -39,6 +41,7 @@ from .candidatos import (
 from .site_revisao import ROTULOS_TEMA, TEMAS_DISPONIVEIS
 
 TEMPLATES_DIR = Path(__file__).parent / "templates_publico"
+STATIC_DIR = Path(__file__).parent / "static"
 
 CAMPOS_EXPORT = [
     "candidato_slug", "candidato_nome", "partido", "temas",
@@ -57,6 +60,8 @@ def criar_app(
     pasta_candidatos_governador: Path | None = None,
     pasta_planos_governador: Path | None = None,
     pasta_planos_curados_governador: Path | None = None,
+    pasta_fotos: Path | None = None,
+    pasta_fotos_governador: Path | None = None,
 ) -> FastAPI:
     pasta_candidatos = Path(pasta_candidatos)
     pasta_dados = Path(pasta_dados)
@@ -77,8 +82,16 @@ def criar_app(
         Path(pasta_planos_curados_governador) if pasta_planos_curados_governador
         else pasta_candidatos.parent / "planos_curados_governador"
     )
+    pasta_fotos = (
+        Path(pasta_fotos) if pasta_fotos else pasta_candidatos.parent / "fotos_candidatos"
+    )
+    pasta_fotos_governador = (
+        Path(pasta_fotos_governador) if pasta_fotos_governador
+        else pasta_candidatos.parent / "fotos_candidatos_governador"
+    )
     templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
     app = FastAPI(title="Monitor Eleitoral")
+    app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
     def _candidatos() -> list[dict[str, Any]]:
         if not pasta_candidatos.exists():
@@ -109,19 +122,35 @@ def criar_app(
             for p in sorted(pasta_dados.rglob("*.publicado.json"))
         ]
 
+    def _contagem_candidatos_por_tema(candidatos: list[dict[str, Any]]) -> dict[str, int]:
+        """Quantos candidatos tem "consta" nesse tema no plano curado.
+
+        Conta candidatura, nao citacao — e' "quantos planos falam disso",
+        pensado pro filtro da home ajudar a escolher tema, nao um placar.
+        """
+        contagem: dict[str, int] = {}
+        for c in candidatos:
+            plano_curado = carregar_plano_curado(pasta_planos_curados, c["slug"])
+            for tema, entrada in plano_curado.items():
+                if entrada.get("status") == "consta":
+                    contagem[tema] = contagem.get(tema, 0) + 1
+        return contagem
+
     @app.get("/", response_class=HTMLResponse)
     def index(request: Request, tema: str | None = None):
         temas_navegaveis = [
             (valor, rotulo) for valor, rotulo in TEMAS_DISPONIVEIS
             if valor != TEMA_SEM_CLASSIFICACAO
         ]
+        candidatos = _candidatos_por_numero()
         return templates.TemplateResponse(
             request,
             "index.html",
             {
-                "candidatos": _candidatos_por_numero(),
+                "candidatos": candidatos,
                 "temas": temas_navegaveis,
                 "tema_selecionado": tema,
+                "contagem_por_tema": _contagem_candidatos_por_tema(candidatos),
             },
         )
 
@@ -231,10 +260,12 @@ def criar_app(
                 cit.get("url_origem"), cit["inicio"]
             )
         grupos = agrupar_por_tema(citacoes)
-        plano_curado = carregar_plano_curado(pasta_planos_curados_governador, slug)
+        plano_curado = carregar_plano_curado(pasta_planos_curados_governador / uf, slug)
 
         temas_presentes = set(grupos.keys()) | set(plano_curado.keys())
-        temas_ordenados = sorted(temas_presentes, key=lambda t: ROTULOS_TEMA.get(t, t))
+        temas_ordenados = sorted(
+            temas_presentes, key=lambda t: ROTULOS_TEMA_GOVERNADOR.get(t, t)
+        )
         tema_foco = tema if tema in temas_ordenados else None
 
         timeline = sorted(
@@ -242,7 +273,9 @@ def criar_app(
             key=lambda cit: cit["publicado_em"],
         )
 
-        rotulo_tema_foco = ROTULOS_TEMA.get(tema_foco, tema_foco) if tema_foco else None
+        rotulo_tema_foco = (
+            ROTULOS_TEMA_GOVERNADOR.get(tema_foco, tema_foco) if tema_foco else None
+        )
         if rotulo_tema_foco:
             og_titulo = f"{c['nome']} sobre {rotulo_tema_foco} — Monitor Eleitoral"
             og_descricao = (
@@ -267,7 +300,7 @@ def criar_app(
                 "temas_ordenados": temas_ordenados,
                 "tema_foco": tema_foco,
                 "tema_sem_classificacao": TEMA_SEM_CLASSIFICACAO,
-                "rotulos_tema": ROTULOS_TEMA,
+                "rotulos_tema": ROTULOS_TEMA_GOVERNADOR,
                 "total_citacoes": len(citacoes),
                 "timeline": timeline,
                 "og_titulo": og_titulo,
@@ -284,6 +317,18 @@ def criar_app(
         if not caminho.exists():
             raise HTTPException(404, f"plano de governo de '{slug}' ({uf}) nao encontrado")
         return FileResponse(caminho, media_type="application/pdf")
+
+    @app.get("/governador/{uf}/{slug}/foto")
+    def governador_foto_candidato(uf: str, slug: str):
+        """Mesma logica de `/foto/{slug}` (Presidente), mas por UF — o
+        slug sozinho pode colidir entre estados (ex: "vera-lucia" existe
+        em CE e SP), entao a foto tambem vive em `fotos_candidatos_governador/{uf}/`.
+        """
+        uf = uf.upper()
+        caminho = pasta_fotos_governador / uf / f"{slug}.jpg"
+        if not caminho.exists():
+            raise HTTPException(404, f"foto de '{slug}' ({uf}) nao encontrada")
+        return FileResponse(caminho, media_type="image/jpeg")
 
     @app.get("/comparar", response_class=HTMLResponse)
     def comparar(
@@ -395,6 +440,18 @@ def criar_app(
             raise HTTPException(404, f"plano de governo de '{slug}' nao encontrado")
         return FileResponse(caminho, media_type="application/pdf")
 
+    @app.get("/foto/{slug}")
+    def foto_candidato(slug: str):
+        """Serve a foto oficial do candidato (fonte: TSE), com a mesma
+        cadeia de custodia dos PDFs — ver MANIFESTO.json ao lado das fotos.
+        404 quando nao ha foto coletada; o template cai pro avatar de
+        iniciais, nunca inventa imagem.
+        """
+        caminho = pasta_fotos / f"{slug}.jpg"
+        if not caminho.exists():
+            raise HTTPException(404, f"foto de '{slug}' nao encontrada")
+        return FileResponse(caminho, media_type="image/jpeg")
+
     @app.get("/metodologia", response_class=HTMLResponse)
     def metodologia(request: Request):
         return templates.TemplateResponse(request, "metodologia.html", {})
@@ -429,6 +486,10 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument(
         "--planos-curados-governador", type=Path, default=Path("dados/planos_curados_governador")
     )
+    ap.add_argument("--fotos", type=Path, default=Path("dados/fotos_candidatos"))
+    ap.add_argument(
+        "--fotos-governador", type=Path, default=Path("dados/fotos_candidatos_governador")
+    )
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--porta", type=int, default=8001)
     args = ap.parse_args(argv)
@@ -441,6 +502,8 @@ def main(argv: list[str] | None = None) -> int:
         args.candidatos_governador,
         args.planos_governador,
         args.planos_curados_governador,
+        args.fotos,
+        args.fotos_governador,
     )
     uvicorn.run(app, host=args.host, port=args.porta)
     return 0

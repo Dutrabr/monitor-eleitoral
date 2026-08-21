@@ -18,7 +18,10 @@
 <div class="grade-candidatos">
 {% for c in candidatos %}
   <a class="card-candidato" href="/governador/{{ uf }}/{{ c.slug }}">
-    <div class="avatar-candidato">{{ c.nome[0] }}</div>
+    <div class="avatar-candidato">
+      <img src="/governador/{{ uf }}/{{ c.slug }}/foto" alt="" loading="lazy" onerror="this.remove()">
+      {{ c.nome[0] }}
+    </div>
     {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
     <h3>{{ c.nome }}</h3>
     <div class="partido">{{ c.partido }}{% if c.vice %} — vice {{ c.vice }}{% endif %}</div>

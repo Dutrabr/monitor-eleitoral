@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 9 — Transformar no Paraná o que o Paraná produz. O Paraná aprendeu a produzir em grande escala. Nossa terra alimenta o Brasil, abastece indústrias, movimenta cooperativas e leva ao mundo grãos, carnes, leite, madeira.",
+        "pagina": 47
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 16 — Famílias livres, bairros dignos. A pobreza não se revela apenas pela falta de renda. Ela também aparece na moradia insegura, na rua que alaga, na ausência de escritura, na creche distante e no tempo perdido entre a casa e o trabalho.",
+        "pagina": 90
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 10 — Conhecimento que transforma o Paraná. O Paraná construiu uma das maiores redes públicas de ensino superior do Brasil. Em diferentes regiões, nossas universidades formam profissionais, produzem ciência, mantêm hospitais, laboratórios e projetos de extensão.",
+        "pagina": 51
+      }
+    ]
+  },
+  "cultura": {
+    "status": "nao_consta"
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O problema não está em apoiar idosos, proteger mulheres, divulgar a ciência ou oferecer formação prática aos estudantes (...) atendimento jurídico e psicológico de mulheres vítimas de violência.",
+        "pagina": 23
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 7 — Nenhuma economia cresce por acaso. Toda empresa começa pequena. Antes da fábrica, da equipe e do faturamento, existe alguém disposto a transformar uma ideia, um conhecimento ou uma oportunidade em trabalho.",
+        "pagina": 37
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 13 — Escola que ensina, escreve e protege. A liberdade de uma pessoa começa quando ela aprende a compreender aquilo que lê, organizar aquilo que pensa e utilizar a Matemática para resolver os problemas que encontra.",
+        "pagina": 67
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 4 — Cada real terá uma missão. A responsabilidade fiscal foi indispensável para disciplinar o endividamento, a despesa corrente e o cumprimento dos limites legais, mas o próximo passo é medir se cada real gasto produziu resultado.",
+        "pagina": 23
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 12 — Infraestrutura para o Paraná produzir. O Paraná não precisa de outra lista de obras acompanhada por valores bilionários, maquetes e fotografias de lançamento. Precisa saber quais investimentos são realmente prioritários.",
+        "pagina": 62
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 6 — O governo abrirá a caixa-preta. Cada escola construída, hospital ampliado, rodovia recuperada e contrato assinado é financiado pelos impostos pagos pelos paranaenses. Esses recursos não pertencem ao governador, aos secretários ou aos órgãos públicos, mas à sociedade que os produziu.",
+        "pagina": 33
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 5 — Municípios fortes. Estruturas enxutas. A prefeitura é, para grande parte da população, a presença mais próxima do poder público. Em muitos municípios pequenos, parcela relevante dos recursos e da energia administrativa é consumida pela manutenção da própria estrutura.",
+        "pagina": 28
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 14 — Saúde sem fila escondida e perto de casa. Quem procura o Sistema Único de Saúde não deveria enfrentar, além da dor e da incerteza, um labirinto de encaminhamentos, sistemas que não se comunicam e unidades que conhecem apenas uma parte de sua história.",
+        "pagina": 74
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Compromisso 15 — O Estado vence o crime. A liberdade desaparece quando o cidadão precisa reorganizar a própria vida em torno do medo. Segurança pública não é apenas uma política setorial. É a condição para que todas as outras políticas funcionem.",
+        "pagina": 81
+      }
+    ]
+  }
+}

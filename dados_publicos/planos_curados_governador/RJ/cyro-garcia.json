@@ -1,0 +1,110 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Emprego, renda e plano de obras públicas. Propomos auxílio emergencial de um salário mínimo para todo desempregado, isenção de tarifas de água, luz e IPTU para essa população, passe livre em transporte público e suspensão dos aluguéis.",
+        "pagina": 4
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Propomos um amplo plano de obras públicas (...) que construa creches, escolas, clínicas da família, hospitais, restaurantes populares, moradia popular (...) saneamento básico, equipamentos culturais e esportivos nos subúrbios e favelas.",
+        "pagina": 4
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. Contra o racismo, o machismo e a LGBTIfobia. Defendemos reparação histórica aos negros e povos indígenas, demarcação de terras indígenas e quilombolas, salário igual para trabalho igual e fim do encarceramento em massa da juventude negra.",
+        "pagina": 6
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Para ampliar postos de trabalho, defendemos a redução da jornada para 30 horas semanais sem redução de salário, um piso salarial estadual digno, a proibição das terceirizações e a efetivação de trabalhadores terceirizados.",
+        "pagina": 4
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. Educação pública, gratuita, laica e de qualidade. Defendemos o investimento mínimo constitucional de 25% do orçamento em educação, patamar hoje sistematicamente descumprido.",
+        "pagina": 5
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. Expropriar os bilionários, romper com a recuperação fiscal. Defendemos a suspensão e auditoria da dívida pública estadual, hoje próxima de 200% da receita corrente líquida, e a inversão da lógica orçamentária.",
+        "pagina": 7
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Transporte público estatizado e de qualidade. Defendemos a revogação das privatizações da Supervia e do MetrôRio, sem indenização às empresas, com gestão sob controle dos trabalhadores do setor e da população usuária.",
+        "pagina": 4
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Meio ambiente. Defendemos a universalização do saneamento básico, com fim do despejo de esgoto in natura na Baía de Guanabara, onde apenas cerca de 24% do esgoto coletado é efetivamente tratado.",
+        "pagina": 6
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. Democracia operária e participação popular. Defendemos que o plano de obras e as políticas públicas propostas neste programa sejam discutidos e fiscalizados diretamente pela população organizada, por meio de conselhos populares.",
+        "pagina": 7
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. Saúde pública, sem privatização. Defendemos o fim do modelo de gestão por Organizações Sociais e qualquer forma de privatização da saúde, modelo que já custou bilhões de reais em recursos públicos sem garantir qualidade de atendimento.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Segurança pública sem militarização. Rejeitamos a ideia de que o problema da violência se resolve com mais repressão policial. Defendemos a desmilitarização da segurança pública e da Polícia Militar.",
+        "pagina": 5
+      }
+    ]
+  }
+}

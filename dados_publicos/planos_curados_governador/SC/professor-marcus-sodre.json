@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. EM DEFESA DAS REFORMAS URBANA E AGRÁRIA. Reforma agrária, já! Defesa do emprego, dos salários e direitos para os operários agrícolas. Acesso ao crédito barato para os pequenos produtores.",
+        "pagina": 38
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. ASSISTÊNCIA SOCIAL. Fim da terceirização da Assistência Social, com a contratação de todos os profissionais através de concurso público. Criação de casas-abrigo, para as mulheres e crianças vítimas da violência doméstica.",
+        "pagina": 37
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. CULTURA, ESPORTE, LAZER E ARTE LIVRES. Um programa socialista tem de partir da necessidade urgente de emancipar a cultura das mãos dos capitalistas e garantir acesso à cultura e lazer nos bairros operários e populares.",
+        "pagina": 40
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. EM DEFESA DA VIDA E DOS DIREITOS DAS MULHERES, NEGRAS E LGBTs. Educação pública que respeite a diversidade de identidade de gênero e a orientação sexual. Estado laico de fato: abaixo a intervenção religiosa sobre os direitos de LGBTs.",
+        "pagina": 31
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Os números do desemprego e subemprego em Santa Catarina e no Brasil aumentaram absurdamente nos últimos anos e com isso os salários baixaram ainda mais e não chegam até o fim do mês. Por um plano de obras públicas para gerar emprego e renda.",
+        "pagina": 26
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. GARANTIR SAÚDE E EDUCAÇÃO PÚBLICAS DE QUALIDADE. Na educação, a reforma do Ensino Médio retira do currículo básico disciplinas importantes para a formação integral do estudante para substituir por matérias de aplicação prática imediata conforme a necessidade do mercado.",
+        "pagina": 31
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O primeiro passo de um legítimo governo socialista dos trabalhadores é mudar radicalmente a política econômica, suspendendo o pagamento das dívidas públicas, acabando com as desonerações fiscais (...) Pelo fim da Lei de Responsabilidade Fiscal, pelo fim dos financiamentos subsidiados aos grandes empresários.",
+        "pagina": 25
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. TRANSPORTE COLETIVO, INFRAESTRUTURA E ACESSIBILIDADE. Defendemos investimentos para construir novos modais de transporte, a exemplo das ferrovias e transporte marítimo, e que não deixem o país refém somente do modelo rodoviário.",
+        "pagina": 39
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. PREVENÇÃO DAS ENCHENTES E DE OUTRAS TRAGÉDIAS NATURAIS E SOCIAIS. Verbas para um plano de obras que inclua obras de infraestrutura e saneamento ambiental, drenagem e desassoreamento de rios e córregos, sistemas de alerta nas cidades e mais investimentos em defesa civil.",
+        "pagina": 40
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13. PELO FIM DA CORRUPÇÃO. Prisão de todos os corruptos e corruptores e o confisco de seus bens. Fim dos privilégios dos políticos, através de mandatos revogáveis, e de salário igual ao de um professor ou operário especializado.",
+        "pagina": 45
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "No que se refere a organização dos municípios, a política de assistência social se estrutura através dos Centros de Referência de Assistência Social (CRAS) e nos Centros de Referência Especializados de Assistência Social (CREAS).",
+        "pagina": 35
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Dobrar o orçamento estadual da Saúde para dotá-lo das condições necessárias para oferecer atendimento de qualidade e acabar com as filas, inclusive de médicos especialistas.",
+        "pagina": 32
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. SEGURANÇA PÚBLICA. A solução do problema da segurança pública está diretamente ligada à solução de outros graves problemas sociais, como a criminalização das drogas, o caráter repressivo da polícia, o desemprego, os baixos salários.",
+        "pagina": 42
+      }
+    ]
+  }
+}

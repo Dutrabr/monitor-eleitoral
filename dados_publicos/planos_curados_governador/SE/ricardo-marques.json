@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Agricultura e Desenvolvimento rural. Promover o desenvolvimento agrário sustentável e a interiorização das oportunidades econômicas, criando condições para que agricultores familiares, pequenos e médios produtores, pescadores, aquicultores, cooperativas e agroindústrias ampliem sua produtividade.",
+        "pagina": 29
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Assistência Social e combate à pobreza. Reduzir de forma sustentada a pobreza, a extrema pobreza, a fome e as situações de vulnerabilidade social em Sergipe, assegurando proteção de renda, acesso à alimentação adequada, assistência social qualificada.",
+        "pagina": 38
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. Ciência, Tecnologia e Inovação. Transformar a ciência, a tecnologia e a inovação em instrumentos de crescimento da produtividade, diversificação econômica, agregação de valor e geração de oportunidades em Sergipe, por meio da estruturação de ecossistemas de inovação vinculados às cadeias produtivas.",
+        "pagina": 33
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "13. Esporte, Lazer e Cultura. Democratizar o acesso ao esporte e ao lazer em Sergipe, fortalecendo o esporte educacional, comunitário, inclusivo, amador e de rendimento como instrumento de saúde, cidadania, prevenção social, descoberta de talentos e desenvolvimento territorial.",
+        "pagina": 52
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "12. Mulheres, Jovens e 60+. Preparar Sergipe para os efeitos da transição demográfica, promovendo o envelhecimento saudável, ativo e protegido, adaptando os serviços públicos ao aumento da população idosa. Fortalecer o monitoramento de agressores, a atuação da Patrulha Maria da Penha e os protocolos integrados de atendimento e investigação.",
+        "pagina": 51
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Empreendedorismo e Desenvolvimento Econômico. Criação do programa 'Você Empreende', onde o cidadão passará por um curso de qualificação e receberá inicialmente via cartão social um valor de até R$ 5 mil reais para iniciar um pequeno negócio na sua região.",
+        "pagina": 31
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. Educação. As unidades escolares deverão dispor de abastecimento regular de água potável, saneamento, acessibilidade, climatização, segurança, cozinhas, bibliotecas, laboratórios, quadras, espaços de convivência e condições adequadas para a educação integral e inclusiva.",
+        "pagina": 44
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Portal com dados abertos e acessíveis sobre receitas, despesas, renúncias fiscais, dívida pública, investimentos, contratos, resultados fiscais e execução orçamentária, de forma a qualificar o controle social e aumentar a confiança da sociedade na gestão dos recursos públicos.",
+        "pagina": 69
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. Infraestrutura. Estruturar uma rede integrada de infraestrutura estadual, articulada com obras federais e municipais, capaz de conectar regiões, polos produtivos, áreas rurais, destinos turísticos, Porto de Sergipe, rodovias federais, rodovias estaduais, vias vicinais e equipamentos públicos.",
+        "pagina": 34
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "15. Meio Ambiente e Sustentabilidade. Fortalecer os comitês de bacia hidrográfica e a gestão participativa da água, garantindo apoio técnico, administrativo e financeiro ao funcionamento regular dos comitês, criando estrutura de secretaria executiva para as bacias.",
+        "pagina": 58
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "18. Planejamento e Governança. Fortalecer a capacidade de governo do Estado de Sergipe por meio da modernização institucional, do planejamento estratégico público, da integração entre planejamento e orçamento, da qualificação da alta direção, da gestão por resultados.",
+        "pagina": 64
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "22. Relações Nacionais e Internacionais. Fortalecer a inserção institucional, econômica e estratégica do Estado de Sergipe nos cenários nacional e internacional, ampliando a cooperação federativa, a articulação com os demais estados, a União, organismos internacionais.",
+        "pagina": 72
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. Saúde. Consolidar e ampliar o acesso da população sergipana a serviços de saúde de qualidade, integrando atenção primária, média e alta complexidade, saúde mental e vigilância em saúde em uma rede regionalizada e resolutiva.",
+        "pagina": 46
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "11. Segurança Pública. Consolidar e aprofundar a redução da violência e da criminalidade em Sergipe, protegendo a vida, o patrimônio e a tranquilidade da população por meio de uma política integrada, planejada e orientada por resultados.",
+        "pagina": 49
+      }
+    ]
+  }
+}

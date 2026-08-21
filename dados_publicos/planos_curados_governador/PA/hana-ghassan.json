@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer o Agronegócio Paraense priorizando a infraestrutura de alta capacidade e a segurança jurídica ambiental. Fortalecer a agropecuária, o desenvolvimento rural e a produção sustentável. Expandir o Cheque Pecuária, apoiando o pecuarista a recuperar pastagem degradada.",
+        "pagina": 41
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento social é o caminho para reduzir desigualdades, promover cidadania e garantir que nenhuma pessoa fique para trás. Nosso compromisso é fortalecer uma ampla rede de proteção social, assegurando direitos, ampliando oportunidades e promovendo inclusão para crianças, jovens, idosos, pessoas com deficiência, povos tradicionais e famílias em situação de vulnerabilidade.",
+        "pagina": 29
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A ciência, a tecnologia e a inovação serão pilares estratégicos para construir um Pará mais moderno, competitivo e preparado para os desafios do futuro. O Pará reúne um enorme potencial científico, tecnológico e inovador, impulsionado pela riqueza da Amazônia.",
+        "pagina": 56
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A cultura é um dos maiores patrimônios do Pará e uma importante força para o desenvolvimento econômico, a geração de oportunidades e o fortalecimento da nossa identidade. Nosso compromisso é valorizar a diversidade cultural paraense, preservar nossa história e transformar a criatividade do nosso povo em emprego, renda e inclusão social.",
+        "pagina": 51
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Realização da Operação Escudo Feminino em todos os 144 municípios com mais de 5 mil mulheres atendidas e 104 prisões. Realização do Programa Ação para Meninas e Mulheres do Marajó.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O desenvolvimento econômico é o caminho para gerar oportunidades, criar empregos e melhorar a qualidade de vida da população. Nosso compromisso é consolidar um modelo de crescimento que combine competitividade, inovação, sustentabilidade e inclusão.",
+        "pagina": 39
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A educação será uma das grandes prioridades do nosso governo e um dos principais caminhos para reduzir desigualdades, ampliar oportunidades e transformar o futuro do Pará. Nosso compromisso é garantir uma educação pública de qualidade, inclusiva e inovadora.",
+        "pagina": 19
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O Pará está entre os estados com menor taxa de endividamento do Brasil, segundo o Tesouro Nacional. O Pará está entre os 10 melhores estados em Solidez Fiscal, segundo o Ranking de Competitividade.",
+        "pagina": 64
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A infraestrutura é a base do desenvolvimento econômico e da integração regional. Investir em rodovias, hidrovias, portos, aeroportos e sistemas logísticos é criar as condições necessárias para gerar empregos, atrair investimentos, fortalecer a produção e melhorar a qualidade de vida da população.",
+        "pagina": 44
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O futuro do Pará está diretamente ligado à sua capacidade de conciliar desenvolvimento econômico, proteção ambiental e qualidade de vida. Nosso compromisso é consolidar um modelo de crescimento que valorize os ativos ambientais do estado, enfrente os desafios das mudanças climáticas.",
+        "pagina": 59
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Uma gestão pública moderna, eficiente e inovadora é a base para transformar boas ideias em resultados concretos para a população. Nosso compromisso é fortalecer um Estado cada vez mais inteligente, transparente e orientado por resultados.",
+        "pagina": 63
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Meu compromisso é manter uma relação de parceria com todos os municípios, respeitando suas realidades e trabalhando juntos para levar desenvolvimento a cada região do Pará.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A saúde será a principal prioridade do nosso governo. Cuidar das pessoas é garantir que cada paraense tenha acesso a uma assistência pública de qualidade, no tempo certo e cada vez mais próxima de onde vive.",
+        "pagina": 9
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A segurança pública continuará sendo uma das principais prioridades do nosso governo. Garantir o direito de ir e vir, proteger vidas e promover a paz social são condições essenciais para o desenvolvimento do Pará.",
+        "pagina": 14
+      }
+    ]
+  }
+}

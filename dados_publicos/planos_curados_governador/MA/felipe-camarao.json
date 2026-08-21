@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nova matriz 2 — Bioeconomia, extrativismo e sociobiodiversidade da terra e das águas: transformar a maior riqueza natural do estado, com o babaçu, a sociobiodiversidade, a pesca e a economia azul em renda que fica nas comunidades.",
+        "pagina": 20
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "São os serviços que o Estado deve a toda a população, sem distinção. Escola, saúde, segurança, comida na mesa, água, casa, obra, cultura e esporte.",
+        "pagina": 43
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nova matriz 4 — Economia do conhecimento, do cuidado e da cultura: diversificar a matriz de serviços para além da administração pública, ancorando renda na ciência e inovação.",
+        "pagina": 20
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Nova matriz 4 — Economia do conhecimento, do cuidado e da cultura: diversificar a matriz de serviços (...) ancorando renda na ciência e inovação, na economia do cuidado, no turismo de base comunitária e na economia criativa e do patrimônio.",
+        "pagina": 20
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "São os compromissos com quem historicamente é excluído e excluída. Mulheres, população negra, juventudes, crianças e adolescentes, pessoas idosas, pessoas com deficiência e população LGBTQIA+.",
+        "pagina": 44
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "São os programas que geram renda e emprego, do pequeno negócio da esquina à indústria que agrega valor, passando pela ciência, pelo turismo e pela infraestrutura.",
+        "pagina": 69
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O terceiro [eixo transversal] é a educação, a inovação e a inclusão socioeconômica, que fornece às pessoas as capacidades sem as quais nenhuma nova matriz encontra quem a produza.",
+        "pagina": 25
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "[O conselho de governança da matriz] reúne-se trimestralmente, com prestação de contas pública.",
+        "pagina": 38
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Infraestrutura e logística, considerando as realidades, as dinâmicas socioeconômicas e as demandas de cada região do Estado, construindo a parceria com o Governo Federal em investimentos estratégicos e estruturantes.",
+        "pagina": 38
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O GT de Meio Ambiente (...) não trata a conservação como restrição, e sim como base da economia. Propõem recuperação de nascentes, matas ciliares e manguezais; brigadas comunitárias remuneradas; combate ao desmatamento e aos crimes ambientais; ICMS Ecológico.",
+        "pagina": 26
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "São os compromissos que fazem os outros saírem do papel. Servidor valorizado, gestão que funciona, participação popular, dados abertos e prestação de contas.",
+        "pagina": 71
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fóruns Regionais de Desenvolvimento Territorial: instâncias que pactuam as vocações locais, priorizam projetos e dão controle social (...) conectando a Câmara estadual aos municípios e aos arranjos produtivos locais.",
+        "pagina": 38
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "São os serviços que o Estado deve a toda a população, sem distinção. Escola, saúde, segurança, comida na mesa, água, casa, obra, cultura e esporte.",
+        "pagina": 43
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Entre 1997 e 2024, mais de 20 mil jovens foram vítimas de mortes violentas no estado, e cerca de 88,5% deles eram negros (...) Revertê-la é parte do que significa converter crescimento em desenvolvimento social.",
+        "pagina": 23
+      }
+    ]
+  }
+}

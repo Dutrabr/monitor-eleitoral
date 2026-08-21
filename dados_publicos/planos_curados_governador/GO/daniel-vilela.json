@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantir o protagonismo contínuo do agronegócio — principal motor da economia goiana —, assegurando o crescimento sustentável do setor, o adensamento do valor agregado à produção primária.",
+        "pagina": 52
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Reduzir a pobreza de forma duradoura exige uma atuação que vá além do auxílio imediato. O grande desafio do Estado é fortalecer a rede socioassistencial, assegurar amparo às famílias em situação de vulnerabilidade.",
+        "pagina": 34
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Goiás Inova: Ciência, Tecnologia e Empreendedorismo para Gerar Valor (...) A consolidação do Goiás Inova transformará a produção científica em ativos econômicos tangíveis.",
+        "pagina": 45
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Consolidar a política estadual de cultura por meio da ampliação do acesso às ações culturais em todas as regiões do Estado, da valorização do patrimônio cultural material e imaterial, do incentivo à economia criativa.",
+        "pagina": 34
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Proteger com ainda mais força as mulheres, as crianças, os adolescentes e os mais vulneráveis.",
+        "pagina": 63
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O objetivo do próximo ciclo é promover um ambiente econômico mais competitivo e inovador, capaz de gerar mais produtividade, agregar valor à produção goiana, ampliar empregos e renda.",
+        "pagina": 51
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Goiás consolidou-se como referência nacional na educação pública, com os Centros de Ensino em Período Integral (CEPIs) apresentando indicadores superiores de aprendizagem e retenção escolar.",
+        "pagina": 30
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O chão financeiro de Goiás precisou ser reconstruído do zero (...) A responsabilidade fiscal conquistada a pulso é o trampolim para um futuro ainda mais ambicioso.",
+        "pagina": 16
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O objetivo do próximo ciclo é fortalecer a infraestrutura de Goiás para sustentar o desenvolvimento, ampliando a logística, universalizando serviços essenciais, garantindo segurança energética e hídrica.",
+        "pagina": 56
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a política integrada de adaptação climática, proteção do Cerrado e modernização ambiental com base em ciência, dados, inteligência artificial e sistemas de alerta precoce.",
+        "pagina": 58
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Instituir a Estrutura Estadual de Governança (...) Goiás instituirá um modelo avançado de Centro de Governo, estritamente alinhado às diretrizes de governança pública da OCDE.",
+        "pagina": 70
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Assegurar equilíbrio financeiro e autonomia fiscal às prefeituras, garantindo estabilidade orçamentária e blindando as contas municipais contra oscilações econômicas e os efeitos da transição tributária.",
+        "pagina": 53
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a regionalização da saúde mediante a ampliação da capacidade dos Hospitais Estaduais e a expansão e fortalecimento das Policlínicas Estaduais.",
+        "pagina": 31
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O objetivo do próximo ciclo é fortalecer a segurança pública de Goiás, ampliando a capacidade de prevenção e combate ao crime, enfrentando novas ameaças digitais, desarticulando organizações criminosas, protegendo os grupos mais vulneráveis.",
+        "pagina": 63
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fortalecer a agricultura familiar e a agroecologia. Ampliar assistência técnica, crédito, infraestrutura e compras públicas para agricultores familiares, sistemas agroflorestais e produção agroecológica, diferenciando pequenos produtores dos grandes agentes responsáveis pela devastação em escala empresarial.",
+        "pagina": 47
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Saúde, educação, assistência social, segurança, saneamento e demais serviços fundamentais devem ser fortalecidos como um dever do Estado.",
+        "pagina": 8
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Construir uma transição ecológica com empregos e ciência pública. Estabelecendo uma política estadual de transição ecológica baseada em investimento público em agroecologia, recuperação ambiental, saneamento, reciclagem, tecnologias ambientais e economia solidária, fortalecendo a UEPA, a pesquisa científica amazônica e as cooperativas de catadores.",
+        "pagina": 48
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "CULTURA. Popular, acessível e democrática. O Pará possui uma das formações culturais mais ricas e diversas do Brasil: dos povos indígenas às comunidades tradicionais, do carimbó ao tecnomelody, dos mestres e mestras de cultura popular às aparelhagens.",
+        "pagina": 28
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ÉTNICO-RACIAL. Lutar contra o racismo e por igualdade racial é lutar contra o capitalismo. O racismo no Brasil está enraizado nas estruturas de poder, incluindo no Estado.",
+        "pagina": 50
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "DESENVOLVIMENTO ECONÔMICO E DESIGUALDADE SOCIAL. A riqueza do Pará deve servir ao seu povo. O Pará é um estado de enormes riquezas e profundas desigualdades.",
+        "pagina": 3
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO NÃO É MERCADORIA. Conhecimento é direito do povo! É preciso garantir condições concretas para que cada criança e jovem tenha acesso, permaneça estudando e aprenda com dignidade.",
+        "pagina": 11
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Auditoria da Dívida Pública do Pará: Revisão dos contratos financeiros que sangram o orçamento para enriquecer bancos. Rompimento de todos os mecanismos que priorizam o pagamento da dívida em detrimento dos direitos da população.",
+        "pagina": 9
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "TRANSPORTE É DIREITO DO POVO. Por um Pará integrado, público e acessível. O transporte determina as condições para chegar ao trabalho, à escola, ao hospital e aos serviços públicos.",
+        "pagina": 20
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MEIO AMBIENTE. Preservar a natureza é preservar a vida! Defender o meio ambiente é enfrentar o modelo de exploração capitalista. O Pará está no centro de uma das maiores contradições do nosso tempo.",
+        "pagina": 43
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ADMINISTRAÇÃO PÚBLICA. Democratização e transparência institucional. O Estado não deve funcionar como instrumento de proteção dos privilégios de uma minoria nem como espaço de transferência dos recursos públicos para interesses privados.",
+        "pagina": 8
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Um projeto popular deve fortalecer a presença do Estado no interior, levando servidores, equipamentos, serviços e capacidade administrativa aos municípios e comunidades historicamente desassistidos.",
+        "pagina": 9
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SAÚDE PARA TODOS. Mais dinheiro público para a saúde pública: ampliar progressivamente os investimentos estaduais no SUS. Os recursos públicos destinados à saúde devem fortalecer prioritariamente a rede estatal, seus trabalhadores, equipamentos e serviços.",
+        "pagina": 27
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "SEGURANÇA PÚBLICA. A vida e a dignidade humana são inegociáveis. A violência e a insegurança atingem principalmente quem vive e trabalha nas periferias urbanas, no campo e nos territórios mais desassistidos pelo poder público.",
+        "pagina": 6
+      }
+    ]
+  }
+}

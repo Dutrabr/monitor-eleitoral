@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O alicerce de tudo: agricultura familiar com ATER de verdade — Emater-RO fortalecida com quadro próprio — e mercado garantido nas compras institucionais (PAA e merenda escolar).",
+        "pagina": 4
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cuidoteca — com prioridade para famílias monoparentais chefiadas por mulheres e inscritas no CadÚnico. A Cuidoteca não substitui a escola nem amplia a jornada da criança: respeita o teto de 10 horas diárias de atividade.",
+        "pagina": 13
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 13 · Cultura do nosso estado. A cultura de Rondônia tem palco e tem plateia: o Duelo na Fronteira, em Guajará-Mirim, põe os bois-bumbás Flor do Campo e Malhadinho num bumbódromo lotado, com entrada gratuita.",
+        "pagina": 25
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "As mulheres pagam a conta mais alta: taxa de homicídios femininos 66% acima da média nacional; feminicídio de 2,9 por 100 mil (2,07 vezes o Brasil), respondendo por 54,3% dos assassinatos de mulheres. Programa Rondônia Protege as Mulheres: adesão formal ao Alerta Mulher Segura.",
+        "pagina": 11
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 1 · Economia, agroindústria e comércio exterior. O PIB de Rondônia saltou de R$ 36,6 bilhões (2015) para R$ 66,8 bilhões (2022), com estimativa de R$ 77,8 bilhões em 2024; nossas exportações cresceram 17,21% em 2025.",
+        "pagina": 3
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 5 · Educação — levar ao ensino médio o método que salvou a alfabetização. Rondônia aprendeu a alfabetizar com método: nas redes municipais, o PAIC do TCE-RO com a Busca Ativa Escolar do UNICEF.",
+        "pagina": 8
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 2 · Responsabilidade fiscal. Rondônia mantém nota máxima de capacidade de pagamento pelo sexto ano consecutivo e dívida consolidada de ~2% da RCL (limite: 200%). A adesão ao Propag reduziu os juros da dívida de 4% a.a. para 0%.",
+        "pagina": 5
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 7 · Infraestrutura e logística. Rondônia tem a pior malha rodoviária entre os 19 estados analisados pelo estudo citado no Guia: 76% sem pavimentação, contra média de 38,17%.",
+        "pagina": 14
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 9 · Meio ambiente como ativo econômico. Em outubro de 2024, 573,5 mil hectares queimaram em Rondônia e a população respirou ar insalubre por semanas. Em 2025, com ação coordenada e preventiva, a área queimada de outubro caiu para 23 mil hectares — redução de 96%.",
+        "pagina": 17
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 14 · Governança — o eixo que amarra todos os outros. A conclusão transversal do Guia do TCE é que o problema de Rondônia é institucional antes de ser setorial: planejamento de curto prazo, órgãos que não conversam, decisões sem evidência e execução sem acompanhamento.",
+        "pagina": 29
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "De onde vem o dinheiro: Fundo de Equalização Federativa (áreas elegíveis incluem infraestrutura e desenvolvimento regional, ~R$ 250 milhões já em 2026). E o escudo federativo: o programa federal declara que seguirá apoiando estados e municípios a universalizar o acesso à água tratada e ao esgotamento sanitário.",
+        "pagina": 5
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 4 · Saúde — começando por quem começa a vida. Rondônia tem a 3ª pior expectativa de vida do país (72,79 anos contra 77,60) e a 2ª pior mortalidade infantil (17,1 por mil nascidos vivos).",
+        "pagina": 6
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Eixo 6 · Segurança pública — proteger quem mais morre. Enquanto as mortes violentas caíram 8,2% no Brasil (menor patamar desde 2012), Rondônia subiu 7,5% — o segundo maior aumento do país.",
+        "pagina": 11
+      }
+    ]
+  }
+}

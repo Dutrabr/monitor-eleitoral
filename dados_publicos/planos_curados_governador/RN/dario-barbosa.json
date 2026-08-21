@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. Agricultura, água e meio ambiente. Reforma agrária em grandes propriedades, expropriação de propriedades com trabalho análogo à escravidão; apoio à agricultura familiar para produção de alimentos sem agrotóxicos.",
+        "pagina": 4
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. Moradia e Saneamento. Construção massiva de moradias populares, urbanização e legalização de ocupações. Desapropriação de imóveis ociosos (públicos e privados), que não estejam cumprindo função social, destinando-os para fins de moradia popular.",
+        "pagina": 4
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "8. Incentivo à Cultura. Ampliação do orçamento para Cultura. Financiamento estatal direto para artistas e produções culturais. Criação de escolas estaduais de arte.",
+        "pagina": 5
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "9. Combate às opressões. Intensificar as medidas de combate ao racismo, ao machismo, à lgbtifobia; contra o feminicídio e as diversas formas de opressão. Destinar 10% da Receita Total do Estado para a Secretaria das Mulheres, da Juventude, da Igualdade Racial e dos Direitos Humanos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. Desenvolvimento Econômico e Emprego. Plano de Obras Públicas e Estatais para geração de empregos e desenvolvimento da infraestrutura do RN. Incentivo fiscal e apoio aos pequenos negócios e à agricultura familiar.",
+        "pagina": 2
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. Educação Pública. Investimento imediato de 10% do PIB em educação pública. Destinação de 25% da Receita Total do Estado para a educação pública. Universalização do acesso às creches, ensino básico e universidades.",
+        "pagina": 3
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cobrança e execução da dívida ativa das grandes empresas devedoras do Estado, que soma mais de R$ 11 bilhões. Fim das isenções fiscais para grandes empresários, que deixam de render ao Estado mais de R$ 1,4 bilhões ao ano.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. Transporte e Mobilidade Urbana. Prioridade para transporte ferroviário. Convênio para ampliação e modernização do sistema de trens urbanos da Grande Natal. Criação de empresa estatal de transporte coletivo.",
+        "pagina": 4
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Plano de enfrentamento à seca e democratização do acesso à água. Defesa da Mata Atlântica, Caatinga e manguezais. Combate ao desmatamento e à poluição. Taxação de empresas poluidoras.",
+        "pagina": 4
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10. Conselhos Populares e combate aos privilégios dos políticos. Organização do poder do governo através de conselhos populares, eleitos nos locais de trabalho, estudo e moradia. Redução dos salários dos políticos.",
+        "pagina": 5
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. Saúde Pública. Dobrar os investimentos estaduais em saúde pública. Destinar 25% da Receita Total do Estado para a saúde pública. Fortalecimento do SUS 100% público e estatal.",
+        "pagina": 3
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. Segurança Pública. Dobrar os investimentos públicos em segurança, chegando a 20% da Receita Total do Estado. Desmilitarização da Polícia Militar e unificação das polícias em Polícia Civil Unificada.",
+        "pagina": 3
+      }
+    ]
+  }
+}

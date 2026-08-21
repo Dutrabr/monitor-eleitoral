@@ -1,0 +1,92 @@
+{
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fim do lucro com a doença: saúde pública e gratuita, sob o controle dos trabalhadores. A destruição sistemática do SUS e o avanço da privatização da saúde aumentam o sofrimento e as mortes.",
+        "pagina": 5
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Barrar a destruição da educação e conquistar ensino público, gratuito e de qualidade. Mais verbas para a educação; verbas públicas somente para o ensino público. Fim dos vestibulares.",
+        "pagina": 5
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Abaixo a repressão. Liberdade de expressão e direito de autodefesa. Dissolução da polícia militar e de todo o aparato repressivo.",
+        "pagina": 5
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Parar o roubo dos salários: reposição integral de 100% das perdas salariais; aumento emergencial de 50% de todos os salários. Salário mínimo vital não poderia ser menor que R$7.500.",
+        "pagina": 2
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fim da especulação, moradia para todos: elaboração de um plano nacional de construção de milhões de moradias populares, para garantir habitação.",
+        "pagina": 4
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Em defesa do futebol, do carnaval e de todas as manifestações da cultura popular: garantir os recursos públicos necessários para o acesso à cultura e ao esporte, pondo fim aos monopólios do setor.",
+        "pagina": 7
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "nao_consta"
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo, enquanto durar a situação de caos atual.",
+        "pagina": 2
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "nao_consta"
+  },
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "nao_consta"
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fim do teto de gastos e da Lei de Responsabilidade Fiscal. (...) Culpa da fraudulenta dívida pública, que já foi paga várias vezes. Cancelamento das dívidas externa e interna com os bancos e grandes credores.",
+        "pagina": 4
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "nao_consta"
+  }
+}

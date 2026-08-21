@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 6 — DESENVOLVIMENTO RURAL, AGRICULTURA E AGRONEGÓCIO. 6.1 Agricultura familiar, alimentos e inclusão produtiva. Ampliar a autonomia econômica das mulheres e as oportunidades no campo.",
+        "pagina": 66
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10.2 Famílias, primeira infância, idosos e proteção integral. Fortalecer a proteção social e assegurar abordagem transversal de equidade, cuidado, proteção e acesso a direitos.",
+        "pagina": 98
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 5 — DESENVOLVIMENTO ECONÔMICO, TRABALHO, RENDA, TURISMO E INOVAÇÃO PRODUTIVA. Recuperar a competitividade do Piauí mediante redução gradual da carga burocrática.",
+        "pagina": 58
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 8 — CULTURA, PATRIMÔNIO, IDENTIDADE TERRITORIAL, TURISMO CULTURAL E ECONOMIA CRIATIVA. 8.1 Governança, financiamento e Sistema Estadual de Cultura. Garantir planejamento, transparência, dados confiáveis e controle social sobre a política cultural.",
+        "pagina": 80
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "10.5 Direitos humanos, população LGBTQIA+ e cidadania. EIXO 10 — PROTEÇÃO SOCIAL, DIREITOS, EQUIDADE, MULHERES, FAMÍLIAS, JUVENTUDE E CIDADANIA TRANSVERSAL.",
+        "pagina": 98
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5.1 Competitividade, Atratividade e Geração de Emprego. Ação Programática 5.1.2 — Revogar a cobrança estadual de ICMS sobre a energia solar compensada.",
+        "pagina": 58
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — EDUCAÇÃO, CONHECIMENTO, JUVENTUDE E INCLUSÃO EDUCACIONAL. 3.1 Alfabetização, aprendizagem e recomposição educacional. Organizar grupos de aprendizagem conforme níveis de proficiência; ampliar carga horária para reforço escolar.",
+        "pagina": 42
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1.6 Gestão fiscal, orçamentária e sustentabilidade. Transformar renúncias e incentivos em instrumentos mensuráveis de desenvolvimento econômico, social e territorial. Ação Programática 1.6.4 — Implantar orçamento verde e sustentável.",
+        "pagina": 24
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7 — INFRAESTRUTURA, CIDADES, HABITAÇÃO, MOBILIDADE E INTEGRAÇÃO TERRITORIAL. 7.1 Integração logística e infraestrutura para o desenvolvimento.",
+        "pagina": 72
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 9 — MEIO AMBIENTE, RECURSOS HÍDRICOS E MINERAIS, TRANSIÇÃO SUSTENTÁVEL E RESILIÊNCIA TERRITORIAL. 9.1 Gestão ambiental, biodiversidade e ordenamento sustentável. Transformar cadastro em regularização ambiental efetiva; combater desmatamento.",
+        "pagina": 88
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — GOVERNANÇA TERRITORIAL, PRESENÇA DO ESTADO, INTEGRIDADE E CAPACIDADE DE ENTREGA. Governar não é apenas organizar processos, criar sistemas ou anunciar metas. Governar é fazer o Estado chegar onde a população vive.",
+        "pagina": 20
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1.7 Cooperação interfederativa e apoio técnico aos municípios. Fortalecer a gestão municipal e aumentar a efetividade das políticas executadas em cooperação com o Estado. Ação Programática 1.7.1 — Fortalecer o Escritório Estadual Permanente de apoio aos municípios.",
+        "pagina": 24
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 — SAÚDE, CUIDADO, REGIONALIZAÇÃO E QUALIDADE DE VIDA. 2.1 Regionalização, governança e descentralização qualificada da rede. Transformar as Regionais de Saúde em unidades efetivas de coordenação territorial, capazes de apoiar municípios.",
+        "pagina": 28
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 4 — SEGURANÇA PÚBLICA, TRÂNSITO SEGURO E JUSTIÇA INTEGRADA. 4.1 Proteção e cuidado da mulher e combate à impunidade. Prevenir a violência doméstica e o feminicídio mediante coordenação estadual, acolhimento humanizado.",
+        "pagina": 52
+      }
+    ]
+  }
+}

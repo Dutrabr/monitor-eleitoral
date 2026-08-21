@@ -1,0 +1,128 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O CAMPO CONECTADO. O interior fluminense produz, e produz sozinho, longe dos holofotes, muitas vezes contra o próprio Estado. O agro do Rio é diverso: hortifruti que abastece a metrópole, café da montanha, pecuária, pesca no litoral (...) enfrenta crédito difícil, logística ruim, assistência técnica escassa, internet que não chega.",
+        "pagina": 69
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "MÃE FLUMINENSE. Tem um começo de vida que decide muita coisa que vem depois. A gestação acompanhada, o parto seguro, os primeiros anos da criança bem cuidados: é aí que se previne a tragédia que a saúde e a assistência gastarão fortunas para remediar depois.",
+        "pagina": 77
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ambiente regulatório leve, via Simplifica RJ, para que a startup nasça e cresça sem morrer no cartório. E compras públicas que se abrem à inovação, com o próprio Estado como cliente que ajuda a tecnologia fluminense a decolar.",
+        "pagina": 84
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "O programa tem duas frentes que se completam. A primeira é o contraturno: manter o jovem na escola, ou perto dela, no tempo em que hoje ele fica solto, com esporte, cultura, reforço, tecnologia, arte, aquilo que dá sentido e pertencimento pelo lado certo.",
+        "pagina": 82
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 8 — RJ COM ORGULHO DE NOVO. Mais da metade da população é negra ou parda e ainda espera a oportunidade que a paisagem promete e a vida nega. A mulher escolhe o caminho de casa pelo medo.",
+        "pagina": 112
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 2 — RJ RICO DE NOVO. O Rio tem a maior província petrolífera do hemisfério sul, o segundo maior PIB do país, dois portos de calado profundo, universidades de ponta e um parque industrial que já foi o motor do Brasil. Convive, ao mesmo tempo, com desemprego alto, indústria desmontada.",
+        "pagina": 63
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EDUCAÇÃO TÉCNICA E DIGITAL — RJ Digital. A educação técnica no Rio é pequena diante da necessidade e diante da vocação econômica do estado. Formamos poucos jovens com qualificação profissional, enquanto a indústria, o gás, a logística, a saúde e a economia criativa pedem exatamente essa mão de obra.",
+        "pagina": 81
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ADAPTAÇÃO À REFORMA TRIBUTÁRIA. A Reforma Tributária aprovada no país muda o chão sob os pés de todo estado. A guerra fiscal do ICMS acaba. O que vamos fazer (...) um gabinete da Reforma Tributária dentro da Fazenda, com uma única missão: mapear, empresa por empresa e setor por setor, quem ganha e quem perde na transição.",
+        "pagina": 64
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "PROJETO ÂNCORA: CORREDOR PAVUNA-ARCO. O nosso é o Corredor Pavuna-Arco. É o que muda mais vida por real investido, porque nasce onde o Estado nunca chegou com transporte de qualidade: a Baixada Fluminense. Apenas 17% dela vive perto de um sistema de alta capacidade.",
+        "pagina": 89
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 7 — RJ SUSTENTÁVEL DE NOVO. Em 2011 e em 2022, as tragédias da Região Serrana mataram, somadas, mais de 1.100 pessoas. Não foram acidentes naturais. Foram desgoverno: gente morando onde não podia, encosta sem contenção, rio sem drenagem, alerta que não chegou. Menos de 60% do esgoto do estado é tratado.",
+        "pagina": 104
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Cargo de confiança distribuído por indicação, não por entrega. Controle que chega tarde, quando o dinheiro já saiu. Para virar esse jogo é preciso uma lei que reorganize a máquina desde a fundação: a LEGE-RJ, a Lei Geral de Gestão do Estado.",
+        "pagina": 97
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "ArcoMM — Integrando os Municípios do Mar à Montanha. Essa riqueza virou um mosaico de municípios que competem entre si em vez de somar: cada um puxando obra para o seu lado, disputando a mesma indústria, sem ninguém pensando o conjunto. O ArcoMM é a resposta a esse desperdício.",
+        "pagina": 16
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 3 — RJ SAUDÁVEL DE NOVO. A saúde do fluminense é vivida como espera. Espera pela consulta com o especialista. Espera pelo exame que marca e não sai. Espera na emergência lotada, sentado numa cadeira, com o parente piorando ao lado.",
+        "pagina": 72
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "EIXO 1 — RJ SEGURO DE NOVO. Escudo Rio — Três Anéis e um Cérebro. O Escudo Rio organiza a proteção do perímetro do estado em três anéis concêntricos de fiscalização, integrados por um único cérebro.",
+        "pagina": 34
+      }
+    ]
+  }
+}

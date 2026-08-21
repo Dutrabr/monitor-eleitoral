@@ -1,0 +1,122 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "5. AGRO, PESCA, MEIO AMBIENTE E O CRESCIMENTO DO CAMPO. Valorizar o homem e a mulher do campo, incentivar a sucessão familiar, modernizar a produção agropecuária e pesqueira. Fortalecimento do Financia Agro SC e Água no Campo: expandir o crédito sem juros para perfuração de poços.",
+        "pagina": 19
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Programa Casa Catarina +22: Ampliar a meta do programa de construção de habitações populares com a adesão de 100% dos municípios. Manutenção do cofinanciamento estadual para as políticas de Assistência Social nos municípios catarinenses.",
+        "pagina": 17
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. EDUCAÇÃO, QUALIFICAÇÃO PROFISSIONAL E TECNOLOGIA. Maior programa de qualificação tecnológica do Estado, o SCTEC alcançou 100% dos municípios com mais de 106 mil inscrições em capacitações de tecnologia e inteligência artificial.",
+        "pagina": 5
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "7. CULTURA, TURISMO E ESPORTE. A cultura será tratada como um pilar estratégico da identidade e do crescimento regional, sustentando a coesão social e a economia criativa.",
+        "pagina": 21
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "nao_consta"
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "6. LIBERDADE ECONÔMICA, GESTÃO EFICIENTE E MUNICIPALISMO. Manter o ambiente de negócios mais próspero e livre do Brasil. Pronampe SC ampliado: ampliar as linhas de crédito subsidiado para micro e pequenas empresas, MEIs e agricultores.",
+        "pagina": 20
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "4. EDUCAÇÃO, QUALIFICAÇÃO PROFISSIONAL E TECNOLOGIA. Formar cidadãos preparados para os desafios do mercado de trabalho contemporâneo, unindo valores da família, segurança escolar, tecnologia de ponta e gratuidade no ensino superior.",
+        "pagina": 18
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Ao longo dos últimos quatro anos, o Estado consolidou um modelo de gestão baseado em responsabilidade fiscal, planejamento, diálogo permanente com os municípios e compromisso com a entrega de resultados.",
+        "pagina": 2
+      }
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "1. INFRAESTRUTURA, LOGÍSTICA E MOBILIDADE. Estrada Boa +22: dar continuidade às obras de pavimentação, restauração pesada e duplicação da malha viária estadual. Acelerar as obras da VIAMAR (corredor expresso paralelo à BR-101).",
+        "pagina": 15
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Garantir segurança hídrica e ambiental sem sufocar quem produz. Fortalecimento do Financia Agro SC e Água no Campo: expandir o crédito sem juros para perfuração de poços, instalação de cisternas, captação e tratamento de água.",
+        "pagina": 19
+      }
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "A recuperação das contas públicas permitiu ampliar investimentos sem comprometer a responsabilidade fiscal. A aproximação com os municípios reduziu distâncias e acelerou soluções para demandas históricas.",
+        "pagina": 3
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Municipalismo \"Pé na Tábua\": aperfeiçoar as transferências de recursos e convênios simplificados com as 295 prefeituras catarinenses, garantindo autonomia aos prefeitos para realizar obras.",
+        "pagina": 20
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "3. SAÚDE E BEM-ESTAR. Fila Zero: fortalecer a Tabela Catarinense de Cirurgias e o Programa de Valorização dos Hospitais Filantrópicos e Municipais, assegurando as condições para continuar a reduzir ainda mais o tempo de espera por exames e cirurgias eletivas.",
+        "pagina": 17
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "2. SEGURANÇA PÚBLICA, GESTÃO PENAL, PROTEÇÃO E DEFESA CIVIL. Manter Santa Catarina como o Estado mais seguro do Brasil por meio do combate firme à criminalidade, inteligência policial, valorização das forças de segurança.",
+        "pagina": 16
+      }
+    ]
+  }
+}

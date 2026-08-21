@@ -1,0 +1,86 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 5: AGRONEGÓCIO E AGRICULTURA FAMILIAR - Produzir com sustentabilidade, agregar valor e gerar oportunidades no campo.", "pagina": 33}
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4: PROTEÇÃO, INCLUSÃO E QUALIDADE DE VIDA: um Acre que cuida das pessoas e amplia oportunidades. Uma sociedade forte é aquela que protege quem mais precisa.", "pagina": 27}
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6: ECONOMIA DO FUTURO: Inovação, Empreendedorismo e Desenvolvimento Regional. Quando inovação, empreendedorismo e desenvolvimento caminham juntos.", "pagina": 39}
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Pacto Acre pela Educação, Ciência, Cultura e Desenvolvimento fortalecerá a cooperação entre Estado, municípios, universidades, instituições de pesquisa, setor produtivo e sociedade civil.", "pagina": 8}
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 4: PROTEÇÃO, INCLUSÃO E QUALIDADE DE VIDA: um Acre que cuida das pessoas e amplia oportunidades.", "pagina": 27}
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 6: ECONOMIA DO FUTURO: Inovação, Empreendedorismo e Desenvolvimento Regional.", "pagina": 39}
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 1: EDUCAÇÃO QUE TRANSFORMA VIDAS E PREPARA O ACRE PARA O FUTURO. Conhecimento, Inovação, Identidade e Oportunidades.", "pagina": 7}
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 10: Gestão Inteligente, Transparente e Digital - Planejamento estratégico, inovação, equilíbrio fiscal e transformação digital. Governar bem é fazer o dinheiro público render mais.", "pagina": 61}
+    ]
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 8: HABITAÇÃO, DESENVOLVIMENTO URBANO, SANEAMENTO E MOBILIDADE: cidades mais organizadas, inclusivas, resilientes e preparadas para o futuro.", "pagina": 51}
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 9: Meio Ambiente, Sustentabilidade e Resiliência Climática - Conservação da floresta, desenvolvimento sustentável e adaptação [às mudanças climáticas].", "pagina": 56}
+    ]
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "PROGRAMA 6 – Governança, Gestão e Cooperação. Modernizar a Gestão Pública da Educação, Ciência e Cultura, fortalecendo sistemas de gestão, governança de dados, monitoramento de indicadores, transparência.", "pagina": 12}
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "O Pacto Acre pela Educação, Ciência, Cultura e Desenvolvimento fortalecerá a cooperação entre Estado, municípios, universidades, instituições de pesquisa, setor produtivo e sociedade civil.", "pagina": 8}
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 2: SAÚDE PERTO DAS PESSOAS. Mais cuidado, mais qualidade de vida e um sistema preparado para o futuro.", "pagina": 13}
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {"texto": "EIXO 3: SEGURANÇA PARA VIVER EM PAZ: proteção, inteligência e presença do Estado em todas as regiões.", "pagina": 21}
+    ]
+  }
+}

@@ -17,6 +17,8 @@ services:
       --candidatos-governador ../dados_publicos/candidatos_governador
       --planos-governador ../dados_publicos/planos_de_governo_governador
       --planos-curados-governador ../dados_publicos/planos_curados_governador
+      --fotos ../dados_publicos/fotos_candidatos
+      --fotos-governador ../dados_publicos/fotos_candidatos_governador
       --host 0.0.0.0
       --porta $PORT
     envVars:

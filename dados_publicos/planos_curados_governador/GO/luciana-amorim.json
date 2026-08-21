@@ -1,0 +1,116 @@
+{
+  "agropecuaria_e_desenvolvimento_rural": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Defesa irrestrita da agricultura familiar e fortalecimento da política de investimento e proteção a esse setor.",
+        "pagina": 10
+      }
+    ]
+  },
+  "assistencia_social_e_combate_a_pobreza": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Construir lavanderias coletivas e restaurantes populares para as pessoas em situação de fome e desemprego.",
+        "pagina": 12
+      }
+    ]
+  },
+  "ciencia_tecnologia_e_inovacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Política Estadual de Educação, Ciência e Tecnologia: ampliar a rede de escolas públicas de ensino fundamental, médio, técnico (COTECs e Escolas do Futuro), em especial nas periferias das grandes cidades e no interior do estado.",
+        "pagina": 13
+      }
+    ]
+  },
+  "cultura": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação do Circuito Cultural Goiano como um programa estadual que visa promover a difusão das manifestações artísticas e culturais de Goiás de forma descentralizada.",
+        "pagina": 15
+      }
+    ]
+  },
+  "direitos_humanos_e_igualdade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Fim da discriminação das mulheres; direitos iguais; fim do racismo e da discriminação ao povo negro (...) Lutar contra todas as manifestações LGBTfóbicas.",
+        "pagina": 16
+      }
+    ]
+  },
+  "economia_e_emprego": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Criação de frentes emergenciais de trabalho, nos bairros pobres e interiores de todo o estado, com obras de infraestrutura (...) para a geração de milhares de empregos.",
+        "pagina": 9
+      }
+    ]
+  },
+  "educacao": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Efetivar um plano estadual da Escola Básica Integral; Realização de um novo Concurso Público a fim de suprir o déficit de profissionais da educação em Goiás.",
+        "pagina": 13
+      }
+    ]
+  },
+  "gestao_fiscal_e_divida_publica": {
+    "status": "nao_consta"
+  },
+  "infraestrutura_e_mobilidade": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Estruturar as cidades a partir do planejamento territorial, da política habitacional e da mobilidade urbana com investimentos massivos especialmente nas periferias urbanas e assentamentos precarizados.",
+        "pagina": 11
+      }
+    ]
+  },
+  "meio_ambiente_e_clima": {
+    "status": "nao_consta"
+  },
+  "reforma_politica_e_institucional": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Prisão para todos os corruptos e corruptores.",
+        "pagina": 22
+      }
+    ]
+  },
+  "relacoes_federativas_e_municipios": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Apoiar os municípios em seus planos de acessibilidade.",
+        "pagina": 22
+      }
+    ]
+  },
+  "saude": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Construção de Centros Regionais de Saúde de Especialização Médica (...) Em defesa do Sistema Único de Saúde (SUS). Pelo fim das organizações sociais na saúde do estado.",
+        "pagina": 21
+      }
+    ]
+  },
+  "seguranca_publica": {
+    "status": "consta",
+    "trechos": [
+      {
+        "texto": "Combate ao crime organizado com as forças de inteligência do estado; defesa de câmera nas fardas da Polícia Militar em todo o estado.",
+        "pagina": 20
+      }
+    ]
+  }
+}
