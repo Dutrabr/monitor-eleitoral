@@ -1363,6 +1363,43 @@ e quase publicou fala de terceiros como se fosse do candidato. Nao
 mudei a UI do `site_revisao.py` ainda (seria exigir explicitamente o
 campo falante pra CONFIRMADO em video multi-falante) — fica registrado
 como ideia pro dono decidir se vale a pena, dado que repetiu 4 vezes.
+
+Tentado (2026-08-22): configurar sessao real do Instagram pra' destravar
+os candidatos de Governador que so' tem Instagram cadastrado (Aroldo
+Felix e Ronaldo Mansur, na Bahia). Login feito com sucesso pelo dono
+(`instaloader --login dutrajoaoc`, direto no terminal — passou por um
+checkpoint de seguranca do Instagram, resolvido completando a
+verificacao pelo app no celular), sessao salva em `~/.config/
+instaloader/session-dutrajoaoc` e `INSTAGRAM_USUARIO` persistido no
+`~/.zshrc`.
+
+**Mesmo com sessao logada, a coleta ainda falhou** — dois problemas
+reais, nao contornados:
+1. `instaloader.Profile.from_username` quebrou com `400 Bad Request`
+   ("Asset asset://laser.provider/ig_business_category_subvertical has
+   been deleted. You cannot use this schema") ao tentar listar o
+   perfil do Aroldo Felix pra achar um Reel real — parece bug do lado
+   do Instagram (mudanca de schema na API), nao da sessao/login (a
+   versao do instaloader instalada, 4.15.3, ja' e' a mais recente do
+   PyPI). Nao afeta necessariamente `Post.from_shortcode` (usado por
+   `coletar_instagram.baixar` quando ja se tem a URL do Reel) — so' o
+   caminho de LISTAR o perfil pra achar qual Reel baixar que quebrou.
+2. Tentativas repetidas em sequencia (Python direto + CLI) dispararam
+   rate-limit real do Instagram (`401 Unauthorized ... "Please wait a
+   few minutes before you try again"`) — parei na hora (matei o
+   processo) pra' nao arriscar bloqueio mais serio da conta pessoal do
+   dono usada pro login.
+
+**Confirma o risco que ja' estava documentado**: mesmo com login real
+(nao anonimo), a coleta via Instagram segue instavel. Pausado por
+agora — proxima tentativa precisa (a) esperar um tempo real antes de
+tentar de novo, (b) achar a URL do Reel por outro caminho que nao
+dependa de `Profile.from_username` (ex: abrir o perfil manualmente
+numa sessao de navegador ja' logada do dono, copiar a URL do Reel a
+mao, e so' entao chamar `coletar_instagram.baixar` direto com essa URL
+— nunca listar o perfil programaticamente), e (c) espacar tentativas
+pra' nao repetir o rate-limit.
+
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e
