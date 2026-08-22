@@ -1264,6 +1264,79 @@ planos de Governador exportados caiu de 190 pra' 189 (o numero certo,
 sem o documento invalido). Suite de testes rodada de novo: 151 passam,
 mesmas 5 falhas pre-existentes de `python-multipart`.
 
+Pronto (2026-08-22): piloto de coleta de video pra Governador comecado
+— Bahia, 7 candidatos. So' 2 dos 7 tem canal do YouTube cadastrado no
+proprio registro do TSE (campo `sites`, achado via `fetch()` numa
+sessao real do navegador contra `buscar/.../candidato/{id}` — a mesma
+API bloqueia `curl`/`requests` direto com 403 do Akamai, mesmo padrao
+documentado em 2026-08-19): ACM Neto e Jeronimo Rodrigues. Aroldo Felix
+e Ronaldo Mansur so' tem Instagram cadastrado (nao coletado nesta
+sessao — sessao anonima do instaloader e' instavel e arrisca bloqueio
+anti-bot, precisa de login real primeiro, ver `coletar_instagram.py`).
+Ariel Capistrano, Estevao e Maria Bona nao tem rede social nenhuma
+cadastrada no TSE — fora de escopo, nunca busca generica.
+
+**ACM Neto**: video curto (137s, "TEMOS PROPOSTAS PARA MUDAR A BAHIA!")
+com fala unica dele — os 4 sinais de confianca do Whisper mais
+`video_e_falante_unico` bateram nos 53 segmentos inteiros, entao a
+auto-aprovacao (ver excecao de 2026-08-19) confirmou tudo automatico,
+zero necessidade de revisao humana ouvindo o audio. Publicado direto
+(53 citacoes, `falante=candidato_acm_neto`).
+
+**Jeronimo Rodrigues**: video de 61s ("JERO TEM O MOLHO, LULA TEM O
+MOLHO") e' um jingle/paródia com 3 falantes — `video_e_falante_unico`
+bloqueou a auto-aprovacao corretamente (regra explicita: nunca em video
+multi-falante), caiu na revisao humana normal. Ainda pendente de revisao
+do dono do projeto.
+
+**Achado tecnico real**: nesta maquina faltava `HF_TOKEN` no ambiente
+(nao estava em nenhum arquivo de config, nem `~/.zshrc`, nem keychain —
+so' tinha sido exportado manualmente em sessoes anteriores, sem
+persistir). Sem ele, `diarizar.py` degrada do jeito certo pela regra 5
+(nunca descarta diarizacao silenciosamente — tudo vai pra revisao
+humana obrigatoria), mas SEM diarizacao a auto-aprovacao tambem nunca
+qualifica nenhum segmento (`video_e_falante_unico` exige saber quantos
+falantes tem). Primeira tentativa do ACM Neto rodou sem token e virou
+53 segmentos pra revisao manual — regravado depois com o token
+configurado e virou auto-aprovacao completa. Token agora persistido em
+`~/.zshrc` (`export HF_TOKEN=...`), sobrevive a reinicio do terminal.
+
+Pronto (2026-08-22): espaco de patrocinio curado a mao no rodape do
+site publico. Pedido do dono ("colocar propaganda pra fazer dinheiro"),
+decidido junto com ele: **nunca rede de anuncio automatica** (tipo
+Google AdSense) — anuncio programatico costuma exibir propaganda
+politica contextual, e o site promete no proprio topo "sem vinculo com
+partidos ou campanhas" (regra 1 e 3). Formato escolhido: logo + link,
+so' no rodape, em todas as paginas.
+
+- `dados/patrocinadores.json` (fora do git, hand-edited pelo dono, lista
+  vazia por padrao — nenhum patrocinador de mentira foi inventado) +
+  `dados/patrocinadores/{logo_arquivo}` (os arquivos de logo). Schema:
+  `{"nome":..., "url":..., "logo_arquivo":...}`, validado por
+  `candidatos.carregar_patrocinadores` (levanta erro se faltar campo).
+- **Regra editorial nova, nao tecnica** (mesmo espirito de
+  `carregar_plano_curado`): quem cura esse arquivo (o dono) nunca aceita
+  patrocinador ligado a candidato, partido ou campanha — isso quebraria
+  a regra 3 (simetria total) na journada. Nao ha checagem automatica
+  disso no codigo, e' julgamento humano na hora de editar o arquivo.
+- `site_publico.py`: `criar_app()` ganhou `caminho_patrocinadores` e
+  `pasta_patrocinadores_logos`; a lista carrega uma vez no startup e
+  fica disponivel em TODOS os templates via `templates.env.globals`
+  (nao precisa passar contexto rota por rota); rota `/patrocinador-logo/
+  {arquivo}` serve as imagens via `StaticFiles` (so' monta se a pasta
+  existir). `--patrocinadores` e `--patrocinadores-logos` na CLI.
+- `base.html`: secao `.apoio-rodape` no fim do rodape, atras de
+  `{% if patrocinadores %}` — sem patrocinador nenhum (estado atual),
+  nao aparece nada, footer identico a antes. Link com
+  `rel="sponsored"` (divulga pra buscador que e' link pago, pratica
+  correta de SEO/transparencia).
+- `exportar_dados_publicos.py` e `render.yaml` atualizados pra levar
+  `patrocinadores.json` + pasta de logos pro deploy publico junto com o
+  resto. 3 testes novos em `test_candidatos.py`.
+- **Nenhum patrocinador real foi cadastrado ainda** — a infraestrutura
+  esta pronta, mas `dados/patrocinadores.json` nao existe ainda (o dono
+  precisa criar o arquivo com o primeiro patrocinador quando tiver um).
+
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e

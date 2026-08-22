@@ -22,6 +22,13 @@ subdiretorio certo ou mistura a curadoria de duas pessoas diferentes):
   - dados/planos_curados_governador/{uf}/*.json     -> dados_publicos/planos_curados_governador/{uf}/
   - dados/fotos_candidatos_governador/{uf}/*.jpg    -> dados_publicos/fotos_candidatos_governador/{uf}/
 
+E patrocinadores curados a mao (rodape do site, nunca rede de anuncio
+automatica — ver nota em CLAUDE.md sobre a regra de nunca aceitar
+patrocinador ligado a candidato/partido/campanha):
+
+  - dados/patrocinadores.json  -> dados_publicos/patrocinadores.json
+  - dados/patrocinadores/*     -> dados_publicos/patrocinadores/ (logos)
+
 Nao copia .wav, .mp4, .decisoes.json, .fila_revisao.json nem MANIFESTO.json
 — isso e' prova de custodia interna, nunca foi feito pra sair da maquina
 de quem revisa.
@@ -34,6 +41,7 @@ tema curado, novo candidato) antes de commitar/dar push pro deploy.
 
 from __future__ import annotations
 
+import json
 import shutil
 from pathlib import Path
 
@@ -76,7 +84,7 @@ def main() -> int:
     _limpar_e_copiar([
         "candidatos", "planos_de_governo", "planos_curados", "transcricoes", "fotos_candidatos",
         "candidatos_governador", "planos_de_governo_governador", "planos_curados_governador",
-        "fotos_candidatos_governador",
+        "fotos_candidatos_governador", "patrocinadores",
     ])
 
     n_candidatos = 0
@@ -119,6 +127,15 @@ def main() -> int:
         ORIGEM / "fotos_candidatos_governador", DESTINO / "fotos_candidatos_governador", "jpg"
     )
 
+    n_patrocinadores = 0
+    if (ORIGEM / "patrocinadores.json").exists():
+        shutil.copy2(ORIGEM / "patrocinadores.json", DESTINO / "patrocinadores.json")
+        n_patrocinadores = len(json.loads((ORIGEM / "patrocinadores.json").read_text()))
+    if (ORIGEM / "patrocinadores").exists():
+        for f in (ORIGEM / "patrocinadores").iterdir():
+            if f.is_file():
+                shutil.copy2(f, DESTINO / "patrocinadores" / f.name)
+
     print(f"candidatos (Presidente): {n_candidatos}")
     print(f"planos de governo (PDF, Presidente): {n_planos}")
     print(f"planos curados (Presidente): {n_curados}")
@@ -128,6 +145,7 @@ def main() -> int:
     print(f"planos de governo (PDF, Governador): {n_planos_gov}")
     print(f"planos curados (Governador): {n_curados_gov}")
     print(f"fotos de candidatos (Governador): {n_fotos_gov}")
+    print(f"patrocinadores: {n_patrocinadores}")
     print(f"\nexportado pra {DESTINO} — revise o 'git status' antes de commitar.")
     return 0
 

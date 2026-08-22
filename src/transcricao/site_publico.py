@@ -33,6 +33,7 @@ from .candidatos import (
     agrupar_por_tema,
     carregar_candidatos,
     carregar_candidatos_por_uf,
+    carregar_patrocinadores,
     carregar_plano_curado,
     citacoes_do_candidato,
     citacoes_para_linhas,
@@ -62,6 +63,8 @@ def criar_app(
     pasta_planos_curados_governador: Path | None = None,
     pasta_fotos: Path | None = None,
     pasta_fotos_governador: Path | None = None,
+    caminho_patrocinadores: Path | None = None,
+    pasta_patrocinadores_logos: Path | None = None,
 ) -> FastAPI:
     pasta_candidatos = Path(pasta_candidatos)
     pasta_dados = Path(pasta_dados)
@@ -89,9 +92,24 @@ def criar_app(
         Path(pasta_fotos_governador) if pasta_fotos_governador
         else pasta_candidatos.parent / "fotos_candidatos_governador"
     )
+    caminho_patrocinadores = (
+        Path(caminho_patrocinadores) if caminho_patrocinadores
+        else pasta_candidatos.parent / "patrocinadores.json"
+    )
+    pasta_patrocinadores_logos = (
+        Path(pasta_patrocinadores_logos) if pasta_patrocinadores_logos
+        else pasta_candidatos.parent / "patrocinadores"
+    )
     templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
     app = FastAPI(title="Monitor Eleitoral")
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+    if pasta_patrocinadores_logos.exists():
+        app.mount(
+            "/patrocinador-logo",
+            StaticFiles(directory=str(pasta_patrocinadores_logos)),
+            name="patrocinador_logo",
+        )
+    templates.env.globals["patrocinadores"] = carregar_patrocinadores(caminho_patrocinadores)
 
     def _candidatos() -> list[dict[str, Any]]:
         if not pasta_candidatos.exists():
@@ -490,6 +508,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument(
         "--fotos-governador", type=Path, default=Path("dados/fotos_candidatos_governador")
     )
+    ap.add_argument("--patrocinadores", type=Path, default=Path("dados/patrocinadores.json"))
+    ap.add_argument("--patrocinadores-logos", type=Path, default=Path("dados/patrocinadores"))
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--porta", type=int, default=8001)
     args = ap.parse_args(argv)
@@ -504,6 +524,8 @@ def main(argv: list[str] | None = None) -> int:
         args.planos_curados_governador,
         args.fotos,
         args.fotos_governador,
+        args.patrocinadores,
+        args.patrocinadores_logos,
     )
     uvicorn.run(app, host=args.host, port=args.porta)
     return 0

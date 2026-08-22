@@ -160,6 +160,28 @@ def carregar_plano_curado(pasta_planos_curados: Path, slug: str) -> dict[str, di
     return dados
 
 
+def carregar_patrocinadores(caminho: Path) -> list[dict[str, Any]]:
+    """Le a lista de patrocinadores curados a mao pelo dono do projeto.
+
+    Sem arquivo: devolve `[]` (nenhum patrocinador ainda — nao e' erro).
+    Cada entrada precisa de `nome`, `url` e `logo_arquivo` (nome do
+    arquivo dentro da pasta de logos de patrocinador, nunca inventado).
+    Nunca aceita patrocinador ligado a candidato, partido ou campanha —
+    essa e' uma decisao editorial de quem cura o arquivo, nao uma checagem
+    automatica (mesmo espirito de `carregar_plano_curado`: confiar no
+    julgamento humano registrado no arquivo, nao tentar adivinhar).
+    """
+    caminho = Path(caminho)
+    if not caminho.exists():
+        return []
+    patrocinadores = json.loads(caminho.read_text(encoding="utf-8"))
+    for p in patrocinadores:
+        faltando = {"nome", "url", "logo_arquivo"} - p.keys()
+        if faltando:
+            raise ValueError(f"{caminho}: patrocinador {p} sem campo(s) {sorted(faltando)}")
+    return patrocinadores
+
+
 def agrupar_por_tema(
     citacoes: list[dict[str, Any]]
 ) -> dict[str, list[dict[str, Any]]]:

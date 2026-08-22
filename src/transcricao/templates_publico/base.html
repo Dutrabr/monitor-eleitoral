@@ -258,6 +258,12 @@
   footer.rodape a:hover { color: var(--teal-claro); }
   footer.rodape .links-rodape { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; margin-bottom: 1.25rem; }
   footer.rodape p { color: rgba(255,255,255,.6); max-width: 62ch; }
+  .apoio-rodape { border-top: 1px solid rgba(255,255,255,.12); margin-top: 1.75rem; padding-top: 1.5rem; }
+  .apoio-rodape .rotulo { display: block; font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: .75rem; }
+  .apoio-rodape .lista { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; }
+  .apoio-rodape .lista a { display: inline-flex; align-items: center; opacity: .85; }
+  .apoio-rodape .lista a:hover { opacity: 1; }
+  .apoio-rodape .lista img { height: 28px; width: auto; max-width: 140px; object-fit: contain; }
 
   @media (max-width: 767px) {
     .comparacao-abas { display: flex; }
@@ -326,6 +332,18 @@
       recomendação de voto. Todos os candidatos com registro deferido aparecem, sem exceção,
       em ordem de número de urna.
     </p>
+    {% if patrocinadores %}
+    <div class="apoio-rodape">
+      <span class="rotulo">Apoio</span>
+      <div class="lista">
+        {% for p in patrocinadores %}
+        <a href="{{ p.url }}" target="_blank" rel="noopener sponsored" title="{{ p.nome }}">
+          <img src="/patrocinador-logo/{{ p.logo_arquivo }}" alt="{{ p.nome }}" loading="lazy">
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
   </div>
 </footer>
 <script>

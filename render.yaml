@@ -19,6 +19,8 @@ services:
       --planos-curados-governador ../dados_publicos/planos_curados_governador
       --fotos ../dados_publicos/fotos_candidatos
       --fotos-governador ../dados_publicos/fotos_candidatos_governador
+      --patrocinadores ../dados_publicos/patrocinadores.json
+      --patrocinadores-logos ../dados_publicos/patrocinadores
       --host 0.0.0.0
       --porta $PORT
     envVars:

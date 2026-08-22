@@ -10,6 +10,7 @@ from transcricao.candidatos import (
     TEMA_SEM_CLASSIFICACAO,
     agrupar_por_tema,
     carregar_candidatos,
+    carregar_patrocinadores,
     carregar_plano_curado,
     citacoes_do_candidato,
     citacoes_para_linhas,
@@ -132,6 +133,29 @@ def test_carregar_plano_curado_status_invalido_levanta_erro(tmp_path):
     )
     with pytest.raises(ValueError, match="status invalido"):
         carregar_plano_curado(tmp_path, "fulano")
+
+
+def test_carregar_patrocinadores_sem_arquivo_devolve_vazio(tmp_path):
+    assert carregar_patrocinadores(tmp_path / "patrocinadores.json") == []
+
+
+def test_carregar_patrocinadores_le_lista(tmp_path):
+    caminho = tmp_path / "patrocinadores.json"
+    caminho.write_text(
+        json.dumps([{"nome": "Empresa X", "url": "https://x.example", "logo_arquivo": "x.svg"}]),
+        encoding="utf-8",
+    )
+    patrocinadores = carregar_patrocinadores(caminho)
+    assert patrocinadores == [
+        {"nome": "Empresa X", "url": "https://x.example", "logo_arquivo": "x.svg"}
+    ]
+
+
+def test_carregar_patrocinadores_campo_faltando_levanta_erro(tmp_path):
+    caminho = tmp_path / "patrocinadores.json"
+    caminho.write_text(json.dumps([{"nome": "Empresa X"}]), encoding="utf-8")
+    with pytest.raises(ValueError, match="logo_arquivo"):
+        carregar_patrocinadores(caminho)
 
 
 def test_citacoes_para_linhas_achata_por_candidato():

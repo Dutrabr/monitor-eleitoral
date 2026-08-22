@@ -321,3 +321,18 @@ Governador, ganhou um `{% if candidato.uf %}` pra escolher a rota
 certa; candidato de Presidente não tem campo `uf`, então cai no `/foto/
 {slug}` de sempre). Mesmo fallback `onerror="this.remove()"` de sempre
 se a foto faltar.
+
+**2026-08-22 — espaço de patrocínio no rodapé.** Nova seção
+`.apoio-rodape` no fim de `footer.rodape`, atrás de um separador sutil
+(`border-top: 1px solid rgba(255,255,255,.12)`) pra não se misturar com
+o texto de isenção de responsabilidade logo acima. Rótulo "Apoio" em
+uppercase pequeno e opaco (mesmo padrão visual dos eyebrows já usados
+no site), logos em escala de cinza-neutra por padrão do próprio design
+do rodapé escuro (`--grafite`), `opacity: .85` subindo pra `1` no
+hover — discreto, nunca compete visualmente com o conteúdo de
+comparação de candidatos. Sem patrocinador cadastrado (estado atual),
+a seção inteira não renderiza (`{% if patrocinadores %}`) — rodapé
+fica idêntico ao de antes. Ver nota completa em `CLAUDE.md` (2026-08-22)
+sobre a decisão de nunca usar rede de anúncio automática, só
+patrocínio curado a mão pelo dono, e a regra editorial de nunca aceitar
+patrocinador ligado a candidato/partido/campanha.
