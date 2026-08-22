@@ -1337,6 +1337,32 @@ so' no rodape, em todas as paginas.
   esta pronta, mas `dados/patrocinadores.json` nao existe ainda (o dono
   precisa criar o arquivo com o primeiro patrocinador quando tiver um).
 
+Corrigido (2026-08-22): o video do Jeronimo Rodrigues (piloto de
+Governador, ver nota acima) foi confirmado e publicado no
+`site_revisao.py` pelo dono com os 13 segmentos ainda com rotulo bruto
+da diarizacao (SPEAKER_00/01/02), sem mapear pra `candidato_jeronimo_
+rodrigues`. Perguntei antes de deixar publicado — o dono confirmou que
+**nenhuma das 3 vozes e' dele**: e' um jingle de campanha cantado por
+outras pessoas ("Eu to' com o Gero no 13 de novo"), nao o candidato
+falando. Corrigido: `.publicado.json` removido (nunca chegou a
+`dados_publicos/` nem a git — apagado antes de qualquer export), os 13
+segmentos trocados de CONFIRMADO pra REJEITADO em `.decisoes.json` via
+`revisao.registrar_decisao` (rejeitar so' marca, nao apaga — trilha de
+auditoria preservada).
+
+**Este e' o QUARTO caso do mesmo padrao** (depois de Hertz Dias, Samara
+e Veterinario Wilson Grassi, todos em 2026-08-19): `site_revisao.py`
+deixa confirmar o TEXTO de um segmento sem forcar confirmar quem esta'
+falando, entao "confirmar tudo" pode significar so' "a transcricao esta'
+certa" sem o revisor necessariamente ter validado a atribuicao de
+falante — perigoso especificamente em video com mais de uma voz. Nos 3
+casos anteriores o gap era favoravel (faltava so' preencher o
+`falante_confirmado` que a diarizacao deixou em branco, e era mesmo o
+candidato); neste foi o oposto — o revisor aprovou o texto rapido demais
+e quase publicou fala de terceiros como se fosse do candidato. Nao
+mudei a UI do `site_revisao.py` ainda (seria exigir explicitamente o
+campo falante pra CONFIRMADO em video multi-falante) — fica registrado
+como ideia pro dono decidir se vale a pena, dado que repetiu 4 vezes.
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e

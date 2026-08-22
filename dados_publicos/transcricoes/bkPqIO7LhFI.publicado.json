@@ -1,0 +1,217 @@
+{
+  "arquivo": "bkPqIO7LhFI.mp4",
+  "hash_sha256_original": "7a7560a15232cfd750e3a9901b32f6ed4284de8dcae03cab5925c95ec6963540",
+  "url": "https://www.youtube.com/watch?v=bkPqIO7LhFI",
+  "publicado_em": "2026-08-02T00:00:00+00:00",
+  "coletado_em": "2026-08-22T15:23:41+00:00",
+  "citacoes": [
+    {
+      "inicio": 3.61,
+      "fim": 3.77,
+      "timestamp": "00:00:03",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "A",
+      "temas": []
+    },
+    {
+      "inicio": 3.77,
+      "fim": 4.69,
+      "timestamp": "00:00:03",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Bahia mudou.",
+      "temas": []
+    },
+    {
+      "inicio": 5.45,
+      "fim": 10.21,
+      "timestamp": "00:00:05",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "E mudou porque nos últimos anos escolheu a mudança.",
+      "temas": []
+    },
+    {
+      "inicio": 10.57,
+      "fim": 10.95,
+      "timestamp": "00:00:10",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "A",
+      "temas": []
+    },
+    {
+      "inicio": 12.31,
+      "fim": 14.95,
+      "timestamp": "00:00:12",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "gente venceu quem se achava dono do pedaço",
+      "temas": []
+    },
+    {
+      "inicio": 14.95,
+      "fim": 18.21,
+      "timestamp": "00:00:14",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "e mostrou que política não é negócio de família.",
+      "temas": []
+    },
+    {
+      "inicio": 18.71,
+      "fim": 19.09,
+      "timestamp": "00:00:18",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Só",
+      "temas": []
+    },
+    {
+      "inicio": 20.8,
+      "fim": 24.56,
+      "timestamp": "00:00:20",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "que mudança a gente constrói passo a passo.",
+      "temas": []
+    },
+    {
+      "inicio": 24.84,
+      "fim": 28.8,
+      "timestamp": "00:00:24",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "E o primeiro foi trabalhar junto com o presidente Lula,",
+      "temas": []
+    },
+    {
+      "inicio": 28.9,
+      "fim": 32.64,
+      "timestamp": "00:00:28",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "desafiar velhos privilégios e olhar para a Bahia toda.",
+      "temas": []
+    },
+    {
+      "inicio": 32.64,
+      "fim": 37.82,
+      "timestamp": "00:00:32",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Depois foi trazer mais investimento para a mudança ganhar velocidade, força.",
+      "temas": []
+    },
+    {
+      "inicio": 38.18,
+      "fim": 42.68,
+      "timestamp": "00:00:38",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "E aí com mais entrega que ponta, mais presença que discurso,",
+      "temas": []
+    },
+    {
+      "inicio": 42.72,
+      "fim": 47.98,
+      "timestamp": "00:00:42",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "ela foi chegando a cada território, cada município, cada um, cada uma.",
+      "temas": []
+    },
+    {
+      "inicio": 50.96,
+      "fim": 55.04,
+      "timestamp": "00:00:50",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Agora vem época de eleição e qualquer um acha que pode falar de mudança.",
+      "temas": []
+    },
+    {
+      "inicio": 55.8,
+      "fim": 58.9,
+      "timestamp": "00:00:55",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Mas foi Jerônimo que fez o VLT no subúrbio de Salvador,",
+      "temas": []
+    },
+    {
+      "inicio": 59.1,
+      "fim": 62.8,
+      "timestamp": "00:00:59",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "que agora tem transporte de primeiro mundo até a Cidade Baixa.",
+      "temas": []
+    },
+    {
+      "inicio": 63.08,
+      "fim": 64.62,
+      "timestamp": "00:01:03",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Isso é mudança!",
+      "temas": []
+    },
+    {
+      "inicio": 65.38,
+      "fim": 67.42,
+      "timestamp": "00:01:05",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Porque falar de mudança é fácil.",
+      "temas": []
+    },
+    {
+      "inicio": 68.24,
+      "fim": 73.06,
+      "timestamp": "00:01:08",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Difícil é criar e multiplicar uma rede de ensino integral em toda a Bahia.",
+      "temas": []
+    },
+    {
+      "inicio": 73.26,
+      "fim": 74.22,
+      "timestamp": "00:01:13",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Jerônimo fez.",
+      "temas": []
+    },
+    {
+      "inicio": 74.58,
+      "fim": 77.63,
+      "timestamp": "00:01:14",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Isso é mudança.",
+      "temas": []
+    },
+    {
+      "inicio": 79.04,
+      "fim": 82.42,
+      "timestamp": "00:01:19",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "É que a mudança, mudança de verdade, está na gente.",
+      "temas": []
+    },
+    {
+      "inicio": 83.1,
+      "fim": 87.08,
+      "timestamp": "00:01:23",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "E quando a gente muda, a Bahía muda junto.",
+      "temas": []
+    },
+    {
+      "inicio": 87.62,
+      "fim": 87.98,
+      "timestamp": "00:01:27",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "A",
+      "temas": []
+    },
+    {
+      "inicio": 94.62,
+      "fim": 95.54,
+      "timestamp": "00:01:34",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "Bahia mudou.",
+      "temas": []
+    },
+    {
+      "inicio": 95.56,
+      "fim": 97.18,
+      "timestamp": "00:01:35",
+      "falante": "candidato_jeronimo_rodrigues",
+      "texto": "E vai mudar mais.",
+      "temas": []
+    }
+  ]
+}
