@@ -1400,6 +1400,38 @@ mao, e so' entao chamar `coletar_instagram.baixar` direto com essa URL
 — nunca listar o perfil programaticamente), e (c) espacar tentativas
 pra' nao repetir o rate-limit.
 
+Resolvido (2026-08-22): a opcao (b) acima funcionou. O dono sugeriu
+usar `fastdl.app` (tecnica de uma automacao pessoal dele fora deste
+projeto, `PROJETO_INFLUENCIADORES/Download_feed2.py`) pra' contornar o
+gargalo de achar o link manualmente — **recusado**: `fastdl.app` ja'
+era "fora de escopo, por decisao" (ver secao no fim deste arquivo) por
+quebrar cadeia de custodia e re-encodar o audio, e isso nao muda so'
+porque guardaria o link do Instagram como "fonte" — o ARQUIVO que seria
+hasheado e transcrito nao seria mais o que saiu direto do Instagram.
+Expliquei o motivo pro dono, ele concordou em nao usar.
+
+Em vez disso, funcionou achar a URL real do Reel clicando de verdade
+na miniatura da grade do perfil (`/reels/` do perfil), via Claude in
+Chrome — Instagram nao expoe a URL do Reel como `href` estatico no
+HTML (rota client-side, so' resolve no clique), mas um clique real
+muda a URL da aba pro link certo (`/reel/{shortcode}/`), que dá pra'
+usar direto em `coletar_instagram.baixar` — mantendo o download vindo
+do CDN oficial do Instagram via `instaloader`, cadeia de custodia
+intacta. Precisa do navegador **logado** no Instagram (sessao real do
+dono, nao a sessao do `instaloader` via terminal, que e' separada) —
+sem login, a grade nem carrega miniatura.
+
+Com essa tecnica, coletados e publicados: **Aroldo Felix** (13
+citacoes, Reel dele se identificando no protesto na UFBA) e **Ronaldo
+Mansur** (22 citacoes, trecho de entrevista a' TV Band Bahia, falante
+unico apesar de ser formato de entrevista — o Reel so' recortou a
+resposta dele). Com isso, **Bahia esta' no maximo possivel dado o
+registro do TSE**: 4 dos 7 candidatos com citacao real (ACM Neto,
+Jeronimo Rodrigues, Aroldo Felix, Ronaldo Mansur) — os outros 3 (Ariel
+Capistrano, Estevao, Maria Bona) nao tem NENHUMA rede social cadastrada
+no TSE, fora de escopo por falta de fonte oficial, nao por limitacao
+tecnica.
+
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e
