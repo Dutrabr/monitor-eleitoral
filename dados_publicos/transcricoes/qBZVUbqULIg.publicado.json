@@ -1,0 +1,65 @@
+{
+  "arquivo": "qBZVUbqULIg.mp4",
+  "hash_sha256_original": "fab86fc8cee80fc642d147506c955c944fba3fcca071a17f4fa7de94b8f5abc4",
+  "url": "https://www.youtube.com/watch?v=qBZVUbqULIg",
+  "publicado_em": "2023-06-14T00:00:00+00:00",
+  "coletado_em": "2026-08-23T21:24:10+00:00",
+  "citacoes": [
+    {
+      "inicio": 0.25,
+      "fim": 7.07,
+      "timestamp": "00:00:00",
+      "falante": "candidato_omar_aziz",
+      "texto": "O PSD é reconhecido pela sua influência e capacidade de atuação nos grandes debates nacionais.",
+      "temas": []
+    },
+    {
+      "inicio": 7.21,
+      "fim": 10.43,
+      "timestamp": "00:00:07",
+      "falante": "candidato_omar_aziz",
+      "texto": "Foi com o PSD que eu governei o Amazonas.",
+      "temas": []
+    },
+    {
+      "inicio": 10.65,
+      "fim": 15.65,
+      "timestamp": "00:00:10",
+      "falante": "candidato_omar_aziz",
+      "texto": "Juntos, trabalhamos pela construção de mais de 30 mil casas populares,",
+      "temas": []
+    },
+    {
+      "inicio": 15.99,
+      "fim": 22.23,
+      "timestamp": "00:00:15",
+      "falante": "candidato_omar_aziz",
+      "texto": "pela valorização de todos os servidores e pelo forte investimento em segurança pública.",
+      "temas": []
+    },
+    {
+      "inicio": 22.53,
+      "fim": 23.89,
+      "timestamp": "00:00:22",
+      "falante": "candidato_omar_aziz",
+      "texto": "Venha para o nosso time.",
+      "temas": []
+    },
+    {
+      "inicio": 24.17,
+      "fim": 25.71,
+      "timestamp": "00:00:24",
+      "falante": "candidato_omar_aziz",
+      "texto": "Feliz seu PSD.",
+      "temas": []
+    },
+    {
+      "inicio": 25.87,
+      "fim": 29.31,
+      "timestamp": "00:00:25",
+      "falante": "candidato_omar_aziz",
+      "texto": "PSD, o nosso lado é o lado do Brasil.",
+      "temas": []
+    }
+  ]
+}
