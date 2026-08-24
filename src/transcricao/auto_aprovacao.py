@@ -1,4 +1,18 @@
-"""Auto-aprovacao de segmentos de alta confianca — excecao PARCIAL a regra 2.
+"""
+ATENCAO — limite conhecido desta funcao (achado em 2026-08-24):
+`video_e_falante_unico` responde "ha' UMA voz nesse video?", nao "essa
+voz e' a do candidato?". Um video narrado por locutor profissional tem
+uma voz so' e passa por aqui — foi assim que 5 pecas de campanha
+narradas em terceira pessoa ("Orleans casou, se tornou pai") foram
+publicadas como palavra do proprio candidato.
+
+Quem chama com `--falante-confirmado` esta' AFIRMANDO que a voz do video
+e' a do candidato. Antes de usar a flag, confira que o video e' o
+candidato falando, nao locutor/jingle/depoimento. Material desse tipo
+existe e e' legitimo publicar — mas como `tipo_material:
+"material_de_campanha"` (ver `revisao.montar_publicacao`), em secao
+separada, nunca como fala dele.
+Auto-aprovacao de segmentos de alta confianca — excecao PARCIAL a regra 2.
 
 Regra 2 do projeto (CLAUDE.md) e' que nenhuma citacao vai ao ar sem um
 humano ter ouvido o trecho. Esta excecao foi decisao explicita do dono do

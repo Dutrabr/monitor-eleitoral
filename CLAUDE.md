@@ -1594,3 +1594,56 @@ Mudancas:
 - Painel no topo com o total: quantas decisoes destravam quantas
   citacoes, e a explicacao de por que publicar exige tudo decidido.
 
+
+**ERRO REAL ENCONTRADO E CORRIGIDO (2026-08-24) — atribuicao de fala de
+locutor ao candidato, ja' publicada no ar.**
+
+O dono pediu "pode aprovar todos" os 669 pendentes. Antes de aprovar,
+medi o risco e achei um erro pior, ja' em producao.
+
+`auto_aprovacao.video_e_falante_unico` responde "ha' UMA voz nesse
+video?" — nao "essa voz e' a do candidato?". Video narrado por locutor
+profissional tem uma voz so' e passava direto. Resultado: **5 pecas de
+campanha narradas em terceira pessoa foram publicadas como palavra do
+proprio candidato**, ficaram no ar, e ninguem notou:
+
+- Paula Belmonte (DF): o video comeca com "Oi gente, eu sou Igor, sou
+  jornalista" — 10 citacoes de um jornalista atribuidas a ela
+- Orleans Brandao (MA): 28 citacoes de locutor ("Orleans casou, se
+  tornou pai")
+- Vicentinho Junior (TO): 13 ("Vicentinho Junior e' tocantinense raiz")
+- Fernando Haddad (SP): 7 ("o professor Haddad vai resolver")
+- Jeronimo Rodrigues (BA): 26 (peca narrada, "foi Jeronimo que fez o VLT")
+
+Mais 2 segmentos isolados dentro de video legitimo: a pergunta do
+entrevistador publicada como fala da Doutora Natasha, e o jingle de
+encerramento ("Vote 14, vote Renan Santos") como fala do Renan Santos.
+
+Como foi detectado: busca por mencao ao proprio nome do candidato no
+texto da citacao. Fala em primeira pessoa se-apresentando ("eu sou
+Douglas Ruas") e' legitima; terceira pessoa ("Orleans sabe bem como e'")
+nao e'. Vale repetir a checagem sempre que publicar em lote.
+
+Correcao: campo `tipo_material` em `montar_publicacao`
+("fala_do_candidato" por padrao, ou "material_de_campanha"), lido por
+`citacoes_do_candidato(..., tipo=...)`. Os 5 videos foram remarcados e
+agora aparecem em secao propria na pagina do candidato, rotulada pelo
+que a coisa e': "Publicado no canal oficial, mas quem fala nao e' o
+candidato". Os 2 segmentos isolados foram REJEITADOS (rejeitar marca,
+nao apaga — trilha preservada).
+
+Decisao de produto tomada com o dono no processo: ele sugeriu tambem
+"um resumo do que e' falado" na secao. **Recusado** — o site escrevendo
+resumo de material de campanha deixa de mostrar evidencia e passa a
+produzir interpretacao sobre candidato (regra 1). A transcricao literal
+ja' e' o resumo mais honesto. Ele concordou ("entao nao precisa do
+resumo, so' da secao").
+
+**E os 669 pendentes que motivaram tudo: NAO foram aprovados em lote.**
+511 deles estao em 14 videos com 2 a 5 vozes distintas — e' o caso do
+Jeronimo multiplicado por 14 candidatos. Aprovar sem ouvir publicaria
+fala de jornalista, apoiador e cantor de jingle como palavra de
+candidato, em escala. Os outros 157 sao de voz unica, mas mesmo esses
+exigem confirmar que a voz e' do candidato e nao de locutor — que e'
+exatamente o erro documentado acima.
+

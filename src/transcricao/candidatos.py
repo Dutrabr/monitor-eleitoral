@@ -121,11 +121,21 @@ def carregar_candidatos(pasta: Path) -> list[dict[str, Any]]:
 
 
 def citacoes_do_candidato(
-    falante_id: str, arquivos_publicados: list[dict[str, Any]]
+    falante_id: str,
+    arquivos_publicados: list[dict[str, Any]],
+    tipo: str = "fala_do_candidato",
 ) -> list[dict[str, Any]]:
-    """Filtra, entre varios .publicado.json ja carregados, as citacoes de um falante."""
+    """Filtra, entre varios .publicado.json ja carregados, as citacoes de um falante.
+
+    `tipo` separa o que o candidato disse do material publicado no canal
+    oficial em que quem fala e' outra pessoa (locutor, jingle, depoimento).
+    Misturar os dois faria o site atribuir ao candidato palavra que nao e'
+    dele — o erro que a regra 5 existe para impedir.
+    """
     citacoes = []
     for publicado in arquivos_publicados:
+        if (publicado.get("tipo_material") or "fala_do_candidato") != tipo:
+            continue
         for c in publicado.get("citacoes", []):
             if c.get("falante") == falante_id:
                 citacoes.append(

@@ -290,3 +290,31 @@ def test_classificar_sequencia_nao_sobrescreve_tema_proprio():
         {"texto": "agora sobre escola", "inicio": 3},
     ]
     assert classificar_sequencia(seq) == [["saude"], ["educacao"]]
+
+
+def test_citacoes_do_candidato_separa_material_de_campanha():
+    """Locutor/jingle no canal oficial nao pode virar fala do candidato.
+
+    E' o erro que a regra 5 existe para impedir, e que aconteceu de
+    verdade: 5 videos narrados em terceira pessoa foram publicados como
+    palavra do candidato antes desta separacao existir.
+    """
+    publicados = [
+        {"url": "u1", "citacoes": [{"falante": "cand_a", "texto": "eu farei X"}]},
+        {
+            "url": "u2",
+            "tipo_material": "material_de_campanha",
+            "citacoes": [{"falante": "cand_a", "texto": "ele fez X"}],
+        },
+    ]
+    falas = citacoes_do_candidato("cand_a", publicados)
+    assert [c["texto"] for c in falas] == ["eu farei X"]
+
+    campanha = citacoes_do_candidato("cand_a", publicados, tipo="material_de_campanha")
+    assert [c["texto"] for c in campanha] == ["ele fez X"]
+
+
+def test_citacoes_do_candidato_sem_tipo_conta_como_fala():
+    """Arquivo antigo, sem o campo, continua sendo tratado como fala."""
+    publicados = [{"url": "u", "citacoes": [{"falante": "cand_a", "texto": "oi"}]}]
+    assert len(citacoes_do_candidato("cand_a", publicados)) == 1

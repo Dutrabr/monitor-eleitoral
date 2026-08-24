@@ -4,6 +4,7 @@
   "url": "https://www.youtube.com/watch?v=DDsmxw9HgBw",
   "publicado_em": null,
   "coletado_em": null,
+  "tipo_material": "fala_do_candidato",
   "citacoes": [
     {
       "inicio": 0.0,
@@ -527,14 +528,6 @@
       "timestamp": "00:01:53",
       "falante": "candidato_renan_santos",
       "texto": "Então bora galera, divulga esse vídeo. É guerra!",
-      "temas": []
-    },
-    {
-      "inicio": 115.5,
-      "fim": 117.26,
-      "timestamp": "00:01:55",
-      "falante": "candidato_renan_santos",
-      "texto": "Vote 14, vote Renan Santos.",
       "temas": []
     }
   ]

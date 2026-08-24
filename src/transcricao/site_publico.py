@@ -183,10 +183,18 @@ def criar_app(
         if not c:
             raise HTTPException(404, f"candidato '{slug}' nao encontrado")
 
-        citacoes = citacoes_do_candidato(c["falante_id"], _publicados())
+        publicados = _publicados()
+        citacoes = citacoes_do_candidato(c["falante_id"], publicados)
         for cit in citacoes:
             cit["url_com_timestamp"] = url_com_timestamp(
                 cit.get("url_origem"), cit["inicio"]
+            )
+        material_campanha = citacoes_do_candidato(
+            c["falante_id"], publicados, tipo="material_de_campanha"
+        )
+        for cit in material_campanha:
+            cit["url_com_timestamp"] = url_com_timestamp(
+                cit.get("url_origem"), cit.get("inicio") or 0
             )
         grupos = agrupar_por_tema(citacoes)
         plano_curado = carregar_plano_curado(pasta_planos_curados, slug)
@@ -227,6 +235,7 @@ def criar_app(
                 "rotulos_tema": ROTULOS_TEMA,
                 "total_citacoes": len(citacoes),
                 "timeline": timeline,
+                "material_campanha": material_campanha,
                 "og_titulo": og_titulo,
                 "og_descricao": og_descricao,
                 "voltar_url": "/",
@@ -276,10 +285,18 @@ def criar_app(
         if not c:
             raise HTTPException(404, f"candidato '{slug}' nao encontrado em {uf}")
 
-        citacoes = citacoes_do_candidato(c["falante_id"], _publicados())
+        publicados = _publicados()
+        citacoes = citacoes_do_candidato(c["falante_id"], publicados)
         for cit in citacoes:
             cit["url_com_timestamp"] = url_com_timestamp(
                 cit.get("url_origem"), cit["inicio"]
+            )
+        material_campanha = citacoes_do_candidato(
+            c["falante_id"], publicados, tipo="material_de_campanha"
+        )
+        for cit in material_campanha:
+            cit["url_com_timestamp"] = url_com_timestamp(
+                cit.get("url_origem"), cit.get("inicio") or 0
             )
         grupos = agrupar_por_tema(citacoes)
         plano_curado = carregar_plano_curado(pasta_planos_curados_governador / uf, slug)
@@ -325,6 +342,7 @@ def criar_app(
                 "rotulos_tema": ROTULOS_TEMA_GOVERNADOR,
                 "total_citacoes": len(citacoes),
                 "timeline": timeline,
+                "material_campanha": material_campanha,
                 "og_titulo": og_titulo,
                 "og_descricao": og_descricao,
                 "voltar_url": f"/governador/{uf}",

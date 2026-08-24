@@ -125,5 +125,9 @@ def montar_publicacao(fila: dict[str, Any], decisoes: dict[str, Any]) -> dict[st
         "url": fila.get("url"),
         "publicado_em": fila.get("publicado_em"),
         "coletado_em": fila.get("coletado_em"),
+        # "fala_do_candidato" (padrao) ou "material_de_campanha" — video
+        # publicado no canal oficial em que quem fala NAO e' o candidato
+        # (locutor, jingle, depoimento de terceiro). Ver nota em CLAUDE.md.
+        "tipo_material": fila.get("tipo_material") or "fala_do_candidato",
         "citacoes": citacoes,
     }

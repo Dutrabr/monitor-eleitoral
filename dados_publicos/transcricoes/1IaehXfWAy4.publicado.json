@@ -4,6 +4,7 @@
   "url": "https://www.youtube.com/watch?v=1IaehXfWAy4",
   "publicado_em": "2026-08-18T00:00:00+00:00",
   "coletado_em": "2026-08-23T03:47:09+00:00",
+  "tipo_material": "fala_do_candidato",
   "citacoes": [
     {
       "inicio": 0.31,
@@ -11,16 +12,6 @@
       "timestamp": "00:00:00",
       "falante": "candidato_doutora_natasha",
       "texto": "Feminicídio é o fim da linha.",
-      "temas": [
-        "direitos_humanos_e_igualdade"
-      ]
-    },
-    {
-      "inicio": 1.89,
-      "fim": 10.89,
-      "timestamp": "00:00:01",
-      "falante": "candidato_doutora_natasha",
-      "texto": "Candidata doutora Natasha, na sua opinião, o que o atual governo faz para impedir que Mato Grosso liderasse assassinato de mulheres no Brasil?",
       "temas": [
         "direitos_humanos_e_igualdade"
       ]
