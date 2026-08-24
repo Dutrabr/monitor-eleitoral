@@ -1,0 +1,65 @@
+{
+  "arquivo": "QxHNRI3kFJc.mp4",
+  "hash_sha256_original": "7219ba81a2151b74a19e08c0076098cff10a85366648ad2162542e4100d2d9cd",
+  "url": "https://www.youtube.com/watch?v=QxHNRI3kFJc",
+  "publicado_em": "2026-08-15T00:00:00+00:00",
+  "coletado_em": "2026-08-24T00:28:07+00:00",
+  "citacoes": [
+    {
+      "inicio": 0.0,
+      "fim": 6.0,
+      "timestamp": "00:00:00",
+      "falante": "candidato_eduardo_braide",
+      "texto": "Sou o Eduardo Braide e nós do PSD queremos levar a transformação que fizemos em São Luís para todo Maranhão.",
+      "temas": []
+    },
+    {
+      "inicio": 6.12,
+      "fim": 9.9,
+      "timestamp": "00:00:06",
+      "falante": "candidato_eduardo_braide",
+      "texto": "Aqui em Timon, a falta de segurança acabou com a tranquilidade nas ruas.",
+      "temas": []
+    },
+    {
+      "inicio": 9.98,
+      "fim": 13.02,
+      "timestamp": "00:00:09",
+      "falante": "candidato_eduardo_braide",
+      "texto": "Em São Luíz, fizemos a muralha digital com câmeras inteligentes,",
+      "temas": []
+    },
+    {
+      "inicio": 13.58,
+      "fim": 16.92,
+      "timestamp": "00:00:13",
+      "falante": "candidato_eduardo_braide",
+      "texto": "o que ajudou a fazer da cidade a capital menos violenta do Nordeste.",
+      "temas": []
+    },
+    {
+      "inicio": 17.08,
+      "fim": 21.6,
+      "timestamp": "00:00:17",
+      "falante": "candidato_eduardo_braide",
+      "texto": "Em Caxias, no Hospital do Estado, só quem tem indicação de político consegue ser atendido.",
+      "temas": []
+    },
+    {
+      "inicio": 21.74,
+      "fim": 25.7,
+      "timestamp": "00:00:21",
+      "falante": "candidato_eduardo_braide",
+      "texto": "Em São Luis, entregamos seis hospitais e desafogamos o atendimento.",
+      "temas": []
+    },
+    {
+      "inicio": 25.84,
+      "fim": 29.76,
+      "timestamp": "00:00:25",
+      "falante": "candidato_eduardo_braide",
+      "texto": "Venha para o PSD transformar o Maranhã como transformamos São Luús.",
+      "temas": []
+    }
+  ]
+}
