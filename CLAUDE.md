@@ -1567,3 +1567,30 @@ mas nao respondia "e dai, o que eu faco com isso?".
    `/governador/{UF}`, porque a maioria quer ver o proprio estado e antes
    precisava passar pela lista das 27 UFs.
 
+
+Pronto (2026-08-24): **fila de revisao passa a se explicar sozinha** —
+resposta ao gargalo real que a medicao revelou.
+
+Diagnostico: 29 videos coletados e nao publicados, com **669 decisoes
+pendentes travando 479 citacoes ja' confirmadas**. A causa nao era
+volume de trabalho, era distribuicao: publicar exige TODOS os segmentos
+decididos, entao um video com 98 de 112 confirmados publica zero. Varios
+videos estavam a 2-14 decisoes de destravar dezenas de citacoes
+(ex: 2 decisoes -> 17 citacoes; 14 -> 98 no video do Tarcisio). Somando
+os 12 videos nessa situacao: **181 decisoes destravam 479 citacoes e 12
+candidatos**.
+
+O que emperrava na pratica: `site_revisao.py` mostrava TODOS os
+segmentos, sem filtro. Achar 14 pendentes no meio de 112 (com
+auto-aprovacao, o normal e' chegar com ~90% ja' confirmado) e' o que
+fazia a fila parar.
+
+Mudancas:
+- `/item/{nome}?pendentes=1` esconde o que ja' foi decidido. Nao altera
+  dado nenhum, so' o que a tela mostra.
+- A lista da home agora ordena por numero de pendentes (menos primeiro),
+  poe os ja' publicados no fim com opacidade baixa, e mostra em cada
+  linha "decidir N -> destrava M".
+- Painel no topo com o total: quantas decisoes destravam quantas
+  citacoes, e a explicacao de por que publicar exige tudo decidido.
+

@@ -1,17 +1,35 @@
 {% extends "base.html" %}
 {% block conteudo %}
 <h1>Itens para revisao</h1>
+
+{% if total_pendentes %}
+<div class="painel-fila">
+  <strong>{{ total_pendentes }}</strong> decisao(oes) pendente(s) destravam
+  <strong>{{ destravaveis }}</strong> citacao(oes) ja' confirmada(s) mas ainda nao publicadas.
+  <div class="dica">
+    Publicar exige TODOS os segmentos decididos — por isso um video com 98 de 112
+    confirmados ainda publica zero. A lista abaixo poe primeiro os que exigem menos decisoes.
+  </div>
+</div>
+{% endif %}
+
 {% if not itens %}
 <p>Nenhum item encontrado.</p>
 {% endif %}
 {% for item in itens %}
-<div class="item-lista">
-  <div><a href="/item/{{ item.nome }}">{{ item.nome }}</a></div>
+<div class="item-lista{% if item.publicado %} ja-publicado{% endif %}">
+  <div>
+    <a href="/item/{{ item.nome }}{% if item.resumo.pendentes %}?pendentes=1{% endif %}">{{ item.nome }}</a>
+    {% if item.resumo.pendentes %}
+    <span class="destrava">decidir {{ item.resumo.pendentes }} &rarr; destrava {{ item.resumo.confirmados }}</span>
+    {% endif %}
+  </div>
   <div class="resumo">
     <span>{{ item.resumo.confirmados }} confirmados</span>
     <span>{{ item.resumo.rejeitados }} rejeitados</span>
     <span class="{{ 'pendente' if item.resumo.pendentes else '' }}">{{ item.resumo.pendentes }} pendentes</span>
-    {% if item.pronto %}<span class="pronto">pronto para publicar</span>{% endif %}
+    {% if item.publicado %}<span class="publicado">ja publicado</span>
+    {% elif item.pronto %}<span class="pronto">pronto para publicar</span>{% endif %}
   </div>
   {% if item.url %}<div class="meta">{{ item.url }}</div>{% endif %}
 </div>

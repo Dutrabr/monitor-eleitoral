@@ -85,27 +85,63 @@ def criar_app(pasta_dados: Path) -> FastAPI:
 
     @app.get("/", response_class=HTMLResponse)
     def index(request: Request):
+        """Fila de revisao, ordenada por quanto cada decisao destrava.
+
+        Publicar exige TODOS os segmentos decididos, entao um video com
+        98 de 112 confirmados publica zero. Ordenar por numero de
+        pendentes poe na frente exatamente os videos onde poucas decisoes
+        liberam muita citacao — que era o gargalo real da fila.
+        """
         itens = []
         for caminho in _listar_filas():
             fila = json.loads(caminho.read_text(encoding="utf-8"))
             decisoes = _carregar_decisoes(caminho)
+            r = resumo(fila, decisoes)
+            publicado = caminho.with_name(f"{_base(caminho)}.publicado.json").exists()
             itens.append(
                 {
                     "nome": _base(caminho),
-                    "resumo": resumo(fila, decisoes),
+                    "resumo": r,
                     "pronto": pronto_para_publicacao(fila, decisoes),
+                    "publicado": publicado,
                     "url": fila.get("url"),
                 }
             )
-        return templates.TemplateResponse(request, "lista.html", {"itens": itens})
+
+        # ja' publicados por ultimo; entre os demais, menos pendentes primeiro
+        itens.sort(key=lambda i: (i["publicado"], i["resumo"]["pendentes"] or 10**6))
+        total_pendentes = sum(i["resumo"]["pendentes"] for i in itens)
+        destravaveis = sum(
+            i["resumo"]["confirmados"]
+            for i in itens
+            if not i["publicado"] and i["resumo"]["pendentes"]
+        )
+        return templates.TemplateResponse(
+            request,
+            "lista.html",
+            {
+                "itens": itens,
+                "total_pendentes": total_pendentes,
+                "destravaveis": destravaveis,
+            },
+        )
 
     @app.get("/item/{nome}", response_class=HTMLResponse)
-    def ver_item(request: Request, nome: str):
+    def ver_item(request: Request, nome: str, pendentes: int = 0):
+        """Tela de revisao de um video.
+
+        `?pendentes=1` esconde o que ja' foi decidido. Com auto-aprovacao,
+        um video costuma chegar aqui com 90% ja' confirmado — procurar os
+        poucos indecisos no meio de 112 segmentos era o que emperrava a
+        fila. O filtro nao altera nada, so' muda o que a tela mostra.
+        """
         caminho, fila = _carregar_fila(nome)
         decisoes = _carregar_decisoes(caminho)
         segmentos = []
         for i, item in enumerate(fila.get("itens", [])):
             d = decisoes.get(str(i)) or {}
+            if pendentes and d.get("decisao"):
+                continue
             segmentos.append(
                 {
                     "indice": i,
@@ -126,6 +162,7 @@ def criar_app(pasta_dados: Path) -> FastAPI:
                 "resumo": resumo(fila, decisoes),
                 "pronto": pronto_para_publicacao(fila, decisoes),
                 "temas_disponiveis": TEMAS_DISPONIVEIS,
+                "so_pendentes": bool(pendentes),
             },
         )
 

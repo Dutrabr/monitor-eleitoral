@@ -11,6 +11,18 @@
   {% for aviso in fila.avisos %}<div>aviso: {{ aviso }}</div>{% endfor %}
 </div>
 
+{% if so_pendentes %}
+<div class="painel-fila">
+  Mostrando so' os <strong>{{ resumo.pendentes }}</strong> segmento(s) ainda sem decisao.
+  <a href="/item/{{ nome }}">ver todos os {{ resumo.total }}</a>
+</div>
+{% elif resumo.pendentes %}
+<div class="painel-fila">
+  <a href="/item/{{ nome }}?pendentes=1">mostrar so' os {{ resumo.pendentes }} pendentes</a>
+  (de {{ resumo.total }} segmentos)
+</div>
+{% endif %}
+
 {% include "_controles.html" %}
 
 <audio id="player" controls src="/item/{{ nome }}/audio"></audio>
