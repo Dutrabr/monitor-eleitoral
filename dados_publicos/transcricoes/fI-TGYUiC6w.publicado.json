@@ -51,7 +51,9 @@
       "timestamp": "00:00:22",
       "falante": "candidato_vicentinho_junior",
       "texto": "Investimento real que beneficiou o trabalhador da roça,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 25.98,
@@ -83,7 +85,9 @@
       "timestamp": "00:00:43",
       "falante": "candidato_vicentinho_junior",
       "texto": "Por isso ele tem coragem de se posicionar contra impostos injustos que travam quem produz, como é o caso do FETI.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 51.02,

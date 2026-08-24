@@ -2,6 +2,8 @@
   "arquivo": "H5U9ndZwshg.mp4",
   "hash_sha256_original": "80b00d4b33aac646df73b1193efdeae583882ebe6368e624eb11a0e24afbbe88",
   "url": "https://www.youtube.com/watch?v=H5U9ndZwshg",
+  "publicado_em": null,
+  "coletado_em": null,
   "citacoes": [
     {
       "inicio": 0.0,
@@ -25,7 +27,9 @@
       "timestamp": "00:00:15",
       "falante": "candidato_flavio_bolsonaro",
       "texto": "sua história em frente à segurança pública.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 18.76,
@@ -57,7 +61,9 @@
       "timestamp": "00:01:03",
       "falante": "candidato_flavio_bolsonaro",
       "texto": "crime e dá mão pro criminoso. Então eu tenho muita honra de anunciar aqui",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 68.02,
@@ -97,7 +103,10 @@
       "timestamp": "00:00:44",
       "falante": "candidato_flavio_bolsonaro",
       "texto": "a gente irá levar saúde para o Nordest, vamos levar infraestrutura para o nordeste. Vai ser o maior programa",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade",
+        "saude"
+      ]
     }
   ]
 }

@@ -115,7 +115,9 @@
       "timestamp": "00:00:50",
       "falante": "candidato_jeronimo_rodrigues",
       "texto": "Agora vem época de eleição e qualquer um acha que pode falar de mudança.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 55.8,
@@ -131,7 +133,9 @@
       "timestamp": "00:00:59",
       "falante": "candidato_jeronimo_rodrigues",
       "texto": "que agora tem transporte de primeiro mundo até a Cidade Baixa.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 63.08,
@@ -155,7 +159,9 @@
       "timestamp": "00:01:08",
       "falante": "candidato_jeronimo_rodrigues",
       "texto": "Difícil é criar e multiplicar uma rede de ensino integral em toda a Bahia.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 73.26,

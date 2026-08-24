@@ -11,7 +11,9 @@
       "timestamp": "00:00:00",
       "falante": "candidato_acm_neto",
       "texto": "Na Bahia hoje não existe mais um trabalho de extensão rural,",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 3.14,
@@ -19,7 +21,9 @@
       "timestamp": "00:00:03",
       "falante": "candidato_acm_neto",
       "texto": "de apoio técnico ao pequeno produtor, ao agricultor.",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 6.44,
@@ -27,7 +31,9 @@
       "timestamp": "00:00:06",
       "falante": "candidato_acm_neto",
       "texto": "É um propósito nosso recuperar a Secretaria de Agricultura.",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 10.0,
@@ -59,7 +65,9 @@
       "timestamp": "00:00:20",
       "falante": "candidato_acm_neto",
       "texto": "mas também de criar um ambiente econômico.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 23.5,
@@ -67,7 +75,9 @@
       "timestamp": "00:00:23",
       "falante": "candidato_acm_neto",
       "texto": "Não há como a gente resolver o problema da saúde na Bahia",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 26.54,
@@ -75,7 +85,9 @@
       "timestamp": "00:00:26",
       "falante": "candidato_acm_neto",
       "texto": "sem colocar mais dinheiro na saúde.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 28.64,
@@ -91,7 +103,9 @@
       "timestamp": "00:00:31",
       "falante": "candidato_acm_neto",
       "texto": "De um lado é gestão, é melhorar a gestão pública do sistema de saúde,",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 35.84,
@@ -99,7 +113,9 @@
       "timestamp": "00:00:35",
       "falante": "candidato_acm_neto",
       "texto": "mas do outro lado é colocar mais recursos para a saúde.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 39.68,
@@ -107,7 +123,9 @@
       "timestamp": "00:00:39",
       "falante": "candidato_acm_neto",
       "texto": "Não tem como a gente, por exemplo, colocar de pé o PIX Saúde",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 42.62,
@@ -115,7 +133,9 @@
       "timestamp": "00:00:42",
       "falante": "candidato_acm_neto",
       "texto": "sem ampliar o orçamento da saúde em nosso Estado.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 45.52,
@@ -123,7 +143,9 @@
       "timestamp": "00:00:45",
       "falante": "candidato_acm_neto",
       "texto": "O PIX saúde é o quê?",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 46.76,
@@ -155,7 +177,9 @@
       "timestamp": "00:00:56",
       "falante": "candidato_acm_neto",
       "texto": "com fiscalização dos órgãos de controle,",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 58.94,
@@ -179,7 +203,9 @@
       "timestamp": "00:01:02",
       "falante": "candidato_acm_neto",
       "texto": "e não tem um leito imediato",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 64.9,
@@ -187,7 +213,9 @@
       "timestamp": "00:01:04",
       "falante": "candidato_acm_neto",
       "texto": "de UTI no hospital público,",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 67.0,
@@ -195,7 +223,9 @@
       "timestamp": "00:01:07",
       "falante": "candidato_acm_neto",
       "texto": "mas tem num hospital particular,",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 68.94,
@@ -259,7 +289,9 @@
       "timestamp": "00:01:22",
       "falante": "candidato_acm_neto",
       "texto": "histórias. Por quê? Porque o tráfico",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 84.94,
@@ -267,7 +299,9 @@
       "timestamp": "00:01:24",
       "falante": "candidato_acm_neto",
       "texto": "de drogas, o crime organizado tomou conta.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 87.02,
@@ -379,7 +413,9 @@
       "timestamp": "00:01:53",
       "falante": "candidato_acm_neto",
       "texto": "com a presença do governador, de todas as forças policiais do Estado.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 117.7,
@@ -419,7 +455,9 @@
       "timestamp": "00:02:06",
       "falante": "candidato_acm_neto",
       "texto": "tanto em redução de homicídios como em reduação de letalidade policial.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 132.82,

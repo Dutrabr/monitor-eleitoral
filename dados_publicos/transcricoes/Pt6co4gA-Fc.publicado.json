@@ -195,7 +195,10 @@
       "timestamp": "00:01:02",
       "falante": "candidato_orleans_brandao",
       "texto": "Na mesa, na escola, na saúde.",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     },
     {
       "inicio": 65.97,

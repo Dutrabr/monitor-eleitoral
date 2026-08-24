@@ -1483,3 +1483,56 @@ nota/ranking, outro se a busca passar a ordenar por relevancia.
 - Stories do Instagram: efemero de 24h, alta friccao, conteudo pobre para
   promessa programatica.
 - Qualquer juizo automatizado sobre merito de candidatura.
+
+Pronto (2026-08-24): **comparar tambem para Governador**, e **tema
+automatico nas citacoes** — dois achados que se cruzaram.
+
+`/comparar` aceita `?uf=XX` e passa a comparar candidatos a Governador
+daquele estado. **Sempre dentro da mesma corrida**: nao ha' como comparar
+governador de estados diferentes, porque eles nao disputam entre si e
+numero de urna e' por corrida (o 13 de SP nao tem relacao com o 13 da
+BA) — a ordenacao por urna, que e' a garantia de simetria da regra 3,
+perderia sentido. A propria pagina explica isso ao leitor.
+
+**Achado grave no caminho, corrigido:** ao testar o comparar de
+Governador, o lado "redes sociais" vinha sempre vazio. Causa: as **971
+citacoes publicadas estavam todas com `temas: []`**. A marcacao de tema
+foi desenhada para acontecer na revisao humana (`site_revisao.py`), mas
+a auto-aprovacao (2026-08-19) confirma texto **sem passar pela revisao**
+e, junto, sem marcar tema (`auto_aprovacao.py` linha 109 passa
+`temas=None`). Como quase tudo publicado nesta semana entrou por
+auto-aprovacao, o site inteiro — que e' organizado por tema — tinha o
+lado das falas invisivel em qualquer filtro tematico.
+
+**Mudanca de regra, decidida pelo dono:** ate' aqui tema era marcado
+so' por pessoa. Ofereci tres caminhos (sugestao + confirmacao humana /
+automatico direto / so' manual); ele escolheu **automatico direto, sem
+confirmacao**. Implementado em `classificar_tema.py` (puro, testado):
+palavra-chave por tema, casando por limite de palavra (`\b`, para "sus"
+nao casar dentro de "sustentavel"), e **conservador — na duvida devolve
+`[]`**, mesmo principio de "nao consta" x "nao verificado". Resultado
+real: 253 de 971 citacoes receberam tema; 718 seguem sem, o que e'
+esperado (trecho transcrito e' fragmento curto de fala).
+
+`scripts/classificar_temas_publicados.py` grava em `.decisoes.json`
+(nao so' no publicado — senao o tema sumiria na republicacao), marca
+`temas_por: "classificacao_automatica"` para o audit trail distinguir
+decisao de maquina de decisao de pessoa, e **nunca sobrescreve tema
+marcado por humano**.
+
+**Correcao obrigatoria junto:** o FAQ afirmava ao publico que "a
+classificacao e' feita por pessoas, nao por algoritmo". Com a mudanca
+isso viraria mentira num site de transparencia, entao o glossario foi
+corrigido (plano = pessoa, falas = automatico) e foi adicionada uma
+pergunta nova explicando quem decide o tema de cada lado, que a regra e'
+conservadora, e que classificar assunto nao e' julgar merito.
+
+Nota de risco assumida: classificar errado poe a fala de alguem sob tema
+que ele nao discutiu, criando justaposicao enganosa contra o plano. Por
+isso o classificador so' aceita palavra especifica do tema, nunca
+generica ("programa", "familia", "investimento" ficaram de fora de
+proposito).
+
+Tambem removido, a pedido do dono: o subtitulo "Plano de governo ×
+redes sociais" do logo no cabecalho.
+

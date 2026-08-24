@@ -2,6 +2,8 @@
   "arquivo": "2026-08-14_15-32-15_UTC.mp4",
   "hash_sha256_original": "9695828b15631fb00d452662d699e6531105819f5767a96bfb5014edc9df335c",
   "url": "https://www.instagram.com/reel/DcBo6CLBd6_/",
+  "publicado_em": "2026-08-14T15:32:15+00:00",
+  "coletado_em": "2026-08-19T13:42:15+00:00",
   "citacoes": [
     {
       "inicio": 0.0,
@@ -33,7 +35,10 @@
       "timestamp": "00:00:13",
       "falante": "candidato_samara",
       "texto": "Isso significa que vão tirar dinheiro da educação e da saúde para comprar armas.",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     },
     {
       "inicio": 18.94,
@@ -89,7 +94,10 @@
       "timestamp": "00:00:52",
       "falante": "candidato_samara",
       "texto": "Nós queremos investimento em educação e saúde, não em armas para um exército que é contra o nosso povo.",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     },
     {
       "inicio": 59.16,

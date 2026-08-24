@@ -27,7 +27,9 @@
       "timestamp": "00:00:11",
       "falante": "candidato_paula_belmonte",
       "texto": "Vocês estão vendo esse hospital em pleno funcionamento?",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 14.1,
@@ -59,7 +61,9 @@
       "timestamp": "00:00:28",
       "falante": "candidato_paula_belmonte",
       "texto": "Esses 10 milhões se transformaram em consultórios, leitos de internação e UTIs pediátricas.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 35.32,
@@ -75,7 +79,9 @@
       "timestamp": "00:00:39",
       "falante": "candidato_paula_belmonte",
       "texto": "Porque a obra importante não é só obra grande, é obra que serve as pessoas.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 45.76,

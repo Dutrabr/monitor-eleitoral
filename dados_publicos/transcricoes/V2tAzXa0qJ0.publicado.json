@@ -43,7 +43,9 @@
       "timestamp": "00:00:19",
       "falante": "candidato_juliana_brizola",
       "texto": "que nós construímos a estrada que vai levar para frente esse projeto.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 24.08,
@@ -203,7 +205,9 @@
       "timestamp": "00:01:50",
       "falante": "candidato_juliana_brizola",
       "texto": "Nessa eleição, é o povo que vai falar mais alto.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 113.4,

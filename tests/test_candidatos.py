@@ -234,3 +234,30 @@ def test_destacar_preserva_o_texto_original_acentuado():
 def test_destacar_marca_todas_as_ocorrencias():
     pedacos = destacar("saude e mais saude", "saude")
     assert sum(1 for p in pedacos if p["marcado"]) == 2
+
+
+def test_classificar_tema_acha_assunto_obvio():
+    from transcricao.classificar_tema import sugerir_temas
+    assert sugerir_temas("vamos construir mais uma escola") == ["educacao"]
+    assert "saude" in sugerir_temas("o hospital precisa de mais leitos")
+
+
+def test_classificar_tema_prefere_vazio_a_errado():
+    """Na duvida, sem tema — mesmo principio de 'nao consta' x 'nao verificado'."""
+    from transcricao.classificar_tema import sugerir_temas
+    assert sugerir_temas("bom dia a todos, obrigado por virem") == []
+    assert sugerir_temas("") == []
+    assert sugerir_temas("   ") == []
+
+
+def test_classificar_tema_casa_por_palavra_inteira():
+    """'sus' nao pode casar dentro de 'sustentavel'."""
+    from transcricao.classificar_tema import sugerir_temas
+    assert "saude" not in sugerir_temas("um projeto sustentavel para o estado")
+    assert "saude" in sugerir_temas("o sus precisa de mais verba")
+
+
+def test_classificar_tema_multiplo():
+    from transcricao.classificar_tema import sugerir_temas
+    temas = sugerir_temas("investir em escola e em hospital")
+    assert temas == ["educacao", "saude"]

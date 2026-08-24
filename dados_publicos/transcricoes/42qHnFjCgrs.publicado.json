@@ -2,6 +2,8 @@
   "arquivo": "42qHnFjCgrs.mp4",
   "hash_sha256_original": "3bb4ffc1818373ac87c939ad07515ea0a067c44f0471c9b5303da3ca90f3ce44",
   "url": "https://www.youtube.com/watch?v=42qHnFjCgrs",
+  "publicado_em": null,
+  "coletado_em": null,
   "citacoes": [
     {
       "inicio": 0.47,
@@ -33,7 +35,9 @@
       "timestamp": "00:00:23",
       "falante": "candidato_lula",
       "texto": "e a extrema pobreza. Infelizmente, hoje, 20 anos depois, votamos a um passado que julgava os enterrados",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 33.92,
@@ -57,7 +61,9 @@
       "timestamp": "00:00:44",
       "falante": "candidato_lula",
       "texto": "Neste ano, a FAO anunciou que outra vez o Brasil saiu do Mapa da Fome",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 51.1,
@@ -81,7 +87,9 @@
       "timestamp": "00:01:01",
       "falante": "candidato_lula",
       "texto": "A fome é inimiga da democracia",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 64.53,

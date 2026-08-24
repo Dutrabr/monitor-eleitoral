@@ -27,7 +27,9 @@
       "timestamp": "00:00:08",
       "falante": "candidato_dr_daniel",
       "texto": "mas também pelos dias anteriores, os dias que antecederam a nossa eleição",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 13.78,
@@ -35,7 +37,9 @@
       "timestamp": "00:00:13",
       "falante": "candidato_dr_daniel",
       "texto": "Uma das empresas que nos atendem aqui, na verdade, é a maior empresa responsável",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 17.84,
@@ -115,7 +119,9 @@
       "timestamp": "00:01:11",
       "falante": "candidato_dr_daniel",
       "texto": "Já notifiquei a empresa, já entramos com ação judicial para que ela possa retornar a trabalhar no município.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 78.66,

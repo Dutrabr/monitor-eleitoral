@@ -27,7 +27,9 @@
       "timestamp": "00:00:10",
       "falante": "candidato_douglas_ruas",
       "texto": "Na saúde, trabalhei em projetos como esse daqui, o Centro de Imagens e Especialidades, que será o mais moderno da nossa região.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 16.83,
@@ -35,7 +37,9 @@
       "timestamp": "00:00:16",
       "falante": "candidato_douglas_ruas",
       "texto": "A clínica do Clube Andê e a readequação de unidades de saúde do município.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 21.37,
@@ -43,7 +47,9 @@
       "timestamp": "00:00:21",
       "falante": "candidato_douglas_ruas",
       "texto": "Essas ações serão um divisor de águas no Serviço de Saúde de São Gonçalo.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 25.07,
@@ -59,7 +65,10 @@
       "timestamp": "00:00:30",
       "falante": "candidato_douglas_ruas",
       "texto": "O Hospital da Mulher. E garantir para a região um serviço público de qualidade.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade",
+        "saude"
+      ]
     },
     {
       "inicio": 35.13,
@@ -67,7 +76,9 @@
       "timestamp": "00:00:35",
       "falante": "candidato_douglas_ruas",
       "texto": "Eu sou Douglas Ruas, filho do Capitão Nelson e conto com o seu voto para deputado estadual.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 41.35,

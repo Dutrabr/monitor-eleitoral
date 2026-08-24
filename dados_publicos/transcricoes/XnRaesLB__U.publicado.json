@@ -2,6 +2,8 @@
   "arquivo": "XnRaesLB__U.mp4",
   "hash_sha256_original": "77476a5522ffa1f9ac6aad76197ade23451c7535e8cb32f61dc3be3bc105154e",
   "url": "https://www.youtube.com/watch?v=XnRaesLB__U",
+  "publicado_em": null,
+  "coletado_em": null,
   "citacoes": [
     {
       "inicio": 0.12,
@@ -193,7 +195,10 @@
       "timestamp": "00:00:19",
       "falante": null,
       "texto": "me fez abandonar minha vida pessoal, empresa, faculdade, sonhos, tudo em prol",
-      "temas": []
+      "temas": [
+        "economia_e_emprego",
+        "educacao"
+      ]
     },
     {
       "inicio": 21.83,
@@ -201,7 +206,10 @@
       "timestamp": "00:00:21",
       "falante": null,
       "texto": "empresa, faculdade, sonhos, tudo em prol",
-      "temas": []
+      "temas": [
+        "economia_e_emprego",
+        "educacao"
+      ]
     },
     {
       "inicio": 21.84,
@@ -209,7 +217,10 @@
       "timestamp": "00:00:21",
       "falante": null,
       "texto": "empresa, faculdade, sonhos, tudo em prol dessa vingança que nós vamos realizar",
-      "temas": []
+      "temas": [
+        "economia_e_emprego",
+        "educacao"
+      ]
     },
     {
       "inicio": 23.43,
@@ -241,7 +252,9 @@
       "timestamp": "00:00:25",
       "falante": null,
       "texto": "juntos esse ano. A sabotagem número um aconteceu quando eu passei na faculdade",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 26.55,
@@ -249,7 +262,9 @@
       "timestamp": "00:00:26",
       "falante": null,
       "texto": "aconteceu quando eu passei na faculdade",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 26.56,
@@ -257,7 +272,9 @@
       "timestamp": "00:00:26",
       "falante": null,
       "texto": "aconteceu quando eu passei na faculdade de direito mais concorrida do Brasil, a",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 28.39,
@@ -273,7 +290,9 @@
       "timestamp": "00:00:28",
       "falante": null,
       "texto": "de direito mais concorrida do Brasil, a faculdade de direito da USP. Lá saíram",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 30.23,
@@ -281,7 +300,9 @@
       "timestamp": "00:00:30",
       "falante": null,
       "texto": "faculdade de direito da USP. Lá saíram",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 30.24,
@@ -289,7 +310,9 @@
       "timestamp": "00:00:30",
       "falante": null,
       "texto": "faculdade de direito da USP. Lá saíram muitos presidentes da República, poetas",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 32.31,
@@ -385,7 +408,9 @@
       "timestamp": "00:00:41",
       "falante": null,
       "texto": "maioria dos presidentes da Velha república. Eu entrei na faculdade, que",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 42.79,
@@ -393,7 +418,9 @@
       "timestamp": "00:00:42",
       "falante": null,
       "texto": "república. Eu entrei na faculdade, que",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 42.8,
@@ -401,7 +428,9 @@
       "timestamp": "00:00:42",
       "falante": null,
       "texto": "república. Eu entrei na faculdade, que infelizmente já era dominada pela",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 44.07,
@@ -465,7 +494,9 @@
       "timestamp": "00:00:49",
       "falante": null,
       "texto": "mesmo tempo greve de estudantes com participação de professores. Foi nessa",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 51.63,
@@ -473,7 +504,9 @@
       "timestamp": "00:00:51",
       "falante": null,
       "texto": "participação de professores. Foi nessa",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 51.64,
@@ -481,7 +514,9 @@
       "timestamp": "00:00:51",
       "falante": null,
       "texto": "participação de professores. Foi nessa época que um professor Jorge Luiz Soto",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 53.63,
@@ -489,7 +524,9 @@
       "timestamp": "00:00:53",
       "falante": null,
       "texto": "época que um professor Jorge Luiz Soto",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 53.64,
@@ -497,7 +534,9 @@
       "timestamp": "00:00:53",
       "falante": null,
       "texto": "época que um professor Jorge Luiz Soto Maior participava das greves com os",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 55.31,
@@ -689,7 +728,9 @@
       "timestamp": "00:01:12",
       "falante": null,
       "texto": "criar coisas. Foi ali que eu abandonei a faculdade para fazer a coisa que eu mais",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 74.35,
@@ -697,7 +738,9 @@
       "timestamp": "00:01:14",
       "falante": null,
       "texto": "faculdade para fazer a coisa que eu mais",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 74.36,
@@ -705,7 +748,9 @@
       "timestamp": "00:01:14",
       "falante": null,
       "texto": "faculdade para fazer a coisa que eu mais gosto de fazer em toda a minha vida,",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 75.91,
@@ -737,7 +782,9 @@
       "timestamp": "00:01:17",
       "falante": null,
       "texto": "trabalhar. Segundo a sabotagem do PT, a destruição da economia. Eu começo a",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 79.27,
@@ -745,7 +792,9 @@
       "timestamp": "00:01:19",
       "falante": null,
       "texto": "destruição da economia. Eu começo a",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 79.28,
@@ -753,7 +802,9 @@
       "timestamp": "00:01:19",
       "falante": null,
       "texto": "destruição da economia. Eu começo a trabalhar aprendendo com o meu pai, com",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 80.59,
@@ -769,7 +820,9 @@
       "timestamp": "00:01:20",
       "falante": null,
       "texto": "trabalhar aprendendo com o meu pai, com recuperação de empresas que estavam",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 81.87,
@@ -777,7 +830,9 @@
       "timestamp": "00:01:21",
       "falante": null,
       "texto": "recuperação de empresas que estavam",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 81.88,
@@ -785,7 +840,9 @@
       "timestamp": "00:01:21",
       "falante": null,
       "texto": "recuperação de empresas que estavam quebradas. Foi um período incrível. Tive",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 83.63,
@@ -849,7 +906,9 @@
       "timestamp": "00:01:29",
       "falante": null,
       "texto": "diversas áreas e a mais especial, que foi a empresa que eu administrei e",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 90.95,
@@ -857,7 +916,9 @@
       "timestamp": "00:01:30",
       "falante": null,
       "texto": "foi a empresa que eu administrei e",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 90.96,
@@ -865,7 +926,9 @@
       "timestamp": "00:01:30",
       "falante": null,
       "texto": "foi a empresa que eu administrei e detalhe haers que eu nunca falii, era",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 92.59,
@@ -881,7 +944,9 @@
       "timestamp": "00:01:32",
       "falante": null,
       "texto": "detalhe haers que eu nunca falii, era uma empresa de portas e janelas de aço.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 94.35,
@@ -889,7 +954,9 @@
       "timestamp": "00:01:34",
       "falante": null,
       "texto": "uma empresa de portas e janelas de aço.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 94.36,
@@ -897,7 +964,9 @@
       "timestamp": "00:01:34",
       "falante": null,
       "texto": "uma empresa de portas e janelas de aço. Sabe aquela porta de aço, aquela janela",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 96.15,
@@ -945,7 +1014,9 @@
       "timestamp": "00:01:39",
       "falante": null,
       "texto": "Brasil? Bem típico. Eu fiz milhares delas. Peguei a empresa fechada devendo",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 102.07,
@@ -953,7 +1024,9 @@
       "timestamp": "00:01:42",
       "falante": null,
       "texto": "delas. Peguei a empresa fechada devendo",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 102.08,
@@ -961,7 +1034,9 @@
       "timestamp": "00:01:42",
       "falante": null,
       "texto": "delas. Peguei a empresa fechada devendo para todo mundo. Com 5 meses de salário",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 103.87,
@@ -969,7 +1044,9 @@
       "timestamp": "00:01:43",
       "falante": null,
       "texto": "para todo mundo. Com 5 meses de salário",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 103.88,
@@ -977,7 +1054,9 @@
       "timestamp": "00:01:43",
       "falante": null,
       "texto": "para todo mundo. Com 5 meses de salário atrasado. Consegui botar ela para andar.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 105.67,
@@ -1041,7 +1120,9 @@
       "timestamp": "00:01:50",
       "falante": null,
       "texto": "pessoas para trabalhar ali de volta, recuperando seus empregos, tendo seu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 112.11,
@@ -1049,7 +1130,9 @@
       "timestamp": "00:01:52",
       "falante": null,
       "texto": "recuperando seus empregos, tendo seu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 112.12,
@@ -1057,7 +1140,9 @@
       "timestamp": "00:01:52",
       "falante": null,
       "texto": "recuperando seus empregos, tendo seu ganhapão. E fomos muito bem de 2009 até",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 114.55,
@@ -1073,7 +1158,9 @@
       "timestamp": "00:01:54",
       "falante": null,
       "texto": "ganhapão. E fomos muito bem de 2009 até 2013, até que o modelo econômico do PT,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 116.63,
@@ -1081,7 +1168,9 @@
       "timestamp": "00:01:56",
       "falante": null,
       "texto": "2013, até que o modelo econômico do PT,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 116.64,
@@ -1089,7 +1178,9 @@
       "timestamp": "00:01:56",
       "falante": null,
       "texto": "2013, até que o modelo econômico do PT, baseado no Minha Casa, Minha Vida,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 118.35,
@@ -1137,7 +1228,9 @@
       "timestamp": "00:02:02",
       "falante": null,
       "texto": "Brasil. Meus clientes quebraram, meus clientes deram calote e o professor da",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 124.03,
@@ -1145,7 +1238,9 @@
       "timestamp": "00:02:04",
       "falante": null,
       "texto": "clientes deram calote e o professor da",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 124.04,
@@ -1153,7 +1248,9 @@
       "timestamp": "00:02:04",
       "falante": null,
       "texto": "clientes deram calote e o professor da minha faculdade, lembra dele, era o juiz",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 126.07,
@@ -1161,7 +1258,9 @@
       "timestamp": "00:02:06",
       "falante": null,
       "texto": "minha faculdade, lembra dele, era o juiz",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 126.08,
@@ -1169,7 +1268,9 @@
       "timestamp": "00:02:06",
       "falante": null,
       "texto": "minha faculdade, lembra dele, era o juiz que queria condenar a gente em",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 127.19,
@@ -1201,7 +1302,9 @@
       "timestamp": "00:02:08",
       "falante": null,
       "texto": "absolutamente todos os casos, até a empresa perder a nota fiscal e não ter",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 130.43,
@@ -1209,7 +1312,9 @@
       "timestamp": "00:02:10",
       "falante": null,
       "texto": "empresa perder a nota fiscal e não ter",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 130.44,
@@ -1217,7 +1322,9 @@
       "timestamp": "00:02:10",
       "falante": null,
       "texto": "empresa perder a nota fiscal e não ter como operar. Eu, assim como dezenas de",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 132.03,
@@ -1233,7 +1340,9 @@
       "timestamp": "00:02:12",
       "falante": null,
       "texto": "como operar. Eu, assim como dezenas de milhares de empresas brasileiras à",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 133.43,
@@ -1241,7 +1350,9 @@
       "timestamp": "00:02:13",
       "falante": null,
       "texto": "milhares de empresas brasileiras à",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 133.44,
@@ -1249,7 +1360,9 @@
       "timestamp": "00:02:13",
       "falante": null,
       "texto": "milhares de empresas brasileiras à época, tivemos que parar a nossa",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 135.11,
@@ -1281,7 +1394,9 @@
       "timestamp": "00:02:16",
       "falante": null,
       "texto": "produção. Foi o início da famosa crise que fechou empresas e levou o fim do",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 138.75,
@@ -1289,7 +1404,9 @@
       "timestamp": "00:02:18",
       "falante": null,
       "texto": "que fechou empresas e levou o fim do",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 138.76,
@@ -1297,7 +1414,9 @@
       "timestamp": "00:02:18",
       "falante": null,
       "texto": "que fechou empresas e levou o fim do governo de Mussef. O que eu aprendi",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 140.19,
@@ -1313,7 +1432,9 @@
       "timestamp": "00:02:20",
       "falante": null,
       "texto": "governo de Mussef. O que eu aprendi recuperando essa empresa de porta virou",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 141.67,
@@ -1321,7 +1442,9 @@
       "timestamp": "00:02:21",
       "falante": null,
       "texto": "recuperando essa empresa de porta virou",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 141.68,
@@ -1329,7 +1452,9 @@
       "timestamp": "00:02:21",
       "falante": null,
       "texto": "recuperando essa empresa de porta virou uma lição pro resto da minha vida. Eu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 143.19,
@@ -1345,7 +1470,9 @@
       "timestamp": "00:02:23",
       "falante": null,
       "texto": "uma lição pro resto da minha vida. Eu gerei centenas de empregos nesse período",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 145.11,
@@ -1353,7 +1480,9 @@
       "timestamp": "00:02:25",
       "falante": null,
       "texto": "gerei centenas de empregos nesse período",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 145.12,
@@ -1361,7 +1490,9 @@
       "timestamp": "00:02:25",
       "falante": null,
       "texto": "gerei centenas de empregos nesse período e depois afundar a revista Valete e o",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 147.23,
@@ -1425,7 +1556,9 @@
       "timestamp": "00:02:32",
       "falante": null,
       "texto": "pessoas que hoje ainda operam a segunda maior revista de política e cultura do",
-      "temas": []
+      "temas": [
+        "cultura"
+      ]
     },
     {
       "inicio": 154.47,
@@ -1433,7 +1566,9 @@
       "timestamp": "00:02:34",
       "falante": null,
       "texto": "maior revista de política e cultura do",
-      "temas": []
+      "temas": [
+        "cultura"
+      ]
     },
     {
       "inicio": 154.48,
@@ -1441,7 +1576,9 @@
       "timestamp": "00:02:34",
       "falante": null,
       "texto": "maior revista de política e cultura do Brasil e uma editora de livros presente",
-      "temas": []
+      "temas": [
+        "cultura"
+      ]
     },
     {
       "inicio": 156.23,
@@ -1617,7 +1754,9 @@
       "timestamp": "00:02:53",
       "falante": null,
       "texto": "longo dos últimos anos. Terceiro caso, sabotagem ideológica e corrupção do PT.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 175.55,
@@ -1625,7 +1764,9 @@
       "timestamp": "00:02:55",
       "falante": null,
       "texto": "sabotagem ideológica e corrupção do PT.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 175.56,
@@ -1633,7 +1774,10 @@
       "timestamp": "00:02:55",
       "falante": null,
       "texto": "sabotagem ideológica e corrupção do PT. Além de trabalhar minha empresa, eu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego",
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 176.63,
@@ -1641,7 +1785,9 @@
       "timestamp": "00:02:56",
       "falante": null,
       "texto": "Além de trabalhar minha empresa, eu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 176.64,
@@ -1649,7 +1795,9 @@
       "timestamp": "00:02:56",
       "falante": null,
       "texto": "Além de trabalhar minha empresa, eu ajudava meu pai na empresa que ele",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 177.83,
@@ -1657,7 +1805,9 @@
       "timestamp": "00:02:57",
       "falante": null,
       "texto": "ajudava meu pai na empresa que ele",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 177.84,
@@ -1665,7 +1815,9 @@
       "timestamp": "00:02:57",
       "falante": null,
       "texto": "ajudava meu pai na empresa que ele administrava. Sempre fui um filho bom e",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 179.79,
@@ -1697,7 +1849,9 @@
       "timestamp": "00:03:01",
       "falante": null,
       "texto": "presente e sempre gostei de trabalhar. Uma das empresas que estava no processo",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 182.63,
@@ -1705,7 +1859,9 @@
       "timestamp": "00:03:02",
       "falante": null,
       "texto": "Uma das empresas que estava no processo",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 182.64,
@@ -1713,7 +1869,9 @@
       "timestamp": "00:03:02",
       "falante": null,
       "texto": "Uma das empresas que estava no processo de recuperação judicial, cumprindo com o",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 184.51,
@@ -1809,7 +1967,9 @@
       "timestamp": "00:03:13",
       "falante": null,
       "texto": "demitir todos os funcionários. O juiz, aquele meu ex-professor petista de",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 195.83,
@@ -1817,7 +1977,9 @@
       "timestamp": "00:03:15",
       "falante": null,
       "texto": "aquele meu ex-professor petista de",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 195.84,
@@ -1825,7 +1987,9 @@
       "timestamp": "00:03:15",
       "falante": null,
       "texto": "aquele meu ex-professor petista de direito do trabalho na faculdade de",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 197.23,
@@ -1833,7 +1997,9 @@
       "timestamp": "00:03:17",
       "falante": null,
       "texto": "direito do trabalho na faculdade de",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 197.24,
@@ -1841,7 +2007,9 @@
       "timestamp": "00:03:17",
       "falante": null,
       "texto": "direito do trabalho na faculdade de direito, aquele que gostava de fazer",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 198.39,
@@ -1985,7 +2153,9 @@
       "timestamp": "00:03:32",
       "falante": null,
       "texto": "você precisa ter um luxo também. Esse socialista destruiu a empresa do meu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 213.87,
@@ -1993,7 +2163,9 @@
       "timestamp": "00:03:33",
       "falante": null,
       "texto": "socialista destruiu a empresa do meu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 213.88,
@@ -2001,7 +2173,9 @@
       "timestamp": "00:03:33",
       "falante": null,
       "texto": "socialista destruiu a empresa do meu pai, mas não apenas ela, ele destruiu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 215.67,
@@ -2017,7 +2191,9 @@
       "timestamp": "00:03:35",
       "falante": null,
       "texto": "pai, mas não apenas ela, ele destruiu todas as empresas da região. O distrito",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 217.55,
@@ -2025,7 +2201,9 @@
       "timestamp": "00:03:37",
       "falante": null,
       "texto": "todas as empresas da região. O distrito",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 217.56,
@@ -2033,7 +2211,9 @@
       "timestamp": "00:03:37",
       "falante": null,
       "texto": "todas as empresas da região. O distrito industrial de Jundiaí, que já foi um dos",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 218.95,
@@ -2257,7 +2437,9 @@
       "timestamp": "00:04:01",
       "falante": null,
       "texto": "vinganças. Derrubamos de uma Russef tomando as ruas do Congresso com uma",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 243.31,
@@ -2265,7 +2447,9 @@
       "timestamp": "00:04:03",
       "falante": null,
       "texto": "tomando as ruas do Congresso com uma",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 243.32,
@@ -2273,7 +2457,9 @@
       "timestamp": "00:04:03",
       "falante": null,
       "texto": "tomando as ruas do Congresso com uma agenda anticorrupção. Em 2017 eu tive a",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 245.95,
@@ -2369,7 +2555,9 @@
       "timestamp": "00:04:14",
       "falante": null,
       "texto": "mesmo juiz do trabalho, esse mesmo ex-professor petista. Infelizmente o",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 256.55,
@@ -2377,7 +2565,9 @@
       "timestamp": "00:04:16",
       "falante": null,
       "texto": "ex-professor petista. Infelizmente o",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 256.56,
@@ -2385,7 +2575,9 @@
       "timestamp": "00:04:16",
       "falante": null,
       "texto": "ex-professor petista. Infelizmente o bolsonarismo deixou o Lula sair da",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 257.95,
@@ -2593,7 +2785,9 @@
       "timestamp": "00:04:37",
       "falante": null,
       "texto": "seja o país, não do juiz Robin Hood, que recebe super salário. E que o Brasil",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 279.15,
@@ -2601,7 +2795,9 @@
       "timestamp": "00:04:39",
       "falante": null,
       "texto": "recebe super salário. E que o Brasil",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 279.16,
@@ -2609,7 +2805,9 @@
       "timestamp": "00:04:39",
       "falante": null,
       "texto": "recebe super salário. E que o Brasil seja não um país da inoperância, da",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 280.79,

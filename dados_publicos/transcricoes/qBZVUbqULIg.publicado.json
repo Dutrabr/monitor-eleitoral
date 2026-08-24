@@ -35,7 +35,9 @@
       "timestamp": "00:00:15",
       "falante": "candidato_omar_aziz",
       "texto": "pela valorização de todos os servidores e pelo forte investimento em segurança pública.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 22.53,

@@ -67,7 +67,9 @@
       "timestamp": "00:00:36",
       "falante": "candidato_pedro_abib",
       "texto": "nunca fez uma política de capacitação dos seus professores como nós fizemos estando fora do governo.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     }
   ]
 }

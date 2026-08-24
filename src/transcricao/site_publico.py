@@ -354,21 +354,40 @@ def criar_app(
     def comparar(
         request: Request,
         tema: str | None = None,
+        uf: str | None = None,
         candidatos: list[str] | None = Query(None),
     ):
         """Modo comparar: mesmo tema, 2 a 4 candidatos lado a lado.
 
+        Sem `uf`, compara os candidatos a Presidente. Com `uf`, compara os
+        candidatos a Governador daquele estado.
+
+        **A comparacao e' sempre dentro da mesma corrida.** Nao ha' como
+        comparar governador de estados diferentes: eles nao disputam entre
+        si, e numero de urna e' por corrida (o 13 de SP nao tem relacao com
+        o 13 da BA), entao a ordenacao — que e' a garantia de simetria da
+        regra 3 — perderia sentido.
+
         Sem totalizacao, sem placar — cada coluna e' so' a mesma evidencia que
-        `/candidato/{slug}` ja mostra, filtrada pro tema escolhido. Ordem das
-        colunas e' sempre por numero de urna (regra 3), nunca pela ordem em
-        que os slugs vieram na URL — assim duas pessoas comparando os mesmos
-        candidatos sempre veem a mesma ordem.
+        a pagina do candidato ja mostra, filtrada pro tema escolhido. Ordem das
+        colunas e' sempre por numero de urna, nunca pela ordem em que os slugs
+        vieram na URL — assim duas pessoas comparando os mesmos candidatos
+        sempre veem a mesma ordem.
         """
         temas_navegaveis = [
             (valor, rotulo) for valor, rotulo in TEMAS_DISPONIVEIS
             if valor != TEMA_SEM_CLASSIFICACAO
         ]
-        todos_candidatos = _candidatos_por_numero()
+
+        uf = (uf or "").upper() or None
+        if uf and uf not in UF_NOMES:
+            uf = None
+        if uf:
+            todos_candidatos = _candidatos_governador_uf(uf)
+            pasta_curados = pasta_planos_curados_governador / uf
+        else:
+            todos_candidatos = _candidatos_por_numero()
+            pasta_curados = pasta_planos_curados
 
         slugs_pedidos: list[str] = []
         for item in candidatos or []:
@@ -379,6 +398,9 @@ def criar_app(
             "candidatos": todos_candidatos,
             "tema_escolhido": tema,
             "slugs_escolhidos": slugs_pedidos,
+            "uf": uf,
+            "nome_estado": UF_NOMES.get(uf) if uf else None,
+            "estados": sorted(UF_NOMES.items(), key=lambda kv: kv[1]),
         }
 
         if not tema or not slugs_pedidos:
@@ -416,7 +438,7 @@ def criar_app(
             citacoes = citacoes_do_candidato(c["falante_id"], publicados)
             for cit in citacoes:
                 cit["url_com_timestamp"] = url_com_timestamp(cit.get("url_origem"), cit["inicio"])
-            plano_curado = carregar_plano_curado(pasta_planos_curados, c["slug"])
+            plano_curado = carregar_plano_curado(pasta_curados, c["slug"])
             colunas.append(
                 {
                     "candidato": c,

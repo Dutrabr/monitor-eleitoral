@@ -27,7 +27,9 @@
       "timestamp": "00:00:06",
       "falante": "candidato_renan_filho",
       "texto": "com essas obras em Alagoas e também com as obras em Aracajú.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 9.7,
@@ -43,7 +45,9 @@
       "timestamp": "00:00:12",
       "falante": "candidato_renan_filho",
       "texto": "Então tem obras no Brasil inteiro.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 14.66,
@@ -51,7 +55,9 @@
       "timestamp": "00:00:14",
       "falante": "candidato_renan_filho",
       "texto": "E aqui em Alагоas nós garantimos o andamento de todas as obras da 101.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 19.26,
@@ -59,7 +65,9 @@
       "timestamp": "00:00:19",
       "falante": "candidato_renan_filho",
       "texto": "Tem outras três obras que são muito importantes para o desenvolvimento do Estado.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 22.86,
@@ -75,7 +83,9 @@
       "timestamp": "00:00:24",
       "falante": "candidato_renan_filho",
       "texto": "Uma é a Ponte de Penedo.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 25.74,
@@ -83,7 +93,9 @@
       "timestamp": "00:00:25",
       "falante": "candidato_renan_filho",
       "texto": "Nós tivemos a licença ambiental e a licança do IFAM.",
-      "temas": []
+      "temas": [
+        "meio_ambiente_e_clima"
+      ]
     },
     {
       "inicio": 28.28,
@@ -91,7 +103,9 @@
       "timestamp": "00:00:28",
       "falante": "candidato_renan_filho",
       "texto": "e agora em 25 será o ano do andamento da Ponte de Penedo,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 32.28,
@@ -131,7 +145,9 @@
       "timestamp": "00:00:44",
       "falante": "candidato_renan_filho",
       "texto": "A terceira obra importante é a duplicação da BR-104,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 50.08,
@@ -155,7 +171,9 @@
       "timestamp": "00:00:56",
       "falante": "candidato_renan_filho",
       "texto": "Uma obra muito importante, passando por Murici, por Branquinha, até União no primeiro momento.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 61.88,
@@ -163,7 +181,9 @@
       "timestamp": "00:01:01",
       "falante": "candidato_renan_filho",
       "texto": "Mas essa rodovia nós estamos duplicando em Caruaru, na região de Campina Grande.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 66.82,
@@ -179,7 +199,9 @@
       "timestamp": "00:01:12",
       "falante": "candidato_renan_filho",
       "texto": "E uma outra obra fundamental é o VLT de Arapiraca, que está já prestes a iniciar.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 78.98,
@@ -187,7 +209,9 @@
       "timestamp": "00:01:18",
       "falante": "candidato_renan_filho",
       "texto": "Até o meio do ano eu espero iniciar essa obra.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 81.48,
@@ -203,7 +227,9 @@
       "timestamp": "00:01:24",
       "falante": "candidato_renan_filho",
       "texto": "Isso é uma obra que vai ser muito importante para o desenvolvimento do transporte urbano dentro de Arapiraca.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     }
   ]
 }

@@ -11,7 +11,9 @@
       "timestamp": "00:00:00",
       "falante": "candidato_doutora_natasha",
       "texto": "Feminicídio é o fim da linha.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 1.89,
@@ -19,7 +21,9 @@
       "timestamp": "00:00:01",
       "falante": "candidato_doutora_natasha",
       "texto": "Candidata doutora Natasha, na sua opinião, o que o atual governo faz para impedir que Mato Grosso liderasse assassinato de mulheres no Brasil?",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 11.13,
@@ -27,7 +31,9 @@
       "timestamp": "00:00:11",
       "falante": "candidato_doutora_natasha",
       "texto": "Não fez nada. Onde já se viu nós sermos o estado que mais mata mulheres nos últimos anos?",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 16.61,
@@ -35,7 +41,9 @@
       "timestamp": "00:00:16",
       "falante": "candidato_doutora_natasha",
       "texto": "Só semana passada foram quatro mulheres assassinadas.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 20.47,
@@ -43,7 +51,10 @@
       "timestamp": "00:00:20",
       "falante": "candidato_doutora_natasha",
       "texto": "O feminicídium é o fin da linha, feminicíduo é quando já vem aí de uma série, de uma jornada de violência contra a mulher.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade",
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 27.43,
@@ -51,7 +62,9 @@
       "timestamp": "00:00:27",
       "falante": "candidato_doutora_natasha",
       "texto": "Aliás, Mato Grosso também é o estado que mais violenta mulheres.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 32.27,
@@ -59,7 +72,9 @@
       "timestamp": "00:00:32",
       "falante": "candidato_doutora_natasha",
       "texto": "São cerca de 40 mil mulheres violentadas por ano.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 35.57,
@@ -67,7 +82,9 @@
       "timestamp": "00:00:35",
       "falante": "candidato_doutora_natasha",
       "texto": "São 30 mulheres hoje já assassinadas no nosso estado só esse ano.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 39.19,
@@ -91,7 +108,9 @@
       "timestamp": "00:00:46",
       "falante": "candidato_doutora_natasha",
       "texto": "Nós vamos ter uma secretaria para cuidar das mulheres.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 49.93,
@@ -99,7 +118,9 @@
       "timestamp": "00:00:49",
       "falante": "candidato_doutora_natasha",
       "texto": "Nós vamos aumentar o número de policiais na rua.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 53.29,
@@ -115,7 +136,9 @@
       "timestamp": "00:00:56",
       "falante": "candidato_doutora_natasha",
       "texto": "e eles vão voltar para fazer a defesa das mulheres,",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 60.05,
@@ -131,7 +154,10 @@
       "timestamp": "00:01:01",
       "falante": "candidato_doutora_natasha",
       "texto": "Nós vamos também criar casas de acolhimento para essa mulher",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza",
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 65.15,
@@ -139,7 +165,10 @@
       "timestamp": "00:01:05",
       "falante": "candidato_doutora_natasha",
       "texto": "porque hoje a jornada de uma mulher que sofre violência é muito doída.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade",
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 69.43,
@@ -147,7 +176,9 @@
       "timestamp": "00:01:09",
       "falante": "candidato_doutora_natasha",
       "texto": "Ninguém melhor do que uma mulher para tomar conta disso",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 72.05,
@@ -155,7 +186,9 @@
       "timestamp": "00:01:12",
       "falante": "candidato_doutora_natasha",
       "texto": "porque só nós, mulheres, sabemos qual é a nossa dor.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 75.21,
@@ -163,7 +196,9 @@
       "timestamp": "00:01:15",
       "falante": "candidato_doutora_natasha",
       "texto": "Nós vamos ter que atuar na prevenção da violência",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 78.79,
@@ -171,7 +206,9 @@
       "timestamp": "00:01:18",
       "falante": "candidato_doutora_natasha",
       "texto": "e como é que se atua nas escolas.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 81.05,
@@ -179,7 +216,10 @@
       "timestamp": "00:01:21",
       "falante": "candidato_doutora_natasha",
       "texto": "Você sabia que ter criança na creche evita violência?",
-      "temas": []
+      "temas": [
+        "educacao",
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 84.59,
@@ -187,7 +227,9 @@
       "timestamp": "00:01:24",
       "falante": "candidato_doutora_natasha",
       "texto": "também nós vamos ter 100% das crianças em creche.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 88.21,
@@ -211,7 +253,9 @@
       "timestamp": "00:01:35",
       "falante": "candidato_doutora_natasha",
       "texto": "pequenininho pra criança que não se bate em mulher. Nós tenemos que ensiar pra menina",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 100.13,
@@ -243,7 +287,9 @@
       "timestamp": "00:01:52",
       "falante": "candidato_doutora_natasha",
       "texto": "e quero ser conhecida como a governadora que mais colocou criança na creche no nosso estado.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     }
   ]
 }

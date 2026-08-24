@@ -2,13 +2,95 @@
 {% block titulo %}{% if modo == "resultado" %}{{ og_titulo }}{% else %}Comparar candidatos — Monitor Eleitoral{% endif %}{% endblock %}
 {% block og_titulo %}{% if modo == "resultado" %}{{ og_titulo }}{% else %}Comparar candidatos — Monitor Eleitoral{% endif %}{% endblock %}
 {% block og_descricao %}{% if modo == "resultado" %}{{ og_descricao }}{% else %}Escolha um tema e de 2 a 4 candidatos para comparar plano de governo e redes sociais lado a lado.{% endif %}{% endblock %}
+
+{% block estilo %}
+<style>
+  .corrida-abas {
+    display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
+    margin: 1.5rem 0 .5rem;
+  }
+  .corrida-abas .aba {
+    font-family: var(--f-mono); font-size: .76rem; letter-spacing: .08em;
+    text-transform: uppercase; text-decoration: none;
+    padding: .5rem .9rem; border: 1px solid var(--borda);
+    background: var(--superficie); color: var(--texto-suave);
+  }
+  .corrida-abas .aba.ativa { background: var(--teal); border-color: var(--teal); color: var(--bg); }
+  .seletor-uf {
+    background: var(--superficie); border: 1px solid var(--borda); color: var(--texto);
+    font-family: var(--f-mono); font-size: .76rem; padding: .5rem .7rem;
+    letter-spacing: .05em;
+  }
+  .seletor-uf:focus { outline: none; border-color: var(--teal); }
+  .aviso-corrida {
+    font-family: var(--f-mono); font-size: .72rem; color: var(--texto-fraco);
+    letter-spacing: .04em; margin: .25rem 0 1.5rem;
+  }
+  .rotulo-secao {
+    font-family: var(--f-mono); font-size: .7rem; text-transform: uppercase;
+    letter-spacing: .16em; color: var(--texto-fraco);
+    margin: 2rem 0 .75rem; padding-bottom: .5rem; border-bottom: 1px solid var(--borda);
+  }
+  .botao-comparar {
+    margin-top: 1.5rem; background: var(--teal); color: var(--bg); border: 1px solid var(--teal);
+    padding: .75rem 1.5rem; font-family: var(--f-mono); font-size: .8rem;
+    letter-spacing: .1em; text-transform: uppercase; font-weight: 500; cursor: pointer;
+  }
+  .botao-comparar:hover { opacity: .85; }
+  .erro-comparar {
+    font-family: var(--f-mono); font-size: .8rem; color: var(--ambar);
+    border: 1px solid var(--ambar-linha); background: var(--ambar-tinta);
+    padding: .8rem 1rem; margin-top: 1rem;
+  }
+  .coluna-candidato .meta {
+    font-family: var(--f-mono); font-size: .72rem; color: var(--texto-fraco);
+    letter-spacing: .04em; margin-top: .2rem;
+  }
+  .coluna-candidato h4 {
+    font-family: var(--f-mono); font-size: .68rem; text-transform: uppercase;
+    letter-spacing: .14em; margin: 1.4rem 0 .7rem;
+    padding-bottom: .45rem; border-bottom: 1px solid var(--borda);
+  }
+  .coluna-candidato h4.plano { color: var(--teal); }
+  .coluna-candidato h4.redes { color: var(--ambar); }
+  .sem-citacao { color: var(--texto-fraco); font-size: .88rem; }
+</style>
+{% endblock %}
+
 {% block conteudo %}
 <p><a href="/">← Início</a></p>
 <h1>Comparar candidatos</h1>
-<p>Escolha um tema e de 2 a 4 candidatos. Mesma evidência de sempre, sem placar — a ordem das colunas é sempre por número de urna.</p>
+<p style="color: var(--texto-suave); max-width: 64ch;">
+  Escolha um tema e de 2 a 4 candidatos. Mesma evidência de sempre, sem placar —
+  a ordem das colunas é sempre por número de urna.
+</p>
+
+<div class="corrida-abas">
+  <a class="aba {% if not uf %}ativa{% endif %}" href="/comparar">Presidente</a>
+  <form method="get" action="/comparar" style="display:flex; gap:.5rem; align-items:center;">
+    <label for="uf" style="font-family:var(--f-mono); font-size:.72rem; color:var(--texto-fraco); text-transform:uppercase; letter-spacing:.08em;">Governador de</label>
+    <select class="seletor-uf" name="uf" id="uf" onchange="this.form.submit()">
+      <option value="">— escolha o estado —</option>
+      {% for sigla, nome in estados %}
+      <option value="{{ sigla }}" {% if sigla == uf %}selected{% endif %}>{{ nome }}</option>
+      {% endfor %}
+    </select>
+    <noscript><button class="botao-comparar" style="margin:0; padding:.5rem .9rem;" type="submit">Ir</button></noscript>
+  </form>
+</div>
+<p class="aviso-corrida">
+  {% if uf %}
+    Comparando candidatos a Governador de {{ nome_estado }} entre si.
+  {% else %}
+    Comparando candidatos a Presidente entre si.
+  {% endif %}
+  A comparação é sempre dentro da mesma corrida — candidatos de estados diferentes não disputam entre si.
+</p>
 
 <form method="get" action="/comparar">
-  <h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:1.5rem;">Tema</h2>
+  {% if uf %}<input type="hidden" name="uf" value="{{ uf }}">{% endif %}
+
+  <div class="rotulo-secao">Tema</div>
   <div class="chips">
     {% for valor, rotulo in temas %}
     <label class="chip-opcao">
@@ -18,13 +100,14 @@
     {% endfor %}
   </div>
 
-  <h2 style="font-size:1rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave); margin-top:1.5rem;">Candidatos (de {{ 2 }} a {{ 4 }})</h2>
+  <div class="rotulo-secao">Candidatos — escolha de 2 a 4</div>
+  {% if candidatos %}
   <div class="grade-candidatos">
     {% for c in candidatos %}
     <label class="card-candidato card-opcao">
       <input type="checkbox" name="candidatos" value="{{ c.slug }}" {% if c.slug in slugs_escolhidos %}checked{% endif %}>
       <div class="avatar-candidato">
-        <img src="/foto/{{ c.slug }}" alt="" loading="lazy" onerror="this.remove()">
+        <img src="{% if uf %}/governador/{{ uf }}/{{ c.slug }}/foto{% else %}/foto/{{ c.slug }}{% endif %}" alt="" loading="lazy" onerror="this.remove()">
         {{ c.nome[0] }}
       </div>
       {% if c.numero %}<div class="numero">Número {{ c.numero }}</div>{% endif %}
@@ -33,28 +116,31 @@
     </label>
     {% endfor %}
   </div>
+  {% else %}
+  <p class="sem-citacao">Nenhum candidato cadastrado para esta corrida.</p>
+  {% endif %}
 
-  {% if erro %}<p style="color:#B45309; font-weight:600; margin-top:1rem;">{{ erro }}</p>{% endif %}
+  {% if erro %}<p class="erro-comparar">{{ erro }}</p>{% endif %}
 
-  <button type="submit" style="margin-top:1.5rem; background:var(--teal); color:#fff; border:none; padding:.75rem 1.5rem; border-radius:999px; font-weight:700; font-size:1rem; cursor:pointer;">Comparar</button>
+  <button class="botao-comparar" type="submit">Comparar</button>
 </form>
 
 {% if modo == "resultado" %}
 <section class="tema-secao">
-  <h2>{{ rotulo_tema }}</h2>
+  <h2>{{ rotulo_tema }}{% if nome_estado %} — {{ nome_estado }}{% endif %}</h2>
   <div class="comparar-grade">
     {% for col in colunas %}
     <div class="coluna-candidato">
       <div class="avatar-candidato">
-        <img src="/foto/{{ col.candidato.slug }}" alt="" loading="lazy" onerror="this.remove()">
+        <img src="{% if uf %}/governador/{{ uf }}/{{ col.candidato.slug }}/foto{% else %}/foto/{{ col.candidato.slug }}{% endif %}" alt="" loading="lazy" onerror="this.remove()">
         {{ col.candidato.nome[0] }}
       </div>
-      <h3><a href="/candidato/{{ col.candidato.slug }}?tema={{ tema_escolhido }}">{{ col.candidato.nome }}</a></h3>
+      <h3><a href="{% if uf %}/governador/{{ uf }}/{{ col.candidato.slug }}{% else %}/candidato/{{ col.candidato.slug }}{% endif %}?tema={{ tema_escolhido }}">{{ col.candidato.nome }}</a></h3>
       <div class="meta">
-        {% if col.candidato.numero %}Número {{ col.candidato.numero }} — {% endif %}{{ col.candidato.partido }}
+        {% if col.candidato.numero %}Nº {{ col.candidato.numero }} · {% endif %}{{ col.candidato.partido }}
       </div>
 
-      <h4 style="margin-top:1.25rem; font-size:.85rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave);">Plano de governo</h4>
+      <h4 class="plano">Plano de governo</h4>
       {% if col.plano and col.plano.status == "consta" %}
         <span class="rotulo-status consta">Consta no plano</span>
         {% for trecho in col.plano.trechos %}
@@ -72,7 +158,7 @@
         <span class="rotulo-status nao-verificado">Não verificado ainda</span>
       {% endif %}
 
-      <h4 style="margin-top:1.25rem; font-size:.85rem; text-transform:uppercase; letter-spacing:.04em; color:var(--texto-suave);">Redes sociais</h4>
+      <h4 class="redes">Redes sociais</h4>
       {% for c in col.citacoes %}
       <div class="citacao">
         <p>&ldquo;{{ c.texto }}&rdquo;</p>
@@ -82,7 +168,7 @@
         </div>
       </div>
       {% else %}
-      <p>Nenhuma publicação encontrada sobre este tema até o momento.</p>
+      <p class="sem-citacao">Nenhuma citação coletada ainda para este tema.</p>
       {% endfor %}
     </div>
     {% endfor %}

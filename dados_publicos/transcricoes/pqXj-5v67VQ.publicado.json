@@ -11,7 +11,9 @@
       "timestamp": "00:00:00",
       "falante": "candidato_delcidio_amaral",
       "texto": "Dentre os vários eixos do meu programa de governo, eu quero destacar a questão das pequenas e médias empresas,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 7.38,
@@ -19,7 +21,9 @@
       "timestamp": "00:00:07",
       "falante": "candidato_delcidio_amaral",
       "texto": "fundamentais na geração de emprego e geração em renda.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 11.16,
@@ -27,7 +31,9 @@
       "timestamp": "00:00:11",
       "falante": "candidato_delcidio_amaral",
       "texto": "O FCO tem uma rubrica específica que trata do comércio.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 16.66,
@@ -43,7 +49,9 @@
       "timestamp": "00:00:20",
       "falante": "candidato_delcidio_amaral",
       "texto": "Privilegiaram somente a indústria, que é importante para o nosso Estado, mas o comórcio também.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 26.62,

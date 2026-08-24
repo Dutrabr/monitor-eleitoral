@@ -43,7 +43,9 @@
       "timestamp": "00:00:17",
       "falante": "candidato_eduardo_braide",
       "texto": "Em Caxias, no Hospital do Estado, só quem tem indicação de político consegue ser atendido.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 21.74,
@@ -51,7 +53,9 @@
       "timestamp": "00:00:21",
       "falante": "candidato_eduardo_braide",
       "texto": "Em São Luis, entregamos seis hospitais e desafogamos o atendimento.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 25.84,

@@ -2,6 +2,8 @@
   "arquivo": "2026-08-18_19-35-35_UTC.mp4",
   "hash_sha256_original": "c0251d0b7b56d5e5aba17d4fa7deab6bc3aa4f78e86ce47d653354b36155dd4d",
   "url": "https://www.instagram.com/reel/DcMX3aAJofs/",
+  "publicado_em": null,
+  "coletado_em": null,
   "citacoes": [
     {
       "inicio": 0.06,
@@ -9,7 +11,9 @@
       "timestamp": "00:00:00",
       "falante": "candidato_edmilson_costa",
       "texto": "milhão de trabalhadores enfrentam diariamente os baixos salários,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 6.29,
@@ -25,7 +29,11 @@
       "timestamp": "00:00:10",
       "falante": "candidato_edmilson_costa",
       "texto": "os serviços públicos estão sucateados, a saúde, a educação, o transporte se",
-      "temas": []
+      "temas": [
+        "educacao",
+        "infraestrutura_e_mobilidade",
+        "saude"
+      ]
     },
     {
       "inicio": 16.35,
@@ -49,7 +57,9 @@
       "timestamp": "00:00:26",
       "falante": "candidato_edmilson_costa",
       "texto": "os grandes industriais e os donos do agronegócio ganhando rios de dinheiro à custa do povo",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 34.09,
@@ -57,7 +67,9 @@
       "timestamp": "00:00:34",
       "falante": "candidato_edmilson_costa",
       "texto": "trabalhador. Ou seja, nós achamos que é hora de dar um basta nesse sufoco e a hora de devolver o",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 40.95,
@@ -65,7 +77,9 @@
       "timestamp": "00:00:40",
       "falante": "candidato_edmilson_costa",
       "texto": "Brasil ao seu verdadeiro dono, que é o povo trabalhador brasileiro. E é nesse sentido",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 47.39,

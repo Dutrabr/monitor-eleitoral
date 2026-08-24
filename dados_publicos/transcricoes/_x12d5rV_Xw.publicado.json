@@ -51,7 +51,9 @@
       "timestamp": "00:00:16",
       "falante": "candidato_eduardo_riedel",
       "texto": "em referência em sustentabilidade e diversificação da produção.",
-      "temas": []
+      "temas": [
+        "meio_ambiente_e_clima"
+      ]
     },
     {
       "inicio": 20.56,
@@ -67,7 +69,9 @@
       "timestamp": "00:00:22",
       "falante": "candidato_eduardo_riedel",
       "texto": "Tive a oportunidade de liderar o Sindicato Rural de Maracajú,",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 26.02,
@@ -139,7 +143,9 @@
       "timestamp": "00:01:09",
       "falante": "candidato_eduardo_riedel",
       "texto": "O meu compromisso é seguir trabalhando até que toda criança esteja na escola, aprendendo e tendo oportunidade de construir o próprio futuro.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 78.24,
@@ -171,7 +177,9 @@
       "timestamp": "00:01:31",
       "falante": "candidato_eduardo_riedel",
       "texto": "Aprendi com os meus pais que educação e qualificação mudam vidas",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 96.66,
@@ -187,7 +195,9 @@
       "timestamp": "00:01:38",
       "falante": "candidato_eduardo_riedel",
       "texto": "Acredito que é por esse caminho que Mato Grosso do Sul vai superar de vez a extrema pobreza",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 104.3,

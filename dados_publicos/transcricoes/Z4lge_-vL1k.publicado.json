@@ -11,7 +11,9 @@
       "timestamp": "00:00:00",
       "falante": "candidato_fernando_haddad",
       "texto": "Quando a alfabetização acontece no tempo certo, a criança aprende mais, permanece na escola e tem muito mais chance de construir um futuro.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 9.9,
@@ -35,7 +37,9 @@
       "timestamp": "00:00:20",
       "falante": "candidato_fernando_haddad",
       "texto": "Mas com o programa Hora de Aprender, o professor Haddad vai resolver esse problema.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 26.12,
@@ -43,7 +47,9 @@
       "timestamp": "00:00:26",
       "falante": "candidato_fernando_haddad",
       "texto": "Ele vai apoiar e trabalhar em conjunto com municípios e professores para corrigir os erros e ajustar os rumos.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 34.36,

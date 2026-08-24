@@ -2,6 +2,8 @@
   "arquivo": "DDsmxw9HgBw.mp4",
   "hash_sha256_original": "6d0bdb58b430f23dca90a391e2f68091cf3a01f8ef1b89d49ad3c824c5e13c74",
   "url": "https://www.youtube.com/watch?v=DDsmxw9HgBw",
+  "publicado_em": null,
+  "coletado_em": null,
   "citacoes": [
     {
       "inicio": 0.0,
@@ -25,7 +27,9 @@
       "timestamp": "00:00:05",
       "falante": "candidato_renan_santos",
       "texto": "E não tem nada a ver com corrupção. Presta muita atenção!",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 8.4,
@@ -57,7 +61,9 @@
       "timestamp": "00:00:16",
       "falante": "candidato_renan_santos",
       "texto": "Mas você vai falar, mas como assim? Uma empresa quebrou, o lula fugido do debate",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 19.72,
@@ -65,7 +71,9 @@
       "timestamp": "00:00:19",
       "falante": "candidato_renan_santos",
       "texto": "É porque não é exatamente uma empresa quebrando",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 21.64,
@@ -73,7 +81,9 @@
       "timestamp": "00:00:21",
       "falante": "candidato_renan_santos",
       "texto": "Não apenas ela é uma empresa gigante",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 23.32,
@@ -81,7 +91,9 @@
       "timestamp": "00:00:23",
       "falante": "candidato_renan_santos",
       "texto": "Como ela faz parte das quase 8 mil empresas que pediram recuperação judicial agora",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 28.06,
@@ -97,7 +109,9 @@
       "timestamp": "00:00:29",
       "falante": "candidato_renan_santos",
       "texto": "Nunca tanta empresa pediu recuperação judicial,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 31.7,
@@ -153,7 +167,9 @@
       "timestamp": "00:00:39",
       "falante": "candidato_renan_santos",
       "texto": "Quando um monte de empresas grandes saem quebrando",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 41.88,
@@ -193,7 +209,9 @@
       "timestamp": "00:00:47",
       "falante": "candidato_renan_santos",
       "texto": "Lembra que ele deu energia elétrica pra todo mundo?",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 49.58,
@@ -257,7 +275,9 @@
       "timestamp": "00:01:02",
       "falante": "candidato_renan_santos",
       "texto": "Quando isso acontece, os juros sobe",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 64.06,
@@ -273,7 +293,9 @@
       "timestamp": "00:01:06",
       "falante": "candidato_renan_santos",
       "texto": "O Brasil tem um dos maiores juros reais do mundo",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 68.48,
@@ -281,7 +303,9 @@
       "timestamp": "00:01:08",
       "falante": "candidato_renan_santos",
       "texto": "se não o maior juros real do mundo.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 70.2,
@@ -297,7 +321,9 @@
       "timestamp": "00:01:11",
       "falante": "candidato_renan_santos",
       "texto": "e empresas não conseguem se planejar ao longo prazos",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 73.5,
@@ -313,7 +339,9 @@
       "timestamp": "00:01:16",
       "falante": "candidato_renan_santos",
       "texto": "com juros desses.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 76.9,
@@ -321,7 +349,9 @@
       "timestamp": "00:01:16",
       "falante": "candidato_renan_santos",
       "texto": "O que acontece, a empresa quebra",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 78.18,
@@ -353,7 +383,9 @@
       "timestamp": "00:01:21",
       "falante": "candidato_renan_santos",
       "texto": "quem paga conta, que são as empresas dos trabalhadores",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 83.28,
@@ -385,7 +417,9 @@
       "timestamp": "00:01:30",
       "falante": "candidato_renan_santos",
       "texto": "Pois bem, começou a quebrar agora nas vespas da eleição e o Lula não quer explicar isso",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 93.58,

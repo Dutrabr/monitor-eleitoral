@@ -27,7 +27,9 @@
       "timestamp": "00:00:16",
       "falante": "candidato_aroldo_felix",
       "texto": "Ele esteve aqui na Universidade Federal da BahIA, agrediu estudantes, professores",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 23.23,
@@ -51,7 +53,9 @@
       "timestamp": "00:00:35",
       "falante": "candidato_aroldo_felix",
       "texto": "porque a Universidade Federal da Bahia precisa de recursos",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 39.95,
@@ -91,7 +95,9 @@
       "timestamp": "00:00:58",
       "falante": "candidato_aroldo_felix",
       "texto": "Queremos recursos para a educação pública e não deputado fascista",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 63.29,
@@ -99,7 +105,9 @@
       "timestamp": "00:01:03",
       "falante": "candidato_aroldo_felix",
       "texto": "vindo aqui agredir estudantes e professores.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 66.01,

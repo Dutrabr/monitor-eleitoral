@@ -27,7 +27,9 @@
       "timestamp": "00:00:09",
       "falante": "candidato_zucco",
       "texto": "O produtor quer estrada para escoar a produção.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 12.63,
@@ -35,7 +37,10 @@
       "timestamp": "00:00:12",
       "falante": "candidato_zucco",
       "texto": "O empresário quer energia, internet, logística e segurança para investir.",
-      "temas": []
+      "temas": [
+        "ciencia_tecnologia_e_inovacao",
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 17.85,
@@ -43,7 +48,9 @@
       "timestamp": "00:00:17",
       "falante": "candidato_zucco",
       "texto": "O trabalhador quer emprego mais perto de casa.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 21.57,
@@ -83,7 +90,9 @@
       "timestamp": "00:00:35",
       "falante": "candidato_zucco",
       "texto": "O nosso problema não é falta de vocação, é falta d'infraestrutura, planejamento,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 41.41,
@@ -139,7 +148,10 @@
       "timestamp": "00:01:06",
       "falante": "candidato_zucco",
       "texto": "Essa rodovia liga o Rio Grande à Argentina, ao Mercosul e ao restante do Brasil.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade",
+        "politica_externa_e_relacoes_internacionais"
+      ]
     },
     {
       "inicio": 72.55,
@@ -187,7 +199,9 @@
       "timestamp": "00:01:35",
       "falante": "candidato_zucco",
       "texto": "isso tira a força da indústria, do agro e dos municípios do interior.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 100.57,
@@ -219,7 +233,9 @@
       "timestamp": "00:01:55",
       "falante": "candidato_zucco",
       "texto": "Infraestrutura é rodovia, ferrovia, hidrovia.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 119.13,
@@ -227,7 +243,9 @@
       "timestamp": "00:01:59",
       "falante": "candidato_zucco",
       "texto": "Porto, energia, internet, gás, tecnologia e capacidade de conectar produção com o mercado.",
-      "temas": []
+      "temas": [
+        "ciencia_tecnologia_e_inovacao"
+      ]
     },
     {
       "inicio": 126.45,
@@ -243,7 +261,10 @@
       "timestamp": "00:02:12",
       "falante": "candidato_zucco",
       "texto": "Potencial precisa virar obra, investimento, emprego e renda.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego",
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 135.77,
@@ -251,7 +272,9 @@
       "timestamp": "00:02:15",
       "falante": "candidato_zucco",
       "texto": "Minha proposta é criar um plano integrado de infraestrutura para o nosso Estado.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 140.67,
@@ -339,7 +362,9 @@
       "timestamp": "00:02:55",
       "falante": "candidato_zucco",
       "texto": "para quem usa a estrada com frequência",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 177.69,
@@ -355,7 +380,9 @@
       "timestamp": "00:02:59",
       "falante": "candidato_zucco",
       "texto": "obras estruturantes. Quinto,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 181.55,
@@ -379,7 +406,9 @@
       "timestamp": "00:03:05",
       "falante": "candidato_zucco",
       "texto": "para atrair indústria, fortalecer",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 187.67,
@@ -395,7 +424,9 @@
       "timestamp": "00:03:09",
       "falante": "candidato_zucco",
       "texto": "rural e preparar o Estado",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 191.35,
@@ -443,7 +474,9 @@
       "timestamp": "00:03:21",
       "falante": "candidato_zucco",
       "texto": "porque no fim das contas a infraestrutura",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 203.23,
@@ -451,7 +484,9 @@
       "timestamp": "00:03:23",
       "falante": "candidato_zucco",
       "texto": "não é só obra, é o caminho para o Rio",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 205.25,

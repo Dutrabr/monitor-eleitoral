@@ -35,7 +35,9 @@
       "timestamp": "00:00:10",
       "falante": "candidato_arruda",
       "texto": "Quando eu fui secretário de obras do Roriz, por exemplo, a gente fez o metrô.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 14.48,
@@ -43,7 +45,9 @@
       "timestamp": "00:00:14",
       "falante": "candidato_arruda",
       "texto": "Depois, no meu governo, levei o metró até a Ceilândia e até a rodoviária do plano piloto.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 19.66,
@@ -59,7 +63,9 @@
       "timestamp": "00:00:22",
       "falante": "candidato_arruda",
       "texto": "A saúde da nossa época funcionava.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 24.88,
@@ -67,7 +73,9 @@
       "timestamp": "00:00:24",
       "falante": "candidato_arruda",
       "texto": "Todo posto de saúde tinha o pediatra, o ginecologista e o clínico geral.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 30.18,
@@ -75,7 +83,9 @@
       "timestamp": "00:00:30",
       "falante": "candidato_arruda",
       "texto": "Nós fizemos mais de 2.300 obras em três anos.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 33.86,
@@ -83,7 +93,9 @@
       "timestamp": "00:00:33",
       "falante": "candidato_arruda",
       "texto": "Agora, colocar o DF de volta nos trilhos, modernizando e ampliando o metrô, fazendo quatro novas linhas,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 40.62,
@@ -99,7 +111,9 @@
       "timestamp": "00:00:42",
       "falante": "candidato_arruda",
       "texto": "Mudar a gestão da saúde, construir cinco novos hospitais, contratar mais 3 mil médicos",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 48.74,
@@ -107,7 +121,9 @@
       "timestamp": "00:00:48",
       "falante": "candidato_arruda",
       "texto": "e trazer de volta a educação em tempo integral, a bolsa universitária,",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 54.66,
@@ -123,7 +139,9 @@
       "timestamp": "00:01:02",
       "falante": "candidato_arruda",
       "texto": "Eu sou o Arruda, engenheiro, secretário de obras, eu fui senador, deputado federal, governador,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 68.28,
