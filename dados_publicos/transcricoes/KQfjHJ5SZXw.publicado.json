@@ -37,7 +37,9 @@
       "timestamp": "00:00:14",
       "falante": "candidato_paula_belmonte",
       "texto": "Pois é, por quase 10 anos ele era só um monte di concreto, sem utilidade, sem vida.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 20.74,
@@ -45,7 +47,9 @@
       "timestamp": "00:00:20",
       "falante": "candidato_paula_belmonte",
       "texto": "Quando era deputado federal, Paulo Belmonte destinou 10 milhões de recursos",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 24.82,
@@ -71,7 +75,9 @@
       "timestamp": "00:00:35",
       "falante": "candidato_paula_belmonte",
       "texto": "E é por isso que eu gosto tanto de Paula Belmonte. Por quê?",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 39.84,
@@ -89,7 +95,9 @@
       "timestamp": "00:00:45",
       "falante": "candidato_paula_belmonte",
       "texto": "Acompanhe porque em breve voltaremos com mais uma história.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     }
   ]
 }

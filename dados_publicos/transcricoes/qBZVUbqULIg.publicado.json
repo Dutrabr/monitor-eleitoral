@@ -45,7 +45,9 @@
       "timestamp": "00:00:22",
       "falante": "candidato_omar_aziz",
       "texto": "Venha para o nosso time.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 24.17,
@@ -53,7 +55,9 @@
       "timestamp": "00:00:24",
       "falante": "candidato_omar_aziz",
       "texto": "Feliz seu PSD.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 25.87,

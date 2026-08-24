@@ -206,7 +206,10 @@
       "timestamp": "00:01:05",
       "falante": "candidato_orleans_brandao",
       "texto": "Agora ele vai dar mais um passo para ser o governador mais jovem do Maranhão",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     },
     {
       "inicio": 70.65,
@@ -214,7 +217,10 @@
       "timestamp": "00:01:10",
       "falante": "candidato_orleans_brandao",
       "texto": "e mudar mais a vida das pessoas.",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     },
     {
       "inicio": 73.59,

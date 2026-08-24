@@ -37,7 +37,9 @@
       "timestamp": "00:00:18",
       "falante": "candidato_flavio_bolsonaro",
       "texto": "Alguém que já foi promotor de justiça chefe de Ministério Público do seu estado, alguém",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 49.52,
@@ -71,7 +73,9 @@
       "timestamp": "00:01:08",
       "falante": "candidato_flavio_bolsonaro",
       "texto": "Alfredo Gaspar do Partido Liberal, eu e Oficial Sete.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 25.95,
@@ -79,7 +83,9 @@
       "timestamp": "00:00:25",
       "falante": "candidato_flavio_bolsonaro",
       "texto": "que enfrentou e defendeu os nossos aposentados na CPMI do INSS. Alguém que",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 34.77,

@@ -27,7 +27,9 @@
       "timestamp": "00:00:05",
       "falante": "candidato_ronaldo_mansur",
       "texto": "Dialogamos também na Assembleia Legislativa.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 7.75,
@@ -35,7 +37,9 @@
       "timestamp": "00:00:07",
       "falante": "candidato_ronaldo_mansur",
       "texto": "Nós temos independência na Assembléia Legislативa,",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 10.44,
@@ -43,7 +47,9 @@
       "timestamp": "00:00:10",
       "falante": "candidato_ronaldo_mansur",
       "texto": "como também temos independância eleitoral.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 13.6,
@@ -179,7 +185,9 @@
       "timestamp": "00:01:22",
       "falante": "candidato_ronaldo_mansur",
       "texto": "Nós temos uma posição, assim como também temos uma posição nacional de apoiar o presidente Lula à reeleição.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     }
   ]
 }

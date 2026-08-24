@@ -55,7 +55,9 @@
       "timestamp": "00:00:19",
       "falante": "candidato_arruda",
       "texto": "Mas de lá pra cá não fizeram mais nada.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 22.44,
@@ -103,7 +105,9 @@
       "timestamp": "00:00:40",
       "falante": "candidato_arruda",
       "texto": "esse é o nosso desafio.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 42.62,
@@ -131,7 +135,9 @@
       "timestamp": "00:00:54",
       "falante": "candidato_arruda",
       "texto": "implantar o programa Bairro Seguro e lutar muito para salvar o nosso BRB.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 62.08,
@@ -149,7 +155,9 @@
       "timestamp": "00:01:08",
       "falante": "candidato_arruda",
       "texto": "mas eu sou mesmo um eterno otimista do potencial da nossa cidade.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 73.3,
@@ -157,7 +165,9 @@
       "timestamp": "00:01:13",
       "falante": "candidato_arruda",
       "texto": "Eu sou um apaixonado por Brasília e pela nossa gente.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 76.58,

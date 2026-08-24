@@ -37,7 +37,9 @@
       "timestamp": "00:00:23",
       "falante": "candidato_aroldo_felix",
       "texto": "e nós estamos aqui, em primeiro lugar, para prestar nossa solidariedade aos agredidos",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 30.05,
@@ -45,7 +47,9 @@
       "timestamp": "00:00:30",
       "falante": "candidato_aroldo_felix",
       "texto": "e dizer que vamos exigir a cassação imediata desse fascista",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 35.97,
@@ -63,7 +67,9 @@
       "timestamp": "00:00:39",
       "falante": "candidato_aroldo_felix",
       "texto": "precisa de orçamento para terminar seus prédios",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 43.71,
@@ -71,7 +77,9 @@
       "timestamp": "00:00:43",
       "falante": "candidato_aroldo_felix",
       "texto": "garantir a permanência estudantil",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 45.69,
@@ -79,7 +87,9 @@
       "timestamp": "00:00:45",
       "falante": "candidato_aroldo_felix",
       "texto": "e para isso nós da Unidade Popular defendemos o fim do pagamento da dívida pública",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 51.59,
@@ -87,7 +97,9 @@
       "timestamp": "00:00:51",
       "falante": "candidato_aroldo_felix",
       "texto": "que sangra mais de um trilhão de reais para o bolso dos banqueiros todos os anos.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 58.79,
@@ -115,7 +127,9 @@
       "timestamp": "00:01:06",
       "falante": "candidato_aroldo_felix",
       "texto": "Vamos à luta pelo fim do fascismo, aqui é a Bahia e na Bahia fascista não se cria.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     }
   ]
 }

@@ -2,6 +2,40 @@
 {% block titulo %}{{ og_titulo }}{% endblock %}
 {% block og_titulo %}{{ og_titulo }}{% endblock %}
 {% block og_descricao %}{{ og_descricao }}{% endblock %}
+{% block estilo %}
+<style>
+  .falas-destaque { margin: 1.75rem 0 .5rem; }
+  .falas-cabeca {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; flex-wrap: wrap; padding-bottom: .6rem;
+    border-bottom: 1px solid var(--borda); margin-bottom: 1rem;
+  }
+  .falas-cabeca .rotulo {
+    font-family: var(--f-mono); font-size: .7rem; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--ambar);
+  }
+  .falas-cabeca a {
+    font-family: var(--f-mono); font-size: .7rem; letter-spacing: .06em;
+    text-decoration: none; color: var(--texto-fraco);
+  }
+  .falas-cabeca a:hover { color: var(--teal); }
+  .falas-lista {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    gap: 1px; background: var(--borda); border: 1px solid var(--borda);
+  }
+  .fala-cartao { margin: 0; background: var(--superficie); padding: 1.05rem 1.15rem; }
+  .fala-cartao p {
+    font-family: var(--f-serif); font-size: .97rem; line-height: 1.6;
+    margin: 0 0 .6rem; color: var(--texto);
+  }
+  .fala-cartao footer {
+    font-family: var(--f-mono); font-size: .68rem; color: var(--texto-fraco);
+    letter-spacing: .04em;
+  }
+  .fala-cartao footer a { color: var(--ambar); }
+</style>
+{% endblock %}
+
 {% block conteudo %}
 <p><a href="{{ voltar_url }}">← {{ voltar_label }}</a></p>
 <div style="display:flex; align-items:center; gap:1rem;">
@@ -25,6 +59,27 @@
 {% endif %}
 
 <p>{{ total_citacoes }} citação(ões) publicamente confirmada(s), agrupadas por tema.</p>
+
+{% set destaques = (timeline or (grupos.get(tema_sem_classificacao) or []))[:4] %}
+{% if destaques %}
+<section class="falas-destaque">
+  <div class="falas-cabeca">
+    <span class="rotulo">O que {{ candidato.nome.split()[0]|title }} disse</span>
+    <a href="#linha-tempo">ver tudo em ordem &rarr;</a>
+  </div>
+  <div class="falas-lista">
+    {% for c in destaques %}
+    <blockquote class="fala-cartao">
+      <p>&ldquo;{{ c.texto }}&rdquo;</p>
+      <footer>
+        {% if c.publicado_em %}{{ c.publicado_em[:10] }} · {% endif %}{{ c.timestamp }}
+        {% if c.url_com_timestamp %} · <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ouvir</a>{% endif %}
+      </footer>
+    </blockquote>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
 <div class="chips" role="navigation" aria-label="Ir para tema">
   {% for tema in temas_ordenados %}
@@ -106,7 +161,7 @@
 {% endfor %}
 
 {% if timeline %}
-<section class="tema-secao">
+<section class="tema-secao" id="linha-tempo">
   <h2>Linha do tempo</h2>
   <ol class="linha-tempo">
     {% for c in timeline %}

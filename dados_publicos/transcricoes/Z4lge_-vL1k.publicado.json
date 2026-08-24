@@ -21,7 +21,9 @@
       "timestamp": "00:00:09",
       "falante": "candidato_fernando_haddad",
       "texto": "Mas hoje as crianças de São Paulo aprendem mais tarde do que as de outros estados.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 14.82,
@@ -29,7 +31,9 @@
       "timestamp": "00:00:14",
       "falante": "candidato_fernando_haddad",
       "texto": "E trocar o livro pela tela, como vem ocorrendo, não ajuda a mudar esse quadro.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 20.2,
@@ -57,7 +61,9 @@
       "timestamp": "00:00:34",
       "falante": "candidato_fernando_haddad",
       "texto": "Como hora de aprender, 100% das crianças paulistas vão ler e escrever na idade adequada.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 42.24,
@@ -65,7 +71,9 @@
       "timestamp": "00:00:42",
       "falante": "candidato_fernando_haddad",
       "texto": "Porque com o futuro das crianças não se brinca.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     }
   ]
 }

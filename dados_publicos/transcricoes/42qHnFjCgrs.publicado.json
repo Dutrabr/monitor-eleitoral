@@ -11,7 +11,9 @@
       "timestamp": "00:00:00",
       "falante": "candidato_lula",
       "texto": "Se ao final do meu mandato todos os brasileiros tiverem a possibilidade de tomar café da",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 9.18,
@@ -19,7 +21,9 @@
       "timestamp": "00:00:09",
       "falante": "candidato_lula",
       "texto": "manhã, almoçar e jantar, terei cumprido a missão da minha vida.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 17.64,
@@ -27,7 +31,9 @@
       "timestamp": "00:00:17",
       "falante": "candidato_lula",
       "texto": "Quase o principal compromisso que assumimos em 2003 foi o de lutar contra desigualdade",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 23.56,
@@ -45,7 +51,9 @@
       "timestamp": "00:00:33",
       "falante": "candidato_lula",
       "texto": "muito do que fizemos foi defeito de forma irresponsável e criminosa",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 40.52,
@@ -53,7 +61,9 @@
       "timestamp": "00:00:40",
       "falante": "candidato_lula",
       "texto": "As sementes que plantamos fortificaram",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 44.12,
@@ -71,7 +81,9 @@
       "timestamp": "00:00:51",
       "falante": "candidato_lula",
       "texto": "Trinta milhões de pessoas começaram a almoçar, jantar e tomar café.",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 57.69,
@@ -79,7 +91,9 @@
       "timestamp": "00:00:57",
       "falante": "candidato_lula",
       "texto": "Um país soberano é um país capaz de alimentar o sopor.",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     },
     {
       "inicio": 61.85,
@@ -97,7 +111,9 @@
       "timestamp": "00:01:04",
       "falante": "candidato_lula",
       "texto": "e do pleno exercício da cidadania.",
-      "temas": []
+      "temas": [
+        "assistencia_social_e_combate_a_pobreza"
+      ]
     }
   ]
 }

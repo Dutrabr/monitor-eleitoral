@@ -71,7 +71,9 @@
       "timestamp": "00:00:28",
       "falante": "candidato_ricardo_ferraco",
       "texto": "Um verdadeiro absurdo, um retrocesso.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 31.35,
@@ -99,7 +101,9 @@
       "timestamp": "00:00:47",
       "falante": "candidato_ricardo_ferraco",
       "texto": "O modelo é responsável pela formalização de milhares, de milhões de empreendedores que saíram da informalidade.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 54.37,
@@ -137,7 +141,9 @@
       "timestamp": "00:01:16",
       "falante": "candidato_ricardo_ferraco",
       "texto": "Somente aqui no Espírito Santo são aproximadamente 500 mil postos de trabalho.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 82.45,
@@ -145,7 +151,9 @@
       "timestamp": "00:01:22",
       "falante": "candidato_ricardo_ferraco",
       "texto": "E tudo isso passa a estar ameaçado quando importantes autoridades da equipe econômica",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 87.81,
@@ -163,7 +171,9 @@
       "timestamp": "00:01:35",
       "falante": "candidato_ricardo_ferraco",
       "texto": "Como assim? Isso é um absurdo!",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 98.05,
@@ -181,7 +191,9 @@
       "timestamp": "00:01:43",
       "falante": "candidato_ricardo_ferraco",
       "texto": "Essa é a verdade.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 105.01,
@@ -209,7 +221,9 @@
       "timestamp": "00:01:59",
       "falante": "candidato_ricardo_ferraco",
       "texto": "O que o governo federal precisa na prática, de fato, é reduzir suas despesas, muitas delas supérfluas e exorbitantes.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 129.25,
@@ -217,7 +231,9 @@
       "timestamp": "00:02:09",
       "falante": "candidato_ricardo_ferraco",
       "texto": "E não castigar quem acorda cedo, dá muito duro e trabalha para ajudar a construção do nosso país.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 137.31,

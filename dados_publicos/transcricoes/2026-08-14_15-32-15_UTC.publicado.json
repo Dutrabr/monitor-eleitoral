@@ -46,7 +46,10 @@
       "timestamp": "00:00:18",
       "falante": "candidato_samara",
       "texto": "Isso é errado! O dinheiro público é para ser usado em benefício do nosso povo.",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     },
     {
       "inicio": 24.14,
@@ -54,7 +57,10 @@
       "timestamp": "00:00:24",
       "falante": "candidato_samara",
       "texto": "Além disso, gastar dinheiro com as forças armadas é ameaçar a democracia.",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     },
     {
       "inicio": 29.16,
@@ -105,7 +111,10 @@
       "timestamp": "00:00:59",
       "falante": "candidato_samara",
       "texto": "pelo direito à memória, à verdade e à justiça.",
-      "temas": []
+      "temas": [
+        "educacao",
+        "saude"
+      ]
     }
   ]
 }

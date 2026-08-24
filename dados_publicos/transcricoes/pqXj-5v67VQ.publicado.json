@@ -41,7 +41,9 @@
       "timestamp": "00:00:16",
       "falante": "candidato_delcidio_amaral",
       "texto": "Surpreendentemente, o comérgio pouco recebeu do FCO.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 20.86,
@@ -59,7 +61,9 @@
       "timestamp": "00:00:26",
       "falante": "candidato_delcidio_amaral",
       "texto": "E talvez muito mais como fator gerador de empreito.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     }
   ]
 }

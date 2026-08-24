@@ -47,7 +47,9 @@
       "timestamp": "00:00:17",
       "falante": "candidato_dr_daniel",
       "texto": "pela coleta de lixo doméstico de Ananideua",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 20.42,
@@ -55,7 +57,9 @@
       "timestamp": "00:00:20",
       "falante": "candidato_dr_daniel",
       "texto": "Também presta serviço por todo o estado do Pará",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 23.88,
@@ -129,7 +133,9 @@
       "timestamp": "00:01:18",
       "falante": "candidato_dr_daniel",
       "texto": "E vamos seguir assim trabalhando e construindo o Anandewa cada vez melhor.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     }
   ]
 }

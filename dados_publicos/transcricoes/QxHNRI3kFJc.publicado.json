@@ -63,7 +63,9 @@
       "timestamp": "00:00:25",
       "falante": "candidato_eduardo_braide",
       "texto": "Venha para o PSD transformar o Maranhã como transformamos São Luús.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     }
   ]
 }

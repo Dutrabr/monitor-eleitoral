@@ -228,7 +228,10 @@
       "timestamp": "00:00:23",
       "falante": null,
       "texto": "dessa vingança que nós vamos realizar",
-      "temas": []
+      "temas": [
+        "economia_e_emprego",
+        "educacao"
+      ]
     },
     {
       "inicio": 23.44,
@@ -236,7 +239,10 @@
       "timestamp": "00:00:23",
       "falante": null,
       "texto": "dessa vingança que nós vamos realizar juntos esse ano. A sabotagem número um",
-      "temas": []
+      "temas": [
+        "economia_e_emprego",
+        "educacao"
+      ]
     },
     {
       "inicio": 25.15,
@@ -282,7 +288,9 @@
       "timestamp": "00:00:28",
       "falante": null,
       "texto": "de direito mais concorrida do Brasil, a",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 28.4,
@@ -320,7 +328,9 @@
       "timestamp": "00:00:32",
       "falante": null,
       "texto": "muitos presidentes da República, poetas",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 32.32,
@@ -328,7 +338,9 @@
       "timestamp": "00:00:32",
       "falante": null,
       "texto": "muitos presidentes da República, poetas e intelectuais que moldaram a história",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 33.87,
@@ -438,7 +450,9 @@
       "timestamp": "00:00:44",
       "falante": null,
       "texto": "infelizmente já era dominada pela",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 44.08,
@@ -446,7 +460,9 @@
       "timestamp": "00:00:44",
       "falante": null,
       "texto": "infelizmente já era dominada pela esquerda nesse período, e vi tudo aquilo",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 45.71,
@@ -478,7 +494,9 @@
       "timestamp": "00:00:47",
       "falante": null,
       "texto": "que vocês imaginam, boas aulas e ao mesmo tempo greve de estudantes com",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 49.71,
@@ -486,7 +504,9 @@
       "timestamp": "00:00:49",
       "falante": null,
       "texto": "mesmo tempo greve de estudantes com",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 49.72,
@@ -544,7 +564,9 @@
       "timestamp": "00:00:55",
       "falante": null,
       "texto": "Maior participava das greves com os",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 55.32,
@@ -552,7 +574,9 @@
       "timestamp": "00:00:55",
       "falante": null,
       "texto": "Maior participava das greves com os estudantes. Guarde o nome desse homem.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 56.99,
@@ -560,7 +584,9 @@
       "timestamp": "00:00:56",
       "falante": null,
       "texto": "estudantes. Guarde o nome desse homem.",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 57.0,
@@ -568,7 +594,9 @@
       "timestamp": "00:00:57",
       "falante": null,
       "texto": "estudantes. Guarde o nome desse homem. Ele é um juiz de extrema esquerda que",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 58.51,
@@ -576,7 +604,9 @@
       "timestamp": "00:00:58",
       "falante": null,
       "texto": "Ele é um juiz de extrema esquerda que",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 58.52,
@@ -584,7 +614,9 @@
       "timestamp": "00:00:58",
       "falante": null,
       "texto": "Ele é um juiz de extrema esquerda que escreve para veículos petistas e que",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 60.43,
@@ -758,7 +790,9 @@
       "timestamp": "00:01:15",
       "falante": null,
       "texto": "gosto de fazer em toda a minha vida,",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 75.92,
@@ -766,7 +800,9 @@
       "timestamp": "00:01:15",
       "falante": null,
       "texto": "gosto de fazer em toda a minha vida, trabalhar. Segundo a sabotagem do PT, a",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 77.83,
@@ -812,7 +848,9 @@
       "timestamp": "00:01:20",
       "falante": null,
       "texto": "trabalhar aprendendo com o meu pai, com",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 80.6,
@@ -850,7 +888,9 @@
       "timestamp": "00:01:23",
       "falante": null,
       "texto": "quebradas. Foi um período incrível. Tive",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 83.64,
@@ -858,7 +898,9 @@
       "timestamp": "00:01:23",
       "falante": null,
       "texto": "quebradas. Foi um período incrível. Tive que aprender a trabalhar com financeiro,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 85.27,
@@ -936,7 +978,9 @@
       "timestamp": "00:01:32",
       "falante": null,
       "texto": "detalhe haers que eu nunca falii, era",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 92.6,
@@ -974,7 +1018,9 @@
       "timestamp": "00:01:36",
       "falante": null,
       "texto": "Sabe aquela porta de aço, aquela janela",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 96.16,
@@ -982,7 +1028,9 @@
       "timestamp": "00:01:36",
       "falante": null,
       "texto": "Sabe aquela porta de aço, aquela janela com gradio de aço tem nas casas do",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 97.75,
@@ -1064,7 +1112,9 @@
       "timestamp": "00:01:45",
       "falante": null,
       "texto": "atrasado. Consegui botar ela para andar.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 105.68,
@@ -1072,7 +1122,9 @@
       "timestamp": "00:01:45",
       "falante": null,
       "texto": "atrasado. Consegui botar ela para andar. Briguei com o sindicato, recuperei os",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 107.67,
@@ -1150,7 +1202,9 @@
       "timestamp": "00:01:54",
       "falante": null,
       "texto": "ganhapão. E fomos muito bem de 2009 até",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 114.56,
@@ -1188,7 +1242,9 @@
       "timestamp": "00:01:58",
       "falante": null,
       "texto": "baseado no Minha Casa, Minha Vida,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 118.36,
@@ -1196,7 +1252,9 @@
       "timestamp": "00:01:58",
       "falante": null,
       "texto": "baseado no Minha Casa, Minha Vida, destruiu parte do setor de construção no",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 120.31,
@@ -1278,7 +1336,9 @@
       "timestamp": "00:02:07",
       "falante": null,
       "texto": "que queria condenar a gente em",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 127.2,
@@ -1286,7 +1346,9 @@
       "timestamp": "00:02:07",
       "falante": null,
       "texto": "que queria condenar a gente em absolutamente todos os casos, até a",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 128.83,
@@ -1332,7 +1394,9 @@
       "timestamp": "00:02:12",
       "falante": null,
       "texto": "como operar. Eu, assim como dezenas de",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 132.04,
@@ -1370,7 +1434,9 @@
       "timestamp": "00:02:15",
       "falante": null,
       "texto": "época, tivemos que parar a nossa",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 135.12,
@@ -1378,7 +1444,9 @@
       "timestamp": "00:02:15",
       "falante": null,
       "texto": "época, tivemos que parar a nossa produção. Foi o início da famosa crise",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 136.87,
@@ -1424,7 +1492,9 @@
       "timestamp": "00:02:20",
       "falante": null,
       "texto": "governo de Mussef. O que eu aprendi",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 140.2,
@@ -1462,7 +1532,9 @@
       "timestamp": "00:02:23",
       "falante": null,
       "texto": "uma lição pro resto da minha vida. Eu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 143.2,
@@ -1500,7 +1572,9 @@
       "timestamp": "00:02:27",
       "falante": null,
       "texto": "e depois afundar a revista Valete e o",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 147.24,
@@ -1508,7 +1582,9 @@
       "timestamp": "00:02:27",
       "falante": null,
       "texto": "e depois afundar a revista Valete e o time do partido Missão, eu empreguei não",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 149.23,
@@ -1586,7 +1662,9 @@
       "timestamp": "00:02:36",
       "falante": null,
       "texto": "Brasil e uma editora de livros presente",
-      "temas": []
+      "temas": [
+        "cultura"
+      ]
     },
     {
       "inicio": 156.24,
@@ -1594,7 +1672,9 @@
       "timestamp": "00:02:36",
       "falante": null,
       "texto": "Brasil e uma editora de livros presente nas maiores livrarias do Brasil, a única",
-      "temas": []
+      "temas": [
+        "cultura"
+      ]
     },
     {
       "inicio": 158.23,
@@ -1825,7 +1905,9 @@
       "timestamp": "00:02:59",
       "falante": null,
       "texto": "administrava. Sempre fui um filho bom e",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 179.8,
@@ -1833,7 +1915,9 @@
       "timestamp": "00:02:59",
       "falante": null,
       "texto": "administrava. Sempre fui um filho bom e presente e sempre gostei de trabalhar.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 181.39,
@@ -1879,7 +1963,9 @@
       "timestamp": "00:03:04",
       "falante": null,
       "texto": "de recuperação judicial, cumprindo com o",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 184.52,
@@ -1887,7 +1973,9 @@
       "timestamp": "00:03:04",
       "falante": null,
       "texto": "de recuperação judicial, cumprindo com o plano de recuperação judicial, foi",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 186.19,
@@ -1895,7 +1983,9 @@
       "timestamp": "00:03:06",
       "falante": null,
       "texto": "plano de recuperação judicial, foi",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 186.2,
@@ -1903,7 +1993,9 @@
       "timestamp": "00:03:06",
       "falante": null,
       "texto": "plano de recuperação judicial, foi literalmente sabotada por um juiz",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 187.91,
@@ -1911,7 +2003,9 @@
       "timestamp": "00:03:07",
       "falante": null,
       "texto": "literalmente sabotada por um juiz",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 187.92,
@@ -1919,7 +2013,9 @@
       "timestamp": "00:03:07",
       "falante": null,
       "texto": "literalmente sabotada por um juiz trabalhista que manda fechar suas",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 189.43,
@@ -2017,7 +2113,9 @@
       "timestamp": "00:03:18",
       "falante": null,
       "texto": "direito, aquele que gostava de fazer",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 198.4,
@@ -2025,7 +2123,9 @@
       "timestamp": "00:03:18",
       "falante": null,
       "texto": "direito, aquele que gostava de fazer greve. Só para ser claro sobre juiz, ele",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 200.03,
@@ -2183,7 +2283,9 @@
       "timestamp": "00:03:35",
       "falante": null,
       "texto": "pai, mas não apenas ela, ele destruiu",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 215.68,
@@ -2221,7 +2323,9 @@
       "timestamp": "00:03:38",
       "falante": null,
       "texto": "industrial de Jundiaí, que já foi um dos",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 218.96,
@@ -2229,7 +2333,9 @@
       "timestamp": "00:03:38",
       "falante": null,
       "texto": "industrial de Jundiaí, que já foi um dos maiores de São Paulo, foi destruído por",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 221.11,
@@ -2467,7 +2573,9 @@
       "timestamp": "00:04:05",
       "falante": null,
       "texto": "agenda anticorrupção. Em 2017 eu tive a",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 245.96,
@@ -2475,7 +2583,9 @@
       "timestamp": "00:04:05",
       "falante": null,
       "texto": "agenda anticorrupção. Em 2017 eu tive a minha segunda vingança. Nós apoiamos nas",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 248.07,
@@ -2585,7 +2695,9 @@
       "timestamp": "00:04:17",
       "falante": null,
       "texto": "bolsonarismo deixou o Lula sair da",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 257.96,
@@ -2593,7 +2705,9 @@
       "timestamp": "00:04:17",
       "falante": null,
       "texto": "bolsonarismo deixou o Lula sair da cadeia e o PT retornar o poder. Mas",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 259.79,
@@ -2815,7 +2929,9 @@
       "timestamp": "00:04:40",
       "falante": null,
       "texto": "seja não um país da inoperância, da",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 280.8,
@@ -2823,7 +2939,9 @@
       "timestamp": "00:04:40",
       "falante": null,
       "texto": "seja não um país da inoperância, da ideologia maldita da esquerda, mas o",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 282.75,

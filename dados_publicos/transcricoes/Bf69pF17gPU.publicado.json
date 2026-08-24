@@ -41,7 +41,9 @@
       "timestamp": "00:00:10",
       "falante": "candidato_acm_neto",
       "texto": "E aí você tem, de um lado, o apoio ao pequenoprodutor,",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 13.62,
@@ -49,7 +51,9 @@
       "timestamp": "00:00:13",
       "falante": "candidato_acm_neto",
       "texto": "a necessidade de fazer chegar água,",
-      "temas": []
+      "temas": [
+        "agropecuaria_e_desenvolvimento_rural"
+      ]
     },
     {
       "inicio": 16.36,
@@ -57,7 +61,9 @@
       "timestamp": "00:00:16",
       "falante": "candidato_acm_neto",
       "texto": "de fazer llegar acesso a recurso barato com financiamento,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 20.78,
@@ -95,7 +101,9 @@
       "timestamp": "00:00:28",
       "falante": "candidato_acm_neto",
       "texto": "Então, são duas questões fundamentais.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 31.22,
@@ -134,6 +142,7 @@
       "falante": "candidato_acm_neto",
       "texto": "sem ampliar o orçamento da saúde em nosso Estado.",
       "temas": [
+        "economia_e_emprego",
         "saude"
       ]
     },
@@ -153,7 +162,9 @@
       "timestamp": "00:00:46",
       "falante": "candidato_acm_neto",
       "texto": "O Estado vai ajudar a pagar o tratamento,",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 50.14,
@@ -161,7 +172,9 @@
       "timestamp": "00:00:50",
       "falante": "candidato_acm_neto",
       "texto": "a comprar a vaga tudo de maneira transparente,",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 53.42,
@@ -169,7 +182,9 @@
       "timestamp": "00:00:53",
       "falante": "candidato_acm_neto",
       "texto": "com tabela pré-estabelecida, com rede credenciada,",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 56.7,
@@ -187,7 +202,9 @@
       "timestamp": "00:00:58",
       "falante": "candidato_acm_neto",
       "texto": "naqueles casos de urgência.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 60.46,
@@ -195,7 +212,9 @@
       "timestamp": "00:01:00",
       "falante": "candidato_acm_neto",
       "texto": "Se a pessoa está entre a vida e a morte",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 62.38,
@@ -233,7 +252,9 @@
       "timestamp": "00:01:08",
       "falante": "candidato_acm_neto",
       "texto": "o Estado vai lá e vai comprar.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 70.96,
@@ -241,7 +262,9 @@
       "timestamp": "00:01:10",
       "falante": "candidato_acm_neto",
       "texto": "É a retomada dos territórios.",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 73.06,
@@ -309,7 +332,9 @@
       "timestamp": "00:01:27",
       "falante": "candidato_acm_neto",
       "texto": "Nós vamos retomar o território.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 89.24,
@@ -317,7 +342,9 @@
       "timestamp": "00:01:29",
       "falante": "candidato_acm_neto",
       "texto": "Tem que ser na base do planejamento,",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 90.86,
@@ -423,7 +450,9 @@
       "timestamp": "00:01:57",
       "falante": "candidato_acm_neto",
       "texto": "A integração dessas forças.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 119.64,
@@ -431,7 +460,9 @@
       "timestamp": "00:01:59",
       "falante": "candidato_acm_neto",
       "texto": "E cada um vai ter a sua meta.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 122.02,
@@ -465,7 +496,9 @@
       "timestamp": "00:02:12",
       "falante": "candidato_acm_neto",
       "texto": "E quem vai cobrar isso é o governador pessoalmente.",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     }
   ]
 }

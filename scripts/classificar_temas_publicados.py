@@ -33,7 +33,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "src"))
 
 from transcricao import proveniencia  # noqa: E402
-from transcricao.classificar_tema import sugerir_temas  # noqa: E402
+from transcricao.classificar_tema import classificar_sequencia  # noqa: E402
 from transcricao.revisao import montar_publicacao  # noqa: E402
 
 TRANSCRICOES = RAIZ / "dados" / "transcricoes"
@@ -61,6 +61,21 @@ def main() -> int:
         itens = fila.get("itens", [])
         mudou = False
 
+        # Classifica o video inteiro de uma vez: trecho sem palavra-chave
+        # propria pode herdar o tema da fala imediatamente anterior (ver
+        # `classificar_sequencia`). Usa o texto corrigido pelo humano
+        # quando existir.
+        textos_para_classificar = []
+        for i, item in enumerate(itens):
+            entrada = decisoes.get(str(i)) or {}
+            textos_para_classificar.append(
+                {
+                    "texto": entrada.get("texto_final") or item.get("texto") or "",
+                    "inicio": item.get("inicio"),
+                }
+            )
+        temas_da_sequencia = classificar_sequencia(textos_para_classificar)
+
         for indice, entrada in decisoes.items():
             if entrada.get("decisao") != "confirmado":
                 continue
@@ -72,12 +87,9 @@ def main() -> int:
                 continue
 
             try:
-                item = itens[int(indice)]
+                temas = temas_da_sequencia[int(indice)]
             except (ValueError, IndexError):
                 continue
-
-            texto = entrada.get("texto_final") or item.get("texto") or ""
-            temas = sugerir_temas(texto)
 
             if temas != (ja_tem or []):
                 entrada["temas"] = temas

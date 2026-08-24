@@ -171,6 +171,8 @@ def criar_app(
                 "temas": temas_navegaveis,
                 "tema_selecionado": tema,
                 "contagem_por_tema": _contagem_candidatos_por_tema(candidatos),
+                "estados": sorted(UF_NOMES.items(), key=lambda kv: kv[1]),
+                "total_governadores": len(_candidatos_governador()),
             },
         )
 

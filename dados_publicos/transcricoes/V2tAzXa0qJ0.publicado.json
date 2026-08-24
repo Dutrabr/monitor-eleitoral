@@ -53,7 +53,9 @@
       "timestamp": "00:00:24",
       "falante": "candidato_juliana_brizola",
       "texto": "Que não é um projeto de poder, é um projecto de futuro.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 27.96,
@@ -61,7 +63,9 @@
       "timestamp": "00:00:27",
       "falante": "candidato_juliana_brizola",
       "texto": "Nós ouvimos o povo cansado de briga política.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 30.7,
@@ -215,7 +219,9 @@
       "timestamp": "00:01:53",
       "falante": "candidato_juliana_brizola",
       "texto": "E nós vamos responder da única forma que um bom político deve responder ao povo.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 119.23,
@@ -223,7 +229,9 @@
       "timestamp": "00:01:59",
       "falante": "candidato_juliana_brizola",
       "texto": "Com trabalho, com honestidade e com resultado.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     },
     {
       "inicio": 124.65,

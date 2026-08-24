@@ -261,3 +261,32 @@ def test_classificar_tema_multiplo():
     from transcricao.classificar_tema import sugerir_temas
     temas = sugerir_temas("investir em escola e em hospital")
     assert temas == ["educacao", "saude"]
+
+
+def test_classificar_sequencia_herda_de_fala_contigua():
+    """Continuacao de fala herda o tema do trecho anterior proximo."""
+    from transcricao.classificar_tema import classificar_sequencia
+    seq = [
+        {"texto": "vamos falar de saude", "inicio": 0},
+        {"texto": "e da qualidade do atendimento", "inicio": 3},
+    ]
+    assert classificar_sequencia(seq) == [["saude"], ["saude"]]
+
+
+def test_classificar_sequencia_nao_herda_apos_intervalo_longo():
+    """Fala distante no tempo nao herda — evita alastrar tema pelo video."""
+    from transcricao.classificar_tema import classificar_sequencia
+    seq = [
+        {"texto": "vamos falar de saude", "inicio": 0},
+        {"texto": "mudando de assunto agora", "inicio": 120},
+    ]
+    assert classificar_sequencia(seq) == [["saude"], []]
+
+
+def test_classificar_sequencia_nao_sobrescreve_tema_proprio():
+    from transcricao.classificar_tema import classificar_sequencia
+    seq = [
+        {"texto": "falando de saude", "inicio": 0},
+        {"texto": "agora sobre escola", "inicio": 3},
+    ]
+    assert classificar_sequencia(seq) == [["saude"], ["educacao"]]

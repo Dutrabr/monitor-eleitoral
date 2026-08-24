@@ -92,7 +92,9 @@
       "timestamp": "00:00:39",
       "falante": "candidato_doutora_natasha",
       "texto": "São cifras horrorosas e que nós precisamos melhorar isso.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 43.77,
@@ -100,7 +102,9 @@
       "timestamp": "00:00:43",
       "falante": "candidato_doutora_natasha",
       "texto": "E eu faço o meu compromisso.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 46.53,
@@ -128,7 +132,9 @@
       "timestamp": "00:00:53",
       "falante": "candidato_doutora_natasha",
       "texto": "Nós vamos tirar 700 policiaes que estão aí carregando pasta de político",
-      "temas": []
+      "temas": [
+        "seguranca_publica"
+      ]
     },
     {
       "inicio": 56.99,
@@ -146,7 +152,9 @@
       "timestamp": "00:01:00",
       "falante": "candidato_doutora_natasha",
       "texto": "a defensa do cidadão.",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 61.71,
@@ -237,7 +245,9 @@
       "timestamp": "00:01:28",
       "falante": "candidato_doutora_natasha",
       "texto": "Hoje, Mato Grosso tem apenas 32,9% das",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 92.19,
@@ -245,7 +255,9 @@
       "timestamp": "00:01:32",
       "falante": "candidato_doutora_natasha",
       "texto": "crianças em cresce. E isso é um absurdo. Nós temos que ensinar desde",
-      "temas": []
+      "temas": [
+        "educacao"
+      ]
     },
     {
       "inicio": 95.91,
@@ -263,7 +275,9 @@
       "timestamp": "00:01:40",
       "falante": "candidato_doutora_natasha",
       "texto": "que ela não precisa ficar escutando e não deve ficar se sucumbindo",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 104.25,
@@ -271,7 +285,9 @@
       "timestamp": "00:01:44",
       "falante": "candidato_doutora_natasha",
       "texto": "a gritos, palavras, porque a gente sabe da importância de se cuidar",
-      "temas": []
+      "temas": [
+        "direitos_humanos_e_igualdade"
+      ]
     },
     {
       "inicio": 108.61,

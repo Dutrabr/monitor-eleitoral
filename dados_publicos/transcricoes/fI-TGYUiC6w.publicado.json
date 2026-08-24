@@ -61,7 +61,9 @@
       "timestamp": "00:00:25",
       "falante": "candidato_vicentinho_junior",
       "texto": "As faltou cidades e salvou vidas, apoiando a Fundação ProRim e as rapazes de ponta a ponta do Estado.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 34.3,
@@ -69,7 +71,9 @@
       "timestamp": "00:00:34",
       "falante": "candidato_vicentinho_junior",
       "texto": "Nascido em família pioneira, Vicentinho conhece a realidade dos municípios da gente.",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 39.62,
@@ -95,7 +99,9 @@
       "timestamp": "00:00:51",
       "falante": "candidato_vicentinho_junior",
       "texto": "Pai apaixonado pelos quatro filhos e marido da Gil,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 54.66,
@@ -103,7 +109,9 @@
       "timestamp": "00:00:54",
       "falante": "candidato_vicentinho_junior",
       "texto": "Vicentinho é esse cara família que o Tocantins conhece, um homem jovem mas experiente pronto",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 61.9,

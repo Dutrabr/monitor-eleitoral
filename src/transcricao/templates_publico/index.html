@@ -1,21 +1,135 @@
 {% extends "base.html" %}
+
+{% block estilo %}
+<style>
+  .hero { padding: 1.5rem 0 2rem; }
+  .hero h1 { margin: 0 0 1.1rem; }
+  .hero .linha { font-size: 1.12rem; max-width: 60ch; color: var(--texto-suave); margin: 0 0 1.75rem; }
+  .hero .linha b { color: var(--texto); font-weight: 600; }
+
+  /* demonstra o mecanismo sem nomear candidato — destacar um so' daria
+     visibilidade desigual a ele (regra 3: simetria total) */
+  .mecanismo {
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch;
+    gap: 0; border: 1px solid var(--borda); margin-bottom: 1.5rem; max-width: 760px;
+  }
+  .mecanismo .lado { padding: 1.1rem 1.2rem; background: var(--superficie); }
+  .mecanismo .rotulo {
+    font-family: var(--f-mono); font-size: .66rem; letter-spacing: .15em;
+    text-transform: uppercase; margin-bottom: .6rem; display: block;
+  }
+  .mecanismo .esq .rotulo { color: var(--teal); }
+  .mecanismo .dir .rotulo { color: var(--ambar); }
+  .mecanismo .exemplo {
+    font-family: var(--f-serif); font-size: .92rem; line-height: 1.55;
+    color: var(--texto-suave); margin: 0 0 .5rem;
+  }
+  .mecanismo .origem { font-family: var(--f-mono); font-size: .64rem; color: var(--texto-fraco); letter-spacing: .04em; }
+  .mecanismo .meio {
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 .9rem; background: var(--superficie);
+    border-left: 1px solid var(--borda); border-right: 1px solid var(--borda);
+    font-family: var(--f-mono); font-size: .9rem; color: var(--texto-fraco);
+  }
+  .mecanismo .conclusao {
+    grid-column: 1 / -1; padding: .8rem 1.2rem; border-top: 1px solid var(--borda);
+    font-family: var(--f-mono); font-size: .7rem; letter-spacing: .05em;
+    color: var(--texto-fraco); background: var(--bg);
+  }
+
+  .atalho-estado {
+    display: flex; flex-wrap: wrap; align-items: center; gap: .6rem;
+    border: 1px solid var(--teal-linha); background: var(--teal-tinta);
+    padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;
+  }
+  .atalho-estado .titulo {
+    font-family: var(--f-mono); font-size: .74rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--teal); margin-right: .35rem;
+  }
+  .atalho-estado select {
+    background: var(--superficie); border: 1px solid var(--borda); color: var(--texto);
+    font-family: var(--f-body); font-size: .95rem; padding: .55rem .7rem; min-width: 190px;
+  }
+  .atalho-estado select:focus { outline: none; border-color: var(--teal); }
+  .atalho-estado button {
+    background: var(--teal); color: var(--bg); border: 1px solid var(--teal);
+    font-family: var(--f-mono); font-size: .74rem; letter-spacing: .09em;
+    text-transform: uppercase; padding: .6rem 1.1rem; cursor: pointer; font-weight: 500;
+  }
+  .atalho-estado button:hover { opacity: .85; }
+  .atalho-estado .nota { font-family: var(--f-mono); font-size: .66rem; color: var(--texto-fraco); }
+
+  .rotulo-secao {
+    font-family: var(--f-mono); font-size: .7rem; text-transform: uppercase;
+    letter-spacing: .16em; color: var(--texto-fraco);
+    margin: 2.25rem 0 .75rem; padding-bottom: .5rem; border-bottom: 1px solid var(--borda);
+  }
+  .atalhos-linha {
+    font-family: var(--f-mono); font-size: .74rem; color: var(--texto-fraco);
+    letter-spacing: .04em; margin-top: 1rem;
+  }
+  .atalhos-linha a { color: var(--teal); text-decoration: none; }
+  .atalhos-linha a:hover { text-decoration: underline; }
+
+  @media (max-width: 620px) {
+    .mecanismo { grid-template-columns: 1fr; }
+    .mecanismo .meio {
+      border-left: none; border-right: none;
+      border-top: 1px solid var(--borda); border-bottom: 1px solid var(--borda);
+      padding: .5rem;
+    }
+  }
+</style>
+{% endblock %}
+
 {% block conteudo %}
-<section style="padding: 1rem 0 2.5rem;">
+<section class="hero">
   <span class="selo-eyebrow">Eleições 2026</span>
   <h1>O que prometeram × o que dizem</h1>
-  <p style="font-size: 1.15rem; max-width: 62ch; color: var(--texto-suave);">
-    Veja, lado a lado, o que cada candidato registrou no plano de governo (TSE)
-    e o que disse publicamente sobre o mesmo tema — sempre com fonte, data e
-    link para o original. Sem nota, sem ranking.
+  <p class="linha">
+    Todo candidato entrega um <b>plano de governo</b> ao TSE. Depois, fala em vídeo nas
+    redes. Este site põe as duas coisas <b>lado a lado</b>, por tema, com link para o
+    original — e para por aí. Sem nota, sem ranking, sem dizer em quem votar.
   </p>
-  <p style="font-size: .85rem; font-weight: 700; color: var(--teal-forte); margin-top: 1rem;">
-    {{ candidatos|length }} candidato(s) cadastrado(s) · {{ temas|length }} temas
-    · <a href="/comparar">comparar dois ou mais →</a>
-    · <a href="/governador">ver Governador (por estado) →</a>
+
+  <div class="mecanismo">
+    <div class="lado esq">
+      <span class="rotulo">Plano de governo (TSE)</span>
+      <p class="exemplo">O documento oficial que ele registrou ao se candidatar.</p>
+      <span class="origem">com número da página</span>
+    </div>
+    <div class="meio" aria-hidden="true">×</div>
+    <div class="lado dir">
+      <span class="rotulo">Falou publicamente</span>
+      <p class="exemplo">O que ele disse em vídeo, transcrito e verificado.</p>
+      <span class="origem">com horário exato no vídeo</span>
+    </div>
+    <div class="conclusao">A comparação é sua — o site não escreve nenhuma conclusão.</div>
+  </div>
+
+  <div class="atalho-estado">
+    <span class="titulo">Seu estado</span>
+    <form method="get" action="/governador" id="forma-estado" style="display:contents;">
+      <select name="ir" id="seletor-estado" aria-label="Escolha seu estado">
+        <option value="">— escolha —</option>
+        {% for sigla, nome in estados %}
+        <option value="{{ sigla }}">{{ nome }}</option>
+        {% endfor %}
+      </select>
+      <button type="submit">Ver candidatos a Governador</button>
+    </form>
+    <span class="nota">{{ total_governadores }} candidatos em 27 estados</span>
+  </div>
+
+  <p class="atalhos-linha">
+    {{ candidatos|length }} candidatos a Presidente ·
+    <a href="/comparar">comparar candidatos →</a> ·
+    <a href="/busca">buscar no que disseram →</a> ·
+    <a href="/perguntas">como isso funciona →</a>
   </p>
 </section>
 
-<h2 style="font-size:.85rem; text-transform:uppercase; letter-spacing:.06em; color:var(--texto-suave); margin-top:1rem;">Tema</h2>
+<div class="rotulo-secao">Presidente — filtrar por tema</div>
 <div class="chips">
   <a class="chip-combo{% if not tema_selecionado %} ativo{% endif %}" href="/">Todos os temas <span class="n">{{ candidatos|length }}</span></a>
   {% for valor, rotulo in temas %}
@@ -23,7 +137,7 @@
   {% endfor %}
 </div>
 
-<h2 style="font-size:.85rem; text-transform:uppercase; letter-spacing:.06em; color:var(--texto-suave); margin-top:2rem;">Candidato</h2>
+<div class="rotulo-secao">Candidatos a Presidente</div>
 {% if not candidatos %}
 <p>Nenhum candidato cadastrado ainda.</p>
 {% endif %}
@@ -40,4 +154,12 @@
   </a>
 {% endfor %}
 </div>
+
+<script>
+  // manda direto para /governador/{UF} sem precisar de rota intermediaria
+  document.getElementById("forma-estado").addEventListener("submit", function (e) {
+    var uf = document.getElementById("seletor-estado").value;
+    if (uf) { e.preventDefault(); window.location.href = "/governador/" + uf; }
+  });
+</script>
 {% endblock %}

@@ -1536,3 +1536,34 @@ proposito).
 Tambem removido, a pedido do dono: o subtitulo "Plano de governo ×
 redes sociais" do logo no cabecalho.
 
+
+Pronto (2026-08-24, mesma sessao): quatro melhorias de leitura pro
+publico, escolhidas pelo dono depois de eu revisar o site com olhar de
+quem chega sem contexto. O diagnostico que motivou: **o site foi
+construido para quem ja sabe o que quer** — dava indice de candidatos,
+mas nao respondia "e dai, o que eu faco com isso?".
+
+1. **Cobertura de tema quase dobrada** (253 -> 470 de 971 citacoes).
+   O gargalo nao era vocabulario: cada citacao e' uma linha de ~3s de
+   fala, entao uma frase sobre saude vira 5 citacoes e so' 1 contem a
+   palavra "saude" — as outras 4 ficavam orfas. `classificar_sequencia()`
+   trata isso: trecho sem tema proprio herda o do anterior, mas so' se
+   estiver a <=2 posicoes E <=20 segundos. Verificado contra video real
+   (ACM Neto): pega os blocos tematicos do discurso (agropecuaria 0-13s,
+   economia 16s, saude 23s+) sem vazar entre eles.
+
+2. **Falas em destaque no topo da pagina do candidato.** Antes, quem
+   abria via chips zerados e precisava rolar ate' o fim pra ver que havia
+   53 falas. Agora ha' um bloco com as 4 primeiras logo abaixo do nome.
+
+3. **Home explica o mecanismo em 10 segundos.** Bloco de duas colunas
+   (plano × falou) mostrando o que cada lado e'. **Sem nomear candidato
+   de proposito**: destacar um real como "exemplo" daria visibilidade
+   desigual a ele (regra 3). O dono pediu exemplo real clicavel; expliquei
+   o conflito e usei o mecanismo generico + atalho por estado como
+   chamada principal.
+
+4. **Atalho "seu estado"** na home — seletor que leva direto a
+   `/governador/{UF}`, porque a maioria quer ver o proprio estado e antes
+   precisava passar pela lista das 27 UFs.
+

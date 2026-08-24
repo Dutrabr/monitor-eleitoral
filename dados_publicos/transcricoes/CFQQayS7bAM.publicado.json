@@ -57,7 +57,9 @@
       "timestamp": "00:00:25",
       "falante": "candidato_douglas_ruas",
       "texto": "Quero levar o sucesso desses projetos para ajudar a tirar do papel uma unidade esperada há nove anos,",
-      "temas": []
+      "temas": [
+        "saude"
+      ]
     },
     {
       "inicio": 30.45,
@@ -86,7 +88,9 @@
       "timestamp": "00:00:41",
       "falante": "candidato_douglas_ruas",
       "texto": "22022 Gonçalense. Vota em Gonçalense.",
-      "temas": []
+      "temas": [
+        "reforma_politica_e_institucional"
+      ]
     }
   ]
 }

@@ -37,7 +37,9 @@
       "timestamp": "00:00:09",
       "falante": "candidato_renan_filho",
       "texto": "Estamos duplichando a 101 na Bahia também.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 12.34,
@@ -75,7 +77,9 @@
       "timestamp": "00:00:22",
       "falante": "candidato_renan_filho",
       "texto": "Na verdade, quatro.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 24.12,
@@ -113,7 +117,9 @@
       "timestamp": "00:00:32",
       "falante": "candidato_renan_filho",
       "texto": "que vai garantir uma ligação muito mais próxima com Sergipe,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 35.2,
@@ -121,7 +127,9 @@
       "timestamp": "00:00:35",
       "falante": "candidato_renan_filho",
       "texto": "impulsionar o desenvolvimento do litoral sul.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 37.82,
@@ -137,7 +145,9 @@
       "timestamp": "00:00:40",
       "falante": "candidato_renan_filho",
       "texto": "a duplicação aqui da 424 no Polo de Marechal Deodoro.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 44.58,
@@ -155,7 +165,9 @@
       "timestamp": "00:00:50",
       "falante": "candidato_renan_filho",
       "texto": "ali de Messias até União dos Palmares,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 52.64,
@@ -163,7 +175,9 @@
       "timestamp": "00:00:52",
       "falante": "candidato_renan_filho",
       "texto": "que vai garante pista dupla também para a Zona da Mata Alagoana,",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 56.82,
@@ -191,7 +205,9 @@
       "timestamp": "00:01:06",
       "falante": "candidato_renan_filho",
       "texto": "Ela é uma rodozia muito importante para o desenvolvimento do interior do Nordeste brasileiro.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 72.16,
@@ -219,7 +235,9 @@
       "timestamp": "00:01:21",
       "falante": "candidato_renan_filho",
       "texto": "Já dialoguei com o prefeito Luciano Barbosa sobre isso.",
-      "temas": []
+      "temas": [
+        "infraestrutura_e_mobilidade"
+      ]
     },
     {
       "inicio": 84.8,

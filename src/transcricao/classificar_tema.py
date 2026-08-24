@@ -40,6 +40,7 @@ import unicodedata
 # "investimento" — aparecem em qualquer tema).
 PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
     "saude": (
+        "tratamento", "tratamentos", "saude mental", "medicamento", "medicamentos", "cirurgico", "paciente", "pacientes",
         "saude", "hospital", "hospitais", "posto de saude", "upa", "sus",
         "medico", "medicos", "medica", "enfermeiro", "enfermeira", "enfermagem",
         "vacina", "vacinacao", "remedio", "remedios", "farmacia",
@@ -47,6 +48,7 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "atendimento medico", "samu",
     ),
     "educacao": (
+        "estudante", "estudantes", "estudantil", "bolsa de estudo", "educacional", "escolar",
         "educacao", "escola", "escolas", "professor", "professores",
         "professora", "professoras", "aluno", "alunos", "creche", "creches",
         "universidade", "universidades", "faculdade", "ensino",
@@ -59,6 +61,7 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "presidio", "penitenciaria", "delegacia", "bombeiro", "bombeiros",
     ),
     "economia_e_emprego": (
+        "recuperacao judicial", "orcamento", "arrecadacao", "sonegacao", "credito", "financiamento",
         "emprego", "empregos", "desemprego", "trabalhador", "trabalhadores",
         "salario", "salarios", "renda", "imposto", "impostos", "tributo",
         "tributaria", "economia", "economico", "industria", "comercio",
@@ -66,6 +69,7 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "juros", "carteira assinada",
     ),
     "infraestrutura_e_mobilidade": (
+        "duplicacao", "duplicar", "minha casa minha vida", "construcao civil", "casa propria", "pavimentar",
         "infraestrutura", "estrada", "estradas", "rodovia", "rodovias",
         "asfalto", "pavimentacao", "ponte", "saneamento", "esgoto",
         "agua encanada", "transporte", "onibus", "metro", "mobilidade",
@@ -84,6 +88,7 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "assentamento", "extensao rural", "irrigacao", "pesca", "pescador",
     ),
     "assistencia_social_e_combate_a_pobreza": (
+        "assistencial", "beneficio social", "inclusao social",
         "assistencia social", "pobreza", "miseria", "fome", "vulneravel",
         "vulnerabilidade", "cras", "creas", "bolsa familia", "auxilio",
         "cesta basica", "populacao de rua", "acolhimento",
@@ -110,6 +115,7 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "importacao", "acordo internacional", "estrangeiro",
     ),
     "reforma_politica_e_institucional": (
+        "assembleia legislativa", "camara municipal", "mandato", "reeleicao", "improbidade",
         "reforma politica", "corrupcao", "transparencia", "fiscalizacao",
         "congresso", "senado", "camara dos deputados", "judiciario",
         "supremo", "stf", "eleicao", "eleicoes", "voto", "urna",
@@ -122,6 +128,54 @@ def _normalizar(texto: str) -> str:
     sem_acento = unicodedata.normalize("NFD", texto)
     sem_acento = "".join(ch for ch in sem_acento if unicodedata.category(ch) != "Mn")
     return sem_acento.casefold()
+
+
+def classificar_sequencia(
+    itens: list[dict], janela: int = 2, segundos_max: float = 20.0
+) -> list[list[str]]:
+    """Classifica uma sequencia de trechos do MESMO video, com contexto.
+
+    Motivo: cada citacao e' uma linha de ~3 segundos de fala. Uma frase
+    sobre saude vira varias citacoes, e so' uma delas costuma conter a
+    palavra "saude" — as outras ficam orfas mesmo sendo o mesmo assunto.
+
+    Regra de heranca, deliberadamente estreita para nao alastrar tema
+    errado pelo video inteiro: um trecho sem tema proprio herda o tema do
+    trecho anterior mais proximo que tenha um, desde que (a) esteja a no
+    maximo `janela` posicoes de distancia e (b) a fala anterior tenha
+    comecado ha' menos de `segundos_max`. Se qualquer das duas condicoes
+    falhar, o trecho fica sem tema.
+
+    Heranca so' anda para a frente (continuacao de fala). Trecho que ja'
+    tem tema proprio nunca e' alterado.
+
+    `itens` sao dicts com `texto` e, opcionalmente, `inicio` (segundos).
+    """
+    proprios = [sugerir_temas(it.get("texto") or "") for it in itens]
+    resultado: list[list[str]] = []
+
+    for i, temas in enumerate(proprios):
+        if temas:
+            resultado.append(temas)
+            continue
+
+        herdado: list[str] = []
+        for passo in range(1, janela + 1):
+            j = i - passo
+            if j < 0:
+                break
+            if not proprios[j]:
+                continue
+            inicio_atual = itens[i].get("inicio")
+            inicio_ancora = itens[j].get("inicio")
+            if inicio_atual is not None and inicio_ancora is not None:
+                if inicio_atual - inicio_ancora > segundos_max:
+                    break
+            herdado = list(proprios[j])
+            break
+        resultado.append(herdado)
+
+    return resultado
 
 
 def sugerir_temas(texto: str) -> list[str]:

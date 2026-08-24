@@ -21,7 +21,9 @@
       "timestamp": "00:00:06",
       "falante": "candidato_edmilson_costa",
       "texto": "a juventude convive com a falta de perspectiva,",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 10.91,
@@ -41,7 +43,11 @@
       "timestamp": "00:00:16",
       "falante": "candidato_edmilson_costa",
       "texto": "transformou num caos. E o que nós podemos ver na outra ponta?",
-      "temas": []
+      "temas": [
+        "educacao",
+        "infraestrutura_e_mobilidade",
+        "saude"
+      ]
     },
     {
       "inicio": 21.07,
@@ -49,7 +55,11 @@
       "timestamp": "00:00:21",
       "falante": "candidato_edmilson_costa",
       "texto": "Na outra pontas nós vemos milionários, os banqueiros, os especuladores,",
-      "temas": []
+      "temas": [
+        "educacao",
+        "infraestrutura_e_mobilidade",
+        "saude"
+      ]
     },
     {
       "inicio": 26.29,
@@ -87,7 +97,9 @@
       "timestamp": "00:00:47",
       "falante": "candidato_edmilson_costa",
       "texto": "que a nossa candidatura apresenta esse conjunto de questões. E nós também, nesse conjunto",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 54.09,
@@ -95,7 +107,9 @@
       "timestamp": "00:00:54",
       "falante": "candidato_edmilson_costa",
       "texto": "de questãoes que nós apresentamos, nós também dizemos que pra mudar essa conjuntura",
-      "temas": []
+      "temas": [
+        "economia_e_emprego"
+      ]
     },
     {
       "inicio": 61.61,
