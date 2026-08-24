@@ -39,6 +39,7 @@ sozinho).
 from __future__ import annotations
 
 import json
+import unicodedata
 from pathlib import Path
 from typing import Any
 
@@ -135,6 +136,72 @@ def citacoes_do_candidato(
                     }
                 )
     return citacoes
+
+
+def _normalizar(texto: str) -> str:
+    """Minusculas sem acento, pra busca casar 'saude' com 'saúde'."""
+    sem_acento = unicodedata.normalize("NFD", texto)
+    sem_acento = "".join(ch for ch in sem_acento if unicodedata.category(ch) != "Mn")
+    return sem_acento.casefold()
+
+
+def buscar_citacoes(
+    candidatos: list[dict[str, Any]],
+    arquivos_publicados: list[dict[str, Any]],
+    termo: str,
+) -> list[dict[str, Any]]:
+    """Acha citacoes publicadas que contenham `termo`, agrupadas por candidato.
+
+    Ordem do resultado e' SEMPRE por numero de urna do candidato (regra 3:
+    simetria total). Nao ha' pontuacao de relevancia nem reordenacao por
+    "melhor resultado" — ranquear candidato, mesmo que indiretamente pelo
+    que ele falou, e' exatamente o que o projeto nao faz.
+
+    Devolve lista de `{candidato, citacoes}`; candidato sem nenhuma
+    citacao casando fica de fora. Termo vazio devolve `[]` — busca vazia
+    nao e' "mostre tudo".
+    """
+    alvo = _normalizar(termo.strip())
+    if not alvo:
+        return []
+
+    resultados = []
+    for c in sorted(candidatos, key=lambda x: x.get("numero") or 0):
+        achadas = [
+            cit
+            for cit in citacoes_do_candidato(c["falante_id"], arquivos_publicados)
+            if alvo in _normalizar(cit.get("texto") or "")
+        ]
+        if achadas:
+            resultados.append({"candidato": c, "citacoes": achadas})
+    return resultados
+
+
+def destacar(texto: str, termo: str) -> list[dict[str, Any]]:
+    """Quebra `texto` em pedacos marcando onde `termo` aparece.
+
+    Devolve lista de `{"texto": ..., "marcado": bool}` em vez de HTML —
+    assim o template escapa o conteudo normalmente e nao ha' risco de
+    injecao pelo termo de busca.
+    """
+    alvo = _normalizar(termo.strip())
+    if not alvo:
+        return [{"texto": texto, "marcado": False}]
+
+    normalizado = _normalizar(texto)
+    pedacos: list[dict[str, Any]] = []
+    i = 0
+    while True:
+        j = normalizado.find(alvo, i)
+        if j == -1:
+            break
+        if j > i:
+            pedacos.append({"texto": texto[i:j], "marcado": False})
+        pedacos.append({"texto": texto[j : j + len(alvo)], "marcado": True})
+        i = j + len(alvo)
+    if i < len(texto):
+        pedacos.append({"texto": texto[i:], "marcado": False})
+    return pedacos
 
 
 def carregar_plano_curado(pasta_planos_curados: Path, slug: str) -> dict[str, dict[str, Any]]:

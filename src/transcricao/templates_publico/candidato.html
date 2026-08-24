@@ -5,7 +5,8 @@
 {% block conteudo %}
 <p><a href="{{ voltar_url }}">← {{ voltar_label }}</a></p>
 <div style="display:flex; align-items:center; gap:1rem;">
-  <div class="avatar-candidato" style="width:64px; height:64px; font-size:1.4rem;">
+  <div class="avatar-candidato avatar-grande" style="width:76px; height:76px; font-size:1.5rem;">
+    <span class="mira" aria-hidden="true"></span>
     <img src="{% if candidato.uf %}/governador/{{ candidato.uf }}/{{ candidato.slug }}/foto{% else %}/foto/{{ candidato.slug }}{% endif %}" alt="" onerror="this.remove()">
     {{ candidato.nome[0] }}
   </div>

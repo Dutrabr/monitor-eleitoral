@@ -1,0 +1,317 @@
+{% extends "base.html" %}
+{% block titulo %}Perguntas frequentes — Monitor Eleitoral{% endblock %}
+{% block og_titulo %}Perguntas frequentes — Monitor Eleitoral{% endblock %}
+{% block og_descricao %}Como o Monitor Eleitoral coleta, verifica e publica evidência sobre candidatos — e o que ele deliberadamente não faz.{% endblock %}
+
+{% block estilo %}
+<style>
+  .faq-lista { border: 1px solid var(--borda); border-top: none; margin: 1.5rem 0 0; }
+  .faq-item { border-top: 1px solid var(--borda); background: var(--superficie); }
+  .faq-item > summary {
+    cursor: pointer; list-style: none; padding: 1.05rem 1.25rem;
+    font-weight: 600; font-size: 1rem; display: flex; align-items: baseline; gap: .85rem;
+    transition: background-color .15s ease, color .15s ease;
+  }
+  .faq-item > summary::-webkit-details-marker { display: none; }
+  .faq-item > summary:hover { background: var(--superficie-alta); color: var(--teal); }
+  .faq-item > summary::before {
+    content: "+"; font-family: var(--f-mono); color: var(--teal);
+    font-size: 1rem; flex: none; line-height: 1.4;
+  }
+  .faq-item[open] > summary::before { content: "−"; }
+  .faq-item[open] > summary { color: var(--teal); border-bottom: 1px dashed var(--borda); }
+  .faq-corpo { padding: 1.1rem 1.25rem 1.35rem 3.1rem; }
+  .faq-corpo p { margin: 0 0 .85rem; color: var(--texto-suave); font-size: .95rem; }
+  .faq-corpo p:last-child { margin-bottom: 0; }
+  .faq-corpo strong { color: var(--texto); font-weight: 600; }
+  .faq-corpo ul { margin: 0 0 .85rem; padding-left: 1.1rem; color: var(--texto-suave); font-size: .95rem; }
+  .faq-corpo li { margin-bottom: .4rem; }
+
+  .destaque-regra {
+    border: 1px solid var(--ambar-linha); background: var(--ambar-tinta);
+    padding: 1.25rem 1.4rem; margin: 1.5rem 0 0;
+  }
+  .destaque-regra p { margin: 0; color: var(--texto); font-size: .95rem; }
+  .destaque-regra .rotulo {
+    display: block; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--ambar); margin-bottom: .6rem;
+  }
+
+  .glossario { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1px; background: var(--borda); border: 1px solid var(--borda); margin-top: 1.5rem; }
+  .verbete { background: var(--superficie); padding: 1.15rem 1.25rem; }
+  .verbete dt {
+    font-family: var(--f-mono); font-size: .74rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--teal); margin-bottom: .5rem;
+  }
+  .verbete dd { margin: 0; font-size: .9rem; color: var(--texto-suave); line-height: 1.6; }
+
+  .contato-bloco {
+    border: 1px solid var(--teal-linha); background: var(--teal-tinta);
+    padding: 1.5rem 1.6rem; margin-top: 1.5rem;
+  }
+  .contato-bloco h3 { margin: 0 0 .6rem; font-size: 1.1rem; font-weight: 700; }
+  .contato-bloco p { margin: 0 0 1rem; color: var(--texto-suave); font-size: .95rem; max-width: 62ch; }
+  .botao-contato {
+    display: inline-flex; align-items: center; gap: .5rem;
+    background: var(--teal); color: var(--bg); text-decoration: none;
+    font-family: var(--f-mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase;
+    padding: .7rem 1.15rem; font-weight: 500;
+    transition: opacity .15s ease;
+  }
+  .botao-contato:hover { opacity: .85; }
+</style>
+{% endblock %}
+
+{% block conteudo %}
+<section style="padding: 1rem 0 2rem;">
+  <span class="selo-eyebrow">Tire suas dúvidas</span>
+  <h1>Perguntas frequentes</h1>
+  <p style="color: var(--texto-suave); max-width: 64ch; font-size: 1.05rem;">
+    Como este site coleta, verifica e publica o que publica — e, tão importante quanto,
+    o que ele deliberadamente <strong style="color: var(--texto);">não</strong> faz.
+  </p>
+</section>
+
+<div class="destaque-regra">
+  <span class="rotulo">A regra que rege tudo aqui</span>
+  <p>
+    Este site mostra evidência, nunca veredito. Ele não dá nota, não faz ranking, não calcula
+    índice de coerência e não recomenda voto — nem se você pedir. A leitura e a conclusão são suas.
+  </p>
+</div>
+
+<h2 style="margin-top: 3rem; font-size: 1.5rem;">Sobre o que o site faz</h2>
+<div class="faq-lista">
+
+  <details class="faq-item">
+    <summary>O que exatamente este site mostra?</summary>
+    <div class="faq-corpo">
+      <p>Duas coisas, lado a lado, para cada candidato:</p>
+      <ul>
+        <li><strong>O que ele registrou no plano de governo</strong> — o documento oficial entregue ao TSE no momento do registro da candidatura.</li>
+        <li><strong>O que ele disse publicamente</strong> — trechos transcritos de vídeos publicados nos canais oficiais dele.</li>
+      </ul>
+      <p>
+        As duas colunas ficam uma ao lado da outra, organizadas por tema. O site não escreve
+        nenhuma frase interpretando a relação entre elas. Quem lê é que compara.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>O site diz se o candidato cumpriu o que prometeu?</summary>
+    <div class="faq-corpo">
+      <p>
+        Não, e isso é uma decisão deliberada — não uma limitação técnica que pretendemos resolver depois.
+      </p>
+      <p>
+        Dizer se alguém "cumpriu" exige julgar intenção, contexto e resultado. Isso é interpretação,
+        e interpretação automatizada sobre candidatura é exatamente o que este projeto se recusa a fazer.
+        O site coloca a evidência ao alcance da sua leitura e para por aí.
+      </p>
+      <p>
+        Há também uma razão legal: a Resolução TSE 23.610/2019, art. 9º-B (alterada pela
+        Res. 23.755/2026), veda que sistemas de inteligência artificial recomendem, ranqueiem ou
+        priorizem candidatos — inclusive a pedido expresso do usuário.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>O que significam "consta no plano", "não consta" e "não verificado"?</summary>
+    <div class="faq-corpo">
+      <p>
+        São os três estados possíveis de um tema dentro do plano de governo de um candidato, e a
+        diferença entre eles importa:
+      </p>
+      <ul>
+        <li><strong>Consta no plano</strong> — uma pessoa leu o documento e encontrou o tema. O trecho aparece citado, com o número da página.</li>
+        <li><strong>Não consta no plano</strong> — uma pessoa leu o documento inteiro e o tema genuinamente não está lá. É uma afirmação verificada, não um palpite.</li>
+        <li><strong>Não verificado ainda</strong> — ninguém checou esse tema nesse plano até agora. Não quer dizer que falte; quer dizer que não sabemos.</li>
+      </ul>
+      <p>
+        A distinção entre "não consta" e "não verificado" existe justamente para o site nunca
+        afirmar ausência por omissão de trabalho nosso.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Por que alguns candidatos aparecem sem nenhuma citação?</summary>
+    <div class="faq-corpo">
+      <p>Quase sempre por um destes motivos, todos factuais:</p>
+      <ul>
+        <li>O candidato <strong>não cadastrou rede social nenhuma</strong> no registro do TSE — sem fonte oficial, não há de onde coletar.</li>
+        <li>Ele cadastrou redes, mas <strong>nenhuma com vídeo</strong> onde ele fale (só perfis sem conteúdo falado, por exemplo).</li>
+        <li>Os vídeos disponíveis são <strong>jingles, depoimentos de outras pessoas sobre ele, ou material institucional muito longo</strong> — nenhum deles é o candidato falando de forma aproveitável.</li>
+        <li>O vídeo foi coletado mas <strong>ainda está aguardando revisão humana</strong>, que é obrigatória antes de qualquer publicação.</li>
+      </ul>
+      <p>
+        Ausência de citação aqui nunca significa que o candidato falou menos ou pior. Significa
+        apenas que não houve fonte oficial coletável dentro das regras do projeto.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Todos os candidatos aparecem, ou só alguns?</summary>
+    <div class="faq-corpo">
+      <p>
+        Todos os candidatos com registro deferido aparecem, sem exceção, listados em ordem de
+        número de urna — nunca em ordem de relevância, popularidade ou qualquer critério que
+        implique hierarquia.
+      </p>
+      <p>
+        A mesma pipeline, a mesma janela de tempo e os mesmos parâmetros valem para todo mundo.
+        Tratamento assimétrico transformaria uma ferramenta cívica em peça de campanha.
+      </p>
+    </div>
+  </details>
+</div>
+
+<h2 style="margin-top: 3rem; font-size: 1.5rem;">Sobre a confiabilidade da informação</h2>
+<div class="faq-lista">
+
+  <details class="faq-item">
+    <summary>De onde vêm os planos de governo?</summary>
+    <div class="faq-corpo">
+      <p>
+        Direto do sistema DivulgaCandContas do Tribunal Superior Eleitoral — o mesmo documento em
+        PDF que o candidato entregou ao registrar a candidatura. O site serve o arquivo original,
+        sem edição, e guarda o hash criptográfico dele para provar que não foi alterado.
+      </p>
+      <p>
+        Em cada trecho citado aparece o número da página, para você conferir no documento inteiro
+        se o trecho foi tirado de contexto.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>De onde vêm as falas transcritas?</summary>
+    <div class="faq-corpo">
+      <p>
+        Exclusivamente de canais oficiais que o próprio candidato cadastrou no registro do TSE —
+        nunca de busca genérica na internet, nunca de recorte feito por terceiros.
+      </p>
+      <p>
+        O vídeo é baixado direto da plataforma de origem, e o hash do arquivo é calculado
+        <strong>antes</strong> de qualquer conversão. Isso mantém a cadeia de custódia: dá para
+        provar que o áudio transcrito é o mesmo que saiu da fonte.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Como sei que a transcrição está correta?</summary>
+    <div class="faq-corpo">
+      <p>
+        A transcrição automática serve para <em>encontrar</em> a fala em escala. A publicação é
+        verificada — nenhum trecho vai ao ar sem passar por uma destas duas portas:
+      </p>
+      <ul>
+        <li><strong>Revisão humana</strong> — uma pessoa ouve o trecho e confirma, corrige ou rejeita. É o caminho obrigatório sempre que o vídeo tem mais de uma voz.</li>
+        <li><strong>Aprovação automática calibrada</strong> — só quando quatro sinais de confiança da transcrição batem ao mesmo tempo <em>e</em> o vídeo inteiro tem uma única voz do início ao fim. O limiar foi medido contra uma amostra revisada à mão, não estimado por intuição.</li>
+      </ul>
+      <p>
+        Cada citação traz o horário exato dentro do vídeo e, quando a plataforma permite, um link
+        que abre direto naquele ponto. Você pode ouvir e conferir por conta própria.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Como vocês garantem que a fala é do candidato, e não de outra pessoa no vídeo?</summary>
+    <div class="faq-corpo">
+      <p>
+        Um sistema de separação de vozes identifica quantas pessoas falam no áudio e em que trechos.
+        Se houver mais de uma voz, a aprovação automática é bloqueada sem exceção e o material vai
+        obrigatoriamente para revisão humana.
+      </p>
+      <p>
+        Se a separação de vozes falhar ou ficar ambígua, o trecho também vai para revisão — nunca é
+        publicado no escuro. Atribuir a fala de um entrevistador ao candidato seria o tipo de erro
+        que destrói a credibilidade do projeto inteiro.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Achei um erro. O que eu faço?</summary>
+    <div class="faq-corpo">
+      <p>
+        Reporte, por favor — correção de erro é parte do funcionamento normal do projeto, não uma
+        exceção constrangedora. O canal está logo abaixo nesta página.
+      </p>
+      <p>
+        Quanto mais específico, mais rápido dá para verificar: diga o candidato, o tema e, se possível,
+        o trecho exato. Erros confirmados são corrigidos na origem e o histórico da decisão fica registrado.
+      </p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary>Posso usar estes dados no meu trabalho?</summary>
+    <div class="faq-corpo">
+      <p>
+        Pode. Todas as citações publicadas estão disponíveis em formato aberto, para download direto:
+        <a href="/dados/citacoes.json">JSON</a> ou <a href="/dados/citacoes.csv">CSV</a>.
+      </p>
+      <p>
+        Se for republicar, cite a fonte original (o vídeo ou o plano de governo), não apenas este site —
+        a evidência é de lá, aqui é só onde ela foi organizada.
+      </p>
+    </div>
+  </details>
+</div>
+
+<h2 style="margin-top: 3rem; font-size: 1.5rem;">Glossário</h2>
+<p style="color: var(--texto-suave); max-width: 64ch; font-size: .95rem;">
+  Termos que aparecem no site e não são de uso corrente.
+</p>
+<dl class="glossario">
+  <div class="verbete">
+    <dt>Plano de governo</dt>
+    <dd>Documento que o candidato é obrigado a entregar ao TSE ao registrar a candidatura, descrevendo o que pretende fazer se eleito. É público desde o registro.</dd>
+  </div>
+  <div class="verbete">
+    <dt>DivulgaCandContas</dt>
+    <dd>Sistema público do TSE onde ficam os dados de todas as candidaturas: nome, partido, número, bens declarados e os documentos entregues — incluindo o plano de governo.</dd>
+  </div>
+  <div class="verbete">
+    <dt>Transcrição</dt>
+    <dd>Conversão automática da fala em texto. Aqui ela serve para localizar o que foi dito em escala; nada é publicado só com base nela, sem verificação.</dd>
+  </div>
+  <div class="verbete">
+    <dt>Separação de vozes</dt>
+    <dd>Técnica que identifica quantas pessoas diferentes falam num áudio e em quais trechos. É o que impede atribuir a fala de um entrevistador ao candidato.</dd>
+  </div>
+  <div class="verbete">
+    <dt>Cadeia de custódia</dt>
+    <dd>Registro que permite provar que um arquivo não foi alterado desde a coleta. Aqui é feito com hash criptográfico calculado antes de qualquer conversão.</dd>
+  </div>
+  <div class="verbete">
+    <dt>Hash (SHA-256)</dt>
+    <dd>Impressão digital de um arquivo. Se um único bit mudar, o hash muda por completo — por isso ele serve como prova de integridade.</dd>
+  </div>
+  <div class="verbete">
+    <dt>Revisão humana</dt>
+    <dd>Etapa em que uma pessoa ouve o trecho e decide se ele pode ser publicado, corrigido ou rejeitado. Rejeitar não apaga nada: fica registrado.</dd>
+  </div>
+  <div class="verbete">
+    <dt>Tema</dt>
+    <dd>Uma das categorias fixas usadas para organizar plano e falas lado a lado (saúde, educação, segurança pública e outras). A classificação é feita por pessoas, não por algoritmo.</dd>
+  </div>
+</dl>
+
+<div class="contato-bloco">
+  <h3>Não achou sua resposta aqui?</h3>
+  <p>
+    Escreva. Dúvidas sobre método, pedidos de correção e apontamento de erro chegam na mesma
+    caixa e são lidos por uma pessoa — não há resposta automática.
+  </p>
+  <a class="botao-contato" href="mailto:jvriibmr@gmail.com?subject=D%C3%BAvida%20%E2%80%94%20Monitor%20Eleitoral">
+    Enviar uma pergunta
+  </a>
+</div>
+{% endblock %}

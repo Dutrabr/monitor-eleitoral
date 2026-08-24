@@ -2,101 +2,132 @@
 
 Fonte da verdade visual do site público. Extraído do CSS real em
 `src/transcricao/templates_publico/base.html` (nunca editado à mão sem
-olhar o arquivo primeiro) — este documento descreve o que já existe hoje
-("linha de base v1"), não uma proposta nova. Referenciado por CLAUDE.md.
+olhar o arquivo primeiro). Referenciado por CLAUDE.md.
 
 Regra: qualquer mudança visual atualiza este arquivo no mesmo commit da
 mudança de CSS. Se os dois divergirem, o CSS manda — mas a divergência é
 bug de documentação a corrigir, não a ignorar.
 
+## Conceito: "console de evidência" (v2)
+
+O site é um instrumento de leitura de evidência, não uma peça de
+campanha. A linguagem visual vem do material do próprio projeto —
+timestamp, número de página, hash, cadeia de custódia — tratado como
+leitura de instrumento em vez de letra miúda. Daí vêm as três decisões
+que definem o v2:
+
+1. **Escuro por padrão.** O claro existe e é bem resolvido, mas é
+   variante. Inverte o padrão do v1 (que era claro por padrão).
+2. **Metadata em monoespaçada.** Tudo que é aparato de prova (fonte,
+   página, timestamp, contagem, status) usa mono. O que é fala humana
+   usa serifa. O que é interface usa sans. Três vozes tipográficas com
+   papéis separados, não decoração.
+3. **Geometria reta.** Cantos retos (0–2px) no lugar dos cards
+   arredondados de 16px do v1; separação por linha de 1px e por grade,
+   não por sombra difusa.
+
 ## Paleta
 
-Definida como CSS custom properties em `:root`, com variante escura via
-`prefers-color-scheme` e via toggle manual (`data-tema="escuro"` /
-`data-tema="claro"` persistido em `localStorage`).
+CSS custom properties em `:root`. **Escuro é o `:root` nu** (padrão);
+claro entra por `@media (prefers-color-scheme: light)` guardado com
+`:root:not([data-tema="escuro"])`, e por `:root[data-tema="claro"]` para
+a escolha manual vencer em qualquer sistema.
+
+### Escuro (padrão)
 
 | Token | Valor | Uso |
 |---|---|---|
-| `--teal` | `#0D9488` | cor de marca primária |
-| `--teal-forte` | `#0F766E` | gradientes, hover, links (modo claro) |
-| `--teal-escuro` | `#0B4F49` | início do gradiente do header |
-| `--teal-claro` | `#5EEAD4` | links no modo escuro, acentos |
-| `--ambar` | `#F59E0B` | cor de destaque secundária (citações, "não consta") |
-| `--ambar-forte` | `#B45309` | texto sobre fundo âmbar claro |
-| `--grafite` | `#18181B` | texto no modo claro, fundo do rodapé |
-| `--off-white` | `#FAFAF9` | fundo do modo claro |
+| `--bg` | `#070B0D` | fundo (quase preto com viés teal, não preto puro) |
+| `--superficie` | `#0E1619` | painéis, cabeçalho, rodapé, cards |
+| `--superficie-alta` | `#131F23` | hover de card, elevação |
+| `--borda` | `#1E2C31` | linhas de 1px que estruturam tudo |
+| `--texto` | `#E6F0F0` | texto principal |
+| `--texto-suave` | `#9DB2B8` | texto secundário |
+| `--texto-fraco` | `#6B8189` | metadata, estados vazios |
+| `--teal` | `#2DD4BF` | sinal do **plano de governo** |
+| `--ambar` | `#FBBF24` | sinal da **fala pública** |
 
-Superfícies (mudam por tema):
-- **Claro**: bg `#FAFAF9` · superfície `#ffffff` · texto `#18181B` · texto-suave `#52525B` · borda `#E4E4E7`
-- **Escuro**: bg `#0F1012` · superfície `#1B1C1F` · texto `#FAFAF9` · texto-suave `#A1A1AA` · borda `#303034`
+### Claro (variante)
 
-Zero vermelho/azul de propósito — paleta neutra, sem cor associada a
-partido (regra 3 do projeto: simetria entre candidatos).
+| Token | Valor | Uso |
+|---|---|---|
+| `--bg` | `#EFF4F4` | fundo (neutro com viés teal, não branco puro) |
+| `--superficie` | `#FFFFFF` | painéis |
+| `--borda` | `#D2DEDE` | linhas |
+| `--texto` | `#0B1618` | texto principal |
+| `--teal` | `#0F7A70` | sinal do plano (escurecido p/ contraste) |
+| `--ambar` | `#B26B00` | sinal da fala (escurecido p/ contraste) |
+
+Auxiliares em ambos: `--teal-tinta` / `--ambar-tinta` (fundo dos blocos
+de evidência), `--teal-linha` / `--ambar-linha` (bordas de sinal),
+`--grade` (textura de grade do fundo).
+
+**Zero vermelho/azul de propósito** — paleta neutra, sem cor associada a
+partido (regra 3 do projeto: simetria entre candidatos). Teal e âmbar
+não são "bom" e "ruim": são apenas *plano* e *fala*, dois canais.
 
 ## Tipografia
 
-- Corpo: `ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif` — fonte de sistema, sem asset de fonte carregado.
-- Citações/trechos (`.trecho`, `.citacao`): `ui-serif, Georgia, "Times New Roman", serif` — serifa só nesses dois lugares, pra separar visualmente "evidência" de "interface".
-- Tamanho base: `17px`, `line-height: 1.65`.
-- Headings (`h1,h2,h3`): `font-weight: 800`, `letter-spacing: -0.02em`, `line-height: 1.15`.
-- `h1`: `clamp(2rem, 4.5vw, 3.15rem)` — fluido, sem breakpoint fixo.
+Três famílias com papéis separados, carregadas do Google Fonts:
 
-## Espaçamento e raio
+| Token | Família | Papel |
+|---|---|---|
+| `--f-disp` | **Archivo** 700/900 | títulos — pesada, tracking negativo |
+| `--f-body` | **IBM Plex Sans** 400/500/600 | interface e texto corrido |
+| `--f-mono` | **IBM Plex Mono** 400/500 | toda metadata e rótulo de instrumento |
+| `--f-serif` | **IBM Plex Serif** 400 | blocos de evidência (`.trecho`, `.citacao`) |
 
-Não há uma escala numérica estrita (tipo 4/8/12/16) documentada — os
-valores no CSS atual são majoritariamente em `rem` ad hoc (`.5rem` até
-`4rem`, passando por `.6/.65/.7/.75/.8/.85/.9/.95/1.1/1.25/1.35/1.4/1.5/2/2.5/3`).
-Isso é uma lacuna real do sistema atual, não uma decisão — candidato a
-corrigir na próxima leva de mudança visual (adotar escala 4px explícita
-é a sugestão óbvia, mas não fazer sem decidir isso com o dono primeiro).
+- Tamanho base `17px`, `line-height 1.65`.
+- Títulos: `font-weight 900`, `letter-spacing -0.03em`, `text-wrap: balance`.
+- Rótulos mono: uppercase, `letter-spacing` entre `.08em` e `.16em`.
+- `font-variant-numeric: tabular-nums` onde há dígito em coluna.
 
-Raio de borda, por elemento:
-- `4px` — anel de foco
-- `8px` (canto) — link "pular para conteúdo"
-- `11px` — selo do logo
-- `12px` — trechos/citações (canto reto do lado da borda colorida)
-- `16px` — cards, colunas de comparação
-- `999px` (pill) — chips, botões, tags de status, avatar
+**Isto reverte a decisão do v1 de não carregar fonte externa.** Ver
+"Custo assumido" no fim deste documento.
 
-## Sombra e foco
+## Espaçamento, raio e traço
 
-- `--sombra`: sombra padrão de card (dupla camada, sutil).
-- `--sombra-hover`: mais forte, com tingimento de teal.
-- `--anel-foco`: `0 0 0 3px rgba(245,158,11,.55)` — âmbar, usado em `:focus-visible` de links/botões/inputs (acessibilidade via teclado).
-
-## Layout
-
-- Container: `.envelope`, `max-width: 1040px`, padding lateral `1.25rem`.
-- Grades responsivas via `auto-fit`/`auto-fill` + `minmax()` — sem breakpoints numéricos fixos pra cards de candidato.
-- Painel de comparação (`.paineis`) é 2 colunas (`1fr 1fr`) em desktop; abaixo de `767px` vira abas via `radio + label` (CSS puro, sem JS de tabs).
+- Raio: `0` em quase tudo. Exceções: `2px` no anel de foco.
+  O v1 usava 8/11/12/16/999px — o v2 abandonou o arredondado.
+- Separação: linha de `1px` em `--borda`. Grades de card usam
+  `gap: 1px` sobre fundo `--borda`, criando malha em vez de cards soltos.
+- Sombra: quase ausente. `--sombra-hover` é anel de 1px em teal, não borrão.
+- Fundo: grade sutil de 46px (`--grade`) em `body`, ligada à ideia de
+  instrumento — nunca forte o bastante para competir com texto.
 
 ## Componentes-chave (nomes reais no CSS)
 
-- `header.topo` — gradiente teal com radial-gradient decorativo em âmbar/teal-claro.
-- `.chip` / `.chip-opcao` — pills de filtro, estado ativo com gradiente teal.
-- `.card-candidato` — card de listagem, hover levanta (`translateY(-3px)`) e troca sombra.
-- `.avatar-candidato` — círculo com gradiente teal→âmbar, iniciais.
-- `.tema-secao` — seção temática do painel, barra decorativa gradiente teal→âmbar no topo.
-- `.coluna` — painel plano×redes, com `h3` em uppercase/letter-spacing.
-- `.rotulo-status` — pill de status (`.consta` teal / `.nao-consta` âmbar / `.nao-verificado` cinza neutro).
-- `.trecho` / `.citacao` — bloco de evidência com borda esquerda colorida (teal / âmbar) e fundo levemente tingido.
-- `.linha-tempo` — timeline com linha vertical e bolinhas gradiente.
-- `footer.rodape` — fundo grafite sólido.
+- `header.topo` — barra sólida com hairline em gradiente teal→âmbar embaixo.
+- `.faixa-aviso` — faixa de status em mono no topo absoluto da página.
+- `.selo-eyebrow` — rótulo de seção, mono uppercase com borda teal.
+- `.chip` / `.chip-combo` / `.chip-opcao` — filtros retos; ativo é teal sólido com texto no fundo.
+- `.grade-candidatos` — malha de 1px; `.card-candidato` acende barra teal embaixo no hover.
+- `.avatar-candidato` — **retrato** retangular com borda teal e leve halo; `.avatar-grande` acrescenta cantos de mira (usado na página do candidato). É aqui que vivem as fotos dos 209 candidatos e as 27 bandeiras de estado.
+- `.paineis` / `.coluna` — os dois canais de comparação, separados por linha de 1px; `h3` em mono uppercase (teal no plano, âmbar nas redes).
+- `.rotulo-status` — mono uppercase com borda: `.consta` teal, `.nao-consta` âmbar, `.nao-verificado` neutro.
+- `.trecho` / `.citacao` — evidência em serifa, borda esquerda de 2px + fundo tingido.
+- `.linha-tempo` — marcadores quadrados com brilho teal.
+- `.faq-item` (em `perguntas.html`) — acordeão `<details>` com `+`/`−` em mono.
 
 ## O que NÃO usar
 
 - Sem vermelho/azul (neutralidade partidária).
-- Sem fonte custom carregada via asset — decisão explícita anterior (evitar gerenciar binário de fonte por pouco ganho visual). Se isso mudar, atualizar aqui.
-- Sem framework de UI/CSS (Tailwind, Bootstrap etc.) — tudo inline em `base.html`, sem build step.
-- Sem animação além de hover/transition simples — `@media (prefers-reduced-motion: reduce)` já desliga tudo.
+- Sem cantos arredondados grandes — o v2 é reto por decisão.
+- Sem sombra difusa como recurso de elevação — use linha e fundo.
+- Sem framework de UI/CSS — tudo inline em `base.html`, sem build step.
+- Sem animação além de hover/transition simples; `prefers-reduced-motion` desliga tudo.
+- Sem cor definida só dentro de `@media` ou `[data-tema]` — todo token
+  existe no `:root` nu primeiro, senão o estado "sistema" quebra.
 
-## Status: v1 (linha de base), redesign v2 pendente
+## Custo assumido no v2
 
-Este documento descreve o que existe. Uma leva de redesign visual foi
-pedida pelo dono do projeto (2026-08-21) — ainda sem referência visual
-definida. Quando uma referência (screenshot, link, ou variações do
-Stitch) for escolhida, esta seção vira changelog: o que mudou, por quê,
-e a nova versão dos tokens acima.
+**Fonte externa.** O v1 não carregava fonte de propósito. O v2 carrega
+quatro famílias do Google Fonts, o que significa: (a) requisição a um
+terceiro em cada visita, incluindo IP do visitante — relevante num site
+cívico; (b) dependência de disponibilidade do Google. A alternativa é
+self-host (adiciona binário ao repositório, o que o projeto evitava) ou
+voltar a fonte de sistema (perde boa parte da identidade). Se a decisão
+mudar, trocar as quatro variáveis `--f-*` resolve sem tocar em mais nada.
 
 ## Changelog
 
@@ -336,3 +367,90 @@ fica idêntico ao de antes. Ver nota completa em `CLAUDE.md` (2026-08-22)
 sobre a decisão de nunca usar rede de anúncio automática, só
 patrocínio curado a mão pelo dono, e a regra editorial de nunca aceitar
 patrocinador ligado a candidato/partido/campanha.
+
+**2026-08-24 — redesign v2 "console de evidência".** O dono pediu algo
+"bem mais bonito e futurista". Apresentadas 3 direções em artefato com
+conteúdo real (ACM Neto/BA, tema Agropecuária: trecho real do plano na
+pg. 65 × falas reais transcritas, com hash e timestamp verdadeiros):
+**A — console de evidência** (escuro, instrumental), **B — câmara de
+vidro** (claro, translúcido, glassmorphism) e **C — arquivo aberto**
+(alto contraste, tipografia enorme). O dono escolheu **A**.
+
+Tensão levantada antes de propor, e que moldou as três: o site vive de
+credibilidade, e "futurista" no sentido neon/cripto/game teria custo
+justamente onde ele precisa parecer mais confiável. A saída foi buscar o
+futuro no vocabulário do próprio material — hash, timestamp, página,
+cadeia de custódia — em vez de em efeito visual. **O aparato que prova a
+evidência virou o assunto visual.**
+
+O que mudou, em relação ao v1:
+- Escuro passou a ser o padrão (`:root` nu), claro virou variante. O
+  toggle e a persistência em `localStorage` continuam funcionando; o
+  script ganhou tratamento do estado "sistema" (antes ele assumia que
+  ausência de `data-tema` era claro, o que inverteria errado agora).
+- Paleta reescrita nos dois temas — teal e âmbar seguem sendo os únicos
+  sinais (regra 3 intacta: zero vermelho/azul).
+- Tipografia passou de fonte-de-sistema única para quatro papéis
+  (Archivo / Plex Sans / Plex Mono / Plex Serif). **Reverte decisão
+  explícita do v1**; custo documentado na seção "Custo assumido".
+- Geometria: cantos arredondados (8–16px) → retos; sombra difusa →
+  linha de 1px e malha de grade.
+- `.avatar-candidato` virou retrato retangular com borda de sinal e
+  halo; `.avatar-grande` (página do candidato) ganhou cantos de mira.
+  **As 209 fotos e as 27 bandeiras foram preservadas** — só mudou o
+  enquadramento, que era a preocupação explícita do dono ao escolher A.
+
+Nenhum nome de classe foi alterado, então nenhum template quebrou. As 6
+rotas principais foram testadas manualmente nos dois temas.
+
+**2026-08-24 — página `/perguntas` (FAQ + glossário + contato).** Pedido
+do dono de "uma funcionalidade pro público tirar dúvidas". Levantado o
+risco antes de construir: um chatbot de IA respondendo sobre candidatos
+colidiria com a regra 1 e com a Resolução TSE 23.610/2019, art. 9º-B
+(alterada pela 23.755/2026), que veda sistema de IA recomendar/ranquear
+candidato **inclusive a pedido do usuário** — na prática, alguém
+perguntaria "em quem voto?" e qualquer resposta viraria risco. Descartado
+em favor de conteúdo curado.
+
+A página reúne três coisas numa só rota: 11 perguntas em acordeão
+(`<details>`, sem JS), glossário de 8 termos, e o canal de contato. O
+conteúdo é factual sobre o método — e explicita os limites: por que o
+site não diz se o candidato cumpriu, por que "não consta" é diferente de
+"não verificado", por que alguns candidatos aparecem sem citação alguma.
+Rascunho escrito por mim, revisão do dono pendente antes de considerar
+final.
+
+Dois testes novos em `test_site_publico.py`: um de acessibilidade da
+rota, outro que falha se alguém reescrever o conteúdo e remover a recusa
+explícita de dar nota/ranking/recomendação — a promessa é parte do
+produto, não texto decorativo.
+
+**2026-08-24 — busca com destaque (`/busca`).** Última das quatro coisas
+pedidas pelo dono na leva de "tirar dúvidas do público". Busca literal no
+texto das citações já publicadas (não olha plano de governo), com o termo
+destacado no resultado.
+
+Decisão de neutralidade que moldou a implementação: **o resultado é
+ordenado por número de urna, nunca por relevância.** Ordenar por "melhor
+resultado" — mesmo que o critério seja contagem de ocorrências — seria
+uma forma indireta de ranquear candidato, o que a regra 3 proíbe. O
+resumo acima dos resultados diz isso explicitamente ao leitor ("ordem de
+número de urna, sem ranking"), e há teste que quebra se a ordem mudar.
+
+Duas funções puras novas em `candidatos.py`, ambas testadas:
+- `buscar_citacoes()` — casa ignorando acento e caixa (`saude` acha
+  `SAÚDE`); termo vazio devolve `[]`, nunca "tudo".
+- `destacar()` — devolve lista de pedaços `{texto, marcado}` em vez de
+  HTML pronto. Assim o template escapa o conteúdo normalmente e o termo
+  de busca não vira vetor de injeção. Depende de a normalização preservar
+  o comprimento da string (cada caractere acentuado vira um base); há
+  teste explícito pra isso, porque se quebrar o destaque corta a palavra
+  no lugar errado.
+
+Detalhe de CSS que valeu ajuste: `mark` com padding lateral empurrava a
+pontuação seguinte, exibindo "saúde ." em vez de "saúde.". Trocado por
+fundo + `box-shadow` como sublinhado, sem padding horizontal.
+
+Estado vazio da busca não afirma ausência: diz que a palavra não aparece
+*no que já foi coletado e verificado*, e aponta para `/perguntas` —
+mesmo princípio de "não consta" × "não verificado".

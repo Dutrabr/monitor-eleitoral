@@ -31,10 +31,12 @@ from .candidatos import (
     TEMA_SEM_CLASSIFICACAO,
     UF_NOMES,
     agrupar_por_tema,
+    buscar_citacoes,
     carregar_candidatos,
     carregar_candidatos_por_uf,
     carregar_patrocinadores,
     carregar_plano_curado,
+    destacar,
     citacoes_do_candidato,
     citacoes_para_linhas,
     url_com_timestamp,
@@ -473,6 +475,48 @@ def criar_app(
     @app.get("/metodologia", response_class=HTMLResponse)
     def metodologia(request: Request):
         return templates.TemplateResponse(request, "metodologia.html", {})
+
+    @app.get("/busca", response_class=HTMLResponse)
+    def busca(request: Request, q: str = Query(default="")):
+        """Busca literal no texto das citacoes ja publicadas.
+
+        Resultado sai agrupado por candidato em ordem de numero de urna,
+        nunca por relevancia — ordenar por "melhor resultado" seria uma
+        forma indireta de ranquear candidato (regra 3).
+        """
+        termo = q.strip()
+        resultados = []
+        total = 0
+        if termo:
+            todos = _candidatos() + _candidatos_governador()
+            for grupo in buscar_citacoes(todos, _publicados(), termo):
+                citacoes = [
+                    {
+                        **cit,
+                        "pedacos": destacar(cit.get("texto") or "", termo),
+                        "url_com_timestamp": url_com_timestamp(
+                            cit.get("url_origem"), cit.get("inicio") or 0
+                        ),
+                    }
+                    for cit in grupo["citacoes"]
+                ]
+                total += len(citacoes)
+                resultados.append({"candidato": grupo["candidato"], "citacoes": citacoes})
+        return templates.TemplateResponse(
+            request,
+            "busca.html",
+            {"termo": termo, "resultados": resultados, "total": total},
+        )
+
+    @app.get("/perguntas", response_class=HTMLResponse)
+    def perguntas(request: Request):
+        """Perguntas frequentes + glossario + canal de contato.
+
+        Conteudo estatico e' proposital: e' o site explicando o proprio
+        metodo e os proprios limites, sem responder nada sobre candidato
+        especifico (regra 1 — evidencia, nunca veredito).
+        """
+        return templates.TemplateResponse(request, "perguntas.html", {})
 
     @app.get("/dados/citacoes.json")
     def dados_citacoes_json():

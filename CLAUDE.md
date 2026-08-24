@@ -1432,6 +1432,50 @@ Capistrano, Estevao, Maria Bona) nao tem NENHUMA rede social cadastrada
 no TSE, fora de escopo por falta de fonte oficial, nao por limitacao
 tecnica.
 
+Pronto (2026-08-24): **redesign visual v2 "console de evidencia"** +
+pagina `/perguntas` (FAQ/glossario/contato) + busca `/busca`. Detalhe
+visual completo no changelog de `DESIGN.md`; aqui so' o que muda decisao
+de projeto:
+
+- **Escuro virou o padrao** do site (antes era claro). Toggle e
+  `localStorage` seguem funcionando; o script do toggle ganhou tratamento
+  do estado "sistema" (antes assumia que ausencia de `data-tema` era
+  claro — o que inverteria errado depois da mudanca).
+- **Reverte a decisao de nao carregar fonte externa.** O v2 usa Archivo +
+  IBM Plex Sans/Mono/Serif do Google Fonts. Custo real assumido:
+  requisicao a terceiro em cada visita, com IP do visitante — relevante
+  num site civico. Alternativa (self-host) foi oferecida ao dono e fica
+  disponivel: trocar as 4 variaveis `--f-*`. Registrado em DESIGN.md.
+- **Fotos e bandeiras preservadas** — era a preocupacao explicita do dono
+  ao escolher a direcao. Mudou so' o enquadramento (circulo com gradiente
+  -> retrato retangular com borda de sinal; cantos de mira na pagina do
+  candidato). Nenhum arquivo de imagem tocado.
+
+**Chatbot de IA recusado, com motivo.** O dono pediu "funcionalidade pro
+publico tirar duvidas". Levantei antes de construir que um chatbot
+respondendo sobre candidatos colidiria com a regra 1 e com a Resolucao
+TSE 23.610/2019 art. 9º-B (alterada pela 23.755/2026), que veda sistema
+de IA recomendar/ranquear candidato **inclusive a pedido expresso do
+usuario** — na pratica alguem pergunta "em quem voto?" e qualquer
+resposta vira risco juridico e destroi a neutralidade. Ele concordou em
+nao usar. No lugar: conteudo curado em `/perguntas` (11 perguntas em
+acordeao `<details>`, sem JS + glossario de 8 termos + canal de contato).
+O rascunho do texto e' meu; **revisao do dono ainda pendente** antes de
+considerar final — e' o site falando com o publico em nome dele.
+
+Na busca (`/busca`), a decisao de neutralidade que moldou o codigo:
+resultado ordenado **por numero de urna, nunca por relevancia** —
+ordenar por "melhor resultado" seria ranquear candidato indiretamente
+(regra 3). Ha' teste que quebra se a ordem mudar, e a propria pagina diz
+isso ao leitor. Funcoes puras `buscar_citacoes()` e `destacar()` em
+`candidatos.py` (`destacar` devolve pedacos, nao HTML — o termo de busca
+nao vira vetor de injecao).
+
+Testes: 161 passam (7 novos), mesmas 5 falhas pre-existentes de
+`python-multipart`. Dois dos testes novos sao de regra, nao de
+implementacao: um quebra se o FAQ perder a recusa explicita de dar
+nota/ranking, outro se a busca passar a ordenar por relevancia.
+
 ## Fora de escopo, por decisao
 
 - fastdl.app ou qualquer ripper de terceiro: quebra a cadeia de custodia e

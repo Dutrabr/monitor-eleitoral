@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block titulo %}{% if termo %}"{{ termo }}" — busca{% else %}Buscar nas citações{% endif %} — Monitor Eleitoral{% endblock %}
+{% block og_titulo %}Buscar nas citações — Monitor Eleitoral{% endblock %}
+{% block og_descricao %}Busque um termo em tudo que os candidatos disseram publicamente e que já foi verificado e publicado aqui.{% endblock %}
+
+{% block estilo %}
+<style>
+  .busca-forma { display: flex; gap: 0; margin: 1.75rem 0 .75rem; max-width: 620px; }
+  .busca-campo {
+    flex: 1; background: var(--superficie); border: 1px solid var(--borda);
+    color: var(--texto); font-family: var(--f-body); font-size: 1rem;
+    padding: .85rem 1rem; min-width: 0;
+  }
+  .busca-campo::placeholder { color: var(--texto-fraco); }
+  .busca-campo:focus { outline: none; border-color: var(--teal); box-shadow: inset 0 0 0 1px var(--teal); }
+  .busca-enviar {
+    background: var(--teal); color: var(--bg); border: 1px solid var(--teal);
+    font-family: var(--f-mono); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase;
+    padding: 0 1.3rem; cursor: pointer; font-weight: 500;
+    transition: opacity .15s ease;
+  }
+  .busca-enviar:hover { opacity: .85; }
+
+  .busca-resumo {
+    font-family: var(--f-mono); font-size: .76rem; color: var(--texto-fraco);
+    letter-spacing: .06em; margin-bottom: 2rem;
+  }
+  .busca-resumo b { color: var(--teal); font-weight: 500; }
+
+  .grupo-candidato { border: 1px solid var(--borda); margin-bottom: 1px; background: var(--superficie); }
+  .grupo-cabeca {
+    display: flex; align-items: center; gap: .9rem; flex-wrap: wrap;
+    padding: 1rem 1.25rem; border-bottom: 1px solid var(--borda);
+  }
+  .grupo-cabeca .retrato {
+    position: relative; width: 42px; height: 42px; flex: none; overflow: hidden;
+    border: 1px solid var(--teal-linha); background: var(--superficie-alta);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--f-disp); font-weight: 900; color: var(--teal); font-size: .95rem;
+  }
+  .grupo-cabeca .retrato img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .grupo-cabeca .quem { flex: 1; min-width: 180px; }
+  .grupo-cabeca a.nome {
+    font-family: var(--f-disp); font-weight: 700; font-size: 1.05rem;
+    color: var(--texto); text-decoration: none; letter-spacing: -.02em;
+  }
+  .grupo-cabeca a.nome:hover { color: var(--teal); }
+  .grupo-cabeca .sub {
+    font-family: var(--f-mono); font-size: .7rem; color: var(--texto-fraco);
+    letter-spacing: .05em; margin-top: .15rem;
+  }
+  .grupo-cabeca .quantas {
+    font-family: var(--f-mono); font-size: .7rem; color: var(--teal);
+    letter-spacing: .08em; text-transform: uppercase;
+    border: 1px solid var(--teal-linha); background: var(--teal-tinta); padding: .3rem .65rem;
+  }
+
+  .achado { padding: 1rem 1.25rem; border-bottom: 1px dashed var(--borda); }
+  .achado:last-child { border-bottom: none; }
+  .achado p {
+    font-family: var(--f-serif); font-size: 1rem; line-height: 1.65;
+    margin: 0 0 .5rem; color: var(--texto);
+  }
+  /* sem padding lateral: padding empurraria a pontuação seguinte
+     ("saúde ." em vez de "saúde."). O realce vem de fundo + sublinhado. */
+  .achado mark {
+    background: var(--ambar-tinta); color: var(--ambar);
+    padding: .08em 0; font-weight: 500;
+    box-shadow: 0 1px 0 var(--ambar-linha);
+  }
+
+  .busca-vazia {
+    border: 1px dashed var(--borda-tracejada); padding: 2rem 1.5rem;
+    text-align: center; color: var(--texto-fraco); margin-top: 1rem;
+  }
+  .busca-vazia p { margin: 0 0 .6rem; }
+  .busca-vazia p:last-child { margin-bottom: 0; font-size: .9rem; }
+
+  .sugestoes { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
+</style>
+{% endblock %}
+
+{% block conteudo %}
+<section style="padding: 1rem 0 0;">
+  <span class="selo-eyebrow">Busca</span>
+  <h1>Buscar nas citações</h1>
+  <p style="color: var(--texto-suave); max-width: 62ch;">
+    Procure um termo em tudo que os candidatos disseram publicamente e que já passou
+    por verificação aqui. A busca não olha os planos de governo — só as falas.
+  </p>
+
+  <form class="busca-forma" action="/busca" method="get" role="search">
+    <input class="busca-campo" type="search" name="q" value="{{ termo }}"
+           placeholder="ex.: saúde, imposto, escola" aria-label="Termo de busca" autofocus>
+    <button class="busca-enviar" type="submit">Buscar</button>
+  </form>
+</section>
+
+{% if not termo %}
+  <div class="busca-vazia">
+    <p>Digite um termo para começar.</p>
+    <p>A busca é literal: procura a palavra exata dentro do que foi dito, ignorando acentos e maiúsculas.</p>
+  </div>
+  <div class="sugestoes">
+    <a class="chip" href="/busca?q=saúde">saúde</a>
+    <a class="chip" href="/busca?q=educação">educação</a>
+    <a class="chip" href="/busca?q=segurança">segurança</a>
+    <a class="chip" href="/busca?q=imposto">imposto</a>
+    <a class="chip" href="/busca?q=emprego">emprego</a>
+  </div>
+{% elif total == 0 %}
+  <div class="busca-resumo">Nenhum resultado para <b>{{ termo }}</b></div>
+  <div class="busca-vazia">
+    <p>Nenhuma citação publicada contém esse termo.</p>
+    <p>
+      Isso não significa que nenhum candidato tenha falado sobre o assunto — significa que,
+      entre o que já foi coletado e verificado aqui, essa palavra não aparece.
+      <a href="/perguntas">Entenda por que a cobertura é parcial.</a>
+    </p>
+  </div>
+{% else %}
+  <div class="busca-resumo">
+    <b>{{ total }}</b> citação(ões) em <b>{{ resultados|length }}</b> candidato(s) ·
+    ordem de número de urna, sem ranking
+  </div>
+
+  {% for grupo in resultados %}
+  {% set c = grupo.candidato %}
+  <div class="grupo-candidato">
+    <div class="grupo-cabeca">
+      <div class="retrato">
+        <img src="{% if c.uf %}/governador/{{ c.uf }}/{{ c.slug }}/foto{% else %}/foto/{{ c.slug }}{% endif %}"
+             alt="" loading="lazy" onerror="this.remove()">
+        {{ c.nome[0] }}
+      </div>
+      <div class="quem">
+        <a class="nome" href="{% if c.uf %}/governador/{{ c.uf }}/{{ c.slug }}{% else %}/candidato/{{ c.slug }}{% endif %}">{{ c.nome }}</a>
+        <div class="sub">
+          {% if c.numero %}Nº {{ c.numero }} · {% endif %}{{ c.partido }}{% if c.uf %} · {{ c.uf }}{% endif %}
+        </div>
+      </div>
+      <span class="quantas">{{ grupo.citacoes|length }} trecho(s)</span>
+    </div>
+
+    {% for cit in grupo.citacoes %}
+    <div class="achado">
+      <p>&ldquo;{% for pedaco in cit.pedacos %}{% if pedaco.marcado %}<mark>{{ pedaco.texto }}</mark>{% else %}{{ pedaco.texto }}{% endif %}{% endfor %}&rdquo;</p>
+      <div class="fonte">
+        {% if cit.publicado_em %}{{ cit.publicado_em[:10] }} — {% endif %}{{ cit.timestamp }}
+        {% if cit.url_com_timestamp %} — <a href="{{ cit.url_com_timestamp }}" target="_blank" rel="noopener">ouvir na fonte</a>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+{% endif %}
+{% endblock %}

@@ -245,6 +245,32 @@ def test_metodologia_acessivel(tmp_path):
     assert "não faz" in resp.text.lower()
 
 
+def test_perguntas_acessivel(tmp_path):
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app)
+
+    resp = client.get("/perguntas")
+    assert resp.status_code == 200
+    assert "Perguntas frequentes" in resp.text
+
+
+def test_perguntas_reafirma_que_nao_ha_veredito(tmp_path):
+    """A pagina de duvidas nao pode abrir brecha pra veredito (regra 1).
+
+    Se alguem reescrever esse conteudo e tirar a recusa explicita de dar
+    nota/ranking/recomendacao, o teste quebra — a promessa e' parte do
+    produto, nao so' texto decorativo.
+    """
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app)
+
+    texto = client.get("/perguntas").text.lower()
+    assert "nunca veredito" in texto
+    assert "não recomenda voto" in texto
+
+
 def test_export_json_inclui_citacoes(tmp_path):
     candidatos, dados, planos = _montar_projeto(tmp_path)
     (dados / "item1.publicado.json").write_text(
