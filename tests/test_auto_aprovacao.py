@@ -7,6 +7,7 @@ from transcricao.auto_aprovacao import (
     gerar_decisoes_automaticas,
     segmento_elegivel,
     video_e_falante_unico,
+    video_menciona_o_proprio_candidato,
 )
 
 
@@ -118,3 +119,58 @@ def test_nao_muta_decisoes_original():
     original = {}
     gerar_decisoes_automaticas(segs, "candidato_fulano", original, revisado_em="2026-08-19T00:00:00+00:00")
     assert original == {}
+
+
+def _seg_texto(texto, **kw):
+    base = {
+        "texto": texto,
+        "falante": "SPEAKER_00",
+        "status": "ok",
+        "no_speech_prob": 0.01,
+        "avg_logprob": -0.1,
+        "compression_ratio": 1.2,
+        "pureza_falante": 1.0,
+    }
+    base.update(kw)
+    return base
+
+
+def test_barra_auto_aprovacao_quando_locutor_cita_o_nome_do_candidato():
+    """Erro real de producao (2026-08-24): peca narrada em terceira pessoa,
+    uma voz so', foi auto-aprovada como fala do proprio candidato."""
+    segmentos = [_seg_texto("Orleans casou, se tornou pai e voltou pra cidade")]
+    assert video_menciona_o_proprio_candidato(segmentos, "candidato_orleans_brandao")
+    decisoes = gerar_decisoes_automaticas(
+        segmentos, "candidato_orleans_brandao", {}, revisado_em="2026-08-25T00:00:00Z"
+    )
+    assert decisoes == {}
+
+
+def test_fala_sem_o_proprio_nome_continua_auto_aprovando():
+    segmentos = [_seg_texto("Nos vamos investir em saude e educacao para todos")]
+    assert not video_menciona_o_proprio_candidato(segmentos, "candidato_acm_neto")
+    decisoes = gerar_decisoes_automaticas(
+        segmentos, "candidato_acm_neto", {}, revisado_em="2026-08-25T00:00:00Z"
+    )
+    assert decisoes["0"]["decisao"] == "confirmado"
+
+
+def test_cargo_e_sobrenome_comum_no_falante_id_nao_barram_sozinhos():
+    """Sem isso, 'professor'/'santos' casariam em quase toda fala e a
+    auto-aprovacao morreria na pratica."""
+    segmentos = [_seg_texto("O professor da escola publica precisa de valorizacao")]
+    assert not video_menciona_o_proprio_candidato(
+        segmentos, "candidato_professor_tulio_lopes"
+    )
+    assert not video_menciona_o_proprio_candidato(
+        [_seg_texto("Vamos cuidar dos nossos santos e da nossa fe")],
+        "candidato_renan_santos",
+    )
+
+
+def test_auto_apresentacao_legitima_tambem_barra_de_proposito():
+    """'Eu sou Douglas Ruas' e' fala legitima dele, mas cai na revisao
+    humana mesmo assim — trocar uma revisao a mais por nao publicar fala
+    de terceiro e' o lado certo pra errar."""
+    segmentos = [_seg_texto("Eu sou Douglas Ruas e conto com o seu voto")]
+    assert video_menciona_o_proprio_candidato(segmentos, "candidato_douglas_ruas")

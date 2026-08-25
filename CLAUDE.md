@@ -1647,3 +1647,71 @@ candidato, em escala. Os outros 157 sao de voz unica, mas mesmo esses
 exigem confirmar que a voz e' do candidato e nao de locutor — que e'
 exatamente o erro documentado acima.
 
+
+Pronto (2026-08-25): **causa-raiz do erro de atribuicao encontrada — a
+diarizacao conta vozes a menos em peca de campanha, e era so' isso que
+segurava a auto-aprovacao.**
+
+Contexto: depois de corrigir os 5 videos publicados errado (2026-08-24),
+fui triar os 668 pendentes antes de aprovar qualquer coisa em lote. A
+triagem (por numero de vozes + mencao ao proprio nome no texto) achou
+mais 3 pecas do mesmo tipo AINDA NAO publicadas — Alexandre Kalil (MG,
+locutor: "Alexandre Calil, filho de Dona Leila, aprendeu"), Gabriel Souza
+(RS, jingle cantado em 3a pessoa) e Jose Moita (PA, terceiro se
+identificando: "Paulo Para passando aqui"). Juntos ja tinham 89 segmentos
+auto-confirmados como fala dos candidatos, prontos pra ir ao ar assim que
+alguem decidisse os ultimos pendentes. Os tres foram marcados
+`tipo_material: "material_de_campanha"` na fila, com o motivo gravado em
+`tipo_material_motivo`.
+
+**O achado que importa mais que os casos individuais**: `pyannote`
+devolveu `falantes: ["SPEAKER_00"]`, `multi_falante: False` para videos
+que inequivocamente tem 2+ pessoas falando:
+- **Tarcisio (SP)**: os 3 primeiros trechos sao a PERGUNTA do
+  entrevistador ("Voce nao acha que o cara, quando ele vai para
+  Brasilia, ele muda?"), nao ele. 98 segmentos ja auto-confirmados.
+- **Pazolini (ES)**: moradores e entrevistador falam em pelo menos 5
+  pontos ("16 anos esperando a casa propria?"). 28 auto-confirmados.
+- **Helder Salomao (ES)**: o video abre com outra pessoa falando COM ele
+  ("E, Helder, a gente tem uma surpresa pra voce"). 48 auto-confirmados.
+Ou seja: `video_e_falante_unico` — a trava em que a excecao de
+2026-08-19 inteira se apoia — confia na contagem do pyannote, e o
+pyannote funde vozes distintas justamente em peca produzida (musica de
+fundo, compressao, mesma cadeia de microfone). A trava falha em silencio
+no tipo de conteudo MAIS propenso a ter locutor. Esses tres nao foram
+remarcados: sao mistos (tem fala real do candidato junto), entao a
+decisao e' por segmento e cabe a um humano ouvindo — nao a mim.
+
+Correcao: segundo sinal em `auto_aprovacao.video_menciona_o_proprio_
+candidato` — se o texto do video cita o nome do candidato, a
+auto-aprovacao devolve as decisoes intactas e tudo vai pra revisao
+humana. O nome sai do proprio `falante_id` (`candidato_acm_neto` ->
+"acm"), sem dado novo na chamada; cargo/titulo e sobrenome muito comum
+ficam de fora por lista explicita (`_TOKENS_NAO_IDENTIFICADORES`), senao
+"professor"/"santos" casariam em quase toda fala.
+
+Medido contra os 62 videos reais ja coletados, nao contra intuicao:
+**pega 8 de 8 erros conhecidos** (os 5 publicados + os 3 novos). Bloqueia
+17 videos a mais, mas a maioria desses 17 e' justamente caso misto com
+terceiro falando (Pazolini, Helder, Raquel Lyra, Marcos Rogerio, Arthur
+Henrique, Joao Rodrigues, Laurez Moreira, Leandro Grass, Joao Campos) —
+so' ~6 sao auto-apresentacao legitima ("Eu sou Douglas Ruas", "Sou o
+Eduardo Braide", "Eu sou o Arruda"). Esses 6 apenas caem na revisao
+humana; nao se perde citacao nenhuma. Trocar ~6 revisoes a mais por nao
+publicar fala de terceiro e' o lado certo pra errar.
+
+Varredura de confirmacao nos JA publicados: so' 3 videos citam o nome do
+candidato, e os 3 sao auto-apresentacao em primeira pessoa, legitima. O
+que esta' no ar hoje esta' limpo.
+
+4 testes novos em `test_auto_aprovacao.py` (179 passam, zero falha).
+As 5 falhas cronicas de `python-multipart` sumiram — a dependencia ja'
+estava declarada em `requirements.txt`, so' faltava instalar no ambiente
+local; elas escondiam regressao justamente em `site_revisao.py`.
+
+**Os 668 pendentes seguem sem aprovacao em lote, de proposito.** 460
+estao em 12 videos com 2 a 4 vozes; 208 em 14 videos de voz unica — e
+esses 208 sao justamente os segmentos que os 4 sinais de confianca
+REPROVARAM, ou seja, os menos confiaveis do lote, nao os mais. Aprovar
+tudo publicaria fala de jornalista, apoiador e cantor de jingle como
+palavra de candidato, em escala.

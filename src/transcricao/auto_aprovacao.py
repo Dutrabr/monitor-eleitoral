@@ -1,5 +1,6 @@
-"""
-ATENCAO — limite conhecido desta funcao (achado em 2026-08-24):
+"""Auto-aprovacao de segmentos de alta confianca — excecao PARCIAL a regra 2.
+
+ATENCAO — limite conhecido, achado em producao (2026-08-24):
 `video_e_falante_unico` responde "ha' UMA voz nesse video?", nao "essa
 voz e' a do candidato?". Um video narrado por locutor profissional tem
 uma voz so' e passa por aqui — foi assim que 5 pecas de campanha
@@ -12,7 +13,11 @@ candidato falando, nao locutor/jingle/depoimento. Material desse tipo
 existe e e' legitimo publicar — mas como `tipo_material:
 "material_de_campanha"` (ver `revisao.montar_publicacao`), em secao
 separada, nunca como fala dele.
-Auto-aprovacao de segmentos de alta confianca — excecao PARCIAL a regra 2.
+
+Desde 2026-08-25 ha' um segundo sinal contra esse erro:
+`video_menciona_o_proprio_candidato` barra a auto-aprovacao quando o
+texto cita o nome do candidato. Nao substitui conferir a peca — so'
+fecha o buraco mais comum.
 
 Regra 2 do projeto (CLAUDE.md) e' que nenhuma citacao vai ao ar sem um
 humano ter ouvido o trecho. Esta excecao foi decisao explicita do dono do
@@ -48,6 +53,8 @@ Restricoes que NUNCA relaxam, custe o que custar:
 
 from __future__ import annotations
 
+import re
+import unicodedata
 from typing import Any
 
 from .revisao import Decisao, registrar_decisao
@@ -94,6 +101,59 @@ def video_e_falante_unico(segmentos: list[dict[str, Any]]) -> bool:
     return len(falantes) == 1
 
 
+# Palavras que aparecem em `falante_id` mas nao identificam ninguem: cargo,
+# titulo profissional e conectivo. Casar por elas daria falso positivo em
+# quase todo video ("professor", "doutor" etc. sao comuns em fala normal).
+_TOKENS_NAO_IDENTIFICADORES = {
+    "candidato", "professor", "professora", "doutor", "doutora", "coronel",
+    "sargento", "subtenente", "soldado", "delegado", "delegada", "veterinario",
+    "escritor", "deputado", "deputada", "senador", "senadora", "prefeito",
+    "prefeita", "governador", "governadora", "presidente", "filho", "filha",
+    "junior", "neto", "neta", "santos", "silva", "souza", "oliveira", "costa",
+    "lima", "pereira", "carvalho", "rodrigues", "ferreira", "almeida",
+}
+
+
+def _sem_acento(texto: str) -> str:
+    decomposto = unicodedata.normalize("NFD", texto or "")
+    return "".join(c for c in decomposto if unicodedata.category(c) != "Mn").lower()
+
+
+def video_menciona_o_proprio_candidato(
+    segmentos: list[dict[str, Any]], falante_id: str
+) -> bool:
+    """O texto do video cita o nome do proprio candidato?
+
+    Serve como SEGUNDO sinal ao lado de `video_e_falante_unico`, que
+    sozinho ja' deixou passar erro em producao (ver aviso no topo deste
+    modulo). O raciocinio: locutor, jingle e depoimento de terceiro falam
+    do candidato pelo nome ("Orleans casou, se tornou pai"); o candidato
+    falando de si usa primeira pessoa e raramente se nomeia.
+
+    E' deliberadamente conservador nos dois sentidos:
+      - Auto-apresentacao legitima ("Eu sou Douglas Ruas") tambem casa e
+        tambem bloqueia. Isso e' aceito de proposito: o custo e' uma
+        revisao humana a mais, e o beneficio e' nao publicar fala de
+        terceiro como palavra do candidato.
+      - Sobrenome muito comum e cargo/titulo nao contam (ver
+        `_TOKENS_NAO_IDENTIFICADORES`), senao quase todo video casaria.
+
+    O nome sai do proprio `falante_id` (`candidato_acm_neto` -> "acm"),
+    entao nao precisa de nenhum dado novo na chamada.
+    """
+    tokens = [
+        t
+        for t in _sem_acento(falante_id).split("_")
+        if len(t) > 3 and t not in _TOKENS_NAO_IDENTIFICADORES
+    ]
+    if not tokens:
+        return False
+    texto = _sem_acento(
+        " ".join(s.get("texto", "") for s in segmentos if s.get("status") != "descartado")
+    )
+    return any(re.search(r"\b" + re.escape(t) + r"\b", texto) for t in tokens)
+
+
 def gerar_decisoes_automaticas(
     segmentos: list[dict[str, Any]],
     falante_id: str,
@@ -105,10 +165,13 @@ def gerar_decisoes_automaticas(
     falante unico. Devolve nova copia de `decisoes` (mesmo contrato de
     `registrar_decisao` — nunca muta o dict recebido).
 
-    Se o video tiver mais de um falante, devolve `decisoes` inalterado:
-    todo segmento continua exigindo revisao humana normal, sem excecao.
+    Devolve `decisoes` inalterado (tudo segue pra revisao humana normal)
+    se o video tiver mais de um falante OU se o texto citar o nome do
+    proprio candidato — ver `video_menciona_o_proprio_candidato`.
     """
     if not video_e_falante_unico(segmentos):
+        return decisoes
+    if video_menciona_o_proprio_candidato(segmentos, falante_id):
         return decisoes
 
     for i, seg in enumerate(segmentos):
