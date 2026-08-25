@@ -210,14 +210,16 @@ def baixar(
     }
 
 
-def _processar_com_legenda(info: dict[str, Any], saida: Path) -> Transcricao:
+def _processar_com_legenda(
+    info: dict[str, Any], saida: Path, *, fonte: str = "youtube"
+) -> Transcricao:
     saida = Path(saida)
     saida.mkdir(parents=True, exist_ok=True)
     base = info["arquivo"].stem
 
     manifesto = proveniencia.manifesto(
         info["arquivo"],
-        fonte="youtube",
+        fonte=fonte,
         url=info["url"],
         perfil=info["canal"],
         publicado_em=info["publicado_em"],
@@ -270,8 +272,14 @@ def coletar(
     max_falantes: int | None = None,
     mapa_falantes: dict[str, str] | None = None,
     navegador_cookies: str | None = NAVEGADOR_COOKIES_PADRAO,
+    fonte: str = "youtube",
 ) -> Transcricao:
     """Baixa do YouTube e transcreve: legenda se houver, Whisper senao.
+
+    `fonte` existe porque o mesmo caminho de download serve TikTok,
+    Facebook e Instagram sem mudanca nenhuma — o yt-dlp trata todos. Quem
+    chama por `coletar_midia` passa a plataforma real; o padrao continua
+    "youtube" pra' nao mexer em nada que ja' chamava esta funcao.
 
     `forcar_whisper=True` ignora legenda disponivel e roda a pipeline normal
     (com diarizacao) mesmo assim — util quando a legenda existe mas e'
@@ -293,11 +301,11 @@ def coletar(
     )
 
     if info["legenda"] and not forcar_whisper:
-        return _processar_com_legenda(info, saida)
+        return _processar_com_legenda(info, saida, fonte=fonte)
 
     return pipeline.processar(
         info["arquivo"],
-        fonte="youtube",
+        fonte=fonte,
         saida=saida,
         url=info["url"],
         perfil=info["canal"],

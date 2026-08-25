@@ -1715,3 +1715,76 @@ esses 208 sao justamente os segmentos que os 4 sinais de confianca
 REPROVARAM, ou seja, os menos confiaveis do lote, nao os mais. Aprovar
 tudo publicaria fala de jornalista, apoiador e cantor de jingle como
 palavra de candidato, em escala.
+
+Pronto (2026-08-25): **teto real de cobertura de Governador medido, e
+coletor generico pras outras plataformas.**
+
+Levantado o campo `sites` do registro no TSE dos 196 candidatos a
+Governador — dado que nunca tinha sido guardado em
+`dados/candidatos_governador/*.json`. Sem ele, ninguem sabia se "faltam
+180" significava 180 coletas possiveis ou 40.
+
+Detalhe tecnico da coleta: a API segue bloqueando `curl`/`requests` com
+403 do Akamai, e **o CDN de dados abertos (`cdn.tse.jus.br`) tambem** —
+`consulta_cand_2026.zip` e `rede_social_candidato_2026.zip` dao o mesmo
+403, entao nao ha' atalho por dados abertos. Funcionou pelo **Playwright**
+(Chromium real navegando o portal, `fetch()` no contexto da pagina), sem
+depender da extensao Claude in Chrome, que nao estava conectada. A
+resposta da API traz CPF e titulo de eleitor — **guardado so' o campo
+`sites`**, o resto descartado.
+
+Numeros (`dados/redes_sociais_governador.json`, fora do git):
+  196 candidatos | 152 com plataforma de video utilizavel |
+  16 ja com citacao | **136 faltam coletar** | 44 sem plataforma
+Dos 136: 55 YouTube, 78 Instagram, 2 Facebook, 1 TikTok.
+**Os 44 nao sao trabalho pendente — sao limite factual** (sem canal de
+video cadastrado no TSE, e o projeto nunca faz busca generica).
+
+Achado de qualidade de dado: 9 candidatos digitaram handle ou texto
+livre no lugar da URL (ex: Cyro Garcia registrou
+`https://@CYROGARCIA16/INSTAGRAN/FACEBOOK/TIKTOK`). Um detector ingenuo
+por substring classificaria isso como TikTok. As URLs sao extraidas por
+regex de `https?://` de dentro do campo — aproveitando so' o que ja'
+estava escrito ali, sem inventar link. Sobraram 44 sem nada aproveitavel.
+
+**`coletar_midia.py`** (novo): YouTube, Instagram, TikTok e Facebook pelo
+mesmo caminho. `coletar_youtube.baixar` sempre foi yt-dlp puro e nunca
+foi especifico do YouTube — a unica coisa presa era `fonte="youtube"`
+hardcoded em tres lugares, agora parametro (padrao inalterado, nada que
+ja' chamava quebrou). `detectar_plataforma` levanta erro em vez de
+adivinhar: **Kwai nao tem extractor no yt-dlp**, entao candidato so' com
+Kwai fica registrado como sem coleta, nao vira fonte errada na
+proveniencia. `cli_midia.py` e' a CLI.
+
+O caminho do instaloader (`coletar_instagram.py`) continua existindo. Os
+dois baixam direto do CDN da Meta (nenhum e' ripper de terceiro), entao a
+cadeia de custodia vale igual; ter dois caminhos e' resiliencia depois
+que `Profile.from_username` quebrou com erro de schema da Meta e disparou
+rate-limit na conta do dono (2026-08-22).
+
+**`deduplicar.py`** (novo, puro, testado): campanha publica a MESMA peca
+em varias redes — **96 dos candidatos que faltam tem mais de uma
+plataforma**, entao repetir e' o caso comum, nao a excecao. Sem isso a
+mesma fala apareceria 2-3 vezes na pagina do candidato como se fossem
+declaracoes distintas, inflando a contagem e dando peso falso a um unico
+video. Hash nao resolve: cada plataforma reencoda, entao
+`hash_sha256_original` prova origem mas nao identifica conteudo repetido.
+
+Metrica: containment de shingles de 5 palavras. Escolhida pelo caso real
+mais dificil — o Reel costuma ser um RECORTE do video longo, e Jaccard
+puniria a diferenca de tamanho. **Limiar medido, nao chutado**, contra os
+1.653 pares dos 58 videos ja coletados:
+  - videos DISTINTOS: containment maximo **0.008**
+  - recorte contiguo do mesmo video: **1.000**
+  - mesmo video com 8% de erro de ASR: **0.576** no pior caso
+`LIMIAR_REPETIDO = 0.30` fica ~37x acima do pior distinto e bem abaixo do
+pior duplicado. Texto com menos de 30 palavras nunca vira duplicata (um
+trecho curto casa por acaso dentro de qualquer discurso longo).
+
+Repetido **nunca e' apagado** (mesmo espirito da regra 5): fica marcado
+em `repetido_de` na fila, a auto-aprovacao e' pulada, e o log diz COM
+QUAL video casou e em que porcentagem. Errar pra menos custa um video a
+mais na fila — visivel e corrigivel; errar pra mais apagaria evidencia
+real em silencio. Por isso o limiar erra pro lado alto.
+
+11 testes novos (194 passam).
