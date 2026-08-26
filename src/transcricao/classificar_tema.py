@@ -38,6 +38,17 @@ import unicodedata
 # presenca dele indique o assunto sem precisar de contexto. Termos
 # ambiguos ficaram de fora de proposito (ex: "programa", "familia",
 # "investimento" — aparecem em qualquer tema).
+# ARMADILHA, achada ao expandir a lista em 2026-08-25: a comparacao roda
+# sobre texto sem acento e em minuscula, entao SIGLA DE PROGRAMA PODE
+# COLIDIR COM PALAVRA COMUM. Dois casos reais medidos no corpus:
+#   - "SUAS" (Sistema Unico de Assistencia Social) vira identico ao
+#     pronome "suas" — 11 ocorrencias no corpus, TODAS o pronome.
+#   - "porto" casa com "Porto Alegre"/"Porto Velho" (nome de cidade),
+#     nao com o porto de infraestrutura. Por isso a lista usa "porto de".
+# Antes de acrescentar sigla curta, conte as ocorrencias reais no corpus e
+# LEIA os casos. Classificar errado poe a fala de alguem sob tema que ele
+# nao discutiu, criando justaposicao enganosa contra o plano de governo.
+
 PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
     "saude": (
         "tratamento", "tratamentos", "saude mental", "medicamento", "medicamentos", "cirurgico", "paciente", "pacientes",
@@ -46,6 +57,10 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "vacina", "vacinacao", "remedio", "remedios", "farmacia",
         "consulta", "cirurgia", "cirurgias", "leito", "leitos", "ambulancia",
         "atendimento medico", "samu",
+        "farmacia popular", "mais medicos", "santa casa", "vigilancia sanitaria",
+        "saude da familia", "agente de saude", "cartao sus", "hemocentro",
+        "maternidade", "pronto socorro", "atencao basica", "fila de espera",
+        "transplante",
     ),
     "educacao": (
         "estudante", "estudantes", "estudantil", "bolsa de estudo", "educacional", "escolar",
@@ -53,12 +68,20 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "professora", "professoras", "aluno", "alunos", "creche", "creches",
         "universidade", "universidades", "faculdade", "ensino",
         "alfabetizacao", "merenda", "sala de aula", "matricula",
+        "prouni", "fies", "enem", "sisu",
+        "fundeb", "pe de meia", "ideb", "instituto federal",
+        "ensino medio", "ensino fundamental", "educacao infantil", "escola em tempo integral",
+        "evasao escolar", "piso do magisterio", "transporte escolar", "ensino tecnico",
+        "analfabetismo",
     ),
     "seguranca_publica": (
         "seguranca publica", "policia", "policial", "policiais",
         "violencia", "criminalidade", "crime", "crimes", "criminoso",
         "traficante", "trafico", "homicidio", "assalto", "roubo",
         "presidio", "penitenciaria", "delegacia", "bombeiro", "bombeiros",
+        "lei maria da penha", "milicia", "milicias", "faccao",
+        "faccoes", "videomonitoramento", "camera corporal", "guarda municipal",
+        "socioeducativo", "feminicidio", "porte de arma",
     ),
     "economia_e_emprego": (
         "recuperacao judicial", "orcamento", "arrecadacao", "sonegacao", "credito", "financiamento",
@@ -67,6 +90,9 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "tributaria", "economia", "economico", "industria", "comercio",
         "empresa", "empresas", "empreendedor", "empresario", "inflacao",
         "juros", "carteira assinada",
+        "sebrae", "senai", "qualificacao profissional", "primeiro emprego",
+        "microcredito", "reforma tributaria", "fgts", "zona franca",
+        "informalidade", "geracao de emprego", "vaga de trabalho", "custo de vida",
     ),
     "infraestrutura_e_mobilidade": (
         "duplicacao", "duplicar", "minha casa minha vida", "construcao civil", "casa propria", "pavimentar",
@@ -74,40 +100,62 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "asfalto", "pavimentacao", "ponte", "saneamento", "esgoto",
         "agua encanada", "transporte", "onibus", "metro", "mobilidade",
         "obra", "obras", "moradia", "habitacao", "energia eletrica",
+        "luz para todos", "novo pac", "casa verde e amarela", "brt",
+        "vlt", "ferrovia", "ferroviario", "aeroporto",
+        "tarifa zero", "passe livre", "porto de", "drenagem",
+        "abastecimento de agua", "banheiro", "calcamento",
     ),
     "meio_ambiente_e_clima": (
         "meio ambiente", "ambiental", "desmatamento", "floresta", "florestas",
         "clima", "climatica", "sustentavel", "sustentabilidade",
         "poluicao", "reciclagem", "amazonia", "preservacao", "nascente",
         "energia limpa", "energia renovavel",
+        "licenciamento ambiental", "credito de carbono", "cerrado", "caatinga",
+        "pantanal", "cop30", "transicao energetica", "area de protecao",
+        "queimada", "queimadas", "enchente", "enchentes",
+        "aterro sanitario", "lixao",
     ),
     "agropecuaria_e_desenvolvimento_rural": (
         "agricultura", "agricultor", "agricultores", "agronegocio",
         "agropecuaria", "pecuaria", "rural", "produtor rural",
         "pequeno produtor", "lavoura", "safra", "plantio", "colheita",
         "assentamento", "extensao rural", "irrigacao", "pesca", "pescador",
+        "pronaf", "garantia safra", "pnae", "embrapa",
+        "credito rural", "incra", "reforma agraria", "agroecologia",
+        "agricultura familiar", "silo", "armazenagem", "defensivo",
+        "fertilizante", "rebanho",
     ),
     "assistencia_social_e_combate_a_pobreza": (
         "assistencial", "beneficio social", "inclusao social",
         "assistencia social", "pobreza", "miseria", "fome", "vulneravel",
         "vulnerabilidade", "cras", "creas", "bolsa familia", "auxilio",
         "cesta basica", "populacao de rua", "acolhimento",
+        "bpc", "cadunico", "cadastro unico", "tarifa social",
+        "vale gas", "auxilio gas", "seguranca alimentar", "restaurante popular",
+        "cozinha comunitaria", "banco de alimentos", "extrema pobreza", "albergue",
     ),
     "ciencia_tecnologia_e_inovacao": (
         "ciencia", "cientifico", "tecnologia", "tecnologico", "inovacao",
         "pesquisa cientifica", "startup", "startups", "digitalizacao",
         "inteligencia artificial", "internet", "conectividade",
+        "cnpq", "capes", "fapesp", "banda larga",
+        "fibra otica", "inclusao digital", "parque tecnologico", "bolsa de pesquisa",
+        "laboratorio",
     ),
     "cultura": (
         "cultura", "cultural", "artista", "artistas", "musica", "teatro",
         "cinema", "museu", "biblioteca", "patrimonio historico",
         "carnaval", "festival",
+        "lei rouanet", "lei aldir blanc", "lei paulo gustavo", "ponto de cultura",
+        "artesanato",
     ),
     "direitos_humanos_e_igualdade": (
         "direitos humanos", "igualdade", "racismo", "racial", "negro",
         "negra", "indigena", "indigenas", "quilombola", "lgbt",
         "mulher", "mulheres", "feminicidio", "machismo", "deficiencia",
         "acessibilidade", "preconceito", "discriminacao",
+        "lgbtqia", "pessoa com deficiencia", "igualdade racial", "povos indigenas",
+        "violencia domestica", "casa da mulher", "idoso", "idosos",
     ),
     "politica_externa_e_relacoes_internacionais": (
         "politica externa", "relacoes internacionais", "diplomacia",
@@ -120,6 +168,8 @@ PALAVRAS_POR_TEMA: dict[str, tuple[str, ...]] = {
         "congresso", "senado", "camara dos deputados", "judiciario",
         "supremo", "stf", "eleicao", "eleicoes", "voto", "urna",
         "servidor publico", "servidores publicos",
+        "tribunal de contas", "portal da transparencia", "concurso publico", "licitacao",
+        "controladoria", "voto distrital", "clausula de barreira", "foro privilegiado",
     ),
 }
 
