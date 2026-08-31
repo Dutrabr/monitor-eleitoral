@@ -596,9 +596,17 @@ def criar_app(
                 "User-Agent": "monitor-eleitoral-reportar-erro",
             },
         )
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            if resp.status not in (200, 201):
-                raise RuntimeError(f"GitHub API respondeu status {resp.status}")
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                if resp.status not in (200, 201):
+                    raise RuntimeError(f"GitHub API respondeu status {resp.status}")
+        except urllib.error.HTTPError as e:
+            corpo_resposta = e.read().decode("utf-8", errors="replace")[:500]
+            print(
+                f"erro: GitHub API respondeu {e.code} pro report — {corpo_resposta}",
+                flush=True,
+            )
+            raise
 
     def _contexto_reportar(form: dict[str, str], *, enviado: bool, erro: str | None):
         return {
