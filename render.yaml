@@ -26,3 +26,5 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: "3.13.11"
+      - key: GITHUB_TOKEN_REPORTS
+        sync: false

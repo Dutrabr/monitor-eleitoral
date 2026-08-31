@@ -1788,3 +1788,82 @@ mais na fila — visivel e corrigivel; errar pra mais apagaria evidencia
 real em silencio. Por isso o limiar erra pro lado alto.
 
 11 testes novos (194 passam).
+
+Pronto (2026-08-30): **63 clipes de sabatina de Presidente coletados**
+(Lula, Renan Santos, Augusto Cury, Flavio Bolsonaro — os 4 que tiveram
+sabatina em veiculo de imprensa nesta semana, confirmado por busca real,
+nao suposicao; Edmilson Costa e Rui Costa Pimenta ficaram de fora por
+falta de fonte confirmada, nao decisao arbitraria). Fonte: canal oficial
+do **g1** (Grupo Globo) no YouTube — decisao nova, tomada com o dono
+antes de agir: ate' aqui a convencao sempre foi canal oficial do PROPRIO
+candidato; como nenhum dos 4 repostou a sabatina no canal dele, o dono
+autorizou expandir pra' canal do veiculo de imprensa (nunca canal de
+reacao/terceiro tipo "TV Afiada" — so' g1, que e' a fonte primaria).
+Achado no meio do processo: a estimativa inicial (~37 clipes, baseada em
+busca web solta) ficou bem abaixo do real (64, contado direto na
+listagem do canal) — o dono foi avisado do numero real antes de rodar
+tudo, confirmou "seguir sem parar".
+
+Achado tecnico: yt-dlp 2026.7.4 (instalado) falhava com "The page needs
+to be reloaded" em TODO video recem-postado do g1, mas video antigo
+qualquer funcionava normal — nao era bloqueio de IP (padrao diferente do
+caso de 2026-08-18), era a versao desatualizada nao lidando com alguma
+mudanca recente da API do YouTube. Resolvido com
+`pip install --upgrade yt-dlp` (2026.7.4 → 2026.8.19).
+
+**Zero segmento foi auto-aprovado, e isso e' o resultado certo, nao um
+bug.** Rodei `auto_aprovacao.gerar_decisoes_automaticas` de verdade (nao
+um bypass) sobre os 9.343 segmentos novos: 100% bloqueados por
+`video_e_falante_unico` — e' formato sabatina, jornalista pergunta +
+candidato responde, exatamente o cenario que a trava existe pra pegar.
+O dono pediu "aprovar de forma automatica"; expliquei que isso
+contrariaria a regra 2 e citei os 5 casos reais ja documentados
+(Paula Belmonte, Orleans Brandao, Vicentinho Junior, Fernando Haddad,
+Jeronimo Rodrigues) de locutor/entrevistador virando "fala do
+candidato" quando esse tipo de trava e' pulado — e ele nao insistiu.
+Fila de revisao pulou de 668 para ~10.000 itens pendentes; fica
+registrado aqui porque e' um salto grande, nao porque mudei algo na
+decisao de nao aprovar em lote.
+
+Pronto (2026-08-30): **formulario publico de report de erro**
+(`/reportar-erro`), pedido do dono no mesmo fôlego do item acima —
+motivado em parte pelo volume que acabou de entrar na fila. Ver
+changelog de 2026-08-30 em `DESIGN.md` pro detalhe visual; aqui so' a
+decisao de arquitetura: os reports vao pra' uma **issue no GitHub**
+(`Dutrabr/monitor-eleitoral`, label `report-usuario`), nao pra' arquivo
+local — o disco do Render (producao) e' efemero, um arquivo gravado ali
+some no proximo deploy. Escolhida pelo dono entre 3 opcoes (GitHub
+Issues / email via servico externo / Supabase) — GitHub porque o repo
+ja existe e nao pede infraestrutura nova.
+
+`reportar.py` (puro, testado — `tests/test_reportar.py`, 9 testes):
+valida o formulario e monta titulo/corpo da issue; **nunca julga se o
+relato procede** (regra 1 vale pra conteudo gerado por usuario tambem),
+so' formata pra' um humano avaliar. `site_publico.py` faz a chamada HTTP
+de verdade (`urllib.request`, sem dependencia nova) e cuida do que e'
+I/O: honeypot (`RelatorioSpam` finge sucesso, nao da pista pro bot),
+rate-limit simples por IP em memoria (30s entre reports, reseta a cada
+restart — suficiente pro tamanho do site, nao e' defesa contra ataque
+serio), e erro claro se `GITHUB_TOKEN_REPORTS` nao estiver configurado
+em vez de fingir que enviou. 6 testes novos em `test_site_publico.py`
+com `urlopen` mockado (nunca bate na API real do GitHub durante teste).
+
+Cada citacao publicada (`candidato.html` — falas em destaque, lista
+"sem tema", coluna "redes sociais" do painel comparativo, material de
+campanha, linha do tempo) ganhou link "reportar erro" que pre-preenche
+candidato/fonte/timestamp/trecho via query string, usando um macro
+Jinja (`link_reportar`) pra nao repetir a URL 5 vezes. Link do rodape
+"Reportar um erro" trocou de `mailto:` pra `/reportar-erro`; botao de
+contato em `/perguntas` ganhou um segundo botao ao lado (duvida de
+metodo continua email, report de citacao especifica agora tem
+formulario com contexto).
+
+`render.yaml` ganhou `GITHUB_TOKEN_REPORTS` com `sync: false` (variavel
+de ambiente secreta, preenchida a mao no dashboard do Render, nunca no
+blueprint commitado). **Ainda falta**: o dono precisa criar um GitHub
+Personal Access Token (escopo `issues:write` no repo, ou `repo` se for
+PAT classico) e colar no dashboard do Render — nao e' algo que da' pra
+fazer sozinho, exige acao na conta dele. Sem o token, a rota falha de
+forma clara ("Nao foi possivel enviar agora") em vez de fingir sucesso.
+
+212 testes passam (`python3 -m pytest tests/ -q`).

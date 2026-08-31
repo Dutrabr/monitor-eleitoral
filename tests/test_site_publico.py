@@ -447,3 +447,134 @@ def test_comparar_mais_de_quatro_candidatos_da_erro(tmp_path):
     )
     assert resp.status_code == 200
     assert "entre 2 e 4" in resp.text
+
+
+def test_reportar_erro_formulario_acessivel(tmp_path):
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app)
+
+    resp = client.get("/reportar-erro", params={"candidato": "fulano", "texto": "um trecho"})
+    assert resp.status_code == 200
+    assert "fulano" in resp.text
+    assert "um trecho" in resp.text
+
+
+def test_reportar_erro_sem_descricao_mostra_erro(tmp_path):
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app)
+
+    resp = client.post("/reportar-erro", data={"tipo": "transcricao", "descricao": "   "})
+    assert resp.status_code == 200
+    assert "descricao" in resp.text.lower() or "obrigat" in resp.text.lower()
+
+
+def test_reportar_erro_honeypot_preenchido_finge_sucesso_sem_enviar(tmp_path, monkeypatch):
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app)
+
+    chamou = {"sim": False}
+
+    def _fake_urlopen(*a, **k):
+        chamou["sim"] = True
+        raise AssertionError("nao deveria chamar a API do GitHub pra spam")
+
+    monkeypatch.setattr("transcricao.site_publico.urllib.request.urlopen", _fake_urlopen)
+    monkeypatch.setenv("GITHUB_TOKEN_REPORTS", "token-fake")
+
+    resp = client.post(
+        "/reportar-erro",
+        data={"tipo": "transcricao", "descricao": "erro real", "site": "http://spam.example"},
+    )
+    assert resp.status_code == 200
+    assert chamou["sim"] is False
+    assert "Recebido" in resp.text
+
+
+def test_reportar_erro_sem_token_configurado_avisa_falha(tmp_path, monkeypatch):
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app)
+
+    monkeypatch.delenv("GITHUB_TOKEN_REPORTS", raising=False)
+
+    resp = client.post(
+        "/reportar-erro",
+        data={"tipo": "transcricao", "descricao": "erro real de transcricao"},
+    )
+    assert resp.status_code == 200
+    assert "Recebido" not in resp.text
+    assert "não foi possível" in resp.text.lower() or "nao foi possivel" in resp.text.lower()
+
+
+def test_reportar_erro_sucesso_cria_issue_no_github(tmp_path, monkeypatch):
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app)
+
+    capturado = {}
+
+    class _RespostaFake:
+        status = 201
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    def _fake_urlopen(req, timeout=10):
+        capturado["url"] = req.full_url
+        capturado["body"] = json.loads(req.data.decode("utf-8"))
+        return _RespostaFake()
+
+    monkeypatch.setattr("transcricao.site_publico.urllib.request.urlopen", _fake_urlopen)
+    monkeypatch.setenv("GITHUB_TOKEN_REPORTS", "token-fake")
+
+    resp = client.post(
+        "/reportar-erro",
+        data={
+            "tipo": "falante",
+            "candidato": "fulano",
+            "url": "https://www.youtube.com/watch?v=abc",
+            "timestamp": "00:01:00",
+            "texto": "trecho",
+            "descricao": "a voz nao e do candidato",
+        },
+    )
+    assert resp.status_code == 200
+    assert "Recebido" in resp.text
+    assert "issues" in capturado["url"]
+    assert capturado["body"]["title"].startswith("[report]")
+    assert "fulano" in capturado["body"]["body"]
+
+
+def test_reportar_erro_rate_limit_bloqueia_envio_muito_rapido(tmp_path, monkeypatch):
+    candidatos, dados, planos = _montar_projeto(tmp_path)
+    app = criar_app(candidatos, dados, planos)
+    client = TestClient(app, headers={}, base_url="http://testserver")
+
+    class _RespostaFake:
+        status = 201
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    monkeypatch.setattr(
+        "transcricao.site_publico.urllib.request.urlopen",
+        lambda req, timeout=10: _RespostaFake(),
+    )
+    monkeypatch.setenv("GITHUB_TOKEN_REPORTS", "token-fake")
+
+    dados_form = {"tipo": "outro", "descricao": "primeiro report"}
+    primeiro = client.post("/reportar-erro", data=dados_form)
+    assert "Recebido" in primeiro.text
+
+    segundo = client.post("/reportar-erro", data={"tipo": "outro", "descricao": "segundo report rapido"})
+    assert "Recebido" not in segundo.text
+    assert "instante" in segundo.text.lower()

@@ -46,6 +46,10 @@
 </style>
 {% endblock %}
 
+{% macro link_reportar(c) -%}
+<a class="link-reportar" href="/reportar-erro?candidato={{ candidato.slug|urlencode }}&url={{ (c.url_origem or "")|urlencode }}&timestamp={{ (c.timestamp or "")|urlencode }}&texto={{ (c.texto or "")[:200]|urlencode }}">reportar erro</a>
+{%- endmacro %}
+
 {% block conteudo %}
 <p><a href="{{ voltar_url }}">← {{ voltar_label }}</a></p>
 <div style="display:flex; align-items:center; gap:1rem;">
@@ -84,6 +88,7 @@
       <footer>
         {% if c.publicado_em %}{{ c.publicado_em[:10] }} · {% endif %}{{ c.timestamp }}
         {% if c.url_com_timestamp %} · <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ouvir</a>{% endif %}
+        · {{ link_reportar(c) }}
       </footer>
     </blockquote>
     {% endfor %}
@@ -113,6 +118,7 @@
       <div class="fonte">
         {% if c.publicado_em %}{{ c.publicado_em[:10] }} —{% endif %} {{ c.timestamp }}
         {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver trecho na fonte</a>{% endif %}
+        — {{ link_reportar(c) }}
       </div>
     </div>
     {% endfor %}
@@ -158,6 +164,7 @@
             <div class="fonte">
               {% if c.publicado_em %}{{ c.publicado_em[:10] }} —{% endif %} {{ c.timestamp }}
               {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver trecho na fonte</a>{% endif %}
+              — {{ link_reportar(c) }}
             </div>
           </div>
           {% else %}
@@ -185,6 +192,7 @@
       <div class="fonte">
         {{ c.timestamp }}
         {% if c.url_com_timestamp %} — <a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver na fonte</a>{% endif %}
+        — {{ link_reportar(c) }}
       </div>
     </div>
     {% endfor %}
@@ -200,7 +208,7 @@
     <li>
       <div class="data">{{ c.publicado_em[:10] if c.publicado_em else "data desconhecida" }}</div>
       <p>&ldquo;{{ c.texto }}&rdquo;</p>
-      {% if c.url_com_timestamp %}<a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver na fonte</a>{% endif %}
+      {% if c.url_com_timestamp %}<a href="{{ c.url_com_timestamp }}" target="_blank" rel="noopener">ver na fonte</a> — {% endif %}{{ link_reportar(c) }}
     </li>
     {% endfor %}
   </ol>

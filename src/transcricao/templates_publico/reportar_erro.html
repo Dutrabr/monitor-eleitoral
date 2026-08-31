@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block titulo %}Reportar um erro — Monitor Eleitoral{% endblock %}
+{% block og_titulo %}Reportar um erro — Monitor Eleitoral{% endblock %}
+{% block og_descricao %}Viu uma transcrição errada, um falante trocado ou um tema errado? Avise aqui.{% endblock %}
+
+{% block estilo %}
+<style>
+  .relato-forma { max-width: 620px; margin-top: 1.5rem; }
+  .relato-campo { margin-bottom: 1.1rem; }
+  .relato-campo label {
+    display: block; font-family: var(--f-mono); font-size: .72rem; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--texto-fraco); margin-bottom: .4rem;
+  }
+  .relato-campo input[type="text"],
+  .relato-campo input[type="email"],
+  .relato-campo select,
+  .relato-campo textarea {
+    width: 100%; background: var(--superficie); border: 1px solid var(--borda);
+    color: var(--texto); font-family: var(--f-body); font-size: .95rem;
+    padding: .7rem .85rem; box-sizing: border-box;
+  }
+  .relato-campo textarea { min-height: 120px; resize: vertical; }
+  .relato-campo input:focus, .relato-campo select:focus, .relato-campo textarea:focus {
+    outline: none; border-color: var(--teal); box-shadow: inset 0 0 0 1px var(--teal);
+  }
+  .relato-contexto {
+    border-left: 2px solid var(--ambar); background: var(--ambar-tinta);
+    padding: .9rem 1.05rem; margin-bottom: 1.5rem; font-size: .9rem;
+  }
+  .relato-contexto p { margin: 0 0 .3rem; font-family: var(--f-serif); }
+  .relato-contexto .fonte { margin-top: 0; }
+  .relato-enviar {
+    background: var(--teal); color: var(--bg); border: 1px solid var(--teal);
+    font-family: var(--f-mono); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase;
+    padding: .8rem 1.6rem; cursor: pointer; font-weight: 500;
+  }
+  .relato-enviar:hover { opacity: .85; }
+  .relato-erro {
+    border: 1px solid var(--ambar-linha); background: var(--ambar-tinta); color: var(--ambar);
+    padding: .8rem 1rem; margin-bottom: 1.2rem; font-family: var(--f-mono); font-size: .82rem;
+  }
+  .relato-ok {
+    border: 1px solid var(--teal-linha); background: var(--teal-tinta); color: var(--teal);
+    padding: 1.2rem 1.3rem; font-family: var(--f-body); font-size: .95rem;
+  }
+  /* honeypot: existe no DOM pra bot preencher, invisivel e fora da ordem de tab pra humano */
+  .campo-honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+</style>
+{% endblock %}
+
+{% block conteudo %}
+<section style="padding: 1rem 0 0;">
+  <span class="selo-eyebrow">Contato</span>
+  <h1>Reportar um erro</h1>
+  <p style="color: var(--texto-suave); max-width: 62ch;">
+    Achou uma transcrição errada, um falante trocado ou um tema mal marcado?
+    Conta pra gente. O report vai direto pro dono do projeto — não é publicado
+    no site, e não avalia sozinho se o que você relatou procede.
+  </p>
+</section>
+
+{% if enviado %}
+  <div class="relato-ok">
+    <p style="margin:0 0 .4rem; font-weight:500;">Recebido — obrigado.</p>
+    <p style="margin:0;">Alguém vai olhar o que você reportou. Se deixou contato, pode ser que a gente volte a falar com você.</p>
+  </div>
+{% else %}
+  {% if erro %}
+  <div class="relato-erro">{{ erro }}</div>
+  {% endif %}
+
+  {% if candidato or url or texto %}
+  <div class="relato-contexto">
+    <p>Reportando sobre: <strong>{{ candidato or "candidato não identificado" }}</strong></p>
+    {% if texto %}<p>&ldquo;{{ texto[:220] }}{% if texto|length > 220 %}…{% endif %}&rdquo;</p>{% endif %}
+    <div class="fonte">
+      {% if timestamp %}{{ timestamp }}{% endif %}
+      {% if url %} — <a href="{{ url }}" target="_blank" rel="noopener">ver fonte</a>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <form class="relato-forma" action="/reportar-erro" method="post">
+    {% if candidato %}<input type="hidden" name="candidato" value="{{ candidato }}">{% endif %}
+    <input type="hidden" name="url" value="{{ url }}">
+    <input type="hidden" name="timestamp" value="{{ timestamp }}">
+    <input type="hidden" name="texto" value="{{ texto }}">
+
+    <div class="campo-honeypot" aria-hidden="true">
+      <label for="site">Não preencha este campo</label>
+      <input type="text" id="site" name="site" tabindex="-1" autocomplete="off">
+    </div>
+
+    <div class="relato-campo">
+      <label for="tipo">Tipo de problema</label>
+      <select id="tipo" name="tipo" required>
+        <option value="" disabled {% if not tipo_selecionado %}selected{% endif %}>Escolha uma opção</option>
+        {% for chave, rotulo in tipos.items() %}
+        <option value="{{ chave }}" {% if tipo_selecionado == chave %}selected{% endif %}>{{ rotulo }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    {% if not candidato %}
+    <div class="relato-campo">
+      <label for="candidato_livre">Candidato (se souber)</label>
+      <input type="text" id="candidato_livre" name="candidato" value="{{ candidato }}">
+    </div>
+    {% endif %}
+
+    <div class="relato-campo">
+      <label for="descricao">Descreva o problema</label>
+      <textarea id="descricao" name="descricao" required maxlength="2000">{{ descricao }}</textarea>
+    </div>
+
+    <div class="relato-campo">
+      <label for="contato">Contato (opcional)</label>
+      <input type="text" id="contato" name="contato" value="{{ contato }}" placeholder="email, se quiser resposta">
+    </div>
+
+    <button class="relato-enviar" type="submit">Enviar report</button>
+  </form>
+{% endif %}
+{% endblock %}

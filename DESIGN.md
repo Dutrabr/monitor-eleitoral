@@ -108,6 +108,7 @@ Três famílias com papéis separados, carregadas do Google Fonts:
 - `.trecho` / `.citacao` — evidência em serifa, borda esquerda de 2px + fundo tingido.
 - `.linha-tempo` — marcadores quadrados com brilho teal.
 - `.faq-item` (em `perguntas.html`) — acordeão `<details>` com `+`/`−` em mono.
+- `a.link-reportar` — link discreto ("reportar erro") dentro de cada bloco `.fonte`/rodapé de citação; `--texto-fraco`, acende `--ambar` no hover — nunca `--teal`, pra não ser lido como parte da evidência confirmada.
 
 ## O que NÃO usar
 
@@ -454,3 +455,34 @@ fundo + `box-shadow` como sublinhado, sem padding horizontal.
 Estado vazio da busca não afirma ausência: diz que a palavra não aparece
 *no que já foi coletado e verificado*, e aponta para `/perguntas` —
 mesmo princípio de "não consta" × "não verificado".
+
+**2026-08-30 — report de erro por leitor (`/reportar-erro`).** Pedido do
+dono depois da coleta em lote das sabatinas de Presidente desta semana
+(63 clipes, ~10 mil segmentos novos pra revisão humana — ver CLAUDE.md).
+Cada bloco de citação em `candidato.html` (falas em destaque, lista "sem
+tema", coluna "redes sociais" do painel de comparação, material de
+campanha, linha do tempo) ganhou um link `reportar erro` que abre
+`/reportar-erro` pré-preenchido (candidato, fonte, timestamp, trecho) via
+query string — um macro Jinja (`link_reportar`) evita repetir a lógica de
+URL nos 5 lugares.
+
+Página nova, mesmo vocabulário visual de `busca.html` (campo reto,
+borda 1px, foco em teal): formulário com tipo de problema (select),
+descrição (obrigatória), contato opcional, e um honeypot invisível
+(`.campo-honeypot`, fora da tab order) contra bot simples. Estado de
+sucesso reusa a paleta de `.rotulo-status.consta` (borda+fundo teal);
+erro reusa a de `.nao-consta` (âmbar) — nada novo inventado.
+
+Link do rodapé "Reportar um erro" trocou de `mailto:` pra' `/reportar-
+erro` (`base.html`); o botão de contato em `/perguntas` ganhou um
+segundo botão ao lado, mesma classe `.botao-contato`, pra' não confundir
+dúvida de método (ainda email) com report de citação específica (agora
+formulário).
+
+Decisão de infraestrutura, não de design: o relato vai pra' uma issue no
+GitHub (`Dutrabr/monitor-eleitoral`, label `report-usuario`) via API,
+não fica salvo localmente — o disco do Render (produção) é efêmero,
+gravar arquivo ali some no próximo deploy. Token vem de
+`GITHUB_TOKEN_REPORTS` (variável de ambiente só, nunca commitada) — ver
+`render.yaml` (`sync: false`, precisa ser preenchida a mão no dashboard
+do Render) e `reportar.py`/`site_publico.py` pro código.

@@ -18,6 +18,10 @@ import argparse
 import csv
 import io
 import json
+import os
+import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -41,7 +45,11 @@ from .candidatos import (
     citacoes_para_linhas,
     url_com_timestamp,
 )
+from .reportar import RelatorioInvalido, RelatorioSpam, TIPOS_PROBLEMA, montar_issue, validar
 from .site_revisao import ROTULOS_TEMA, TEMAS_DISPONIVEIS
+
+REPO_GITHUB = "Dutrabr/monitor-eleitoral"
+INTERVALO_MIN_ENTRE_REPORTS_S = 30.0
 
 TEMPLATES_DIR = Path(__file__).parent / "templates_publico"
 STATIC_DIR = Path(__file__).parent / "static"
@@ -559,6 +567,124 @@ def criar_app(
         especifico (regra 1 — evidencia, nunca veredito).
         """
         return templates.TemplateResponse(request, "perguntas.html", {})
+
+    _ultimo_report_por_ip: dict[str, float] = {}
+
+    def _enviar_issue_github(titulo: str, corpo: str) -> None:
+        """Cria a issue de report no GitHub. Levanta em qualquer falha.
+
+        Token vem so' de variavel de ambiente (nunca de arquivo/CLI) —
+        e' segredo, nao configuracao. Disco do Render e' efemero (ver
+        `reportar.py`), entao GitHub Issues e' o destino duravel; sem o
+        token, o relato nao tem pra onde ir e a rota deve dizer isso
+        claramente em vez de fingir sucesso.
+        """
+        token = os.environ.get("GITHUB_TOKEN_REPORTS")
+        if not token:
+            raise RuntimeError("GITHUB_TOKEN_REPORTS nao configurado no ambiente")
+        payload = json.dumps(
+            {"title": titulo, "body": corpo, "labels": ["report-usuario"]}
+        ).encode("utf-8")
+        req = urllib.request.Request(
+            f"https://api.github.com/repos/{REPO_GITHUB}/issues",
+            data=payload,
+            method="POST",
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github+json",
+                "Content-Type": "application/json",
+                "User-Agent": "monitor-eleitoral-reportar-erro",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            if resp.status not in (200, 201):
+                raise RuntimeError(f"GitHub API respondeu status {resp.status}")
+
+    def _contexto_reportar(form: dict[str, str], *, enviado: bool, erro: str | None):
+        return {
+            "tipos": TIPOS_PROBLEMA,
+            "candidato": form.get("candidato", ""),
+            "url": form.get("url", ""),
+            "timestamp": form.get("timestamp", ""),
+            "texto": form.get("texto", ""),
+            "tipo_selecionado": form.get("tipo", ""),
+            "descricao": form.get("descricao", ""),
+            "contato": form.get("contato", ""),
+            "enviado": enviado,
+            "erro": erro,
+            "voltar_url": "/",
+            "voltar_label": "Início",
+        }
+
+    @app.get("/reportar-erro", response_class=HTMLResponse)
+    def reportar_erro_formulario(
+        request: Request,
+        candidato: str = "",
+        url: str = "",
+        timestamp: str = "",
+        texto: str = "",
+    ):
+        form = {"candidato": candidato, "url": url, "timestamp": timestamp, "texto": texto}
+        return templates.TemplateResponse(
+            request, "reportar_erro.html", _contexto_reportar(form, enviado=False, erro=None)
+        )
+
+    @app.post("/reportar-erro", response_class=HTMLResponse)
+    async def reportar_erro_enviar(request: Request):
+        """Recebe o formulario e cria uma issue no GitHub (ver `reportar.py`).
+
+        Nunca publica o report no site — vai so' pro GitHub, pro dono
+        avaliar. Nao e' verificacao automatica de erro (regra 1): so'
+        encaminha o que o leitor relatou.
+        """
+        form_bruto = await request.form()
+        form = {
+            campo: str(form_bruto.get(campo, ""))
+            for campo in ["site", "tipo", "candidato", "url", "timestamp", "texto", "descricao", "contato"]
+        }
+
+        try:
+            validar(form)
+        except RelatorioSpam:
+            # honeypot: finge sucesso, nao da pista de que foi detectado
+            return templates.TemplateResponse(
+                request, "reportar_erro.html", _contexto_reportar(form, enviado=True, erro=None)
+            )
+        except RelatorioInvalido as e:
+            return templates.TemplateResponse(
+                request, "reportar_erro.html", _contexto_reportar(form, enviado=False, erro=str(e))
+            )
+
+        ip = request.client.host if request.client else "desconhecido"
+        agora = time.monotonic()
+        ultimo = _ultimo_report_por_ip.get(ip)
+        if ultimo is not None and (agora - ultimo) < INTERVALO_MIN_ENTRE_REPORTS_S:
+            return templates.TemplateResponse(
+                request,
+                "reportar_erro.html",
+                _contexto_reportar(
+                    form, enviado=False,
+                    erro="Espera um instante antes de enviar outro report.",
+                ),
+            )
+
+        titulo, corpo = montar_issue(form)
+        try:
+            _enviar_issue_github(titulo, corpo)
+        except (RuntimeError, urllib.error.URLError, TimeoutError):
+            return templates.TemplateResponse(
+                request,
+                "reportar_erro.html",
+                _contexto_reportar(
+                    form, enviado=False,
+                    erro="Não foi possível enviar agora. Tente de novo mais tarde.",
+                ),
+            )
+
+        _ultimo_report_por_ip[ip] = agora
+        return templates.TemplateResponse(
+            request, "reportar_erro.html", _contexto_reportar(form, enviado=True, erro=None)
+        )
 
     @app.get("/dados/citacoes.json")
     def dados_citacoes_json():
