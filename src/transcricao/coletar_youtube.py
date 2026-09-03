@@ -35,7 +35,13 @@ NAVEGADOR_COOKIES_PADRAO = "chrome"
 # Habilitar os dois deixa a MESMA configuracao valer nas duas maquinas: onde
 # houver deno ele e' usado (tem prioridade maior no proprio yt-dlp), e onde
 # so' houver node a coleta funciona igual, sem configuracao por maquina.
-RUNTIMES_JS = ["deno", "node"]
+#
+# O formato e' dict, nao lista: a CLI aceita `--js-runtimes node` e converte
+# para `{runtime: {'path': ...}}` antes de chegar na API Python (ver
+# `yt_dlp/__init__.py`), que rejeita lista com ValueError. `path=None` deixa
+# o yt-dlp procurar o binario no PATH, que e' o que queremos nas duas
+# maquinas — fixar caminho aqui amarraria o codigo a uma delas.
+RUNTIMES_JS = {"deno": {"path": None}, "node": {"path": None}}
 
 
 class ColetaIndisponivel(RuntimeError):
@@ -155,7 +161,7 @@ def baixar(
     if navegador_cookies:
         opcoes_base["cookiesfrombrowser"] = (navegador_cookies,)
         opcoes_base["remote_components"] = ["ejs:github"]
-        opcoes_base["js_runtimes"] = list(RUNTIMES_JS)
+        opcoes_base["js_runtimes"] = dict(RUNTIMES_JS)
     opcoes_legenda = {
         **opcoes_base,
         "writesubtitles": True,

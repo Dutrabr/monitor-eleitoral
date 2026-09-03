@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from transcricao.coletar_youtube import (
     FORMATO_PADRAO,
     FORMATO_RESERVA,
+    RUNTIMES_JS,
     _data_para_iso,
     _escolher_legenda,
     _processar_com_legenda,
@@ -250,7 +251,20 @@ def test_habilita_deno_e_node_como_runtime_js(monkeypatch, tmp_path):
 
     baixar("https://youtube.com/watch?v=abc123", tmp_path, baixar_legenda=False)
 
-    assert chamadas[0]["js_runtimes"] == ["deno", "node"]
+    assert chamadas[0]["js_runtimes"] == {
+        "deno": {"path": None}, "node": {"path": None}}
+
+
+def test_opcoes_de_runtime_js_sao_aceitas_pelo_yt_dlp_real():
+    """O dublê de yt-dlp dos outros testes so' registra as opcoes, nao valida
+    o formato delas — entao ele aprovou uma lista `["deno", "node"]` que o
+    yt-dlp de verdade rejeita com ValueError (a CLI aceita lista e converte
+    para dict antes da API Python; quem chama a API tem que passar o dict
+    pronto). Esse teste fecha esse buraco: constroi um YoutubeDL real so'
+    para submeter a constante a validacao da propria lib."""
+    yt_dlp = pytest.importorskip("yt_dlp")
+
+    yt_dlp.YoutubeDL({"quiet": True, "js_runtimes": dict(RUNTIMES_JS)}).close()
 
 
 def test_navegador_cookies_none_desliga_cookies(monkeypatch, tmp_path):

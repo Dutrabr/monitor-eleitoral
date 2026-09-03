@@ -89,7 +89,7 @@ def abrir_listador(navegador_cookies: str | None):
     if navegador_cookies:
         opcoes["cookiesfrombrowser"] = (navegador_cookies,)
         opcoes["remote_components"] = ["ejs:github"]
-        opcoes["js_runtimes"] = list(RUNTIMES_JS)
+        opcoes["js_runtimes"] = dict(RUNTIMES_JS)
     return yt_dlp.YoutubeDL(opcoes)
 
 
