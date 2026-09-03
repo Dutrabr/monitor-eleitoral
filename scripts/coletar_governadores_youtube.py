@@ -30,7 +30,7 @@ sys.path.insert(0, str(RAIZ / "src"))
 from transcricao import proveniencia, qualidade  # noqa: E402
 from transcricao.auto_aprovacao import gerar_decisoes_automaticas  # noqa: E402
 from transcricao.coletar_midia import checar_repetido, coletar  # noqa: E402
-from transcricao.coletar_youtube import ColetaIndisponivel  # noqa: E402
+from transcricao.coletar_youtube import RUNTIMES_JS, ColetaIndisponivel  # noqa: E402
 
 DUR_MIN = 30
 DUR_MAX = 600
@@ -89,6 +89,7 @@ def abrir_listador(navegador_cookies: str | None):
     if navegador_cookies:
         opcoes["cookiesfrombrowser"] = (navegador_cookies,)
         opcoes["remote_components"] = ["ejs:github"]
+        opcoes["js_runtimes"] = list(RUNTIMES_JS)
     return yt_dlp.YoutubeDL(opcoes)
 
 

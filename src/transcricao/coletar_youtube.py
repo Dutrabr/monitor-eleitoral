@@ -26,6 +26,17 @@ FORMATO_PADRAO = "bv*[height<=1080]+ba/b"
 FORMATO_RESERVA = "best"
 NAVEGADOR_COOKIES_PADRAO = "chrome"
 
+# Runtimes JS que o yt-dlp pode usar para resolver o desafio ("n challenge")
+# que o YouTube exige antes de entregar as URLs de midia. O yt-dlp habilita
+# SO' o deno por padrao (`options.py`: `default=['deno']`) — o node pode estar
+# instalado e mesmo assim ser reportado como "unavailable", que foi o que
+# aconteceu ao montar a segunda maquina de coleta (Windows, 2026-09-03):
+# `node --version` respondia v24.20.0 e o yt-dlp dizia `JS runtimes: none`.
+# Habilitar os dois deixa a MESMA configuracao valer nas duas maquinas: onde
+# houver deno ele e' usado (tem prioridade maior no proprio yt-dlp), e onde
+# so' houver node a coleta funciona igual, sem configuracao por maquina.
+RUNTIMES_JS = ["deno", "node"]
+
 
 class ColetaIndisponivel(RuntimeError):
     pass
@@ -144,6 +155,7 @@ def baixar(
     if navegador_cookies:
         opcoes_base["cookiesfrombrowser"] = (navegador_cookies,)
         opcoes_base["remote_components"] = ["ejs:github"]
+        opcoes_base["js_runtimes"] = list(RUNTIMES_JS)
     opcoes_legenda = {
         **opcoes_base,
         "writesubtitles": True,

@@ -239,6 +239,20 @@ def test_cookies_de_navegador_habilitados_por_padrao(monkeypatch, tmp_path):
     assert chamadas[0]["remote_components"] == ["ejs:github"]
 
 
+def test_habilita_deno_e_node_como_runtime_js(monkeypatch, tmp_path):
+    """O yt-dlp habilita SO' o deno por padrao, entao um node instalado e'
+    reportado como "unavailable" e o desafio JS do YouTube nao resolve —
+    exatamente o que travou a segunda maquina de coleta (Windows,
+    2026-09-03), onde `node --version` respondia v24.20.0 e o yt-dlp dizia
+    `JS runtimes: none`. Habilitar os dois faz a mesma configuracao valer
+    nas duas maquinas, sem ajuste por maquina."""
+    chamadas = _instalar_yt_dlp_falso(monkeypatch, tmp_path, decidir=lambda o, i: None)
+
+    baixar("https://youtube.com/watch?v=abc123", tmp_path, baixar_legenda=False)
+
+    assert chamadas[0]["js_runtimes"] == ["deno", "node"]
+
+
 def test_navegador_cookies_none_desliga_cookies(monkeypatch, tmp_path):
     chamadas = _instalar_yt_dlp_falso(monkeypatch, tmp_path, decidir=lambda o, i: None)
 
@@ -249,6 +263,7 @@ def test_navegador_cookies_none_desliga_cookies(monkeypatch, tmp_path):
 
     assert "cookiesfrombrowser" not in chamadas[0]
     assert "remote_components" not in chamadas[0]
+    assert "js_runtimes" not in chamadas[0]
 
 
 def test_navegador_cookies_customizado(monkeypatch, tmp_path):
